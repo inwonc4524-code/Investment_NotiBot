@@ -4,7 +4,7 @@
 - 내가 정한 테마(반도체, AI, 2차전지 …)의 한국·미국·세계 뉴스를 모아서
   휴대폰(ntfy 앱)으로 테마별 요약 알림을 보냅니다.
 - 이미 보낸 기사는 seen.json 에 기록해서 다시 보내지 않습니다.
-- 한국어가 아닌 기사(영어·중국어 등)는 제목을 번역하고, 누르면 기사 전체가 한국어로 번역되어 열립니다. 원문 링크는 카드 맨 아래에 있어요.
+- 한국어가 아닌 기사(영어·중국어 등)는 제목을 한국어로 번역해서 보여줍니다.
 - 알림은 한 번만 오고, 누르면 기사 목록 페이지가 열립니다 (기사마다 눌러서 원문으로 이동).
 
 ★ 테마를 바꾸고 싶으면 아래 '1) 내 관심 테마' 부분만 고치면 됩니다.
@@ -227,13 +227,8 @@ def decode_gnews(link):
         return None
 
 
-def translated_link(url):
-    """구글 번역으로 기사 전체를 한국어로 보여주는 주소"""
-    return "https://translate.google.com/translate?sl=auto&tl=ko&hl=ko&u=" + quote(url, safe="")
-
-
 def add_real_urls(items, limit=200):
-    """외국어 기사에 실제 주소(url) 붙이기"""
+    """외국어 기사에 실제 언론사 주소(url) 붙이기 — 누르면 원문으로 바로 이동"""
     done = ok = 0
     for n in items:
         if is_korean(n["title"]) or n.get("url") or n.get("url_tried", 0) >= 2 or done >= limit:
@@ -383,19 +378,24 @@ def build_pages(news, run_id, updated):
     for n in news:
         by_theme.setdefault(n["theme"], []).append(n)
     etfs = {t["name"]: t.get("etfs", "") for t in THEMES}
+    rkey = {r["label"]: r["key"] for r in REGIONS}
 
     # ① 예쁜 페이지 (GitHub Pages)
-    nav = "".join(f'<a href="#t{i}">{esc(name)} <b>{len(items)}</b></a>'
+    nav = "".join(f'<a href="#t{i}">{esc(name)} <b id="n{i}">{len(items)}</b></a>'
                   for i, (name, items) in enumerate(by_theme.items()))
+    chips = '<button class="on" data-r="all" onclick="flt(\'all\')">전체</button>' + "".join(
+        f'<button data-r="{r["key"]}" onclick="flt(\'{r["key"]}\')">{esc(r["label"])}</button>' for r in REGIONS)
+    opts = '<option value="all">전체 국가</option>' + "".join(
+        f'<option value="{r["key"]}">{esc(r["label"])}</option>' for r in REGIONS)
     body = []
     for i, (name, items) in enumerate(by_theme.items()):
         body.append(f'<section id="t{i}"><div class="sh"><h2>{esc(name)}</h2>'
-                    f'<div class="ss"><button class="c on" onclick="srt(\'c\',this)">🔥 화제순</button>'
+                    f'<div class="ss"><select onchange="flt(this.value,this)">{opts}</select>'
+                    f'<button class="c on" onclick="srt(\'c\',this)">🔥 화제순</button>'
                     f'<button class="p" onclick="srt(\'p\',this)">🕒 최신순</button></div></div>')
         if etfs.get(name):
             body.append(f'<p class="etf">보유: {esc(etfs[name])}</p>')
-        if not items:
-            body.append('<p class="none">최근 기사 없음</p>')
+        body.append(f'<p class="none"{"" if not items else " hidden"}>최근 기사 없음</p>')
         body.append('<div class="list">')
         for n in items:
             new = ' <span class="new">NEW</span>' if n.get("run") == run_id else ""
@@ -403,18 +403,12 @@ def build_pages(news, run_id, updated):
                     if n["show"] != n["title"] else "")
             c = n.get("count", 1)
             hot = (f'<span class="hot{" big" if c >= 5 else ""}">🔥 언론 {c}곳</span>' if c > 1 else "")
-            foreign = not is_korean(n["title"])
-            real = n.get("url") or n["link"]
-            # 외국어 기사: 누르면 한국어 번역본, 맨 아래에 원문 링크
-            main = translated_link(n["url"]) if foreign and n.get("url") else real
-            tr = '<span class="tr">한국어 번역</span>' if foreign and n.get("url") else ""
-            foot = (f'<a class="src" href="{esc(real)}" target="_blank" rel="noopener">원문 보기 ↗ {esc(n["source"])}</a>'
-                    if foreign else "")
+            href = n.get("url") or n["link"]
             body.append(
-                f'<div class="card" data-c="{c}" data-p="{int(n["pub"])}">'
-                f'<a class="main" href="{esc(main)}" target="_blank" rel="noopener">'
+                f'<a class="card" data-c="{c}" data-p="{int(n["pub"])}" data-r="{rkey.get(n["region"], "")}" '
+                f'href="{esc(href)}" target="_blank" rel="noopener">'
                 f'<div class="meta">{hot}{esc(n["region"])} · {esc(n["source"])} · {esc(n["time"])}{new}</div>'
-                f'<div class="title">{esc(n["show"])}{tr}</div>{orig}</a>{foot}</div>')
+                f'<div class="title">{esc(n["show"])}</div>{orig}</a>')
         body.append("</div></section>")
     html = f"""<!DOCTYPE html>
 <html lang="ko"><head><meta charset="utf-8">
@@ -424,16 +418,19 @@ def build_pages(news, run_id, updated):
 <style>
 @font-face{{font-family:'ChosunIlboMyungjo';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');font-weight:normal;font-display:swap}}
 :root{{color-scheme:dark;--bg:#262624;--card:#30302e;--card2:#3a3a37;--text:#faf9f5;--sub:#a6a39a;--line:#3e3e3a;--acc:#d97757}}
-*{{box-sizing:border-box}}
+*{{box-sizing:border-box}}[hidden]{{display:none!important}}
+.bar::-webkit-scrollbar,nav::-webkit-scrollbar{{display:none}}.bar,nav{{scrollbar-width:none}}
 body{{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 'ChosunIlboMyungjo',Georgia,"Noto Serif KR",serif;-webkit-font-smoothing:antialiased}}
 header{{padding:22px 16px 10px;max-width:760px;margin:auto}}
 h1{{font:600 22px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:0 0 4px;letter-spacing:-.2px}}
 .upd{{color:var(--sub);font-size:12.5px}}
-.sort{{display:flex;gap:6px;padding:4px 16px 8px;max-width:760px;margin:auto}}
-.sort button{{border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:5px 12px;font:inherit;font-size:13px}}
-.sort button.on,.ss button.on{{background:var(--card2);border-color:var(--card2);color:var(--text)}}
-.sh{{display:flex;align-items:flex-end;justify-content:space-between;gap:8px;margin:26px 4px 2px}}.sh h2{{margin:0}}
-.ss{{display:flex;gap:4px;flex:none}}.ss button{{border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:7px;padding:3px 8px;font:inherit;font-size:12px}}
+.bar{{display:flex;gap:6px;padding:4px 16px 6px;max-width:760px;margin:auto;overflow-x:auto}}
+.bar button{{flex:none;border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:5px 12px;font:inherit;font-size:13px}}
+.bar button.on,.ss button.on{{background:var(--card2);border-color:var(--card2);color:var(--text)}}
+.sh{{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 8px;margin:26px 4px 2px}}.sh h2{{margin:0;white-space:nowrap}}
+.ss{{display:flex;gap:4px;flex:none;align-items:center}}
+.ss button,.ss select{{border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:7px;padding:3px 8px;font:inherit;font-size:12px}}
+.ss select{{background:var(--bg);max-width:96px}}
 nav{{position:sticky;top:0;z-index:1;display:flex;gap:6px;overflow-x:auto;padding:10px 16px;background:rgba(38,38,36,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}}
 nav a{{flex:none;padding:6px 12px;border-radius:999px;background:var(--card);color:var(--text);text-decoration:none;font-size:13px}}
 nav b{{color:var(--acc);font-weight:600}}
@@ -441,12 +438,8 @@ main{{padding:4px 12px 48px;max-width:760px;margin:auto}}
 section{{scroll-margin-top:56px}}
 h2{{font:600 17px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
 .etf{{margin:0 4px 10px;color:var(--sub);font-size:12px}}
-.card{{background:var(--card);border-radius:12px;margin:8px 0;overflow:hidden;transition:background .15s}}
-.card:hover{{background:var(--card2)}}
-.main{{display:block;padding:12px 14px;color:var(--text);text-decoration:none}}.main:active{{opacity:.75}}
-.tr{{margin-left:6px;padding:0 5px;border:1px solid var(--line);border-radius:4px;color:var(--sub);font-size:11px;vertical-align:2px;white-space:nowrap}}
-.src{{display:block;padding:8px 14px;border-top:1px solid var(--line);color:var(--acc);font-size:12.5px;text-decoration:none}}
-.src:active{{opacity:.7}}
+.card{{display:block;background:var(--card);border-radius:12px;padding:12px 14px;margin:8px 0;color:var(--text);text-decoration:none;transition:background .15s}}
+.card:hover{{background:var(--card2)}}.card:active{{opacity:.75}}
 .meta{{color:var(--sub);font-size:12px}}
 .title{{font-weight:500;margin-top:3px}}
 .orig{{color:var(--sub);font-size:12px;margin-top:3px}}
@@ -455,14 +448,17 @@ h2{{font:600 17px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
 .hot{{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(217,119,87,.16);color:var(--acc);font-weight:600}}
 .hot.big{{background:var(--acc);color:#1f1e1d}}
 </style></head><body>
-<header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 외국어 기사는 누르면 한국어 번역본으로 열려요<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
-<div class="sort"><button class="c on" onclick="srt('c')">🔥 전체 화제순</button><button class="p" onclick="srt('p')">🕒 전체 최신순</button></div>
+<header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 원문으로 이동<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
+<div class="bar sort"><button class="c on" onclick="srt('c')">🔥 전체 화제순</button><button class="p" onclick="srt('p')">🕒 전체 최신순</button></div>
+<div class="bar region">{chips}</div>
 <nav>{nav}</nav><main>{''.join(body)}</main>
 <script>
+function each(btn, fn){{
+  // btn 이 있으면 그 테마만, 없으면 전체 테마
+  (btn ? [btn.closest('section')] : [].slice.call(document.querySelectorAll('section'))).forEach(fn);
+}}
 function srt(k,btn){{
-  // btn 이 있으면 그 테마만, 없으면 전체 테마 정렬
-  var secs = btn ? [btn.closest('section')] : [].slice.call(document.querySelectorAll('section'));
-  secs.forEach(function(sec){{
+  each(btn, function(sec){{
     var l=sec.querySelector('.list'); if(!l) return;
     var a=[].slice.call(l.children);
     a.sort(function(x,y){{
@@ -473,6 +469,18 @@ function srt(k,btn){{
     sec.querySelectorAll('.ss button').forEach(function(b){{b.classList.toggle('on', b.classList.contains(k));}});
   }});
   if(!btn) document.querySelectorAll('.sort button').forEach(function(b){{b.classList.toggle('on', b.classList.contains(k));}});
+}}
+function flt(r,sel){{
+  each(sel, function(sec){{
+    var shown=0;
+    sec.querySelectorAll('.card').forEach(function(c){{
+      var ok = r==='all' || c.dataset.r===r; c.hidden=!ok; if(ok) shown++;
+    }});
+    sec.querySelector('.none').hidden = shown>0;
+    sec.querySelector('select').value = r;
+    var n=document.getElementById('n'+sec.id.slice(1)); if(n) n.textContent=shown;
+  }});
+  if(!sel) document.querySelectorAll('.region button').forEach(function(b){{b.classList.toggle('on', b.dataset.r===r);}});
 }}
 </script></body></html>"""
     os.makedirs(os.path.dirname(PAGE_FILE), exist_ok=True)
@@ -489,10 +497,7 @@ function srt(k,btn){{
             new = " 🆕" if n.get("run") == run_id else ""
             t = n["show"].replace("[", "(").replace("]", ")")
             hot = f"🔥{n.get('count', 1)} " if n.get("count", 1) > 1 else ""
-            if not is_korean(n["title"]) and n.get("url"):
-                md.append(f"- {hot}[{t}]({translated_link(n['url'])}) — {n['region']} · {n['source']} · {n['time']}{new} · [원문 보기 ↗]({n['url']})")
-            else:
-                md.append(f"- {hot}[{t}]({n.get('url') or n['link']}) — {n['region']} · {n['source']} · {n['time']}{new}")
+            md.append(f"- {hot}[{t}]({n.get('url') or n['link']}) — {n['region']} · {n['source']} · {n['time']}{new}")
     with open(MD_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(md) + "\n")
 
