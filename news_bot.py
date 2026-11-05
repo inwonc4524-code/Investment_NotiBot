@@ -26,6 +26,7 @@ import requests
 #    name : 알림에 보일 테마 이름
 #    kr   : 한국 뉴스 검색어 (한글)
 #    en   : 미국·세계 뉴스 검색어 (영어)
+#    zh   : 홍콩·대만 뉴스 검색어 (중국어 번체)
 #    검색어는 여러 개 넣을 수 있고, 하나라도 들어간 기사를 찾습니다.
 #    etfs : 이 테마와 연결된 내 ETF (알림 맨 위에 표시)
 # ─────────────────────────────────────────────
@@ -33,27 +34,33 @@ THEMES = [
     {"name": "🇺🇸 미국 S&P500",
      "etfs": "TIGER 미국S&P500",
      "kr": ["S&P500", "뉴욕증시", "미국 증시", "연준 금리"],
-     "en": ["S&P 500", "Wall Street stocks", "Federal Reserve rate", "US stock market"]},
+     "en": ["S&P 500", "Wall Street stocks", "Federal Reserve rate", "US stock market"],
+     "zh": ["美股", "標普500", "聯準會", "美聯儲", "華爾街"]},
     {"name": "🧬 나스닥 바이오",
      "etfs": "TIGER 미국나스닥바이오",
      "kr": ["나스닥 바이오", "미국 바이오주", "바이오 ETF", "FDA 승인"],
-     "en": ["biotech stocks", "Nasdaq Biotechnology", "IBB ETF", "XBI", "FDA approval"]},
+     "en": ["biotech stocks", "Nasdaq Biotechnology", "IBB ETF", "XBI", "FDA approval"],
+     "zh": ["生技股", "生物科技股", "納斯達克生技", "FDA 批准"]},
     {"name": "🔋 2차전지",
      "etfs": "TIGER 2차전지테마 · KODEX 2차전지산업 · TIGER 2차전지소재Fn",
      "kr": ["2차전지", "이차전지", "LG에너지솔루션", "에코프로비엠", "포스코퓨처엠", "양극재", "리튬 가격"],
-     "en": ["EV battery", "lithium price", "battery makers", "CATL", "cathode materials"]},
+     "en": ["EV battery", "lithium price", "battery makers", "CATL", "cathode materials"],
+     "zh": ["電池股", "鋰電池", "寧德時代", "鋰價", "正極材料"]},
     {"name": "⚡ 전고체배터리·ESS",
      "etfs": "KODEX 전고체배터리ESS TOP2플러스",
      "kr": ["전고체 배터리", "전고체 전지", "ESS 배터리", "에너지저장장치", "삼성SDI 전고체"],
-     "en": ["solid-state battery", "energy storage system", "ESS battery", "grid-scale storage"]},
+     "en": ["solid-state battery", "energy storage system", "ESS battery", "grid-scale storage"],
+     "zh": ["固態電池", "全固態電池", "儲能", "儲能系統"]},
     {"name": "🏭 AI 전력",
      "etfs": "ACE 코리아AI전력TOP10",
      "kr": ["AI 전력", "전력기기", "변압기 수출", "HD현대일렉트릭", "효성중공업", "LS ELECTRIC", "두산에너빌리티"],
-     "en": ["AI power demand", "data center power", "transformer shortage", "power grid investment"]},
+     "en": ["AI power demand", "data center power", "transformer shortage", "power grid investment"],
+     "zh": ["AI 電力", "重電股", "變壓器", "資料中心 電力", "電網"]},
     {"name": "🤖 로봇",
      "etfs": "",
      "kr": ["로봇 관련주", "휴머노이드", "레인보우로보틱스", "두산로보틱스", "로봇 ETF", "협동로봇"],
-     "en": ["humanoid robot", "robotics stocks", "Tesla Optimus", "BOTZ ETF", "Figure AI", "industrial robots"]},
+     "en": ["humanoid robot", "robotics stocks", "Tesla Optimus", "BOTZ ETF", "Figure AI", "industrial robots"],
+     "zh": ["人形機器人", "機器人概念股", "機器人股", "優必選"]},
 ]
 
 # ─────────────────────────────────────────────
@@ -64,6 +71,8 @@ REGIONS = [
     {"key": "kr", "label": "🇰🇷 한국", "words": "kr", "hl": "ko", "gl": "KR", "ceid": "KR:ko"},
     {"key": "us", "label": "🇺🇸 미국", "words": "en", "hl": "en-US", "gl": "US", "ceid": "US:en"},
     {"key": "world", "label": "🌍 세계", "words": "en", "hl": "en-GB", "gl": "GB", "ceid": "GB:en"},
+    {"key": "hk", "label": "🇭🇰 홍콩", "words": "zh", "hl": "zh-HK", "gl": "HK", "ceid": "HK:zh-Hant"},
+    {"key": "tw", "label": "🇹🇼 대만", "words": "zh", "hl": "zh-TW", "gl": "TW", "ceid": "TW:zh-Hant"},
 ]
 
 # ─────────────────────────────────────────────
@@ -75,7 +84,7 @@ TRANSLATE_EN = True       # 영어 제목을 한국어로 번역 (False 로 바�
 KEEP_DAYS = 7             # 보낸 기사 기록을 며칠 동안 보관할지
 PAGE_DAYS = 3             # 뉴스 목록 페이지에 며칠치 기사를 보여줄지
 # 제목이 이만큼 비슷하면 같은 소식으로 묶음 (0~1, 낮을수록 더 많이 묶음)
-SIMILAR = 0.35
+SIMILAR = 0.3
 
 # 이런 단어가 제목에 있으면 제외 (광고성·무관한 기사 걸러내기)
 EXCLUDE = re.compile(r"리딩방|무료\s*추천|급등주\s*추천|카톡방|sponsored|press release", re.I)
@@ -245,7 +254,7 @@ def add_real_urls(items, limit=200):
 # 기록 (중복 방지)
 # ─────────────────────────────────────────────
 def title_key(title):
-    return re.sub(r"[^0-9a-z가-힣]", "", title.lower())[:80]
+    return re.sub(r"[^0-9a-z가-힣\u4e00-\u9fff\u3400-\u4dbf]", "", title.lower())[:80]
 
 
 def load_state():
@@ -298,11 +307,11 @@ _STOP = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "as", "at", "by
 
 
 def _words(title):
-    return {w for w in re.findall(r"[a-z0-9가-힣]+", title.lower()) if w not in _STOP and len(w) > 1}
+    return {w for w in re.findall(r"[a-z0-9가-힣\u4e00-\u9fff]+", title.lower()) if w not in _STOP and len(w) > 1}
 
 
 def _bigrams(title):
-    s = re.sub(r"[^0-9a-z가-힣]", "", title.lower())
+    s = re.sub(r"[^0-9a-z가-힣\u4e00-\u9fff\u3400-\u4dbf]", "", title.lower())
     return {s[i:i + 2] for i in range(len(s) - 1)}
 
 
@@ -514,19 +523,25 @@ def collect():
             fetched[region["key"]] = len(items)
             groups_by_region[region["key"]] = cluster(items)
 
-        # 세계 뉴스 중 미국 뉴스와 같은 소식은 미국 쪽으로 합침 (화제성 숫자에는 더해짐)
-        merged = 0
-        if "world" in groups_by_region and "us" in groups_by_region:
+        # 뒤 지역의 소식이 앞 지역(예: 세계→미국, 대만→홍콩)과 같으면 앞 지역 쪽으로 합침
+        # (화제성 숫자에는 더해짐)
+        merged = {}
+        earlier = []
+        for region in REGIONS:
+            groups = groups_by_region.get(region["key"])
+            if groups is None:
+                continue
             left = []
-            for g in groups_by_region["world"]:
-                target = next((ug for ug in groups_by_region["us"]
-                               if any(same_story(g[0]["title"], m["title"]) for m in ug[:6])), None)
+            for g in groups:
+                target = next((eg for eg in earlier
+                               if any(same_story(g[0]["title"], m["title"]) for m in eg[:6])), None)
                 if target is not None:
                     target.extend(g)
-                    merged += 1
+                    merged[region["key"]] = merged.get(region["key"], 0) + 1
                 else:
                     left.append(g)
-            groups_by_region["world"] = left
+            groups_by_region[region["key"]] = left
+            earlier.extend(left)
 
         for region in REGIONS:
             groups = groups_by_region.get(region["key"])
@@ -563,7 +578,7 @@ def collect():
                 taken.update(keys)
                 picked += 1
             counts[name] += picked
-            extra = f", 미국과 겹친 세계 소식 {merged}건은 미국에 합침" if region["key"] == "world" and merged else ""
+            extra = f", 앞 지역과 겹친 소식 {merged[region['key']]}건은 합침" if merged.get(region["key"]) else ""
             print(f"  {region['label']}: 기사 {fetched.get(region['key'], 0)}건 → 소식 {len(groups)}개 → 새 소식 {picked}개{extra}")
 
     # 기록 저장
