@@ -50,6 +50,10 @@ THEMES = [
      "etfs": "ACE 코리아AI전력TOP10",
      "kr": ["AI 전력", "전력기기", "변압기 수출", "HD현대일렉트릭", "효성중공업", "LS ELECTRIC", "두산에너빌리티"],
      "en": ["AI power demand", "data center power", "transformer shortage", "power grid investment"]},
+    {"name": "🤖 로봇",
+     "etfs": "",
+     "kr": ["로봇 관련주", "휴머노이드", "레인보우로보틱스", "두산로보틱스", "로봇 ETF", "협동로봇"],
+     "en": ["humanoid robot", "robotics stocks", "Tesla Optimus", "BOTZ ETF", "Figure AI", "industrial robots"]},
 ]
 
 # ─────────────────────────────────────────────
@@ -298,7 +302,9 @@ def build_pages(news, run_id, updated):
                   for i, (name, items) in enumerate(by_theme.items()))
     body = []
     for i, (name, items) in enumerate(by_theme.items()):
-        body.append(f'<section id="t{i}"><h2>{esc(name)}</h2>')
+        body.append(f'<section id="t{i}"><div class="sh"><h2>{esc(name)}</h2>'
+                    f'<div class="ss"><button class="c on" onclick="srt(\'c\',this)">🔥 화제순</button>'
+                    f'<button class="p" onclick="srt(\'p\',this)">🕒 최신순</button></div></div>')
         if etfs.get(name):
             body.append(f'<p class="etf">보유: {esc(etfs[name])}</p>')
         if not items:
@@ -330,7 +336,9 @@ h1{{font:600 22px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:0 0 4px;letter-sp
 .upd{{color:var(--sub);font-size:12.5px}}
 .sort{{display:flex;gap:6px;padding:4px 16px 8px;max-width:760px;margin:auto}}
 .sort button{{border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:5px 12px;font:inherit;font-size:13px}}
-.sort button.on{{background:var(--card2);border-color:var(--card2);color:var(--text)}}
+.sort button.on,.ss button.on{{background:var(--card2);border-color:var(--card2);color:var(--text)}}
+.sh{{display:flex;align-items:flex-end;justify-content:space-between;gap:8px;margin:26px 4px 2px}}.sh h2{{margin:0}}
+.ss{{display:flex;gap:4px;flex:none}}.ss button{{border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:7px;padding:3px 8px;font:inherit;font-size:12px}}
 nav{{position:sticky;top:0;z-index:1;display:flex;gap:6px;overflow-x:auto;padding:10px 16px;background:rgba(38,38,36,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}}
 nav a{{flex:none;padding:6px 12px;border-radius:999px;background:var(--card);color:var(--text);text-decoration:none;font-size:13px}}
 nav b{{color:var(--acc);font-weight:600}}
@@ -349,20 +357,23 @@ h2{{font:600 17px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
 .hot.big{{background:var(--acc);color:#1f1e1d}}
 </style></head><body>
 <header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 원문으로 이동<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
-<div class="sort"><button id="bc" class="on" onclick="srt('c')">🔥 화제순</button><button id="bp" onclick="srt('p')">🕒 최신순</button></div>
+<div class="sort"><button class="c on" onclick="srt('c')">🔥 전체 화제순</button><button class="p" onclick="srt('p')">🕒 전체 최신순</button></div>
 <nav>{nav}</nav><main>{''.join(body)}</main>
 <script>
-function srt(k){{
-  document.querySelectorAll('.list').forEach(function(l){{
+function srt(k,btn){{
+  // btn 이 있으면 그 테마만, 없으면 전체 테마 정렬
+  var secs = btn ? [btn.closest('section')] : [].slice.call(document.querySelectorAll('section'));
+  secs.forEach(function(sec){{
+    var l=sec.querySelector('.list'); if(!l) return;
     var a=[].slice.call(l.children);
     a.sort(function(x,y){{
       var c=(+y.dataset.c)-(+x.dataset.c), p=(+y.dataset.p)-(+x.dataset.p);
       return k==='c' ? (c||p) : (p||c);
     }});
     a.forEach(function(e){{l.appendChild(e);}});
+    sec.querySelectorAll('.ss button').forEach(function(b){{b.classList.toggle('on', b.classList.contains(k));}});
   }});
-  document.getElementById('bc').className = k==='c'?'on':'';
-  document.getElementById('bp').className = k==='p'?'on':'';
+  if(!btn) document.querySelectorAll('.sort button').forEach(function(b){{b.classList.toggle('on', b.classList.contains(k));}});
 }}
 </script></body></html>"""
     os.makedirs(os.path.dirname(PAGE_FILE), exist_ok=True)
