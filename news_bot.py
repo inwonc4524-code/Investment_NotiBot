@@ -318,24 +318,34 @@ def build_pages(news, run_id, updated):
     html = f"""<!DOCTYPE html>
 <html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#262624">
 <title>투자 테마 뉴스</title>
 <style>
-:root{{color-scheme:light dark;--bg:#f6f7f9;--card:#fff;--text:#16181d;--sub:#6b7280;--line:#e5e7eb;--acc:#2563eb}}
-@media(prefers-color-scheme:dark){{:root{{--bg:#0f1115;--card:#181b21;--text:#e8eaee;--sub:#9aa1ac;--line:#2a2e36;--acc:#6ea0ff}}}}
-*{{box-sizing:border-box}}body{{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 -apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}}
-header{{padding:18px 16px 8px}}h1{{font-size:20px;margin:0}}.upd{{color:var(--sub);font-size:13px}}
-nav{{position:sticky;top:0;z-index:1;display:flex;gap:6px;overflow-x:auto;padding:10px 16px;background:var(--bg);border-bottom:1px solid var(--line)}}
-nav a{{flex:none;padding:6px 11px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--text);text-decoration:none;font-size:13px}}
-nav b{{color:var(--acc)}}main{{padding:4px 12px 40px;max-width:760px;margin:auto}}
-section{{scroll-margin-top:56px}}h2{{font-size:17px;margin:22px 4px 2px}}.etf{{margin:0 4px 8px;color:var(--sub);font-size:12px}}
-.card{{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin:8px 0;color:var(--text);text-decoration:none}}
-.card:active{{opacity:.7}}.meta{{color:var(--sub);font-size:12px}}.title{{font-weight:600;margin-top:2px}}
-.orig{{color:var(--sub);font-size:12px;margin-top:3px}}.new{{background:var(--acc);color:#fff;border-radius:4px;padding:0 5px;font-size:11px;font-weight:700}}
+:root{{color-scheme:dark;--bg:#262624;--card:#30302e;--card2:#3a3a37;--text:#faf9f5;--sub:#a6a39a;--line:#3e3e3a;--acc:#d97757}}
+*{{box-sizing:border-box}}
+body{{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 -apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;-webkit-font-smoothing:antialiased}}
+header{{padding:22px 16px 10px;max-width:760px;margin:auto}}
+h1{{font:600 22px/1.3 Georgia,"Noto Serif KR",serif;margin:0 0 4px;letter-spacing:-.2px}}
+.upd{{color:var(--sub);font-size:12.5px}}
+.sort{{display:flex;gap:6px;padding:4px 16px 8px;max-width:760px;margin:auto}}
+.sort button{{border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:5px 12px;font:inherit;font-size:13px}}
+.sort button.on{{background:var(--card2);border-color:var(--card2);color:var(--text)}}
+nav{{position:sticky;top:0;z-index:1;display:flex;gap:6px;overflow-x:auto;padding:10px 16px;background:rgba(38,38,36,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}}
+nav a{{flex:none;padding:6px 12px;border-radius:999px;background:var(--card);color:var(--text);text-decoration:none;font-size:13px}}
+nav b{{color:var(--acc);font-weight:600}}
+main{{padding:4px 12px 48px;max-width:760px;margin:auto}}
+section{{scroll-margin-top:56px}}
+h2{{font:600 17px/1.3 Georgia,"Noto Serif KR",serif;margin:26px 4px 2px}}
+.etf{{margin:0 4px 10px;color:var(--sub);font-size:12px}}
+.card{{display:block;background:var(--card);border-radius:12px;padding:12px 14px;margin:8px 0;color:var(--text);text-decoration:none;transition:background .15s}}
+.card:hover{{background:var(--card2)}}.card:active{{opacity:.75}}
+.meta{{color:var(--sub);font-size:12px}}
+.title{{font-weight:500;margin-top:3px}}
+.orig{{color:var(--sub);font-size:12px;margin-top:3px}}
+.new{{margin-left:4px;color:var(--acc);font-size:11px;font-weight:700;letter-spacing:.3px}}
 .none{{color:var(--sub);margin:4px}}
-.hot{{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(234,88,12,.12);color:#ea580c;font-weight:700}}
-.hot.big{{background:#ea580c;color:#fff}}
-.sort{{display:flex;gap:6px;padding:0 16px 6px}}.sort button{{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:8px;padding:5px 12px;font:inherit;font-size:13px}}
-.sort button.on{{background:var(--acc);border-color:var(--acc);color:#fff}}
+.hot{{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(217,119,87,.16);color:var(--acc);font-weight:600}}
+.hot.big{{background:var(--acc);color:#1f1e1d}}
 </style></head><body>
 <header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 원문으로 이동<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
 <div class="sort"><button id="bc" class="on" onclick="srt('c')">🔥 화제순</button><button id="bp" onclick="srt('p')">🕒 최신순</button></div>
