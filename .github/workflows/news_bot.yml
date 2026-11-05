@@ -7,6 +7,11 @@ on:
     - cron: "10 3 * * *"    # 한국 12:10 — 점심
     - cron: "10 8 * * *"    # 한국 17:10 — 한국장 마감 후
     - cron: "10 13 * * *"   # 한국 22:10 — 미국장 열리기 전
+  push:                       # 코드를 고쳐서 올리면 바로 한 번 실행
+    branches: [main]
+    paths:                    # 봇이 기록만 저장할 때는 실행 안 됨
+      - "news_bot.py"
+      - ".github/workflows/news_bot.yml"
   workflow_dispatch:          # 직접 실행 버튼
     inputs:
       report:
