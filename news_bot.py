@@ -324,28 +324,28 @@ def build_pages(news, run_id, updated):
 @font-face{{font-family:'ChosunIlboMyungjo';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');font-weight:normal;font-display:swap}}
 :root{{color-scheme:dark;--bg:#262624;--card:#30302e;--card2:#3a3a37;--text:#faf9f5;--sub:#a6a39a;--line:#3e3e3a;--acc:#d97757}}
 *{{box-sizing:border-box}}
-body{{margin:0;background:var(--bg);color:var(--text);font:15.5px/1.6 'ChosunIlboMyungjo',Georgia,"Noto Serif KR",serif;-webkit-font-smoothing:antialiased}}
+body{{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 'ChosunIlboMyungjo',Georgia,"Noto Serif KR",serif;-webkit-font-smoothing:antialiased}}
 header{{padding:22px 16px 10px;max-width:760px;margin:auto}}
-h1{{font:400 24px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:0 0 4px;letter-spacing:-.2px}}
+h1{{font:600 22px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:0 0 4px;letter-spacing:-.2px}}
 .upd{{color:var(--sub);font-size:12.5px}}
 .sort{{display:flex;gap:6px;padding:4px 16px 8px;max-width:760px;margin:auto}}
 .sort button{{border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:5px 12px;font:inherit;font-size:13px}}
 .sort button.on{{background:var(--card2);border-color:var(--card2);color:var(--text)}}
 nav{{position:sticky;top:0;z-index:1;display:flex;gap:6px;overflow-x:auto;padding:10px 16px;background:rgba(38,38,36,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}}
 nav a{{flex:none;padding:6px 12px;border-radius:999px;background:var(--card);color:var(--text);text-decoration:none;font-size:13px}}
-nav b{{color:var(--acc);font-weight:400}}
+nav b{{color:var(--acc);font-weight:600}}
 main{{padding:4px 12px 48px;max-width:760px;margin:auto}}
 section{{scroll-margin-top:56px}}
-h2{{font:400 19px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
+h2{{font:600 17px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
 .etf{{margin:0 4px 10px;color:var(--sub);font-size:12px}}
 .card{{display:block;background:var(--card);border-radius:12px;padding:12px 14px;margin:8px 0;color:var(--text);text-decoration:none;transition:background .15s}}
 .card:hover{{background:var(--card2)}}.card:active{{opacity:.75}}
 .meta{{color:var(--sub);font-size:12px}}
-.title{{font-weight:400;font-size:16.5px;margin-top:3px}}
+.title{{font-weight:500;margin-top:3px}}
 .orig{{color:var(--sub);font-size:12px;margin-top:3px}}
-.new{{margin-left:4px;color:var(--acc);font-size:11px;letter-spacing:.3px}}
+.new{{margin-left:4px;color:var(--acc);font-size:11px;font-weight:700;letter-spacing:.3px}}
 .none{{color:var(--sub);margin:4px}}
-.hot{{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(217,119,87,.16);color:var(--acc)}}
+.hot{{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(217,119,87,.16);color:var(--acc);font-weight:600}}
 .hot.big{{background:var(--acc);color:#1f1e1d}}
 </style></head><body>
 <header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 원문으로 이동<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
