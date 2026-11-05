@@ -4,7 +4,7 @@
 - 내가 정한 테마(반도체, AI, 2차전지 …)의 한국·미국·세계 뉴스를 모아서
   휴대폰(ntfy 앱)으로 테마별 요약 알림을 보냅니다.
 - 이미 보낸 기사는 seen.json 에 기록해서 다시 보내지 않습니다.
-- 영어 기사 제목은 한국어로 번역해서 보여줍니다.
+- 한국어가 아닌 기사(영어·중국어 등)는 제목을 번역하고, 누르면 기사 전체가 한국어로 번역되어 열립니다. 원문 링크는 카드 맨 아래에 있어요.
 - 알림은 한 번만 오고, 누르면 기사 목록 페이지가 열립니다 (기사마다 눌러서 원문으로 이동).
 
 ★ 테마를 바꾸고 싶으면 아래 '1) 내 관심 테마' 부분만 고치면 됩니다.
@@ -181,6 +181,67 @@ def translate_ko(text):
 
 
 # ─────────────────────────────────────────────
+# 외국어 기사: 구글 뉴스 주소 → 실제 기사 주소 → 한국어 번역 링크
+# ─────────────────────────────────────────────
+def is_korean(text):
+    return bool(re.search(r"[가-힣]", text or ""))
+
+
+def decode_gnews(link):
+    """news.google.com/rss/articles/... 주소에서 실제 언론사 기사 주소를 알아냄 (실패하면 None)"""
+    m = re.search(r"news\.google\.com/(?:rss/)?(?:articles|read)/([^?/]+)", link or "")
+    if not m:
+        return link if link and "news.google.com" not in link else None
+    gid = m.group(1)
+    cookies = {"CONSENT": "YES+cb.20240101-00-p0.en+FX+000", "SOCS": "CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg"}
+    try:
+        r = requests.get(f"https://news.google.com/rss/articles/{gid}", headers=HEADERS,
+                         cookies=cookies, timeout=20)
+        sg = re.search(r'data-n-a-sg="([^"]+)"', r.text)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', r.text)
+        if not (sg and ts):
+            return None
+        inner = json.dumps(["garturlreq",
+                            [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None, None,
+                              None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+                            gid, int(ts.group(1)), sg.group(1)])
+        req = json.dumps([[["Fbv4je", inner, None, "generic"]]])
+        r = requests.post("https://news.google.com/_/DotsSplashUi/data/batchexecute",
+                          data={"f.req": req}, cookies=cookies, timeout=20,
+                          headers=dict(HEADERS, **{"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"}))
+        part = r.text.split("\n\n", 1)[1]
+        data = json.loads(part)
+        url = json.loads(data[0][2])[1]
+        return url if isinstance(url, str) and url.startswith("http") else None
+    except Exception as e:
+        print(f"  ! 기사 주소 찾기 실패: {e}")
+        return None
+
+
+def translated_link(url):
+    """구글 번역으로 기사 전체를 한국어로 보여주는 주소"""
+    return "https://translate.google.com/translate?sl=auto&tl=ko&hl=ko&u=" + quote(url, safe="")
+
+
+def add_real_urls(items, limit=200):
+    """외국어 기사에 실제 주소(url) 붙이기"""
+    done = ok = 0
+    for n in items:
+        if is_korean(n["title"]) or n.get("url") or n.get("url_tried", 0) >= 2 or done >= limit:
+            continue
+        done += 1
+        u = decode_gnews(n["link"])
+        if u:
+            n["url"] = u
+            ok += 1
+        else:
+            n["url_tried"] = n.get("url_tried", 0) + 1
+        time.sleep(0.4)
+    if done:
+        print(f"외국어 기사 원문 주소 찾기: {ok}/{done}건 성공")
+
+
+# ─────────────────────────────────────────────
 # 기록 (중복 방지)
 # ─────────────────────────────────────────────
 def title_key(title):
@@ -316,10 +377,18 @@ def build_pages(news, run_id, updated):
                     if n["show"] != n["title"] else "")
             c = n.get("count", 1)
             hot = (f'<span class="hot{" big" if c >= 5 else ""}">🔥 언론 {c}곳</span>' if c > 1 else "")
+            foreign = not is_korean(n["title"])
+            real = n.get("url") or n["link"]
+            # 외국어 기사: 누르면 한국어 번역본, 맨 아래에 원문 링크
+            main = translated_link(n["url"]) if foreign and n.get("url") else real
+            tr = '<span class="tr">한국어 번역</span>' if foreign and n.get("url") else ""
+            foot = (f'<a class="src" href="{esc(real)}" target="_blank" rel="noopener">원문 보기 ↗ {esc(n["source"])}</a>'
+                    if foreign else "")
             body.append(
-                f'<a class="card" data-c="{c}" data-p="{int(n["pub"])}" href="{esc(n["link"])}" target="_blank" rel="noopener">'
+                f'<div class="card" data-c="{c}" data-p="{int(n["pub"])}">'
+                f'<a class="main" href="{esc(main)}" target="_blank" rel="noopener">'
                 f'<div class="meta">{hot}{esc(n["region"])} · {esc(n["source"])} · {esc(n["time"])}{new}</div>'
-                f'<div class="title">{esc(n["show"])}</div>{orig}</a>')
+                f'<div class="title">{esc(n["show"])}{tr}</div>{orig}</a>{foot}</div>')
         body.append("</div></section>")
     html = f"""<!DOCTYPE html>
 <html lang="ko"><head><meta charset="utf-8">
@@ -346,8 +415,12 @@ main{{padding:4px 12px 48px;max-width:760px;margin:auto}}
 section{{scroll-margin-top:56px}}
 h2{{font:600 17px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
 .etf{{margin:0 4px 10px;color:var(--sub);font-size:12px}}
-.card{{display:block;background:var(--card);border-radius:12px;padding:12px 14px;margin:8px 0;color:var(--text);text-decoration:none;transition:background .15s}}
-.card:hover{{background:var(--card2)}}.card:active{{opacity:.75}}
+.card{{background:var(--card);border-radius:12px;margin:8px 0;overflow:hidden;transition:background .15s}}
+.card:hover{{background:var(--card2)}}
+.main{{display:block;padding:12px 14px;color:var(--text);text-decoration:none}}.main:active{{opacity:.75}}
+.tr{{margin-left:6px;padding:0 5px;border:1px solid var(--line);border-radius:4px;color:var(--sub);font-size:11px;vertical-align:2px;white-space:nowrap}}
+.src{{display:block;padding:8px 14px;border-top:1px solid var(--line);color:var(--acc);font-size:12.5px;text-decoration:none}}
+.src:active{{opacity:.7}}
 .meta{{color:var(--sub);font-size:12px}}
 .title{{font-weight:500;margin-top:3px}}
 .orig{{color:var(--sub);font-size:12px;margin-top:3px}}
@@ -356,7 +429,7 @@ h2{{font:600 17px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
 .hot{{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(217,119,87,.16);color:var(--acc);font-weight:600}}
 .hot.big{{background:var(--acc);color:#1f1e1d}}
 </style></head><body>
-<header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 원문으로 이동<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
+<header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 외국어 기사는 누르면 한국어 번역본으로 열려요<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
 <div class="sort"><button class="c on" onclick="srt('c')">🔥 전체 화제순</button><button class="p" onclick="srt('p')">🕒 전체 최신순</button></div>
 <nav>{nav}</nav><main>{''.join(body)}</main>
 <script>
@@ -390,7 +463,10 @@ function srt(k,btn){{
             new = " 🆕" if n.get("run") == run_id else ""
             t = n["show"].replace("[", "(").replace("]", ")")
             hot = f"🔥{n.get('count', 1)} " if n.get("count", 1) > 1 else ""
-            md.append(f"- {hot}[{t}]({n['link']}) — {n['region']} · {n['source']} · {n['time']}{new}")
+            if not is_korean(n["title"]) and n.get("url"):
+                md.append(f"- {hot}[{t}]({translated_link(n['url'])}) — {n['region']} · {n['source']} · {n['time']}{new} · [원문 보기 ↗]({n['url']})")
+            else:
+                md.append(f"- {hot}[{t}]({n.get('url') or n['link']}) — {n['region']} · {n['source']} · {n['time']}{new}")
     with open(MD_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(md) + "\n")
 
@@ -476,7 +552,7 @@ def collect():
                 if picked >= MAX_PER_REGION:
                     continue
                 rep = g[0]
-                show = translate_ko(rep["title"]) if region["words"] == "en" else rep["title"]
+                show = translate_ko(rep["title"])   # 한국어가 아닌 제목은 모두 번역
                 pub = rep["published"] or now
                 new_items.append({
                     "key": keys[0], "keys": keys[:60], "count": cnt,
@@ -498,6 +574,7 @@ def collect():
 
     # 페이지용 기사 목록: 테마 순서 → 화제성 높은 순 → 최신순
     news = old_news + new_items
+    add_real_urls(news)
     order = {t["name"]: i for i, t in enumerate(THEMES)}
     news.sort(key=lambda n: (order.get(n["theme"], 99), -n.get("count", 1), -n["pub"]))
     save_news(news)
