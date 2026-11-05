@@ -306,8 +306,14 @@ _STOP = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "as", "at", "by
          "with", "from", "after", "its", "it", "be", "will", "says", "say", "new", "over"}
 
 
+def _stem(w):
+    w = w[:-2] if w.endswith("'s") else w
+    return w[:-1] if len(w) > 3 and w.endswith("s") and not w.endswith("ss") else w
+
+
 def _words(title):
-    return {w for w in re.findall(r"[a-z0-9가-힣\u4e00-\u9fff]+", title.lower()) if w not in _STOP and len(w) > 1}
+    return {_stem(w) for w in re.findall(r"[a-z0-9'가-힣\u4e00-\u9fff]+", title.lower())
+            if w not in _STOP and len(w) > 1}
 
 
 def _bigrams(title):
@@ -315,12 +321,23 @@ def _bigrams(title):
     return {s[i:i + 2] for i in range(len(s) - 1)}
 
 
+_CJK = re.compile(r"[가-힣\u4e00-\u9fff]")
+
+
 def same_story(a, b):
+    ca, cb = bool(_CJK.search(a)), bool(_CJK.search(b))
+    if ca and cb:
+        # 한국어·중국어: 글자 2개씩 묶어서 비교
+        ba, bb = _bigrams(a), _bigrams(b)
+        return bool(ba and bb) and 2 * len(ba & bb) / (len(ba) + len(bb)) >= SIMILAR
+    if ca != cb:
+        return False
+    # 영어: 단어로 비교 (짧은 단어·흔한 단어 제외)
     wa, wb = _words(a), _words(b)
-    if min(len(wa), len(wb)) >= 3 and len(wa & wb) / min(len(wa), len(wb)) >= 0.6:
-        return True
-    ba, bb = _bigrams(a), _bigrams(b)
-    return bool(ba and bb) and 2 * len(ba & bb) / (len(ba) + len(bb)) >= SIMILAR
+    if min(len(wa), len(wb)) < 3:
+        return False
+    common = len(wa & wb)
+    return common >= 3 and common / min(len(wa), len(wb)) >= 0.6
 
 
 def cluster(items):
