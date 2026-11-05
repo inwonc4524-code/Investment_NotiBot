@@ -65,13 +65,13 @@ REGIONS = [
 # ─────────────────────────────────────────────
 # 3) 기타 설정
 # ─────────────────────────────────────────────
-MAX_PER_REGION = 10       # 테마 하나에서 지역별로 최대 몇 개까지 모을지
+MAX_PER_REGION = 10       # 테마 하나에서 지역별로 최대 몇 개의 소식을 모을지 (화제성 높은 순)
 MAX_AGE_HOURS = 24        # 이보다 오래된 기사는 무시
 TRANSLATE_EN = True       # 영어 제목을 한국어로 번역 (False 로 바꾸면 원문 그대로)
 KEEP_DAYS = 7             # 보낸 기사 기록을 며칠 동안 보관할지
 PAGE_DAYS = 3             # 뉴스 목록 페이지에 며칠치 기사를 보여줄지
-# 세계 뉴스가 미국 뉴스와 이만큼 비슷하면 같은 기사로 보고 뺌 (0~1, 낮을수록 더 많이 뺌)
-SIMILAR = 0.5
+# 제목이 이만큼 비슷하면 같은 소식으로 묶음 (0~1, 낮을수록 더 많이 묶음)
+SIMILAR = 0.35
 
 # 이런 단어가 제목에 있으면 제외 (광고성·무관한 기사 걸러내기)
 EXCLUDE = re.compile(r"리딩방|무료\s*추천|급등주\s*추천|카톡방|sponsored|press release", re.I)
@@ -226,7 +226,7 @@ def notify(title, message, click=None, actions=None, tags=None, priority=3):
 
 
 # ─────────────────────────────────────────────
-# 비슷한 기사 판별 (세계 뉴스 ↔ 미국 뉴스)
+# 같은 소식 묶기 (화제성 = 같은 소식을 보도한 언론사 수)
 # ─────────────────────────────────────────────
 _STOP = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "as", "at", "by", "is", "are",
          "with", "from", "after", "its", "it", "be", "will", "says", "say", "new", "over"}
@@ -236,15 +236,34 @@ def _words(title):
     return {w for w in re.findall(r"[a-z0-9가-힣]+", title.lower()) if w not in _STOP and len(w) > 1}
 
 
-def is_similar(title, others):
-    a = _words(title)
-    if not a:
-        return False
-    for o in others:
-        b = _words(o)
-        if b and len(a & b) / min(len(a), len(b)) >= SIMILAR:
-            return True
-    return False
+def _bigrams(title):
+    s = re.sub(r"[^0-9a-z가-힣]", "", title.lower())
+    return {s[i:i + 2] for i in range(len(s) - 1)}
+
+
+def same_story(a, b):
+    wa, wb = _words(a), _words(b)
+    if min(len(wa), len(wb)) >= 3 and len(wa & wb) / min(len(wa), len(wb)) >= 0.6:
+        return True
+    ba, bb = _bigrams(a), _bigrams(b)
+    return bool(ba and bb) and 2 * len(ba & bb) / (len(ba) + len(bb)) >= SIMILAR
+
+
+def cluster(items):
+    """비슷한 제목끼리 묶기. items 는 최신순이어야 함 → 묶음의 첫 기사가 가장 최신"""
+    groups = []
+    for it in items:
+        for g in groups:
+            if any(same_story(it["title"], m["title"]) for m in g[:6]):
+                g.append(it)
+                break
+        else:
+            groups.append([it])
+    return groups
+
+
+def n_sources(group):
+    return len({(m["source"] or m["link"]).lower() for m in group})
 
 
 # ─────────────────────────────────────────────
@@ -284,15 +303,18 @@ def build_pages(news, run_id, updated):
             body.append(f'<p class="etf">보유: {esc(etfs[name])}</p>')
         if not items:
             body.append('<p class="none">최근 기사 없음</p>')
+        body.append('<div class="list">')
         for n in items:
             new = ' <span class="new">NEW</span>' if n.get("run") == run_id else ""
             orig = (f'<div class="orig">{esc(n["title"])}</div>'
                     if n["show"] != n["title"] else "")
+            c = n.get("count", 1)
+            hot = (f'<span class="hot{" big" if c >= 5 else ""}">🔥 언론 {c}곳</span>' if c > 1 else "")
             body.append(
-                f'<a class="card" href="{esc(n["link"])}" target="_blank" rel="noopener">'
-                f'<div class="meta">{esc(n["region"])} · {esc(n["source"])} · {esc(n["time"])}{new}</div>'
+                f'<a class="card" data-c="{c}" data-p="{int(n["pub"])}" href="{esc(n["link"])}" target="_blank" rel="noopener">'
+                f'<div class="meta">{hot}{esc(n["region"])} · {esc(n["source"])} · {esc(n["time"])}{new}</div>'
                 f'<div class="title">{esc(n["show"])}</div>{orig}</a>')
-        body.append("</section>")
+        body.append("</div></section>")
     html = f"""<!DOCTYPE html>
 <html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -310,9 +332,28 @@ section{{scroll-margin-top:56px}}h2{{font-size:17px;margin:22px 4px 2px}}.etf{{m
 .card:active{{opacity:.7}}.meta{{color:var(--sub);font-size:12px}}.title{{font-weight:600;margin-top:2px}}
 .orig{{color:var(--sub);font-size:12px;margin-top:3px}}.new{{background:var(--acc);color:#fff;border-radius:4px;padding:0 5px;font-size:11px;font-weight:700}}
 .none{{color:var(--sub);margin:4px}}
+.hot{{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(234,88,12,.12);color:#ea580c;font-weight:700}}
+.hot.big{{background:#ea580c;color:#fff}}
+.sort{{display:flex;gap:6px;padding:0 16px 6px}}.sort button{{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:8px;padding:5px 12px;font:inherit;font-size:13px}}
+.sort button.on{{background:var(--acc);border-color:var(--acc);color:#fff}}
 </style></head><body>
-<header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 원문으로 이동</div></header>
-<nav>{nav}</nav><main>{''.join(body)}</main></body></html>"""
+<header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 원문으로 이동<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
+<div class="sort"><button id="bc" class="on" onclick="srt('c')">🔥 화제순</button><button id="bp" onclick="srt('p')">🕒 최신순</button></div>
+<nav>{nav}</nav><main>{''.join(body)}</main>
+<script>
+function srt(k){{
+  document.querySelectorAll('.list').forEach(function(l){{
+    var a=[].slice.call(l.children);
+    a.sort(function(x,y){{
+      var c=(+y.dataset.c)-(+x.dataset.c), p=(+y.dataset.p)-(+x.dataset.p);
+      return k==='c' ? (c||p) : (p||c);
+    }});
+    a.forEach(function(e){{l.appendChild(e);}});
+  }});
+  document.getElementById('bc').className = k==='c'?'on':'';
+  document.getElementById('bp').className = k==='p'?'on':'';
+}}
+</script></body></html>"""
     os.makedirs(os.path.dirname(PAGE_FILE), exist_ok=True)
     with open(PAGE_FILE, "w", encoding="utf-8") as f:
         f.write(html)
@@ -326,7 +367,8 @@ section{{scroll-margin-top:56px}}h2{{font-size:17px;margin:22px 4px 2px}}.etf{{m
         for n in items:
             new = " 🆕" if n.get("run") == run_id else ""
             t = n["show"].replace("[", "(").replace("]", ")")
-            md.append(f"- [{t}]({n['link']}) — {n['region']} · {n['source']} · {n['time']}{new}")
+            hot = f"🔥{n.get('count', 1)} " if n.get("count", 1) > 1 else ""
+            md.append(f"- {hot}[{t}]({n['link']}) — {n['region']} · {n['source']} · {n['time']}{new}")
     with open(MD_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(md) + "\n")
 
@@ -345,11 +387,20 @@ def collect():
     failed = []
     taken = set()           # 이번에 고른 기사 (테마끼리도 중복 안 되게)
 
+    # 페이지에 이미 있는 기사 (최근 PAGE_DAYS 일) — 같은 소식 보도가 늘면 화제성 숫자만 올려줌
+    cutoff = time.time() - PAGE_DAYS * 86400
+    old_news = [n for n in load_news() if n.get("pub", 0) >= cutoff]
+    key_to_old = {}
+    for n in old_news:
+        for k in n.get("keys") or [n["key"]]:
+            key_to_old[k] = n
+
     for theme in THEMES:
         name = theme["name"]
         print(f"■ {name}")
-        us_titles = []
         counts[name] = 0
+        groups_by_region = {}
+        fetched = {}
         for region in REGIONS:
             words = theme.get(region["words"]) or []
             if not words:
@@ -358,60 +409,88 @@ def collect():
             if items is None:
                 failed.append(f"{name}/{region['label']}")
                 continue
+            items = [it for it in items
+                     if not (it["published"] and it["published"] < oldest)
+                     and not EXCLUDE.search(it["title"]) and title_key(it["title"])]
             items.sort(key=lambda x: x["published"] or now, reverse=True)
+            fetched[region["key"]] = len(items)
+            groups_by_region[region["key"]] = cluster(items)
+
+        # 세계 뉴스 중 미국 뉴스와 같은 소식은 미국 쪽으로 합침 (화제성 숫자에는 더해짐)
+        merged = 0
+        if "world" in groups_by_region and "us" in groups_by_region:
+            left = []
+            for g in groups_by_region["world"]:
+                target = next((ug for ug in groups_by_region["us"]
+                               if any(same_story(g[0]["title"], m["title"]) for m in ug[:6])), None)
+                if target is not None:
+                    target.extend(g)
+                    merged += 1
+                else:
+                    left.append(g)
+            groups_by_region["world"] = left
+
+        for region in REGIONS:
+            groups = groups_by_region.get(region["key"])
+            if groups is None:
+                continue
+            # 화제성(보도한 언론사 수) 높은 순 → 같으면 최신순
+            groups.sort(key=lambda g: (n_sources(g), max((m["published"] or now) for m in g)), reverse=True)
             picked = 0
-            skipped_dup = 0
-            for it in items:
-                if it["published"] and it["published"] < oldest:
+            for g in groups:
+                keys = list(dict.fromkeys(title_key(m["title"]) for m in g))
+                cnt = n_sources(g)
+                old = next((key_to_old[k] for k in keys if k in key_to_old), None)
+                if old is not None:   # 이미 보낸 소식 → 숫자만 갱신
+                    if cnt > old.get("count", 1):
+                        old["count"] = cnt
+                    old["keys"] = list(dict.fromkeys((old.get("keys") or [old["key"]]) + keys))[:60]
+                    for k in keys:
+                        seen[k] = time.time()
+                        key_to_old[k] = old
                     continue
-                if EXCLUDE.search(it["title"]):
+                if any(k in seen or k in taken for k in keys):
                     continue
-                k = title_key(it["title"])
-                if not k or k in seen or k in taken:
+                if picked >= MAX_PER_REGION:
                     continue
-                # 세계 뉴스는 미국 뉴스와 겹치면 뺌
-                if region["key"] == "world" and is_similar(it["title"], us_titles):
-                    skipped_dup += 1
-                    continue
-                taken.add(k)
-                if region["key"] == "us":
-                    us_titles.append(it["title"])
-                show = translate_ko(it["title"]) if region["words"] == "en" else it["title"]
-                pub = it["published"] or now
+                rep = g[0]
+                show = translate_ko(rep["title"]) if region["words"] == "en" else rep["title"]
+                pub = rep["published"] or now
                 new_items.append({
-                    "key": k, "theme": name, "region": region["label"], "title": it["title"],
-                    "show": show, "source": it["source"], "link": it["link"],
+                    "key": keys[0], "keys": keys[:60], "count": cnt,
+                    "theme": name, "region": region["label"], "title": rep["title"],
+                    "show": show, "source": rep["source"], "link": rep["link"],
                     "pub": pub.timestamp(), "time": pub.astimezone(KST).strftime("%m/%d %H:%M"),
                     "run": run_id})
+                taken.update(keys)
                 picked += 1
-                if picked >= MAX_PER_REGION:
-                    break
             counts[name] += picked
-            extra = f" (미국과 겹쳐서 뺀 기사 {skipped_dup}건)" if skipped_dup else ""
-            print(f"  {region['label']}: 검색 {len(items)}건 → 새 기사 {picked}건{extra}")
+            extra = f", 미국과 겹친 세계 소식 {merged}건은 미국에 합침" if region["key"] == "world" and merged else ""
+            print(f"  {region['label']}: 기사 {fetched.get(region['key'], 0)}건 → 소식 {len(groups)}개 → 새 소식 {picked}개{extra}")
 
     # 기록 저장
     for n in new_items:
-        seen[n["key"]] = time.time()
+        for k in n["keys"]:
+            seen[k] = time.time()
     save_state(state)
 
-    # 페이지용 기사 목록 (최근 PAGE_DAYS 일)
-    cutoff = time.time() - PAGE_DAYS * 86400
-    news = [n for n in load_news() if n.get("pub", 0) >= cutoff] + new_items
+    # 페이지용 기사 목록: 테마 순서 → 화제성 높은 순 → 최신순
+    news = old_news + new_items
     order = {t["name"]: i for i, t in enumerate(THEMES)}
-    news.sort(key=lambda n: (order.get(n["theme"], 99), -n["pub"]))
+    news.sort(key=lambda n: (order.get(n["theme"], 99), -n.get("count", 1), -n["pub"]))
     save_news(news)
     updated = datetime.now(KST).strftime("%m/%d %H:%M")
     build_pages(news, run_id, updated)
 
-    # 알림 단계에 넘겨줄 요약
+    # 알림 단계에 넘겨줄 요약 (테마별 가장 화제인 새 소식)
     top = {}
-    for n in sorted(new_items, key=lambda n: -n["pub"]):
-        top.setdefault(n["theme"], n["show"])
+    for n in sorted(new_items, key=lambda n: (-n["count"], -n["pub"])):
+        if n["theme"] not in top:
+            top[n["theme"]] = n["show"] + (f" (언론 {n['count']}곳)" if n["count"] > 1 else "")
     with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
         json.dump({"counts": counts, "top": top, "failed": failed, "updated": updated,
                    "total": len(new_items)}, f, ensure_ascii=False)
-    print(f"완료 {updated} — 새 기사 {len(new_items)}건")
+    print(f"완료 {updated} — 새 소식 {len(new_items)}개")
 
     total_regions = sum(1 for t in THEMES for r in REGIONS if t.get(r["words"]))
     if total_regions and len(failed) == total_regions:
@@ -441,12 +520,12 @@ def send_summary():
     for name, c in sm["counts"].items():
         if c:
             first = sm["top"].get(name, "")
-            lines.append(f"{name} {c}건\n  └ {first}")
+            lines.append(f"{name} {c}개\n  🔥 {first}")
     if not lines:
-        lines.append("새 기사가 없어요.")
+        lines.append("새 소식이 없어요.")
     if sm["failed"]:
         lines.append("\n⚠️ 가져오기 실패: " + ", ".join(sm["failed"]))
-    notify(f"📰 투자 뉴스 {total}건 ({sm['updated']})", "\n".join(lines), click=page,
+    notify(f"📰 투자 뉴스 {total}개 ({sm['updated']})", "\n".join(lines), click=page,
            actions=[{"action": "view", "label": "뉴스 목록 열기", "url": page}],
            tags=["newspaper"], priority=3)
 
