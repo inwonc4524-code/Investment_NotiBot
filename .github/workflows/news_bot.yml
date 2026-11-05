@@ -16,6 +16,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: news-bot
@@ -24,6 +26,9 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -33,15 +38,42 @@ jobs:
 
       - run: pip install requests
 
-      - name: 뉴스 확인
+      - name: 뉴스 모으기
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           REPORT_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.report }}
         run: python news_bot.py
 
       - name: 기록 저장
+        if: always()
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add seen.json
-          git diff --cached --quiet || (git commit -m "기록 업데이트" && git push)
+          git add seen.json docs NEWS.md
+          git diff --cached --quiet || (git commit -m "뉴스 업데이트" && git push)
+
+      # 뉴스 목록 페이지 올리기 (Settings → Pages 에서 Source 를 'GitHub Actions' 로 켜야 함)
+      - name: 페이지 준비
+        id: pages
+        continue-on-error: true
+        uses: actions/configure-pages@v5
+
+      - name: 페이지 파일 묶기
+        if: steps.pages.outcome == 'success'
+        continue-on-error: true
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: 페이지 올리기
+        id: deployment
+        if: steps.pages.outcome == 'success'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: 휴대폰 알림 (한 번)
+        if: always()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          REPORT_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.report }}
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python news_bot.py notify
