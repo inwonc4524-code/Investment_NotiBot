@@ -64,7 +64,10 @@ REGIONS = [
 # ─────────────────────────────────────────────
 # 3) 기타 설정
 # ─────────────────────────────────────────────
-MAX_PER_REGION = 5        # 테마 하나에서 지역별로 최대 몇 개까지 보여줄지
+MAX_PER_REGION = 3        # 테마 하나에서 지역별로 최대 몇 개까지 보낼지
+# "each"   = 기사 하나당 알림 하나 (알림을 누르면 그 기사로 바로 이동)
+# "digest" = 테마마다 알림 하나에 기사 목록을 모아서 (알림 수가 적음)
+NOTIFY_MODE = "each"
 MAX_AGE_HOURS = 24        # 이보다 오래된 기사는 무시
 TRANSLATE_EN = True       # 영어 제목을 한국어로 번역 (False 로 바꾸면 원문 그대로)
 SHOW_ORIGINAL_EN = False  # True 로 바꾸면 번역 아래 영어 원문 제목도 함께 표시
@@ -231,10 +234,9 @@ def main():
     for theme in THEMES:
         name = theme["name"]
         print(f"■ {name}")
-        sections = []
         actions = []
         new_keys = []
-        count = 0
+        theme_items = []
         for region in REGIONS:
             words = theme.get(region["words"]) or []
             if not words:
@@ -260,32 +262,49 @@ def main():
                 if len(picked) >= MAX_PER_REGION:
                     break
             print(f"  {region['label']}: 검색 {len(items)}건 → 새 기사 {len(picked)}건")
-            if not picked:
-                continue
-            lines = [region["label"]]
             for it in picked:
-                t = it["title"]
-                if region["words"] == "en":
-                    ko = translate_ko(t)
-                    t = ko + (f"\n   ({it['title']})" if SHOW_ORIGINAL_EN and ko != it["title"] else "")
-                when = it["published"].astimezone(KST).strftime("%H:%M") if it["published"] else ""
-                meta = " · ".join(x for x in [it["source"], when] if x)
-                lines.append(f"• {t}" + (f" — {meta}" if meta else ""))
-            sections.append("\n".join(lines))
-            count += len(picked)
+                it["region"] = region
+                it["key"] = title_key(it["title"])
+                it["show"] = translate_ko(it["title"]) if region["words"] == "en" else it["title"]
+                when = it["published"].astimezone(KST).strftime("%m/%d %H:%M") if it["published"] else ""
+                it["meta"] = " · ".join(x for x in [it["source"], when] if x)
+            theme_items.extend(picked)
 
-        report.append(f"{name}: {count}건")
-        if not sections:
+        report.append(f"{name}: {len(theme_items)}건")
+        if not theme_items:
             continue
-        head = f"보유: {theme['etfs']}\n\n" if theme.get("etfs") else ""
-        ok = notify(f"{name} 뉴스 {count}건", head + "\n\n".join(sections),
-                    click=actions[0]["url"] if actions else None, actions=actions, tags=["newspaper"])
-        if ok:
-            stamp = time.time()
-            for k in new_keys:
-                seen[k] = stamp
-            sent_total += count
-            time.sleep(1)
+
+        if NOTIFY_MODE == "each":
+            # 오래된 기사부터 보내서, 휴대폰에서는 가장 최신 기사가 맨 위에 오게 함
+            theme_items.sort(key=lambda x: x["published"] or now)
+            for it in theme_items:
+                msg = it["show"]
+                if SHOW_ORIGINAL_EN and it["show"] != it["title"]:
+                    msg += f"\n({it['title']})"
+                if it["meta"]:
+                    msg += f"\n{it['meta']}"
+                ok = notify(f"{name} · {it['region']['label']}", msg, click=it["link"],
+                            actions=[{"action": "view", "label": "기사 열기", "url": it["link"]}],
+                            tags=["newspaper"])
+                if ok:
+                    seen[it["key"]] = time.time()
+                    sent_total += 1
+                time.sleep(0.5)
+        else:
+            sections = []
+            for region in REGIONS:
+                rows = [it for it in theme_items if it["region"] is region]
+                if rows:
+                    sections.append(region["label"] + "\n" + "\n".join(
+                        f"• {it['show']}" + (f" — {it['meta']}" if it["meta"] else "") for it in rows))
+            head = f"보유: {theme['etfs']}\n\n" if theme.get("etfs") else ""
+            ok = notify(f"{name} 뉴스 {len(theme_items)}건", head + "\n\n".join(sections),
+                        click=actions[0]["url"] if actions else None, actions=actions, tags=["newspaper"])
+            if ok:
+                for it in theme_items:
+                    seen[it["key"]] = time.time()
+                sent_total += len(theme_items)
+                time.sleep(1)
 
     save_state(state)
     stamp = datetime.now(KST).strftime("%m/%d %H:%M")
