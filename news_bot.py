@@ -186,8 +186,14 @@ def build_query(words):
     return "(" + " OR ".join(parts) + ")"
 
 
-def search_url(region, words, when="1d", rss=True):
-    q = build_query(words) + (f" when:{when}" if when else "")
+def site_filter(region_key):
+    """주요 언론사 사이트로 검색 범위 좁히기: (site:a.com OR site:b.com ...)"""
+    doms = [e for e in TRUSTED.get(region_key, []) if "." in e]
+    return "(" + " OR ".join(f"site:{d}" for d in dict.fromkeys(doms)) + ")" if doms else ""
+
+
+def search_url(region, words, when="1d", rss=True, sites=False):
+    q = build_query(words) + (" " + site_filter(region["key"]) if sites else "") + (f" when:{when}" if when else "")
     path = "rss/search" if rss else "search"
     return (f"https://news.google.com/{path}?q={quote(q)}"
             f"&hl={region['hl']}&gl={region['gl']}&ceid={region['ceid']}")
@@ -222,17 +228,30 @@ def parse_rss(xml_text):
     return items
 
 
-def fetch_news(region, words):
-    url = search_url(region, words)
+def _get_rss(url, label):
     for attempt in range(3):
         try:
             r = requests.get(url, headers=HEADERS, timeout=30)
             r.raise_for_status()
             return parse_rss(r.text)
         except Exception as e:
-            print(f"  ! {region['label']} 가져오기 실패 ({attempt + 1}/3): {e}")
+            print(f"  ! {label} 가져오기 실패 ({attempt + 1}/3): {e}")
             time.sleep(3)
     return None
+
+
+def fetch_news(region, words):
+    # ① 주요 언론사 사이트 안에서 검색 + ② 일반 검색 → 합침 (뒤에서 주요 언론사만 남김)
+    a = _get_rss(search_url(region, words, sites=True), region["label"]) if site_filter(region["key"]) else []
+    b = _get_rss(search_url(region, words), region["label"])
+    if a is None and b is None:
+        return None
+    seen_links, out = set(), []
+    for it in (a or []) + (b or []):
+        if it["link"] not in seen_links:
+            seen_links.add(it["link"])
+            out.append(it)
+    return out
 
 
 # ─────────────────────────────────────────────
