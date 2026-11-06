@@ -160,7 +160,7 @@ GLOBAL_PRESS = [
 # ── 애널리스트·업계 전문지 (미국·세계 뉴스에 함께 적용) ──
 EXPERT_PRESS = [
     # 리서치·투자
-    "Morningstar", "morningstar.com", "S&P Global", "spglobal.com", "FactSet", "factset.com",
+    "S&P Global", "spglobal.com", "FactSet", "factset.com",
     "Kiplinger", "kiplinger.com", "Breakingviews",
     # 바이오
     "STAT", "statnews.com", "Endpoints News", "endpts.com", "Fierce Biotech", "fiercebiotech.com",
@@ -195,6 +195,8 @@ BLOCKED = [
     "네이버", "naver", "다음", "daum", "블로그", "blog", "카페", "medium", "substack", "reddit",
     "youtube", "facebook", "x.com", "twitter", "newsbreak", "ground news", "flipboard",
     "epoch times", "大紀元", "新唐人", "zerohedge",
+    "pr newswire", "prnewswire", "business wire", "businesswire", "globe newswire", "globenewswire",
+    "accesswire", "newsfile", "einpresswire", "보도자료", "aol", "morningstar",
 ]
 # 자동 추가 기준: 최근 14일 동안
 AUTO_MIN_STORIES = 10      # 이 언론사가 보도한 소식이 10개 이상이고

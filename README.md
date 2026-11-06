@@ -19,12 +19,12 @@
 - 🇭🇰 南華早報(SCMP), 明報, 經濟日報(HKET), 信報, RTHK, 星島, now新聞, TVB, 經濟通 등
 - 🇹🇼 中央社, 經濟日報, 聯合新聞網, 工商時報, 自由時報, 中國時報, 公視, 天下雜誌, 商業周刊, 鉅亨網 등
 - 🌐 해외 주요 외신: AFP, 닛케이, 교도, Japan Times, 르몽드, Les Echos, Handelsblatt, FAZ, 슈피겔, El País, Il Sole 24 Ore, Globe and Mail, AFR, Straits Times, Economic Times, Mint, Caixin, Yicai 등
-- 🔬 애널리스트·업계 전문지: Morningstar, S&P Global, FactSet / 바이오 STAT·Endpoints·Fierce Biotech·BioPharma Dive / 배터리·에너지 Benchmark·Fastmarkets·Electrek·Utility Dive·Argus / 데이터센터·로봇·테크 DCD·The Robot Report·IEEE Spectrum·TechCrunch·The Information 등
+- 🔬 애널리스트·업계 전문지: S&P Global, FactSet, Kiplinger / 바이오 STAT·Endpoints·Fierce Biotech·BioPharma Dive / 배터리·에너지 Benchmark·Fastmarkets·Electrek·Utility Dive·Argus / 데이터센터·로봇·테크 DCD·The Robot Report·IEEE Spectrum·TechCrunch·The Information 등
 - 🇰🇷 전문지: 더벨, 인베스트조선, 뉴스핌, 이투데이, 디일렉, 전기신문, 에너지경제, 로봇신문, 바이오스펙테이터, 약업신문, 데일리팜 등
 
 ### 자동 추가 (인용·공동 보도 기준)
 목록에 없는 언론사라도, 최근 14일 동안 **보도한 소식이 10개 이상**이고 그중 **절반 이상(6개 이상)을 주요 언론사 2곳 이상도 함께 보도**했다면 믿을 만한 곳으로 자동 추가됩니다.
-다른 기사를 퍼 나르는 곳·개인 투고·블로그(Investing.com, TradingView, Seeking Alpha, Motley Fool, 네이버 블로그 등)는 자동 추가에서 제외돼요 (`BLOCKED`).
+다른 기사를 퍼 나르는 곳·개인 투고·블로그(Investing.com, TradingView, Seeking Alpha, Motley Fool, 보도자료 배포처, 네이버 블로그 등)는 자동 추가에서 제외돼요 (`BLOCKED`).
 자동 추가된 곳은 목록 페이지 맨 아래에서 확인할 수 있어요.
 
 ## 알림 시간 (한국 시간)
