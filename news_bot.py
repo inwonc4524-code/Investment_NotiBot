@@ -435,7 +435,7 @@ def add_real_urls(items, limit=200):
             ok += 1
         else:
             n["url_tried"] = n.get("url_tried", 0) + 1
-        time.sleep(0.4)
+        time.sleep(0.25)
     if done:
         print(f"기사 원문 주소 찾기: {ok}/{done}건 성공")
 
@@ -1116,9 +1116,13 @@ def collect():
 
     # 페이지용 기사 목록: 테마 순서 → 화제성 높은 순 → 최신순
     news = old_news + new_items
-    add_real_urls(news)
-    retranslate_failed(news)
-    add_summaries(news)
+    # 페이지에 보이는(믿을 만한 언론사) 기사만, 새 기사·화제성 높은 기사부터 처리
+    rk = {r["label"]: r["key"] for r in REGIONS}
+    shown = [n for n in news if is_trusted(rk.get(n["region"], ""), n.get("source", ""), n.get("src_url") or n.get("url", ""))]
+    shown.sort(key=lambda n: (n.get("run") != run_id, -n.get("count", 1), -n["pub"]))
+    add_real_urls(shown, limit=300)
+    retranslate_failed(shown)
+    add_summaries(shown, limit=300)
     order = {t["name"]: i for i, t in enumerate(THEMES)}
     news.sort(key=lambda n: (order.get(n["theme"], 99), -n.get("count", 1), -n["pub"]))
     save_news(news)
