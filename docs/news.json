@@ -389,7 +389,8 @@
 "民主黨大勝掀ai監管風暴美股四大指數集體崩跌費半狂瀉逾12",
 "股市大跌要怪誰川普要怪民主黨勝選了",
 "20261106週五早報美股ai交易大崩盤費半崩1225台積電adr摔108台指夜盤破",
-"美股ai股挫咧等費半崩12那指陷修正區間台積電adr瀉近11"
+"美股ai股挫咧等費半崩12那指陷修正區間台積電adr瀉近11",
+"美股挫台指期夜盤大跌2946點法人台股回測4萬點支撐證券"
 ],
 "count": 10,
 "theme": "🇺🇸 미국 S&P500",
@@ -402,6 +403,31 @@
 "time": "11/06 01:03",
 "run": "202611051615",
 "url": "https://abmedia.io/us-stocks-chip-selloff-after-midterms"
+},
+{
+"key": "美나스닥조정장진입sp500관세쇼크이후최대낙폭",
+"keys": [
+"美나스닥조정장진입sp500관세쇼크이후최대낙폭",
+"속보美나스닥선물015반등다우sp500선물은하락",
+"뉴스프레소ai기술주투매의날나스닥조정장집입sp5003400조증발머니투데이",
+"속보뉴욕증시급락마감나스닥55sp50043머니투데이",
+"뉴욕증시ai주약세에하락나스닥552",
+"속보뉴욕증시ai기술주투매에급락나스닥55",
+"뉴욕증시덮친규제공포ai기술주투매에나스닥55급락",
+"속보ai기술주투매에뉴욕증시급락나스닥55",
+"1보뉴욕증시ai기술주투매에급락나스닥55",
+"뉴욕증시ai인프라규제우려에하락출발"
+],
+"count": 9,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇰🇷 한국",
+"title": "美나스닥 조정장 진입…S&P500 관세 쇼크 이후 최대 낙폭",
+"show": "美나스닥 조정장 진입…S&P500 관세 쇼크 이후 최대 낙폭",
+"source": "뉴시스",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40VGJkT01kSmZEN2hPTEMtYXlKYmwwMkliNjlCaVRnQVl5QTRjZVRYYTlNdEZDSUR1SlRhc3E2UnJxaTZkSENOeWNQZmFWYjU4Ty1aZVd5T3Q1YXNYNUN6dtIBeEFVX3lxTE51ZlpPdjhjU1RHZUEwVUFUWV9kMFVkcXR2WUJmWU4wbEU5MFhmaXdFUGpJZTBUdVpVaG5hbk5PU0RseXVlU18zQnZoUERMdHBLWWVBdXBpWThZeWlzWDB6WGtaMllONFp4NjRodUFLWHN3X3dRdVdsTw?oc=5",
+"pub": 1793928183.0,
+"time": "11/06 10:23",
+"run": "202611060354"
 },
 {
 "key": "大輸期中選舉美股狂瀉川普開炮蠢民主黨人害的",
@@ -449,7 +475,8 @@
 "美期中選舉引發ai投資疑慮美股收盤重挫",
 "美期中選舉引發ai投資疑慮美股收盤重挫費半大跌逾12",
 "期中選舉後政策生變引爆拋售潮美股全面重挫費半暴跌逾12創歷史性跌幅",
-"美期中選舉引發ai投資疑慮美股重挫費半下跌1225"
+"美期中選舉引發ai投資疑慮美股重挫費半下跌1225",
+"美股重挫川普歸咎民主黨期中選舉大勝"
 ],
 "count": 5,
 "theme": "🇺🇸 미국 S&P500",
@@ -575,7 +602,8 @@
 "美股史詩級暴跌特朗普民主黨造成的我們很快會更強大國際",
 "美股大跌川普這不是共和黨的鍋是民主黨人造成的不過我們很快就會變得比以往更強大更輝煌",
 "誰該為美股暴跌負責特朗普直指民主黨國際",
-"美股暴跌釀股災特朗普稱全因民主黨大勝你們只能怪自己"
+"美股暴跌釀股災特朗普稱全因民主黨大勝你們只能怪自己",
+"美股股災特朗普開腔歸究民主黨大勝你們只能怪自己"
 ],
 "count": 3,
 "theme": "🇺🇸 미국 S&P500",
@@ -803,7 +831,8 @@
 "key": "sp500gspcchartsdataandnews",
 "keys": [
 "sp500gspcchartsdataandnews",
-"sp500gspcchartsdatanewsyahoofinance"
+"sp500gspcchartsdatanewsyahoofinance",
+"sp500gspcchartsdatanews"
 ],
 "count": 3,
 "theme": "🇺🇸 미국 S&P500",
@@ -816,6 +845,25 @@
 "time": "11/05 00:59",
 "run": "202611051457",
 "url": "https://au.finance.yahoo.com/quote/%5EGSPC/"
+},
+{
+"key": "美股遭藍色海嘯重擊華爾街超恐慌vix飆8個月新高",
+"keys": [
+"美股遭藍色海嘯重擊華爾街超恐慌vix飆8個月新高",
+"華爾街恐慌升溫vix衝八個月新高ai股拋售壓力擴散"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "美股遭「藍色海嘯」重擊！華爾街超恐慌 VIX飆8個月新高",
+"show": "미국 증시는 '푸른 쓰나미'로 큰 타격을 입었습니다! 월스트리트 패닉, VIX 8개월 최고치로 급등",
+"source": "中時新聞網",
+"src_url": "https://www.chinatimes.com",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XeXV1M1BrcWhSSmFPSUtObEEyWVkyQWpMVGRyOUJKc3NJa1NVeXZPeDhsbUpIQ1NXUnk0Y0lONThrUG02d2pJZDJmNHRFMUpTcnVvNmpDSngtU0xPOHI1dHdiTk9TT1FnYTNSdGd3?oc=5",
+"pub": 1793938766.0,
+"time": "11/06 13:19",
+"run": "202611060530",
+"url": "https://www.chinatimes.com/realtimenews/20261106002385-260410"
 },
 {
 "key": "美股急瀉馬斯克身家蒸發逾790億美元仍居全球首富",
@@ -834,6 +882,25 @@
 "time": "11/06 12:51",
 "run": "202611060354",
 "url": "https://www.am730.com.hk/%E8%B2%A1%E7%B6%93/1062412/%E7%BE%8E%E8%82%A1%E6%80%A5%E7%80%89-%E9%A6%AC%E6%96%AF%E5%85%8B%E8%BA%AB%E5%AE%B6%E8%92%B8%E7%99%BC%E9%80%BE790%E5%84%84%E7%BE%8E%E5%85%83-%E4%BB%8D%E5%B1%85%E5%85%A8%E7%90%83%E9%A6%96%E5%AF%8C"
+},
+{
+"key": "美股災拖累港ai股聯想跌9科指跌3恒指開市僅跌392點",
+"keys": [
+"美股災拖累港ai股聯想跌9科指跌3恒指開市僅跌392點",
+"美股災拖累港ai股聯想跌6智譜跌8恒指跌幅曾收窄至56點港股開市"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股災拖累港AI股 聯想跌9% 科指跌3% 恒指開市僅跌392點",
+"show": "미국 증시 폭락으로 홍콩 AI 주식이 하락했다. Lenovo는 개장 당시 9% 하락했고 Stock Exchange Index는 3% 하락했으며 Hang Seng Index는 392포인트 하락에 그쳤습니다.",
+"source": "Sing Tao Daily 星島日報加拿大",
+"src_url": "https://www.singtao.ca",
+"link": "https://news.google.com/rss/articles/CBMitANBVV95cUxOMmhraF8tYXpqaWxkYjRIYnZSUkxocTlLRUZjbmFQMVF1ZFBkd3RiQ1FOeEg5TVVUendfYUVVV1lMUE5IdjFqXzFUYU9hNXZaR3NOclpwTHA3UjBfeWRmbVloRWNiS0ZTNGJhdWFyT1ZfbnpIZlRQNWxlSS16OGx2dVJMdzJUam5kUk5UYmRjalNHTUNNZ2ZPcGJFdW80aXBVb3E2Q1piYzlCMktEejNaaWhmaTBpbEZVei1ZSWZuRGd6Q081eC1FS1U3VFd0bXFCQk9XXzJIQkNHRjVpMU9zMS0ydnpkWWpnN0JxRzd6U0tZWG9YaEJXNGdIVVFYUFpYQW9wUFFXRVZ2ZnVxTy1xRDMtYU1OZDlUVk5VOEc4LU9FcDZzbl80dmNjQ3JFeXVES2o3Vl85emlLYXJZUW11c19OOVBqQ3lEN2lDN2dzWWFjVHBKSEF5VHhLMEdIX1BFZ2hNbFpXY2dDRlpMNnRrZmFhWGpNaDh3UTJja2NmdTQwQ0RaSDlOTG16d0NuTEdtT3A0ZXNjRlVQTkVrVmJsMWtjM21fNGhqT3dDXy1McEhuSnR00gGMAUFVX3lxTE1BT1NzeUhETTd6YTBkcnZEekVVdmZGR3ZHdW54bTVKZEI0NUNkT3F1SDcxa21za2hjemc5N3YwWDlrXzFUYnVKRXRqZ2RGSVBkMGt2SHJCaDUtSVZmZjA1T01oYTlkUDFvMU96ZE8ybDFJVkNRZndzZFBYc3RqOHozRk4tYjlOOTVvbkVT?oc=5",
+"pub": 1793936286.0,
+"time": "11/06 12:38",
+"run": "202611060530",
+"url": "https://www.singtao.ca/7676457/2026-11-05/news-%E7%BE%8E%E8%82%A1%E7%81%BD%E6%8B%96%E7%B4%AF%E6%B8%AFAI%E8%82%A1+%E8%81%AF%E6%83%B3%E8%B7%8C6%25+%E6%99%BA%E8%AD%9C%E8%B7%8C8%25+%E6%81%92%E6%8C%87%E8%B7%8C%E5%B9%85%E6%9B%BE%E6%94%B6%E7%AA%84%E8%87%B356%E9%BB%9E%EF%BD%9C%E6%B8%AF%E8%82%A1%E9%96%8B%E5%B8%82/"
 },
 {
 "key": "美股ai概念股重挫後中國a股三大指數開盤齊跌",
@@ -887,23 +954,6 @@
 "time": "11/06 10:28",
 "run": "202611060354",
 "url": "https://beincrypto.com/apple-stock-best-day-record-high/"
-},
-{
-"key": "美나스닥조정장진입sp500관세쇼크이후최대낙폭",
-"keys": [
-"美나스닥조정장진입sp500관세쇼크이후최대낙폭",
-"속보美나스닥선물015반등다우sp500선물은하락"
-],
-"count": 2,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇰🇷 한국",
-"title": "美나스닥 조정장 진입…S&P500 관세 쇼크 이후 최대 낙폭",
-"show": "美나스닥 조정장 진입…S&P500 관세 쇼크 이후 최대 낙폭",
-"source": "뉴시스",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40VGJkT01kSmZEN2hPTEMtYXlKYmwwMkliNjlCaVRnQVl5QTRjZVRYYTlNdEZDSUR1SlRhc3E2UnJxaTZkSENOeWNQZmFWYjU4Ty1aZVd5T3Q1YXNYNUN6dtIBeEFVX3lxTE51ZlpPdjhjU1RHZUEwVUFUWV9kMFVkcXR2WUJmWU4wbEU5MFhmaXdFUGpJZTBUdVpVaG5hbk5PU0RseXVlU18zQnZoUERMdHBLWWVBdXBpWThZeWlzWDB6WGtaMllONFp4NjRodUFLWHN3X3dRdVdsTw?oc=5",
-"pub": 1793928183.0,
-"time": "11/06 10:23",
-"run": "202611060354"
 },
 {
 "key": "美股百年只有12家股王輝達讓位蘋果晨星但寬護城河可撐20年超額獲利",
@@ -1368,6 +1418,95 @@
 "url": "https://www.barrons.com/articles/stanley-black-decker-earnings-stock-price-32a92ca0"
 },
 {
+"key": "美股狂潟華爾街恐慌分析師我們都被電話淹沒了",
+"keys": [
+"美股狂潟華爾街恐慌分析師我們都被電話淹沒了"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "美股狂潟華爾街恐慌 分析師：我們都被電話淹沒了",
+"show": "미국 주식 급락, 월스트리트 패닉, 애널리스트: 우리 모두 전화 통화가 넘쳐납니다.",
+"source": "中時新聞網",
+"src_url": "https://www.chinatimes.com",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44QUJOTUtkcHA2amFtTEkyeWoycHhDTE5Gd2gyQjIzV2F2UVZCRXozcG9ad3lIWXFvdFRNSk04eHY0QUc5OEszd0JVQlUyYlhZWnAzd1VESWdzUGNBejZ2MU9WNDFEc0c1UkxwdzBB?oc=5",
+"pub": 1793942223.0,
+"time": "11/06 14:17",
+"run": "202611060530",
+"url": "https://www.chinatimes.com/realtimenews/20261106002684-260410"
+},
+{
+"key": "3300조원날아간ai신화뉴욕증시중간선거후역사적폭락장",
+"keys": [
+"3300조원날아간ai신화뉴욕증시중간선거후역사적폭락장"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇰🇷 한국",
+"title": "3300조원 날아간 AI 신화… 뉴욕증시, 중간선거 후 역사적 폭락장",
+"show": "3300조원 날아간 AI 신화… 뉴욕증시, 중간선거 후 역사적 폭락장",
+"source": "한국일보",
+"src_url": "https://www.hankookilbo.com",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKbGtZdlphM1ZsMTlhVWhhOVNtU1pranV5ZFdZVEpJbWhpX29ULUo5ZHJBVXpwcjNYZmE4V3A2WFJvTDNnX1BSUVVIbmtLcXFoLWxteUstTnpDcE9hRlNpOHU4RUdwc0tzMUxSeGFn0gFzQVVfeXFMUENTNzlocWp1YW01anBwNTBKSTlxeDhUd19WRzV6b1R6M3BBWEJxcWVmZzZ4ZGtmQ19jS1lOeVpEd0U0SUlqLWdibW5BVDlKWkROYTBKelNRRTE1QXVTZW9Ra2tOVVlGeWYzLTI1UEYxUEtVVQ?oc=5",
+"pub": 1793941200.0,
+"time": "11/06 14:00",
+"run": "202611060530"
+},
+{
+"key": "ai禁令引恐慌美股狂瀉創4年最慘延燒亞股崩跌巴拉圭總統宣布辭職銀行倒閉爆金融危機20261106中央社全球午間快報",
+"keys": [
+"ai禁令引恐慌美股狂瀉創4年最慘延燒亞股崩跌巴拉圭總統宣布辭職銀行倒閉爆金融危機20261106中央社全球午間快報"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "AI禁令引恐慌！美股狂瀉「創4年最慘」延燒亞股崩跌｜巴拉圭總統宣布辭職！銀行倒閉爆金融危機｜2026/11/06 中央社全球午間快報",
+"show": "AI 금지로 인해 패닉이 발생합니다! 미국 증시, \"4년 만에 최악\" 폭락, 아시아 증시 폭락 | 파라과이 대통령이 사임을 선언했습니다! 은행실패로 금융위기 촉발｜2026/11/06 중앙통신사 글로벌런치타임익스프레스",
+"source": "中央社 CNA",
+"src_url": "https://www.cna.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CZExYdktqLVJOZ01XSjJtdDA1Q25vM1ppMVY5eDVxSHRsSFdHeUpqLWQ2bUN3dEhEMERKRlpKVVZiWEUtRzZSMXI5SE1ic0R0aVVidHBCTktTYjQ?oc=5",
+"pub": 1793941191.0,
+"time": "11/06 13:59",
+"run": "202611060530",
+"url": "https://www.cna.com.tw/video/globalview/4357276"
+},
+{
+"key": "撈美股先答三條問題唐牛",
+"keys": [
+"撈美股先答三條問題唐牛"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "撈美股先答三條問題｜唐牛",
+"show": "미국 주식에 투자하기 전 세 가지 질문에 답해 보세요 | Tang Niu",
+"source": "星島頭條",
+"src_url": "https://www.stheadline.com",
+"link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSjI1enpZUjZSc1dHMTBZWHV5T3dkVURod0dRekFxQnNkMjZmZ3QtT2pfb3Y5RmhLSzZmWmVyOERQRUNRYmpWQ2Vxc25wdERXMkhQZVJXUXZ0Ynlfa1QwcW9mZmlJakhmT3pTMmF1UGg1dWFFOWhMZS1QbDVZV3hDSTExd0dDZnpHQndIY3Rxc2xkQkQyOEVCZEh1dUdwOTdJVmI4Y1d0X0lGT2lWVGdkdXU0MHVaRzA4bXNHTWswMzdBVmlnOEpRZF95Vno0ajNKdzlEZ0FwUlVuRVVlaWt2Mw?oc=5",
+"pub": 1793940026.0,
+"time": "11/06 13:40",
+"run": "202611060530",
+"url": "https://www.stheadline.com/stock-market/3634156/%E6%92%88%E7%BE%8E%E8%82%A1%E5%85%88%E7%AD%94%E4%B8%89%E6%A2%9D%E5%95%8F%E9%A1%8C%E5%94%90%E7%89%9B"
+},
+{
+"key": "美股股災環球存能源ai兩大風險余偉文料第四季是難的一季",
+"keys": [
+"美股股災環球存能源ai兩大風險余偉文料第四季是難的一季"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股股災｜環球存能源、AI兩大風險 余偉文料：第四季是難的一季",
+"show": "미국 증시 폭락 │ 글로벌 2대 리스크는 에너지와 AI다. Yu Wei의 문서: 4분기는 어려운 분기입니다",
+"source": "香港01",
+"src_url": "https://www.hk01.com",
+"link": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxQeEE4cjhrN01CNUVWQmZBRFY2ZVZxQ1ppQ2RNZmZtUElPUl94T1RWb2RBaTVWMEFjSm13WVd5Vm96WEZjR2xYc3dyVUJJa1FpZHdWTXBVanlCYi15MG15azczR0Rnd3ViRmU3WVJZeWZyekh0ZERPNEdUcFdXVVJPMGZHZlBodmUyS2VjbTJ0V3g2bUF0YVZoSUhrUzNPYnljRTVhU3dLcmlPcS1iV3FWREMxcGRiMVcwZXUxN1hpS2lkMnpiVUJZZTRGRWRTQVV5TTd1MGxKWkRfakIwQ0xHTHBiYjBzWmc1S3lKMW5OVklEMnlpQ1VKdjdhSENkQzdwNmhDdmpWRjNuNjRNcmtGS2NESk14WXlQdkdXcjRpRmRWeVV2UDR4d2MxRlJxbDZZdElNckpJV2tDdm8tYVpjdjNXdVpvU0JyV0hIbDcxLTJiXzdubXRuU3RrdnZCMk5qa3IzdjlfeEwzVnRlbWxxR3ZDNzA1OUlSN0xZSDAta28yZGtIS0hORlBKaGdOWnlKMGJsVXU0a3R1a0J1TlIxOWg2Zk9JNm5tYnc?oc=5",
+"pub": 1793937165.0,
+"time": "11/06 12:52",
+"run": "202611060530",
+"url": "https://www.hk01.com/%E8%B2%A1%E7%B6%93%E5%BF%AB%E8%A8%8A/60407791/%E7%BE%8E%E8%82%A1%E8%82%A1%E7%81%BD-%E7%92%B0%E7%90%83%E5%AD%98%E8%83%BD%E6%BA%90-ai%E5%85%A9%E5%A4%A7%E9%A2%A8%E9%9A%AA-%E4%BD%99%E5%81%89%E6%96%87%E6%96%99-%E7%AC%AC%E5%9B%9B%E5%AD%A3%E6%98%AF%E9%9B%A3%E7%9A%84%E4%B8%80%E5%AD%A3"
+},
+{
 "key": "民主黨反ai基建嚇崩美股陷熊市台股反轉5機會",
 "keys": [
 "民主黨反ai基建嚇崩美股陷熊市台股反轉5機會"
@@ -1537,6 +1676,24 @@
 "run": "202611060354"
 },
 {
+"key": "選完會漲華爾街看多失準美股恐再迎1350億美元期貨賣壓全球財經全球",
+"keys": [
+"選完會漲華爾街看多失準美股恐再迎1350億美元期貨賣壓全球財經全球"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "選完會漲？華爾街看多失準美股恐再迎1,350億美元期貨賣壓| 全球財經| 全球",
+"show": "선거 끝나면 올라갈까? 미국 주식에 대한 월스트리트의 낙관적인 전망으로 인해 선물 매도 압력이 1,350억 달러 더 늘어날 수 있습니다 | 글로벌 금융 | 글로벌",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qaHpYY2UzMkdhSXpScnR0eHY4eWgzdWVEYVpxQXFkOWZsVWVlNi1IenphTXU4ZkphOTgzNDVtWDNKQThIVnE5M1lsNHdlcnFI?oc=5",
+"pub": 1793933022.0,
+"time": "11/06 11:43",
+"run": "202611060530",
+"url": "https://udn.com/news/story/6811/9861317"
+},
+{
 "key": "usstockmarketplummetsamidmidtermelectionsaisectorhith",
 "keys": [
 "usstockmarketplummetsamidmidtermelectionsaisectorhith"
@@ -1552,6 +1709,79 @@
 "time": "11/06 11:39",
 "run": "202611060354",
 "url": "https://www.gurufocus.com/news/9177771/us-stock-market-plummets-amid-midterm-elections-ai-sector-hit-hard"
+},
+{
+"key": "華爾街大錢回歸前三項推動力美國大選政經分析文章專題",
+"keys": [
+"華爾街大錢回歸前三項推動力美國大選政經分析文章專題"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "華爾街大錢回歸前三項推動力 美國大選政經分析文章 - 專題",
+"show": "월스트리트의 빅머니가 3대 원동력으로 복귀: 미국 선거의 정치, 경제적 분석 - 특별주제",
+"source": "信報網站",
+"src_url": "https://www.hkej.com",
+"link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxONDJjNWZBS3EzVVBVa3hILUtET1pFU24td0g4QXpqMmN6T1N6bXBQdkhVMU1ndnVfSTRNcjBuRVh0azg4TGhXNm82YmU1VXZWNXpEZkN2YjdKdXJIU1JuY1Q4bUhwNWNINDVCU0NGUF9sXzNYNVdRYnZtdHk4N3JLaXpWQWhLa3ZpVnowVGtRMm5sVHZIOW5wSnZ0YW0zREZjZlNUWWhCX0JuM18wWUE1bDBhc1E0MkhYZkM4SUFwSHpkYWdCWGE3UFN0UG9hR1FxUkl4Q2JvYVJXbWlQdkxqel9ZSi0tMl9yQXV5U2Fvbkd6RURiamtIdXc0WUlBaUE1SFJhbV9WejF5QV9Rckc3djZCNVAxRmlGWV9UNVJ4Z1kwTTd3bTZ6ckhNdGFudl9JMXE4MDhoNVltTWZzM1gxZHF4SHdxVlFPd3c3dTJRTXBjNF9OaXh2NDZxQzIydTFqeWQ2QzNTWDMweUNFWU1oQVZaQQ?oc=5",
+"pub": 1793932320.0,
+"time": "11/06 11:32",
+"run": "202611060530",
+"url": "https://www.hkej.com/features/article/%E7%BE%8E%E5%9C%8B%E5%A4%A7%E9%81%B8%E6%94%BF%E7%B6%93%E5%88%86%E6%9E%90%E6%96%87%E7%AB%A0/3872032857/%E8%8F%AF%E7%88%BE%E8%A1%97%E5%A4%A7%E9%8C%A2%E5%9B%9E%E6%AD%B8%E5%89%8D%E4%B8%89%E9%A0%85%E6%8E%A8%E5%8B%95%E5%8A%9B"
+},
+{
+"key": "外圍經濟美股ai板塊恐慌蔓延亞洲日韓股齊跌入熊市專題透視新聞",
+"keys": [
+"外圍經濟美股ai板塊恐慌蔓延亞洲日韓股齊跌入熊市專題透視新聞",
+"盤前攻略美股急挫ai板塊成重災區恒指跟車太貼回吐難免專題透視新聞"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "外圍經濟 | 美股AI板塊恐慌蔓延亞洲，日韓股齊跌入「熊市」 | 專題透視 - 新聞",
+"show": "주변경제 | 미국 증시 AI 분야 패닉이 아시아로 확산, 일본과 한국 증시가 '베어마켓'에 빠지는 가운데 | 특별 통찰 - 뉴스",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVTFRZUJqX0JFX2Y0ZGs5R2N3by1BX0ktOE5VbVk4UlFyV01aTzhfeUJLRzNzVjdZTHRsSjdZS240TVdXUjItREhGVnVOdkEtZ3lVWlNXQ2tPc1VrWDdIZnhqU08wamctOXBIdmw1Q3BVQm5xdzJKb21nVmNtMW1QeHAwLVJWUzlpcGxucnlRLU8xclNmTUVv?oc=5",
+"pub": 1793930880.0,
+"time": "11/06 11:08",
+"run": "202611060530",
+"url": "https://www.etnet.com.hk/www/tc/news/news-article.php?category=usstocksfeature&newsid=415737"
+},
+{
+"key": "懶理美股股災李寧逆市飆逾8豪派特別息現價股息率近17厘",
+"keys": [
+"懶理美股股災李寧逆市飆逾8豪派特別息現價股息率近17厘"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "懶理美股股災！ 李寧逆市飆逾8% 豪派特別息、現價股息率近17厘",
+"show": "미국 주식 시장 붕괴를 다루기에는 너무 게으르다! 리닝은 시장 추세를 거스르고 8% 이상 급등해 현재 배당수익률이 17%에 가까운 넉넉한 특별배당금을 지급했다.",
+"source": "香港01",
+"src_url": "https://www.hk01.com",
+"link": "https://news.google.com/rss/articles/CBMingNBVV95cUxNTzRjZjJ2V25iSFZNV3E5YlBTRTBZM1FncmRZNVFXZ2M5YmdJdHE4Rm1kblU1eUh5dnpMOExramJyUHJkRHQ3dlRJTzAyZ09kSklhQUsxajFCZTUtZDFRQU1DSmhJYnJYb3BuR001VlA0WjZRZDlTa1BWYWhVVDNGeGZneUZaUk9TMHBUajFoeVdmRllyM2FLc0RWS2FaLVhFQmNGd0RvYnpyeWtIN1lnUmUxVXl0V3BRNlVuQnJ4OHJ5azFfcEFIWk0zUDY1X2k5dllGcjl6MnJyZkxMS0w1MVdYNnVTQjRucXNlNC1pYmxsYzFkSm4xLVRFbTk5ZUJMUlRudjRfaDlrM296TjVNd2hTOEszdGZTbVlISENYQ3g2d21QczBScFVRejhOYzlCTVhsZ3VOcnIwZ0VJWlpUZDUwalk3VW9jRkVZUDE5Yjl6dDhBcmlxY25UcTlSeVllRk5iOHkzY2ZIOHBMeUN5NGdVTWRsdHYtajlET2xWNU5ZRG5Fd0Z0eGt6elFzTGdlM3VwbXd3VVlsRnhKdlE?oc=5",
+"pub": 1793930213.0,
+"time": "11/06 10:56",
+"run": "202611060530",
+"url": "https://www.hk01.com/%E8%B2%A1%E7%B6%93%E5%BF%AB%E8%A8%8A/60407742/%E6%87%B6%E7%90%86%E7%BE%8E%E8%82%A1%E8%82%A1%E7%81%BD-%E6%9D%8E%E5%AF%A7%E9%80%86%E5%B8%82%E9%A3%86%E9%80%BE8-%E8%B1%AA%E6%B4%BE%E7%89%B9%E5%88%A5%E6%81%AF-%E7%8F%BE%E5%83%B9%E8%82%A1%E6%81%AF%E7%8E%87%E8%BF%9117%E5%8E%98"
+},
+{
+"key": "美股崩跌法人美國標普500整體企業第3季獲利年增311基本面無虞",
+"keys": [
+"美股崩跌法人美國標普500整體企業第3季獲利年增311基本面無虞"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "美股崩跌 法人：美國標普500整體企業第3季獲利年增31.1%、基本面無虞",
+"show": "미국 증시 폭락 법인 : 미국 S&P 500 기업 전체의 3분기 이익이 전년 동기 대비 31.1% 증가했고, 펀더멘털은 온전함",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vOUp3Mnl6M1ZRZGpXQUFtVkFaNXRuTUQ3eHRSNmhsRGp5US1kZ0w3UjRHMFJCSFlGZmlyT3lWeDhtcGlhUzBZdW5FdlEyV1ZwbElXUUpPY0ZlQdIBX0FVX3lxTFBUOXJGSXVXVTh4M3d3ZXdmYzRRRF9Hd0FBQVhBZjVNTk1pdkQyMzJ5MUNCRjZtR0pqbUpPWVVYbWowV1NOaEJxTGxwODN5aHRmb3VfdWJZV0RVTmh5ZGhz?oc=5",
+"pub": 1793929822.0,
+"time": "11/06 10:50",
+"run": "202611060530",
+"url": "https://money.udn.com/money/story/5607/9861161"
 },
 {
 "key": "牛彈琴美期中大選後次日華爾街暴跌10大嚴重後果顯現",
@@ -1605,6 +1835,24 @@
 "url": "https://newtalk.tw/news/view/2026-11-06/1069614"
 },
 {
+"key": "美股散戶不抄底大逃殺賣超創疫情股災來新高新聞",
+"keys": [
+"美股散戶不抄底大逃殺賣超創疫情股災來新高新聞"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "美股散戶不抄底大逃殺、賣超創疫情股災來新高- 新聞",
+"show": "미국 주식의 개인 투자자들은 바닥을 사기 위한 배틀 로얄을 갖고 있지 않지만 전염병적인 주식 시장 붕괴로 인해 새로운 최고점에 도달하기 위해 과도하게 매도합니다 - 뉴스",
+"source": "MoneyDJ",
+"src_url": "https://www.moneydj.com",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnJkR1ZQUGZkbjhnTnpScDFuS2lIWS1XbHdkUkRkOEtXa05KeVJBanZrbkxQUDRMWnFXYUpTQ0Z2VVRSZk5FQXI5M21YeWxQX2h6dHBSaXBJSEMxc2kzSEh1WWZVcHM2TWw3eUhlWTR0cUFCc21FNTFteDl4N3VTMXNlTzdQMXBrd2M0dTB5VlRlZw?oc=5",
+"pub": 1793928480.0,
+"time": "11/06 10:28",
+"run": "202611060530",
+"url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=375e2b7d-ae9d-483d-9ad9-5a7710bd2e4e"
+},
+{
 "key": "美股暴跌後亞股接力下殺韓股重挫近9暫停交易20分日股跌逾4000點",
 "keys": [
 "美股暴跌後亞股接力下殺韓股重挫近9暫停交易20分日股跌逾4000點"
@@ -1620,6 +1868,24 @@
 "time": "11/06 10:23",
 "run": "202611060155",
 "url": "https://www.knews.com.tw/news/2187C975C596EF2A664BE5100B9A52F4"
+},
+{
+"key": "sp500nasdaqdowfuturesdipasinvestorsstepbackfromaiandtechwithnasdaqincorrectionte",
+"keys": [
+"sp500nasdaqdowfuturesdipasinvestorsstepbackfromaiandtechwithnasdaqincorrectionte"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "S&P 500, Nasdaq, Dow Futures Dip As Investors Step Back From AI And Tech With Nasdaq In Correction Territory — NVDA, AAPL, UBER, SOXX In Focus",
+"show": "투자자들이 AI 및 기술에서 물러나면서 S&P 500, 나스닥, 다우 선물 하락",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPakszZDlYY0Z5ZXBoRUFISEVHWDQ1dFlyck05bUNJSzkyY3BGejk2QWZKZGdpeTJRVW9ZdVlxS01GZmpzUHhRTVZVN3k3RzY3R3FBekdITGxxOE41Nm5VRWN6RlhrdTI3Q3RsNmlzTk9na2QxZG5nTWQ2aDN4OWNtbFEzYUJJWng1TmVsUkg4OTJoejQ?oc=5",
+"pub": 1793926800.0,
+"time": "11/06 10:00",
+"run": "202611060530",
+"url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-futures-010030629.html"
 },
 {
 "key": "버니샌더스데이터센터전국유예요구뉴욕증시는급락",
@@ -1720,6 +1986,24 @@
 "run": "202611060354"
 },
 {
+"key": "intelsplungetodaymakesitoctobersworstsp500stockaccentureisthebiggestwinner",
+"keys": [
+"intelsplungetodaymakesitoctobersworstsp500stockaccentureisthebiggestwinner"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Intel’s Plunge Today Makes It October’s Worst S&P 500 Stock. Accenture Is the Biggest Winner.",
+"show": "오늘 인텔의 급락으로 인해 10월 최악의 S&P 500 주식이 되었습니다. Accenture가 가장 큰 승자입니다.",
+"source": "Barron's",
+"src_url": "https://www.barrons.com",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaldpVGFpbkplUnhmS2xFSlNiNkNWc3hVeXJPNGprVDJQVVQ0c2doU1d6SHhoTUs4RmEzY1BlTkliNmtrWDFOYnF6ZmNJTGROV19DaTNrOWdqSXRRSXJzSVZMa0RZakd0OGoyUVE4N29ubExsTDVRUFI1T3VaR0F2Sk5qVE0xSXFlX2Y0YzYtQ3dXUQ?oc=5",
+"pub": 1793919789.0,
+"time": "11/06 08:03",
+"run": "202611060530",
+"url": "https://www.barrons.com/articles/intel-stock-accenture-sp500-october-best-worst-8ce30f9c"
+},
+{
 "key": "sp500tumbles436percentto735373asaiselloffintensifies",
 "keys": [
 "sp500tumbles436percentto735373asaiselloffintensifies"
@@ -1735,6 +2019,24 @@
 "time": "11/06 06:52",
 "run": "202611060155",
 "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/s-p-500-tumbles-4-36-percent-to-7-353-73-as-ai-selloff-intensifies/70466621"
+},
+{
+"key": "bloomenergysstockisoneofthesp500sbiggestlosersamidfearsofdatacenterdelays",
+"keys": [
+"bloomenergysstockisoneofthesp500sbiggestlosersamidfearsofdatacenterdelays"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
+"show": "Bloom Energy의 주식은 데이터 센터 지연에 대한 두려움으로 인해 S&P 500의 가장 큰 하락세 중 하나입니다.",
+"source": "MarketWatch",
+"src_url": "https://www.marketwatch.com",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU1pnSjVuLVF3ZFh6TC1QUWJabHQ4LWY4OXdwVy1iMG5ZdmptS3BJVmFpMTZYVUlSemxGZ2lONklja2hZb2lvNkc1YncwdXN6OEwwLUZPR1dudWEyUU5UZUk2aEVDSlAwaXhOZ1h4THNydUpGckVmQm5YaXpUaXg1QzFad0lOTTdoM09fZU85eExuRGlMY1JBTmNKOHplZkMyREg3Rm9BZEpxNm9mS0ppdzhvR2Raa3JVUGZMR0c1U3gzd0xuakJ1SHlFUUw2dw?oc=5",
+"pub": 1793913960.0,
+"time": "11/06 06:26",
+"run": "202611060530",
+"url": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb"
 },
 {
 "key": "kevingreensp500updownvolumenearsthreestandarddeviationmovebasedonpastyear",
@@ -3602,6 +3904,23 @@
 "url": "https://news.wearn.com/c2140194.html"
 },
 {
+"key": "八檔海外etf創高價生技日本sp500等題材備受青睞",
+"keys": [
+"八檔海外etf創高價生技日本sp500等題材備受青睞"
+],
+"count": 2,
+"theme": "🧬 나스닥 바이오",
+"region": "🇭🇰 홍콩",
+"title": "八檔海外ETF創高價 生技、日本、S&P500等題材備受青睞",
+"show": "해외 ETF 8개, 생명공학·일본·S&P500 등 화제성 높은 가격 기록",
+"source": "UDN",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yMVJ6ZmpKOHQtOFFlWTN5UW9VT2lSQW1UaXA4bXByQmstT2laUV9kb0lNTVVRTUpWSWJDVy02M2ZCaEI5T2hBTk03Wks2Z1Ftal800gFYQVVfeXFMUHFFOWhuVXdXNklqOTNBTGZ5Y2pMMG8wRW1wZGxfbEdaNDY0Z25COFN3YXhuVlRCTzFPTXJ0eXExV3hTdGVGcmItNjYzR0t0dkNvaS1pLUtfMg?oc=5",
+"pub": 1793897444.0,
+"time": "11/06 01:50",
+"run": "202611060155",
+"url": "https://udn.com/news/story/123006/9860571"
+},
+{
 "key": "討論牆生技股再掀買氣康霈減肥新藥啟動收案股價漲停外資連2日加碼",
 "keys": [
 "討論牆生技股再掀買氣康霈減肥新藥啟動收案股價漲停外資連2日加碼",
@@ -3672,6 +3991,41 @@
 "xbioct2026159000putxbi261030p00159000stockpricenewsquoteandhistory"
 ],
 "url": "https://uk.finance.yahoo.com/quote/XBI290119P00171000/chart/"
+},
+{
+"key": "신약하나로매출쭉성장이끈세노바메이트",
+"keys": [
+"신약하나로매출쭉성장이끈세노바메이트"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇰🇷 한국",
+"title": "\"신약 하나로 매출 쭉\"…성장 이끈 '세노바메이트'",
+"show": "\"신약 하나로 매출 쭉\"…성장 이끈 '세노바메이트'",
+"source": "뉴시스",
+"src_url": "https://www.newsis.com",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aVmxPUkJxcXpCd1h6akFXT3dZZmZtUVF6UnFQRjZNeTdiUm9NZk5aZ2hLd2t3eXNuNll6eHFlbm5aazFFYXFySFpKT2RtcGhfSV9iVWR0ZnotbWxMR1RVctIBeEFVX3lxTFAzUTJDYkp5YWZxTGY3dS1EaXFrZkU4SEpzV1hqeUp3OHM3ZDU1N19JM1JpOFFwM0cwM2ptZm5IMTlIdXhLYUMwUVVEYnBqcl91Z2otdVJod3JlRFlld2pKV2Y4V2FZbEJYMVRzZDlfMUpQczlyVW40OA?oc=5",
+"pub": 1793938481.0,
+"time": "11/06 13:14",
+"run": "202611060530"
+},
+{
+"key": "焦點股生技股萬綠叢中一點紅藥華藥成千金股唯一走揚",
+"keys": [
+"焦點股生技股萬綠叢中一點紅藥華藥成千金股唯一走揚"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇹🇼 대만",
+"title": "〈焦點股〉生技股萬綠叢中一點紅 藥華藥成千金股唯一走揚",
+"show": "<Focus Stocks> 녹지 가운데 생명공학주는 다소 밝은 편이고, 야오화제약(Yaohua Pharmaceuticals)만이 유일하게 상승했다.",
+"source": "鉅亨網",
+"src_url": "https://news.cnyes.com",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XaFlHb2RNbUhWbTA0SHZVSjRQR3luNTdHTDFpUzNiUGx6NEVGS0NhbmlNdVNXcU10QXVuUUx0Zm1MbGNaMHRwMWJNcFBzc3M?oc=5",
+"pub": 1793938062.0,
+"time": "11/06 13:07",
+"run": "202611060530",
+"url": "https://news.cnyes.com/news/id/6649908"
 },
 {
 "key": "即時新聞halozymehalo上調財測eps衝9美元生技股迎專利勝訴大爆發",
@@ -3926,23 +4280,6 @@
 "pub": 1793898720.0,
 "time": "11/06 02:12",
 "run": "202611060354"
-},
-{
-"key": "八檔海外etf創高價生技日本sp500等題材備受青睞",
-"keys": [
-"八檔海外etf創高價生技日本sp500等題材備受青睞"
-],
-"count": 1,
-"theme": "🧬 나스닥 바이오",
-"region": "🇭🇰 홍콩",
-"title": "八檔海外ETF創高價 生技、日本、S&P500等題材備受青睞",
-"show": "해외 ETF 8개, 생명공학·일본·S&P500 등 화제성 높은 가격 기록",
-"source": "UDN",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yMVJ6ZmpKOHQtOFFlWTN5UW9VT2lSQW1UaXA4bXByQmstT2laUV9kb0lNTVVRTUpWSWJDVy02M2ZCaEI5T2hBTk03Wks2Z1Ftal800gFYQVVfeXFMUHFFOWhuVXdXNklqOTNBTGZ5Y2pMMG8wRW1wZGxfbEdaNDY0Z25COFN3YXhuVlRCTzFPTXJ0eXExV3hTdGVGcmItNjYzR0t0dkNvaS1pLUtfMg?oc=5",
-"pub": 1793897444.0,
-"time": "11/06 01:50",
-"run": "202611060155",
-"url": "https://udn.com/news/story/123006/9860571"
 },
 {
 "key": "bristolmyerssquibbbmywinsfdaapprovalistherallyalreadypricedin",
@@ -4693,6 +5030,24 @@
 "url": "https://www.ntdtv.com/b5/2026/11/05/a104148292.html"
 },
 {
+"key": "lg엔솔3차ess중앙계약시장입찰불참가격경쟁대신중장기경쟁력확보",
+"theme": "🔋 2차전지",
+"region": "🇰🇷 한국",
+"title": "LG엔솔 “3차 ESS 중앙계약시장 입찰 불참, 가격 경쟁 대신 중장기 경쟁력 확보”",
+"show": "LG엔솔 “3차 ESS 중앙계약시장 입찰 불참, 가격 경쟁 대신 중장기 경쟁력 확보”",
+"source": "Chosunbiz",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX0tWcGxoRmhJWXlnZncyUWNtMHduT0pENFd3TGIwc0F3aDBVcjJ3ZG8xX0tjZmVZNE1UcHpUa2F0WjNPUmNzNVZLeHhfZzRybVpiWXpaelEzV3l3aEZBZ3lHTVllZ3hpU0NSSU1hQ2FrMXduVlVIMXQxbXR1azJjcF9HSXPSAZgBQVVfeXFMUE0ycHNCX0JWZ0Zsd3lrdkpWTkM5VjY0d29Da0JLRHAxVXYwc0Y0dThadWNON1AzTWstUzlQNTVBOUQ0SlNZZV9xSVdfWnlvRkRtSWdOY29LUE53cXk3b2YxanBkSVVGNFVaYUtIM2ctNGRtaVI3YnVzbm8wNmxXRG1yUE8zSWgxSF9CUXgtQzNsWEN1LTczU3A?oc=5",
+"pub": 1793872860.0,
+"time": "11/05 19:01",
+"run": "202611051432",
+"count": 3,
+"keys": [
+"lg엔솔3차ess중앙계약시장입찰불참가격경쟁대신중장기경쟁력확보",
+"lg엔솔3차중앙계약시장불참기존사업선택과집중",
+"lg에너지솔루션3차ess중앙계약시장입찰불참선언"
+]
+},
+{
 "key": "포스코퓨처엠깜짝실적은보상금착시lfp전환이진짜시험대",
 "keys": [
 "포스코퓨처엠깜짝실적은보상금착시lfp전환이진짜시험대",
@@ -4846,6 +5201,23 @@
 "time": "11/05 10:05",
 "run": "202611051615",
 "url": "https://www.moomoo.com/hant/news/post/1003581659"
+},
+{
+"key": "엘앤에프올해양극재출하량역대최대전망",
+"keys": [
+"엘앤에프올해양극재출하량역대최대전망"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇰🇷 한국",
+"title": "엘앤에프, 올해 양극재 출하량 '역대 최대' 전망",
+"show": "엘앤에프, 올해 양극재 출하량 '역대 최대' 전망",
+"source": "한국일보",
+"src_url": "https://www.hankookilbo.com",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfLXk3NXQwT3RBVkxTSXR5XzZacEJjTjBVQlBYT1F2cFM0WHRsVUJJQUE5ZUhsblRaTW1mTklBcGxZOXNKQzE5ZW9SSFRIcWQzN1VSd2hRNHNraGJWRmpoT2lvY1Q3NlBoSXRJdlJB0gFzQVVfeXFMUE1DUmtsQVFLTmhSWFNpWERLYjgtZVVUeF9BU0I1NU9QMjJ0blNHNF9CYVYtOWdKRjhQZ21HRks1ajdTemtGWW5RSTZzOWdieG43VDBsVVVoUHZXc0o2WDZNWVJLX3V6aFd2WDhKSG1lcEJ5Zw?oc=5",
+"pub": 1793941200.0,
+"time": "11/06 14:00",
+"run": "202611060530"
 },
 {
 "key": "indianbatterymakersfacecosthandicap",
@@ -5097,6 +5469,23 @@
 "url": "https://batteriesnews.com/hungarian-court-dismisses-challenge-to-catls-debrecen-battery-plant-chinese-state-media-reports/"
 },
 {
+"key": "신한증권lg화학목표가원화강세로적자확대불가피",
+"keys": [
+"신한증권lg화학목표가원화강세로적자확대불가피"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇰🇷 한국",
+"title": "신한증권, LG화학 목표가↓…\"원화 강세로 적자 확대 불가피\"",
+"show": "신한증권, LG화학 목표가↓…\"원화 강세로 적자 확대 불가피\"",
+"source": "매일경제 마켓",
+"src_url": "https://stock.mk.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxZGlYVlJMV1JMX1p2M0syX25yZWlaWWdXZ2Rtb0p2cjdmTEdsMUY4UHh1eGVJbDN4eG8wYzl2TVV3UnJXQ1Bxenp2S1ZPZTdUbEE?oc=5",
+"pub": 1793921819.0,
+"time": "11/06 08:36",
+"run": "202611060530"
+},
+{
 "key": "東吳證券電動車10月月報升價落地盈利修復估值歷史低位",
 "keys": [
 "東吳證券電動車10月月報升價落地盈利修復估值歷史低位"
@@ -5112,6 +5501,23 @@
 "time": "11/06 08:31",
 "run": "202611060155",
 "url": "https://tw.tradingview.com/news/gelonghui:ae60f8fabacdf:0/"
+},
+{
+"key": "에코프로비엠전기차부진에도반등기회헝가리공장정상화가관건신한",
+"keys": [
+"에코프로비엠전기차부진에도반등기회헝가리공장정상화가관건신한"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇰🇷 한국",
+"title": "에코프로비엠, 전기차 부진에도 반등 기회…“헝가리 공장 정상화가 관건”-신한",
+"show": "에코프로비엠, 전기차 부진에도 반등 기회…“헝가리 공장 정상화가 관건”-신한",
+"source": "이데일리",
+"src_url": "https://www.edaily.co.kr",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa0xRdG9vT2JtOExwbmhGcF9TaHg5dzBJdVZoRU9ubGszcG9zTV9ZcV9tVk5wVHVmMy1CRkZ6SUNrd2ZPZkJtR0ZfUmg1TzIxN0xkR01rYzBTZGVtQXFKdjNxSV9ocFRIQWY2UTQxdVVER3dheFd4c0ttRmFwOXZrVg?oc=5",
+"pub": 1793919594.0,
+"time": "11/06 07:59",
+"run": "202611060530"
 },
 {
 "key": "questionsswirloverfateofquebecevbatteryplantand12binpublicmoney",
@@ -5165,6 +5571,23 @@
 "url": "https://www.worldjournal.com/wj/story/121470/9860903"
 },
 {
+"key": "미국의對중국규제대응중국계양극재기업피노국내자본수혈",
+"keys": [
+"미국의對중국규제대응중국계양극재기업피노국내자본수혈"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇰🇷 한국",
+"title": "“미국의 對중국 규제 대응”… 중국계 양극재 기업 피노, 국내 자본 수혈",
+"show": "“미국의 對중국 규제 대응”… 중국계 양극재 기업 피노, 국내 자본 수혈",
+"source": "Chosunbiz",
+"src_url": "https://biz.chosun.com",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV2htQlBHeTFaN1R4ZGZobGs1ai1hN2FKd1dja2tRY3RORURQLUtOUTN6U01mYkZaek13RWRQWUI0aWU2VGhZdVp2dUx2eTN3RjMtMl9aalp4eV9OazN0bmFaMGJwWGRrSy1uTHNwTktScjhEVG43cnhGV19FWFVJM01SZTBfRzdV0gGcAUFVX3lxTE55UmhldlZqWHNlZ3pCbjQ4eUpwMkczZlZrY1hlVkJrb2l2cWZsclFRZHhaRHBqb2toVnd3bnFEMGhkRXlJUnhSWGF0cXE1MDFjMS1wakotMmpwZXd4MnVESkdqRFZvamZZQlNjQzFyempoWkdINklwSnczMHJMY3czQVkySTFLeVQyMTZRcGdDSVFqMVhBQW9nODdKVw?oc=5",
+"pub": 1793912589.0,
+"time": "11/06 06:03",
+"run": "202611060530"
+},
+{
 "key": "catlsindonesiaplantstartsoutputaszengsetssightson1000gwh",
 "keys": [
 "catlsindonesiaplantstartsoutputaszengsetssightson1000gwh"
@@ -5180,6 +5603,23 @@
 "time": "11/06 05:41",
 "run": "202611060155",
 "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/catl-s-indonesia-plant-starts-output-as-zeng-sets-sights-on-1-000-gwh/70466435"
+},
+{
+"key": "광양이차전지단지기반시설구축속도",
+"keys": [
+"광양이차전지단지기반시설구축속도"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇰🇷 한국",
+"title": "광양 이차전지 단지 기반시설 구축 속도",
+"show": "광양 이차전지 단지 기반시설 구축 속도",
+"source": "동아일보",
+"src_url": "https://www.donga.com",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Dbl91UDhLeHhoZ2ZBcHhjTlQxU0FCOVdzVjlIVzJTSTEyQ0k0VEdtQ2R1c1ZZRFZWUzZ1U2p5MWdxck5pa2g4VnJqdll0bnFTY3pNR3FobGE4OVNNS0IzZE9JT29Gd9IBZkFVX3lxTE5Dbl91UDhLeHhoZ2ZBcHhjTlQxU0FCOVdzVjlIVzJTSTEyQ0k0VEdtQ2R1c1ZZRFZWUzZ1U2p5MWdxck5pa2g4VnJqdll0bnFTY3pNR3FobGE4OVNNS0IzZE9JT29Gdw?oc=5",
+"pub": 1793907000.0,
+"time": "11/06 04:30",
+"run": "202611060530"
 },
 {
 "key": "seanduffysayscuttieswithchinafordpushesback",
@@ -5419,18 +5859,6 @@
 "time": "11/05 19:37",
 "run": "202611051615",
 "url": "https://invest.hket.com/article/4218872/01810-xiaomi-14-3b-inflow-2388-boc-hong-kong"
-},
-{
-"key": "lg엔솔3차ess중앙계약시장입찰불참가격경쟁대신중장기경쟁력확보",
-"theme": "🔋 2차전지",
-"region": "🇰🇷 한국",
-"title": "LG엔솔 “3차 ESS 중앙계약시장 입찰 불참, 가격 경쟁 대신 중장기 경쟁력 확보”",
-"show": "LG엔솔 “3차 ESS 중앙계약시장 입찰 불참, 가격 경쟁 대신 중장기 경쟁력 확보”",
-"source": "Chosunbiz",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX0tWcGxoRmhJWXlnZncyUWNtMHduT0pENFd3TGIwc0F3aDBVcjJ3ZG8xX0tjZmVZNE1UcHpUa2F0WjNPUmNzNVZLeHhfZzRybVpiWXpaelEzV3l3aEZBZ3lHTVllZ3hpU0NSSU1hQ2FrMXduVlVIMXQxbXR1azJjcF9HSXPSAZgBQVVfeXFMUE0ycHNCX0JWZ0Zsd3lrdkpWTkM5VjY0d29Da0JLRHAxVXYwc0Y0dThadWNON1AzTWstUzlQNTVBOUQ0SlNZZV9xSVdfWnlvRkRtSWdOY29LUE53cXk3b2YxanBkSVVGNFVaYUtIM2ctNGRtaVI3YnVzbm8wNmxXRG1yUE8zSWgxSF9CUXgtQzNsWEN1LTczU3A?oc=5",
-"pub": 1793872860.0,
-"time": "11/05 19:01",
-"run": "202611051432"
 },
 {
 "key": "lg에너지솔루션3차ess중앙계약시장불참",
@@ -6241,7 +6669,8 @@
 "에코프로비엠ess수요확대대응lfp양극재투자본격화머니투데이",
 "엘앤에프에코프로비엠3분기영업이익합계145억적자",
 "엘앤에프3분기영업손실265억대규모lfp양극재수주성과",
-"에코프로비엠lfp양극재투자로중장기모멘텀확보"
+"에코프로비엠lfp양극재투자로중장기모멘텀확보",
+"에코프로비엠7대급락3q어닝미스머니투데이"
 ],
 "count": 34,
 "theme": "⚡ 전고체배터리·ESS",
@@ -7756,6 +8185,23 @@
 "url": "https://news.pchome.com.tw/finance/pinview/20261106/index-79393028074464317003.html"
 },
 {
+"key": "데이터센터반대민심폭발에오픈ai전력비용우리가낸다",
+"keys": [
+"데이터센터반대민심폭발에오픈ai전력비용우리가낸다",
+"미데이터센터반대민심에수습나선오픈ai전력비용회사가부담"
+],
+"count": 2,
+"theme": "🏭 AI 전력",
+"region": "🇰🇷 한국",
+"title": "데이터센터 반대 민심 폭발에…오픈AI “전력 비용 우리가 낸다”",
+"show": "데이터센터 반대 민심 폭발에…오픈AI “전력 비용 우리가 낸다”",
+"source": "헤럴드경제",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LaWhyT2FNdVRWOWN4STd6bDF5N1g1SjNkdm4yZjQ0dEtfbFZ3VjhHbVc1eno2eXVweHZnQkZWMmNCVGh5YXpwUml0OGFzZ3hRREt0RzNR?oc=5",
+"pub": 1793924926.0,
+"time": "11/06 09:28",
+"run": "202611060155"
+},
+{
 "key": "ai資料中心擴建拉警報德州擬收緊許可openai承諾電網吃緊時降載",
 "keys": [
 "ai資料中心擴建拉警報德州擬收緊許可openai承諾電網吃緊時降載"
@@ -8001,6 +8447,23 @@
 "run": "202611060155"
 },
 {
+"key": "美데이터센터규제우려에전력기기株이틀째우수수",
+"keys": [
+"美데이터센터규제우려에전력기기株이틀째우수수"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇰🇷 한국",
+"title": "美 데이터센터 규제 우려에 전력기기株 이틀째 '우수수'",
+"show": "美 데이터센터 규제 우려에 전력기기株 이틀째 '우수수'",
+"source": "마켓인",
+"src_url": "https://marketin.edaily.co.kr",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11bGt5SU9NaFJGbjBMWGFBLW9DVUVEVlN5ano3OGRJTzdOamIxcFBRaGtWbnBWWU95U2JxWmdtUy1iWC1HVVN1WndabzZXTmJrMHJ5anZQUHhaa0ZrSzhyMWFrY2M0bEExT0praGlqZ0ZnZkU?oc=5",
+"pub": 1793928411.0,
+"time": "11/06 10:26",
+"run": "202611060530"
+},
+{
 "key": "특징주두산에너빌리티장중11대급락세기록기업주식정보",
 "keys": [
 "특징주두산에너빌리티장중11대급락세기록기업주식정보"
@@ -8030,22 +8493,6 @@
 "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wVGxTMHlvMVg1WUdXcDM1aEdSRkROMnlYdVk0bjJjX1luc21CaFlJRG4zSUdhMFVYX3pmNllVOVAweVNnd2dYMEdBdWUxb0JIbldvbW5yMmRvVnRp?oc=5",
 "pub": 1793926560.0,
 "time": "11/06 09:56",
-"run": "202611060155"
-},
-{
-"key": "데이터센터반대민심폭발에오픈ai전력비용우리가낸다",
-"keys": [
-"데이터센터반대민심폭발에오픈ai전력비용우리가낸다"
-],
-"count": 1,
-"theme": "🏭 AI 전력",
-"region": "🇰🇷 한국",
-"title": "데이터센터 반대 민심 폭발에…오픈AI “전력 비용 우리가 낸다”",
-"show": "데이터센터 반대 민심 폭발에…오픈AI “전력 비용 우리가 낸다”",
-"source": "헤럴드경제",
-"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LaWhyT2FNdVRWOWN4STd6bDF5N1g1SjNkdm4yZjQ0dEtfbFZ3VjhHbVc1eno2eXVweHZnQkZWMmNCVGh5YXpwUml0OGFzZ3hRREt0RzNR?oc=5",
-"pub": 1793924926.0,
-"time": "11/06 09:28",
 "run": "202611060155"
 },
 {
@@ -10310,6 +10757,24 @@
 "pub": 1793893380.0,
 "time": "11/06 00:43",
 "run": "202611051615"
+},
+{
+"key": "toproboticsstockswithstrongpotentialforlongtermgrowth",
+"keys": [
+"toproboticsstockswithstrongpotentialforlongtermgrowth"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇺🇸 미국",
+"title": "Top Robotics Stocks With Strong Potential for Long-Term Growth",
+"show": "장기 성장 잠재력이 높은 상위 로봇공학 주식",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdklDR0RIYjRiSlZJS0hlMFRrLTlKem5wQ1MzNDJLSHdLMF9GNC1oQ3hGYXVmX3NMdkZDVTNmUENoNFhsRlJPakZxMmJ5QlhPRWdWaTNIanB1NjZ3dE0zVDk5Q1B0Vkxhc1ZQQXVRdHRsTzNYa3Q2b0hWM0MxSjl2SXNOWF9TaW5GdmVuUGk0aE9DX3F0bFNEQjIxRGNiZ3pXcnIw?oc=5",
+"pub": 1793892780.0,
+"time": "11/06 00:33",
+"run": "202611060530",
+"url": "https://finance.yahoo.com/markets/stocks/articles/top-robotics-stocks-strong-potential-153300390.html"
 },
 {
 "key": "푸드위크코리아유명프랜차이즈주방책임진협동로봇뉴로메카피지컬ai로차세대푸드테크선도",
