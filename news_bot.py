@@ -374,10 +374,14 @@ def save_news(news):
 
 
 def build_pages(news, run_id, updated):
-    by_theme = {t["name"]: [] for t in THEMES}
+    by_theme = {BREAKING_NAME: []}
+    by_theme.update({t["name"]: [] for t in THEMES})
+    brk = sorted(load_breaking().get("items", []), key=lambda n: -n["pub"])
+    news = brk + list(news)
     for n in news:
         by_theme.setdefault(n["theme"], []).append(n)
     etfs = {t["name"]: t.get("etfs", "") for t in THEMES}
+    etfs[BREAKING_NAME] = ""
     rkey = {r["label"]: r["key"] for r in REGIONS}
 
     # ① 예쁜 페이지 (GitHub Pages)
@@ -391,14 +395,16 @@ def build_pages(news, run_id, updated):
     for i, (name, items) in enumerate(by_theme.items()):
         body.append(f'<section id="t{i}"><div class="sh"><h2>{esc(name)}</h2>'
                     f'<div class="ss"><select onchange="flt(this.value,this)">{opts}</select>'
-                    f'<button class="c on" onclick="srt(\'c\',this)">🔥 화제순</button>'
-                    f'<button class="p" onclick="srt(\'p\',this)">🕒 최신순</button></div></div>')
+                    f'<button class="c{"" if name == BREAKING_NAME else " on"}" onclick="srt(\'c\',this)">🔥 화제순</button>'
+                    f'<button class="p{" on" if name == BREAKING_NAME else ""}" onclick="srt(\'p\',this)">🕒 최신순</button></div></div>')
         if etfs.get(name):
             body.append(f'<p class="etf">보유: {esc(etfs[name])}</p>')
-        body.append(f'<p class="none"{"" if not items else " hidden"}>최근 기사 없음</p>')
+        if name == BREAKING_NAME:
+            body.append('<p class="etf">미국장 시간에 15분마다 확인 · 여러 언론이 동시에 보도한 큰 소식</p>')
+        body.append(f'<p class="none"{"" if not items else " hidden"}>최근 {"속보" if name == BREAKING_NAME else "기사"} 없음</p>')
         body.append('<div class="list">')
         for n in items:
-            new = ' <span class="new">NEW</span>' if n.get("run") == run_id else ""
+            new = ' <span class="new">NEW</span>' if n.get("run") == run_id and run_id != "breaking" else ""
             orig = (f'<div class="orig">{esc(n["title"])}</div>'
                     if n["show"] != n["title"] else "")
             c = n.get("count", 1)
@@ -500,6 +506,103 @@ function flt(r,sel){{
             md.append(f"- {hot}[{t}]({n.get('url') or n['link']}) — {n['region']} · {n['source']} · {n['time']}{new}")
     with open(MD_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(md) + "\n")
+
+
+# ─────────────────────────────────────────────
+# 🚨 미국 속보 (15분마다 따로 확인 → 큰 속보면 바로 알림)
+# ─────────────────────────────────────────────
+BREAKING_NAME = "🚨 미국 속보"
+BREAKING_WINDOW_MIN = 90      # 최근 몇 분 안의 기사만 속보로 봄
+BREAKING_MIN_SOURCES = 3      # 같은 소식을 이만큼 많은 언론이 보도하면 속보로 봄
+BREAKING_MAX_ALERTS = 3       # 한 번 확인할 때 최대 몇 개까지 알림
+BREAKING_WORDS = ["stock market", "Wall Street", "Fed", "Dow Jones", "Nasdaq", "S&P 500",
+                  "Treasury yields", "oil prices", "tariffs", "Nvidia", "Tesla", "Apple"]
+# 제목에 이런 표시가 있으면 보도 수와 상관없이 속보로 봄
+BREAKING_MARK = re.compile(r"\bbreaking\b|\bjust in\b|\bflash\b|\balert:", re.I)
+BREAKING_TOPIC = "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en"
+BREAKING_FILE = os.path.join(HERE, "breaking.json")
+US = next(r for r in REGIONS if r["key"] == "us") if any(r["key"] == "us" for r in REGIONS) else \
+    {"key": "us", "label": "🇺🇸 미국", "words": "en", "hl": "en-US", "gl": "US", "ceid": "US:en"}
+
+
+def load_breaking():
+    try:
+        with open(BREAKING_FILE, encoding="utf-8") as f:
+            d = json.load(f)
+        return d if isinstance(d, dict) else {"items": [], "seen": {}}
+    except Exception:
+        return {"items": [], "seen": {}}
+
+
+def check_breaking():
+    data = load_breaking()
+    seen = data.setdefault("seen", {})
+    now = datetime.now(timezone.utc)
+    since = now - timedelta(minutes=BREAKING_WINDOW_MIN)
+    items = []
+    for url in (BREAKING_TOPIC, search_url(US, BREAKING_WORDS, when="1h")):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            items += parse_rss(r.text)
+        except Exception as e:
+            print(f"  ! 속보 가져오기 실패: {e}")
+    uniq = {}
+    for it in items:
+        k = title_key(it["title"])
+        if k and it["published"] and it["published"] >= since and not EXCLUDE.search(it["title"]):
+            uniq.setdefault(k + (it["source"] or ""), it)
+    items = sorted(uniq.values(), key=lambda x: x["published"], reverse=True)
+    groups = cluster(items)
+    cands = [g for g in groups if n_sources(g) >= BREAKING_MIN_SOURCES
+             or any(BREAKING_MARK.search(m["title"]) for m in g)]
+    cands.sort(key=lambda g: (n_sources(g), g[0]["published"]), reverse=True)
+    print(f"속보 확인: 최근 {BREAKING_WINDOW_MIN}분 기사 {len(items)}건 → 소식 {len(groups)}개 → 속보 후보 {len(cands)}개")
+
+    recent = [x for x in data["items"] if x["pub"] >= time.time() - 12 * 3600]
+    alerts = 0
+    for g in cands:
+        keys = list(dict.fromkeys(title_key(m["title"]) for m in g))
+        if any(k in seen for k in keys) or any(same_story(g[0]["title"], x["title"]) for x in recent):
+            for k in keys:
+                seen[k] = time.time()
+            continue
+        if alerts >= BREAKING_MAX_ALERTS:
+            break
+        rep = next((m for m in g if BREAKING_MARK.search(m["title"])), g[0])
+        cnt = n_sources(g)
+        show = translate_ko(rep["title"])
+        real = decode_gnews(rep["link"]) or rep["link"]
+        pub = rep["published"]
+        item = {"key": keys[0], "keys": keys[:60], "count": cnt, "theme": BREAKING_NAME,
+                "region": US["label"], "title": rep["title"], "show": show, "source": rep["source"],
+                "link": rep["link"], "url": real, "pub": pub.timestamp(),
+                "time": pub.astimezone(KST).strftime("%m/%d %H:%M"), "run": "breaking"}
+        meta = " · ".join(x for x in [rep["source"], item["time"], f"언론 {cnt}곳" if cnt > 1 else ""] if x)
+        if notify(f"🚨 미국 속보", f"{show}\n{meta}", click=real,
+                  tags=["rotating_light"], priority=4):
+            data["items"].append(item)
+            recent.append(item)
+            for k in keys:
+                seen[k] = time.time()
+            alerts += 1
+            print(f"  🚨 {show}")
+            time.sleep(1)
+
+    cutoff = time.time() - PAGE_DAYS * 86400
+    data["items"] = [x for x in data["items"] if x["pub"] >= cutoff]
+    data["seen"] = {k: v for k, v in seen.items() if v >= time.time() - 2 * 86400}
+    with open(BREAKING_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=0)
+
+    # 새 속보가 있으면 목록 페이지도 다시 만들어서 올림
+    out = os.environ.get("GITHUB_OUTPUT")
+    if alerts:
+        build_pages(load_news(), "breaking", datetime.now(KST).strftime("%m/%d %H:%M"))
+    if out:
+        with open(out, "a") as f:
+            f.write(f"deploy={'true' if alerts else 'false'}\n")
+    print(f"속보 알림 {alerts}건")
 
 
 # ─────────────────────────────────────────────
@@ -669,5 +772,7 @@ def send_summary():
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "notify":
         send_summary()
+    elif len(sys.argv) > 1 and sys.argv[1] == "breaking":
+        check_breaking()
     else:
         collect()

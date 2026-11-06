@@ -54,7 +54,10 @@ jobs:
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
           git add seen.json docs NEWS.md
-          git diff --cached --quiet || (git commit -m "뉴스 업데이트" && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m "뉴스 업데이트"
+            git pull --rebase origin main && git push
+          fi
 
       # 뉴스 목록 페이지 올리기 (Settings → Pages 에서 Source 를 'GitHub Actions' 로 켜야 함)
       - name: 페이지 준비
