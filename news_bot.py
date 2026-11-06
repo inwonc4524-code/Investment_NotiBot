@@ -260,24 +260,45 @@ def fetch_news(region, words):
 _translate_cache = {}
 
 
-def translate_ko(text):
+def translate_ko(text, tries=3):
     if not TRANSLATE_EN or not text or re.search(r"[가-힣]", text):
         return text
     if text in _translate_cache:
         return _translate_cache[text]
-    try:
-        r = requests.get("https://translate.googleapis.com/translate_a/single",
-                         params={"client": "gtx", "sl": "auto", "tl": "ko", "dt": "t", "q": text},
-                         headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        out = "".join(seg[0] for seg in r.json()[0] if seg and seg[0]).strip()
-        result = out or text
-    except Exception as e:
-        print(f"  ! 번역 실패: {e}")
-        result = text
-    _translate_cache[text] = result
+    result = text
+    for attempt in range(tries):
+        try:
+            r = requests.get("https://translate.googleapis.com/translate_a/single",
+                             params={"client": "gtx", "sl": "auto", "tl": "ko", "dt": "t", "q": text},
+                             headers=HEADERS, timeout=15)
+            r.raise_for_status()
+            out = "".join(seg[0] for seg in r.json()[0] if seg and seg[0]).strip()
+            if out:
+                result = out
+                break
+        except Exception as e:
+            print(f"  ! 번역 실패 ({attempt + 1}/{tries}): {e}")
+        time.sleep(2 + attempt * 3)   # 2초 → 5초 쉬고 다시 시도
+    if result != text:                # 실패한 건 기억하지 않음 → 다음 실행 때 다시 시도
+        _translate_cache[text] = result
     time.sleep(0.2)
     return result
+
+
+def retranslate_failed(items, limit=40):
+    """예전에 번역에 실패해서 원문 그대로 남은 제목을 다시 번역"""
+    done = fixed = 0
+    for n in items:
+        if done >= limit:
+            break
+        if not is_korean(n["title"]) and n.get("show") == n["title"]:
+            done += 1
+            ko = translate_ko(n["title"])
+            if ko != n["title"]:
+                n["show"] = ko
+                fixed += 1
+    if done:
+        print(f"번역 다시 시도: {fixed}/{done}건 성공")
 
 
 # ─────────────────────────────────────────────
@@ -835,6 +856,7 @@ def collect():
     # 페이지용 기사 목록: 테마 순서 → 화제성 높은 순 → 최신순
     news = old_news + new_items
     add_real_urls(news)
+    retranslate_failed(news)
     order = {t["name"]: i for i, t in enumerate(THEMES)}
     news.sort(key=lambda n: (order.get(n["theme"], 99), -n.get("count", 1), -n["pub"]))
     save_news(news)
