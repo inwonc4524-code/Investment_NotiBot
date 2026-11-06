@@ -390,7 +390,8 @@
 "股市大跌要怪誰川普要怪民主黨勝選了",
 "20261106週五早報美股ai交易大崩盤費半崩1225台積電adr摔108台指夜盤破",
 "美股ai股挫咧等費半崩12那指陷修正區間台積電adr瀉近11",
-"美股挫台指期夜盤大跌2946點法人台股回測4萬點支撐證券"
+"美股挫台指期夜盤大跌2946點法人台股回測4萬點支撐證券",
+"美股挫台指期夜盤大跌2946點法人台股回測4萬點支撐"
 ],
 "count": 10,
 "theme": "🇺🇸 미국 S&P500",
@@ -476,7 +477,9 @@
 "美期中選舉引發ai投資疑慮美股收盤重挫費半大跌逾12",
 "期中選舉後政策生變引爆拋售潮美股全面重挫費半暴跌逾12創歷史性跌幅",
 "美期中選舉引發ai投資疑慮美股重挫費半下跌1225",
-"美股重挫川普歸咎民主黨期中選舉大勝"
+"美股重挫川普歸咎民主黨期中選舉大勝",
+"美股重挫川普歸咎民主黨期中選舉大勝全球財經全球",
+"民主黨期中勝選美股板塊洗牌日報"
 ],
 "count": 5,
 "theme": "🇺🇸 미국 S&P500",
@@ -563,7 +566,10 @@
 "美股盤前airbnb財報今晚登場科技股能否撐盤20261105",
 "美股盤後美股掀起藍色浪潮交易ai軟硬體美股四大指數漲跌互見1105豐雲學堂2026年11月",
 "美股重點新聞摘要2026年11月6日",
-"美股盤後藍色浪潮恐慌費城半導體指數創歷史第二大單日跌幅1106豐雲學堂2026年11月"
+"美股盤後藍色浪潮恐慌費城半導體指數創歷史第二大單日跌幅1106豐雲學堂2026年11月",
+"11月6日財經華爾街財經華爾街20261106",
+"盧駿匡美股資金輪動醫療消費股受捧20261106專家觀點盧駿匡",
+"盧駿匡美股資金輪動醫療消費股受捧20261106經濟"
 ],
 "count": 4,
 "theme": "🇺🇸 미국 S&P500",
@@ -624,7 +630,11 @@
 "美股道指瀉1833點ai股爆災納指重創55陷調整區",
 "美股道指收市瀉1833點納指挫552ai及晶片股重災",
 "美股收市丨ai股恐慌暴跌道指挫1833點納指瀉55美光瀉175sandisk插22",
-"美股收盤美股三大指數暴跌道指收市挫1833點納指急瀉55即時新聞新聞"
+"美股收盤美股三大指數暴跌道指收市挫1833點納指急瀉55即時新聞新聞",
+"美股收盤美股受ai股暴瀉拖累納指收市大挫55陷技術性調整道指大跌1833點標指跌43重點新聞新聞美股",
+"美股收盤美股三大指數暴跌道指收市挫1833點納指急瀉55全部新聞美股",
+"美股尾盤美股三大指數續向下納指跌45道指挫1533點全部新聞美股",
+"美股午盤美股三大指數午市續跌道指跌1271點納指挫43全部新聞美股"
 ],
 "count": 3,
 "theme": "🇺🇸 미국 S&P500",
@@ -658,6 +668,26 @@
 "run": "202611060155"
 },
 {
+"key": "美多州資料中心恐生變華爾街拋售ai股那斯達克進入修正全球財經全球",
+"keys": [
+"美多州資料中心恐生變華爾街拋售ai股那斯達克進入修正全球財經全球",
+"美多州資料中心恐生變華爾街拋售ai股那斯達克進入修正",
+"美多州資料中心恐生變華爾街拋售ai股那斯達克進入修正證券"
+],
+"count": 3,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "美多州資料中心恐生變華爾街拋售AI股、那斯達克進入修正| 全球財經| 全球",
+"show": "미국 데이터 센터는 월스트리트가 AI 주식을 매도하고 나스닥이 수정에 들어갈 수 있습니다 | 글로벌 금융 | 글로벌",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iLUVEd3Zackxrbl9jeFhCM2wyLTJGZHVVeUhBeWtvU0c2QXAwbUlnSHNwSmZGaDc2aVpPUGMtVC11M3BVVmY4SzkweEJzcUdi?oc=5",
+"pub": 1793920090.0,
+"time": "11/06 08:08",
+"run": "202611060533",
+"url": "https://udn.com/news/story/6811/9860953"
+},
+{
 "key": "美股ai股挫咧等費半崩12那指陷修正區間台積電adr瀉近11",
 "keys": [
 "美股ai股挫咧等費半崩12那指陷修正區間台積電adr瀉近11",
@@ -675,6 +705,25 @@
 "time": "11/06 07:36",
 "run": "202611060155",
 "url": "https://www.ctee.com.tw/news/20261106700371-430702"
+},
+{
+"key": "美股收盤費半暴跌123那斯達克陷修正晶片財報ai建設疑慮掀賣壓",
+"keys": [
+"美股收盤費半暴跌123那斯達克陷修正晶片財報ai建設疑慮掀賣壓",
+"美股收盤那指重挫552陷修正ai監管疑慮引爆晶片股賣壓",
+"美股收盤費半暴跌123那斯達克陷修正晶片財報ai建設疑慮掀賣壓全球財經全球"
+],
+"count": 3,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股收盤／費半暴跌12.3% 那斯達克陷修正 晶片財報 AI 建設疑慮掀賣壓",
+"show": "미국 증시 마감/페이하프 12.3% 급락, 나스닥 조정, 칩 실적 발표, AI 건설 우려로 매도 압력 촉발",
+"source": "經濟日報",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZUFhXVzBYTEk3V01rb1V4MHN6eExTZktSS21TVWVPVkZ3UEpiNnFqZGhrdHI2MVAtVmZlSjRnOFJKWC1OWHc4UnFBZE4zQk5BT0EwTnZmSnJIR2Qt0gFiQVVfeXFMUFZBSm9jd0d3cnFzdjEzRnBpd25lQlNXQmhJVnlwcFhDeFgzR3ZaU2NIYW1HVVZ4MmY4VGpvazhBX2tqM0gwanRvREcwMkkxaVNzckl1YVJ4d05FRUdXbnJrLVE?oc=5",
+"pub": 1793918089.0,
+"time": "11/06 07:34",
+"run": "202611060354",
+"url": "https://money.udn.com/money/story/123398/9860944"
 },
 {
 "key": "michaelsaylorsp500andnasdaqseesharpdeclinesbitcoindropsabout5percent",
@@ -774,6 +823,26 @@
 "url": "https://news.ebc.net.tw/news/business/579271"
 },
 {
+"key": "美國期中選舉後市場回歸平靜美股開盤走勢不一美股動態國際",
+"keys": [
+"美國期中選舉後市場回歸平靜美股開盤走勢不一美股動態國際",
+"美國期中選舉後市場回歸平靜美股開盤走勢不一證券",
+"美國期中選舉短評中國信託證券投顧歷史經驗美股後市相對正向"
+],
+"count": 3,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "美國期中選舉後市場回歸平靜 美股開盤走勢不一 | 美股動態 | 國際",
+"show": "미국 중간선거 이후 시장은 다시 진정되었고, 미국 증시는 엇갈린 추세로 출발 | 미국 주식 동향 | 국제적인",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5QWRWWF9qYkRVZTV1cmVhWUI1V2FwWGRXZ0s0cmtnUWs4SHZqLXpRQVlua1REYzNWaFlBTktEU1FlZDNRWWlNN3MtdEFRQ3I1bU1lQzFpUVBYQ1hpOGRoeGdlVllPNTBHVkRyQlFQU0g3V3BZbUMtTVY3QUlNUQ?oc=5",
+"pub": 1793891242.0,
+"time": "11/06 00:07",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/123398/9860655?from=edn_newestlist_rank"
+},
+{
 "key": "民主黨掌控美國國會華爾街銀行業迎向嚴格監管風暴",
 "keys": [
 "民主黨掌控美國國會華爾街銀行業迎向嚴格監管風暴",
@@ -790,6 +859,24 @@
 "time": "11/05 21:50",
 "run": "202611051615",
 "url": "https://hk.finance.yahoo.com/news/%E6%B0%91%E4%B8%BB%E9%BB%A8%E6%8E%8C%E6%8E%A7%E7%BE%8E%E5%9C%8B%E5%9C%8B%E6%9C%83-%E8%8F%AF%E7%88%BE%E8%A1%97%E9%8A%80%E8%A1%8C%E6%A5%AD%E8%BF%8E%E5%90%91%E5%9A%B4%E6%A0%BC%E7%9B%A3%E7%AE%A1%E9%A2%A8%E6%9A%B4-125033143.html"
+},
+{
+"key": "美國期中選舉變天歷史數據顯示標普500指數勝率逾9成",
+"keys": [
+"美國期中選舉變天歷史數據顯示標普500指數勝率逾9成",
+"歷史經驗美股選後看漲sp500指數勝率達91"
+],
+"count": 3,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "美國期中選舉變天 歷史數據顯示標普500指數勝率逾9成",
+"show": "미국 중간선거의 변화: 과거 데이터에 따르면 S&P 500 지수의 승률은 90% 이상입니다.",
+"source": "自由財經",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB2eDRGcHRzQUdYMG1Lc01WUGRkSkxGUm9jMXc1NUNRV1dPV3dXb2g4R3RFcjJOdVMtZEw1Tk5MUlEwLUl0cHYzSnFaamhmcFk0emJYZzVSMnJhMmZ4bFhv0gFkQVVfeXFMT2xzTW1DY0RnTTZ4TFhtWUllWF95YWFZbjIwZWpLQmdBN1NfbnpIdW1FVWdFYzljbFZjS1p5WFZlT1RvQUV5RWlQOFIzRENmaTd1QjdyS2QxVzZaeUNvTEhIV09pTQ?oc=5",
+"pub": 1793862063.0,
+"time": "11/05 16:01",
+"run": "202611051627",
+"url": "https://ec.ltn.com.tw/article/breakingnews/5630473"
 },
 {
 "key": "70년간중간선거후6개월간하락한번도없어",
@@ -832,7 +919,8 @@
 "keys": [
 "sp500gspcchartsdataandnews",
 "sp500gspcchartsdatanewsyahoofinance",
-"sp500gspcchartsdatanews"
+"sp500gspcchartsdatanews",
+"ingputs500millionofdatacenterloansupforsalebloombergnewsreports"
 ],
 "count": 3,
 "theme": "🇺🇸 미국 S&P500",
@@ -869,7 +957,9 @@
 "key": "美股急瀉馬斯克身家蒸發逾790億美元仍居全球首富",
 "keys": [
 "美股急瀉馬斯克身家蒸發逾790億美元仍居全球首富",
-"美股史詩級拋售馬斯克身家蒸發千億美元美國大選選情追蹤專題"
+"美股史詩級拋售馬斯克身家蒸發千億美元美國大選選情追蹤專題",
+"國際早班車丨美股史詩級拋售馬斯克身家蒸發千億美元",
+"美股史詩級拋售馬斯克身家蒸發千億美元"
 ],
 "count": 2,
 "theme": "🇺🇸 미국 S&P500",
@@ -921,6 +1011,62 @@
 "url": "https://www.rti.org.tw/news?uid=3&pid=242214"
 },
 {
+"key": "選完會漲華爾街看多失準美股恐再迎1350億美元期貨賣壓全球財經全球",
+"keys": [
+"選完會漲華爾街看多失準美股恐再迎1350億美元期貨賣壓全球財經全球",
+"選完會漲華爾街看多失準美股恐再迎1350億美元期貨賣壓美股動態國際"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "選完會漲？華爾街看多失準美股恐再迎1,350億美元期貨賣壓| 全球財經| 全球",
+"show": "선거 끝나면 올라갈까? 미국 주식에 대한 월스트리트의 낙관적인 전망으로 인해 선물 매도 압력이 1,350억 달러 더 늘어날 수 있습니다 | 글로벌 금융 | 글로벌",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qaHpYY2UzMkdhSXpScnR0eHY4eWgzdWVEYVpxQXFkOWZsVWVlNi1IenphTXU4ZkphOTgzNDVtWDNKQThIVnE5M1lsNHdlcnFI?oc=5",
+"pub": 1793933022.0,
+"time": "11/06 11:43",
+"run": "202611060530",
+"url": "https://udn.com/news/story/6811/9861317"
+},
+{
+"key": "美股消息面民主黨籲美ai建設全暫停聯準會官員贊成利率緩升國際",
+"keys": [
+"美股消息面民主黨籲美ai建設全暫停聯準會官員贊成利率緩升國際"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "《美股》消息面：民主黨籲美AI建設全暫停聯準會官員贊成利率緩升- 國際",
+"show": "\"미국 주식\" 뉴스: 민주당은 미국 내 AI 건설의 완전한 중단을 요구하고 있습니다. 연준 관계자들은 금리 인상 속도를 늦추는 데 동의했습니다.",
+"source": "旺得富理財網",
+"src_url": "https://wantrich.chinatimes.com",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hcDVfdHZTRHhHb1J3a3pFbTVoc0Q5MzdFVEdISjhoSjN4Mmg4eVNCM1p0aGtxRG9hZE5TVXRkYThXUnNWQXMzR3NaQy1ZU294R3ZXX19NcGl0QXVJaXVHM0kxMDRQcVM2U0E?oc=5",
+"pub": 1793931196.0,
+"time": "11/06 11:13",
+"run": "202611060533",
+"url": "https://wantrich.chinatimes.com/news/20261106900125-420201"
+},
+{
+"key": "dollypartonsmanagerdropslawsuitagainstsingersnephew",
+"keys": [
+"dollypartonsmanagerdropslawsuitagainstsingersnephew",
+"dollypartonsmanagermovestodropcomplaintaccusinglatesingersnephewofthreateningest"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Dolly Parton’s Manager Drops Lawsuit Against Singer’s Nephew",
+"show": "Dolly Parton의 매니저, 가수의 조카에 대한 소송 기각",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNazN0dGxRRDRiUFFBVHhwZXNuRVJEUXUyUjlSS0pQYVV2Mm8zQXZZSWxDVWJRR1R6Rzd2S1RJWkV2aE41MUNZai1DR0taeFEyMFFFNDlhUjdTNWhaamRLMWlhUkdjY3pwLWswYUNvZEFvYlAxTjZtZjRSdmVoVGRWUVJLNGZsNXBTZ0p3SUVGOWpDa3lrV2dSYjVPM3o3WjJ2aHNTQg?oc=5",
+"pub": 1793929020.0,
+"time": "11/06 10:37",
+"run": "202611060533",
+"url": "https://www.wsj.com/business/media/dolly-partons-manager-drops-lawsuit-against-singers-nephew-7c061a70"
+},
+{
 "key": "美股挫逾3至55晶片股ai相關股遭拋售",
 "keys": [
 "美股挫逾3至55晶片股ai相關股遭拋售",
@@ -954,6 +1100,25 @@
 "time": "11/06 10:28",
 "run": "202611060354",
 "url": "https://beincrypto.com/apple-stock-best-day-record-high/"
+},
+{
+"key": "美股掃瞄爆超大量ai股晶片股慘遭屠殺那指費半崩盤",
+"keys": [
+"美股掃瞄爆超大量ai股晶片股慘遭屠殺那指費半崩盤",
+"美股掃瞄爆超大量ai股晶片股慘遭屠殺那指費半崩盤上市櫃"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "《美股掃瞄》爆超大量！AI股、晶片股慘遭屠殺 那指、費半崩盤",
+"show": "\"미국 주식 스캐닝\"이 엄청난 양으로 폭발합니다! AI주, 칩주 몰락 나스닥, 페덱스 몰락",
+"source": "中時新聞網",
+"src_url": "https://www.chinatimes.com",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBhdklkT2FVYzI5S0hvTTRONWxLQ00tOUlreER4ZVlwNnhSX2gzaEVkbVNla3JtSmhnLWxLT3hoN2NjNlBDYk54b09oVnV4MUFYcGhyX0t2djNKZmFuSHA1bDM2TlVaWmlwVHRrREhR?oc=5",
+"pub": 1793927956.0,
+"time": "11/06 10:19",
+"run": "202611060533",
+"url": "https://www.chinatimes.com/realtimenews/20261106001557-260410"
 },
 {
 "key": "美股百年只有12家股王輝達讓位蘋果晨星但寬護城河可撐20年超額獲利",
@@ -1005,6 +1170,25 @@
 "pub": 1793924066.0,
 "time": "11/06 09:14",
 "run": "202611060354"
+},
+{
+"key": "美股期指續跌那指期貨挫13台股周五開盤面臨考驗",
+"keys": [
+"美股期指續跌那指期貨挫13台股周五開盤面臨考驗",
+"美股期指續跌那指期貨挫13台股周五開盤面臨考驗全球財經全球"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股期指續跌！那指期貨挫1.3% 台股周五開盤面臨考驗",
+"show": "미국 주가지수 선물은 계속해서 하락하고 있습니다! 나스닥 선물은 1.3% 하락했고, 대만 주식은 금요일 개장 시 시험대에 직면했습니다.",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04cF9UZ3c4SUQ2WkJBUDVLMEpBZGpBX0xiMm5uTGZrc0FnTjdjbWpaZTlfcmlPR1ZFaGtvTU1vSTVxTXpFWGlVWWRQYXhHTXVXUmhnNlh4Slp2cWdw0gFiQVVfeXFMUHJra1FaSDdMLWtUQ1UxTDczeDJxZUpvUGs2Umk2eDU3MHNZWGhQYW9rNDhfbUVyTUdudUkxbUpBcFVlU2RlTkRSRjk0MklUb0Q4UWpmMkRKRkhVaWJMQjFialE?oc=5",
+"pub": 1793923790.0,
+"time": "11/06 09:09",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/123398/9860992"
 },
 {
 "key": "nasdaqpostsbiggestdailydropin19monthsonfearsofairegulations",
@@ -1074,24 +1258,6 @@
 "time": "11/06 07:52",
 "run": "202611060155",
 "url": "https://cryptonews.net/news/analytics/33711186/"
-},
-{
-"key": "美股收盤費半暴跌123那斯達克陷修正晶片財報ai建設疑慮掀賣壓",
-"keys": [
-"美股收盤費半暴跌123那斯達克陷修正晶片財報ai建設疑慮掀賣壓",
-"美股收盤那指重挫552陷修正ai監管疑慮引爆晶片股賣壓"
-],
-"count": 2,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇭🇰 홍콩",
-"title": "美股收盤／費半暴跌12.3% 那斯達克陷修正 晶片財報 AI 建設疑慮掀賣壓",
-"show": "미국 증시 마감/페이하프 12.3% 급락, 나스닥 조정, 칩 실적 발표, AI 건설 우려로 매도 압력 촉발",
-"source": "經濟日報",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZUFhXVzBYTEk3V01rb1V4MHN6eExTZktSS21TVWVPVkZ3UEpiNnFqZGhrdHI2MVAtVmZlSjRnOFJKWC1OWHc4UnFBZE4zQk5BT0EwTnZmSnJIR2Qt0gFiQVVfeXFMUFZBSm9jd0d3cnFzdjEzRnBpd25lQlNXQmhJVnlwcFhDeFgzR3ZaU2NIYW1HVVZ4MmY4VGpvazhBX2tqM0gwanRvREcwMkkxaVNzckl1YVJ4d05FRUdXbnJrLVE?oc=5",
-"pub": 1793918089.0,
-"time": "11/06 07:34",
-"run": "202611060354",
-"url": "https://money.udn.com/money/story/123398/9860944"
 },
 {
 "key": "散戶恐慌拋售單日淨賣出358億美元美股自2020年以來最大賣壓",
@@ -1192,7 +1358,8 @@
 "美股走勢丨道指早段升逾200點納指跌逾1",
 "美股走勢丨道指飆逾1500點微軟及亞馬遜升7",
 "美股走勢丨道指跌幅擴至1593點納指墮技術調整區",
-"美股動向納指盤中大挫逾5道指跌逾1200點英偉達急瀉逾8"
+"美股動向納指盤中大挫逾5道指跌逾1200點英偉達急瀉逾8",
+"美股動向納指盤中大挫逾5道指跌逾1200點英偉達急瀉逾8全部新聞美股"
 ],
 "count": 2,
 "theme": "🇺🇸 미국 S&P500",
@@ -1205,6 +1372,23 @@
 "time": "11/06 01:11",
 "run": "202611051615",
 "url": "https://www.hkej.com/instantnews/international/article/4559467/%E7%BE%8E%E8%82%A1%E8%B5%B0%E5%8B%A2%E4%B8%A8%E7%B4%8D%E6%8C%87100%E6%9B%BE%E7%80%896.4%25+%E8%B2%BB%E5%9F%8E%E5%8D%8A%E5%B0%8E%E9%AB%94%E6%8C%87%E6%95%B8%E5%9B%9E%E8%90%BD%E9%80%BE11%25"
+},
+{
+"key": "美股早盤藍色海嘯掀ai大逃殺潮費半崩7",
+"keys": [
+"美股早盤藍色海嘯掀ai大逃殺潮費半崩7"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股早盤／「藍色海嘯」掀AI大逃殺潮 費半崩7%",
+"show": "미국 주식 조기 거래/\"블루 쓰나미\"로 AI 배틀 로얄 열풍 시작, 수수료 7% 인하",
+"source": "經濟日報",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIenNwMlZVeVNaSDM4elNveW5LaGJKa0FJaFhGTjdSWlhUUDY1N0kzZm9BNVJvOWdMUDJpdTh3Zy14OHZWY1VDMWp4RV9QVVFRUGFyZGNlbkU2R2ln0gFiQVVfeXFMUGI1eXlTZE1ibEZNSVAxVFJacWlWc0J6Z1M5RU5aUEhwTkdJZEllcHhQTF9Gc3pqTklQUkxCTWdodTl6bm85T1FnS09pUi12eG5HQTlBT1J0RnRDaEYtd2RoaEE?oc=5",
+"pub": 1793891395.0,
+"time": "11/06 00:09",
+"run": "202611051627",
+"url": "https://money.udn.com/money/story/123398/9860666"
 },
 {
 "key": "美股開市納指頹勢高通插水",
@@ -1258,6 +1442,24 @@
 "미국뉴욕증시전망나스닥선물06하락엔비디아퀄컴약세다우는상승",
 "뉴욕증시프리뷰ai규제우려에나스닥선물하락다우는390p상승"
 ]
+},
+{
+"key": "真的不妙標普500驚見43年罕見警訊歷史6次有5次出事",
+"keys": [
+"真的不妙標普500驚見43年罕見警訊歷史6次有5次出事"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "真的不妙？標普500驚見43年罕見警訊 歷史6次有5次出事",
+"show": "정말 나쁜가요? S&P 500은 43년 만에 보기 드문 경고 신호를 보고 충격을 받았다. 역사상 6번 중 5번은 그런 일이 일어났습니다.",
+"source": "自由財經",
+"src_url": "https://ec.ltn.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mVkZHbGpTSFZCY3FlYzFtUDhMandlT1gtRmgzcHp3YVpkWkE3c292VVNhNjhidnlBVzUzek84NGpMNW1JemlTVGp5VC10WVZaaVpLZjJTd0JpMk82enBZ0gFkQVVfeXFMTjBBOTFQYlByNDVFanQ2NHJjUmY5dHZOUWItSDcwOTk3R2g1NHJyOEdRUGNVSnNOcXJFTVU2WGhhaEhDS2F2MGFIemxjXzJtTEI1NHB5WUdMUDFEZlg0TnNWOXNzeA?oc=5",
+"pub": 1793881823.0,
+"time": "11/05 21:30",
+"run": "202611060533",
+"url": "https://ec.ltn.com.tw/article/breakingnews/5630950"
 },
 {
 "key": "these6stocksmakeupabigshareofthesp500",
@@ -1327,6 +1529,25 @@
 "time": "11/05 15:59",
 "run": "202611051615",
 "url": "https://hk.finance.yahoo.com/news/%E5%B7%9D%E6%99%AE%E7%97%9B%E5%A4%B1%E5%9C%8B%E6%9C%83%E5%8F%8D%E8%80%8C%E6%9C%89%E6%88%B2-%E9%89%85%E4%BA%A8%E8%B2%B7%E5%9F%BA%E9%87%91%E6%8F%AD%E9%81%B8%E5%BE%8C%E7%BE%8E%E8%82%A1%E4%B8%8A%E6%BC%B2%E5%8B%9D%E7%8E%87%E9%AB%98%E9%81%949%E6%88%90%E4%BB%A5%E4%B8%8A-060855510.html"
+},
+{
+"key": "川普痛失國會美股反而有戲美股選後上漲勝率逾9成",
+"keys": [
+"川普痛失國會美股反而有戲美股選後上漲勝率逾9成",
+"川普痛失國會美股反而有戲鉅亨買基金揭美股選後上漲勝率逾9成"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "川普痛失國會，美股反而有戲？ 美股選後上漲勝率逾9成",
+"show": "트럼프는 의회에서 패했지만 미국 주식은 잘 나가고 있습니까? 미국 증시, 대선 후 상승, 승률 90% 돌파",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4T3J1NDZSSVpsZjJMdGhiRlQ3VlQ0V3RBMDhzaUE3cjVCTVhiX0QtcjFIQ0pwdGFRaUprMHVWSW9xV1dfSnR3bGFEWmFjak9Cc1NpN1Z6LVBOUdIBX0FVX3lxTE1VdlI5d09ZUFVrQnRZMFB4YWJEZ28tS2pKbzR2bTZpV1lQZ1NiLU9fcHBIaE9zWDZCa0I3eE5WV3ZTZkVMbFJIcTVidm9WQktjWURvZ2w1OWJEaDN6bHBN?oc=5",
+"pub": 1793861221.0,
+"time": "11/05 15:47",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5618/9859573"
 },
 {
 "key": "蘋果市值重返美股第一ai投資降溫成利多民主黨藍色浪潮意外成助力",
@@ -1418,6 +1639,24 @@
 "url": "https://www.barrons.com/articles/stanley-black-decker-earnings-stock-price-32a92ca0"
 },
 {
+"key": "受美股暴跌拖累港股一度跌過400多點",
+"keys": [
+"受美股暴跌拖累港股一度跌過400多點"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "受美股暴跌拖累 港股一度跌過400多點",
+"show": "미국 증시 폭락에 끌려 홍콩 증시는 한때 400포인트 넘게 하락했다.",
+"source": "TVB",
+"src_url": "https://news.tvb.com",
+"link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQRmZiaGMtd29lVjdKSTVJc0JUeEtHSEgxcE9wV2x3d3pacWNqZ0toVG04N2VDQ09EM3FvVkdpMVhORzJCS0d5TWRETEdaMWQtUVJPVmNlRXU3aDZxSFNPYmI2YTZvY1lzX3pYejE1UXhfY3g5WXhpZEREcU5LNm1UeUtqRmZCTjdON0Nxa25kMTZoVi12N2UxeDMwMFdydzNGZ3JtLU94QnJVSHJnOG56LW9iamxkRUVwMmlGR0dFeTE4UjRyZ1hYUFZCVjl5NS1xSXRYZEpVUGQwWGxpLXRnZXZGX19UUThuVERWX2VERzM0UEtsNTg0VWNuc2FCREk?oc=5",
+"pub": 1793942520.0,
+"time": "11/06 14:22",
+"run": "202611060533",
+"url": "https://news.tvb.com/tc/1204912-%E5%8F%97%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C%E6%8B%96%E7%B4%AF%E6%B8%AF%E8%82%A1%E4%B8%80%E5%BA%A6%E8%B7%8C%E9%81%8E400%E5%A4%9A%E9%BB%9E"
+},
+{
 "key": "美股狂潟華爾街恐慌分析師我們都被電話淹沒了",
 "keys": [
 "美股狂潟華爾街恐慌分析師我們都被電話淹沒了"
@@ -1471,6 +1710,24 @@
 "url": "https://www.cna.com.tw/video/globalview/4357276"
 },
 {
+"key": "printeditionwallstreetjournal",
+"keys": [
+"printeditionwallstreetjournal"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Print Edition | Wall Street Journal",
+"show": "인쇄판 | 월스트리트저널",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtV0lMSWxoOFZ4X3lieUM0aS0zOF93dzFJYXpvalRGX0ZFUTdYMHhiUVF4ZUx3NGVTS3ZoNjQ4NUdYMVlSaVNCdWZ1czIyQTh1WnNSMFlfRlRYMG9lbW9ScnBn?oc=5",
+"pub": 1793940514.0,
+"time": "11/06 13:48",
+"run": "202611060533",
+"url": "https://www.wsj.com/print-edition/20261105/frontpage"
+},
+{
 "key": "撈美股先答三條問題唐牛",
 "keys": [
 "撈美股先答三條問題唐牛"
@@ -1487,6 +1744,58 @@
 "time": "11/06 13:40",
 "run": "202611060530",
 "url": "https://www.stheadline.com/stock-market/3634156/%E6%92%88%E7%BE%8E%E8%82%A1%E5%85%88%E7%AD%94%E4%B8%89%E6%A2%9D%E5%95%8F%E9%A1%8C%E5%94%90%E7%89%9B"
+},
+{
+"key": "코스피폭락이제시작일까두렵다5000선붕괴에개미아우성",
+"keys": [
+"코스피폭락이제시작일까두렵다5000선붕괴에개미아우성"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇰🇷 한국",
+"title": "“코스피 폭락, 이제 시작일까 두렵다”…5000선 붕괴에 개미 아우성",
+"show": "“코스피 폭락, 이제 시작일까 두렵다”…5000선 붕괴에 개미 아우성",
+"source": "매일경제",
+"src_url": "https://www.mk.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ScVY3a0pTY3Qxb1cyNVNlc04tQlVVdXYtV1A5d0lZblozQk1EYm01RmxnYlQ1MmI1Nnp6bUs0MWtLYV9sT04yRnZRd2lyUUxSc0E?oc=5",
+"pub": 1793938991.0,
+"time": "11/06 13:23",
+"run": "202611060533"
+},
+{
+"key": "코스피급락에증권가과도한반응데이터센터리스크제한적판단",
+"keys": [
+"코스피급락에증권가과도한반응데이터센터리스크제한적판단"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇰🇷 한국",
+"title": "코스피 급락에 증권가 “과도한 반응”…데이터센터 리스크 제한적 판단",
+"show": "코스피 급락에 증권가 “과도한 반응”…데이터센터 리스크 제한적 판단",
+"source": "매일경제",
+"src_url": "https://www.mk.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04VkJwVFNHYUhRV1Q5bHhEdFFXcnVqaDR6OENJelRQMm0xLW5UUTNWQkc3U3RoZFEyRVRQeFRueEJNZ2lyQkhPbWRtY2YyMXV4ZEE?oc=5",
+"pub": 1793938568.0,
+"time": "11/06 13:16",
+"run": "202611060533"
+},
+{
+"key": "asianstocksbraceforselloffasairoutdeepensmarketswrap",
+"keys": [
+"asianstocksbraceforselloffasairoutdeepensmarketswrap"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Asian Stocks Brace for Selloff as AI Rout Deepens: Markets Wrap",
+"show": "AI 패배가 심화됨에 따라 아시아 주식은 매도에 대비합니다: 시장 마무리",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX2RxUlFvNmxoUFFUd2pmeUk3MTJoSkNvTkxwOS1TUlNFd1hDZkNZZ0huMHIxQXhDeWtpWVdVcmJGcDQwdVcwMFJTaHg2Q040OTBCZm5Ja2doTnpQcTh1OFFSdDNucHFXVzFRR2EyTEJfa3BRWDFUY19lcFNNXzRmR2F2UEw4dlVOUW1xSnFqNmI1Wmtr?oc=5",
+"pub": 1793938260.0,
+"time": "11/06 13:11",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/articles/2026-11-05/stock-market-today-dow-s-p-live-updates"
 },
 {
 "key": "美股股災環球存能源ai兩大風險余偉文料第四季是難的一季",
@@ -1609,6 +1918,25 @@
 "url": "https://www.ctee.com.tw/news/20261106700825-430201"
 },
 {
+"key": "英偉達usnvda收跌926美股五大市值股份收市表現美股焦點新聞美股",
+"keys": [
+"英偉達usnvda收跌926美股五大市值股份收市表現美股焦點新聞美股",
+"英偉達usnvda開跌240美股五大市值股份開市表現"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "英偉達(US.NVDA)收跌9.26%，美股五大市值股份收市表現 | 美股焦點 - 新聞 - 美股",
+"show": "엔비디아(US.NVDA)는 9.26% 하락해 미국 증시 시가총액 상위 5개 종목의 마감 실적을 마감했습니다. 미국 주식 포커스 - 뉴스 - 미국 주식",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQTmFPdS01YmNQWkI2SVl1WmMwUnNNUS1ScGdYcWhfUnVINW90dkhXWnpLcEFkWGtEYkFFeC04TUpBamtUZG1TM1JhUVMtQmZkRFFKRVhZdVo2SllWZWJ0MG9QODZyRWlKcHVHdzFMWi1pN3huWk84Mi1rLXNqN1l2TkFVdzl2c0NnZXYxeldJSjIzbXJjdGFZcXdFRUlrWUUwS0RHaHF3TnVBOGxiMm14RFl5MHVHcWFjU2hUcGZxRDlLTEM5T2RYUUNZajBRVGFldXQ4bllacXVFY2RSdms3NWpGQndtUWpSUU04MFlCUG5fQWxSNzRMOEhtRW9helhQM2d6RlJQY3RVcHdtVXZ3cTRhc0c1Smp4LVZxajR1a3VjakVtT3A5TTdFSnpBR21FZ3dScm9EYXRvX2V1QktTYTZKaW5UMzdDUEdiMDVyLW94TEhXdzZCaDhIZnZIc2ZpOFY1MGFJcXpCYmE5NFhjdXlYODhMSmx3UkY5ZUNuUHNkWENodFNGUFA3YXR0d25iczZCWDdRNkVoMEk?oc=5",
+"pub": 1793934960.0,
+"time": "11/06 12:16",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/415706/%E8%8B%B1%E5%81%89%E9%81%94%28US.NVDA%29%E6%94%B6%E8%B7%8C9.26%25%EF%BC%8C%E7%BE%8E%E8%82%A1%E4%BA%94%E5%A4%A7%E5%B8%82%E5%80%BC%E8%82%A1%E4%BB%BD%E6%94%B6%E5%B8%82%E8%A1%A8%E7%8F%BE?topic=%E7%BE%8E%E8%82%A1%E7%84%A6%E9%BB%9E"
+},
+{
 "key": "期中選舉結果引發對人工智慧監管焦慮美股暴跌紐約時報中文網",
 "keys": [
 "期中選舉結果引發對人工智慧監管焦慮美股暴跌紐約時報中文網"
@@ -1643,6 +1971,24 @@
 "url": "https://nypost.com/2026/11/05/us-news/trump-pins-us-stock-market-plunge-on-democrats-wiping-out-gop-in-midterms-sad-thing-to-watch/"
 },
 {
+"key": "japansnikkeibreaksbelowkey60000levelonaiselloff",
+"keys": [
+"japansnikkeibreaksbelowkey60000levelonaiselloff"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🌍 세계",
+"title": "Japan’s Nikkei Breaks Below Key 60,000 Level on AI Selloff",
+"show": "일본 닛케이, AI 매도세 6만선 아래로 하락",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVW5hQzNwU0VSZVBHUnhVeTZ3RjVZUk1Xd0JsUnN2aG5FVlY3UkZ0emEtT0p5dkVYUXlmUmpOYXZ5YkRpdGhfdGJ0MjVNdmVYYUx4S3JPQ0tIUU1WUjlmdUNFVTdBVXMzT0R5ekY4TlRCdDFKZkpXS2lvYXozZ0lKeEZMMnVoU0dMTEZkN1VqLUhLYWtLeGJNeDJmZkl3ZFQxVm04MllrMW5UbENIMkE?oc=5",
+"pub": 1793934134.0,
+"time": "11/06 12:02",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/articles/2026-11-06/japan-s-nikkei-breaks-below-key-60-000-level-on-ai-selloff"
+},
+{
 "key": "ai股慘遭血洗資料中心夢生變華爾街急算nvidia便宜背後的風險價碼",
 "keys": [
 "ai股慘遭血洗資料中心夢生變華爾街急算nvidia便宜背後的風險價碼"
@@ -1658,6 +2004,24 @@
 "time": "11/06 12:00",
 "run": "202611060354",
 "url": "https://cmnews.com.tw/article/cmoneyairesearcher-36991a7d-d98e-11f1-acbd-cb1e0d80da16"
+},
+{
+"key": "globaltechstocksplungeasusmidtermsaddtoaislowdownfears",
+"keys": [
+"globaltechstocksplungeasusmidtermsaddtoaislowdownfears"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🌍 세계",
+"title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+"show": "미국 중간고사로 인해 AI 둔화 우려가 가중되면서 글로벌 기술주 급락",
+"source": "BBC",
+"src_url": "https://www.bbc.com",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XdkJGRE8yWFZFWXBDYzA4WXRyM1doblZVak9PRjFMNGszT1NCSEx0UEQ1QWduQjlvZ1Bnd21qcEc5MDU3cjRxRXFtTV8xd3BPdURJaENhUDdUMms?oc=5",
+"pub": 1793933844.0,
+"time": "11/06 11:57",
+"run": "202611060533",
+"url": "https://www.bbc.com/news/articles/cmn04705rd8jo"
 },
 {
 "key": "서학개미뉴욕증시급락에하루13조원넘게손실추정테슬라10엔비디아9속슬무려38넘게폭락",
@@ -1676,22 +2040,39 @@
 "run": "202611060354"
 },
 {
-"key": "選完會漲華爾街看多失準美股恐再迎1350億美元期貨賣壓全球財經全球",
+"key": "속보증시급락에신용융자담보비율유지의무3개월면제9일부터시행",
 "keys": [
-"選完會漲華爾街看多失準美股恐再迎1350億美元期貨賣壓全球財經全球"
+"속보증시급락에신용융자담보비율유지의무3개월면제9일부터시행"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "選完會漲？華爾街看多失準美股恐再迎1,350億美元期貨賣壓| 全球財經| 全球",
-"show": "선거 끝나면 올라갈까? 미국 주식에 대한 월스트리트의 낙관적인 전망으로 인해 선물 매도 압력이 1,350억 달러 더 늘어날 수 있습니다 | 글로벌 금융 | 글로벌",
-"source": "UDN",
-"src_url": "https://udn.com",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qaHpYY2UzMkdhSXpScnR0eHY4eWgzdWVEYVpxQXFkOWZsVWVlNi1IenphTXU4ZkphOTgzNDVtWDNKQThIVnE5M1lsNHdlcnFI?oc=5",
-"pub": 1793933022.0,
-"time": "11/06 11:43",
-"run": "202611060530",
-"url": "https://udn.com/news/story/6811/9861317"
+"region": "🇰🇷 한국",
+"title": "[속보] 증시 급락에 신용융자 담보비율 유지 의무 3개월 면제…9일부터 시행",
+"show": "[속보] 증시 급락에 신용융자 담보비율 유지 의무 3개월 면제…9일부터 시행",
+"source": "매일경제",
+"src_url": "https://www.mk.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9iazQyTlNkVU9TeWJLX09STnRibXhtbzU2YXJ4M0FKakxlNVJybmZpSExZTU0zeWR4azB3cVN0YXhRRXgzOXZGcTRCS1IteVduU1E?oc=5",
+"pub": 1793933092.0,
+"time": "11/06 11:44",
+"run": "202611060533"
+},
+{
+"key": "asianbenchmarksdeclineafteraiworriessendwallstreettumbling",
+"keys": [
+"asianbenchmarksdeclineafteraiworriessendwallstreettumbling"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Asian benchmarks decline after AI worries send Wall Street tumbling",
+"show": "AI 우려로 월스트리트가 폭락한 후 아시아 벤치마크 하락",
+"source": "AP News",
+"src_url": "https://apnews.com",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMUlicGFDcFJmWW5nQnZ3R2wzY25vSzFIczhmanhycWtxaDVsOGhrSW9sUkFoN29MaTJKX1pKbmEwSl8wVVZhX1RpZ0JFTUMycHQwSXo1ejh0YVpSRkJkdkxZTVBUQ2dySDFFYlhBSEhZTFJpeElqZXU5MEJQQURwb0RHZU16YV8tczNyUVo0NF8?oc=5",
+"pub": 1793932800.0,
+"time": "11/06 11:40",
+"run": "202611060533",
+"url": "https://apnews.com/article/markets-japan-nikkei-oil-ai-bba6f0bf9035a6e6b1c4fef3e8230b89"
 },
 {
 "key": "usstockmarketplummetsamidmidtermelectionsaisectorhith",
@@ -1711,9 +2092,46 @@
 "url": "https://www.gurufocus.com/news/9177771/us-stock-market-plummets-amid-midterm-elections-ai-sector-hit-hard"
 },
 {
+"key": "wallstreettraderswrongfootedafterbullishequitycalls",
+"keys": [
+"wallstreettraderswrongfootedafterbullishequitycalls"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Wall Street Traders Wrong-Footed After Bullish Equity Calls",
+"show": "강세 주식 통화 이후 월스트리트 거래자들은 잘못된 입장을 취했습니다.",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVHpzQUh1bVFZLVJfYWZ6b0lHZzQyZnFSRXlRSkcycUtzX0JTUGNlRmswbGEwYVp0czUxTU9uUXBJZWFIUm1Ed25QOFdFNzVOeE1hMkRHNG5JVHZyTS15RDZxaERrelVKY2dYLWYzZ0JDYm5tMHlJbU13dkRSRHZvbWdLZlJ0a3Y0cEctTFdQNGtMbG1lN19nRzRMWjBUd2FoQ05mZlZYRFRUNU1LSkQ4?oc=5",
+"pub": 1793932500.0,
+"time": "11/06 11:35",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-traders-wrong-footed-after-bullish-equity-calls"
+},
+{
+"key": "3chargedinschemetouseaitoimpersonateceosandattorneystosteal129million",
+"keys": [
+"3chargedinschemetouseaitoimpersonateceosandattorneystosteal129million"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "3 charged in scheme to use AI to impersonate CEOs and attorneys to steal $129 million",
+"show": "3명은 AI를 이용해 CEO와 변호사를 사칭해 1억 2900만 달러를 훔친 혐의로 기소됐다.",
+"source": "AP News",
+"src_url": "https://apnews.com",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGp0Vmt2N095WHZQZ1NLZnBMUGJpS09iWk4tbVB5QjFqbWdoYUhwUkJpbkE4STVlZVdMSXhOb1J2OS1SSW1xbWVxSkhrNjNocmZVWGdraTI2cnFkNzdlQVFhd0VNdWFlWkxzWFZzYW5Gend3c0QxZFc2TGVLMEpuMkFJTlB1MDlpMWstQWFBUkVRYXR0dGhjVjd1WFBPN2NiMHk5X1BPRERxMW50SEE?oc=5",
+"pub": 1793932380.0,
+"time": "11/06 11:33",
+"run": "202611060533",
+"url": "https://apnews.com/article/artificial-intelligence-impersonation-theft-fraud-c348a0c96e941214e56f8d923d03fc4b"
+},
+{
 "key": "華爾街大錢回歸前三項推動力美國大選政經分析文章專題",
 "keys": [
-"華爾街大錢回歸前三項推動力美國大選政經分析文章專題"
+"華爾街大錢回歸前三項推動力美國大選政經分析文章專題",
+"華爾街大錢回歸前三項推動力"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -1729,10 +2147,29 @@
 "url": "https://www.hkej.com/features/article/%E7%BE%8E%E5%9C%8B%E5%A4%A7%E9%81%B8%E6%94%BF%E7%B6%93%E5%88%86%E6%9E%90%E6%96%87%E7%AB%A0/3872032857/%E8%8F%AF%E7%88%BE%E8%A1%97%E5%A4%A7%E9%8C%A2%E5%9B%9E%E6%AD%B8%E5%89%8D%E4%B8%89%E9%A0%85%E6%8E%A8%E5%8B%95%E5%8A%9B"
 },
 {
+"key": "blueowlseesgainsaselectionresultslimitaicomputesupply",
+"keys": [
+"blueowlseesgainsaselectionresultslimitaicomputesupply"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🌍 세계",
+"title": "Blue Owl Sees Gains as Election Results Limit AI Compute Supply",
+"show": "Blue Owl은 선거 결과로 AI 컴퓨팅 공급이 제한되면서 이익을 얻었습니다.",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVm4zTm9SOUJPMDhucVpQSnNpb0pTY2RRU3NlcUx5ejk2blZXNzhUaGRGLW5kSklabkRfZUJDLXIzMFZPWllrQW1jQzV4MGxVWGtjREktRTNLOHdlX3l2T1ZDQTZla3NLVzhPMk5lWEZqWGZUa0I1c05oOW9aSFhfZ3lPaFl0dzJRUU0zMF9BdHF6WGZMTzF0MFRUWFc4OUY3X21vN080dHRKNFlHdnVLMFVKSTI?oc=5",
+"pub": 1793931300.0,
+"time": "11/06 11:15",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/articles/2026-11-05/blue-owl-sees-gains-as-election-results-limit-ai-compute-supply"
+},
+{
 "key": "外圍經濟美股ai板塊恐慌蔓延亞洲日韓股齊跌入熊市專題透視新聞",
 "keys": [
 "外圍經濟美股ai板塊恐慌蔓延亞洲日韓股齊跌入熊市專題透視新聞",
-"盤前攻略美股急挫ai板塊成重災區恒指跟車太貼回吐難免專題透視新聞"
+"盤前攻略美股急挫ai板塊成重災區恒指跟車太貼回吐難免專題透視新聞",
+"外圍經濟美股ai板塊恐慌蔓延亞洲日韓股齊跌入熊市全部新聞美股"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -1818,6 +2255,24 @@
 "url": "https://news.tvbs.com.tw/world/4046597"
 },
 {
+"key": "japanbondsrallyasglobalriskoffmoveboostshavendemand",
+"keys": [
+"japanbondsrallyasglobalriskoffmoveboostshavendemand"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🌍 세계",
+"title": "Japan Bonds Rally as Global Risk-Off Move Boosts Haven Demand",
+"show": "글로벌 리스크 오프 조치로 인해 피난처 수요가 증가함에 따라 일본 채권 반등",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWmJyTTlSNWdpa2E0WjU1VUdBOG5KNzVFem1CWVgwUHE3dVR4V3VXYjZBaTdZeE9Ndk80MDc4WVlHb0JjcmxEQXBfeEo0ZTRTWUFYWGJuaFBqUEJFX0NjVkxQUGdublYxVGo3UW5YM0hhbnd6a3ZXVnRIU2tBRXREenRUeVpfTW95ZmF0Q1VFM0FfdG41ZnJnUTE1a3N3Nkx2aHlqZ1luQVFoQmdsS24xSXpn?oc=5",
+"pub": 1793928900.0,
+"time": "11/06 10:35",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/articles/2026-11-05/japan-bonds-rally-as-global-risk-off-move-boosts-haven-demand"
+},
+{
 "key": "ai狂潮變大逃殺美科技股一夜蒸發23兆美元華爾街擔憂獲利預期恐重估財經",
 "keys": [
 "ai狂潮變大逃殺美科技股一夜蒸發23兆美元華爾街擔憂獲利預期恐重估財經"
@@ -1868,6 +2323,62 @@
 "time": "11/06 10:23",
 "run": "202611060155",
 "url": "https://www.knews.com.tw/news/2187C975C596EF2A664BE5100B9A52F4"
+},
+{
+"key": "中期選舉特朗普發帖美股暴跌是笨蛋民主黨人造成全部新聞美股",
+"keys": [
+"中期選舉特朗普發帖美股暴跌是笨蛋民主黨人造成全部新聞美股",
+"中期選舉華爾街億萬富豪對民主黨中期選舉大勝表態全部新聞美股"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "中期選舉 | 特朗普發帖：美股暴跌是「笨蛋民主黨人」造成 | 全部 - 新聞 - 美股",
+"show": "중간선거 | 트럼프 게시물: 미국 주식 급락은 \"멍청한 민주당원들\"에 의해 발생 | 전체 - 뉴스 - 미국 주식",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMimgNBVV95cUxPTGlUS0dQaGtKeTVHSEVxWGE2alhKSlZhMWREOEl0Qm5yNGthcDQyYU1UbW1qN1JKM1hFRER5eGVLSm5vdHRSRXl0NWhfa1AxZE1rQ0ZkNURCQzl2dHdUMGt2QVMtTXdHem1jUWpudnpsRlRhdTVHajZvdzZJbEJDZkxSYWI3QW5DUEZ3RG5RRmtfSGxnT3NzVUZYWHlLcXlOdTZBX3kxNldCeS1iSW1TR0ZvZlhMZEF1b3NEdTN4YlAxUmlyRDFST19JdVNRSVVpWlRCU09vY2R3ek5UM21WSmlELW5XNjVSVmtULWhuSEtFMDd3dzBreTJ2VXp0WWxkTEhuV1lYaW1QMXJJWkVvLU9mWjktZmdTOU5mWlY0a0kxSDRZaVB2SVYyaW5ZVEVaNFplbXZDbm1wcXJIZkRDMXY4UTVmZGo5NzkwRF9WVkxDcHliVFRzTEdpclMxYnBkQjBES3BWLVNXUVV6X3U3VUM2cF9QVTFSdlhTVHJOYXN4bFlpTHcydko0aVhEczJld0YxOTB1dk1wUQ?oc=5",
+"pub": 1793927700.0,
+"time": "11/06 10:15",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/415731/%E4%B8%AD%E6%9C%9F%E9%81%B8%E8%88%89+%7C+%E7%89%B9%E6%9C%97%E6%99%AE%E7%99%BC%E5%B8%96%3A%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C%E6%98%AF%E3%80%8C%E7%AC%A8%E8%9B%8B%E6%B0%91%E4%B8%BB%E9%BB%A8%E4%BA%BA%E3%80%8D%E9%80%A0%E6%88%90"
+},
+{
+"key": "有圖有勢半導體股恐慌拋售美股納指暴瀉5hsi夜期回吐384點持續更新香港經濟日報",
+"keys": [
+"有圖有勢半導體股恐慌拋售美股納指暴瀉5hsi夜期回吐384點持續更新香港經濟日報"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "有圖有勢｜半導體股恐慌拋售 美股納指暴瀉5% HSI夜期回吐384點（持續更新）|香港經濟日報",
+"show": "그림과 잠재력 | 반도체주 패닉 매도, 美 증시 나스닥 5% 급락 HSI 밤새 384포인트 하락(지속 업데이트) | 홍콩경제신문",
+"source": "香港經濟日報HKET",
+"src_url": "https://invest.hket.com",
+"link": "https://news.google.com/rss/articles/CBMizANBVV95cUxOWGJDMWM5VTR1SjNsNkpZck8wZE5wQmFEWm1SZmVXYUl2bnVEU2ZyV1BrWWVHUlJIMl9qNm00MFlkTktrU0YtUXR3YnNEV0VWTGFkcldvUl9iaGNwZU5qNzFfZDNGeDloRFVCeWI5eld1V1RmWXIyUHo1U2FTVU53NzlmSmxZZUtzVEZDbFdLamJyV2hRZl9UbW5jRDVYU1RXUDd5eDJUdDBGb18yb204U0VlZlBwWWgwalgzOE1TVUVkV2lPUnhLbUxEZ3FNbXJiTWs5MGxmOHJibmt5MUR4SDNOQjFwRUJCa2dGVnZhUU5kWE94UUllMXZwZVItWU5kcE03aWlUMjdnRUhIVGUwZzAxdVdyZGZlZndsbzV4ZzByR0RpZ1hUeEFJVHdWbzcxQnh6N0c2WUxJaE9XZFJnSjVHVmU0WmdRQWpBVzRQMjc1WTYyNThnUkJLR2tPQXBVN0hXemJNRnhIa0RSZ21zbEdBM1ZfdkY2MGM1ZThubHBXRkt1cHJKV29pZG1hb25RelVBdzZtUWtBOVN6V1Rfbm1CZWVFaEhZM0ZhbEpvT1pKVFAzZ0FxTGJQcVRsRlktZElEX19UdXlUNkJL?oc=5",
+"pub": 1793927527.0,
+"time": "11/06 10:12",
+"run": "202611060533",
+"url": "https://invest.hket.com/article/4220752/%E6%9C%89%E5%9C%96%E6%9C%89%E5%8B%A2%EF%BD%9C%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%82%A1%E6%81%90%E6%85%8C%E6%8B%8B%E5%94%AE%20%E7%BE%8E%E8%82%A1%E7%B4%8D%E6%8C%87%E6%9A%B4%E7%80%895-%20HSI%E5%A4%9C%E6%9C%9F%E5%9B%9E%E5%90%90384%E9%BB%9E%EF%BC%88%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0%EF%BC%89"
+},
+{
+"key": "美股股災震散亞洲市韓股暴瀉8觸熔斷恒指黑期挫近400點",
+"keys": [
+"美股股災震散亞洲市韓股暴瀉8觸熔斷恒指黑期挫近400點",
+"美股股災震散亞洲市韓股暴瀉8觸熔斷恒指低開近400點"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股股災震散亞洲市！ 韓股暴瀉8%觸熔斷 恒指黑期挫近400點",
+"show": "미국 주식시장 붕괴가 아시아 시장을 뒤흔들었다! 한국 증시는 8% 급락하며 서킷브레이커에 부딪혔다. 항셍지수는 암흑기 동안 거의 400포인트 하락했다.",
+"source": "香港01",
+"src_url": "https://www.hk01.com",
+"link": "https://news.google.com/rss/articles/CBMikwNBVV95cUxPTF91ZjFTYUtnWlp3c1dxTWRobi1BTTJQcTd4NEc3LVE5VnRoMEh1V0F2UEE1X0Y0clpfS2QzcG9mSzh2Q0lTUUZ0LUQteXFRLTNWS0hUM1ppcktzNVFLa0JYWDIzNVViN0tVNDFZR3RsYW11c2dyRDBRdXppalRWU2s4VGZRbllkWWpVMzl5MG0tcnlhU21UTkZ1Q3gzQTFaSFR0SUJubXhTeUFrT3BBeFBIWmp6Mk5WT1BwV0tnRXowbTY5LTU3WHMzM002QV9xQlFsaXNjU3o5cjZqMVFZREl4WE9hQ3EtYjdPcnQ4aGVoVzgyNnR0LWhUUVhuUTNzWWUzNTF1TTZGOTdmNWsySHNDclFZZWZ3eE9taVYwRWFqSXFldk9qWXE4elNobE5FY0Q2NGxtWjV2WlNkQUVlS2JOU0FzRU1YSEk5Y2JDc1Z1MFBLcENWSXdRTXdxcjBmbGZ4ajNxNzFCODlOZzdybC1lOGc2d196UjIxeWQ3UXhmdWE0VHBhVkhWcFlaSXJWYTNj?oc=5",
+"pub": 1793927126.0,
+"time": "11/06 10:05",
+"run": "202611060533",
+"url": "https://www.hk01.com/%E8%B2%A1%E7%B6%93%E5%BF%AB%E8%A8%8A/60407723/%E7%BE%8E%E8%82%A1%E8%82%A1%E7%81%BD%E9%9C%87%E6%95%A3%E4%BA%9E%E6%B4%B2%E5%B8%82-%E9%9F%93%E8%82%A1%E6%9A%B4%E7%80%898-%E8%A7%B8%E7%86%94%E6%96%B7-%E6%81%92%E6%8C%87%E9%BB%91%E6%9C%9F%E6%8C%AB%E8%BF%91400%E9%BB%9E"
 },
 {
 "key": "sp500nasdaqdowfuturesdipasinvestorsstepbackfromaiandtechwithnasdaqincorrectionte",
@@ -1953,6 +2464,41 @@
 "run": "202611060354"
 },
 {
+"key": "sonyliftsoutlookafterspidermanandgamesfuelgrowth",
+"keys": [
+"sonyliftsoutlookafterspidermanandgamesfuelgrowth"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🌍 세계",
+"title": "Sony Lifts Outlook After Spider-Man and Games Fuel Growth",
+"show": "소니, 스파이더맨과 게임의 성장 촉진 이후 전망 상향",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOXJkVWJXa1NLbks1aW5XX19yUG10LVNHTllWbThsRURPRi1wWGE4U3lMT1VKT0xCYWxzTVVWU1lvMVlIOXk1ZjdqT2VNalpIbUxXOU4wQVFBTWd3NGdzVnZMX2xwMmVha2JqV1FQT1VYYmdaVUR1aHQ1X1k3N3E0RzVublVYUEtuZUgyZVFWTEYwTUhmaEJQUzRvOVJDS0RJTVdydHZUdVdnTkUxTEljSkJ1UVM?oc=5",
+"pub": 1793924220.0,
+"time": "11/06 09:17",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/articles/2026-11-05/sony-lifts-outlook-after-spider-man-and-playstation-fuel-growth"
+},
+{
+"key": "韓수출성공만으로미래보장없어동맹과손잡고생태계강국돼야",
+"keys": [
+"韓수출성공만으로미래보장없어동맹과손잡고생태계강국돼야"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇰🇷 한국",
+"title": "\"韓, 수출 성공만으로 미래 보장 없어…동맹과 손잡고 생태계 강국돼야\"",
+"show": "\"韓, 수출 성공만으로 미래 보장 없어…동맹과 손잡고 생태계 강국돼야\"",
+"source": "연합인포맥스",
+"src_url": "https://news.einfomax.co.kr",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UdVdTd2U1a29UMHpPUXBUb1J5dTBUN01zZVJMSV95elJQbVZiUkY2b3BZdzExZWt6bnliTFp3bElQZHhRS1NOc3l1NE1HekR4V3JJVVVTUGEzSEEzWWRmdXZLcHV6TEUzODRJTXctTUPSAXRBVV95cUxQRzJmZ3FvQXJQUFNDMU5UYi1PSkQ5a1hIWWE5Rng1SFUta2xrMXdBdG9GTjhtOXdpX09DcTZMTlVrMlNqVF9kYld4MFdvbkJLdTJZYkVrd0VpNnNOaWdqbWtTTmZYZjZTVk9HNnFSeG0yRWJkdA?oc=5",
+"pub": 1793924157.0,
+"time": "11/06 09:15",
+"run": "202611060533"
+},
+{
 "key": "joeconsortisp500sees3trillionsingledaylossinushistory",
 "keys": [
 "joeconsortisp500sees3trillionsingledaylossinushistory"
@@ -2002,6 +2548,24 @@
 "time": "11/06 08:03",
 "run": "202611060530",
 "url": "https://www.barrons.com/articles/intel-stock-accenture-sp500-october-best-worst-8ce30f9c"
+},
+{
+"key": "airbnbposts19revenuejumpascheskyhailsgrowthmode",
+"keys": [
+"airbnbposts19revenuejumpascheskyhailsgrowthmode"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🌍 세계",
+"title": "Airbnb Posts 19% Revenue Jump as Chesky Hails ‘Growth Mode’",
+"show": "Airbnb, Chesky의 '성장 모드' 환영으로 수익 19% 증가",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNanF1LUREaXp2ZjlPVWtPQ2t1S0twX2pBaHdzbkYwN1dFMDRXSjRzaEY5bWFOcUd5dGVuU0F0dktrSkx2YjMzUXlHZDdzN2JXM3NTVzBrS2t6alpIVTZicXoxV0ZSQVJhR0tIZjV1MXh0NzdqcnF1bWd0NHl2eGt4bVdMbU5vc0ZEVVpCYnpqT01kNGhuODl3ZE5qOXdGRGRkbzhwQ3IyVmFqTHc?oc=5",
+"pub": 1793917177.0,
+"time": "11/06 07:19",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/articles/2026-11-05/airbnb-posts-19-revenue-jump-as-chesky-hails-growth-mode"
 },
 {
 "key": "sp500tumbles436percentto735373asaiselloffintensifies",
@@ -2350,6 +2914,23 @@
 "url": "https://cmnews.com.tw/article/cmoneyairesearcher-f40c5093-d92e-11f1-9fa7-5aea86d50b64"
 },
 {
+"key": "연말랠리전망에도기술주대탈출애플만선방박신영의개장전요것만",
+"keys": [
+"연말랠리전망에도기술주대탈출애플만선방박신영의개장전요것만"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇰🇷 한국",
+"title": "연말 랠리 전망에도 기술주 대탈출…애플만 선방[박신영의 개장전 요것만]",
+"show": "연말 랠리 전망에도 기술주 대탈출…애플만 선방[박신영의 개장전 요것만]",
+"source": "한국경제",
+"src_url": "https://www.hankyung.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSazhiNzRXLXBsNU5qN3FnWTNNNkp2Rno1OG0tZERwbG8tc2s4MUlqMktrRUViaDJDeFhXa3VTM0p5Z2llaS1fRk9MX01xVkpNY1Vac2l6cEwyQQ?oc=5",
+"pub": 1793892561.0,
+"time": "11/06 00:29",
+"run": "202611060533"
+},
+{
 "key": "標普500指數etfspdrspyus在這裏平倉了看跌期權轉頭殺入看漲期權",
 "keys": [
 "標普500指數etfspdrspyus在這裏平倉了看跌期權轉頭殺入看漲期權"
@@ -2520,23 +3101,6 @@
 "url": "https://tw.tradingview.com/news/gelonghui:68c818c35acdf:0/"
 },
 {
-"key": "美股早盤藍色海嘯掀ai大逃殺潮費半崩7",
-"keys": [
-"美股早盤藍色海嘯掀ai大逃殺潮費半崩7"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇭🇰 홍콩",
-"title": "美股早盤／「藍色海嘯」掀AI大逃殺潮 費半崩7%",
-"show": "미국 주식 조기 거래/\"블루 쓰나미\"로 AI 배틀 로얄 열풍 시작, 수수료 7% 인하",
-"source": "經濟日報",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIenNwMlZVeVNaSDM4elNveW5LaGJKa0FJaFhGTjdSWlhUUDY1N0kzZm9BNVJvOWdMUDJpdTh3Zy14OHZWY1VDMWp4RV9QVVFRUGFyZGNlbkU2R2ln0gFiQVVfeXFMUGI1eXlTZE1ibEZNSVAxVFJacWlWc0J6Z1M5RU5aUEhwTkdJZEllcHhQTF9Gc3pqTklQUkxCTWdodTl6bm85T1FnS09pUi12eG5HQTlBT1J0RnRDaEYtd2RoaEE?oc=5",
-"pub": 1793891395.0,
-"time": "11/06 00:09",
-"run": "202611051627",
-"url": "https://money.udn.com/money/story/123398/9860666"
-},
-{
 "key": "뉴욕증시개장직후하락세나스닥316",
 "keys": [
 "뉴욕증시개장직후하락세나스닥316"
@@ -2697,6 +3261,23 @@
 "time": "11/05 22:51",
 "run": "202611051432",
 "url": "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/"
+},
+{
+"key": "tc에너지3분기ebitda30억캐나다달러가이던스상향",
+"keys": [
+"tc에너지3분기ebitda30억캐나다달러가이던스상향"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇰🇷 한국",
+"title": "TC 에너지, 3분기 EBITDA 30억 캐나다달러, 가이던스 상향",
+"show": "TC 에너지, 3분기 EBITDA 30억 캐나다달러, 가이던스 상향",
+"source": "매일경제 마켓",
+"src_url": "https://stock.mk.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DQWY3R0x2eWZ5dU1YVUxtR0t3dnZCR1BrRHVYUlFXNVJzQ0xQTkJ3OGVvMUtEekpNbkViRmVad3B6VDJpNG9pcEF6Z2ZOVHBrdGc?oc=5",
+"pub": 1793882866.0,
+"time": "11/05 21:47",
+"run": "202611060533"
 },
 {
 "key": "川普期中選舉受挫fed更敢升息pgim估一年內再升4碼",
@@ -3216,23 +3797,6 @@
 "keys": [
 "현장신한투자증권상무박근배주식투자하락률관리가중요변동성작은종목골라야"
 ]
-},
-{
-"key": "美國期中選舉變天歷史數據顯示標普500指數勝率逾9成",
-"keys": [
-"美國期中選舉變天歷史數據顯示標普500指數勝率逾9成"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "美國期中選舉變天 歷史數據顯示標普500指數勝率逾9成",
-"show": "미국 중간선거의 변화: 과거 데이터에 따르면 S&P 500 지수의 승률은 90% 이상입니다.",
-"source": "自由財經",
-"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB2eDRGcHRzQUdYMG1Lc01WUGRkSkxGUm9jMXc1NUNRV1dPV3dXb2g4R3RFcjJOdVMtZEw1Tk5MUlEwLUl0cHYzSnFaamhmcFk0emJYZzVSMnJhMmZ4bFhv0gFkQVVfeXFMT2xzTW1DY0RnTTZ4TFhtWUllWF95YWFZbjIwZWpLQmdBN1NfbnpIdW1FVWdFYzljbFZjS1p5WFZlT1RvQUV5RWlQOFIzRENmaTd1QjdyS2QxVzZaeUNvTEhIV09pTQ?oc=5",
-"pub": 1793862063.0,
-"time": "11/05 16:01",
-"run": "202611051627",
-"url": "https://ec.ltn.com.tw/article/breakingnews/5630473"
 },
 {
 "key": "삼성운용연금초보는tdf미국장기투자는sp500",
@@ -4079,6 +4643,24 @@
 "url": "https://tw.tradingview.com/news/gelonghui:9552c5866acdf:0/"
 },
 {
+"key": "萬億美元豪賭誰是最大贏家香港經濟日報",
+"keys": [
+"萬億美元豪賭誰是最大贏家香港經濟日報"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇭🇰 홍콩",
+"title": "萬億美元豪賭 誰是最大贏家？|香港經濟日報",
+"show": "1조 달러 내기에서 가장 큰 승자는 누구일까요? |홍콩경제신문",
+"source": "香港經濟日報HKET",
+"src_url": "https://invest.hket.com",
+"link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMHQwa2RXUmdiWnUteGFlbTBBeGpyYi1WVV9fc042d1BXR3BRbHdKbGpaUXp2eVYtREJ2X1gzSGRTNDVleFZlWUZ0V2JNczBVU1daWE9jT0U2TFZqQnZscGY1RTFoX1RmU1E0ZFZtLUw4cmxFbDF0X1RNUXRHZVk1ZVJveW44ckU0bkRnUFBUSDFKdFBYLUgzQjNtb1lxT1hEMGhkOWRVYnc3U0N1OW5idU15SEdQT2xwbFc1WXh2eGI3WmRhbktoZ3FKeVJrWjE2c3JQV282WVpYREdqUFdQN0FiakRUY2FFTGVSSGptdG5VZw?oc=5",
+"pub": 1793930953.0,
+"time": "11/06 11:09",
+"run": "202611060533",
+"url": "https://invest.hket.com/article/4220583/%E8%90%AC%E5%84%84%E7%BE%8E%E5%85%83%E8%B1%AA%E8%B3%AD%20%E8%AA%B0%E6%98%AF%E6%9C%80%E5%A4%A7%E8%B4%8F%E5%AE%B6%EF%BC%9F"
+},
+{
 "key": "美國醫院引進selution療法解決冠狀動脈支架再狹窄困境",
 "keys": [
 "美國醫院引進selution療法解決冠狀動脈支架再狹窄困境"
@@ -4197,6 +4779,62 @@
 "run": "202611060354"
 },
 {
+"key": "et個股推介盈利高增長信達生物01801要買香港經濟日報",
+"keys": [
+"et個股推介盈利高增長信達生物01801要買香港經濟日報",
+"信達生物收成期出海添優勢香港經濟日報"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇭🇰 홍콩",
+"title": "ET個股推介｜盈利高增長 信達生物（01801）要買|香港經濟日報",
+"show": "ET 주식 추천 | 고수익 성장, Innovent Biologics (01801) 구매 원함 | 홍콩경제신문",
+"source": "香港經濟日報HKET",
+"src_url": "https://invest.hket.com",
+"link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOdXQ3MWhWby05a2JFU1VFbGxOVC1XQXVSTGI3dFZ4UktaeXFqTzc3VU0xUFRLMXdQcUdyOXJHSzFBUWpoUVZqNHBXRE1sSTR4SWRZMTRjZEtjVXhNXzlIZEdydmdOSW9QcXhRZzV2Q1huOGZNanAxdEhmdVRNdl83M095R3J3ZTFVbEFoNDdVVUp1UmJuTkRqX0hiSTE0dmlsLWszdGJ0amh0YWQyblQwbV9xTE5FN24tQzNkSU5SYmh4dVFzY3RXSjdveEd0TGd2WjJTVTQ3dnN4Y2dWWVg3RlFJNjg2WmdxZGo5RU5TNHZtUFlyZWF5QXYxalFaWmkxemF0bnY2T0ZYVWsyRW5DbHZjQTJDMXZnYnhQUjBNc19ReEtQcS1LdjZFaTRNQkpRVGRrT1RYX2F5U3M?oc=5",
+"pub": 1793916000.0,
+"time": "11/06 07:00",
+"run": "202611060533",
+"url": "https://invest.hket.com/article/4220362/ET%E5%80%8B%E8%82%A1%E6%8E%A8%E4%BB%8B%EF%BD%9C%E7%9B%88%E5%88%A9%E9%AB%98%E5%A2%9E%E9%95%B7%20%20%E4%BF%A1%E9%81%94%E7%94%9F%E7%89%A9%EF%BC%8801801%EF%BC%89%E8%A6%81%E8%B2%B7"
+},
+{
+"key": "compasspathwaysannouncesnewemployeeinducementgrantsundernasdaqlistingrule5635c4",
+"keys": [
+"compasspathwaysannouncesnewemployeeinducementgrantsundernasdaqlistingrule5635c4"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🌍 세계",
+"title": "Compass Pathways Announces New Employee Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+"show": "Compass Pathways는 Nasdaq 상장 규정 5635(c)(4)에 따라 새로운 직원 장려 보조금을 발표했습니다.",
+"source": "Financial Times",
+"src_url": "https://markets.ft.com",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUlo1OTBXNFJQS0xCN1NjeXRZdFRPZEV4QkllbFBSVmlsMWltZFFMNXFoYmJmdG9qQkNSVWVBWlBCTGdmem9hMTdGUkhrcldNM2hVTFc3S0tIaGFpVUdmSVpmV0k4TklWbW9PWEgzRjJTUTZsblJSWUV1elJyRHBZVUNUWHFoWTBnUGo0Vzc2bDg4SWUtdlBORjdjVnhOcmJ5UUIzcGF3?oc=5",
+"pub": 1793914200.0,
+"time": "11/06 06:30",
+"run": "202611060533",
+"url": "https://markets.ft.com/data/announce/detail?dockey=600-202611051630BIZWIRE_USPRX____20261105_BW811889-1"
+},
+{
+"key": "guardanthealthreportsthirdquarter2026financialresultsandincreases2026revenueguid",
+"keys": [
+"guardanthealthreportsthirdquarter2026financialresultsandincreases2026revenueguid",
+"transmedicsreportsthirdquarter2026financialresultscompanyannouncement"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🌍 세계",
+"title": "Guardant Health Reports Third Quarter 2026 Financial Results and Increases 2026 Revenue Guidance",
+"show": "Guardant Health, 2026년 3분기 재무 결과 보고 및 2026년 수익 증가 지침",
+"source": "Financial Times",
+"src_url": "https://markets.ft.com",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGhYUVZ5cU53T2JiajliMGlpY1loTUg3eVFLNFY3RmJ0YTNDSnRPLUNmVnVDcGQ0QzdMUzMxbEZoSjU5ZzdXbzdncll2b254ODV5MXJrTnBaZ0dnWmdUVy03QzRrSjE0RjNwY3FuSDhUX1JENEhTQVZDYVZtNEJyOUJzeEVwczJmMUlPOXNVSEVsalA3WWpPVlhuQmY4cUV2bjRLdHNR?oc=5",
+"pub": 1793912700.0,
+"time": "11/06 06:05",
+"run": "202611060533",
+"url": "https://markets.ft.com/data/announce/detail?dockey=600-202611051605BIZWIRE_USPRX____20261105_BW783458-1"
+},
+{
 "key": "115日法人買超外資買超前三名保瑞297張美時287張高端疫苗275張",
 "keys": [
 "115日法人買超外資買超前三名保瑞297張美時287張高端疫苗275張",
@@ -4297,6 +4935,24 @@
 "time": "11/06 01:17",
 "run": "202611060155",
 "url": "https://au.finance.yahoo.com/news/bristol-myers-squibb-bmy-wins-161740243.html"
+},
+{
+"key": "藥華藥上月營收翻倍金額28億元創高",
+"keys": [
+"藥華藥上月營收翻倍金額28億元創高"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇹🇼 대만",
+"title": "藥華藥上月營收翻倍 金額 28 億元創高",
+"show": "야오화제약(Yaohua Pharmaceutical)의 지난달 매출은 두 배 증가해 28억 위안으로 사상 최고치를 기록했다.",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zY1hGaDRGVmJHUVBmVFdFUThJNUdncW5KaWd2bVlISEIzMGRMSGFEY1AycW53Y1VUVVFPWHN5d3VTd0lhX1hqR2Y4ek9EdE1YNG9pcGFWb3hKZ9IBX0FVX3lxTE5EelE2MEpNSGtqdzdjUWdodldhRlhLWGpLSWZoWjJsejVpZEpRNnRuREtCdDBtclFISmNnT3JnMTRIcEx0Wk1kdFFBMXp2emxlWDB3OU1IdGZkYlpMMmlV?oc=5",
+"pub": 1793894603.0,
+"time": "11/06 01:03",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5710/9860342"
 },
 {
 "key": "xbinov2026135000putxbi261113p00135000interactivestockchart",
@@ -4401,6 +5057,25 @@
 "url": "https://hk.investing.com/news/stock-market-news/article-1742359"
 },
 {
+"key": "台股跌1374點上市櫃融資餘額合計減少27418億元",
+"keys": [
+"台股跌1374點上市櫃融資餘額合計減少27418億元",
+"台股跌137419點"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇹🇼 대만",
+"title": "台股跌1374點　上市櫃融資餘額合計減少274.18億元",
+"show": "대만 주식은 1,374포인트 하락했고, 상장 OTC 금융 총 잔액은 274억 1,800만 위안 감소했습니다.",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PUU9RbWF4TTJtM2YtQVFNWERjd19KNVdjb3lkSGpHVVZ0cUpoV3MtUG43QTJYMFhMZGptczNSNU1BS3BHdllaOGZqdjFLMzdoQnpPdFdzU0t3QdIBX0FVX3lxTFB5eXduV0tWWnJGWE9Cd3NtbllrV2FMNE40cG9sNXoydG00YUd4aVUxOTI2QjlyTC0zQ19QaDgxRk84MmRNRlBFWGJEYU8zdGp5VF92ZjFsc0Q1Rk1GR0lr?oc=5",
+"pub": 1793885838.0,
+"time": "11/05 22:37",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5607/9860491"
+},
+{
 "key": "盤前飆升逾10這隻ai精選生技股挾533獲利驚喜迎戰第三季財報作者investingcom",
 "keys": [
 "盤前飆升逾10這隻ai精選生技股挾533獲利驚喜迎戰第三季財報作者investingcom"
@@ -4416,6 +5091,26 @@
 "time": "11/05 22:30",
 "run": "202611051615",
 "url": "https://hk.investing.com/news/stock-market-news/article-1742359"
+},
+{
+"key": "今日最夯股ai熱潮連飛機都搶長榮航逆勢漲3外資5天大買45萬張市場焦點證券",
+"keys": [
+"今日最夯股ai熱潮連飛機都搶長榮航逆勢漲3外資5天大買45萬張市場焦點證券",
+"今日最夯股美時逆勢飆漲566美國大選後生技股迎轉機外資買盤助攻市場焦點證券",
+"今日最夯股外資賣投信卻大買信邦逆勢漲384營收連7月創高市場焦點證券"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇹🇼 대만",
+"title": "今日最夯股／AI熱潮連飛機都搶！長榮航逆勢漲3% 外資5天大買4.5萬張 | 市場焦點 | 證券",
+"show": "오늘날 가장 인기 있는 주식/AI 열풍은 심지어 비행기 잡기입니다! EVA Air는 추세를 거스르고 3% 상승했습니다. 외국인 투자자가 5일 만에 티켓 45,000장 구입 | 시장 포커스 | 증권",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaNUhCOTkxdDktVTdtUDdPOFFPWi1WUk1zZkVNWEFKTFM3SFg4MndJOWUyMEs1LTc1S2t5aHNpNmZUTDZiMWpJa01jS2NVbEdjU2Zmc2VkTW8yZw?oc=5",
+"pub": 1793882548.0,
+"time": "11/05 21:42",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5607/9860151"
 },
 {
 "key": "鉅祥2476本公司將於115年11月19日參加永豐金證券舉辦之法人說明會",
@@ -4435,6 +5130,42 @@
 "url": "https://geneonline.news/%E9%89%85%E7%A5%A5-2476-%E6%9C%AC%E5%85%AC%E5%8F%B8%E5%B0%87%E6%96%BC115%E5%B9%B411%E6%9C%8819%E6%97%A5%E5%8F%83%E5%8A%A0%E6%B0%B8%E8%B1%90%E9%87%91%E8%AD%89%E5%88%B8%E8%88%89%E8%BE%A6/"
 },
 {
+"key": "穩懋違約交割逾2218萬元今年第3度達揭露標準",
+"keys": [
+"穩懋違約交割逾2218萬元今年第3度達揭露標準"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇹🇼 대만",
+"title": "穩懋違約交割逾2218萬元　今年第3度達揭露標準",
+"show": "Wenmao의 불이행 금액은 2,218만 위안을 초과하여 올해 세 번째로 공개 기준을 충족했습니다.",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIT2M5UzI3dDlsX2sxMU9ZM3lmNmhnMjFERkJrSXZzbjlUaGxUV2V6MERUb3VZajljazV2bTlkSjhjbWNndGI5T2dsOGwzS1ZZNFRFcEVORlFuUdIBX0FVX3lxTE92bDNLR3J3ZGdLak9QWFZHQTRsYU44TkhST0dNUEkzNzBWaVczSHY0NGx1Sk5kdEozeW53UVF4RFhYS0hkSlYwRnN0VTlyYXdacUh6NllVWUthNXllbThv?oc=5",
+"pub": 1793880508.0,
+"time": "11/05 21:08",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5607/9860385"
+},
+{
+"key": "彩晶財報第3季eps064元處分南科廠房獲利入帳",
+"keys": [
+"彩晶財報第3季eps064元處分南科廠房獲利入帳"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇹🇼 대만",
+"title": "彩晶財報／第3季 EPS 0.64元 處分南科廠房獲利入帳",
+"show": "Caijing Financial Report/Q3 EPS 0.64위안, Nanke 공장 매각 이익 기록",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LaTB2S2JmZVFaaWR0LTJzVWtnc18yYmwyT19nVkIzLWR4aG8yRU5jQlJ2UGxUM1N4Uzh2TUlHS2FjMm5ZNE9QMEZjc3VaN3l1LUlBczEtVzhTQdIBX0FVX3lxTE41bUhFWHdIYTZsRmFQQUVmMm9rbWJQRTZpclY0bGl6V2JhUzNRSXhoRjhGOXdTaThia0pscTh6YkN5bWJUTnV2ZnFJUzhMdXJLcE5iWXplSEY2VjJiZ2Fn?oc=5",
+"pub": 1793879912.0,
+"time": "11/05 20:58",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5710/9860349"
+},
+{
 "key": "科懋6496更正本公司董事會決議註銷庫藏股減資事宜之減資基準日原115年11月2日公告",
 "keys": [
 "科懋6496更正本公司董事會決議註銷庫藏股減資事宜之減資基準日原115年11月2日公告",
@@ -4451,6 +5182,24 @@
 "time": "11/05 20:42",
 "run": "202611051615",
 "url": "https://geneonline.news/%E7%A7%91%E6%87%8B-6496-%E6%9B%B4%E6%AD%A3%E6%9C%AC%E5%85%AC%E5%8F%B8%E8%91%A3%E4%BA%8B%E6%9C%83%E6%B1%BA%E8%AD%B0%E8%A8%BB%E9%8A%B7%E5%BA%AB%E8%97%8F%E8%82%A1%E6%B8%9B%E8%B3%87%E4%BA%8B/"
+},
+{
+"key": "外資賣超1024億史上第10大台股觀察融資美伊談判",
+"keys": [
+"外資賣超1024億史上第10大台股觀察融資美伊談判"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇹🇼 대만",
+"title": "外資賣超1024億史上第10大　台股觀察融資、美伊談判",
+"show": "외국자본 매출은 1,024억 달러를 넘어 역대 10번째로 큰 규모다. 대만 주식, 자금 조달, 미국-이란 협상 관찰",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mQ2lsT2k2S19RRENVWGIwaGxkdDFULUtYczJ1VzVlMHUzZVV0ZDhmSDRRRWlwdFZRdUlBVEZuZFBaWk1rd213UmhvaTlDbTBIQjBIckVtd1c4Z9IBX0FVX3lxTE9ZVng3LVVOenNkcHA0am1qZXBKSENJRVF5VGVreDgxaHpDRzRHbGJyQmRkUXF3ZkZsUWFXOWhZR1Y1cnJtVGltT0EyMkdlTUVtMVRsb04yXzFXTlk5bTRr?oc=5",
+"pub": 1793875015.0,
+"time": "11/05 19:36",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5607/9860211"
 },
 {
 "key": "醫師解析胜肽是否安全有效健康新聞",
@@ -4920,7 +5669,8 @@
 "영남이공대이차전지교육부터현장체험취업까지잇는다",
 "영남이공대이차전지기업현장탐방실시고교생진로취업역량강화",
 "영남이공대고교생90여명과이차전지생산현장탐방",
-"영남이공대이차전지교육부터현장체험취업까지연계"
+"영남이공대이차전지교육부터현장체험취업까지연계",
+"영남이공대이차전지산업체탐방현장중심취업역량강화"
 ],
 "count": 5,
 "theme": "🔋 2차전지",
@@ -4932,6 +5682,45 @@
 "pub": 1793926579.0,
 "time": "11/06 09:56",
 "run": "202611060155"
+},
+{
+"key": "고래사냥디케이락태성lg에너지솔루션나무가내일장고래종목은머니투데이",
+"keys": [
+"고래사냥디케이락태성lg에너지솔루션나무가내일장고래종목은머니투데이",
+"고래사냥디케이락태성lg에너지솔루션나무가내일장고래종목은",
+"lg에너지솔루션373220",
+"lg에너지솔루션역대최대ess입찰불참선택과집중종합",
+"lg에너지솔루션3차ess중앙계약시장입찰불참선언"
+],
+"count": 4,
+"theme": "🔋 2차전지",
+"region": "🇰🇷 한국",
+"title": "[고래사냥] '디케이락·태성·LG에너지솔루션·나무가! 내일장 고래 종목은?! - 머니투데이",
+"show": "[고래사냥] '디케이락·태성·LG에너지솔루션·나무가! 내일장 고래 종목은?! - 머니투데이",
+"source": "머니투데이",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqUHU3X3NCallXbmdjeXlPTjE3OWhOMDM3Z3JkVlJZc0VHa0JEdEx3cE9QTUFMa3N4NjIyQUVuWEdWV3dVTDRiNmN1bVJtU1IzREJVblFaaUlBeWVXcmVodEMteW1qZk8z0gFuQVVfeXFMTjM4RDhQWjBXTUMtbGpsUERZeFpKRi1uRmY3dExyY1lacGRsclp5dy0xRXQtTUIxUk5pLXh2dzZpeTFtWVZxR191dFNSSmFxTUdjOGxpMWlFNm9SMnFKaV83ZDdPbHBJWnJjaXZqelE?oc=5",
+"pub": 1793913528.0,
+"time": "11/06 06:18",
+"run": "202611060155"
+},
+{
+"key": "lg엔솔3차ess중앙계약시장입찰불참가격경쟁대신중장기경쟁력확보",
+"theme": "🔋 2차전지",
+"region": "🇰🇷 한국",
+"title": "LG엔솔 “3차 ESS 중앙계약시장 입찰 불참, 가격 경쟁 대신 중장기 경쟁력 확보”",
+"show": "LG엔솔 “3차 ESS 중앙계약시장 입찰 불참, 가격 경쟁 대신 중장기 경쟁력 확보”",
+"source": "Chosunbiz",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX0tWcGxoRmhJWXlnZncyUWNtMHduT0pENFd3TGIwc0F3aDBVcjJ3ZG8xX0tjZmVZNE1UcHpUa2F0WjNPUmNzNVZLeHhfZzRybVpiWXpaelEzV3l3aEZBZ3lHTVllZ3hpU0NSSU1hQ2FrMXduVlVIMXQxbXR1azJjcF9HSXPSAZgBQVVfeXFMUE0ycHNCX0JWZ0Zsd3lrdkpWTkM5VjY0d29Da0JLRHAxVXYwc0Y0dThadWNON1AzTWstUzlQNTVBOUQ0SlNZZV9xSVdfWnlvRkRtSWdOY29LUE53cXk3b2YxanBkSVVGNFVaYUtIM2ctNGRtaVI3YnVzbm8wNmxXRG1yUE8zSWgxSF9CUXgtQzNsWEN1LTczU3A?oc=5",
+"pub": 1793872860.0,
+"time": "11/05 19:01",
+"run": "202611051432",
+"count": 4,
+"keys": [
+"lg엔솔3차ess중앙계약시장입찰불참가격경쟁대신중장기경쟁력확보",
+"lg엔솔3차중앙계약시장불참기존사업선택과집중",
+"lg에너지솔루션3차ess중앙계약시장입찰불참선언",
+"lg엔솔제3차ess중앙계약시장입찰불참삼성sdisk온정면대결"
+]
 },
 {
 "key": "lg화학석화구조조정연내결론내년양극재출하2배이상확대",
@@ -5030,22 +5819,20 @@
 "url": "https://www.ntdtv.com/b5/2026/11/05/a104148292.html"
 },
 {
-"key": "lg엔솔3차ess중앙계약시장입찰불참가격경쟁대신중장기경쟁력확보",
+"key": "피노1830억원규모유증단행이차전지소재사업체질개선",
+"keys": [
+"피노1830억원규모유증단행이차전지소재사업체질개선"
+],
+"count": 2,
 "theme": "🔋 2차전지",
 "region": "🇰🇷 한국",
-"title": "LG엔솔 “3차 ESS 중앙계약시장 입찰 불참, 가격 경쟁 대신 중장기 경쟁력 확보”",
-"show": "LG엔솔 “3차 ESS 중앙계약시장 입찰 불참, 가격 경쟁 대신 중장기 경쟁력 확보”",
-"source": "Chosunbiz",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX0tWcGxoRmhJWXlnZncyUWNtMHduT0pENFd3TGIwc0F3aDBVcjJ3ZG8xX0tjZmVZNE1UcHpUa2F0WjNPUmNzNVZLeHhfZzRybVpiWXpaelEzV3l3aEZBZ3lHTVllZ3hpU0NSSU1hQ2FrMXduVlVIMXQxbXR1azJjcF9HSXPSAZgBQVVfeXFMUE0ycHNCX0JWZ0Zsd3lrdkpWTkM5VjY0d29Da0JLRHAxVXYwc0Y0dThadWNON1AzTWstUzlQNTVBOUQ0SlNZZV9xSVdfWnlvRkRtSWdOY29LUE53cXk3b2YxanBkSVVGNFVaYUtIM2ctNGRtaVI3YnVzbm8wNmxXRG1yUE8zSWgxSF9CUXgtQzNsWEN1LTczU3A?oc=5",
-"pub": 1793872860.0,
-"time": "11/05 19:01",
-"run": "202611051432",
-"count": 3,
-"keys": [
-"lg엔솔3차ess중앙계약시장입찰불참가격경쟁대신중장기경쟁력확보",
-"lg엔솔3차중앙계약시장불참기존사업선택과집중",
-"lg에너지솔루션3차ess중앙계약시장입찰불참선언"
-]
+"title": "피노, 1830억 원 규모 유증 단행…이차전지 소재 사업 체질 개선",
+"show": "피노, 1830억 원 규모 유증 단행…이차전지 소재 사업 체질 개선",
+"source": "매일경제 마켓",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81b09PV1pEb0hRb0ZMbElieUQybFJROVFlOXJNUERvNnhodUN2TmpXYkU5bGxVTnpxTHBLQkhHZld3ejRzZ0xIaVFhZFJ6cjZQUlE?oc=5",
+"pub": 1793928584.0,
+"time": "11/06 10:29",
+"run": "202611060354"
 },
 {
 "key": "포스코퓨처엠깜짝실적은보상금착시lfp전환이진짜시험대",
@@ -5082,21 +5869,41 @@
 "run": "202611060354"
 },
 {
-"key": "고래사냥디케이락태성lg에너지솔루션나무가내일장고래종목은머니투데이",
+"key": "台塑新智能闢新藍海布局智慧載具",
 "keys": [
-"고래사냥디케이락태성lg에너지솔루션나무가내일장고래종목은머니투데이",
-"고래사냥디케이락태성lg에너지솔루션나무가내일장고래종목은"
+"台塑新智能闢新藍海布局智慧載具"
 ],
 "count": 2,
 "theme": "🔋 2차전지",
-"region": "🇰🇷 한국",
-"title": "[고래사냥] '디케이락·태성·LG에너지솔루션·나무가! 내일장 고래 종목은?! - 머니투데이",
-"show": "[고래사냥] '디케이락·태성·LG에너지솔루션·나무가! 내일장 고래 종목은?! - 머니투데이",
-"source": "머니투데이",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqUHU3X3NCallXbmdjeXlPTjE3OWhOMDM3Z3JkVlJZc0VHa0JEdEx3cE9QTUFMa3N4NjIyQUVuWEdWV3dVTDRiNmN1bVJtU1IzREJVblFaaUlBeWVXcmVodEMteW1qZk8z0gFuQVVfeXFMTjM4RDhQWjBXTUMtbGpsUERZeFpKRi1uRmY3dExyY1lacGRsclp5dy0xRXQtTUIxUk5pLXh2dzZpeTFtWVZxR191dFNSSmFxTUdjOGxpMWlFNm9SMnFKaV83ZDdPbHBJWnJjaXZqelE?oc=5",
-"pub": 1793913528.0,
-"time": "11/06 06:18",
-"run": "202611060155"
+"region": "🇹🇼 대만",
+"title": "台塑新智能闢新藍海 布局智慧載具",
+"show": "Formosa Plastics New Intelligence는 새로운 블루오션을 열고 스마트 차량을 배치합니다.",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBOUXFTdW5kMzBqckNCTFk5ZGM5c2gwQUlKSUhGcTE3YkxyeGVOQmxiaE9ZYzhkLWU2TUcwVHN6ZFRrblJVUU1LbTZBd05WRUk00gFWQVVfeXFMTmJzVjRTMVRBWEJsMEl6RFE0Nk5rYXdnZFVWM2JJZ2VVT3JXck15MjBJOUxxREN2SW0yN2ZEZ1haSno3Q0NKQkgtNURQU1dLZzBuREZUYnc?oc=5",
+"pub": 1793906062.0,
+"time": "11/06 04:14",
+"run": "202611060533",
+"url": "https://udn.com/news/story/7241/9860682"
+},
+{
+"key": "台塑集團增資台塑新智能130億",
+"keys": [
+"台塑集團增資台塑新智能130億",
+"台塑新智能現增130億擴建彰濱二期台塑四寶聯手加碼"
+],
+"count": 2,
+"theme": "🔋 2차전지",
+"region": "🇹🇼 대만",
+"title": "台塑集團 增資台塑新智能130億",
+"show": "Formosa Plastics Group, Formosa Plastics New Intelligence에 130억 달러 투자",
+"source": "工商時報",
+"src_url": "https://www.ctee.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5abU54anF1YmRaT2xSYWc0RWFHaG5Od3ljaWZmRXgwMGppaGFLa1hUSGpmY01TV2lNdTdrV2pqeWpEQ2UtOGZRSUtOQmVFMWVwVHctbEFJSlRBaVhXZE00?oc=5",
+"pub": 1793905200.0,
+"time": "11/06 04:00",
+"run": "202611060533",
+"url": "https://www.ctee.com.tw/news/20261106700107-439901"
 },
 {
 "key": "寧王股價六連陽融資餘額近日止跌板塊月內漲幅居次席這些股獲融資客加倉",
@@ -5114,6 +5921,25 @@
 "time": "11/05 18:36",
 "run": "202611051615",
 "url": "https://www.moomoo.com/hant/news/post/1003633853/king-ning-sees-six-day-winning-streak-margin-financing-balance"
+},
+{
+"key": "凡甲財報第3季獲利327億元創單季新高第4季看旺櫃買動態證券",
+"keys": [
+"凡甲財報第3季獲利327億元創單季新高第4季看旺櫃買動態證券",
+"凡甲財報第3季獲利327億元創單季新高第4季看旺"
+],
+"count": 2,
+"theme": "🔋 2차전지",
+"region": "🇹🇼 대만",
+"title": "凡甲財報／第3季獲利3.27億元、創單季新高 第4季看旺 | 櫃買動態 | 證券",
+"show": "Fanjia 재무 보고서/3억 2700만 위안의 3분기 이익, 새로운 단일 분기 최고치, 4분기 번영 예상 | OTC 구매 뉴스 | 증권",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzRWZfNGNmWkZTM0U2NlM1R21uZGpNUzRudG1uQmZmdFZtaFc0b0Z3bEQtMDdXWFJKMkVfZHNjaGdPLUREa1hnNWNUS05IWDlCc2FuWW5Hblo1RnBWZ0dkUEhMRDVPZW1wejU0TzREb0JTYTBuZXc?oc=5",
+"pub": 1793868551.0,
+"time": "11/05 17:49",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/11074/9859919?from=edn_next_story"
 },
 {
 "key": "k양극재3사엇갈린실적속같은고민본업회복은물음표종합",
@@ -5203,6 +6029,46 @@
 "url": "https://www.moomoo.com/hant/news/post/1003581659"
 },
 {
+"key": "寧德時代03750跌逾5現報3744元即時新聞新聞",
+"keys": [
+"寧德時代03750跌逾5現報3744元即時新聞新聞",
+"寧德時代經歷高增長時代的小風波即時新聞新聞",
+"信義光能00968曾升逾5現報221元即時新聞新聞",
+"寧德時代為深股通十大成交活躍股榜首即時新聞新聞",
+"滬深股通寧德時代為深股通十大成交活躍股榜首"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇭🇰 홍콩",
+"title": "寧德時代(03750)跌逾5%，現報374.4元 | 即時新聞 - 新聞",
+"show": "CATL(03750)은 5% 이상 하락해 현재 374.4위안에 거래되고 있습니다 | 인스턴트 뉴스 - 뉴스",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV010emFHeUpjMDlqalc0cnRlNnBFaVRWaVRqZnZwYmJPWlVVMFhRWndkbWU2YzI3eFdHR0wwNFlCcHZtTXdvWGhzd25DVThUYVFCZGotVmVqVUdTMVVSUHJ4OU9vTGVDQV9DMU1aZ3hQX05Yc3ROU1U0X1lSX1VfckpMM3RQZEs3cHFSRllfX1JIaUJ5TEQ2R01aczI0cklWSllEUGZNMk1NcjRI?oc=5",
+"pub": 1793941980.0,
+"time": "11/06 14:13",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=latest&newsid=20261106734"
+},
+{
+"key": "紐約布魯克林排樓凌晨大火至少6死9傷",
+"keys": [
+"紐約布魯克林排樓凌晨大火至少6死9傷"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇭🇰 홍콩",
+"title": "紐約布魯克林排樓凌晨大火 至少6死9傷",
+"show": "뉴욕 브루클린에서 이른 아침에 화재가 발생해 최소 6명이 사망하고 9명이 부상을 입었습니다.",
+"source": "星島頭條",
+"src_url": "https://www.stheadline.com",
+"link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOQlE2WkF0d3RteWVBTlI3cDdRN1ZsaVliYUh4MlZicnlOMTBaNE5FRUJzOWhNckNlOFhtSlBSVjRWaUNRR2txR3JVZkdqZ0ttd2FuTjk4WkdTVWdybDlkYjRDb2JCOXBpT3h1MzJqOVdfdEU5amJNSDlSR0EycVpWbzUtNEpyRllva3ZUN1ViSWRVZDVPWVA1THY1cWFXcW1rYzJHd1V3ZmpqRVo3WW1rOEU3VWFFbnVoS1l1bUpNbGJvVTk4bVBqdXlIU0ozVUx6WWI0VHl6WnRyRlNiaFVCb1hXY09tTUl6bjlUTzBvZzYta2dZdTJBZzFTempNUjBDV1V5SVFVa0dJQ3ZWUWd0MHYtSVhiMXp5dE80ZDZFeDdxNkk?oc=5",
+"pub": 1793941325.0,
+"time": "11/06 14:02",
+"run": "202611060533",
+"url": "https://www.stheadline.com/realtime-world/3634171/%E7%B4%90%E7%B4%84%E5%B8%83%E9%AD%AF%E5%85%8B%E6%9E%97%E6%8E%92%E6%A8%93%E5%87%8C%E6%99%A8%E5%A4%A7%E7%81%AB-%E8%87%B3%E5%B0%916%E6%AD%BB9%E5%82%B7"
+},
+{
 "key": "엘앤에프올해양극재출하량역대최대전망",
 "keys": [
 "엘앤에프올해양극재출하량역대최대전망"
@@ -5286,6 +6152,43 @@
 "run": "202611060354"
 },
 {
+"key": "數字大腦與製造底座寧波杭州智能科技協同觀察即時新聞新聞",
+"keys": [
+"數字大腦與製造底座寧波杭州智能科技協同觀察即時新聞新聞",
+"數字大腦與製造底座寧波杭州智能科技協同觀察評論新聞"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇭🇰 홍콩",
+"title": "「數字大腦」與「製造底座」－－寧波杭州智能科技協同觀察 | 即時新聞 - 新聞",
+"show": "\"디지털 두뇌\"와 \"제조 기지\" - 닝보와 항저우 지능형 기술 공동 관찰 | 인스턴트 뉴스 - 뉴스",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeEdQbDYyNFNpeVVrcEIySnRKLWNidzZUOUc2dEhiUmQ4UHRTdTV5UzZpZ0tFYVRYRjZyLVF0X1ZsM2dGWC1BSTFoMTdsN0EzaHFDUUNaRHd2cXQtUVJjam1zX2p0b2puZ1pxOUROX3RfcEEwOV9BNTZhX2dkVEktRk9maDJ2cElzZG5obmc0dmZrZXRtcTR1YkJNQ2p5ZlZuaEtjVHgzSDQ2WTdQ?oc=5",
+"pub": 1793935080.0,
+"time": "11/06 12:18",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=latest&newsid=20261106710"
+},
+{
+"key": "寧德時代經歷高增長時代的小風波評論新聞",
+"keys": [
+"寧德時代經歷高增長時代的小風波評論新聞"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇭🇰 홍콩",
+"title": "寧德時代經歷高增長時代的小風波 | 評論 - 新聞",
+"show": "닝더(寧德) 시대, 고성장 시대에 소소한 혼란을 겪다 | 댓글 - 뉴스",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNTNlSkFIcnNDNzJhV2pVRE1KZS1DcVJ0dnNvY2huMWhZM0g1M2lXWmRiOVRRLUFvYXh0ZnVRVmhFNHVlczZiamhzVGV2MndFVUtOX0xnWmFBeV9iTVB3VjdqWUZlTjl3MlA0dnZiWmZMZkFheUdZdjhEZVotUzBBWmk3cUFvaFd4dmpmSTVDblVCWHhnNlp4Ri1WUDJablk?oc=5",
+"pub": 1793934960.0,
+"time": "11/06 12:16",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/news/news-article.php?category=stocks&expert=lee&newsid=2026110670"
+},
+{
 "key": "深市新能源與消費板塊三季報成色足業績向好前景可期",
 "keys": [
 "深市新能源與消費板塊三季報成色足業績向好前景可期"
@@ -5320,6 +6223,24 @@
 "url": "https://www.epochtimes.com/b5/26/11/6/n14884365.htm"
 },
 {
+"key": "恒指走勢丨好友反攻曾跌不足百點返24700水平",
+"keys": [
+"恒指走勢丨好友反攻曾跌不足百點返24700水平"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇭🇰 홍콩",
+"title": "恒指走勢丨好友反攻曾跌不足百點 返24700水平",
+"show": "항셍 지수 추세 丨 친구의 반격이 한때 100 포인트 미만으로 하락하고 24700 수준으로 돌아 왔습니다.",
+"source": "信報網站",
+"src_url": "https://www2.hkej.com",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sazFXODA4VXZkWExnYy1OMjkyX19GVklBTUd0bzdYcVdldXEwNkxDUGh3c3hMVjRtUG04SDVvNzllR09fNHdjY1A4eE5ZMm53U3VFeXYxNWx1am1YUFZCUTMzQUk0bkNDUTBBSjVOaw?oc=5",
+"pub": 1793931832.0,
+"time": "11/06 11:23",
+"run": "202611060533",
+"url": "https://www2.hkej.com/instantnews/stockConnect/article/4559576"
+},
+{
 "key": "紐約華人區住宅大火釀6死鋰電池疑成起因",
 "keys": [
 "紐約華人區住宅大火釀6死鋰電池疑成起因"
@@ -5352,6 +6273,24 @@
 "time": "11/06 11:20",
 "run": "202611060354",
 "url": "https://tw.tradingview.com/news/gelonghui:5d52566ecacdf:0/"
+},
+{
+"key": "異動股信義光能00968曾升逾5現報221元",
+"keys": [
+"異動股信義光能00968曾升逾5現報221元"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇭🇰 홍콩",
+"title": "《異動股》信義光能(00968)曾升逾5%，現報2.21元",
+"show": "'무브먼트 주식' Xinyi Solar(00968)는 한때 5% 이상 상승했으며 현재 2.21위안에 거래되고 있습니다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZzZuMnBwUmxsTzRGaVRKc3luUjZ1akJ0WkR2X2hmbzloaU03Sm5fYVB6YTJndUhkUXJuSVU5X25wN3lNclo4LXg3UC1XZVNNc2VTWDlocUwwU1ktVGdNTnVmanRyZmdUWXRxM2hRRnp0QXFvQllreEYySUlYQS1CZXRiamtYX3NwTWlndHNpRQ?oc=5",
+"pub": 1793930580.0,
+"time": "11/06 11:03",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/mobile/tc/news/categorized_news_detail.php?newsid=20261106397"
 },
 {
 "key": "케이지에이매출15규모신규수주이차전지넘어물류자동화까지",
@@ -5403,22 +6342,6 @@
 "run": "202611060354"
 },
 {
-"key": "피노1830억원규모유증단행이차전지소재사업체질개선",
-"keys": [
-"피노1830억원규모유증단행이차전지소재사업체질개선"
-],
-"count": 1,
-"theme": "🔋 2차전지",
-"region": "🇰🇷 한국",
-"title": "피노, 1830억 원 규모 유증 단행…이차전지 소재 사업 체질 개선",
-"show": "피노, 1830억 원 규모 유증 단행…이차전지 소재 사업 체질 개선",
-"source": "매일경제 마켓",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81b09PV1pEb0hRb0ZMbElieUQybFJROVFlOXJNUERvNnhodUN2TmpXYkU5bGxVTnpxTHBLQkhHZld3ejRzZ0xIaVFhZFJ6cjZQUlE?oc=5",
-"pub": 1793928584.0,
-"time": "11/06 10:29",
-"run": "202611060354"
-},
-{
 "key": "리포트브리핑엘앤에프3q26reviewlfp양극재사업확장이긍정적목표가125000원삼성증권",
 "keys": [
 "리포트브리핑엘앤에프3q26reviewlfp양극재사업확장이긍정적목표가125000원삼성증권"
@@ -5433,6 +6356,24 @@
 "pub": 1793928060.0,
 "time": "11/06 10:21",
 "run": "202611060354"
+},
+{
+"key": "超越德國研究大陸在太空站製造出已知最冷人造物質",
+"keys": [
+"超越德國研究大陸在太空站製造出已知最冷人造物質"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇹🇼 대만",
+"title": "超越德國研究！大陸在太空站製造出已知最冷人造物質",
+"show": "독일학을 넘어! 중국, 우주정거장에 가장 차가운 인공물질 만든다",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLTDFqa3V4MFJ4cUsyOHpMeGdfbEZtUHhBaDFyS3NHOTRIbUxBaVQ4MUVnVlhVZlVPMWx6RVNLMm5KaDRuUkEyQ1FIVW13cnBnY3JOb1M1bnVQUdIBX0FVX3lxTE51WUFOQXB1T3hTd0ZZbnBvencxWVJtaGJOZE1CNHI1Tl9RcmUxZkhrVExoUHZiWjFQU3lvcFY2NEMxT3lBakRmV3MweGVKMllJZ2RKemU3WFI0bnZtRVVJ?oc=5",
+"pub": 1793925689.0,
+"time": "11/06 09:41",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5603/9861019"
 },
 {
 "key": "catladvances20ahsolidstatebatterycellsaheadof2027trialproduction",
@@ -5605,6 +6546,42 @@
 "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/catl-s-indonesia-plant-starts-output-as-zeng-sets-sights-on-1-000-gwh/70466435"
 },
 {
+"key": "陳錦錠爭取建設推動地方福利",
+"keys": [
+"陳錦錠爭取建設推動地方福利"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇹🇼 대만",
+"title": "陳錦錠爭取建設 推動地方福利",
+"show": "Chen Jinding은 건설을 위해 노력하고 지역 복지를 증진합니다.",
+"source": "中時新聞網",
+"src_url": "https://www.chinatimes.com",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ya2RzZ3NpMy1uNE0wcThzN2pka051V01SSHRpcDFVMnc2OXVIMU85Nl8xYnp6ejNneUdXRlFOcGVlcHl3UHlySDdVSVV0bDRsNGJ6TGVaU3h0UXlCUEZwOUUwcFpMZFJqVVpJ?oc=5",
+"pub": 1793909400.0,
+"time": "11/06 05:10",
+"run": "202611060533",
+"url": "https://www.chinatimes.com/newspapers/20261106000687-260107"
+},
+{
+"key": "鐵道文資三不管蘇俊賓促修法",
+"keys": [
+"鐵道文資三不管蘇俊賓促修法"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇹🇼 대만",
+"title": "鐵道文資三不管 蘇俊賓促修法",
+"show": "수준빈, 철도 문맹 퇴치에도 불구하고 법 개정 촉구",
+"source": "中時新聞網",
+"src_url": "https://www.chinatimes.com",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03YXRMcTFiSzlDZmhJcVdmczhuSEc0Z2MyM0JpY1o4bzJVTGx0NjJVRHp6Y0QweEtWRUhzNkxpVE92SFl2c21rSXlkRlR2LXdlb1RVSGcwXzRiajNNZXhiYzlTTjd4cDZXUUpJ?oc=5",
+"pub": 1793909400.0,
+"time": "11/06 05:10",
+"run": "202611060533",
+"url": "https://www.chinatimes.com/newspapers/20261106000696-260107"
+},
+{
 "key": "광양이차전지단지기반시설구축속도",
 "keys": [
 "광양이차전지단지기반시설구축속도"
@@ -5724,6 +6701,24 @@
 "url": "https://www.epochtimes.com/b5/26/11/5/n14883781.htm"
 },
 {
+"key": "6kreceivesconditionalcommitmentfor250millionloanfromtheusdepartmentofwartosuppor",
+"keys": [
+"6kreceivesconditionalcommitmentfor250millionloanfromtheusdepartmentofwartosuppor"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🌍 세계",
+"title": "6K Receives Conditional Commitment for $250 Million Loan from the U.S. Department of War to Support Domestic Cathode Active Material Expansion – Company Announcement - FT.com",
+"show": "6K, 국내 양극활물질 확장 지원을 위해 미 전쟁성으로부터 2억 5천만 달러 대출 조건부 약속 받아 – 회사 발표 - FT.com",
+"source": "Financial Times",
+"src_url": "https://markets.ft.com",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUEpld0thNndHalo2WTh6eVQ2TEVrS29QVXRUMko4R2ZVUDNwMDF3QnRHNkJBcDN4TUVaOVJndFYtcmtqNXd4Tlg0eHRFenVHTFVSeWViQnZsR2RFclZkLU1OQzVoOGx2Yy1HSlczRERTMWRLazg5djVvV1I3UlBYYTFWaTgxOUdoa2ozRTgwNE1HODB0ek5DRA?oc=5",
+"pub": 1793893920.0,
+"time": "11/06 00:52",
+"run": "202611060533",
+"url": "https://markets.ft.com/data/announce/detail?dockey=600-202611051052PR_NEWS_EURO_ND__EN90132-1"
+},
+{
 "key": "受鋰價上漲推動阿爾貝馬爾第三季度扭虧為盈",
 "keys": [
 "受鋰價上漲推動阿爾貝馬爾第三季度扭虧為盈"
@@ -5788,6 +6783,42 @@
 "pub": 1793888834.0,
 "time": "11/05 23:27",
 "run": "202611051457"
+},
+{
+"key": "themorningriskreportbinanceandpolymarketsuspendtradingafterhacks",
+"keys": [
+"themorningriskreportbinanceandpolymarketsuspendtradingafterhacks"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇺🇸 미국",
+"title": "The Morning Risk Report: Binance and Polymarket Suspend Trading After Hacks",
+"show": "아침 위험 보고서: 바이낸스와 폴리마켓, 해킹 후 거래 중단",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTVlETHZjVGcwRTRnak9TNmZpOEFXcUI2czBIYi14TmZDRG5RajBhdXY1WXV5SzVyU1VCOVEtQUtXYU1PV3RFSW1yODlUaXhRbDJpeThaZG4zVGVNblN3VUF5NjFUNlNDUTQ5X01sOWFJSS00eXR1Y0VnMkJqd0NlMWFvcXQ5VGJ3OTItZVF0emRWck80YmhTcEFNNUNMVDRteWNZZXJkYTB3MmJfcHdteUVMejVIRGpjSmpJSU8zbTVrdHJsOGc?oc=5",
+"pub": 1793879968.0,
+"time": "11/05 20:59",
+"run": "202611060533",
+"url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-binance-and-polymarket-suspend-trading-after-hacks-9261a44c"
+},
+{
+"key": "stellantisextendsbyonemoreweekproductionstoppageforfiat500",
+"keys": [
+"stellantisextendsbyonemoreweekproductionstoppageforfiat500"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇺🇸 미국",
+"title": "Stellantis extends by one more week production stoppage for Fiat 500",
+"show": "스텔란티스, 피아트 500 생산 중단 1주 더 연장",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLXE0Rkw2c0dIU2RIZ2h5ZnJweGJ0Vy1vVUhtV0IxUklQeTRxWThSb0pudWVCZ0xEQVJnZEk5ZmxCeFFaVGUtME1zbktCRDFoZmlkY2FmVDQ1VTFYMVpRVjBkdV9JMEhycGNVWUctOXhFb2U3dTlqQzhxUVFQUDh5MFBNeF9lUlBfd3l3eC1BZGctQzY1SFItVkVLVlNVN3ZSc0Q4REhHOUtjTDQzYjJ1cW9LR2xFU3dVM0ZYZnJ4a1YwN2FqYkE3S0dn?oc=5",
+"pub": 1793878066.0,
+"time": "11/05 20:27",
+"run": "202611060533",
+"url": "https://www.reuters.com/business/autos-transportation/stellantis-extends-by-one-more-week-production-stoppage-fiat-500-2026-11-05/"
 },
 {
 "key": "포항시철강이차전지산업연계국제회의전시콘텐츠개발추진",
@@ -6027,6 +7058,42 @@
 "run": "202611051457"
 },
 {
+"key": "watchchinastockssurgeasbluewavesinkskoreasheavyweights",
+"keys": [
+"watchchinastockssurgeasbluewavesinkskoreasheavyweights"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🌍 세계",
+"title": "Watch China Stocks Surge As Blue Wave Sinks Korea's Heavyweights",
+"show": "블루 웨이브가 한국의 주요 기업을 침몰시키면서 중국 주식이 급등하는 모습을 지켜보세요",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY0tBS0o0RUFubWlrRFl3OWY4Q29LZnhQZ2dQYmIySm4zdktaNmpBWko1Z0FCNE5xdHd1LWYxQ2ZZOER0cFR6VUFlR0FjMEFkUXh2bjZ1WWFoUXJ6alVLaFY4NW9XdmZBQm5WOG9rSENOMkxSZXpiUzBnbkdsRmIzUGRJQTZiR3c?oc=5",
+"pub": 1793866395.0,
+"time": "11/05 17:13",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/videos/2026-11-05/the-china-show-11-05-2026-video"
+},
+{
+"key": "nanoonecommencesconstructionforcandiacexpansionprovidesupdateoncommercialactivit",
+"keys": [
+"nanoonecommencesconstructionforcandiacexpansionprovidesupdateoncommercialactivit"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🌍 세계",
+"title": "Nano One Commences Construction for Candiac Expansion, Provides Update on Commercial Activities",
+"show": "Nano One, Candiac 확장을 위한 건설 시작, 상업 활동에 대한 업데이트 제공",
+"source": "Financial Times",
+"src_url": "https://markets.ft.com",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONVdjdlFPaVlhZDRpTkk3aGJBOEd4c2pSSjZ3Wnc2cU5COTZPVFM4UnZ4VFdFZUJCTFVUNS1BcUNRWWZOYkd1OGdfdUdzZHBkOHpFOHNqbHo0SUM5MTB4SWpHTTZhOFplQ3dxMVR3cmtvcVZfLVRZYkpRYURpQVltZlhVa0ZHMjk2c1pRTG91NFFfYUhuSU1EeWdLTXdaVlphWm9leXdB?oc=5",
+"pub": 1793865900.0,
+"time": "11/05 17:05",
+"run": "202611060533",
+"url": "https://markets.ft.com/data/announce/detail?dockey=600-202611050305BIZWIRE_USPRX____20261105_BW334267-1"
+},
+{
 "key": "반도체이차전지기술고도화gist첨단분석과학심포지엄",
 "keys": [
 "반도체이차전지기술고도화gist첨단분석과학심포지엄"
@@ -6061,7 +7128,8 @@
 {
 "key": "股行情滬綜指反覆收升01光伏電池股全天強勢專題透視新聞",
 "keys": [
-"股行情滬綜指反覆收升01光伏電池股全天強勢專題透視新聞"
+"股行情滬綜指反覆收升01光伏電池股全天強勢專題透視新聞",
+"滬綜指反覆收升01光伏電池股全天強勢即時新聞新聞"
 ],
 "count": 1,
 "theme": "🔋 2차전지",
@@ -6140,6 +7208,23 @@
 ]
 },
 {
+"key": "에코프로3분기영업익급감북미고객확대제련소정상화시동종합",
+"keys": [
+"에코프로3분기영업익급감북미고객확대제련소정상화시동종합"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇰🇷 한국",
+"title": "에코프로, 3분기 영업익 급감…북미고객 확대·제련소 정상화 시동(종합)",
+"show": "에코프로, 3분기 영업익 급감…북미고객 확대·제련소 정상화 시동(종합)",
+"source": "마켓인",
+"src_url": "https://marketin.edaily.co.kr",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JTVNIOHhPb2R5Rk91ZGcyb0U1NmFuT1hLb1NlSzYxbXdral9GZW55VnhJT2VLZ0FSc05NREVyR2k1d3BkZzJfenJxT1I3UXZSbTRHUjd4NzBQN1cyeS03c3JWUzE0aW1hOEZSZUlURUsxVnc?oc=5",
+"pub": 1793862897.0,
+"time": "11/05 16:14",
+"run": "202611060533"
+},
+{
 "key": "中國a股深v反轉創業板指翻紅漲3太陽能電池股掀漲停潮恒生科技指數飆5",
 "keys": [
 "中國a股深v反轉創業板指翻紅漲3太陽能電池股掀漲停潮恒生科技指數飆5"
@@ -6157,6 +7242,23 @@
 "url": "https://finance.biggo.com.tw/news/5b40f1ff-e4c9-4f0b-8b71-7eb007d94882"
 },
 {
+"key": "美테네시양극재공장내년1분기가동본격화여러고객과공급협의중lg화학컨콜",
+"keys": [
+"美테네시양극재공장내년1분기가동본격화여러고객과공급협의중lg화학컨콜"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇰🇷 한국",
+"title": "\"美 테네시 양극재 공장, 내년 1분기 가동 본격화…여러 고객과 공급 협의중\"-LG화학 컨콜",
+"show": "\"美 테네시 양극재 공장, 내년 1분기 가동 본격화…여러 고객과 공급 협의중\"-LG화학 컨콜",
+"source": "이데일리",
+"src_url": "https://www.edaily.co.kr",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTUxfTWxiWF9QY25HVE9uMGFFZjR6aUdyaUZvOUQzMnY4T1JJakNmdjg4YXNrTW5WM0QwSWc4RzRIUDZCYTl2WWdnX2VDenVWTk5zT3AtQmhsSW1fZFpZNUZseE9HeVlUTVZ5WEhCbXZqZWhkX2pqdTcxQUE1M2s5Qg?oc=5",
+"pub": 1793858606.0,
+"time": "11/05 15:03",
+"run": "202611060533"
+},
+{
 "key": "민주당압승에도lg엔솔삼성sdi약세2차전지진짜반등가능할까",
 "keys": [
 "민주당압승에도lg엔솔삼성sdi약세2차전지진짜반등가능할까"
@@ -6171,6 +7273,24 @@
 "pub": 1793858040.0,
 "time": "11/05 14:54",
 "run": "202611051500"
+},
+{
+"key": "chinascleantechstocksjumpasinvestorsbetonuspolicyshift",
+"keys": [
+"chinascleantechstocksjumpasinvestorsbetonuspolicyshift"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇺🇸 미국",
+"title": "China's cleantech stocks jump as investors bet on US policy shift",
+"show": "투자자들이 미국의 정책 변화에 베팅하면서 중국의 청정 기술 주식이 급등했습니다.",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdHllX1NRUnhtUFNpX3FES2xxMF93ZVJTdkhEelhpSXR6RmViQ2ZLc3Z1TXpKRjBNMjdrbWZZYmlSVGdWd2MxSUdsaHdCTmUzckE1M09ScmVsLWhuTThTa190TVlFMWpwbC1jcTlobmxjMG9SOVV0N3hHQUl3dDUzdmR2ZFhjQkFFRVRtOEhSdzVJazQ0aF9mdnhtY0h5ZDBVQUhOc0hkS3pJejN6Ui1F?oc=5",
+"pub": 1793857800.0,
+"time": "11/05 14:50",
+"run": "202611060533",
+"url": "https://www.reuters.com/business/energy/chinas-cleantech-stocks-jump-investors-bet-us-policy-shift-2026-11-05/"
 },
 {
 "key": "koreanbatterymakersgaingroundinnorthamericanessmarket",
@@ -6773,6 +7893,32 @@
 "url": "https://www.chemeurope.com/en/news/1190254/startup-edenenergy-used-e-scooter-batteries-become-industrial-energy-storage-system.html"
 },
 {
+"key": "泓德能源啟動庫藏股信心喊話明年海外動能仍成長",
+"keys": [
+"泓德能源啟動庫藏股信心喊話明年海外動能仍成長",
+"泓德能源啟動庫藏股計畫擬斥資744億元買回8000張",
+"泓德能源啟動第二次庫藏股最高斥資744億元買回8000張",
+"泓德能源啟動第二次庫藏股計畫擬砸744億買回8000張",
+"泓德能源啟動庫藏股",
+"泓德能源啟動庫藏股日報",
+"泓德能源啟動第2次庫藏股擬斥資最高744億買回8000張",
+"泓德能源宣布啟動庫藏股計畫上市櫃",
+"泓德能源啟動庫藏股明起買回自家股票8000張",
+"泓德能源宣布啟動庫藏股計畫明起買回8000張上限744億元"
+],
+"count": 8,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇭🇰 홍콩",
+"title": "泓德能源啟動庫藏股 信心喊話明年海外動能仍成長",
+"show": "Hongde Energy는 자사주를 발행하고 내년에도 해외 모멘텀이 계속 성장할 것이라는 자신감을 표명했습니다.",
+"source": "鏡週刊Mirror Media",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10Qi01RUxyV1poLWNBbW13eXlqMGo3SmpqVmRFa2kyZHVmTERyb3JNbC16VlRlMkhndmJvWXVsNEFiZUN6Zm9BbnVUbGl0UTFzT1hOMTRCbjJQN1BFYmN2WUQ4dVRHV0RsQkpB0gFrQVVfeXFMTXRCLTVFTHJXWmgtY0FtbXd5eWowajdKampWZEVraTJkdWZMRHJvck1sLXpWVGUySGd2Ym9ZdWw0QWJlQ3pmb0FudVRsaXRRMXNPWE4xNEJuMlA3UEViY3ZZRDh1VEdXRGxCSkE?oc=5",
+"pub": 1793877120.0,
+"time": "11/05 20:12",
+"run": "202611051615",
+"url": "https://www.mirrormedia.mg/story/amp/20261105-181fin-191243"
+},
+{
 "key": "遠信儲能09621發售價已釐定爲每股h股978港元作者智通財經",
 "keys": [
 "遠信儲能09621發售價已釐定爲每股h股978港元作者智通財經",
@@ -6781,7 +7927,11 @@
 "新股ipo丨遠信儲能傳978元定價",
 "遠信儲能09621hk發售價定為每股978港元預期11月9日上市",
 "遠信儲能09621憲章文件",
-"遠信儲能09621其他雜項"
+"遠信儲能09621其他雜項",
+"新股上市遠信儲能09621發售價978元中間偏下定價集資56億元",
+"遠信儲能09621發售價978元中間偏下定價集資56億元即時新聞新聞",
+"遠信儲能09621董事名單和他們的地位和作用",
+"遠信儲能09621審核委員會的職權範圍"
 ],
 "count": 4,
 "theme": "⚡ 전고체배터리·ESS",
@@ -6814,26 +7964,6 @@
 "롯데에너지머티리얼즈3분기역대최대매출적자폭축소",
 "엘앤에프3분기영업손실265억원환율원재료값급락에적자전환"
 ]
-},
-{
-"key": "泓德能源啟動庫藏股信心喊話明年海外動能仍成長",
-"keys": [
-"泓德能源啟動庫藏股信心喊話明年海外動能仍成長",
-"泓德能源啟動庫藏股計畫擬斥資744億元買回8000張",
-"泓德能源啟動第二次庫藏股最高斥資744億元買回8000張",
-"泓德能源啟動第二次庫藏股計畫擬砸744億買回8000張"
-],
-"count": 3,
-"theme": "⚡ 전고체배터리·ESS",
-"region": "🇭🇰 홍콩",
-"title": "泓德能源啟動庫藏股 信心喊話明年海外動能仍成長",
-"show": "Hongde Energy는 자사주를 발행하고 내년에도 해외 모멘텀이 계속 성장할 것이라는 자신감을 표명했습니다.",
-"source": "鏡週刊Mirror Media",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10Qi01RUxyV1poLWNBbW13eXlqMGo3SmpqVmRFa2kyZHVmTERyb3JNbC16VlRlMkhndmJvWXVsNEFiZUN6Zm9BbnVUbGl0UTFzT1hOMTRCbjJQN1BFYmN2WUQ4dVRHV0RsQkpB0gFrQVVfeXFMTXRCLTVFTHJXWmgtY0FtbXd5eWowajdKampWZEVraTJkdWZMRHJvck1sLXpWVGUySGd2Ym9ZdWw0QWJlQ3pmb0FudVRsaXRRMXNPWE4xNEJuMlA3UEViY3ZZRDh1VEdXRGxCSkE?oc=5",
-"pub": 1793877120.0,
-"time": "11/05 20:12",
-"run": "202611051615",
-"url": "https://www.mirrormedia.mg/story/amp/20261105-181fin-191243"
 },
 {
 "key": "arenasupportslocalbatterymanufacturingwith677million",
@@ -6906,6 +8036,24 @@
 "url": "https://news.futunn.com/hk/flash/1003542540/price-cost-and-certification-center-conducts-research-on-energy-storage"
 },
 {
+"key": "ai熱潮延燒至礦業貝萊德從晶片到基建009835掌握全球資源需求",
+"keys": [
+"ai熱潮延燒至礦業貝萊德從晶片到基建009835掌握全球資源需求"
+],
+"count": 2,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇹🇼 대만",
+"title": "AI 熱潮延燒至礦業 貝萊德：從晶片到基建 009835掌握全球資源需求",
+"show": "AI 열풍이 광산업계로 확산된다. BlackRock: 칩부터 인프라까지 009835는 글로벌 자원 수요를 파악합니다.",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wTWVKbGVZb180MnBOR0xiZzhLeGlWV2ZvNVBiRkQyTmtuOTRPRk9PZXpnTFlYRGRxX01UaU1SVW5CS1NoTk0xZ3puWnRwZmlaQmNKLXJ2VGtLZ9IBX0FVX3lxTFBiQVNISWoyeWRKME1yT1ZTQlFqTzZfNG9HNFVCVktRODd2T0h2MWVVN25NQTJ6d0Z3OTdaaktvWTY2ZXRLLU9Ka0VyY0hUWUVJNDFBS0lvRGxlZjlRanhn?oc=5",
+"pub": 1793864828.0,
+"time": "11/05 16:47",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5618/9859727"
+},
+{
 "key": "글로벌ess배터리출하73급증k배터리북미점유율21껑충",
 "theme": "⚡ 전고체배터리·ESS",
 "region": "🇰🇷 한국",
@@ -6958,6 +8106,97 @@
 "url": "https://www.wenweipo.com/a/202611/05/AP6aeb93ade4b028ec01928fa4.html"
 },
 {
+"key": "美股急吐道指瀉1833點納指挫半成英國加息025厘三年來首次即時新聞新聞",
+"keys": [
+"美股急吐道指瀉1833點納指挫半成英國加息025厘三年來首次即時新聞新聞"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇭🇰 홍콩",
+"title": "美股急吐道指瀉1833點納指挫半成，英國加息0.25厘三年來首次 | 即時新聞 - 新聞",
+"show": "미국 증시 폭락, 다우지수 1,833포인트 하락, 나스닥 지수 0.5% 하락, 영국은 3년 만에 처음으로 금리 0.25% 인상 | 인스턴트 뉴스 - 뉴스",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWG1yZWdWQ2FxaUpWcEp1N1h6dURNVHB2R2tVNTRaZk85enh3NTFmMk8yQWQxRk9teGxuNmRzVG9QVVd6eC0zUHhHWDFvY3hNc29LbXBLa1NIbW9FOUZuOEthcUF3WWpiRmxham83MlRsV3dGTGpoRGdQbEplRnI0aTYwOTJLNFQycTdWWHI4RHhiaWpPNEVJQTJxZ3c2UmNHWFZNeUZTa2NsQQ?oc=5",
+"pub": 1793934960.0,
+"time": "11/06 12:16",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=daily&newsid=2026110600"
+},
+{
+"key": "正隆大園廠深夜發生火警公司受損原料已投保營運不受重大影響",
+"keys": [
+"正隆大園廠深夜發生火警公司受損原料已投保營運不受重大影響"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇹🇼 대만",
+"title": "正隆大園廠深夜發生火警 公司：受損原料已投保 營運不受重大影響",
+"show": "늦은 밤 정룽 다위안 공장에서 화재가 발생했습니다. 회사: 손상된 원자재에 대해 보험에 가입되어 있어 운영에 큰 영향을 미치지 않을 것입니다.",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nTEZTSzFLNm45WXhIbGZST2lUYTRoRWJuZFREOFNJZjE4dFlTcXZCelc3eTRKMTQwQTdzODFJQ0I3TWw5UjY0UEpWY1VjTWdr0gFWQVVfeXFMT1NXeGtPenoya29ZcmtZNEFuWmhsU2taS21Ic1FmbmFabl9idmtoSlBYNUhMRTI3ajg5Y09lWmlHT3g1ZUJqVXNvSWJNNEVYT3dEZERid2c?oc=5",
+"pub": 1793933012.0,
+"time": "11/06 11:43",
+"run": "202611060533",
+"url": "https://udn.com/news/story/7241/9861316"
+},
+{
+"key": "六都新屋供給踩煞車台南使照量近腰斬賴正鎰房市還要盤兩年產業綜合產經",
+"keys": [
+"六都新屋供給踩煞車台南使照量近腰斬賴正鎰房市還要盤兩年產業綜合產經",
+"交屋潮退了只剩這都還在增加賴正鎰房市還要盤兩年"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇹🇼 대만",
+"title": "六都新屋供給踩煞車！台南使照量近腰斬賴正鎰：房市還要盤兩年| 產業綜合| 產經",
+"show": "Liudu의 새 주택 공급이 중단되었습니다! 타이난의 외교 자격증 수가 거의 절반으로 줄었습니다. 라이정이(Lai Zhengyi): 주택 시장은 2년간 안정세를 이어갈 것입니다 | 산업종합 | 산업경제학",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03R1dlMEIzTnlZNG95WjZTX2FqaFlZYk1rZHdhMVE0Qkw3TmUySWI1RXNDbnFxbDFGTDRiQ0czZ0pYbzdiWTVQT2gyYkpLSjZ4?oc=5",
+"pub": 1793932501.0,
+"time": "11/06 11:35",
+"run": "202611060533",
+"url": "https://udn.com/news/story/7241/9861296"
+},
+{
+"key": "商情供應充足碳酸鋰周跌逾4",
+"keys": [
+"商情供應充足碳酸鋰周跌逾4"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇹🇼 대만",
+"title": "《商情》供應充足 碳酸鋰周跌逾4%",
+"show": "\"사업정보\" 탄산리튬 공급량 전주 대비 4% 이상 하락",
+"source": "旺得富理財網",
+"src_url": "https://wantrich.chinatimes.com",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Lck5EVkZhYllycDRCSHFSQkNINUM0dmlYU2hKTlA3MS1LU0RkOWtRd200cVFUZHMwNS1Ud21qMzM0V3pBWGl5SDJDOTZRejdHWll0Sm5WcU1VWXJqelBaUXIyQ3NqLXptU3c?oc=5",
+"pub": 1793932397.0,
+"time": "11/06 11:33",
+"run": "202611060533",
+"url": "https://wantrich.chinatimes.com/news/20261106900130-420101"
+},
+{
+"key": "百貨周年慶拚業績搶人才專櫃銷售顧問月薪上看15萬",
+"keys": [
+"百貨周年慶拚業績搶人才專櫃銷售顧問月薪上看15萬"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇹🇼 대만",
+"title": "百貨周年慶拚業績、搶人才 專櫃銷售顧問月薪上看15萬",
+"show": "백화점은 창립기념일을 기념하며 성과와 인재 양성에 힘쓰고 있습니다. 카운터 세일즈 컨설턴트의 월급은 최대 150,000위안입니다.",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9acXFNQXkwODNRSGpKSzJERUsxOGVxV1FRT0lBMmlKZ1NQaHVFcThxbGEtcklYUUZOejlnT0Q5R0dlamcwN1h1Y0t0WWlObHRu0gFWQVVfeXFMUEwtYmtHRTU5NWFfNU5rbGs5YjdBVC1EcmtROG0tS1hsYlZQUE9rWmRxOW9TeWRVQldhc192NTNicW5JTEdBbWtLWE5Yc1o3ZTJ4aGZWeXc?oc=5",
+"pub": 1793930312.0,
+"time": "11/06 10:58",
+"run": "202611060533",
+"url": "https://udn.com/news/story/7269/9861179"
+},
+{
 "key": "正力新能與日立中國簽署戰略合作協議攜手共拓新能源產業新賽道",
 "keys": [
 "正力新能與日立中國簽署戰略合作協議攜手共拓新能源產業新賽道"
@@ -6973,6 +8212,23 @@
 "time": "11/06 10:13",
 "run": "202611060155",
 "url": "https://tw.tradingview.com/news/gelonghui:9b62a8adcacdf:0/"
+},
+{
+"key": "버텨야한다삼전닉스급락실적아닌이것때문이라는데부꾸미머니투데이",
+"keys": [
+"버텨야한다삼전닉스급락실적아닌이것때문이라는데부꾸미머니투데이"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇰🇷 한국",
+"title": "\"버텨야 한다\"…삼전닉스 급락, 실적 아닌 '이것' 때문이라는데[부꾸미] - 머니투데이",
+"show": "\"버텨야 한다\"…삼전닉스 급락, 실적 아닌 '이것' 때문이라는데[부꾸미] - 머니투데이",
+"source": "머니투데이",
+"src_url": "https://www.mt.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0ckJGM05FWlRmV3o4Umx4OFk2TEpQR203TU1nTkRyVzIzcUZfWHNLMUlFZVc1U0gzekwwRXF2UXNFbENpLTdLUE1QNlFGbHBreGFHTmtpQ3JQUkJhZWJYTnVHaUMtdFV50gFuQVVfeXFMT212SFVReGRvdlc3ZzVWTmhMQUZvZTB5T2hHLVJwYXRXX0FUdkU2NEFUa0dKQ05LcHUxMWd3RVF3ZVhQcG5OSGdickVxU3lKZ1JiTDNOLXlLVC1jT1NWNUdsUHV6ekw0aXJuelB6S2c?oc=5",
+"pub": 1793926954.0,
+"time": "11/06 10:02",
+"run": "202611060533"
 },
 {
 "key": "아이엘특허기반리튬메탈롤투롤장비개발차세대배터리양산가시화머니투데이",
@@ -6991,6 +8247,42 @@
 "run": "202611060155"
 },
 {
+"key": "ipo基石投資者即將解禁一覽表全部即時新聞新股ipo股票",
+"keys": [
+"ipo基石投資者即將解禁一覽表全部即時新聞新股ipo股票"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇭🇰 홍콩",
+"title": "IPO基石投資者即將解禁一覽表 | 全部 - 即時新聞 - 新股 IPO - 股票",
+"show": "해제 예정인 IPO 초석 투자자 목록 | 모두 - 속보 - 신규 IPO - 주식",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxONEVZN0VCWE5aTVVwajVOZHNUbXRZWEZPdUZ0bXBoRV9mMjFKbG5rbzVqdC1BUEV0SUtNVmpQZDI3NVZ5bmNnZnRoUEVHWWVPOUdrNnhpLVZEWEI3eTVCY2pHOWFXa2VDRUlQZ1lHaDRiQTlRMlQ4am9LM1BmZVJLanJwWlN5SzNGUmV4czRkNVhDRHVUNnpzYVpGYjVwZzVLWHNWY0RRejZ5OTNfWmJ5OW1saUdPRnk2VHR1S0YzWWFkbTJVUmU0d2VuN0R6SzdZbjNNN1ptclBPZDhvU2YwanlLY295V2pHNVl5U3ZpX0JGRHp4Q3FxZm4ybFJ0YlJvbk9OLVRwM24yRlE?oc=5",
+"pub": 1793925776.0,
+"time": "11/06 09:42",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/stocks/ipo-news-article/20261106119/IPO%E5%9F%BA%E7%9F%B3%E6%8A%95%E8%B3%87%E8%80%85%E5%8D%B3%E5%B0%87%E8%A7%A3%E7%A6%81%E4%B8%80%E8%A6%BD%E8%A1%A8"
+},
+{
+"key": "登臨科技09917行業熱度招股資訊新股ipo股票etnet經濟通香港新聞財經資訊和生活平台",
+"keys": [
+"登臨科技09917行業熱度招股資訊新股ipo股票etnet經濟通香港新聞財經資訊和生活平台"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇭🇰 홍콩",
+"title": "登臨科技－Ｐ 09917 - 行業熱度| 招股資訊- 新股 IPO - 股票 | etnet 經濟通|香港新聞財經資訊和生活平台",
+"show": "Denglin Technology - P 09917 - 업계 인기 | 투자설명서 정보 - 신규주 IPO - 주식 | etnet 경제정보 | 홍콩뉴스 금융정보 및 라이프스타일 플랫폼",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX0hwdy0zTl91QnFFbm80MmpqMVJPRGw3UHpWbjBMaFliT21pYzBNM0kzMDQ1MW9FZFA2bEFQaXFRWHRQMVh1d3dHUmllbDY1TVFBZWxRbXNSQ1NhRk1PeVUyZWVMYkhuT2JkOEE5alFQV3NYQjVwcUpLNmdweXVHeA?oc=5",
+"pub": 1793923441.0,
+"time": "11/06 09:04",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/stocks/ipo-info.php?code=09917&tab=industry"
+},
+{
 "key": "ecoflow在美推出新一代便攜式儲能強化節能與智慧應變",
 "keys": [
 "ecoflow在美推出新一代便攜式儲能強化節能與智慧應變"
@@ -7006,6 +8298,79 @@
 "time": "11/06 08:47",
 "run": "202611060155",
 "url": "https://sunmedia.tw/news/technology/1793918129-EcoFlow%E5%9C%A8%E7%BE%8E%E6%8E%A8%E5%87%BA%E6%96%B0%E4%B8%80%E4%BB%A3%E4%BE%BF%E6%94%9C%E5%BC%8F%E5%84%B2%E8%83%BD%E3%80%80%E5%BC%B7%E5%8C%96%E7%AF%80%E8%83%BD%E8%88%87%E6%99%BA%E6%85%A7%E6%87%89%E8%AE%8A"
+},
+{
+"key": "兌吧01753董事名單和他們的地位和作用",
+"keys": [
+"兌吧01753董事名單和他們的地位和作用"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇭🇰 홍콩",
+"title": "兌吧(01753) 董事名單和他們的地位和作用",
+"show": "Duiba(01753)의 이사 목록과 그 지위 및 역할",
+"source": "信報網站",
+"src_url": "https://www.hkej.com",
+"link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPTDY2VHR5ejNwS1NQQkkxdzRoY1ktc01GVFp0LUZ0THUxOE1EeHd0UVJ3eXNVeldFcEJLTGt3V3ViNDBHZ1dXc2FfbkYtYkxMemIta3RFcE56TnhUNGZVRER4N3JSRkV5R2VUQTd0SkFVLS10V0xFSk1NN2ZiYWdWc25DS0tPR2lkWlJ2T0ZoWnAxSXRNdG82RTRPZmF3REpubXR4OEVIcDh4QXlZN3NfcVRnU2xxTnJhMGplMkdCbHVxZG5JT00wcElVR1dIeVpGZnQtcVN1eEhaem5hVXNMMTItTF95b0RRQzRURFFqTUVpRWhRNUFTMHlUREJfTHNMTWxISkhtcTJ3ckc4NUl1QWtuRXRYbFlVeWtGWExLR0l0aFZvWW91NQ?oc=5",
+"pub": 1793922437.0,
+"time": "11/06 08:47",
+"run": "202611060533",
+"url": "https://www.hkej.com/instantnews/hkex/article/4559500/%E5%85%8C%E5%90%A7%2801753%29+%E8%91%A3%E4%BA%8B%E5%90%8D%E5%96%AE%E5%92%8C%E4%BB%96%E5%80%91%E7%9A%84%E5%9C%B0%E4%BD%8D%E5%92%8C%E4%BD%9C%E7%94%A8"
+},
+{
+"key": "亞證地產00271通函其他",
+"keys": [
+"亞證地產00271通函其他",
+"亞證地產00271股東特別大會通告"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇭🇰 홍콩",
+"title": "亞證地產(00271) 通函 - [其他]",
+"show": "아시아증권부동산 (00271) 안내장 - [기타]",
+"source": "信報網站",
+"src_url": "https://www.hkej.com",
+"link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNakcyOEFfR0dRRVQ3LUtORUVEX081emtlT3NsaEhWRzNfdDZlcl83a1ctdVNZakJaazM2aGtJVk5TUlBqM0NIX18ybmdfVjZrT3o0N1Vkb2x2TFdaVkNHNTg3ejE3VUtySjhOWUtzTVhlWnVIQUREclZjTGNhUS1MVi1wdXIzZXMycHFPZlRLQXdteV9BdnZlLUFnRkp2V0RyWUhoOC1uQjBwYU5UYzlLdFpwemswUmRQMjdYbkhhbjRmR01jZUhlM0h1b0REUWE0dGpOY1BPanNpVHJfYU03Yg?oc=5",
+"pub": 1793922434.0,
+"time": "11/06 08:47",
+"run": "202611060533",
+"url": "https://www.hkej.com/instantnews/hkex/article/4559497/%E4%BA%9E%E8%AD%89%E5%9C%B0%E7%94%A2%2800271%29+%E9%80%9A%E5%87%BD+-+%5B%E5%85%B6%E4%BB%96%5D"
+},
+{
+"key": "嗶哩嗶哩09626月報表",
+"keys": [
+"嗶哩嗶哩09626月報表"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇭🇰 홍콩",
+"title": "嗶哩嗶哩－Ｗ(09626) 月報表",
+"show": "Bilibili-W(09626) 월간 보고서",
+"source": "信報網站",
+"src_url": "https://www.hkej.com",
+"link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYV90NEFNalVRYlJwNXFncVRqT2hDZ29fTDNjdy0wTmhWXy1qY3dsQzNCNHdCb2FjNUNzc09LN3FreTZOMTFTa1VSVzNHVDVXNlNEeF9OYVYyelZ6VElELW5vVnYzRXh1Ym1iYkhFRk1wYXBSR0N1SnhYLUlrOEZ0LWJGVkFwWWo4UDdQSGtuSU9wa1JXSW1FTGZMT181VjRnb3pSOWhBQUZTSnRuSnhTU0YtcEZTUDdJT0JRYXFEVHROYlZYRktJNkZSWU55YzNkTlNBUkh6OXptdXRTcjRGZA?oc=5",
+"pub": 1793922433.0,
+"time": "11/06 08:47",
+"run": "202611060533",
+"url": "https://www.hkej.com/instantnews/hkex/article/4559494/%E5%97%B6%E5%93%A9%E5%97%B6%E5%93%A9%EF%BC%8D%EF%BC%B7%2809626%29+%E6%9C%88%E5%A0%B1%E8%A1%A8"
+},
+{
+"key": "willdantoprovideengineeringfor643mwinenergyinfrastructureprojectscompanyannounce",
+"keys": [
+"willdantoprovideengineeringfor643mwinenergyinfrastructureprojectscompanyannounce"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🌍 세계",
+"title": "Willdan to Provide Engineering for 643 MW in Energy Infrastructure Projects – Company Announcement",
+"show": "Willdan, 에너지 인프라 프로젝트에서 643MW에 엔지니어링 제공 – 회사 발표",
+"source": "Financial Times",
+"src_url": "https://markets.ft.com",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNktaeXp1OVU1WHVVRkUxa1RkeUU3QjlTU255U3p1VDQxYXQ3NjVxMXUyZVN2QV9PcXBGTWMxMTYzbEtkZHhtYy14bzcxdjU4WkRVSEtqX3lCcE5LUlBJQ25QdTJZWmNhYmdSVHVZak5ZTUVSTVpWN1QzUF9hdUlBRFNnSEJMOEpmbXlQT3RObHJGUzNZQVJfR3ZLZHFYY3FrcHR0bUtB?oc=5",
+"pub": 1793913000.0,
+"time": "11/06 06:10",
+"run": "202611060533",
+"url": "https://markets.ft.com/data/announce/detail?dockey=600-202611051610BIZWIRE_USPRX____20261105_BW267176-1"
 },
 {
 "key": "해발5000m빙벽뚫은청정에너지중국최고고도100mw풍력ess단지가동",
@@ -7039,6 +8404,24 @@
 "time": "11/06 03:48",
 "run": "202611060354",
 "url": "https://news.pchome.com.tw/finance/idn/20261106/index-79390452438472224003.html"
+},
+{
+"key": "台塑集團擴大新能源版圖國產電芯產能拚倍增搶攻商機",
+"keys": [
+"台塑集團擴大新能源版圖國產電芯產能拚倍增搶攻商機"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇹🇼 대만",
+"title": "台塑集團擴大新能源版圖 國產電芯產能拚倍增搶攻商機",
+"show": "포모사 플라스틱 그룹, 새로운 에너지 발자국을 확대하고 국내 배터리 셀 생산 능력을 두 배로 늘려 사업 기회 포착",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93aFF0ekRzWlYyeXpnMDhta1FXNmZERmlINHpNQ3ctNVlXRDlEVjQyZGVNSGtQNVI3b0JPME9xRWdrMnViamJGZF9rNUFhT2NmdVZ2MWRDUXVvZTFxZzNSYnFSOFNJMEVSUDNCbzE5cGswRDhI0gFfQVVfeXFMTmZubi13UE5YbjBlZVJiZmtpVlFYQ1hwNUVIUHlpQWxzWVR2b1dJY1AzQ1FUU2djRE94NHZFUHJncjdLckxiVDBfaHdTdkNVT25kTFNwOEdwM3ZRNTZ1ZFk?oc=5",
+"pub": 1793901871.0,
+"time": "11/06 03:04",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5612/9860680?from=edn_next_story"
 },
 {
 "key": "spacexproposesmassive747acreaidatacenternearwillcoxdrawingmixedreactionsfromrura",
@@ -7362,6 +8745,24 @@
 "url": "https://tw.tradingview.com/news/gelonghui:b0d307f51acdf:0/"
 },
 {
+"key": "rsteddeliversstrongearningswith19ebitdagrowthandoffshorewindfarmsborkumriffgrund",
+"keys": [
+"rsteddeliversstrongearningswith19ebitdagrowthandoffshorewindfarmsborkumriffgrund"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🌍 세계",
+"title": "Ørsted delivers strong earnings with 19 % EBITDA growth, and offshore wind farms Borkum Riffgrund 3 in Germany and Revolution Wind in the US reach commercial operations – Company Announcement - FT.com",
+"show": "Ørsted는 19%의 EBITDA 성장으로 강력한 수익을 창출하고 독일의 해상 풍력 발전 단지 Borkum Riffgrund 3와 미국의 Revolution Wind가 상업 가동을 시작했습니다 – 회사 발표 - FT.com",
+"source": "Financial Times",
+"src_url": "https://markets.ft.com",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZEVGaGJmN0hHdTRKU2dadGNiZ2ZjRDdoQ0JoYWlGRVc0Z1V4LTRLTzFzTUtnelgtWXlqWERnRHI4dHdFLVJpeUFUSUdobTllRThmOVg3MEpiWHd6bVp1R2t4U1FpT0swSmpDWWJiMUxiQ3RvdjFCVWFqVklDRWQzUFhBZ1FFUG9RRTA0a3RtdDlEdllrOU91YmY0VmdsUjZIX1R4WEwxRk51QVU?oc=5",
+"pub": 1793862000.0,
+"time": "11/05 16:00",
+"run": "202611060533",
+"url": "https://markets.ft.com/data/announce/detail?dockey=600-202611050200DGAP____UKPR_____UK_Regulatory_2428824-1"
+},
+{
 "key": "海倫哲300201sz目前公司在手跟蹤氣溶膠儲能項目已明顯增加儲備項目預計金額合計已達48億元",
 "keys": [
 "海倫哲300201sz目前公司在手跟蹤氣溶膠儲能項目已明顯增加儲備項目預計金額合計已達48億元"
@@ -7456,6 +8857,24 @@
 "pub": 1793858400.0,
 "time": "11/05 15:00",
 "run": "202611051615"
+},
+{
+"key": "chineserenewablesstocksextendsurgeafterdemocraticsweep",
+"keys": [
+"chineserenewablesstocksextendsurgeafterdemocraticsweep"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇺🇸 미국",
+"title": "Chinese Renewables Stocks Extend Surge After Democratic Sweep",
+"show": "중국 재생에너지 주식, 민주당 압승 후 급등 연장",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0xfcERQU1dQVGJxbXBjUlpuNDVLbk05UFRhTmNfbHdrYU5Semg1T016Z0NIUHdjWk5PRmUwUEVlR3ZHRXBVXzF0cWtpbTM2MjFTeUxiMTlzZjljNldEbjJXeHVVTlQ2MXlQc3ItVWRMdUNackcySndZZkdRbEgxbU54Q0FsczliVnc3MktxWVM1NE9rUGVWOTlNU0oxS1d3eUlzbUlRSjFFaUxwWmt3WS13?oc=5",
+"pub": 1793857440.0,
+"time": "11/05 14:44",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/articles/2026-11-05/chinese-renewables-stocks-extend-surge-after-democratic-sweep"
 },
 {
 "key": "三星sdi3q26營益創12季新高全固態電池樣品出貨中",
@@ -8114,6 +9533,26 @@
 "url": "https://finance.biggo.com.tw/news/fde21deb-8735-441b-b214-b593393af942"
 },
 {
+"key": "ai伺服器拉貨強勁三集瑞10月營收年增逾三成",
+"keys": [
+"ai伺服器拉貨強勁三集瑞10月營收年增逾三成",
+"ai伺服器拉貨強勁三集瑞10月營收續創今年新高上市櫃",
+"ai伺服器拉貨強勁三集瑞10月營收續創今年新高產業"
+],
+"count": 3,
+"theme": "🏭 AI 전력",
+"region": "🇹🇼 대만",
+"title": "AI伺服器拉貨強勁 三集瑞10月營收年增逾三成",
+"show": "AI 서버 매출 강세, 산지루이 10월 매출 전년 동기 대비 30% 이상 증가",
+"source": "自由時報",
+"src_url": "https://stock.ltn.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tYWFrYm1YNmZWbm1Vd1hMNFgxZXFpVUJSdjRUWThxdERTYWhHZkVSckR6U3JHdTQ1SXJSVWtqc3J6Y3BHeWdiRVlCcG9zZlV4NF9Tdzl0bk8?oc=5",
+"pub": 1793873274.0,
+"time": "11/05 19:07",
+"run": "202611060533",
+"url": "https://stock.ltn.com.tw/article/z5ceqj0ujwjp"
+},
+{
 "key": "채널who효성중공업ai전력기기호황인데조현준앞에놓인성과배분시험대",
 "theme": "🏭 AI 전력",
 "region": "🇰🇷 한국",
@@ -8183,6 +9622,24 @@
 "time": "11/06 10:58",
 "run": "202611060354",
 "url": "https://news.pchome.com.tw/finance/pinview/20261106/index-79393028074464317003.html"
+},
+{
+"key": "美選民對資料中心說不openai回應不讓居民扛電費",
+"keys": [
+"美選民對資料中心說不openai回應不讓居民扛電費"
+],
+"count": 2,
+"theme": "🏭 AI 전력",
+"region": "🇹🇼 대만",
+"title": "美選民對資料中心說不 OpenAI 回應：不讓居民扛電費",
+"show": "미국 유권자들은 데이터 센터를 거부합니다. OpenAI의 대응: 주민들이 전기 요금을 부담하게 하지 마세요",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByV2xURWd5ZHhpd1ZwMnlTWkgwOHJLRzFZTVUyQWFOVXFQSVRvb3d4Q3I0YThqYXZfWjdMZlJaN0NGTl9DY2hjWnZzSl9ZZ2NXUzdOcTZScUlNMTZfdGtfbGJXOEV0QS1IYldVUTA5aXpkM2tFdkHSAV9BVV95cUxQVW1uX1BHbU8tckxKQnEwQ2wwZFdkVm14ZzZ2MUVnRXBRV2hYVjBxLVRXUE41TUo2TEl2bmMwem1UenF4Qlp6ajdmQlhVODgwbEM4TEpyOHNleW9kUHFjYw?oc=5",
+"pub": 1793928545.0,
+"time": "11/06 10:29",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5599/9861109?from=edn_world_index"
 },
 {
 "key": "데이터센터반대민심폭발에오픈ai전력비용우리가낸다",
@@ -8398,6 +9855,149 @@
 "run": "202611051457"
 },
 {
+"key": "偽藥不買環境用藥安心購環境部攜手跨部會及電商平臺強化聯防樂活情報",
+"keys": [
+"偽藥不買環境用藥安心購環境部攜手跨部會及電商平臺強化聯防樂活情報"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇹🇼 대만",
+"title": "偽藥不買、環境用藥安心購！環境部攜手跨部會及電商平臺強化聯防| 樂活情報",
+"show": "위조약 사지 마시고, 환경약품 안심하고 구매하세요! 환경부, 부처간 위원회, 전자상거래 플랫폼과 손잡고 공동방역 강화 | 로하스 인텔리전스",
+"source": "中央社好生活",
+"src_url": "https://howlife.cna.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6djV0eFVacDlONkwwX3VadHpJNWMyVV9mMWxraDhrWkhvZFYtbldFUGgyQ3ZfcFFLU1BaOXlGTFRDM1R3cXlXa1MyNHZaUjduVm91WWhzT1FkLXc3RHc?oc=5",
+"pub": 1793941811.0,
+"time": "11/06 14:10",
+"run": "202611060533",
+"url": "https://howlife.cna.com.tw/life/20261106s001.aspx"
+},
+{
+"key": "코스피8급락후5000선횡보삼전5하닉9코주부",
+"keys": [
+"코스피8급락후5000선횡보삼전5하닉9코주부"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇰🇷 한국",
+"title": "코스피 8% 급락 후 5000선 횡보…삼전 -5%·하닉 -9% [코주부]",
+"show": "코스피 8% 급락 후 5000선 횡보…삼전 -5%·하닉 -9% [코주부]",
+"source": "서울경제",
+"src_url": "https://www.sedaily.com",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81NDgxc1BLelB3Mmw3M3FBYlBHM25BRjZfdXJCTzhGZXNfeWJVay00Wm9GMW9CRXpjcl9oTDdPQldRQVV3X2NHWUZIZGU2OTA3V3fSAVNBVV95cUxOTTZITGhnLWtnS28zZWV0a1RQTUVNUlNPekNUOGROUzF3Q3hpMEFxMEFBOXg4cUU2N09CTHYyTzUyU0dBekJ5cGhpV09VcXVWSmdNVQ?oc=5",
+"pub": 1793941666.0,
+"time": "11/06 14:07",
+"run": "202611060533"
+},
+{
+"key": "台股醞釀跌深反彈法人認為ai長多行情並未終結",
+"keys": [
+"台股醞釀跌深反彈法人認為ai長多行情並未終結"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇹🇼 대만",
+"title": "台股醞釀跌深反彈 法人認為 AI 長多行情並未終結",
+"show": "대만 증시는 큰 반등을 준비하고 있습니다. 법인들은 AI의 장기 시장이 아직 끝나지 않았다고 믿습니다.",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CQXlMbFBjRHRTN1NOZFp1QzBxUG94RWExVVNjTWZRNGJONFFYV3hlOExqRm4yY2hsSDR2eFdwQmhVRnRSblMwUFRkLXNOSGo50gFWQVVfeXFMUHRUQktndUl3X1ppa3djb3dKcXNneW5JZS1vbWZYeUxFUHN3bm8zNlRidXJMdnNSZjc0VFIydG5mYzh6enZmS19yRnJCcHJaZ2dmbkJNTlE?oc=5",
+"pub": 1793940924.0,
+"time": "11/06 13:55",
+"run": "202611060533",
+"url": "https://udn.com/news/story/7251/9861693"
+},
+{
+"key": "中移動明年算力投資逾千億未來兩年智算能力連續翻番",
+"keys": [
+"中移動明年算力投資逾千億未來兩年智算能力連續翻番"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇭🇰 홍콩",
+"title": "中移動明年算力投資逾千億 未來兩年智算能力連續翻番",
+"show": "China Mobile은 내년에 컴퓨팅 성능에 1,000억 위안 이상을 투자할 예정이며, 지능형 컴퓨팅 역량은 향후 2년 동안 지속적으로 두 배로 늘어날 것입니다.",
+"source": "星島頭條",
+"src_url": "https://www.stheadline.com",
+"link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQZ2ZVSHNWWEo4c21NSFJRMkhIVGdqSlJNYlRBZ2g2WndUR1QxRllNMTFGdDg0d0Fxdk9CS1Z1QTBWRkJnVUtiZUp4eE9IZjh1NWtPbjZZdm8tenVIbF9wX2t5dUZSbFkxX1Z3WFZlNkNWNGhjWkRlUHpkRGF3ckp0X1JmdjNwWlFVZEoxRVYzUTV1S0Z6enJqMGNGU3pKcTYyR3hvN0pOalVVa2J3UlRWaXJFSmFTLVJONm9xdC02VHBkYW12M1hNcXVHVVhxc2xwY2NxM0pKNGFmOXRFMkZuQWlYaFdtZzZxTWoyWWppY3ZLaHFLcjlxVTF2dk01YU1ncmlDMURoOFFzWFNpZTZpRlRSaGpWMGlhMU9TZy1Bajc2OE5ld0JMUkZFcW9MbzU4TWxPNF82WmhjUUg4aHZ1R3ozY0w1VDdJdFlQQUctWmpQZFJjVmpLRmhNYnZiQkl2cG16TnY0Qlg4XzQ1eGpvMnVxOFpoeThIbWZzbHVyZmYxdw?oc=5",
+"pub": 1793938339.0,
+"time": "11/06 13:12",
+"run": "202611060533",
+"url": "https://www.stheadline.com/realtime-finance/3634142/%E4%B8%AD%E7%A7%BB%E5%8B%95%E6%98%8E%E5%B9%B4%E7%AE%97%E5%8A%9B%E6%8A%95%E8%B3%87%E9%80%BE%E5%8D%83%E5%84%84%E6%9C%AA%E4%BE%86%E5%85%A9%E5%B9%B4%E6%99%BA%E7%AE%97%E8%83%BD%E5%8A%9B%E9%80%A3%E7%BA%8C%E7%BF%BB%E7%95%AA"
+},
+{
+"key": "歐洲股市淘金攻略摩根看好四大潛力產業未來五年有戲",
+"keys": [
+"歐洲股市淘金攻略摩根看好四大潛力產業未來五年有戲"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇹🇼 대만",
+"title": "歐洲股市淘金攻略！摩根看好四大潛力產業 未來五年有戲",
+"show": "유럽 ​​주식시장 금 채굴 전략! Morgan은 4가지 잠재적 산업에 대해 낙관하고 있으며 향후 5년 내에 기회가 있을 것입니다.",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBnYUpGR21tZm5iU1VLdlBmczVyNDd0YjJOdFE4Q2RieUJWTVFiejE0NGZoVGdzN2d4b2x1MXpXOWdCcEtpUmd6UlYyNTRCR2xN0gFWQVVfeXFMTzBSVXZQY3dGQ0RySkp0SUR1YjF1TERQQTdqaWJ0ckJqcFhmVTBBMTNMYlYtblNyT0tzUFViR3RmRU1yMDZWbkhEcEJzYVl5MVFNS3hLdmc?oc=5",
+"pub": 1793934594.0,
+"time": "11/06 12:09",
+"run": "202611060533",
+"url": "https://udn.com/news/story/7251/9861379"
+},
+{
+"key": "一個女子一句話引爆全球股災數據中心禁令戳破ai泡沫",
+"keys": [
+"一個女子一句話引爆全球股災數據中心禁令戳破ai泡沫"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇭🇰 홍콩",
+"title": "一個女子一句話引爆全球股災 數據中心禁令戳破AI泡沫",
+"show": "한 여성의 말이 글로벌 증시 폭락을 촉발했고, 데이터센터 금지로 AI 버블도 터졌다.",
+"source": "香港經濟日報HKET",
+"src_url": "https://specialist.hket.com",
+"link": "https://news.google.com/rss/articles/CBMigwNBVV95cUxQMmVOODMySHVOSjJDOHdQbVkyb3pHSXB4Mk0wVXZCbm9lUGY3cGdxdk9kWW9zRzZEemxWUUU1UnRJbElFOEhRRzF2ZzFvVTJSaHU4c3hGbmV0NWJqd0hTUEk0a05VajM3cF82ci1CTk9RWUllcnR4aWZFYUkyRUI3UzAwQ1luYi14WEQ0Wk5QXzNwclhLREtNcldXNS1nLUgxTXpoVktHOUtmS1g4dWlmckJWNU82VnFvMGNLT1dkZnUtc1lZUmdsSTF0YnRLbWw1Wmc2V09RYUZXbXhKN3pFajNUUXZpUkZoYXd5QS1raU53Qk1SMTVoSFJKQmptRW53ei1kMEpiSWJuSFpOTF9MampBZDl4Ul9iQkJ4QUg4N2Q5RDVUaGZHd1dJYnhpOERMV3E0M2Z0YW94a2RtX29xRDUtX2hDbHJpS3Nhckp6R0Z1QVN0c19Eb3dlWTZxRHBFcEpicUprWUlSUE0wM3JrendWLVFyX2RPTUZfeWViZVFrV1E?oc=5",
+"pub": 1793934349.0,
+"time": "11/06 12:05",
+"run": "202611060533",
+"url": "https://specialist.hket.com/article/4220886/%E4%B8%80%E5%80%8B%E5%A5%B3%E5%AD%90%E4%B8%80%E5%8F%A5%E8%A9%B1%E5%BC%95%E7%88%86%E5%85%A8%E7%90%83%E8%82%A1%E7%81%BD%20%20%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E7%A6%81%E4%BB%A4%E6%88%B3%E7%A0%B4AI%E6%B3%A1%E6%B2%AB?mtc=h0003"
+},
+{
+"key": "德州新建資料中心不蓋了準州長開條件嗆馬斯克照規矩來國際",
+"keys": [
+"德州新建資料中心不蓋了準州長開條件嗆馬斯克照規矩來國際"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇹🇼 대만",
+"title": "德州「新建資料中心」不蓋了？準州長開條件嗆馬斯克：照規矩來- 國際",
+"show": "텍사스에 '새로운 데이터 센터'가 건설되지 않을 예정인가요? 주지사 재개 조건이 머스크를 질식시킨다: 규칙을 따르라 - 국제",
+"source": "工商時報",
+"src_url": "https://www.ctee.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yZ3FHZVNFS3BwZkVVcFRWa3lKWldhMmRMWDZFc2E4X09lUjBBX3huTXE1a3k0Y2tPNC13akVuOHNpWk9KOEhoY1BnY0E1cVl2ejVGamVURzNfdzBydjVZ?oc=5",
+"pub": 1793931960.0,
+"time": "11/06 11:26",
+"run": "202611060533",
+"url": "https://www.ctee.com.tw/news/20261106700756-430701"
+},
+{
+"key": "民主黨贏選舉ai股真的要跌嗎香港經濟日報",
+"keys": [
+"民主黨贏選舉ai股真的要跌嗎香港經濟日報"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇭🇰 홍콩",
+"title": "民主黨贏選舉 AI股真的要跌嗎？|香港經濟日報",
+"show": "민주당이 선거에서 승리하면 AI 주가가 정말 하락할 것인가? |홍콩경제신문",
+"source": "香港經濟日報HKET",
+"src_url": "https://invest.hket.com",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSVcxSmRJQU1oX0FNZEhZWTdSckQwSWllbVZCUDFzSXFmT2lTeGVwVFZSZmlMMWg5SG9iTVBsM2ZMSk93V3BjN2FzY0hVeThSQVlRLWZzajc3MnZuOVpodDhBakpyeUtDZU93Qm9wSl9qOERRYktrUmxVSGZIWUE3aHU5UlVJZjFNekpaN1hxZE95Q0U?oc=5",
+"pub": 1793930429.0,
+"time": "11/06 11:00",
+"run": "202611060533",
+"url": "https://invest.hket.com/article/4220566/democrats-ai-data-centers-electricity-tech-stocks"
+},
+{
 "key": "조용민pwc컨설팅파트너ai전력기기결합이성장동력에너지솔루션수출해야인터뷰",
 "keys": [
 "조용민pwc컨설팅파트너ai전력기기결합이성장동력에너지솔루션수출해야인터뷰"
@@ -8494,6 +10094,24 @@
 "pub": 1793926560.0,
 "time": "11/06 09:56",
 "run": "202611060155"
+},
+{
+"key": "some40ofusplanneddatacentercapacityisinstateswantingtohitpause",
+"keys": [
+"some40ofusplanneddatacentercapacityisinstateswantingtohitpause"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇺🇸 미국",
+"title": "Some 40% of US Planned Data Center Capacity Is in States Wanting to Hit Pause",
+"show": "미국의 계획된 데이터 센터 용량 중 약 40%가 일시 중지를 원하는 상태입니다.",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLWllSzJhdDJkQzRJSGRqb3hTaDJ5SnlFMGhYMDByS3dQRV9BdjR6eXRXSU9Cd2g2UDhlR1A5N2VWNnVkSmtBVzViVGRTdlU1bk90cVNDa3BfVld1aEtyNG5WWUdLYmRMWHhDSklHOUFhZllVcVRCN0NZdnp2NUpyOVF5WnA1Mkd1ZnZlMDFwb3otMldnZV9kdVUteHRBbUlPeHRmWl9DU3NoQUxjQkhwRnR5eDU5dw?oc=5",
+"pub": 1793926500.0,
+"time": "11/06 09:55",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/articles/2026-11-06/new-governors-set-to-challenge-big-swath-of-data-center-capacity"
 },
 {
 "key": "블루웨이브에낙폭키우는k전력기기송전망구축수혜의견도",
@@ -8660,6 +10278,42 @@
 "run": "202611060354"
 },
 {
+"key": "府院分立停擺債限問題明年或再上演20261106經濟",
+"keys": [
+"府院分立停擺債限問題明年或再上演20261106經濟"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇭🇰 홍콩",
+"title": "府院分立 停擺債限問題明年或再上演 - 20261106 - 經濟",
+"show": "정부와 위안화 분리로 내년 부채한도 정지 문제 재발 - 20261106 - 경제",
+"source": "明報新聞網",
+"src_url": "https://news.mingpao.com",
+"link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOTEFickx5RTNvQ2xsQ3NGVjRaN0Vkdk94YUQ5YlhINjVKRlVzdjM5LXc5RXR0eUFlQkwyWExyZVZ2VXlmaHNqaHJVd2NZcG9FVjFoN05zYmY2b2tzbmZGZGFyWnp5OFoyYm1XdUhSMDRfMGJEa3pMM3duc1hINzZXS2V2WjQwbVZzaU1jQm93eVdoaDlVdjduLXB3UVhGWGhQWGRnUlVwTFFTbDFnSGVTV2pjdGhBY0RnUXR4b28zeUl2Z2NPaEhOd3pzLXJ1T2E2Z1NFZFBpZjVVVjRhOXp0dHZtbmpzUTZkZWd6OE5BOFI1XzFRalAtTTM5UFlmYkRqRWE4R251QVdMUGpNTDdaODcyTDJ6cjVsX0VYajUwQ2FUejVDamVHdkdhT0FUaHN1TTJveTAtREltZENSX1R5X0pGNHJtTHJvU0t6OVQwU00?oc=5",
+"pub": 1793910600.0,
+"time": "11/06 05:30",
+"run": "202611060533",
+"url": "https://news.mingpao.com/pns/%E7%B6%93%E6%BF%9F/article/20261106/s00004/1793898498212/%E5%BA%9C%E9%99%A2%E5%88%86%E7%AB%8B-%E5%81%9C%E6%93%BA%E5%82%B5%E9%99%90%E5%95%8F%E9%A1%8C%E6%98%8E%E5%B9%B4%E6%88%96%E5%86%8D%E4%B8%8A%E6%BC%94"
+},
+{
+"key": "solarstocksralliedondemocraticvictoriesbutpolicyrisksstillthreatenthegroup",
+"keys": [
+"solarstocksralliedondemocraticvictoriesbutpolicyrisksstillthreatenthegroup"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇺🇸 미국",
+"title": "Solar stocks rallied on Democratic victories, but policy risks still threaten the group",
+"show": "태양광 관련 주식은 민주당의 승리로 반등했지만 정책 리스크는 여전히 그룹을 위협하고 있습니다.",
+"source": "CNBC",
+"src_url": "https://www.cnbc.com",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RbVIyM2RiMDltRWZxYXdINkFSTjAxelFvY3Z3NHdLZnVma0VqWTZDYzh0RXdzMmlwUm9PN240dDUwTnpRY3NZYk82STQ2bFlLUUEyZWIwdDZzNWJIZE11YWlxYmtncVlMQklvOUduYngtN19VLUdZ?oc=5",
+"pub": 1793905932.0,
+"time": "11/06 04:12",
+"run": "202611060533",
+"url": "https://www.cnbc.com/2026/11/05/solar-stocks-democrats-congress.html"
+},
+{
 "key": "日立能源亮相energytaiwan以創新電網技術驅動永續能源未來",
 "keys": [
 "日立能源亮相energytaiwan以創新電網技術驅動永續能源未來"
@@ -8692,6 +10346,24 @@
 "time": "11/06 04:00",
 "run": "202611060155",
 "url": "https://cmnews.com.tw/article/cmoneyairesearcher-34b50bfb-d94b-11f1-9a44-cb29db0d847d"
+},
+{
+"key": "oracledatacenterdeveloperwaiveskeyairpermitdeadline",
+"keys": [
+"oracledatacenterdeveloperwaiveskeyairpermitdeadline"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇺🇸 미국",
+"title": "Oracle Data Center Developer Waives Key Air Permit Deadline",
+"show": "Oracle 데이터 센터 개발자, 주요 항공 허가 마감일 면제",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUV9SN2taamxXRkRRMVhvZUFQbEttZlJvRmxONTBtdk9NZjBhMmdZZ3pEOFdHdTlkcEI2NEYxaEY3X2tRMkxQZExiRkswdERGblN0dS1NOEtzNmE2cnVzZlNaeDBNZXZ4YUVVNGhfZUtTTm9hMlJTTHdUTG16a3BDOGxRaFROSExZWGlOdGl0dDdtUDloU2FobTgwcURHMXl4ZVNiTUxvc2Y0clhvY0Iw?oc=5",
+"pub": 1793904658.0,
+"time": "11/06 03:50",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/news/articles/2026-11-05/oracle-data-center-developer-waives-key-air-permit-deadline"
 },
 {
 "key": "lettersdontpayfordatacenterpowerplantmakedetoursignsvisible",
@@ -8728,6 +10400,24 @@
 "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4476818:0-cmi-record-q3-profitability-meets-surging-data-center-power-demand-as-pickup-weakness-trims-fy26-growth-outlook/"
 },
 {
+"key": "ai丨因雲商iren計劃延期微軟據報削減數據中心支出",
+"keys": [
+"ai丨因雲商iren計劃延期微軟據報削減數據中心支出"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇭🇰 홍콩",
+"title": "AI丨因雲商Iren計劃延期 微軟據報削減數據中心支出",
+"show": "AI | 마이크로소프트, 클라우드 제공업체 아이렌 계획 연기로 데이터센터 지출 삭감",
+"source": "信報網站",
+"src_url": "https://www.hkej.com",
+"link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxNNUROUFVpMERxVnFUcFFsR0F1cTlGVG1UTXVYSldYeURSb09NbG9nTnUwT1NSNElMSFl2eXFETHcwQ0dRcDBBWHE5VlJoX2x3NmE4bTJMY1NuY2FEeWpmSG4zZ0d0aGlCc2VIcG1JRU11Z3dCdF9JVWIxcHFOdnhFN3JSbUxzdG1JbzRSd1R5anhkQ1NXYUFxelNfd2xXT2dJM3RoR2ZIZG9Ubk12UmRlbzdWNUtDd3F2VWwySUxzbVBXWk9mQzJGRTlrNEM2UUFlUG1lUWhlNXF4WDFXakNFZkR4bTdaTHE1TXJBRkxRWlVXTmxncTZGb3BseVE1dzBEVV9RUDZ0SUpxWVotWllwbE9tZllvdzN1NmhWRHEzS2MyQ05HRURtbUxvdVFGT2hCY1FmOXFCSGpuSWl3R0p3elBDeUtaWm5IdndEdFhXTDc5czB3RDFPM3hFc3YxM1B4RjI1U2lMSlZJZw?oc=5",
+"pub": 1793897209.0,
+"time": "11/06 01:46",
+"run": "202611060533",
+"url": "https://www.hkej.com/instantnews/international/article/4559468/AI%E4%B8%A8%E5%9B%A0%E9%9B%B2%E5%95%86Iren%E8%A8%88%E5%8A%83%E5%BB%B6%E6%9C%9F+%E5%BE%AE%E8%BB%9F%E6%93%9A%E5%A0%B1%E5%89%8A%E6%B8%9B%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E6%94%AF%E5%87%BA"
+},
+{
 "key": "eqtstockzelestrashiftsstrategytowardusaipowerdemand",
 "keys": [
 "eqtstockzelestrashiftsstrategytowardusaipowerdemand"
@@ -8743,6 +10433,24 @@
 "time": "11/06 01:33",
 "run": "202611060354",
 "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/eqt-stock-zelestra-shifts-strategy-toward-us-ai-power-demand/70465383"
+},
+{
+"key": "算力大本營變天新雲端恐受衝擊",
+"keys": [
+"算力大本營變天新雲端恐受衝擊"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇭🇰 홍콩",
+"title": "算力大本營變天 新雲端恐受衝擊",
+"show": "컴퓨팅 파워 베이스 캠프의 변화, 새로운 클라우드가 영향을 받을 수 있음",
+"source": "香港經濟日報HKET",
+"src_url": "https://paper.hket.com",
+"link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPTzREOHpYSVZmSDEwSTVlU25qMDJOd2ViYlNZQWRfTEc0eFBqQ2NRMVN5ampGYkxFTUdwNzNYZWMwY1ljU3FYU29Pc0daZHluTnVScm1ZVzNpcEc4M2c3WmdJZmVRcFgzQTBONDc3MWVCODRnbGlqSy0wbi1Ia25WbDY2aFZxbzhLUG9SNjJTa1I2ZnBTNHo0d0gxVElfS1pJeG1vTDVtVkRDQkhKdGc2d0U2SmpibnFQZXhSdTVmRTlKWml5WW5LR05zdUdTSjh6cGtOMHFWZDNYaGgtaUZQYUtpVFlBbUFHMFFweTJwYkh4clU2OEV2THcxY2pMcmFYc0ZIRkFPSEFKZw?oc=5",
+"pub": 1793896180.0,
+"time": "11/06 01:29",
+"run": "202611060533",
+"url": "https://paper.hket.com/article/4220704/%E7%AE%97%E5%8A%9B%E5%A4%A7%E6%9C%AC%E7%87%9F%E8%AE%8A%E5%A4%A9%20%E6%96%B0%E9%9B%B2%E7%AB%AF%E6%81%90%E5%8F%97%E8%A1%9D%E6%93%8A?mtc=70025"
 },
 {
 "key": "英國國家電網公司上半財年歸屬總利潤及營收上升",
@@ -8881,6 +10589,24 @@
 "time": "11/05 19:35",
 "run": "202611060354",
 "url": "https://finance.biggo.com/news/097a7b81-df11-4836-8c77-5dd5183eba63"
+},
+{
+"key": "midtermelection2026weneedtolearntolovethelocaldatacenter",
+"keys": [
+"midtermelection2026weneedtolearntolovethelocaldatacenter"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇺🇸 미국",
+"title": "Midterm Election 2026: We Need to Learn to Love the Local Data Center",
+"show": "2026년 중간선거: 우리는 로컬 데이터 센터를 사랑하는 법을 배워야 합니다",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOHRtSE02M0tnSW9GdGxJVzJNbjE5SzMtZ1JmdzktSUJZaDg4SWpCN3V6REdYZkdnbmUtV1JSVTQxZi1oUEpyUkFJUHUyUkNsYzFyX0tid3dZWFhONjRaZTdRSFRUcU5kVm1VeEJ1dFpOX3JKVXhLU3haWGpUX3RtZXVUc014NmJicmswa1dMZGtnUW0xSmRrRkRKUk9UOHc0aXJnM1Q1QTQ2TnZtbXgxOVlIZ1pYdExoVFV4cmFDYw?oc=5",
+"pub": 1793874619.0,
+"time": "11/05 19:30",
+"run": "202611060533",
+"url": "https://www.bloomberg.com/opinion/articles/2026-11-05/midterm-election-2026-we-need-to-learn-to-love-the-local-data-center"
 },
 {
 "key": "即時新聞stellajonessj受惠電網升級營收走強最新祭出1億美元縮減成本計畫力抗燃料飆漲",
@@ -10273,6 +11999,25 @@
 "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000773480_3SB3DX5X9LBYU0LMDMXMJ"
 },
 {
+"key": "全民權證發行者專區信邦選逾三個月",
+"keys": [
+"全民權證發行者專區信邦選逾三個月",
+"信邦選逾三個月"
+],
+"count": 2,
+"theme": "🤖 로봇",
+"region": "🇹🇼 대만",
+"title": "全民權證─發行者專區／信邦 選逾三個月",
+"show": "보편적 시민권 증명서─발급지역/신본 선정 3개월 이상",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBfTE40R1J1OUZOMjByaDZSTmpIVi1XNDdUeVhNV3VKMHVhakdfdHhnc1kzRGZ5N3ZIVS1VQkFndm1LQ3RtM0ZLX005Y3dvaGU30gFWQVVfeXFMTkV3ekhuWW92VzVZTzg2WFlxMWFLZUNKaEhvc1RHbk1kTUNOOVc0Vko5MzQzQkRLYWhZd3RvTmI1OUV0c2RabmoyMUl4MzRyU0c5TzROUFE?oc=5",
+"pub": 1793899744.0,
+"time": "11/06 02:29",
+"run": "202611060533",
+"url": "https://udn.com/news/story/7255/9860467"
+},
+{
 "key": "리포트엔비디아가주목한피지컬ai로보티즈레인보우로보틱스기술각축전",
 "keys": [
 "리포트엔비디아가주목한피지컬ai로보티즈레인보우로보틱스기술각축전",
@@ -10306,6 +12051,24 @@
 "time": "11/05 22:08",
 "run": "202611051615",
 "url": "https://tw.tradingview.com/news/panews:306ddc012acdf:0/"
+},
+{
+"key": "200萬人網上看上海便利店請6機器人員工1個擅離職守1個不夠主動",
+"keys": [
+"200萬人網上看上海便利店請6機器人員工1個擅離職守1個不夠主動"
+],
+"count": 2,
+"theme": "🤖 로봇",
+"region": "🇹🇼 대만",
+"title": "200萬人網上看！上海便利店請6機器人員工 1個擅離職守、1個不夠主動",
+"show": "200만 명이 온라인으로 시청했습니다! 상하이 편의점, 로봇 직원 6명 고용, 1명 무단퇴사, 1명 미흡",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SMkdhSVJ3NWtsZmZDNF9sTmlGYkM4S1Mwb3l6LUVtSVZyUjBTbVlVVHZRbkc1dlBYMWRONXRDOGhTRGU4bkh1ZlBRVDNIRkg0U3UxNG55bUM0QdIBX0FVX3lxTE5tQjlHTXdQZHBOelVDNFNkY1UwZnFJdTh6UnBjUENWWEUtemFMcEFLakNIbzRQaHU5UkJLbEhQSkE4bklfbURvaGkyVzdRR0UwaWJSOGVzclNLNzdkNzNN?oc=5",
+"pub": 1793858621.0,
+"time": "11/05 15:03",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/5603/9859432"
 },
 {
 "key": "a股人形機器人概念股走強浙江榮泰升超5",
@@ -10378,6 +12141,24 @@
 "run": "202611051518"
 },
 {
+"key": "美國共和黨期中選舉大敗後關稅ai等產業政策會產生哪些變化日經中文網國際",
+"keys": [
+"美國共和黨期中選舉大敗後關稅ai等產業政策會產生哪些變化日經中文網國際"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇹🇼 대만",
+"title": "美國共和黨期中選舉大敗後 關稅、AI 等產業政策會產生哪些變化？ | 日經中文網 | 國際",
+"show": "미국 공화당이 중간선거에서 패배한 뒤 관세, AI 등 산업정책에는 어떤 변화가 일어날까? | 닛케이 중국어 | 국제적인",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rZzAwalRjR01MN2N3aGtLZjQ2VGZzTFBKaW1zdlVsU3NMOWpyTG12Ty1RdzE2bmQxRVJTclVka3ZyZU9URVYzcVZCZHNHWGtPTnRsSEtYVVVrQ3lP?oc=5",
+"pub": 1793941755.0,
+"time": "11/06 14:09",
+"run": "202611060533",
+"url": "https://money.udn.com/money/story/120769/9861515"
+},
+{
 "key": "全球首創中國仿生機器人新言新語報新聞張藝謀參與設計",
 "keys": [
 "全球首創中國仿生機器人新言新語報新聞張藝謀參與設計"
@@ -10409,6 +12190,24 @@
 "pub": 1793932297.0,
 "time": "11/06 11:31",
 "run": "202611060354"
+},
+{
+"key": "晶片拋售潮重災戶黃仁勳跌出全球前十大富豪",
+"keys": [
+"晶片拋售潮重災戶黃仁勳跌出全球前十大富豪"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇹🇼 대만",
+"title": "晶片拋售潮重災戶 黃仁勳跌出全球前十大富豪",
+"show": "칩 매각으로 큰 타격을 입은 Huang Jen-Hsun은 세계 10대 부자에서 탈락",
+"source": "自由財經",
+"src_url": "https://ec.ltn.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDSU9zUG9OQUdHRmRhQnJ5WGhlTzR4eWljRFpyTC1CVWRYZGVxQ3NHcVNudWhNckgzS29DUEV3Q3BTMlp4YnRaQmxsRmNCT2hIYlRod0ZyNUtibVU1UGhJ0gFkQVVfeXFMTjJZR2dGUmtsdXZEek80REgyejRLdldMUlJfc0FPRmpWRHYtcGVaaER3c2FtUEhMWG1pQnQ5M2UzdWQ4azNWSGJMbkRLdHRNRDAzYVZjYWxuUkctNlNLOVRYaE9zNQ?oc=5",
+"pub": 1793932003.0,
+"time": "11/06 11:26",
+"run": "202611060533",
+"url": "https://ec.ltn.com.tw/article/breakingnews/5631271"
 },
 {
 "key": "휴머노이드에일하는법가르친다국내첫ai인간형로봇데이터공장개소",
@@ -10460,6 +12259,78 @@
 "run": "202611060354"
 },
 {
+"key": "exclusivedemocratsarehatchingaplantoreversetrumpscanadatariffs",
+"keys": [
+"exclusivedemocratsarehatchingaplantoreversetrumpscanadatariffs"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇺🇸 미국",
+"title": "Exclusive | Democrats Are Hatching a Plan to Reverse Trump’s Canada Tariffs",
+"show": "독점 | 민주당은 트럼프의 캐나다 관세를 뒤집을 계획을 세우고 있습니다",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVhNeS1XX0xDd1ZkN3JZMkdWcUJkaFhONTBWSmprcWxkRVpqbU02QUQxWnRVRXdlTHBzaVJNMENWaE5HaFcyU2pCVDl3SkpXV3Y4UTlEMzM4STJFc3FGVVByUW1xUHh1QWlqOWx2bHBKQTZxb09zSDQtMklkRFpsRENDbWRiNzg3dzlwMnVqbVpLQkhRVWwwT0F6UUxFODdybWFqekNqUVhrcEZKNzZz?oc=5",
+"pub": 1793930400.0,
+"time": "11/06 11:00",
+"run": "202611060533",
+"url": "https://www.wsj.com/politics/elections/democrats-are-hatching-a-plan-to-reverse-trumps-canada-tariffs-a444cdc0"
+},
+{
+"key": "파파이스치킨판매량전년比4배증가할인행사신메뉴효과",
+"keys": [
+"파파이스치킨판매량전년比4배증가할인행사신메뉴효과"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇰🇷 한국",
+"title": "파파이스, 치킨 판매량 전년比 4배 증가…할인 행사·신메뉴 효과",
+"show": "파파이스, 치킨 판매량 전년比 4배 증가…할인 행사·신메뉴 효과",
+"source": "이데일리",
+"src_url": "https://www.edaily.co.kr",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZVJmSmI2enN6a0VtTF9JN05tejUzRVR2Y3ZUM21aSkhUWDF0LVJOM0w5SGd2YlR5Ynl5S1RSb1QzMURSU3dkamVVY01HSENLVllVRVJjZU9Db2VVYUdjOEVlVUJvVllPVlFzTF90SFZycXFzakRDRy1MeFlkaUs4aw?oc=5",
+"pub": 1793929382.0,
+"time": "11/06 10:43",
+"run": "202611060533"
+},
+{
+"key": "異動股樂動機器人01236跌逾2創新低現報2078元",
+"keys": [
+"異動股樂動機器人01236跌逾2創新低現報2078元",
+"樂動機器人01236跌逾2創新低現報2078元即時新聞新聞"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇭🇰 홍콩",
+"title": "《異動股》樂動機器人(01236)跌逾2%創新低，現報20.78元",
+"show": "'무브먼트주' LeDong Robot(01236)은 2% 이상 하락해 신저가로 현재 20.78위안에 거래되고 있습니다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWm00XzVleE9jR21tbUl4ZUs0REQyYks0TlYxNnR5clhITHcyZzY5c1ozTVNsVFZEbHEzVThNZjJfcjc5SUZoR1JOS3MteTM3SVBlSVB3MDNEcW85VXF5cnJUaV9GRUw4SWxldmNPcHpKYjk1Z1NBcU5aOXFfelQxUG9BV3Y0eUQxZHZOM0REbw?oc=5",
+"pub": 1793928900.0,
+"time": "11/06 10:35",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/mobile/tc/news/categorized_news_detail.php?newsid=20261106367"
+},
+{
+"key": "異動股老鋪黃金06181曾跌逾3現報301元",
+"keys": [
+"異動股老鋪黃金06181曾跌逾3現報301元"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇭🇰 홍콩",
+"title": "《異動股》老鋪黃金(06181)曾跌逾3%，現報301元",
+"show": "《異動股》老鋪黃金(06181)曾跌逾3%，現報301元",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQTl3NGVhX252SWx5NmZtdTYyUHNlRDZJZGg2b2QwMGxoc285bzVhR0JCRDJBNVBreUhPNmdOeG55eFQxcU5ON0Y4SHRyOTlQcTdBNkRaZ0F1VlpwbFBiVE02UkJ1am9xTnROWm1ycDV6dDFIbGotRlRNYUZ6LW9RNUpYUld4N3c1cFF1ZGM1SnZucWNVTElZeG5EQ04xTFB3a3F0REN2anVyYVMt?oc=5",
+"pub": 1793928660.0,
+"time": "11/06 10:31",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=latest&newsid=20261106360"
+},
+{
 "key": "ithoughttheywererealpeoplechinasrobotnewsanchorscreatedbyzhangyimou",
 "keys": [
 "ithoughttheywererealpeoplechinasrobotnewsanchorscreatedbyzhangyimou"
@@ -10493,6 +12364,26 @@
 "run": "202611060354"
 },
 {
+"key": "開市go環球ai板塊遭史詩級拋售h200晶片待運往內地華虹宏力放榜專題透視新聞",
+"keys": [
+"開市go環球ai板塊遭史詩級拋售h200晶片待運往內地華虹宏力放榜專題透視新聞",
+"環球ai板塊遭史詩級拋售h200晶片待運往內地華虹宏力放榜即時新聞新聞",
+"開市環球ai板塊遭史詩級拋售h200晶片待運往內地華虹宏力放榜"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇭🇰 홍콩",
+"title": "開市Go | 環球AI板塊遭史詩級拋售，H200晶片待運往內地，華虹宏力放榜 | 專題透視 - 新聞",
+"show": "오픈 바둑 | 글로벌 AI 부문은 엄청난 매도세를 겪었고 H200 칩은 본토로 배송을 기다리고 있으며 Huahong Grace가 목록을 공개합니다 | 특별 통찰 - 뉴스",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaFFaOURhMk9TLUdXWDBrVWo1QzNDYmJUMzluUlJybm9LNHd4TU1wY0JiRXR6Y19pLW9CRElURmlyc1VaY3l6RGFNSExOSk13ZmZYdm1rWlJRUGc5djZKV0F3VEhUUTRZNDRteVlVbEUxUl81UnNnak55Y1BGc3VlRFF4MjRZa0pfUGYwSmJiMWc5VHdVVjM3blVJTV9xUEhPUTJfbXFoMGk?oc=5",
+"pub": 1793926200.0,
+"time": "11/06 09:50",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=features&category=financenews&newsid=415722"
+},
+{
 "key": "모빌린트인터뷰로봇가전용ai칩공동개발차세대칩샘플2028년초목표",
 "keys": [
 "모빌린트인터뷰로봇가전용ai칩공동개발차세대칩샘플2028년초목표"
@@ -10509,6 +12400,24 @@
 "run": "202611060155"
 },
 {
+"key": "clasheseruptinchileasstudentsdemandjusticeministersresignation",
+"keys": [
+"clasheseruptinchileasstudentsdemandjusticeministersresignation"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🌍 세계",
+"title": "Clashes erupt in Chile as students demand justice minister's resignation",
+"show": "칠레에서 학생들이 법무장관 사임을 요구하자 충돌이 발생했다.",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fQVhseUl5N0xKLVNydDhBTzAzZkhTSDdXUzlDczZ4aDQyODZzeHRERVVoMUtBTVdCRTFFWkhaRFhDM1pvS1JQcTVlUEk1SnBKRUNvTkJvR0RRYkk5RGtUZXEyaVdLOWc?oc=5",
+"pub": 1793925417.0,
+"time": "11/06 09:36",
+"run": "202611060533",
+"url": "https://www.reuters.com/video/watch/idRW623305112026RP1/"
+},
+{
 "key": "美첫휴머노이드상장으로드러난민낯화려한기대뒤엔1900억원적자",
 "keys": [
 "美첫휴머노이드상장으로드러난민낯화려한기대뒤엔1900억원적자"
@@ -10523,6 +12432,24 @@
 "pub": 1793923789.0,
 "time": "11/06 09:09",
 "run": "202611060155"
+},
+{
+"key": "chinasblockonsoftbankdealfiresthestartinggunontherobotwars",
+"keys": [
+"chinasblockonsoftbankdealfiresthestartinggunontherobotwars"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🌍 세계",
+"title": "China’s block on SoftBank deal fires the starting gun on the robot wars",
+"show": "소프트뱅크 거래에 대한 중국의 블록은 로봇 전쟁의 시작 총을 발사합니다",
+"source": "Financial Times",
+"src_url": "https://www.ft.com",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGxjR2k2WC16UFZ4ZGJxR3NlS2lWNXltTWxZVklpWTZWSmUtLUgxN0lPQVllT3VBUjlWNjlCVkcyWVNrX3pkd3pxTy05ZmFmQzI3aXVXNEg2MjgxQmhZTGVTOEliOUFhQ0VvRUxkajZDeFZCVnRBVWJucTNyQVVHOVg3QTY?oc=5",
+"pub": 1793923261.0,
+"time": "11/06 09:01",
+"run": "202611060533",
+"url": "https://www.ft.com/content/77b31f52-0485-414b-be6a-198d71fabc1a?syn-25a6b1a6=1"
 },
 {
 "key": "로보티즈글로벌휴머노이드초기설계로ai로봇표준기업도약핵심부품독점수혜",
@@ -10574,6 +12501,26 @@
 "url": "https://cmnews.com.tw/article/newsyoudeservetoknow-86b21cbe-d962-11f1-85ed-8841c2b6015b"
 },
 {
+"key": "美股哀號ai股暴跌成災普遍跌1成加息預期升溫不斷更新香港經濟日報",
+"keys": [
+"美股哀號ai股暴跌成災普遍跌1成加息預期升溫不斷更新香港經濟日報",
+"美股開市ai股暴跌成災普遍跌1成加息預期升溫不斷更新",
+"美股開市ai股爆股災式拋售加息預期升溫不斷更新"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇭🇰 홍콩",
+"title": "【美股哀號】AI股暴跌成災、普遍跌1成 加息預期升溫（不斷更新）|香港經濟日報",
+"show": "[우리를. 주식 통곡] AI주가 대참사로 급락, 대체로 10% 하락, 금리인상 기대감 커져 (지속 업데이트) | 홍콩경제신문",
+"source": "香港經濟日報HKET",
+"src_url": "https://inews.hket.com",
+"link": "https://news.google.com/rss/articles/CBMijgNBVV95cUxQMUF5VTlrdW1GU3oyUVRfcEc4dlRTVmFLQWFRMjhIWTRrSW1yYzRGcGI3ZnBrUWNnRmxvWmEyTHpEOU1BNHd2UmhMVk8tc2hoNk5Ud0xSYkVZY0pXd0hNNVRHdG50Vl9Ka2QzbkR3ZFZ6YmxCWXdrTGhudVhZX2M4eXR2RG5wam43cXNyaW9Nd3BBSkVaUUlBYlZENko3elF6NmJWLUNiM01YM1dMTkFndjVOeUVFMmhkUXhfWDhLbERUNWstQ2V0VDVUSHRYWG9tTENyQTl6OWh0UFBfS2NoYldTaFpNSVoyQmtFUG4zaHp4TXhtSjZhbHdISVJBYlhyYVNXQVN6ZnIyVUtVQURYNXlaWU1pQ1pzTGFOdVREbVVhNThUX1ZMcmNTdnZUNURBam9zOFNVZ3BSZGxMZVFXcW4yNDBud0hUM3M5RzlLLTE0VnZWLTdzWWNXRDhMT3pMY29jaUZ5WXEyUEI1SjRjdC1KRzZhSkl6UmpmczlLZzAzcTJkZE1FbDJLRThDZw?oc=5",
+"pub": 1793915132.0,
+"time": "11/06 06:45",
+"run": "202611060533",
+"url": "https://inews.hket.com/article/4218350/%E7%BE%8E%E8%82%A1%E6%94%B6%E5%B8%82%E4%B8%A8AI%E8%82%A1%E6%9A%B4%E8%B7%8C%E6%88%90%E7%81%BD%E3%80%81%E7%B4%8D%E6%8C%87%E7%80%895.5-%20%E9%81%93%E6%8C%87%E6%8C%AB1833%E9%BB%9E%20%20%E7%BE%8E%E5%85%89%E7%80%8917.5-%20%20SanDisk%E6%8F%9222-"
+},
+{
 "key": "upperbodysocialrobotsrealbotixopensreservationsforitstabletophumanoidrobot",
 "keys": [
 "upperbodysocialrobotsrealbotixopensreservationsforitstabletophumanoidrobot"
@@ -10608,6 +12555,23 @@
 "url": "https://defence-industry.eu/pilatus-aircraft-tests-aeon-humanoid-robot-to-inspect-aircraft-parts-on-its-final-assembly-line/"
 },
 {
+"key": "5일10조외인투매에총알마른개미버틸수있을까코주부",
+"keys": [
+"5일10조외인투매에총알마른개미버틸수있을까코주부"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇰🇷 한국",
+"title": "‘5일 10조’ 외인 투매에 총알 마른 개미, 버틸 수 있을까 [코주부]",
+"show": "‘5일 10조’ 외인 투매에 총알 마른 개미, 버틸 수 있을까 [코주부]",
+"source": "서울경제",
+"src_url": "https://www.sedaily.com",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Eek9qeTBENE82TWtrXzV6NEJHS08xRFFFby04Q1B5UElsRV9ZajkwcWxiOVBma1RKeVI1Y1lKNjhXV194THR4Um1FLWpIdWRYcHfSAVNBVV95cUxPS1R2Nl9GbXdmR1ZYM0c5V3VoZGFIamM4WXNUZkk0eDdhMUNUVTF1SkVlaHJGQkNtZV9uM3VBZHJqVjFtREF1Rldfb0Qwa3RUV0Ztbw?oc=5",
+"pub": 1793914200.0,
+"time": "11/06 06:30",
+"run": "202611060533"
+},
+{
 "key": "플랜트시설점검에사람대신들어가는휴머노이드마쿠니카와tges의차세대피지컬ai실증",
 "keys": [
 "플랜트시설점검에사람대신들어가는휴머노이드마쿠니카와tges의차세대피지컬ai실증"
@@ -10622,6 +12586,24 @@
 "pub": 1793912102.0,
 "time": "11/06 05:55",
 "run": "202611060155"
+},
+{
+"key": "劉思明資金重新部署科網消費股候回調吸納20261106專家觀點劉思明",
+"keys": [
+"劉思明資金重新部署科網消費股候回調吸納20261106專家觀點劉思明"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇭🇰 홍콩",
+"title": "劉思明：資金重新部署 科網消費股候回調吸納 - 20261106 - 專家觀點 劉思明",
+"show": "Liu Siming: 자본 재배치, 과학 기술 소비주 반등이 예상됩니다 - 20261106 - 전문가 의견 Liu Siming",
+"source": "明報財經網",
+"src_url": "https://finance.mingpao.com",
+"link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPN1FhNHliUWhWZlJCaG4xeVdLRnA2S3RQYzRaN2pNZ3Z5TFF3c2h6Zi14NVUzbFlTWUM5bUZqcUFXa05aVDFGSEoyMUl0eXZDQW9LSjJGdVBIZmoxTFo4QVdJNGlOOUxxcEQtQVZRb3ZfYXlFS0didjFSXzRzYm1rR0Y1S2RtQ1hFV01hRmxZZzI3aDhqRnN3Q1RVNHM5M0JSdV8weDFXQ1Y4cWZxdW9ZcTFtNlQzMGU4dDN5Z21CTzl1a2FHbUtiejlKMlR3TVBYUHltcUtyUTVuaFRhVHlrRFVCVFl2LS13WGJHUVc0VzFYU2hGbUxvcDVWRGdQdWRKdEFSX2xjUkptT29udkdOQTZWQkVuUVJvdUZmZ2YyZmpxUV8wRmlLdTh5bVF0VkNkdUNoZjY2Y1NaUU5JTEdnUUE3aFNDSU5xUFBPRUEyZTR0alNjcUVqaHAwSFJYMWZwMHJqd3Rwb29UbWc?oc=5",
+"pub": 1793910718.0,
+"time": "11/06 05:31",
+"run": "202611060533",
+"url": "https://finance.mingpao.com/fin/columnist1463481131770/20261106/1793899502173/%E5%8A%89%E6%80%9D%E6%98%8E-%E8%B3%87%E9%87%91%E9%87%8D%E6%96%B0%E9%83%A8%E7%BD%B2-%E7%A7%91%E7%B6%B2%E6%B6%88%E8%B2%BB%E8%82%A1%E5%80%99%E5%9B%9E%E8%AA%BF%E5%90%B8%E7%B4%8D"
 },
 {
 "key": "ahumanoidrobotcompanyjusthitwallstreetwith18millioninsalesand138millioninlosses",
@@ -10675,6 +12657,61 @@
 "url": "https://shattered.io/tesla-optimus-early-production-20000-per-week-year-away-2026/"
 },
 {
+"key": "陸企仿生機器人大戰開打日報",
+"keys": [
+"陸企仿生機器人大戰開打日報",
+"情緒陪伴vs登台表演優必選首形科技烏鎮較勁仿生機器人大戰開打兩岸"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇹🇼 대만",
+"title": "陸企仿生機器人大戰開打- 日報",
+"show": "중국기업간 생체공학 로봇전쟁 시작 - 매일경제",
+"source": "工商時報",
+"src_url": "https://www.ctee.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wMFF1djQ1anRPdkRWRU9GLUVLUW5fWF9DQmZpN0pwNjB2bGlTMEJBOXFJS1F1VHk0anRMMUtpNXozMTgwYzBPOGlJdy1MT1FFdldsZ1F1WUlaaHB0SjhB?oc=5",
+"pub": 1793905200.0,
+"time": "11/06 04:00",
+"run": "202611060533",
+"url": "https://www.ctee.com.tw/news/20261106700155-439901"
+},
+{
+"key": "亞光儒鴻利多抗跌日報",
+"keys": [
+"亞光儒鴻利多抗跌日報"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇹🇼 대만",
+"title": "亞光、儒鴻利多抗跌- 日報",
+"show": "Yaguang, Ruhongliduo는 쇠퇴에 저항합니다-Daily",
+"source": "工商時報",
+"src_url": "https://www.ctee.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBFQmNKRExGWVVrYkF6R3ZrRlAyb1I2d2JEVTgtSFNZbFQySU9VTlhQRHpyVkk5M2h0UHgwcGk5TnNuZlF5LVhPZHBDX1N6bFVBR1RUN2wyZ19OZm4xZnBn?oc=5",
+"pub": 1793905200.0,
+"time": "11/06 04:00",
+"run": "202611060533",
+"url": "https://www.ctee.com.tw/news/20261106700298-439901"
+},
+{
+"key": "scufflesnearhighschoolfiresburnasprotestseruptinparis",
+"keys": [
+"scufflesnearhighschoolfiresburnasprotestseruptinparis"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇺🇸 미국",
+"title": "Scuffles near high school, fires burn as protests erupt in Paris",
+"show": "고등학교 근처에서 난투극, 파리에서 시위가 터지면서 화재가 불타오르다",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhUGpaVTh4N1RsRzBTMXp6djh4Yk5JcTgySW1ka2JTWkZ3MWpFNlpuZ2M2U2l0S0ZwT3JtTS1iR3F0bEhoQ29EcEU2Mm94TUhxQ0hNUWpYX085Z2lLYm5KNTBWSGQ4bGs?oc=5",
+"pub": 1793904846.0,
+"time": "11/06 03:54",
+"run": "202611060533",
+"url": "https://www.reuters.com/video/watch/idRW600305112026RP1/"
+},
+{
 "key": "xiaomiscyberonehumanoidrobotsfinishafull8hourfactoryshiftsortingcarpanels",
 "keys": [
 "xiaomiscyberonehumanoidrobotsfinishafull8hourfactoryshiftsortingcarpanels"
@@ -10724,6 +12761,24 @@
 "time": "11/06 03:07",
 "run": "202611060354",
 "url": "https://www.gadgetreview.com/a-humanoid-robot-got-carried-down-a-mountain-on-a-stretcher-after-overheating"
+},
+{
+"key": "aftertrumpsdismalmidtermseuropesfarrightblameiranwar",
+"keys": [
+"aftertrumpsdismalmidtermseuropesfarrightblameiranwar"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🌍 세계",
+"title": "After Trump's dismal midterms, Europe's far-right blame Iran war",
+"show": "트럼프의 암울한 중간고사 이후, 유럽 극우파들은 이란 전쟁을 비난했다",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04UUw2UUxKWW5HcDUtbFpkRDNtdzN0OGg4TUpQWGFtSTlxdlVCZXFicE5ZVnpIelgtemFLeFB3Y0QtRmNWUlNJOXRPQVpOQmhwZ3NtZjZUWmR6Rk01a1ZFd3VTR3ZOLWtQeFBNSExuVVl6dW9ja2ZCTXBR?oc=5",
+"pub": 1793899051.0,
+"time": "11/06 02:17",
+"run": "202611060533",
+"url": "https://www.reuters.com/video/watch/idRW602705112026RP1/?chan=politics"
 },
 {
 "key": "ahumanoidrobotmakerlistedonnasdaqat25billionits2025saleswere18million",
@@ -10791,6 +12846,132 @@
 "pub": 1793889704.0,
 "time": "11/05 23:41",
 "run": "202611051623"
+},
+{
+"key": "preciouscarpetsavedfromflamesatnotredamegoesondisplay",
+"keys": [
+"preciouscarpetsavedfromflamesatnotredamegoesondisplay"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇺🇸 미국",
+"title": "Precious carpet saved from flames at Notre-Dame goes on display",
+"show": "노트르담 화재에서 구해낸 귀중한 카펫이 전시되다",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEc3Nib1hDSTZHVXY4TElmbjFBdWkzYzNGaTV5SVA0LWFCT1dXaGRlRTFmTEVGaG56RFBfZEtQYjBRZkp3dmF5Ull5cEhRNksxSER2ejhjQXkwR2lQ?oc=5",
+"pub": 1793889413.0,
+"time": "11/05 23:36",
+"run": "202611060533",
+"url": "https://www.reuters.com/video/watch/idOVAWHXYYP/"
+},
+{
+"key": "putinsaysallsideshaveaninterestinliftingsanctionsonrussia",
+"keys": [
+"putinsaysallsideshaveaninterestinliftingsanctionsonrussia"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇺🇸 미국",
+"title": "Putin says all sides have an interest in lifting sanctions on Russia",
+"show": "푸틴 \"모든 측이 러시아 제재 해제에 관심 있다\"",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XR0NST2pnVmE1VTZrck8xZ3lKVG13bTlMdmxLaHg4eFhsSkdObHhjWHMtd1dXa2FUU1BjMWJ6Q1JwaF8wMkdVam44NDVWRmJMSDNBSlZFQm95ZjNN?oc=5",
+"pub": 1793889050.0,
+"time": "11/05 23:30",
+"run": "202611060533",
+"url": "https://www.reuters.com/video/watch/idOV8J1FO17/"
+},
+{
+"key": "anivorianwomansuniquepoliticalhairstatements",
+"keys": [
+"anivorianwomansuniquepoliticalhairstatements"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇺🇸 미국",
+"title": "An Ivorian woman's unique political hair statements",
+"show": "코트디부아르 여성의 독특한 정치적 헤어스타일 발언",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5MXpiWXY4alZhaFdKSWJZYnJIeDRWWnhYWC1YZWc1YV9hU21mbFp6U0ljYi1IVGg4NUM3ZU9GQUs4bmFNaV91dzJEcjVsbUhvYnJQaGJuZUxBQTFr?oc=5",
+"pub": 1793889050.0,
+"time": "11/05 23:30",
+"run": "202611060533",
+"url": "https://www.reuters.com/video/watch/idOV8J6FFXD/"
+},
+{
+"key": "aphotoshoottofindnewhomesforabandonedpets",
+"keys": [
+"aphotoshoottofindnewhomesforabandonedpets"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🌍 세계",
+"title": "A photoshoot to find new homes for abandoned pets",
+"show": "버려진 반려동물을 위한 새 집을 찾기 위한 사진 촬영",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZeXFocUpWdE0tOHRHdE52RjNjbVRZMzFCS3ZMX0s2LWpnLVEwSGdfNVluQm5ZejRzbDMzbWZGczltMEphM3hfVmFORmN5dUVWZXpzNnhiYmt0WTZf?oc=5",
+"pub": 1793889049.0,
+"time": "11/05 23:30",
+"run": "202611060533",
+"url": "https://www.reuters.com/video/watch/idOV8LEBN8R/"
+},
+{
+"key": "fedraisesratesaquarterpoint",
+"keys": [
+"fedraisesratesaquarterpoint"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🌍 세계",
+"title": "Fed raises rates a quarter point",
+"show": "연준, 금리 4분의 1포인트 인상",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lc1B5a0k3X2hnMENCbEV4TXdZcXlKVGRzUlh3MUwtMjRKTnVRV2NvNE5QbVV5UjVwSlpBdU5tYjBwNmlvbEhGb0t3LURYSUtDaUcwaDFXNUkxcmVU?oc=5",
+"pub": 1793889049.0,
+"time": "11/05 23:30",
+"run": "202611060533",
+"url": "https://www.reuters.com/video/watch/idOV8K5DW4F/"
+},
+{
+"key": "trumptellsrallythatusborderwillbejustastough",
+"keys": [
+"trumptellsrallythatusborderwillbejustastough"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🌍 세계",
+"title": "Trump tells rally that U.S. border will be 'just as tough'",
+"show": "트럼프, 집회서 \"미국 국경도 그만큼 어려울 것\"",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03Uldmd2U5eUpmNllNOUY3eDk0Tm1XSzZwU3Y3TjRqMTBUbXhITFgwVzZsbmQ1SjR3amd1ODNkS0piVjVZTjRXcmkwQ25TUmRsT2JMaHVaMTJXV3df?oc=5",
+"pub": 1793889049.0,
+"time": "11/05 23:30",
+"run": "202611060533",
+"url": "https://www.reuters.com/video/watch/idOV8L9BVFJ/"
+},
+{
+"key": "topnbaprospectsgetexcitedfordraftday",
+"keys": [
+"topnbaprospectsgetexcitedfordraftday"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇺🇸 미국",
+"title": "Top NBA prospects get excited for draft day",
+"show": "최고의 NBA 유망주들이 드래프트 데이에 들뜬다",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1aC1tb1hHR3IwOVpPY19ONldNZks4bnBfaDVzT3lVM2pQYk5kQ0JfMFdCSFBFMmN5SXhFblhlNE83WHduYUtGSXJhWnRsOEJ6NnhGWkRvMG05WDNx?oc=5",
+"pub": 1793889048.0,
+"time": "11/05 23:30",
+"run": "202611060533",
+"url": "https://www.reuters.com/video/watch/idOV8L4CLPB/"
 },
 {
 "key": "優必選09880翌日披露報表其他",
@@ -10928,6 +13109,23 @@
 "run": "202611051615"
 },
 {
+"key": "1m점프에태권도까지k로봇어디까지진화했나",
+"keys": [
+"1m점프에태권도까지k로봇어디까지진화했나"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇰🇷 한국",
+"title": "1m 점프에 태권도까지…K로봇, 어디까지 진화했나",
+"show": "1m 점프에 태권도까지…K로봇, 어디까지 진화했나",
+"source": "마켓인",
+"src_url": "https://marketin.edaily.co.kr",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFByemF3RmppRVZ5aDFwM0tkVnVHWGJTOExWb2EzT0ZERlp6NEZkcXJwbzdYcU5IU2pIUnNjNXpTMU1qUUdKeGVJTVFjd1p3SE9sQjkxMjF4SmJSVzB3ajhrdjdmMHVWMmNURFgtN1JCNS1JSTQ?oc=5",
+"pub": 1793869121.0,
+"time": "11/05 17:58",
+"run": "202611060533"
+},
+{
 "key": "삼성로봇투트랙가속레인보우양팔로봇내년중반양산목표",
 "keys": [
 "삼성로봇투트랙가속레인보우양팔로봇내년중반양산목표"
@@ -10942,6 +13140,24 @@
 "pub": 1793868861.0,
 "time": "11/05 17:54",
 "run": "202611051615"
+},
+{
+"key": "極智嘉押注724小時無人倉具身智能與全倉智能協同抬升收入天花板主頁新聞",
+"keys": [
+"極智嘉押注724小時無人倉具身智能與全倉智能協同抬升收入天花板主頁新聞"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇭🇰 홍콩",
+"title": "極智嘉押注7×24小時無人倉 具身智能與全倉智能協同抬升收入天花板 | 主頁 - 新聞",
+"show": "Jizhijia는 7×24 무인 창고에 베팅합니다. 구체화된 지능과 전체 창고 지능이 함께 작동하여 소득 한도를 높입니다 | 홈 - 뉴스",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUGlVcFdIU0w5aGZXd3pBUjR1TGRSMEtOdjNKRDJkZnZhcS1CazFXWDdlNEs5R29hRXlVbjdqZ1ZFLTJMWTg5Vi1vY0VwS1NCNnZYMTg3NkoyVUJvc2lXMUR4cUxPVWdrenJLYXRreDc5X0Myc2ZSZG1HYkpFdlNlYWlKMjBpYXBxd1hkMFkzT2FUcWVGZ0FBWjFobThTSTJwa3BOMjNVVWY3TmJsdU9r?oc=5",
+"pub": 1793867940.0,
+"time": "11/05 17:39",
+"run": "202611060533",
+"url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=index&category=acnnewswire&newsid=111385&lang=tc"
 },
 {
 "key": "港股異動人形機器人行業催化頻出仙工智能06106漲超12來福諧波03952漲超7作者智通財經",
