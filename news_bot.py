@@ -78,7 +78,8 @@ REGIONS = [
 # ─────────────────────────────────────────────
 # 3) 기타 설정
 # ─────────────────────────────────────────────
-MAX_PER_REGION = 10       # 테마 하나에서 지역별로 최대 몇 개의 소식을 모을지 (화제성 높은 순)
+MAX_PER_REGION = 6        # 한 번 실행할 때 테마·지역별로 최대 몇 개의 소식을 모을지 (화제성 높은 순)
+SHOW_PER_THEME = 8        # 목록 페이지에서 테마마다 처음에 보여줄 기사 수 (나머지는 '더보기')
 MAX_AGE_HOURS = 24        # 이보다 오래된 기사는 무시
 TRANSLATE_EN = True       # 영어 제목을 한국어로 번역 (False 로 바꾸면 원문 그대로)
 KEEP_DAYS = 7             # 보낸 기사 기록을 며칠 동안 보관할지
@@ -415,7 +416,7 @@ def build_pages(news, run_id, updated):
                 f'href="{esc(href)}" target="_blank" rel="noopener">'
                 f'<div class="meta">{hot}{esc(n["region"])} · {esc(n["source"])} · {esc(n["time"])}{new}</div>'
                 f'<div class="title">{esc(n["show"])}</div>{orig}</a>')
-        body.append("</div></section>")
+        body.append('</div><button class="more" onclick="more(this)" hidden></button></section>')
     html = f"""<!DOCTYPE html>
 <html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -453,6 +454,9 @@ h2{{font:600 17px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
 .none{{color:var(--sub);margin:4px}}
 .hot{{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(217,119,87,.16);color:var(--acc);font-weight:600}}
 .hot.big{{background:var(--acc);color:#1f1e1d}}
+.card.f{{display:none}}.card.o{{display:none}}
+.more{{display:block;width:100%;margin:4px 0 0;padding:10px;border:1px dashed var(--line);border-radius:12px;background:transparent;color:var(--sub);font:inherit;font-size:13px}}
+.more:active{{opacity:.7}}
 </style></head><body>
 <header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 원문으로 이동<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
 <div class="bar sort"><button class="c on" onclick="srt('c')">🔥 전체 화제순</button><button class="p" onclick="srt('p')">🕒 전체 최신순</button></div>
@@ -472,6 +476,7 @@ function srt(k,btn){{
       return k==='c' ? (c||p) : (p||c);
     }});
     a.forEach(function(e){{l.appendChild(e);}});
+    lim(sec);
     sec.querySelectorAll('.ss button').forEach(function(b){{b.classList.toggle('on', b.classList.contains(k));}});
   }});
   if(!btn) document.querySelectorAll('.sort button').forEach(function(b){{b.classList.toggle('on', b.classList.contains(k));}});
@@ -480,14 +485,33 @@ function flt(r,sel){{
   each(sel, function(sec){{
     var shown=0;
     sec.querySelectorAll('.card').forEach(function(c){{
-      var ok = r==='all' || c.dataset.r===r; c.hidden=!ok; if(ok) shown++;
+      var ok = r==='all' || c.dataset.r===r; c.classList.toggle('f', !ok); if(ok) shown++;
     }});
     sec.querySelector('.none').hidden = shown>0;
     sec.querySelector('select').value = r;
     var n=document.getElementById('n'+sec.id.slice(1)); if(n) n.textContent=shown;
+    lim(sec);
   }});
   if(!sel) document.querySelectorAll('.region button').forEach(function(b){{b.classList.toggle('on', b.dataset.r===r);}});
 }}
+var LIMIT={SHOW_PER_THEME}, STEP=20;
+function lim(sec){{
+  // 보이는 기사 중 위에서부터 정해진 개수만 보여주고 나머지는 '더보기'
+  var max = +(sec.dataset.n || LIMIT), i=0, extra=0;
+  sec.querySelectorAll('.card').forEach(function(c){{
+    if(c.classList.contains('f')) {{ c.classList.remove('o'); return; }}
+    var over = i>=max; c.classList.toggle('o', over); if(over) extra++; i++;
+  }});
+  var b=sec.querySelector('.more');
+  b.hidden = extra===0 && max<=LIMIT;
+  b.textContent = extra>0 ? '더보기 ▾  (' + extra + '개 더)' : '접기 ▴';
+}}
+function more(b){{
+  var sec=b.closest('section'), max=+(sec.dataset.n || LIMIT);
+  if(b.textContent.indexOf('접기')===0) {{ sec.dataset.n=LIMIT; lim(sec); sec.scrollIntoView(); return; }}
+  sec.dataset.n = max + STEP; lim(sec);
+}}
+document.querySelectorAll('section').forEach(lim);
 </script></body></html>"""
     os.makedirs(os.path.dirname(PAGE_FILE), exist_ok=True)
     with open(PAGE_FILE, "w", encoding="utf-8") as f:
