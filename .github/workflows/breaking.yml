@@ -34,7 +34,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install requests
+      - run: pip install requests trafilatura
 
       - name: 속보 확인
         id: check

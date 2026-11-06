@@ -423,10 +423,10 @@ def decode_gnews(link):
 
 
 def add_real_urls(items, limit=200):
-    """외국어 기사에 실제 언론사 주소(url) 붙이기 — 누르면 원문으로 바로 이동"""
+    """기사에 실제 언론사 주소(url) 붙이기 — 요약 가져오기 + 누르면 원문으로 바로 이동"""
     done = ok = 0
     for n in items:
-        if is_korean(n["title"]) or n.get("url") or n.get("url_tried", 0) >= 2 or done >= limit:
+        if n.get("url") or n.get("url_tried", 0) >= 2 or done >= limit:
             continue
         done += 1
         u = decode_gnews(n["link"])
@@ -437,7 +437,94 @@ def add_real_urls(items, limit=200):
             n["url_tried"] = n.get("url_tried", 0) + 1
         time.sleep(0.4)
     if done:
-        print(f"외국어 기사 원문 주소 찾기: {ok}/{done}건 성공")
+        print(f"기사 원문 주소 찾기: {ok}/{done}건 성공")
+
+
+# ─────────────────────────────────────────────
+# 기사 요약 (누르면 먼저 한국어 요약 → 원문 볼지 선택)
+#   언론사가 직접 쓴 기사 소개 문구(og:description) → 짧으면 본문 앞부분
+#   외국어는 한국어로 번역
+# ─────────────────────────────────────────────
+import html as _html
+from concurrent.futures import ThreadPoolExecutor
+
+SUMMARY_MAX = 400          # 요약 최대 글자 수
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
+
+
+def _meta(page, *names):
+    for nm in names:
+        for pat in (rf'<meta[^>]+(?:property|name)=["\']{nm}["\'][^>]*content=["\']([^"\']+)["\']',
+                    rf'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\']{nm}["\']'):
+            m = re.search(pat, page, re.I)
+            if m:
+                return _html.unescape(m.group(1)).strip()
+    return ""
+
+
+def _lead_text(page):
+    """본문 앞부분 2~3문장 (trafilatura 가 있으면 사용)"""
+    try:
+        import trafilatura
+        text = trafilatura.extract(page, include_comments=False, include_tables=False) or ""
+    except Exception:
+        paras = re.findall(r"<p[^>]*>(.*?)</p>", page, re.S | re.I)
+        text = " ".join(re.sub(r"<[^>]+>", "", _html.unescape(p)) for p in paras[:6])
+    text = re.sub(r"\s+", " ", text).strip()
+    out = ""
+    for sent in re.split(r"(?<=[.!?。！？다])\s+", text):
+        if len(out) + len(sent) > SUMMARY_MAX:
+            break
+        out += (" " if out else "") + sent
+        if len(out) > 220:
+            break
+    return out
+
+
+def fetch_summary(url):
+    if not url or "news.google.com" in url:
+        return ""
+    try:
+        r = requests.get(url, headers={"User-Agent": BROWSER_UA, "Accept-Language": "ko,en;q=0.8,zh;q=0.6"},
+                         timeout=12)
+        if r.status_code >= 400:
+            return ""
+        if not r.encoding or r.encoding.lower() == "iso-8859-1":
+            r.encoding = r.apparent_encoding
+        page = r.text[:1_500_000]
+    except Exception:
+        return ""
+    desc = _meta(page, "og:description", "twitter:description", "description")
+    desc = re.sub(r"\s+", " ", desc).strip()
+    if len(desc) < 60:
+        lead = _lead_text(page)
+        if len(lead) > len(desc):
+            desc = lead
+    return desc[:SUMMARY_MAX]
+
+
+def add_summaries(items, limit=120):
+    """요약이 없는 기사에 한국어 요약 붙이기 (여러 개 동시에 가져옴)"""
+    todo = [n for n in items if not n.get("sum") and n.get("sum_tried", 0) < 2 and n.get("url")][:limit]
+    if not todo:
+        return
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        raw = list(ex.map(lambda n: fetch_summary(n["url"]), todo))
+    # 같은 언론사의 여러 기사에 똑같은 문구가 붙으면 사이트 기본 소개문이라 버림
+    dup = {}
+    for n, d in zip(todo, raw):
+        if d:
+            dup.setdefault((n["source"], d), 0)
+            dup[(n["source"], d)] += 1
+    ok = 0
+    for n, d in zip(todo, raw):
+        if d and dup[(n["source"], d)] == 1 and title_key(d) != title_key(n["title"]):
+            n["sum"] = translate_ko(d)
+            ok += 1
+        else:
+            n["sum_tried"] = n.get("sum_tried", 0) + 1
+    print(f"기사 요약: {ok}/{len(todo)}건 성공")
 
 
 # ─────────────────────────────────────────────
@@ -610,7 +697,7 @@ def build_pages(news, run_id, updated):
             href = n.get("url") or n["link"]
             body.append(
                 f'<a class="card" data-c="{c}" data-p="{int(n["pub"])}" data-r="{rkey.get(n["region"], "")}" '
-                f'href="{esc(href)}" target="_blank" rel="noopener">'
+                f'data-s="{esc(n.get("sum", ""))}" href="{esc(href)}" target="_blank" rel="noopener">'
                 f'<div class="meta">{hot}{esc(n["region"])} · {esc(n["source"])} · {esc(n["time"])}{new}</div>'
                 f'<div class="title">{esc(n["show"])}</div>{orig}</a>')
         body.append('</div><button class="more" onclick="more(this)" hidden></button></section>')
@@ -659,13 +746,34 @@ h2{{font:600 17px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
 .card.f{{display:none}}.card.o{{display:none}}
 .more{{display:block;width:100%;margin:4px 0 0;padding:10px;border:1px dashed var(--line);border-radius:12px;background:transparent;color:var(--sub);font:inherit;font-size:13px}}
 .more:active{{opacity:.7}}
+#dim{{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:5}}
+#sheet{{position:fixed;left:0;right:0;bottom:0;z-index:6;max-width:760px;margin:auto;max-height:82vh;overflow-y:auto;
+  background:var(--card);border-radius:16px 16px 0 0;padding:10px 18px calc(18px + env(safe-area-inset-bottom));box-shadow:0 -8px 30px rgba(0,0,0,.4)}}
+.grab{{width:38px;height:4px;border-radius:2px;background:var(--line);margin:0 auto 12px}}
+.s-title{{font-size:17px;font-weight:600;margin:4px 0 2px;line-height:1.45}}
+.s-label{{margin:16px 0 4px;color:var(--acc);font-size:12px;font-weight:700;letter-spacing:.5px}}
+.s-sum{{font-size:15px;line-height:1.75;color:var(--text);white-space:pre-line}}.s-sum.empty{{color:var(--sub);font-size:13.5px}}
+.s-btns{{display:flex;gap:8px;margin-top:20px}}
+.s-btns button,.s-btns a{{flex:1;text-align:center;padding:12px;border-radius:10px;font:inherit;font-size:14.5px;text-decoration:none}}
+.s-btns button{{background:transparent;border:1px solid var(--line);color:var(--sub)}}
+.s-btns a{{background:var(--acc);color:#1f1e1d;font-weight:600;border:0}}
 footer{{margin:36px 4px 0;padding-top:14px;border-top:1px solid var(--line);color:var(--sub);font-size:12px;line-height:1.7}}
 footer b{{color:var(--text);font-weight:600}}
 </style></head><body>
-<header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 원문으로 이동<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
+<header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 한국어 요약 → 원문 보기<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
 <div class="bar sort"><button class="c on" onclick="srt('c')">🔥 전체 화제순</button><button class="p" onclick="srt('p')">🕒 전체 최신순</button></div>
 <div class="bar region">{chips}</div>
 <nav>{nav}</nav><main>{''.join(body)}{auto_html}</main>
+<div id="dim" onclick="closeSheet()" hidden></div>
+<div id="sheet" role="dialog" aria-modal="true" hidden>
+  <div class="grab"></div>
+  <div id="s-meta" class="meta"></div>
+  <div id="s-title" class="s-title"></div>
+  <div id="s-orig" class="orig"></div>
+  <div class="s-label">요약</div>
+  <div id="s-sum" class="s-sum"></div>
+  <div class="s-btns"><button onclick="closeSheet()">닫기</button><a id="s-go" target="_blank" rel="noopener" onclick="closeSheet()">원문 보기 ↗</a></div>
+</div>
 <script>
 function each(btn, fn){{
   // btn 이 있으면 그 테마만, 없으면 전체 테마
@@ -716,6 +824,24 @@ function more(b){{
   sec.dataset.n = max + STEP; lim(sec);
 }}
 document.querySelectorAll('section').forEach(lim);
+// 기사를 누르면 먼저 한국어 요약 → 원문 볼지 선택
+function $(id){{return document.getElementById(id);}}
+document.addEventListener('click', function(e){{
+  var c = e.target.closest('a.card'); if(!c) return;
+  if(e.ctrlKey||e.metaKey||e.shiftKey) return;   // 새 탭으로 열기는 그대로
+  e.preventDefault();
+  $('s-meta').innerHTML = c.querySelector('.meta').innerHTML;
+  $('s-title').textContent = c.querySelector('.title').textContent;
+  var o = c.querySelector('.orig'); $('s-orig').textContent = o ? o.textContent : '';
+  var sm = c.dataset.s || '';
+  $('s-sum').textContent = sm || '이 기사는 요약을 가져오지 못했어요. (사이트가 자동 접속을 막았거나 아직 준비 중)';
+  $('s-sum').className = 's-sum' + (sm ? '' : ' empty');
+  $('s-go').href = c.href;
+  $('dim').hidden = false; $('sheet').hidden = false; $('sheet').scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+}});
+function closeSheet(){{ $('dim').hidden = true; $('sheet').hidden = true; document.body.style.overflow = ''; }}
+document.addEventListener('keydown', function(e){{ if(e.key==='Escape') closeSheet(); }});
 </script></body></html>"""
     os.makedirs(os.path.dirname(PAGE_FILE), exist_ok=True)
     with open(PAGE_FILE, "w", encoding="utf-8") as f:
@@ -802,10 +928,11 @@ def check_breaking():
         cnt = n_sources(g)
         show = translate_ko(rep["title"])
         real = decode_gnews(rep["link"]) or rep["link"]
+        summ = fetch_summary(real)
         pub = rep["published"]
         item = {"key": keys[0], "keys": keys[:60], "count": cnt, "theme": BREAKING_NAME,
                 "region": US["label"], "title": rep["title"], "show": show, "source": rep["source"],
-                "src_url": rep.get("src_url", ""),
+                "src_url": rep.get("src_url", ""), "sum": translate_ko(summ) if summ else "",
                 "link": rep["link"], "url": real, "pub": pub.timestamp(),
                 "time": pub.astimezone(KST).strftime("%m/%d %H:%M"), "run": "breaking"}
         meta = " · ".join(x for x in [rep["source"], item["time"], f"언론 {cnt}곳" if cnt > 1 else ""] if x)
@@ -991,6 +1118,7 @@ def collect():
     news = old_news + new_items
     add_real_urls(news)
     retranslate_failed(news)
+    add_summaries(news)
     order = {t["name"]: i for i, t in enumerate(THEMES)}
     news.sort(key=lambda n: (order.get(n["theme"], 99), -n.get("count", 1), -n["pub"]))
     save_news(news)
