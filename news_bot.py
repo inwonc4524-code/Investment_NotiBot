@@ -145,6 +145,81 @@ def _domain(url):
     return m.group(1).lower() if m else ""
 
 
+# ── 해외 주요 외신 (미국·세계 뉴스에 함께 적용) ──
+GLOBAL_PRESS = [
+    "AFP", "afp.com", "France 24", "france24.com", "Nikkei", "nikkei.com", "Kyodo", "kyodonews.net",
+    "Japan Times", "japantimes.co.jp", "Le Monde", "lemonde.fr", "Les Echos", "lesechos.fr",
+    "Handelsblatt", "handelsblatt.com", "FAZ", "faz.net", "Spiegel", "spiegel.de",
+    "El País", "elpais.com", "Il Sole 24 Ore", "ilsole24ore.com", "Globe and Mail", "theglobeandmail.com",
+    "Australian Financial Review", "afr.com", "Straits Times", "straitstimes.com",
+    "Business Times", "businesstimes.com.sg", "Economic Times", "economictimes.indiatimes.com",
+    "Mint", "livemint.com", "Caixin", "caixinglobal.com", "Yicai", "yicaiglobal.com",
+    "Korea Herald", "koreaherald.com", "Korea JoongAng Daily", "koreajoongangdaily.joins.com",
+    "Semafor", "semafor.com", "The Atlantic", "theatlantic.com", "TIME", "time.com",
+]
+# ── 애널리스트·업계 전문지 (미국·세계 뉴스에 함께 적용) ──
+EXPERT_PRESS = [
+    # 리서치·투자
+    "Morningstar", "morningstar.com", "S&P Global", "spglobal.com", "FactSet", "factset.com",
+    "Kiplinger", "kiplinger.com", "Breakingviews",
+    # 바이오
+    "STAT", "statnews.com", "Endpoints News", "endpts.com", "Fierce Biotech", "fiercebiotech.com",
+    "Fierce Pharma", "fiercepharma.com", "BioPharma Dive", "biopharmadive.com", "BioSpace", "biospace.com",
+    # 배터리·소재·에너지
+    "Benchmark Mineral", "benchmarkminerals.com", "Fastmarkets", "fastmarkets.com", "Electrek", "electrek.co",
+    "electrive", "electrive.com", "Energy-Storage.news", "energy-storage.news", "Utility Dive", "utilitydive.com",
+    "Canary Media", "canarymedia.com", "POWER Magazine", "powermag.com", "Argus", "argusmedia.com",
+    # 데이터센터·AI·로봇·테크
+    "DatacenterDynamics", "datacenterdynamics.com", "The Robot Report", "therobotreport.com",
+    "IEEE Spectrum", "spectrum.ieee.org", "TechCrunch", "techcrunch.com", "The Information", "theinformation.com",
+    "The Verge", "theverge.com", "Ars Technica", "arstechnica.com", "Wired", "wired.com",
+]
+# ── 한국 전문지 ──
+KR_EXPERT = [
+    "더벨", "thebell.co.kr", "인베스트조선", "investchosun.com", "뉴스핌", "newspim.com",
+    "이투데이", "etoday.co.kr", "비즈니스포스트", "businesspost.co.kr",
+    "디일렉", "thelec.kr", "전기신문", "electimes.com", "에너지경제", "ekn.kr",
+    "로봇신문", "irobotnews.com", "바이오스펙테이터", "biospectator.com", "약업신문", "yakup.com",
+    "데일리팜", "dailypharm.com", "히트뉴스", "hitnews.co.kr",
+]
+TRUSTED["us"] += GLOBAL_PRESS + EXPERT_PRESS
+TRUSTED["world"] += GLOBAL_PRESS + EXPERT_PRESS
+TRUSTED["kr"] += KR_EXPERT
+
+# ── 자동 추가에서 제외할 곳 (다른 기사 퍼 나르기·개인 투고·광고성) ──
+BLOCKED = [
+    "investing.com", "tradingview", "moomoo", "msn", "line today", "biggo", "ad-hoc-news", "kalkine",
+    "gurufocus", "seeking alpha", "motley fool", "fool.com", "zacks", "investorplace", "24/7 wall st",
+    "ainvest", "marketbeat", "simply wall st", "stocktwits", "nasdaq.com", "nasdaq", "benzinga",
+    "yahoo新聞", "yahoo奇摩", "yahoo 財經", "yahoo股市", "cmoney", "鉅亨號", "pchome",
+    "네이버", "naver", "다음", "daum", "블로그", "blog", "카페", "medium", "substack", "reddit",
+    "youtube", "facebook", "x.com", "twitter", "newsbreak", "ground news", "flipboard",
+    "epoch times", "大紀元", "新唐人", "zerohedge",
+]
+# 자동 추가 기준: 최근 14일 동안
+AUTO_MIN_STORIES = 10      # 이 언론사가 보도한 소식이 10개 이상이고
+AUTO_MIN_CO = 6            # 그중 주요 언론사 2곳 이상도 함께 보도한 소식이 6개 이상이며
+AUTO_MIN_RATIO = 0.5       # 그 비율이 절반 이상이면 → 믿을 만한 곳으로 자동 추가
+SOURCES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sources.json")
+
+
+def load_sources():
+    try:
+        with open(SOURCES_FILE, encoding="utf-8") as f:
+            d = json.load(f)
+        return d if isinstance(d, dict) else {}
+    except Exception:
+        return {}
+
+
+_AUTO = load_sources().get("auto", {})
+
+
+def is_blocked(source, url=""):
+    s = (source or "").lower() + " " + _domain(url)
+    return any(b in s for b in BLOCKED)
+
+
 def is_trusted(region_key, source, url=""):
     names = TRUSTED.get(region_key)
     if names is None:      # 목록이 없는 지역은 거르지 않음
@@ -156,8 +231,14 @@ def is_trusted(region_key, source, url=""):
         if "." in el:
             if dom and (dom == el or dom.endswith("." + el)):
                 return True
+        elif el and len(el) <= 5:          # 짧은 이름은 단어가 정확히 맞을 때만 (예: STAT ≠ Statista)
+            if re.search(r"(?<![0-9a-z가-힣])" + re.escape(el) + r"(?![0-9a-z가-힣])", src):
+                return True
         elif el and el in src:
             return True
+    # 인용·공동 보도 기준으로 자동 추가된 언론사
+    if src and src in (x.lower() for x in _AUTO.get(region_key, [])) and not is_blocked(source, url):
+        return True
     return False
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
@@ -186,14 +267,14 @@ def build_query(words):
     return "(" + " OR ".join(parts) + ")"
 
 
-def site_filter(region_key):
-    """주요 언론사 사이트로 검색 범위 좁히기: (site:a.com OR site:b.com ...)"""
-    doms = [e for e in TRUSTED.get(region_key, []) if "." in e]
-    return "(" + " OR ".join(f"site:{d}" for d in dict.fromkeys(doms)) + ")" if doms else ""
+def site_filters(region_key, chunk=20):
+    """주요 언론사 사이트로 검색 범위 좁히기: (site:a.com OR site:b.com ...) — 너무 길면 여러 묶음으로"""
+    doms = list(dict.fromkeys(e for e in TRUSTED.get(region_key, []) if "." in e))
+    return ["(" + " OR ".join(f"site:{d}" for d in doms[i:i + chunk]) + ")" for i in range(0, len(doms), chunk)]
 
 
-def search_url(region, words, when="1d", rss=True, sites=False):
-    q = build_query(words) + (" " + site_filter(region["key"]) if sites else "") + (f" when:{when}" if when else "")
+def search_url(region, words, when="1d", rss=True, sites=""):
+    q = build_query(words) + (" " + sites if sites else "") + (f" when:{when}" if when else "")
     path = "rss/search" if rss else "search"
     return (f"https://news.google.com/{path}?q={quote(q)}"
             f"&hl={region['hl']}&gl={region['gl']}&ceid={region['ceid']}")
@@ -241,13 +322,13 @@ def _get_rss(url, label):
 
 
 def fetch_news(region, words):
-    # ① 주요 언론사 사이트 안에서 검색 + ② 일반 검색 → 합침 (뒤에서 주요 언론사만 남김)
-    a = _get_rss(search_url(region, words, sites=True), region["label"]) if site_filter(region["key"]) else []
-    b = _get_rss(search_url(region, words), region["label"])
-    if a is None and b is None:
+    # ① 주요 언론사 사이트 안에서 검색(여러 묶음) + ② 일반 검색 → 합침 (뒤에서 믿을 만한 곳만 남김)
+    results = [_get_rss(search_url(region, words, sites=f), region["label"]) for f in site_filters(region["key"])]
+    results.append(_get_rss(search_url(region, words), region["label"]))
+    if all(r is None for r in results):
         return None
     seen_links, out = set(), []
-    for it in (a or []) + (b or []):
+    for it in [x for r in results for x in (r or [])]:
         if it["link"] not in seen_links:
             seen_links.add(it["link"])
             out.append(it)
@@ -531,6 +612,11 @@ def build_pages(news, run_id, updated):
                 f'<div class="meta">{hot}{esc(n["region"])} · {esc(n["source"])} · {esc(n["time"])}{new}</div>'
                 f'<div class="title">{esc(n["show"])}</div>{orig}</a>')
         body.append('</div><button class="more" onclick="more(this)" hidden></button></section>')
+    auto = load_sources().get("auto", {})
+    lab = {r["key"]: r["label"] for r in REGIONS}
+    rows = "".join(f"<div>{esc(lab.get(k, k))}: {esc(', '.join(v))}</div>" for k, v in auto.items() if v)
+    auto_html = ('<footer><b>자동으로 추가된 언론사</b><br>주요 언론사들과 같은 소식을 꾸준히 함께 보도한 곳 (최근 14일 기준)'
+                 + (rows or "<div>아직 없음</div>") + "</footer>")
     html = f"""<!DOCTYPE html>
 <html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -571,11 +657,13 @@ h2{{font:600 17px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
 .card.f{{display:none}}.card.o{{display:none}}
 .more{{display:block;width:100%;margin:4px 0 0;padding:10px;border:1px dashed var(--line);border-radius:12px;background:transparent;color:var(--sub);font:inherit;font-size:13px}}
 .more:active{{opacity:.7}}
+footer{{margin:36px 4px 0;padding-top:14px;border-top:1px solid var(--line);color:var(--sub);font-size:12px;line-height:1.7}}
+footer b{{color:var(--text);font-weight:600}}
 </style></head><body>
 <header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 원문으로 이동<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
 <div class="bar sort"><button class="c on" onclick="srt('c')">🔥 전체 화제순</button><button class="p" onclick="srt('p')">🕒 전체 최신순</button></div>
 <div class="bar region">{chips}</div>
-<nav>{nav}</nav><main>{''.join(body)}</main>
+<nav>{nav}</nav><main>{''.join(body)}{auto_html}</main>
 <script>
 function each(btn, fn){{
   // btn 이 있으면 그 테마만, 없으면 전체 테마
@@ -745,6 +833,45 @@ def check_breaking():
     print(f"속보 알림 {alerts}건")
 
 
+def score_sources(region_key, raw_items, sc):
+    """공동 보도 점수: 목록에 없는 언론사가 주요 언론사(2곳 이상)와 같은 소식을 얼마나 함께 보도했는지"""
+    day = datetime.now(KST).strftime("%Y-%m-%d")
+    bucket = sc.setdefault("days", {}).setdefault(day, {}).setdefault(region_key, {})
+    for g in cluster(raw_items):
+        trusted_n = len({m["source"] for m in g if is_trusted(region_key, m["source"], m["src_url"])})
+        for m in g:
+            if not m["source"] or is_trusted(region_key, m["source"], m["src_url"]) or is_blocked(m["source"], m["src_url"]):
+                continue
+            # 언론사별로 기사 하나당 한 번만 셈 (여러 번 실행돼도 중복 안 됨). 1 = 주요 언론사 2곳 이상과 공동 보도
+            arts = bucket.setdefault(m["source"], {})
+            k = title_key(m["title"])[:24]
+            arts[k] = max(arts.get(k, 0), 1 if trusted_n >= 2 else 0)
+
+
+def update_auto(sc):
+    """최근 14일 점수로 자동 추가 목록 다시 만들기"""
+    cutoff = (datetime.now(KST) - timedelta(days=14)).strftime("%Y-%m-%d")
+    sc["days"] = {d: v for d, v in sc.get("days", {}).items() if d >= cutoff}
+    total = {}
+    for regs in sc["days"].values():
+        for rk, srcs in regs.items():
+            for src, arts in srcs.items():
+                if not isinstance(arts, dict):
+                    continue
+                t = total.setdefault(rk, {}).setdefault(src, [0, 0])
+                t[0] += len(arts)
+                t[1] += sum(arts.values())
+    auto = {}
+    for rk, srcs in total.items():
+        auto[rk] = sorted(src for src, (n, co) in srcs.items()
+                          if n >= AUTO_MIN_STORIES and co >= AUTO_MIN_CO and co / n >= AUTO_MIN_RATIO)
+    sc["auto"] = auto
+    with open(SOURCES_FILE, "w", encoding="utf-8") as f:
+        json.dump(sc, f, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+    added = sum(len(v) for v in auto.values())
+    print(f"자동 추가된 언론사: {added}곳 " + str({k: v for k, v in auto.items() if v}))
+
+
 # ─────────────────────────────────────────────
 # 1단계: 뉴스 모으기 + 페이지 만들기
 # ─────────────────────────────────────────────
@@ -758,6 +885,7 @@ def collect():
     counts = {}
     failed = []
     taken = set()           # 이번에 고른 기사 (테마끼리도 중복 안 되게)
+    sc = load_sources()     # 언론사 공동 보도 점수
 
     # 페이지에 이미 있는 기사 (최근 PAGE_DAYS 일) — 같은 소식 보도가 늘면 화제성 숫자만 올려줌
     cutoff = time.time() - PAGE_DAYS * 86400
@@ -781,10 +909,12 @@ def collect():
             if items is None:
                 failed.append(f"{name}/{region['label']}")
                 continue
-            items = [it for it in items
-                     if not (it["published"] and it["published"] < oldest)
-                     and not EXCLUDE.search(it["title"]) and title_key(it["title"])
-                     and is_trusted(region["key"], it["source"], it["src_url"])]
+            raw = [it for it in items
+                   if not (it["published"] and it["published"] < oldest)
+                   and not EXCLUDE.search(it["title"]) and title_key(it["title"])]
+            raw.sort(key=lambda x: x["published"] or now, reverse=True)
+            score_sources(region["key"], raw, sc)
+            items = [it for it in raw if is_trusted(region["key"], it["source"], it["src_url"])]
             items.sort(key=lambda x: x["published"] or now, reverse=True)
             fetched[region["key"]] = len(items)
             groups_by_region[region["key"]] = cluster(items)
@@ -846,6 +976,8 @@ def collect():
             counts[name] += picked
             extra = f", 앞 지역과 겹친 소식 {merged[region['key']]}건은 합침" if merged.get(region["key"]) else ""
             print(f"  {region['label']}: 기사 {fetched.get(region['key'], 0)}건 → 소식 {len(groups)}개 → 새 소식 {picked}개{extra}")
+
+    update_auto(sc)
 
     # 기록 저장
     for n in new_items:
