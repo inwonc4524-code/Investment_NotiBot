@@ -90,6 +90,76 @@ SIMILAR = 0.3
 # 이런 단어가 제목에 있으면 제외 (광고성·무관한 기사 걸러내기)
 EXCLUDE = re.compile(r"리딩방|무료\s*추천|급등주\s*추천|카톡방|sponsored|press release", re.I)
 
+# ─────────────────────────────────────────────
+# 믿을 만한 언론사만 (나라별)
+#   - 점(.)이 들어간 건 사이트 주소, 아니면 언론사 이름
+#   - 목록에 없는 곳의 기사는 가져오지 않습니다. 추가·삭제는 여기서.
+# ─────────────────────────────────────────────
+TRUSTED = {
+    "kr": [
+        "연합뉴스", "yna.co.kr", "연합인포맥스", "einfomax.co.kr",
+        "한국경제", "hankyung.com", "매일경제", "mk.co.kr", "서울경제", "sedaily.com",
+        "머니투데이", "mt.co.kr", "이데일리", "edaily.co.kr", "파이낸셜뉴스", "fnnews.com",
+        "아시아경제", "asiae.co.kr", "헤럴드경제", "heraldcorp.com",
+        "조선일보", "조선비즈", "Chosunbiz", "chosun.com", "중앙일보", "joongang.co.kr", "동아일보", "donga.com",
+        "한겨레", "hani.co.kr", "경향신문", "khan.co.kr", "한국일보", "hankookilbo.com",
+        "뉴스1", "news1.kr", "뉴시스", "newsis.com",
+        "KBS", "kbs.co.kr", "MBC", "imbc.com", "SBS", "sbs.co.kr", "SBS Biz", "sbsbiz", "YTN", "ytn.co.kr",
+        "전자신문", "etnews.com", "디지털타임스", "dt.co.kr",
+    ],
+    "us": [
+        "Reuters", "reuters.com", "Bloomberg", "bloomberg.com", "Wall Street Journal", "WSJ", "wsj.com",
+        "CNBC", "cnbc.com", "AP News", "Associated Press", "apnews.com",
+        "New York Times", "nytimes.com", "Washington Post", "washingtonpost.com",
+        "Financial Times", "ft.com", "MarketWatch", "marketwatch.com", "Barron's", "barrons.com",
+        "Yahoo Finance", "finance.yahoo.com", "Fortune", "fortune.com", "Axios", "axios.com",
+        "Investor's Business Daily", "investors.com", "NPR", "npr.org", "CNN", "cnn.com",
+        "Fox Business", "foxbusiness.com", "Politico", "politico.com", "Los Angeles Times", "latimes.com",
+    ],
+    "world": [
+        "Reuters", "reuters.com", "Bloomberg", "bloomberg.com", "Financial Times", "ft.com",
+        "The Economist", "economist.com", "BBC", "bbc.com", "bbc.co.uk",
+        "The Guardian", "theguardian.com", "The Telegraph", "telegraph.co.uk", "The Times", "thetimes.co.uk",
+        "Nikkei Asia", "asia.nikkei.com", "South China Morning Post", "scmp.com",
+        "Al Jazeera", "aljazeera.com", "Deutsche Welle", "dw.com", "Sky News", "news.sky.com",
+        "CNBC", "cnbc.com", "AP News", "apnews.com", "Wall Street Journal", "wsj.com",
+    ],
+    "hk": [
+        "南華早報", "South China Morning Post", "SCMP", "scmp.com", "明報", "mingpao.com",
+        "經濟日報", "hket.com", "信報", "hkej.com", "香港電台", "RTHK", "rthk.hk",
+        "星島", "stheadline.com", "now新聞", "news.now.com", "TVB", "無綫新聞", "tvb.com",
+        "經濟通", "etnet", "etnet.com.hk", "AASTOCKS", "aastocks.com", "香港01", "hk01.com",
+    ],
+    "tw": [
+        "中央社", "CNA", "cna.com.tw", "經濟日報", "money.udn.com", "聯合新聞網", "udn.com",
+        "工商時報", "ctee.com.tw", "自由時報", "自由財經", "ltn.com.tw",
+        "中時新聞網", "中國時報", "chinatimes.com", "公視", "pts.org.tw",
+        "天下雜誌", "cw.com.tw", "商業周刊", "businessweekly.com.tw", "今周刊", "businesstoday.com.tw",
+        "鉅亨網", "news.cnyes.com", "DIGITIMES", "digitimes.com.tw", "財訊", "wealth.com.tw", "TVBS", "tvbs.com.tw", "MoneyDJ", "moneydj.com",
+    ],
+}
+
+
+def _domain(url):
+    m = re.match(r"https?://([^/:]+)", url or "")
+    return m.group(1).lower() if m else ""
+
+
+def is_trusted(region_key, source, url=""):
+    names = TRUSTED.get(region_key)
+    if names is None:      # 목록이 없는 지역은 거르지 않음
+        return True
+    src = (source or "").lower()
+    dom = _domain(url)
+    for e in names:
+        el = e.lower()
+        if "." in el:
+            if dom and (dom == el or dom.endswith("." + el)):
+                return True
+        elif el and el in src:
+            return True
+    return False
+
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 REPORT_MODE = os.environ.get("REPORT_MODE", "") == "true"
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -132,6 +202,7 @@ def parse_rss(xml_text):
         link = (it.findtext("link") or "").strip()
         src_el = it.find("source")
         source = (src_el.text or "").strip() if src_el is not None and src_el.text else ""
+        src_url = (src_el.get("url") or "") if src_el is not None else ""
         # 구글 뉴스 제목 끝의 " - 언론사" 떼기
         if source and title.endswith(" - " + source):
             title = title[: -len(" - " + source)].strip()
@@ -147,7 +218,7 @@ def parse_rss(xml_text):
             except Exception:
                 pub = None
         if title and link:
-            items.append({"title": title, "source": source, "link": link, "published": pub})
+            items.append({"title": title, "source": source, "src_url": src_url, "link": link, "published": pub})
     return items
 
 
@@ -378,7 +449,10 @@ def build_pages(news, run_id, updated):
     by_theme = {BREAKING_NAME: []}
     by_theme.update({t["name"]: [] for t in THEMES})
     brk = sorted(load_breaking().get("items", []), key=lambda n: -n["pub"])
-    news = brk + list(news)
+    rk = {r["label"]: r["key"] for r in REGIONS}
+    news = [n for n in brk + list(news)
+            if any(is_trusted(k, n.get("source", ""), n.get("src_url") or n.get("url", ""))
+                   for k in (["us", "world"] if n.get("theme") == BREAKING_NAME else [rk.get(n["region"], "")]))]
     for n in news:
         by_theme.setdefault(n["theme"], []).append(n)
     etfs = {t["name"]: t.get("etfs", "") for t in THEMES}
@@ -574,7 +648,8 @@ def check_breaking():
     uniq = {}
     for it in items:
         k = title_key(it["title"])
-        if k and it["published"] and it["published"] >= since and not EXCLUDE.search(it["title"]):
+        if (k and it["published"] and it["published"] >= since and not EXCLUDE.search(it["title"])
+                and (is_trusted("us", it["source"], it["src_url"]) or is_trusted("world", it["source"], it["src_url"]))):
             uniq.setdefault(k + (it["source"] or ""), it)
     items = sorted(uniq.values(), key=lambda x: x["published"], reverse=True)
     groups = cluster(items)
@@ -600,6 +675,7 @@ def check_breaking():
         pub = rep["published"]
         item = {"key": keys[0], "keys": keys[:60], "count": cnt, "theme": BREAKING_NAME,
                 "region": US["label"], "title": rep["title"], "show": show, "source": rep["source"],
+                "src_url": rep.get("src_url", ""),
                 "link": rep["link"], "url": real, "pub": pub.timestamp(),
                 "time": pub.astimezone(KST).strftime("%m/%d %H:%M"), "run": "breaking"}
         meta = " · ".join(x for x in [rep["source"], item["time"], f"언론 {cnt}곳" if cnt > 1 else ""] if x)
@@ -667,7 +743,8 @@ def collect():
                 continue
             items = [it for it in items
                      if not (it["published"] and it["published"] < oldest)
-                     and not EXCLUDE.search(it["title"]) and title_key(it["title"])]
+                     and not EXCLUDE.search(it["title"]) and title_key(it["title"])
+                     and is_trusted(region["key"], it["source"], it["src_url"])]
             items.sort(key=lambda x: x["published"] or now, reverse=True)
             fetched[region["key"]] = len(items)
             groups_by_region[region["key"]] = cluster(items)
@@ -721,7 +798,7 @@ def collect():
                 new_items.append({
                     "key": keys[0], "keys": keys[:60], "count": cnt,
                     "theme": name, "region": region["label"], "title": rep["title"],
-                    "show": show, "source": rep["source"], "link": rep["link"],
+                    "show": show, "source": rep["source"], "src_url": rep.get("src_url", ""), "link": rep["link"],
                     "pub": pub.timestamp(), "time": pub.astimezone(KST).strftime("%m/%d %H:%M"),
                     "run": run_id})
                 taken.update(keys)

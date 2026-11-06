@@ -11,6 +11,14 @@
 | 🏭 AI 전력 | ACE 코리아AI전력TOP10 |
 | 🤖 로봇 | (관심 테마) |
 
+## 믿을 만한 언론사만
+나라별로 정한 주요 언론사·통신사의 기사만 가져옵니다. 목록은 `news_bot.py` 의 `TRUSTED` 에서 추가·삭제할 수 있어요.
+- 🇰🇷 연합뉴스, 연합인포맥스, 한국경제, 매일경제, 서울경제, 머니투데이, 이데일리, 파이낸셜뉴스, 조선·중앙·동아, 한겨레, 경향, 뉴스1, 뉴시스, KBS·MBC·SBS·YTN, 전자신문 등
+- 🇺🇸 Reuters, Bloomberg, WSJ, CNBC, AP, NYT, Washington Post, FT, MarketWatch, Barron's, Yahoo Finance 등
+- 🌍 Reuters, Bloomberg, FT, The Economist, BBC, Guardian, Nikkei Asia, SCMP 등
+- 🇭🇰 南華早報(SCMP), 明報, 經濟日報(HKET), 信報, RTHK, 星島, now新聞, TVB, 經濟通 등
+- 🇹🇼 中央社, 經濟日報, 聯合新聞網, 工商時報, 自由時報, 中國時報, 公視, 天下雜誌, 商業周刊, 鉅亨網 등
+
 ## 알림 시간 (한국 시간)
 - 07:40 — 미국장 마감 후
 - 12:10 — 점심
