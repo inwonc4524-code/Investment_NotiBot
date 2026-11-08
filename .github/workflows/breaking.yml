@@ -1,32 +1,30 @@
 name: 미국 속보 알림
 
+# GitHub 의 15분 예약 실행은 실제로는 45~60분 간격으로만 돌아서,
+# 1시간마다 한 번 시작해서 그 안에서 12분 간격으로 5번 확인하는 방식으로 바꿈.
 on:
   schedule:
     # 시간은 UTC 기준 (한국시간 = UTC + 9시간)
-    # 미국 프리마켓~애프터마켓 시간대(한국 18:00 ~ 다음날 10:59)에 15분마다 확인
-    - cron: "*/15 9-23 * * 1-5"   # 미국 월~금
-    - cron: "*/15 0-1 * * 2-6"    # (UTC 자정 넘어가는 시간)
-  workflow_dispatch:              # 직접 실행 버튼
-  push:                           # 속보 설정을 고치면 바로 한 번 실행
+    # 미국 프리마켓~애프터마켓 시간대(한국 18:00 ~ 다음날 11:00)
+    - cron: "3 9-23 * * 1-5"   # 미국 월~금
+    - cron: "3 0-1 * * 2-6"    # (UTC 자정 넘어가는 시간)
+  workflow_dispatch:           # 직접 실행 버튼
+  push:                        # 속보 설정을 고치면 바로 한 번 실행
     branches: [main]
     paths:
       - ".github/workflows/breaking.yml"
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: news-bot                 # 정기 뉴스 봇과 동시에 돌지 않게
+  group: breaking              # 정기 뉴스 봇과는 따로 돌고, 속보 확인끼리는 겹치지 않게
   cancel-in-progress: false
 
 jobs:
   breaking:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
 
@@ -36,39 +34,23 @@ jobs:
 
       - run: pip install requests trafilatura
 
-      - name: 속보 확인
-        id: check
+      - name: 12분 간격으로 5번 속보 확인
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python news_bot.py breaking
-
-      - name: 기록 저장
-        if: always()
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add breaking.json docs NEWS.md
-          if ! git diff --cached --quiet; then
-            git commit -m "속보 기록"
-            git pull --rebase origin main && git push
-          fi
-
-      # 새 속보가 있을 때만 목록 페이지 다시 올리기
-      - name: 페이지 준비
-        id: pages
-        if: steps.check.outputs.deploy == 'true'
-        continue-on-error: true
-        uses: actions/configure-pages@v5
-
-      - name: 페이지 파일 묶기
-        if: steps.pages.outcome == 'success'
-        continue-on-error: true
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
-      - name: 페이지 올리기
-        id: deployment
-        if: steps.pages.outcome == 'success'
-        continue-on-error: true
-        uses: actions/deploy-pages@v4
+          for i in 1 2 3 4 5; do
+            echo "===== 확인 $i/5 ($(TZ=Asia/Seoul date '+%H:%M'))"
+            git pull -q --rebase origin main || true
+            python news_bot.py breaking || echo "확인 중 오류 (다음 회차에 다시 시도)"
+            git add breaking.json
+            if ! git diff --cached --quiet; then
+              git commit -q -m "속보 기록"
+              for t in 1 2 3; do
+                git pull -q --rebase origin main && git push -q && break
+                sleep 5
+              done
+            fi
+            if [ "$i" -lt 5 ]; then sleep 720; fi
+          done

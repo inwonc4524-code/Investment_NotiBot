@@ -27,6 +27,7 @@ import requests
 #    kr   : 한국 뉴스 검색어 (한글)
 #    en   : 미국·세계 뉴스 검색어 (영어)
 #    zh   : 홍콩·대만 뉴스 검색어 (중국어 번체)
+#    ja   : 일본 뉴스 검색어 (일본어)   ※ 싱가포르는 영어(en) 검색어를 씀
 #    검색어는 여러 개 넣을 수 있고, 하나라도 들어간 기사를 찾습니다.
 #    etfs : 이 테마와 연결된 내 ETF (알림 맨 위에 표시)
 # ─────────────────────────────────────────────
@@ -35,32 +36,38 @@ THEMES = [
      "etfs": "TIGER 미국S&P500",
      "kr": ["S&P500", "뉴욕증시", "미국 증시", "연준 금리"],
      "en": ["S&P 500", "Wall Street stocks", "Federal Reserve rate", "US stock market"],
-     "zh": ["美股", "標普500", "聯準會", "美聯儲", "華爾街"]},
+     "zh": ["美股", "標普500", "聯準會", "美聯儲", "華爾街"],
+     "ja": ["米国株", "S&P500", "米連邦準備制度", "FRB 利下げ", "ウォール街", "ナスダック"]},
     {"name": "🧬 나스닥 바이오",
      "etfs": "TIGER 미국나스닥바이오",
      "kr": ["나스닥 바이오", "미국 바이오주", "바이오 ETF", "FDA 승인"],
      "en": ["biotech stocks", "Nasdaq Biotechnology", "IBB ETF", "XBI", "FDA approval"],
-     "zh": ["生技股", "生物科技股", "納斯達克生技", "FDA 批准"]},
+     "zh": ["生技股", "生物科技股", "納斯達克生技", "FDA 批准"],
+     "ja": ["バイオ株", "米バイオテック", "創薬ベンチャー", "FDA 承認"]},
     {"name": "🔋 2차전지",
      "etfs": "TIGER 2차전지테마 · KODEX 2차전지산업 · TIGER 2차전지소재Fn",
      "kr": ["2차전지", "이차전지", "LG에너지솔루션", "에코프로비엠", "포스코퓨처엠", "양극재", "리튬 가격"],
      "en": ["EV battery", "lithium price", "battery makers", "CATL", "cathode materials"],
-     "zh": ["電池股", "鋰電池", "寧德時代", "鋰價", "正極材料"]},
+     "zh": ["電池股", "鋰電池", "寧德時代", "鋰價", "正極材料"],
+     "ja": ["車載電池", "リチウムイオン電池", "電池メーカー", "リチウム価格", "正極材"]},
     {"name": "⚡ 전고체배터리·ESS",
      "etfs": "KODEX 전고체배터리ESS TOP2플러스",
      "kr": ["전고체 배터리", "전고체 전지", "ESS 배터리", "에너지저장장치", "삼성SDI 전고체"],
      "en": ["solid-state battery", "energy storage system", "ESS battery", "grid-scale storage"],
-     "zh": ["固態電池", "全固態電池", "儲能", "儲能系統"]},
+     "zh": ["固態電池", "全固態電池", "儲能", "儲能系統"],
+     "ja": ["全固体電池", "蓄電池", "蓄電システム", "系統用蓄電池"]},
     {"name": "🏭 AI 전력",
      "etfs": "ACE 코리아AI전력TOP10",
      "kr": ["AI 전력", "전력기기", "변압기 수출", "HD현대일렉트릭", "효성중공업", "LS ELECTRIC", "두산에너빌리티"],
      "en": ["AI power demand", "data center power", "transformer shortage", "power grid investment"],
-     "zh": ["AI 電力", "重電股", "變壓器", "資料中心 電力", "電網"]},
+     "zh": ["AI 電力", "重電股", "變壓器", "資料中心 電力", "電網"],
+     "ja": ["データセンター 電力", "AI 電力需要", "変圧器", "送電網", "重電株"]},
     {"name": "🤖 로봇",
      "etfs": "",
      "kr": ["로봇 관련주", "휴머노이드", "레인보우로보틱스", "두산로보틱스", "로봇 ETF", "협동로봇"],
      "en": ["humanoid robot", "robotics stocks", "Tesla Optimus", "BOTZ ETF", "Figure AI", "industrial robots"],
-     "zh": ["人形機器人", "機器人概念股", "機器人股", "優必選"]},
+     "zh": ["人形機器人", "機器人概念股", "機器人股", "優必選"],
+     "ja": ["ヒューマノイド", "ロボット株", "産業用ロボット", "ファナック", "安川電機"]},
 ]
 
 # ─────────────────────────────────────────────
@@ -70,9 +77,11 @@ THEMES = [
 REGIONS = [
     {"key": "kr", "label": "🇰🇷 한국", "words": "kr", "hl": "ko", "gl": "KR", "ceid": "KR:ko"},
     {"key": "us", "label": "🇺🇸 미국", "words": "en", "hl": "en-US", "gl": "US", "ceid": "US:en"},
-    {"key": "world", "label": "🌍 세계", "words": "en", "hl": "en-GB", "gl": "GB", "ceid": "GB:en"},
+    {"key": "jp", "label": "🇯🇵 일본", "words": "ja", "hl": "ja", "gl": "JP", "ceid": "JP:ja"},
     {"key": "hk", "label": "🇭🇰 홍콩", "words": "zh", "hl": "zh-HK", "gl": "HK", "ceid": "HK:zh-Hant"},
     {"key": "tw", "label": "🇹🇼 대만", "words": "zh", "hl": "zh-TW", "gl": "TW", "ceid": "TW:zh-Hant"},
+    {"key": "sg", "label": "🇸🇬 싱가포르", "words": "en", "hl": "en-SG", "gl": "SG", "ceid": "SG:en"},
+    {"key": "world", "label": "🌍 세계", "words": "en", "hl": "en-GB", "gl": "GB", "ceid": "GB:en"},
 ]
 
 # ─────────────────────────────────────────────
@@ -84,6 +93,7 @@ MAX_AGE_HOURS = 24        # 이보다 오래된 기사는 무시
 TRANSLATE_EN = True       # 영어 제목을 한국어로 번역 (False 로 바꾸면 원문 그대로)
 KEEP_DAYS = 7             # 보낸 기사 기록을 며칠 동안 보관할지
 PAGE_DAYS = 3             # 뉴스 목록 페이지에 며칠치 기사를 보여줄지
+THEME_KEEP = 80           # 테마마다 페이지에 남길 최대 기사 수 (최근 24시간 기사는 모두 남김)
 # 제목이 이만큼 비슷하면 같은 소식으로 묶음 (0~1, 낮을수록 더 많이 묶음)
 SIMILAR = 0.3
 
@@ -97,7 +107,7 @@ EXCLUDE = re.compile(r"리딩방|무료\s*추천|급등주\s*추천|카톡방|sp
 # ─────────────────────────────────────────────
 TRUSTED = {
     "kr": [
-        "연합뉴스", "yna.co.kr", "연합인포맥스", "einfomax.co.kr",
+        "연합뉴스", "yna.co.kr", "연합뉴스TV", "yonhapnewstv.co.kr", "연합인포맥스", "einfomax.co.kr",
         "한국경제", "hankyung.com", "매일경제", "mk.co.kr", "서울경제", "sedaily.com",
         "머니투데이", "mt.co.kr", "이데일리", "edaily.co.kr", "파이낸셜뉴스", "fnnews.com",
         "아시아경제", "asiae.co.kr", "헤럴드경제", "heraldcorp.com",
@@ -129,6 +139,19 @@ TRUSTED = {
         "經濟日報", "hket.com", "信報", "hkej.com", "香港電台", "RTHK", "rthk.hk",
         "星島", "stheadline.com", "now新聞", "news.now.com", "TVB", "無綫新聞", "tvb.com",
         "經濟通", "etnet", "etnet.com.hk", "AASTOCKS", "aastocks.com", "香港01", "hk01.com",
+    ],
+    "jp": [
+        "日本経済新聞", "日経", "nikkei.com", "NHK", "nhk.or.jp", "共同通信", "kyodonews.jp", "時事通信", "時事ドットコム", "jiji.com",
+        "朝日新聞", "asahi.com", "読売新聞", "yomiuri.co.jp", "毎日新聞", "mainichi.jp", "産経新聞", "産経ニュース", "sankei.com",
+        "東洋経済", "toyokeizai.net", "ダイヤモンド", "diamond.jp", "日刊工業新聞", "nikkan.co.jp", "テレ東", "tv-tokyo.co.jp",
+        "ロイター", "jp.reuters.com", "ブルームバーグ", "bloomberg.co.jp", "ウォール・ストリート・ジャーナル", "jp.wsj.com",
+        "ITmedia", "itmedia.co.jp", "株探", "kabutan.jp", "QUICK", "Nikkei Asia", "asia.nikkei.com", "Japan Times", "japantimes.co.jp",
+    ],
+    "sg": [
+        "The Straits Times", "straitstimes.com", "The Business Times", "businesstimes.com.sg",
+        "CNA", "channelnewsasia.com", "The Edge Singapore", "theedgesingapore.com", "TODAY", "todayonline.com",
+        "Reuters", "reuters.com", "Bloomberg", "bloomberg.com", "Nikkei Asia", "asia.nikkei.com",
+        "South China Morning Post", "scmp.com", "CNBC", "cnbc.com", "Financial Times", "ft.com",
     ],
     "tw": [
         "中央社", "CNA", "cna.com.tw", "經濟日報", "money.udn.com", "聯合新聞網", "udn.com",
@@ -197,11 +220,14 @@ BLOCKED = [
     "epoch times", "大紀元", "新唐人", "zerohedge",
     "pr newswire", "prnewswire", "business wire", "businesswire", "globe newswire", "globenewswire",
     "accesswire", "newsfile", "einpresswire", "보도자료", "aol", "morningstar",
+    "證券", "증권", "securities", "期貨", "投信",          # 증권사 자체 콘텐츠는 언론 보도가 아니라서 제외
 ]
 # 자동 추가 기준: 최근 14일 동안
 AUTO_MIN_STORIES = 10      # 이 언론사가 보도한 소식이 10개 이상이고
 AUTO_MIN_CO = 6            # 그중 주요 언론사 2곳 이상도 함께 보도한 소식이 6개 이상이며
-AUTO_MIN_RATIO = 0.5       # 그 비율이 절반 이상이면 → 믿을 만한 곳으로 자동 추가
+AUTO_MIN_RATIO = 0.5       # 그 비율이 절반 이상이고
+AUTO_MIN_FIRST = 3         # 주요 언론사보다 먼저 보도한 소식이 3개 이상이면 → 믿을 만한 곳으로 자동 추가
+                           # (남의 기사를 받아 쓰기만 하는 곳은 먼저 보도하는 일이 거의 없어서 걸러짐)
 SOURCES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sources.json")
 
 
@@ -343,11 +369,16 @@ def fetch_news(region, words):
 _translate_cache = {}
 
 
+_translate_fail = {"n": 0}     # 연속 실패 수 — 번역 서버가 막혔을 때 계속 붙잡고 있지 않게
+
+
 def translate_ko(text, tries=3):
     if not TRANSLATE_EN or not text or re.search(r"[가-힣]", text):
         return text
     if text in _translate_cache:
         return _translate_cache[text]
+    if _translate_fail["n"] >= 6:  # 연속 6번 실패하면 이번 실행에서는 번역을 쉬고 다음 실행 때 다시 시도
+        return text
     result = text
     for attempt in range(tries):
         try:
@@ -364,6 +395,11 @@ def translate_ko(text, tries=3):
         time.sleep(2 + attempt * 3)   # 2초 → 5초 쉬고 다시 시도
     if result != text:                # 실패한 건 기억하지 않음 → 다음 실행 때 다시 시도
         _translate_cache[text] = result
+        _translate_fail["n"] = 0
+    else:
+        _translate_fail["n"] += 1
+        if _translate_fail["n"] == 6:
+            print("  ! 번역 서버가 계속 실패해서 이번 실행에서는 번역을 멈춥니다 (다음 실행 때 자동으로 다시 번역)")
     time.sleep(0.2)
     return result
 
@@ -531,7 +567,7 @@ def add_summaries(items, limit=120):
 # 기록 (중복 방지)
 # ─────────────────────────────────────────────
 def title_key(title):
-    return re.sub(r"[^0-9a-z가-힣\u4e00-\u9fff\u3400-\u4dbf]", "", title.lower())[:80]
+    return re.sub(r"[^0-9a-z가-힣\u3040-\u30ff\u4e00-\u9fff\u3400-\u4dbf]", "", title.lower())[:80]
 
 
 def load_state():
@@ -589,16 +625,16 @@ def _stem(w):
 
 
 def _words(title):
-    return {_stem(w) for w in re.findall(r"[a-z0-9'가-힣\u4e00-\u9fff]+", title.lower())
+    return {_stem(w) for w in re.findall(r"[a-z0-9'가-힣\u3040-\u30ff\u4e00-\u9fff]+", title.lower())
             if w not in _STOP and len(w) > 1}
 
 
 def _bigrams(title):
-    s = re.sub(r"[^0-9a-z가-힣\u4e00-\u9fff\u3400-\u4dbf]", "", title.lower())
+    s = re.sub(r"[^0-9a-z가-힣\u3040-\u30ff\u4e00-\u9fff\u3400-\u4dbf]", "", title.lower())
     return {s[i:i + 2] for i in range(len(s) - 1)}
 
 
-_CJK = re.compile(r"[가-힣\u4e00-\u9fff]")
+_CJK = re.compile(r"[가-힣\u3040-\u30ff\u4e00-\u9fff]")
 
 
 def same_story(a, b):
@@ -655,6 +691,30 @@ def save_news(news):
         json.dump(news, f, ensure_ascii=False, indent=0)
 
 
+def _added(n):
+    """기사가 봇에 들어온 시각 (레드닷·NEW 표시용)"""
+    if n.get("added"):
+        return int(n["added"])
+    r = n.get("run", "")
+    if r.isdigit() and len(r) == 12:
+        try:
+            return int(datetime.strptime(r, "%Y%m%d%H%M").replace(tzinfo=timezone.utc).timestamp())
+        except Exception:
+            pass
+    return int(n.get("pub", 0))
+
+
+def _pack(n, rkey):
+    """페이지에 넣을 기사 정보 (짧은 이름으로 줄여서 페이지를 가볍게)"""
+    d = {"s": n["show"], "so": n.get("source", ""), "tm": n.get("time", ""), "c": n.get("count", 1),
+         "r": rkey.get(n["region"], "us"), "u": n.get("url") or n["link"], "p": int(n["pub"]), "a": _added(n)}
+    if n["show"] != n["title"]:
+        d["t"] = n["title"]
+    if n.get("sum"):
+        d["su"] = n["sum"]
+    return d
+
+
 def build_pages(news, run_id, updated):
     by_theme = {BREAKING_NAME: []}
     by_theme.update({t["name"]: [] for t in THEMES})
@@ -669,101 +729,85 @@ def build_pages(news, run_id, updated):
     etfs[BREAKING_NAME] = ""
     rkey = {r["label"]: r["key"] for r in REGIONS}
 
-    # ① 예쁜 페이지 (GitHub Pages)
-    nav = "".join(f'<a href="#t{i}">{esc(name)} <b id="n{i}">{len(items)}</b></a>'
-                  for i, (name, items) in enumerate(by_theme.items()))
-    chips = '<button class="on" data-r="all" onclick="flt(\'all\')">전체</button>' + "".join(
-        f'<button data-r="{r["key"]}" onclick="flt(\'{r["key"]}\')">{esc(r["label"])}</button>' for r in REGIONS)
-    opts = '<option value="all">전체 국가</option>' + "".join(
-        f'<option value="{r["key"]}">{esc(r["label"])}</option>' for r in REGIONS)
-    body = []
-    for i, (name, items) in enumerate(by_theme.items()):
-        body.append(f'<section id="t{i}"><div class="sh"><h2>{esc(name)}</h2>'
-                    f'<div class="ss"><select onchange="flt(this.value,this)">{opts}</select>'
-                    f'<button class="c{"" if name == BREAKING_NAME else " on"}" onclick="srt(\'c\',this)">🔥 화제순</button>'
-                    f'<button class="p{" on" if name == BREAKING_NAME else ""}" onclick="srt(\'p\',this)">🕒 최신순</button></div></div>')
-        if etfs.get(name):
-            body.append(f'<p class="etf">보유: {esc(etfs[name])}</p>')
-        if name == BREAKING_NAME:
-            body.append('<p class="etf">미국장 시간에 15분마다 확인 · 여러 언론이 동시에 보도한 큰 소식</p>')
-        body.append(f'<p class="none"{"" if not items else " hidden"}>최근 {"속보" if name == BREAKING_NAME else "기사"} 없음</p>')
-        body.append('<div class="list">')
-        for n in items:
-            new = ' <span class="new">NEW</span>' if n.get("run") == run_id and run_id != "breaking" else ""
-            orig = (f'<div class="orig">{esc(n["title"])}</div>'
-                    if n["show"] != n["title"] else "")
-            c = n.get("count", 1)
-            hot = (f'<span class="hot{" big" if c >= 5 else ""}">🔥 언론 {c}곳</span>' if c > 1 else "")
-            href = n.get("url") or n["link"]
-            body.append(
-                f'<a class="card" data-c="{c}" data-p="{int(n["pub"])}" data-r="{rkey.get(n["region"], "")}" '
-                f'data-s="{esc(n.get("sum", ""))}" href="{esc(href)}" target="_blank" rel="noopener">'
-                f'<div class="meta">{hot}{esc(n["region"])} · {esc(n["source"])} · {esc(n["time"])}{new}</div>'
-                f'<div class="title">{esc(n["show"])}</div>{orig}</a>')
-        body.append('</div><button class="more" onclick="more(this)" hidden></button></section>')
-    auto = load_sources().get("auto", {})
-    lab = {r["key"]: r["label"] for r in REGIONS}
-    rows = "".join(f"<div>{esc(lab.get(k, k))}: {esc(', '.join(v))}</div>" for k, v in auto.items() if v)
-    auto_html = ('<footer><b>자동으로 추가된 언론사</b><br>주요 언론사들과 같은 소식을 꾸준히 함께 보도한 곳 (최근 14일 기준)'
-                 + (rows or "<div>아직 없음</div>") + "</footer>")
-    html = f"""<!DOCTYPE html>
+    # ① 예쁜 페이지 (GitHub Pages) — 탭을 눌러야 그 테마 뉴스가 보이고, 새 뉴스가 있으면 탭에 레드닷
+    data = {
+        "updated": updated,
+        "regions": [{"k": r["key"], "l": r["label"]} for r in REGIONS],
+        "themes": [{"name": name,
+                    "note": ("미국장 시간에 12분마다 확인 · 여러 언론이 동시에 보도한 큰 소식"
+                             if name == BREAKING_NAME else (f"보유: {etfs[name]}" if etfs.get(name) else "")),
+                    "breaking": name == BREAKING_NAME,
+                    "items": [_pack(n, rkey) for n in items]}
+                   for name, items in by_theme.items()],
+        "auto": {r["label"]: v for r in REGIONS for k, v in load_sources().get("auto", {}).items()
+                 if k == r["key"] and v},
+        "breaking_url": f"https://raw.githubusercontent.com/{REPO}/main/breaking.json",
+        "breaking_label": BREAKING_NAME, "show": SHOW_PER_THEME,
+    }
+    blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    html = """<!DOCTYPE html>
 <html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#262624">
 <title>투자 테마 뉴스</title>
 <style>
-@font-face{{font-family:'ChosunIlboMyungjo';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');font-weight:normal;font-display:swap}}
-:root{{color-scheme:dark;--bg:#262624;--card:#30302e;--card2:#3a3a37;--text:#faf9f5;--sub:#a6a39a;--line:#3e3e3a;--acc:#d97757}}
-*{{box-sizing:border-box}}[hidden]{{display:none!important}}
-.bar::-webkit-scrollbar,nav::-webkit-scrollbar{{display:none}}.bar,nav{{scrollbar-width:none}}
-body{{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 'ChosunIlboMyungjo',Georgia,"Noto Serif KR",serif;-webkit-font-smoothing:antialiased}}
-header{{padding:22px 16px 10px;max-width:760px;margin:auto}}
-h1{{font:600 22px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:0 0 4px;letter-spacing:-.2px}}
-.upd{{color:var(--sub);font-size:12.5px}}
-.bar{{display:flex;gap:6px;padding:4px 16px 6px;max-width:760px;margin:auto;overflow-x:auto}}
-.bar button{{flex:none;border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:5px 12px;font:inherit;font-size:13px}}
-.bar button.on,.ss button.on{{background:var(--card2);border-color:var(--card2);color:var(--text)}}
-.sh{{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 8px;margin:26px 4px 2px}}.sh h2{{margin:0;white-space:nowrap}}
-.ss{{display:flex;gap:4px;flex:none;align-items:center}}
-.ss button,.ss select{{border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:7px;padding:3px 8px;font:inherit;font-size:12px}}
-.ss select{{background:var(--bg);max-width:96px}}
-nav{{position:sticky;top:0;z-index:1;display:flex;gap:6px;overflow-x:auto;padding:10px 16px;background:rgba(38,38,36,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}}
-nav a{{flex:none;padding:6px 12px;border-radius:999px;background:var(--card);color:var(--text);text-decoration:none;font-size:13px}}
-nav b{{color:var(--acc);font-weight:600}}
-main{{padding:4px 12px 48px;max-width:760px;margin:auto}}
-section{{scroll-margin-top:56px}}
-h2{{font:600 17px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:26px 4px 2px}}
-.etf{{margin:0 4px 10px;color:var(--sub);font-size:12px}}
-.card{{display:block;background:var(--card);border-radius:12px;padding:12px 14px;margin:8px 0;color:var(--text);text-decoration:none;transition:background .15s}}
-.card:hover{{background:var(--card2)}}.card:active{{opacity:.75}}
-.meta{{color:var(--sub);font-size:12px}}
-.title{{font-weight:500;margin-top:3px}}
-.orig{{color:var(--sub);font-size:12px;margin-top:3px}}
-.new{{margin-left:4px;color:var(--acc);font-size:11px;font-weight:700;letter-spacing:.3px}}
-.none{{color:var(--sub);margin:4px}}
-.hot{{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(217,119,87,.16);color:var(--acc);font-weight:600}}
-.hot.big{{background:var(--acc);color:#1f1e1d}}
-.card.f{{display:none}}.card.o{{display:none}}
-.more{{display:block;width:100%;margin:4px 0 0;padding:10px;border:1px dashed var(--line);border-radius:12px;background:transparent;color:var(--sub);font:inherit;font-size:13px}}
-.more:active{{opacity:.7}}
-#dim{{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:5}}
-#sheet{{position:fixed;left:0;right:0;bottom:0;z-index:6;max-width:760px;margin:auto;max-height:82vh;overflow-y:auto;
-  background:var(--card);border-radius:16px 16px 0 0;padding:10px 18px calc(18px + env(safe-area-inset-bottom));box-shadow:0 -8px 30px rgba(0,0,0,.4)}}
-.grab{{width:38px;height:4px;border-radius:2px;background:var(--line);margin:0 auto 12px}}
-.s-title{{font-size:17px;font-weight:600;margin:4px 0 2px;line-height:1.45}}
-.s-label{{margin:16px 0 4px;color:var(--acc);font-size:12px;font-weight:700;letter-spacing:.5px}}
-.s-sum{{font-size:15px;line-height:1.75;color:var(--text);white-space:pre-line}}.s-sum.empty{{color:var(--sub);font-size:13.5px}}
-.s-btns{{display:flex;gap:8px;margin-top:20px}}
-.s-btns button,.s-btns a{{flex:1;text-align:center;padding:12px;border-radius:10px;font:inherit;font-size:14.5px;text-decoration:none}}
-.s-btns button{{background:transparent;border:1px solid var(--line);color:var(--sub)}}
-.s-btns a{{background:var(--acc);color:#1f1e1d;font-weight:600;border:0}}
-footer{{margin:36px 4px 0;padding-top:14px;border-top:1px solid var(--line);color:var(--sub);font-size:12px;line-height:1.7}}
-footer b{{color:var(--text);font-weight:600}}
+@font-face{font-family:'ChosunIlboMyungjo';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');font-weight:normal;font-display:swap}
+:root{color-scheme:dark;--bg:#262624;--card:#30302e;--card2:#3a3a37;--text:#faf9f5;--sub:#a6a39a;--line:#3e3e3a;--acc:#d97757;--red:#ef4444}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 'ChosunIlboMyungjo',Georgia,"Noto Serif KR",serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:auto}
+header{padding:20px 16px 8px}
+h1{font:600 22px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:0 0 4px}
+.upd{color:var(--sub);font-size:12.5px}
+/* 테마 탭 */
+.tabs{position:sticky;top:0;z-index:3;background:rgba(38,38,36,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.tabrow{display:flex;gap:8px;overflow-x:auto;padding:12px 16px 10px;scrollbar-width:none}.tabrow::-webkit-scrollbar{display:none}
+.tab{position:relative;flex:none;padding:9px 15px;border-radius:12px;border:1px solid var(--line);background:var(--card);
+  color:var(--sub);font:inherit;font-size:14px;cursor:pointer}
+.tab b{margin-left:5px;color:var(--sub);font-weight:400;font-size:12px}
+.tab.on{background:var(--acc);border-color:var(--acc);color:#1f1e1d;font-weight:600}.tab.on b{color:#1f1e1d}
+.dot{position:absolute;top:-3px;right:-3px;width:11px;height:11px;border-radius:50%;background:var(--red);border:2px solid var(--bg)}
+/* 정렬·국가 */
+.ctrl{display:flex;gap:6px;overflow-x:auto;padding:0 16px 10px;scrollbar-width:none}.ctrl::-webkit-scrollbar{display:none}
+.ctrl button{flex:none;border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:5px 11px;font:inherit;font-size:12.5px}
+.ctrl button.on{background:var(--card2);border-color:var(--card2);color:var(--text)}
+.ctrl .sep{flex:none;width:1px;background:var(--line);margin:2px 4px}
+main{padding:6px 12px 48px}
+h2{font:600 19px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:16px 4px 2px}
+.note{margin:0 4px 10px;color:var(--sub);font-size:12px}
+.none{color:var(--sub);margin:24px 4px;text-align:center}
+.card{display:block;background:var(--card);border-radius:12px;padding:12px 14px;margin:8px 0;color:var(--text);text-decoration:none;transition:background .15s}
+.card:hover{background:var(--card2)}.card:active{opacity:.75}
+.meta{color:var(--sub);font-size:12px}
+.title{font-weight:500;margin-top:3px}
+.orig{color:var(--sub);font-size:12px;margin-top:3px}
+.new{margin-left:4px;color:var(--red);font-size:11px;font-weight:700;letter-spacing:.3px}
+.hot{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(217,119,87,.16);color:var(--acc);font-weight:600}
+.hot.big{background:var(--acc);color:#1f1e1d}
+.more{display:block;width:100%;margin:4px 0 0;padding:10px;border:1px dashed var(--line);border-radius:12px;background:transparent;color:var(--sub);font:inherit;font-size:13px}
+footer{margin:36px 4px 0;padding-top:14px;border-top:1px solid var(--line);color:var(--sub);font-size:12px;line-height:1.7}
+footer b{color:var(--text);font-weight:600}
+/* 요약 창 */
+#dim{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:5}
+#sheet{position:fixed;left:0;right:0;bottom:0;z-index:6;max-width:760px;margin:auto;max-height:82vh;overflow-y:auto;
+  background:var(--card);border-radius:16px 16px 0 0;padding:10px 18px calc(18px + env(safe-area-inset-bottom));box-shadow:0 -8px 30px rgba(0,0,0,.4)}
+.grab{width:38px;height:4px;border-radius:2px;background:var(--line);margin:0 auto 12px}
+.s-title{font-size:17px;font-weight:600;margin:4px 0 2px;line-height:1.45}
+.s-label{margin:16px 0 4px;color:var(--acc);font-size:12px;font-weight:700;letter-spacing:.5px}
+.s-sum{font-size:15px;line-height:1.75}.s-sum.empty{color:var(--sub);font-size:13.5px}
+.s-btns{display:flex;gap:8px;margin-top:20px}
+.s-btns button,.s-btns a{flex:1;text-align:center;padding:12px;border-radius:10px;font:inherit;font-size:14.5px;text-decoration:none}
+.s-btns button{background:transparent;border:1px solid var(--line);color:var(--sub)}
+.s-btns a{background:var(--acc);color:#1f1e1d;font-weight:600}
 </style></head><body>
-<header><h1>📰 투자 테마 뉴스</h1><div class="upd">업데이트 {esc(updated)} · 최근 {PAGE_DAYS}일 · 기사를 누르면 한국어 요약 → 원문 보기<br>🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제)</div></header>
-<div class="bar sort"><button class="c on" onclick="srt('c')">🔥 전체 화제순</button><button class="p" onclick="srt('p')">🕒 전체 최신순</button></div>
-<div class="bar region">{chips}</div>
-<nav>{nav}</nav><main>{''.join(body)}{auto_html}</main>
+<div class="wrap">
+<header><h1>📰 투자 테마 뉴스</h1><div class="upd" id="upd"></div></header>
+</div>
+<div class="tabs"><div class="wrap">
+  <div class="tabrow" id="tabs"></div>
+  <div class="ctrl" id="ctrl"></div>
+</div></div>
+<div class="wrap"><main id="main"></main></div>
 <div id="dim" onclick="closeSheet()" hidden></div>
 <div id="sheet" role="dialog" aria-modal="true" hidden>
   <div class="grab"></div>
@@ -774,61 +818,112 @@ footer b{{color:var(--text);font-weight:600}}
   <div id="s-sum" class="s-sum"></div>
   <div class="s-btns"><button onclick="closeSheet()">닫기</button><a id="s-go" target="_blank" rel="noopener" onclick="closeSheet()">원문 보기 ↗</a></div>
 </div>
+<script id="data" type="application/json">__DATA__</script>
 <script>
-function each(btn, fn){{
-  // btn 이 있으면 그 테마만, 없으면 전체 테마
-  (btn ? [btn.closest('section')] : [].slice.call(document.querySelectorAll('section'))).forEach(fn);
-}}
-function srt(k,btn){{
-  each(btn, function(sec){{
-    var l=sec.querySelector('.list'); if(!l) return;
-    var a=[].slice.call(l.children);
-    a.sort(function(x,y){{
-      var c=(+y.dataset.c)-(+x.dataset.c), p=(+y.dataset.p)-(+x.dataset.p);
-      return k==='c' ? (c||p) : (p||c);
-    }});
-    a.forEach(function(e){{l.appendChild(e);}});
-    lim(sec);
-    sec.querySelectorAll('.ss button').forEach(function(b){{b.classList.toggle('on', b.classList.contains(k));}});
-  }});
-  if(!btn) document.querySelectorAll('.sort button').forEach(function(b){{b.classList.toggle('on', b.classList.contains(k));}});
-}}
-function flt(r,sel){{
-  each(sel, function(sec){{
-    var shown=0;
-    sec.querySelectorAll('.card').forEach(function(c){{
-      var ok = r==='all' || c.dataset.r===r; c.classList.toggle('f', !ok); if(ok) shown++;
-    }});
-    sec.querySelector('.none').hidden = shown>0;
-    sec.querySelector('select').value = r;
-    var n=document.getElementById('n'+sec.id.slice(1)); if(n) n.textContent=shown;
-    lim(sec);
-  }});
-  if(!sel) document.querySelectorAll('.region button').forEach(function(b){{b.classList.toggle('on', b.dataset.r===r);}});
-}}
-var LIMIT={SHOW_PER_THEME}, STEP=20;
-function lim(sec){{
-  // 보이는 기사 중 위에서부터 정해진 개수만 보여주고 나머지는 '더보기'
-  var max = +(sec.dataset.n || LIMIT), i=0, extra=0;
-  sec.querySelectorAll('.card').forEach(function(c){{
-    if(c.classList.contains('f')) {{ c.classList.remove('o'); return; }}
-    var over = i>=max; c.classList.toggle('o', over); if(over) extra++; i++;
-  }});
-  var b=sec.querySelector('.more');
-  b.hidden = extra===0 && max<=LIMIT;
-  b.textContent = extra>0 ? '더보기 ▾  (' + extra + '개 더)' : '접기 ▴';
-}}
-function more(b){{
-  var sec=b.closest('section'), max=+(sec.dataset.n || LIMIT);
-  if(b.textContent.indexOf('접기')===0) {{ sec.dataset.n=LIMIT; lim(sec); sec.scrollIntoView(); return; }}
-  sec.dataset.n = max + STEP; lim(sec);
-}}
-document.querySelectorAll('section').forEach(lim);
+var D = JSON.parse(document.getElementById('data').textContent);
+var RL = {}; D.regions.forEach(function(r){ RL[r.k] = r.l; });
+function $(id){ return document.getElementById(id); }
+function esc(t){ return String(t==null?'':t).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+// 휴대폰에 기억해 두는 값 (마지막 탭, 탭별로 마지막에 본 시각, 정렬, 국가)
+function load(k, d){ try { var v = localStorage.getItem('nb_'+k); return v===null ? d : JSON.parse(v); } catch(e){ return d; } }
+function save(k, v){ try { localStorage.setItem('nb_'+k, JSON.stringify(v)); } catch(e){} }
+var S = { tab: load('tab', 0), seen: load('seen', null), sort: load('sort', 'c'), region: load('region', 'all'), shown: D.show, prev: {} };
+function newest(t){ var m = 0; t.items.forEach(function(n){ if(n.a > m) m = n.a; }); return m; }
+if(S.seen === null){ S.seen = {}; D.themes.forEach(function(t){ S.seen[t.name] = newest(t); }); save('seen', S.seen); }  // 처음 방문: 레드닷 없이 시작
+if(location.hash && /^#t\\d+$/.test(location.hash)) S.tab = +location.hash.slice(2);
+if(S.tab >= D.themes.length) S.tab = 0;
+
+function visible(t){
+  return t.items.filter(function(n){ return S.region==='all' || n.r===S.region; });
+}
+function sorted(list, breaking){
+  var k = breaking ? 'p' : S.sort;
+  return list.slice().sort(function(x,y){
+    var c = y.c - x.c, p = y.p - x.p; return k==='c' ? (c||p) : (p||c);
+  });
+}
+function renderTabs(){
+  $('tabs').innerHTML = D.themes.map(function(t, i){
+    var dot = newest(t) > (S.seen[t.name] || 0) && i !== S.tab;
+    return '<button class="tab'+(i===S.tab?' on':'')+'" onclick="openTab('+i+')">'+esc(t.name)+
+           '<b>'+visible(t).length+'</b>'+(dot?'<span class="dot" title="새 뉴스"></span>':'')+'</button>';
+  }).join('');
+  var on = $('tabs').children[S.tab]; if(on && on.scrollIntoView) on.scrollIntoView({block:'nearest', inline:'center'});
+}
+function renderCtrl(){
+  var br = D.themes[S.tab].breaking;
+  var h = '';
+  if(!br){
+    h += '<button class="'+(S.sort==='c'?'on':'')+'" onclick="setSort(\\'c\\')">🔥 화제순</button>';
+    h += '<button class="'+(S.sort==='p'?'on':'')+'" onclick="setSort(\\'p\\')">🕒 최신순</button><span class="sep"></span>';
+  }
+  h += '<button class="'+(S.region==='all'?'on':'')+'" onclick="setRegion(\\'all\\')">전체</button>';
+  D.regions.forEach(function(r){
+    h += '<button class="'+(S.region===r.k?'on':'')+'" onclick="setRegion(\\''+r.k+'\\')">'+esc(r.l)+'</button>';
+  });
+  $('ctrl').innerHTML = h;
+}
+function card(n, prev){
+  var hot = n.c > 1 ? '<span class="hot'+(n.c>=5?' big':'')+'">🔥 언론 '+n.c+'곳</span>' : '';
+  var isNew = prev && n.a > prev ? ' <span class="new">NEW</span>' : '';
+  return '<a class="card" href="'+esc(n.u)+'" target="_blank" rel="noopener" data-s="'+esc(n.su||'')+'">'+
+    '<div class="meta">'+hot+esc(RL[n.r]||'')+' · '+esc(n.so)+' · '+esc(n.tm)+isNew+'</div>'+
+    '<div class="title">'+esc(n.s)+'</div>'+(n.t?'<div class="orig">'+esc(n.t)+'</div>':'')+'</a>';
+}
+function renderMain(){
+  var t = D.themes[S.tab], list = sorted(visible(t), t.breaking), prev = S.prev[t.name];
+  var h = '<h2>'+esc(t.name)+'</h2>' + (t.note ? '<p class="note">'+esc(t.note)+'</p>' : '');
+  if(!list.length) h += '<p class="none">'+(S.region==='all' ? '최근 ' + (t.breaking?'속보':'기사') + ' 없음' : esc(RL[S.region])+' 기사 없음')+'</p>';
+  h += list.slice(0, S.shown).map(function(n){ return card(n, prev); }).join('');
+  var extra = list.length - S.shown;
+  if(extra > 0) h += '<button class="more" onclick="more()">더보기 ▾  ('+extra+'개 더)</button>';
+  else if(S.shown > D.show) h += '<button class="more" onclick="less()">접기 ▴</button>';
+  var auto = Object.keys(D.auto);
+  h += '<footer>업데이트 '+esc(D.updated)+' · 최근 3일 · 믿을 만한 언론사 기사만 · 기사를 누르면 한국어 요약 → 원문 보기<br>'+
+       '🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제) · <span style="color:var(--red)">●</span> = 새 뉴스'+
+       '<br><br><b>자동으로 추가된 언론사</b> (주요 언론보다 먼저 보도하고, 주요 언론도 함께 다룬 소식이 많은 곳 · 최근 14일)'+
+       (auto.length ? auto.map(function(k){ return '<div>'+esc(k)+': '+esc(D.auto[k].join(', '))+'</div>'; }).join('') : '<div>아직 없음</div>')+
+       '</footer>';
+  $('main').innerHTML = h;
+}
+function openTab(i){
+  var t = D.themes[i];
+  S.tab = i; S.shown = D.show; save('tab', i);
+  if(!(t.name in S.prev)) S.prev[t.name] = S.seen[t.name] || 0;     // 이 탭에서 NEW 로 보여줄 기준
+  S.seen[t.name] = Math.max(S.seen[t.name] || 0, newest(t)); save('seen', S.seen);  // 탭에 들어오면 레드닷 지움
+  history.replaceState(null, '', '#t'+i);
+  renderTabs(); renderCtrl(); renderMain(); window.scrollTo(0, 0);
+}
+function setSort(k){ S.sort = k; save('sort', k); S.shown = D.show; renderCtrl(); renderMain(); }
+function setRegion(k){ S.region = k; save('region', k); S.shown = D.show; renderTabs(); renderCtrl(); renderMain(); }
+function more(){ S.shown += 20; renderMain(); }
+function less(){ S.shown = D.show; renderMain(); window.scrollTo(0, 0); }
+$('upd').textContent = '업데이트 ' + D.updated + ' · 탭을 눌러 테마별 뉴스 보기';
+
+// 🚨 미국 속보는 페이지를 새로 올리지 않아도 최신 내용을 바로 가져옴
+var BI = D.themes.findIndex(function(t){ return t.breaking; });
+function refreshBreaking(){
+  if(BI < 0 || !window.fetch) return;
+  fetch(D.breaking_url + '?t=' + Date.now(), {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(b){
+    var items = (b.items || []).map(function(n){
+      var d = {s:n.show, so:n.source||'', tm:n.time||'', c:n.count||1, r:'us', u:n.url||n.link, p:Math.floor(n.pub), a:Math.floor(n.added||n.pub)};
+      if(n.show !== n.title) d.t = n.title; if(n.sum) d.su = n.sum; return d;
+    });
+    if(!items.length && D.themes[BI].items.length) return;
+    D.themes[BI].items = items;
+    if(S.tab === BI){ S.seen[D.themes[BI].name] = Math.max(S.seen[D.themes[BI].name]||0, newest(D.themes[BI])); save('seen', S.seen); renderMain(); }
+    renderTabs();
+  }).catch(function(){});
+}
+openTab(S.tab);
+refreshBreaking();
+setInterval(refreshBreaking, 5 * 60 * 1000);
+document.addEventListener('visibilitychange', function(){ if(!document.hidden) refreshBreaking(); });
+
 // 기사를 누르면 먼저 한국어 요약 → 원문 볼지 선택
-function $(id){{return document.getElementById(id);}}
-document.addEventListener('click', function(e){{
+document.addEventListener('click', function(e){
   var c = e.target.closest('a.card'); if(!c) return;
-  if(e.ctrlKey||e.metaKey||e.shiftKey) return;   // 새 탭으로 열기는 그대로
+  if(e.ctrlKey||e.metaKey||e.shiftKey) return;
   e.preventDefault();
   $('s-meta').innerHTML = c.querySelector('.meta').innerHTML;
   $('s-title').textContent = c.querySelector('.title').textContent;
@@ -839,10 +934,10 @@ document.addEventListener('click', function(e){{
   $('s-go').href = c.href;
   $('dim').hidden = false; $('sheet').hidden = false; $('sheet').scrollTop = 0;
   document.body.style.overflow = 'hidden';
-}});
-function closeSheet(){{ $('dim').hidden = true; $('sheet').hidden = true; document.body.style.overflow = ''; }}
-document.addEventListener('keydown', function(e){{ if(e.key==='Escape') closeSheet(); }});
-</script></body></html>"""
+});
+function closeSheet(){ $('dim').hidden = true; $('sheet').hidden = true; document.body.style.overflow = ''; }
+document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeSheet(); });
+</script></body></html>""".replace("__DATA__", blob)
     os.makedirs(os.path.dirname(PAGE_FILE), exist_ok=True)
     with open(PAGE_FILE, "w", encoding="utf-8") as f:
         f.write(html)
@@ -863,7 +958,7 @@ document.addEventListener('keydown', function(e){{ if(e.key==='Escape') closeShe
 
 
 # ─────────────────────────────────────────────
-# 🚨 미국 속보 (15분마다 따로 확인 → 큰 속보면 바로 알림)
+# 🚨 미국 속보 (12분마다 따로 확인 → 큰 속보면 바로 알림)
 # ─────────────────────────────────────────────
 BREAKING_NAME = "🚨 미국 속보"
 BREAKING_WINDOW_MIN = 90      # 최근 몇 분 안의 기사만 속보로 봄
@@ -934,7 +1029,8 @@ def check_breaking():
                 "region": US["label"], "title": rep["title"], "show": show, "source": rep["source"],
                 "src_url": rep.get("src_url", ""), "sum": translate_ko(summ) if summ else "",
                 "link": rep["link"], "url": real, "pub": pub.timestamp(),
-                "time": pub.astimezone(KST).strftime("%m/%d %H:%M"), "run": "breaking"}
+                "time": pub.astimezone(KST).strftime("%m/%d %H:%M"), "run": "breaking",
+                "added": int(time.time())}
         meta = " · ".join(x for x in [rep["source"], item["time"], f"언론 {cnt}곳" if cnt > 1 else ""] if x)
         if notify(f"🚨 미국 속보", f"{show}\n{meta}", click=real,
                   tags=["rotating_light"], priority=4):
@@ -952,13 +1048,6 @@ def check_breaking():
     with open(BREAKING_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=0)
 
-    # 새 속보가 있으면 목록 페이지도 다시 만들어서 올림
-    out = os.environ.get("GITHUB_OUTPUT")
-    if alerts:
-        build_pages(load_news(), "breaking", datetime.now(KST).strftime("%m/%d %H:%M"))
-    if out:
-        with open(out, "a") as f:
-            f.write(f"deploy={'true' if alerts else 'false'}\n")
     print(f"속보 알림 {alerts}건")
 
 
@@ -967,14 +1056,21 @@ def score_sources(region_key, raw_items, sc):
     day = datetime.now(KST).strftime("%Y-%m-%d")
     bucket = sc.setdefault("days", {}).setdefault(day, {}).setdefault(region_key, {})
     for g in cluster(raw_items):
-        trusted_n = len({m["source"] for m in g if is_trusted(region_key, m["source"], m["src_url"])})
+        trusted = [m for m in g if is_trusted(region_key, m["source"], m["src_url"])]
+        trusted_n = len({m["source"] for m in trusted})
+        first_trusted = min((m["published"] for m in trusted if m["published"]), default=None)
         for m in g:
             if not m["source"] or is_trusted(region_key, m["source"], m["src_url"]) or is_blocked(m["source"], m["src_url"]):
                 continue
-            # 언론사별로 기사 하나당 한 번만 셈 (여러 번 실행돼도 중복 안 됨). 1 = 주요 언론사 2곳 이상과 공동 보도
+            # 언론사별로 기사 하나당 한 번만 셈 (여러 번 실행돼도 중복 안 됨)
+            #   1 = 주요 언론사 2곳 이상과 공동 보도
+            #   2 = 게다가 주요 언론사들보다 먼저 보도 (받아 쓴 게 아니라 먼저 취재했다는 신호)
             arts = bucket.setdefault(m["source"], {})
             k = title_key(m["title"])[:24]
-            arts[k] = max(arts.get(k, 0), 1 if trusted_n >= 2 else 0)
+            v = 0
+            if trusted_n >= 2:
+                v = 2 if (m["published"] and first_trusted and m["published"] < first_trusted) else 1
+            arts[k] = max(arts.get(k, 0), v)
 
 
 def update_auto(sc):
@@ -987,13 +1083,15 @@ def update_auto(sc):
             for src, arts in srcs.items():
                 if not isinstance(arts, dict):
                     continue
-                t = total.setdefault(rk, {}).setdefault(src, [0, 0])
+                t = total.setdefault(rk, {}).setdefault(src, [0, 0, 0])
                 t[0] += len(arts)
-                t[1] += sum(arts.values())
+                t[1] += sum(1 for v in arts.values() if v >= 1)
+                t[2] += sum(1 for v in arts.values() if v >= 2)
     auto = {}
     for rk, srcs in total.items():
-        auto[rk] = sorted(src for src, (n, co) in srcs.items()
-                          if n >= AUTO_MIN_STORIES and co >= AUTO_MIN_CO and co / n >= AUTO_MIN_RATIO)
+        auto[rk] = sorted(src for src, (n, co, first) in srcs.items()
+                          if n >= AUTO_MIN_STORIES and co >= AUTO_MIN_CO and co / n >= AUTO_MIN_RATIO
+                          and first >= AUTO_MIN_FIRST)
     sc["auto"] = auto
     with open(SOURCES_FILE, "w", encoding="utf-8") as f:
         json.dump(sc, f, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
@@ -1099,7 +1197,7 @@ def collect():
                     "theme": name, "region": region["label"], "title": rep["title"],
                     "show": show, "source": rep["source"], "src_url": rep.get("src_url", ""), "link": rep["link"],
                     "pub": pub.timestamp(), "time": pub.astimezone(KST).strftime("%m/%d %H:%M"),
-                    "run": run_id})
+                    "run": run_id, "added": int(time.time())})
                 taken.update(keys)
                 picked += 1
             counts[name] += picked
@@ -1116,9 +1214,20 @@ def collect():
 
     # 페이지용 기사 목록: 테마 순서 → 화제성 높은 순 → 최신순
     news = old_news + new_items
-    # 페이지에 보이는(믿을 만한 언론사) 기사만, 새 기사·화제성 높은 기사부터 처리
+    # 믿을 만한 언론사 기사만 남기고, 테마마다 너무 많이 쌓이지 않게 정리
+    #   최근 24시간 기사는 모두 유지 + 그보다 오래된 건 화제성 높은 순으로 테마당 최대 THEME_KEEP 개
     rk = {r["label"]: r["key"] for r in REGIONS}
-    shown = [n for n in news if is_trusted(rk.get(n["region"], ""), n.get("source", ""), n.get("src_url") or n.get("url", ""))]
+    news = [n for n in news if is_trusted(rk.get(n["region"], ""), n.get("source", ""), n.get("src_url") or n.get("url", ""))]
+    day_ago = time.time() - 86400
+    kept = []
+    for t in THEMES:
+        items = [n for n in news if n["theme"] == t["name"]]
+        recent = [n for n in items if n.get("added", n["pub"]) >= day_ago]
+        older = sorted((n for n in items if n.get("added", n["pub"]) < day_ago),
+                       key=lambda n: (-n.get("count", 1), -n["pub"]))
+        kept += recent + older[:max(0, THEME_KEEP - len(recent))]
+    news = kept
+    shown = list(news)
     shown.sort(key=lambda n: (n.get("run") != run_id, -n.get("count", 1), -n["pub"]))
     add_real_urls(shown, limit=300)
     retranslate_failed(shown)
