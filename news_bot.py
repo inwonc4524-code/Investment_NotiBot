@@ -894,7 +894,7 @@ footer b{color:var(--text);font-weight:600}
   <div id="s-sum" class="s-sum"></div>
   <div class="s-btns"><a id="s-go" target="_blank" rel="noopener" onclick="closeSheet()">원문 보기 ↗</a><a id="s-cs" class="cl" target="_blank" rel="noopener" onclick="askAI(this)">✦ 원문 + Gemini 요약</a><a id="s-ct" class="cl" target="_blank" rel="noopener" onclick="askAI(this)">✦ 원문 + Gemini 번역</a></div>
   <div class="s-close"><button onclick="closeSheet()">닫기</button></div>
-  <div id="s-cnote" class="s-cnote">✦ 버튼: 요청 문장이 복사되고 원문이 열려요 → 측면 버튼을 길게 눌러 Gemini → 붙여넣기 → 보내기 (화면의 기사를 읽고 답해요)</div>
+  <div id="s-cnote" class="s-cnote">✦ 버튼: 요청 문장이 복사되고 원문이 열려요 → 크롬에서 측면 버튼 길게 → Gemini의 「이 페이지에 관해 질문하기」 → 붙여넣기 → 보내기 (기사 전체를 읽어요)</div>
 <div id="toast" hidden></div>
 </div>
 <script id="data" type="application/json">__DATA__</script>
@@ -1029,8 +1029,8 @@ document.addEventListener('click', function(e){
   if(foreign){
     // 원문을 열고, Gemini 가 '지금 화면'의 기사를 읽고 답하도록 요청 문장만 복사
     $('s-cs').href = $('s-ct').href = c.href;
-    $('s-cs').dataset.q = '지금 화면에 보이는 기사를 읽고 한국어로 요약해 줘. 핵심 내용 3~5줄, 그리고 투자자 입장에서 중요한 숫자와 의미를 짧게 정리해 줘.';
-    $('s-ct').dataset.q = '지금 화면에 보이는 기사를 처음부터 끝까지 자연스러운 한국어로 번역해 줘. 화면에 안 보이는 아래 내용이 있으면 이어서 번역할 수 있게 알려 줘. 전문 용어는 한국에서 쓰는 표현으로 바꾸고 필요하면 괄호로 원어를 적어 줘.';
+    $('s-cs').dataset.q = '이 페이지의 기사 전체를 처음부터 끝까지 읽고 한국어로 요약해 줘. 핵심 내용 3~5줄, 그리고 투자자 입장에서 중요한 숫자와 의미를 짧게 정리해 줘.';
+    $('s-ct').dataset.q = '이 페이지의 기사 전체를 처음부터 끝까지 빠짐없이 자연스러운 한국어로 번역해 줘. 전문 용어는 한국에서 쓰는 표현으로 바꾸고 필요하면 괄호로 원어를 적어 줘.';
   }
   $('dim').hidden = false; $('sheet').hidden = false; $('sheet').scrollTop = 0;
   document.body.style.overflow = 'hidden';
@@ -1039,7 +1039,7 @@ document.addEventListener('click', function(e){
 function askAI(a){
   var q = a.dataset.q || '';
   try { if(navigator.clipboard) navigator.clipboard.writeText(q); } catch(e){}
-  toast('요청 문장을 복사했어요 · 원문에서 측면 버튼 길게 → Gemini → 붙여넣기');
+  toast('요청 문장을 복사했어요 · 원문에서 측면 버튼 길게 → 「이 페이지에 관해 질문하기」 → 붙여넣기');
   setTimeout(closeSheet, 50);
 }
 function toast(msg){ var t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(function(){ t.hidden = true; }, 4000); }
