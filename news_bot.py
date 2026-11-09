@@ -31,6 +31,7 @@ import requests
 #    cn   : 중국 뉴스 검색어 (중국어 간체)
 #    검색어는 여러 개 넣을 수 있고, 하나라도 들어간 기사를 찾습니다.
 #    etfs : 이 테마와 연결된 내 ETF (알림 맨 위에 표시)
+#    rel  : 관련성 검사 단어 — 기사 제목에 이 단어나 검색어가 하나도 없으면 테마와 상관없는 기사로 보고 뺌
 # ─────────────────────────────────────────────
 THEMES = [
     {"name": "🇺🇸 미국 S&P500",
@@ -39,42 +40,48 @@ THEMES = [
      "en": ["S&P 500", "Wall Street stocks", "Federal Reserve rate", "US stock market"],
      "zh": ["美股", "標普500", "聯準會", "美聯儲", "華爾街"],
      "ja": ["米国株", "S&P500", "米連邦準備制度", "FRB 利下げ", "ウォール街", "ナスダック"],
-     "cn": ["美股", "标普500", "美联储", "华尔街", "纳斯达克"]},
+     "cn": ["美股", "标普500", "美联储", "华尔街", "纳斯达克"],
+     "rel": ["S&P", "뉴욕증시", "미국 증시", "미 증시", "美증시", "美 증시", "나스닥", "다우", "연준", "월가", "stock", "Wall Street", "Fed", "Nasdaq", "Dow", "Treasury", "yield", "market", "美股", "標普", "道瓊", "道琼", "納斯達克", "聯準會", "美聯儲", "華爾街", "米国株", "米株", "ダウ", "FRB", "米連邦", "NY株"]},
     {"name": "🧬 나스닥 바이오",
      "etfs": "TIGER 미국나스닥바이오",
      "kr": ["나스닥 바이오", "미국 바이오주", "바이오 ETF", "FDA 승인"],
      "en": ["biotech stocks", "Nasdaq Biotechnology", "IBB ETF", "XBI", "FDA approval"],
      "zh": ["生技股", "生物科技股", "納斯達克生技", "FDA 批准"],
      "ja": ["バイオ株", "米バイオテック", "創薬ベンチャー", "FDA 承認"],
-     "cn": ["生物科技股", "美国生物医药", "创新药", "FDA 批准"]},
+     "cn": ["生物科技股", "美国生物医药", "创新药", "FDA 批准"],
+     "rel": ["바이오", "제약", "신약", "FDA", "임상", "biotech", "pharma", "drug", "clinical", "therapy", "vaccine", "XBI", "IBB", "生技", "生物科技", "醫藥", "医药", "新藥", "新药", "創新藥", "臨床", "临床", "バイオ", "創薬", "新薬", "製薬", "治験"]},
     {"name": "🔋 2차전지",
      "etfs": "TIGER 2차전지테마 · KODEX 2차전지산업 · TIGER 2차전지소재Fn",
      "kr": ["2차전지", "이차전지", "LG에너지솔루션", "에코프로비엠", "포스코퓨처엠", "양극재", "리튬 가격"],
      "en": ["EV battery", "lithium price", "battery makers", "CATL", "cathode materials"],
      "zh": ["電池股", "鋰電池", "寧德時代", "鋰價", "正極材料"],
      "ja": ["車載電池", "リチウムイオン電池", "電池メーカー", "リチウム価格", "正極材"],
-     "cn": ["动力电池", "锂电池", "宁德时代", "碳酸锂 价格", "正极材料"]},
+     "cn": ["动力电池", "锂电池", "宁德时代", "碳酸锂 价格", "正极材料"],
+     "rel": ["배터리", "2차전지", "이차전지", "양극재", "음극재", "리튬", "전해질", "분리막", "에코프로", "엘앤에프", "포스코퓨처엠", "LG에너지", "엔솔", "삼성SDI", "SK온", "전기차", "battery", "batteries", "lithium", "cathode", "anode", "EV", "CATL", "電池", "电池", "鋰", "锂", "正極", "正极", "負極", "负极", "寧德", "宁德", "比亞迪", "比亚迪", "電動車", "电动车", "リチウム", "電気自動車"]},
     {"name": "⚡ 전고체배터리·ESS",
      "etfs": "KODEX 전고체배터리ESS TOP2플러스",
      "kr": ["전고체 배터리", "전고체 전지", "ESS 배터리", "에너지저장장치", "삼성SDI 전고체"],
      "en": ["solid-state battery", "energy storage system", "ESS battery", "grid-scale storage"],
      "zh": ["固態電池", "全固態電池", "儲能", "儲能系統"],
      "ja": ["全固体電池", "蓄電池", "蓄電システム", "系統用蓄電池"],
-     "cn": ["固态电池", "全固态电池", "储能", "储能系统"]},
+     "cn": ["固态电池", "全固态电池", "储能", "储能系统"],
+     "rel": ["전고체", "ESS", "에너지저장", "에너지 저장", "배터리", "LFP", "삼성SDI", "solid-state", "energy storage", "storage", "battery", "batteries", "grid", "固態", "固态", "儲能", "储能", "電池", "电池", "全固体", "蓄電"]},
     {"name": "🏭 AI 전력",
      "etfs": "ACE 코리아AI전력TOP10",
      "kr": ["AI 전력", "전력기기", "변압기 수출", "HD현대일렉트릭", "효성중공업", "LS ELECTRIC", "두산에너빌리티"],
      "en": ["AI power demand", "data center power", "transformer shortage", "power grid investment"],
      "zh": ["AI 電力", "重電股", "變壓器", "資料中心 電力", "電網"],
      "ja": ["データセンター 電力", "AI 電力需要", "変圧器", "送電網", "重電株"],
-     "cn": ["AI 电力", "变压器", "数据中心 电力", "电网 投资", "算力 电力"]},
+     "cn": ["AI 电力", "变压器", "数据中心 电力", "电网 投资", "算力 电力"],
+     "rel": ["전력", "변압기", "송전", "전선", "원전", "SMR", "전력망", "배전", "초고압", "LS전선", "대한전선", "데이터센터", "현대일렉트릭", "효성중공업", "LS ELECTRIC", "LS일렉트릭", "두산에너빌리티", "산일전기", "가스터빈", "power", "grid", "transformer", "electricity", "data center", "datacenter", "utility", "utilities", "nuclear", "energy", "電力", "电力", "變壓器", "变压器", "電網", "电网", "資料中心", "數據中心", "数据中心", "算力", "核電", "核电", "重電", "変圧器", "送電", "データセンター", "原発"]},
     {"name": "🤖 로봇",
      "etfs": "",
      "kr": ["로봇 관련주", "휴머노이드", "레인보우로보틱스", "두산로보틱스", "로봇 ETF", "협동로봇"],
      "en": ["humanoid robot", "robotics stocks", "Tesla Optimus", "BOTZ ETF", "Figure AI", "industrial robots"],
      "zh": ["人形機器人", "機器人概念股", "機器人股", "優必選"],
      "ja": ["ヒューマノイド", "ロボット株", "産業用ロボット", "ファナック", "安川電機"],
-     "cn": ["人形机器人", "机器人概念股", "工业机器人", "优必选", "宇树科技"]},
+     "cn": ["人形机器人", "机器人概念股", "工业机器人", "优必选", "宇树科技"],
+     "rel": ["로봇", "휴머노이드", "로보틱스", "자동화", "보스턴다이내믹스", "아틀라스", "옵티머스", "robot", "robotics", "humanoid", "Optimus", "automation", "Boston Dynamics", "Figure AI", "Unitree", "機器人", "机器人", "人形", "宇樹", "宇树", "優必選", "优必选", "ロボット", "ヒューマノイド", "ファナック", "安川"]},
 ]
 
 # ─────────────────────────────────────────────
@@ -106,7 +113,12 @@ THEME_KEEP = 80           # 테마마다 페이지에 남길 최대 기사 수 (
 SIMILAR = 0.3
 
 # 이런 단어가 제목에 있으면 제외 (광고성·무관한 기사 걸러내기)
-EXCLUDE = re.compile(r"리딩방|무료\s*추천|급등주\s*추천|카톡방|sponsored|press release", re.I)
+EXCLUDE = re.compile(r"리딩방|무료\s*추천|급등주\s*추천|카톡방|sponsored|press release"
+                     r"|\b(?:call|put)\s*\([A-Z0-9]+\)"                 # 옵션 시세 페이지 (예: XBI Jun 2027 153.000 put (XBI…))
+                     r"|\b\d+\.\d{3}\s+(?:call|put)\b"
+                     r"|stock price,? news,? quote|quote & history|historical prices"
+                     r"|^【[^】]*株式会社[^】]*】"                          # 일본 기업 보도자료 형식
+                     r"|年収\s*[0-9,]+万|【原則|◆大手", re.I)                  # 구인 공고
 
 # ─────────────────────────────────────────────
 # 믿을 만한 언론사만 (나라별)
@@ -236,6 +248,7 @@ BLOCKED = [
     "pr newswire", "prnewswire", "business wire", "businesswire", "globe newswire", "globenewswire",
     "accesswire", "newsfile", "einpresswire", "보도자료", "aol", "morningstar",
     "證券", "증권", "securities", "期貨", "投信",          # 증권사 자체 콘텐츠는 언론 보도가 아니라서 제외
+    "転職", "career.nikkei", "求人", "채용",                # 구인 공고
 ]
 # 자동 추가 기준: 최근 14일 동안
 AUTO_MIN_STORIES = 10      # 이 언론사가 보도한 소식이 10개 이상이고
@@ -267,6 +280,8 @@ def is_trusted(region_key, source, url=""):
     names = TRUSTED.get(region_key)
     if names is None:      # 목록이 없는 지역은 거르지 않음
         return True
+    if re.search(r"転職|求人|career\.|jobs\.|채용", (source or "") + " " + (url or "")):   # 구인 사이트
+        return False
     src = (source or "").lower()
     dom = _domain(url)
     for e in names:
@@ -395,6 +410,7 @@ def translate_ko(text, tries=3):
     if _translate_fail["n"] >= 6:  # 연속 6번 실패하면 이번 실행에서는 번역을 쉬고 다음 실행 때 다시 시도
         return text
     result = text
+    api_ok = False                # 번역 서버가 응답했는지 (번역 결과가 원문과 같아도 성공)
     for attempt in range(tries):
         try:
             r = requests.get("https://translate.googleapis.com/translate_a/single",
@@ -404,11 +420,12 @@ def translate_ko(text, tries=3):
             out = "".join(seg[0] for seg in r.json()[0] if seg and seg[0]).strip()
             if out:
                 result = out
+                api_ok = True
                 break
         except Exception as e:
             print(f"  ! 번역 실패 ({attempt + 1}/{tries}): {e}")
         time.sleep(2 + attempt * 3)   # 2초 → 5초 쉬고 다시 시도
-    if result != text:                # 실패한 건 기억하지 않음 → 다음 실행 때 다시 시도
+    if api_ok:                        # 실패한 건 기억하지 않음 → 다음 실행 때 다시 시도
         _translate_cache[text] = result
         _translate_fail["n"] = 0
     else:
@@ -425,12 +442,14 @@ def retranslate_failed(items, limit=40):
     for n in items:
         if done >= limit:
             break
-        if not is_korean(n["title"]) and n.get("show") == n["title"]:
+        if not is_korean(n["title"]) and n.get("show") == n["title"] and not n.get("tr_same"):
             done += 1
             ko = translate_ko(n["title"])
             if ko != n["title"]:
                 n["show"] = ko
                 fixed += 1
+            elif n["title"] in _translate_cache:   # 번역은 됐는데 원문과 같음 (예: 회사 이름) → 다시 안 함
+                n["tr_same"] = True
     if done:
         print(f"번역 다시 시도: {fixed}/{done}건 성공")
 
@@ -570,7 +589,8 @@ def add_summaries(items, limit=120):
             dup[(n["source"], d)] += 1
     ok = 0
     for n, d in zip(todo, raw):
-        if d and dup[(n["source"], d)] == 1 and title_key(d) != title_key(n["title"]):
+        if (d and dup[(n["source"], d)] == 1 and title_key(d) != title_key(n["title"])
+                and len(d) >= 30 and not re.search(r"https?://", d)):
             n["sum"] = translate_ko(d)
             ok += 1
         else:
@@ -581,6 +601,32 @@ def add_summaries(items, limit=120):
 # ─────────────────────────────────────────────
 # 기록 (중복 방지)
 # ─────────────────────────────────────────────
+_REL_CACHE = {}
+
+
+def _rel_terms(theme):
+    name = theme["name"]
+    if name not in _REL_CACHE:
+        terms = set()
+        for key in ("kr", "en", "zh", "ja", "cn", "rel"):
+            for w in theme.get(key, []):
+                terms.add(w.lower())              # 검색어 전체 그대로 (쪼개면 "AI" 같은 흔한 단어까지 통과해서)
+        _REL_CACHE[name] = sorted(terms)
+    return _REL_CACHE[name]
+
+
+def is_relevant(theme, title):
+    """기사 제목에 테마 관련 단어가 있는지 (영어는 단어 단위로, 한·중·일은 글자 포함으로 확인)"""
+    t = (title or "").lower()
+    for w in _rel_terms(theme):
+        if re.fullmatch(r"[a-z0-9&.\- ]+", w):     # 영어·숫자: 단어 단위 (예: "dow" ≠ "down")
+            if re.search(r"(?<![a-z0-9])" + re.escape(w) + r"(?![a-z0-9])", t):
+                return True
+        elif w in t:
+            return True
+    return False
+
+
 def title_key(title):
     return re.sub(r"[^0-9a-z가-힣\u3040-\u30ff\u4e00-\u9fff\u3400-\u4dbf]", "", title.lower())[:80]
 
@@ -802,6 +848,7 @@ h2{font:600 19px/1.3 'ChosunIlboMyungjo',Georgia,serif;margin:16px 4px 2px}
 .new{margin-left:4px;color:var(--red);font-size:11px;font-weight:700;letter-spacing:.3px}
 .hot{display:inline-block;margin-right:6px;padding:0 6px;border-radius:4px;background:rgba(217,119,87,.16);color:var(--acc);font-weight:600}
 .hot.big{background:var(--acc);color:#1f1e1d}
+.newbar{display:block;width:100%;margin:2px 0 6px;padding:9px;border:0;border-radius:10px;background:rgba(239,68,68,.14);color:#fca5a5;font:inherit;font-size:13px;text-align:left}
 .more{display:block;width:100%;margin:4px 0 0;padding:10px;border:1px dashed var(--line);border-radius:12px;background:transparent;color:var(--sub);font:inherit;font-size:13px}
 footer{margin:36px 4px 0;padding-top:14px;border-top:1px solid var(--line);color:var(--sub);font-size:12px;line-height:1.7}
 footer b{color:var(--text);font-weight:600}
@@ -845,9 +892,10 @@ function esc(t){ return String(t==null?'':t).replace(/[&<>"]/g, function(c){ ret
 // 휴대폰에 기억해 두는 값 (마지막 탭, 탭별로 마지막에 본 시각, 정렬, 국가)
 function load(k, d){ try { var v = localStorage.getItem('nb_'+k); return v===null ? d : JSON.parse(v); } catch(e){ return d; } }
 function save(k, v){ try { localStorage.setItem('nb_'+k, JSON.stringify(v)); } catch(e){} }
-var S = { tab: load('tab', 0), seen: load('seen', null), sort: load('sort', 'c'), region: load('region', 'all'), shown: D.show, prev: {} };
+var S = { tab: 0, seen: load('seen', null), sort: load('sort', 'c'), region: load('region', 'all'), shown: D.show, prev: {} };
 function newest(t){ var m = 0; t.items.forEach(function(n){ if(n.a > m) m = n.a; }); return m; }
 if(S.seen === null){ S.seen = {}; D.themes.forEach(function(t){ S.seen[t.name] = newest(t); }); save('seen', S.seen); }  // 처음 방문: 레드닷 없이 시작
+(function(){ var nm = load('tabname', ''); D.themes.forEach(function(t, i){ if(t.name === nm) S.tab = i; }); })();  // 마지막에 본 탭 (이름으로 기억)
 if(location.hash && /^#t\\d+$/.test(location.hash)) S.tab = +location.hash.slice(2);
 if(S.tab >= D.themes.length) S.tab = 0;
 
@@ -889,8 +937,15 @@ function card(n, prev){
     '<div class="title">'+esc(n.s)+'</div>'+(n.t?'<div class="orig">'+esc(n.t)+'</div>':'')+'</a>';
 }
 function renderMain(){
-  var t = D.themes[S.tab], list = sorted(visible(t), t.breaking), prev = S.prev[t.name];
+  var t = D.themes[S.tab], list = sorted(visible(t), t.breaking), prev = S.prev[t.name] || 0;
   var h = '<h2>'+esc(t.name)+'</h2>' + (t.note ? '<p class="note">'+esc(t.note)+'</p>' : '');
+  var fresh = prev ? list.filter(function(n){ return n.a > prev; }).length : 0;
+  if(S.onlyNew){                                // '새 기사만 보기' 중
+    list = list.filter(function(n){ return n.a > prev; });
+    h += '<button class="newbar" onclick="onlyNew(false)">🆕 새 기사 '+list.length+'개만 보는 중 · 전체 보기</button>';
+  } else if(fresh && !t.breaking){              // 새 기사가 정렬 때문에 아래로 밀려도 바로 찾을 수 있게
+    h += '<button class="newbar" onclick="onlyNew(true)">🆕 새 기사 '+fresh+'개 · 새 기사만 보기</button>';
+  }
   if(!list.length) h += '<p class="none">'+(S.region==='all' ? '최근 ' + (t.breaking?'속보':'기사') + ' 없음' : esc(RL[S.region])+' 기사 없음')+'</p>';
   h += list.slice(0, S.shown).map(function(n){ return card(n, prev); }).join('');
   var extra = list.length - S.shown;
@@ -906,7 +961,7 @@ function renderMain(){
 }
 function openTab(i){
   var t = D.themes[i];
-  S.tab = i; S.shown = D.show; save('tab', i);
+  S.tab = i; S.shown = D.show; S.onlyNew = false; save('tabname', t.name);
   if(!(t.name in S.prev)) S.prev[t.name] = S.seen[t.name] || 0;     // 이 탭에서 NEW 로 보여줄 기준
   S.seen[t.name] = Math.max(S.seen[t.name] || 0, newest(t)); save('seen', S.seen);  // 탭에 들어오면 레드닷 지움
   history.replaceState(null, '', '#t'+i);
@@ -915,6 +970,7 @@ function openTab(i){
 function setSort(k){ S.sort = k; save('sort', k); S.shown = D.show; renderCtrl(); renderMain(); }
 function setRegion(k){ S.region = k; save('region', k); S.shown = D.show; renderTabs(); renderCtrl(); renderMain(); }
 function more(){ S.shown += 20; renderMain(); }
+function onlyNew(on){ S.onlyNew = on; S.shown = D.show; renderMain(); }
 function less(){ S.shown = D.show; renderMain(); window.scrollTo(0, 0); }
 $('upd').textContent = '업데이트 ' + D.updated + ' · 탭을 눌러 테마별 뉴스 보기';
 
@@ -1110,6 +1166,8 @@ def check_breaking():
         json.dump(data, f, ensure_ascii=False, indent=0)
 
     print(f"미국 속보 알림 {us_new}건 · 해외 속보 {gl_new}건 추가")
+    if us_new or gl_new:
+        open(os.path.join(HERE, ".breaking_new"), "w").close()   # 새 속보 있음 → 이번에 기록 저장
 
 
 def score_sources(region_key, raw_items, sc):
@@ -1160,6 +1218,47 @@ def update_auto(sc):
     print(f"자동 추가된 언론사: {added}곳 " + str({k: v for k, v in auto.items() if v}))
 
 
+def clean_news(news):
+    """같은 원문 주소 중복 제거 + 사이트 소개문 같은 엉터리 요약 지우기"""
+    out, by_url = [], {}
+    for n in sorted(news, key=lambda n: (-n.get("count", 1), n["pub"])):
+        u = n.get("url")
+        if u and u in by_url:
+            keep = by_url[u]
+            keep["count"] = max(keep.get("count", 1), n.get("count", 1))
+            keep["keys"] = list(dict.fromkeys((keep.get("keys") or [keep["key"]]) + (n.get("keys") or [n["key"]])))[:60]
+            continue
+        if u:
+            by_url[u] = n
+        out.append(n)
+    # 같은 테마 안에서 제목만 조금 다른 같은 소식은 하나로 합침 (화제성 높은 쪽을 남김)
+    merged, kept = 0, []
+    for n in out:
+        twin = next((k for k in kept if k["theme"] == n["theme"] and same_story(k["title"], n["title"])), None)
+        if twin is not None:
+            twin["count"] = max(twin.get("count", 1), n.get("count", 1))
+            twin["keys"] = list(dict.fromkeys((twin.get("keys") or [twin["key"]]) + (n.get("keys") or [n["key"]])))[:60]
+            merged += 1
+            continue
+        kept.append(n)
+    out = kept
+    # 같은 언론사 기사 여러 개에 똑같은 요약 → 사이트 소개문이라 지움 / 너무 짧거나 주소가 든 요약도 지움
+    same = {}
+    for n in out:
+        if n.get("sum"):
+            same[(n["source"], n["sum"])] = same.get((n["source"], n["sum"]), 0) + 1
+    removed = 0
+    for n in out:
+        sm = n.get("sum", "")
+        if sm and (same[(n["source"], sm)] > 1 or len(sm) < 30 or re.search(r"https?://", sm)):
+            n.pop("sum", None)
+            n["sum_tried"] = 2
+            removed += 1
+    if len(out) != len(news) or removed:
+        print(f"정리: 중복 {len(news) - len(out)}건 합침(같은 원문 주소·비슷한 제목 {merged}건 포함), 엉터리 요약 {removed}건 지움")
+    return out
+
+
 # ─────────────────────────────────────────────
 # 1단계: 뉴스 모으기 + 페이지 만들기
 # ─────────────────────────────────────────────
@@ -1177,11 +1276,15 @@ def collect():
 
     # 페이지에 이미 있는 기사 (최근 PAGE_DAYS 일) — 같은 소식 보도가 늘면 화제성 숫자만 올려줌
     cutoff = time.time() - PAGE_DAYS * 86400
-    old_news = [n for n in load_news() if n.get("pub", 0) >= cutoff]
+    theme_of = {t["name"]: t for t in THEMES}
+    old_news = [n for n in load_news() if n.get("pub", 0) >= cutoff and not EXCLUDE.search(n.get("title", ""))
+                and n.get("theme") in theme_of and is_relevant(theme_of[n["theme"]], n.get("title", ""))]
     key_to_old = {}
+    old_by_theme = {}
     for n in old_news:
         for k in n.get("keys") or [n["key"]]:
             key_to_old[k] = n
+        old_by_theme.setdefault(n["theme"], []).append(n)
 
     for theme in THEMES:
         name = theme["name"]
@@ -1202,7 +1305,8 @@ def collect():
                    and not EXCLUDE.search(it["title"]) and title_key(it["title"])]
             raw.sort(key=lambda x: x["published"] or now, reverse=True)
             score_sources(region["key"], raw, sc)
-            items = [it for it in raw if is_trusted(region["key"], it["source"], it["src_url"])]
+            items = [it for it in raw if is_trusted(region["key"], it["source"], it["src_url"])
+                     and is_relevant(theme, it["title"])]
             items.sort(key=lambda x: x["published"] or now, reverse=True)
             fetched[region["key"]] = len(items)
             groups_by_region[region["key"]] = cluster(items)
@@ -1238,6 +1342,9 @@ def collect():
                 keys = list(dict.fromkeys(title_key(m["title"]) for m in g))
                 cnt = n_sources(g)
                 old = next((key_to_old[k] for k in keys if k in key_to_old), None)
+                if old is None:       # 제목이 조금 달라도 같은 테마에 이미 있는 소식이면 같은 걸로 봄
+                    old = next((o for o in old_by_theme.get(name, [])
+                                if any(same_story(m["title"], o["title"]) for m in g[:4])), None)
                 if old is not None:   # 이미 보낸 소식 → 숫자만 갱신
                     if cnt > old.get("count", 1):
                         old["count"] = cnt
@@ -1260,6 +1367,7 @@ def collect():
                     "pub": pub.timestamp(), "time": pub.astimezone(KST).strftime("%m/%d %H:%M"),
                     "run": run_id, "added": int(time.time())})
                 taken.update(keys)
+                old_by_theme.setdefault(name, []).append(new_items[-1])
                 picked += 1
             counts[name] += picked
             extra = f", 앞 지역과 겹친 소식 {merged[region['key']]}건은 합침" if merged.get(region["key"]) else ""
@@ -1293,6 +1401,7 @@ def collect():
     add_real_urls(shown, limit=300)
     retranslate_failed(shown)
     add_summaries(shown, limit=300)
+    news = clean_news(news)
     order = {t["name"]: i for i, t in enumerate(THEMES)}
     news.sort(key=lambda n: (order.get(n["theme"], 99), -n.get("count", 1), -n["pub"]))
     save_news(news)

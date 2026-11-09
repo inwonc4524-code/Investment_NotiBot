@@ -28,7 +28,7 @@ concurrency:
 jobs:
   breaking:
     runs-on: ubuntu-latest
-    timeout-minutes: 70
+    timeout-minutes: 85
     steps:
       - uses: actions/checkout@v4
 
@@ -46,16 +46,25 @@ jobs:
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
           for i in $(seq 1 "$ROUNDS"); do
+            start=$(date +%s)
             echo "===== 확인 $i/$ROUNDS ($(TZ=Asia/Seoul date '+%H:%M'))"
-            git pull -q --rebase origin main || true
+            git pull -q --rebase --autostash origin main || true
+            rm -f .breaking_new
             python news_bot.py breaking || echo "확인 중 오류 (다음 회차에 다시 시도)"
-            git add breaking.json
-            if ! git diff --cached --quiet; then
-              git commit -q -m "속보 기록"
-              for t in 1 2 3; do
-                git pull -q --rebase origin main && git push -q && break
-                sleep 5
-              done
+            # 새 속보가 있을 때, 또는 마지막 회차에만 기록 저장 (12분마다 불필요한 저장 방지)
+            if [ -f .breaking_new ] || [ "$i" -eq "$ROUNDS" ]; then
+              git add breaking.json
+              if ! git diff --cached --quiet; then
+                git commit -q -m "속보 기록"
+                for t in 1 2 3 4 5; do
+                  git pull -q --rebase --autostash origin main && git push -q && echo "저장 완료" && break
+                  echo "저장 재시도 $t/5"; sleep $((t * 5))
+                done
+              fi
             fi
-            if [ "$i" -lt "$ROUNDS" ]; then sleep 720; fi
+            # 회차 시작 기준 12분 간격 유지 (확인이 오래 걸려도 전체 시간이 늘어나지 않게)
+            if [ "$i" -lt "$ROUNDS" ]; then
+              wait=$((720 - ($(date +%s) - start)))
+              [ "$wait" -gt 0 ] && sleep "$wait"
+            fi
           done

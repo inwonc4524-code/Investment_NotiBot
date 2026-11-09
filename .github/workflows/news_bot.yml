@@ -57,7 +57,12 @@ jobs:
           git add seen.json docs NEWS.md sources.json
           if ! git diff --cached --quiet; then
             git commit -m "뉴스 업데이트"
-            git pull --rebase origin main && git push
+            # 속보 확인이 동시에 기록을 저장했을 수 있어서, 실패하면 최신 내용 받아서 다시 시도
+            for t in 1 2 3 4 5; do
+              git pull -q --rebase origin main && git push -q && echo "저장 완료" && exit 0
+              echo "저장 재시도 $t/5"; sleep $((t * 5))
+            done
+            exit 1
           fi
 
       # 뉴스 목록 페이지 올리기 (Settings → Pages 에서 Source 를 'GitHub Actions' 로 켜야 함)
