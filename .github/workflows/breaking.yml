@@ -44,6 +44,7 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           ROUNDS: ${{ inputs.rounds || '5' }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
@@ -63,6 +64,11 @@ jobs:
                   echo "저장 재시도 $t/5"; sleep $((t * 5))
                 done
               fi
+            fi
+            # 정기 뉴스 시간(07:40·12:10·17:10·22:10)이 지났는데 아직 안 돌았으면 바로 시작
+            last=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/news_bot.yml/runs?per_page=1" --jq '.workflow_runs[0].created_at' 2>/dev/null || echo "")
+            if [ "$(python news_bot.py slot "$last")" = "due" ]; then
+              gh workflow run news_bot.yml --ref main -f report=false && echo "정기 뉴스 시간이 지나서 바로 시작함 (마지막 실행: $last)"
             fi
             # 회차 시작 기준 12분 간격 유지 (확인이 오래 걸려도 전체 시간이 늘어나지 않게)
             if [ "$i" -lt "$ROUNDS" ]; then

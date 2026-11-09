@@ -1472,7 +1472,40 @@ def send_summary():
            tags=["newspaper"], priority=3)
 
 
+# ─────────────────────────────────────────────
+# 정기 뉴스 시간 맞추기 (GitHub 예약 실행이 30~70분씩 늦어서)
+#   속보 확인 작업이 12분마다 "정기 뉴스 시간이 지났는데 아직 안 돌았나?" 확인해서 바로 시작시킴
+# ─────────────────────────────────────────────
+MAIN_SLOTS = ["07:40", "12:10", "17:10", "22:10"]   # 한국 시간
+
+
+def latest_slot(now=None):
+    """지금 기준 가장 최근에 지난 정기 뉴스 시각 (한국 시간)"""
+    now = now or datetime.now(KST)
+    cands = []
+    for back in (0, 1):
+        day = (now - timedelta(days=back)).date()
+        for hm in MAIN_SLOTS:
+            h, m = map(int, hm.split(":"))
+            t = datetime(day.year, day.month, day.day, h, m, tzinfo=KST)
+            if t <= now:
+                cands.append(t)
+    return max(cands)
+
+
+def slot_check(last_run_iso):
+    """마지막 정기 뉴스 실행이 가장 최근 정기 시각보다 전이면 'due' (지금 돌려야 함), 아니면 'done'"""
+    try:
+        last = datetime.fromisoformat(last_run_iso.replace("Z", "+00:00"))
+    except Exception:
+        return "due"
+    return "due" if last < latest_slot() else "done"
+
+
 if __name__ == "__main__":
+    if len(sys.argv) > 2 and sys.argv[1] == "slot":
+        print(slot_check(sys.argv[2]))
+        sys.exit(0)
     if len(sys.argv) > 1 and sys.argv[1] == "notify":
         send_summary()
     elif len(sys.argv) > 1 and sys.argv[1] == "breaking":

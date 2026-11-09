@@ -3,7 +3,7 @@ name: 투자 테마 뉴스 알림 봇
 on:
   schedule:
     # 시간은 UTC 기준 (한국시간 = UTC + 9시간)
-    # GitHub 예약 실행은 보통 30~40분 늦게 시작돼서, 원하는 시간보다 30분 일찍 잡아 둠
+    # GitHub 예약 실행은 30~70분씩 늦어서 예비용. 평일에는 속보 확인 작업이 정시에 맞춰 대신 시작시킴
     - cron: "10 22 * * *"   # 한국 07:10 예약 → 07:40 무렵 실행 (미국장 마감 후)
     - cron: "40 2 * * *"    # 한국 11:40 예약 → 12:10 무렵 실행 (점심)
     - cron: "40 7 * * *"    # 한국 16:40 예약 → 17:10 무렵 실행 (한국장 마감 후)
@@ -24,13 +24,35 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
 
 concurrency:
   group: news-bot
   cancel-in-progress: false
 
 jobs:
+  # 예약 실행이 늦게 도착했을 때, 속보 확인 작업이 이미 정기 뉴스를 돌렸으면 건너뜀 (중복 알림 방지)
+  guard:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.g.outputs.skip }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests
+      - id: g
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "skip=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          last=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/news_bot.yml/runs?per_page=5" \
+                 --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }})][0].created_at" 2>/dev/null || echo "")
+          state=$(python3 news_bot.py slot "$last")
+          echo "마지막 실행: $last → $state"
+          if [ "$state" = "done" ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; echo "이미 이번 정기 뉴스가 돌아서 건너뜀"; else echo "skip=false" >> "$GITHUB_OUTPUT"; fi
+
   check:
+    needs: guard
+    if: needs.guard.outputs.skip != 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
