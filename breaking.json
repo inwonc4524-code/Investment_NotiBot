@@ -362,6 +362,27 @@
 "time": "11/09 19:17",
 "run": "breaking",
 "added": 1794219846
+},
+{
+"key": "bitcoinslidesto73510overtheweekenddidnvidiascandaltriggerbtcs2000flashcrash",
+"keys": [
+"bitcoinslidesto73510overtheweekenddidnvidiascandaltriggerbtcs2000flashcrash"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Bitcoin Slides to $73,510 Over the Weekend: Did Nvidia Scandal Trigger BTC’s $2,000 Flash Crash?",
+"show": "주말 동안 비트코인이 73,510달러로 하락: 엔비디아 스캔들이 BTC의 2,000달러 플래시 크래시를 촉발시켰나요?",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"sum": "밤새 비트코인 ​​뉴스에서 BTC USD 가격은 일요일 저녁 10분 만에 75,607달러에서 73,510달러로 하락했는데, 이는 8월 21일 이후 최저 가격입니다. 그 중 최악은 UTC 21시 55분, 즉 오후 4시 55분에 나왔습니다. 뉴욕에서. 그 단 1분 만에 비트코인은 바이낸스에서 1.9% 하락했습니다. 대부분의 거래자들은 비난했습니다 ...",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNE4tdVQ3UVZFZUlxdHg4cmpCR3pEaUZnY3duVzFJdjNJeEhUWUFYVmRsTlNmRFc5dEpzQmU2TEpmX3dKVW81OXVsRkI4R3VWQlY0OXFYWUdFa1V4ZFRneUJWWU9iZmtjVWdmeVVHaGhQZGhhbldVLTZyblJjczcyc19NUGpxMG5lVmYtZnRvOFdZUWszeVE?oc=5",
+"url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-slides-73-510-over-102129640.html",
+"pub": 1794219689.0,
+"time": "11/09 19:21",
+"run": "breaking",
+"added": 1794222027
 }
 ],
 "seen": {
@@ -424,11 +445,12 @@
 "nvidiastockfalls5asscrutinyturnstojensenhuangsrelationshipwithallegedchinesespy": 1794219847.4110172,
 "nvidiainvestigatesceojensenhuangsrelationshipwithallegedchinesespy": 1794216228.8159938,
 "nvidialaunchesinvestigationintoitsceosrelationshipwithanallegedchinesespy": 1794216228.8159955,
-"nvidiaceojensenhuangsfuturehangsinthebalanceasboardlaunchesprobeoveraffair": 1794221285.7790453,
+"nvidiaceojensenhuangsfuturehangsinthebalanceasboardlaunchesprobeoveraffair": 1794222025.9663444,
 "reactionstonvidiasprobeintoceojensenhuang": 1794220565.571199,
 "nvidiaopensinvestigationintojensenhuangsrelationshipwithchinesespy": 1794219847.4110165,
 "nvidialaunchesinvestigationintoceosallegedrelationshipwithchinesespy": 1794219847.4110172,
-"nvidiasharessinkasboardlaunchesprobeintojensenhuangsaffair": 1794221285.7790446,
-"nvidialaunchesinvestigationintojensenhuangsaffairwithchinesespy": 1794221285.7790458
+"nvidiasharessinkasboardlaunchesprobeintojensenhuangsaffair": 1794222025.9663439,
+"nvidialaunchesinvestigationintojensenhuangsaffairwithchinesespy": 1794222025.966345,
+"bitcoinslidesto73510overtheweekenddidnvidiascandaltriggerbtcs2000flashcrash": 1794222028.580915
 }
 }
