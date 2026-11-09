@@ -2,6 +2,7 @@ name: 미국 속보 알림
 
 # GitHub 의 15분 예약 실행은 실제로는 45~60분 간격으로만 돌아서,
 # 1시간마다 한 번 시작해서 그 안에서 12분 간격으로 5번 확인하는 방식.
+# GitHub 예약 실행이 자주 누락돼서, 작업이 끝날 때 다음 작업을 직접 이어서 시작함 (예약은 끊겼을 때 다시 잇는 예비용).
 on:
   schedule:
     # 시간은 UTC 기준 (한국시간 = UTC + 9시간)
@@ -20,6 +21,7 @@ on:
 
 permissions:
   contents: write
+  actions: write               # 끝날 때 다음 확인 작업을 직접 이어서 시작하기 위해
 
 concurrency:
   group: breaking              # 정기 뉴스 봇과는 따로 돌고, 속보 확인끼리는 겹치지 않게
@@ -68,3 +70,16 @@ jobs:
               [ "$wait" -gt 0 ] && sleep "$wait"
             fi
           done
+
+      - name: 다음 확인 작업 이어서 시작 (평일 운영 시간에만)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # 운영 시간: 한국 월 09시 ~ 토 10시 (UTC 월 00시 ~ 토 01시)
+          dow=$(date -u +%u); hour=$(date -u +%H)
+          if [ "$dow" -le 5 ] || { [ "$dow" -eq 6 ] && [ "$hour" -lt 2 ]; }; then
+            gh workflow run breaking.yml --ref main -R "$GITHUB_REPOSITORY" && echo "다음 확인 작업 예약됨"
+          else
+            echo "주말이라 이어서 시작하지 않음 (월요일 예약 실행부터 다시 시작)"
+          fi
