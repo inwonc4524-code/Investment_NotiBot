@@ -541,6 +541,26 @@
 "sum": "국가안보기금(National Security Fund)이 대만 증시 10차 보호 조치를 개시한다고 발표한 데 이어 미국 4대 주가지수의 강한 반등에 힘입어 오늘(9일)이 첫 번째 보복 풀림 물결이 될 것이라는 시장은 대체적으로 낙관하고 있다. 지수는 4만포인트 선을 회복할 것으로 예상되며, 밴드는 분기선 상승에 도전할 예정이다. 그러나 7거래일 만에 10,000포인트 가까이 급락한 후 법인은 여전히 ​​'4대 핵심' 지표에서 반등 강도와 중장기 상승 여력을 관찰해야 한다는 점을 상기시켰다."
 },
 {
+"key": "美股動向gevernova獲德國風電新訂單供應3台風機涉165兆瓦全部新聞美股",
+"keys": [
+"美股動向gevernova獲德國風電新訂單供應3台風機涉165兆瓦全部新聞美股"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股動向| GE Vernova獲德國風電新訂單，供應3台風機涉16.5兆瓦 | 全部 - 新聞 - 美股",
+"show": "미국 주식 동향 | GE Vernova는 독일로부터 16.5MW 규모의 풍력 터빈 3대를 공급하기 위한 새로운 풍력 발전 주문을 받았습니다 | 전체 - 뉴스 - 미국 주식",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMihANBVV95cUxNcHNiM09YaTRrOHJSVFE2MC1pTmpkd2FXV1dkcVpRaXQwMHVLRmN1bDYtVTZETzVhcUNnUkxsS1QzaS10alhGbldCYzNTejNDOThSUnRmQ244TWczOGFEVlV6TzROQlhvV3VZYlhEYjIwczNUQnFpeFVXYVNXNzZaV1RvV0c3Z3BjbERSNDFvUDN3ckd6MG1Pdk8wSWljS0tmbVNPZ0t2cXc1OEs2OEtDMFNJdDlDRkp6MnFBNVBaTXM0OUxjQ1NzOWFMWXR5UHJ5NmRyTDdvdlJmZHRkZDllekQxVlk1dXpBMXZmS2J1QVdiWmxKR3JHdjhVVFRHRVVGZXhsWEZvOFZ4MHFMeThmdjVKU3E3a1JwdnVKR05EOGs5VnhxMzBUZUpSUzlUWHoxUl9PMi1BUmJfS2ZtMzAxT05ST2xiN0tYM3pZWVFmS010WFJZazJSX2hIcG4yc1NJVXkxUndQS1djTmNydHVFN2huZTNEM2plWXJRSmZRbkRnZElL?oc=5",
+"pub": 1794242640.0,
+"time": "11/10 01:44",
+"run": "202611091658",
+"added": 1794243563,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416027/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C+GE+Vernova%E7%8D%B2%E5%BE%B7%E5%9C%8B%E9%A2%A8%E9%9B%BB%E6%96%B0%E8%A8%82%E5%96%AE%EF%BC%8C%E4%BE%9B%E6%87%893%E5%8F%B0%E9%A2%A8%E6%A9%9F%E6%B6%8916.5%E5%85%86%E7%93%A6",
+"sum_tried": 1
+},
+{
 "key": "美股動向ai驅動美國15年最大投資潮9月核心資本貨物出貨創紀錄全部新聞美股",
 "keys": [
 "美股動向ai驅動美國15年最大投資潮9月核心資本貨物出貨創紀錄全部新聞美股",
@@ -626,7 +646,10 @@
 "key": "美股動向中期選舉失利特朗普成跛腳鴨總統djt股價瀉近25淪為仙股全部新聞美股",
 "keys": [
 "美股動向中期選舉失利特朗普成跛腳鴨總統djt股價瀉近25淪為仙股全部新聞美股",
-"美股動向中期選舉落幕歷史數據揭示標指後市走勢全部新聞美股"
+"美股動向中期選舉落幕歷史數據揭示標指後市走勢全部新聞美股",
+"美股動向ai晶片股反彈後市存疑泡沫爆破風險升溫全部新聞美股",
+"美股動向谷歌推兩款新ai晶片tpu8tx及8imax加快挑戰英偉達全部新聞美股",
+"美股動向谷歌推兩款新ai晶片tpu8tx及8imax加快挑戰英偉達即時新聞新聞"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -661,7 +684,7 @@
 "run": "202611091650",
 "added": 1794243035,
 "url": "https://paper.hket.com/article/4222347/AI%E8%82%A1%E5%A4%B1%E5%AF%B5%E9%BB%A8%E7%88%AD%E5%A4%BE%E6%93%8A%20%E7%BE%8E%E8%82%A1%E9%95%B7%E7%89%9B%E9%82%8F%E8%BC%AF%E8%AE%8A%EF%BC%9F?mtc=h0003",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "美股動向amd大升逾11奧本海默上調評級至跑贏大市全部新聞美股",
@@ -681,7 +704,7 @@
 "run": "202611091650",
 "added": 1794243037,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416022/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C+AMD%E5%A4%A7%E5%8D%87%E9%80%BE11%25%EF%BC%8C%E5%A5%A7%E6%9C%AC%E6%B5%B7%E9%BB%98%E4%B8%8A%E8%AA%BF%E8%A9%95%E7%B4%9A%E8%87%B3%E3%80%8C%E8%B7%91%E8%B4%8F%E5%A4%A7%E5%B8%82%E3%80%8D",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "美股走勢丨道指飆890點輝達挫88後縮窄跌幅",
@@ -783,7 +806,7 @@
 "run": "202611091650",
 "added": 1794243041,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416019/%E7%92%B0%E7%90%83%E5%8B%95%E6%85%8B+%7C+%E7%B6%93%E6%BF%9F%E5%AD%B8%E5%AE%B6%E9%A0%90%E8%AD%A6%3AAI%E6%8A%95%E8%B3%87%E6%98%8E%E5%B9%B4%E6%94%BE%E7%B7%A9%E6%8B%96%E7%B4%AF%E7%BE%8E%E8%82%A1",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "美股動向方舟投資斥1720萬美元撈底谷歌母企旗艦etf五年年化回報9全部新聞美股",
@@ -803,7 +826,7 @@
 "run": "202611091650",
 "added": 1794243043,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416018/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E6%96%B9%E8%88%9F%E6%8A%95%E8%B3%87%E6%96%A51720%E8%90%AC%E7%BE%8E%E5%85%83%E6%92%88%E5%BA%95%E8%B0%B7%E6%AD%8C%E6%AF%8D%E4%BC%81%EF%BC%8C%E6%97%97%E8%89%A6ETF%E4%BA%94%E5%B9%B4%E5%B9%B4%E5%8C%96%E5%9B%9E%E5%A0%B1-9%25",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "美股動向花旗上調萬豪國際目標價23至450美元全部新聞美股",
@@ -823,6 +846,26 @@
 "run": "202611091650",
 "added": 1794243044,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416017/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+%E8%8A%B1%E6%97%97%E4%B8%8A%E8%AA%BF%E8%90%AC%E8%B1%AA%E5%9C%8B%E9%9A%9B%E7%9B%AE%E6%A8%99%E5%83%B923%25%E8%87%B3450%E7%BE%8E%E5%85%83",
+"sum_tried": 2
+},
+{
+"key": "美股動向特朗普歸咎民主黨勝選致股市單日蒸發3萬億納指創逾一年最大跌幅全部新聞美股",
+"keys": [
+"美股動向特朗普歸咎民主黨勝選致股市單日蒸發3萬億納指創逾一年最大跌幅全部新聞美股"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股動向｜特朗普歸咎民主黨勝選致股市單日蒸發3萬億，納指創逾一年最大跌幅| 全部 - 新聞 - 美股",
+"show": "미국 주식 동향 | 트럼프는 주식시장이 하루 만에 3조 위안 손실을 낸 것을 민주당의 선거 승리 탓으로 돌렸고, 나스닥은 1년여 만에 최대 하락폭을 기록했다. 전체 - 뉴스 - 미국 주식",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMijARBVV95cUxNMTRfNEFhMWdTX28wRGxsM3M1SDV4NkwtcW5uX3ZkLVJjUnZOd19hUnVfZHBxZHRnUDZkLW1zdHNReEFKbkZ1aHhMMFZxZ19nd3NmQnRaSVZYNXBkR1dXbFluNzh3NEk0dFFzMGxVSDlIOUV6elY4TXhTQlR5SnNoTk9QT1BnRmFGckU1LTdaQUNNZ3R2bGNzT3hkSVhkTGw1Vzl1Tm9PRVJRdWV3eVdIbUs4c2RXdmVjbkdNX1JGSDFROGF0bnQyX1lJdTRNeG5uWHdQWnF2cGY0MzFENnhnM0ZLNUtvbDhVSDJSeWpkZFNYOXlPTmxJOExwUnRLd0w3eFFLbXo4M042eU5OVWVWb1BzZjE3Yjl5NmwxLWNPS1c3X1pLM05zb1ppSHE2bWo0SGplNkdXVG5feFcwUHYwU0V3MThueVZ2NjlXRTdDWm1WRHdKMlpIeE9aVVpXWElqZHU1elhpMk5tRDd1REQ3bF80S051Zlhob2NPVGxxTUdNMzFqQmtrSVpWM1pybnN5TnBDN0ZNYTZ2WjBlNFRfbnR0S2ljV1Y5TFBrQklyeHBsZTZOaU1HRVZWOTl3c0F4NEZTbHRVLXY4WUMwOE1fWlExUHhtZEk1YTI0elBFMTBva3g0a3dUWDRtRXJCNzVqU1luNWExMkxaR09rYU1fVjhxVVh3MFlNZmtyUw?oc=5",
+"pub": 1794238500.0,
+"time": "11/10 00:35",
+"run": "202611091658",
+"added": 1794243564,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416016/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E7%89%B9%E6%9C%97%E6%99%AE%E6%AD%B8%E5%92%8E%E6%B0%91%E4%B8%BB%E9%BB%A8%E5%8B%9D%E9%81%B8%E8%87%B4%E8%82%A1%E5%B8%82%E5%96%AE%E6%97%A5%E8%92%B8%E7%99%BC3%E8%90%AC%E5%84%84%EF%BC%8C%E7%B4%8D%E6%8C%87%E5%89%B5%E9%80%BE%E4%B8%80%E5%B9%B4%E6%9C%80%E5%A4%A7%E8%B7%8C%E5%B9%85",
 "sum_tried": 1
 },
 {
@@ -866,6 +909,67 @@
 "sum": "모건스탠리의 마이크 윌슨은 CNBC와의 인터뷰에서 주식시장의 4개월간 조정이 마지막 단계에 가까워지고 있다고 말했다."
 },
 {
+"key": "美股動向民主黨全面掌控國會80年數據揭示美股後市走向全部新聞美股",
+"keys": [
+"美股動向民主黨全面掌控國會80年數據揭示美股後市走向全部新聞美股",
+"美股動向民主黨全面掌控國會80年數據揭示美股後市走向即時新聞新聞"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股動向 | 民主黨全面掌控國會，80年數據揭示美股後市走向 | 全部 - 新聞 - 美股",
+"show": "미국 주식 동향 | 민주당이 의회를 완전히 장악하고 80년간의 데이터를 통해 미국 주식의 미래 방향이 밝혀졌습니다 | 전체 - 뉴스 - 미국 주식",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMipANBVV95cUxQdzd5cF9SMmx1RmwzRzJKMlk1T3IxRUVFLWZyekFJTl8tUzNPYVp5ejRuamR6cWJyUzd4LUpjc2dPZ0NZV1BLSjZIcUxQLTQ1NWtTSjAzQTduZkdmeUVLZUhIZlVTQmRLcEVnTnpPbFZSY2pvSGNVXzhLeTMzLUhMS0NQVXpOLW01ZUo1WC1vblV5Ri01WW50TDhYYzBaNnAyX0RLWXU5b3MtalE2am01bVhSa3k3bDZQeXk1dy1SalJBRTJmUi1ac0dmaHQySFl3NS13UEgyZjlITzFleDE3VlIyeXlXbGJxbkk4anRTazh6YWZTbkp6NlVEOEowaENYSENOMUxXT2JSZG5nOW8zOFg4dno1dUZESmNtTG94OEZxV3ZmVFdjWm5aaWh2U1ktWkc2TU9LRDJ2SUFjS1lJUnlIcEwyandwMjhEVDBlSmVlN05aZllfS05ianVPTEYwTWpQLXNtTXpWOWtJaHNVNUNZb0NSd3ZKOHViTmRieG5ERS15bTVtMlgzZ2s0WGRXQmZ0ZVpETFBqSU13dk9QU0tiNi0?oc=5",
+"pub": 1794237900.0,
+"time": "11/10 00:25",
+"run": "202611091658",
+"added": 1794243566,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416011/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+%E6%B0%91%E4%B8%BB%E9%BB%A8%E5%85%A8%E9%9D%A2%E6%8E%8C%E6%8E%A7%E5%9C%8B%E6%9C%83%EF%BC%8C80%E5%B9%B4%E6%95%B8%E6%93%9A%E6%8F%AD%E7%A4%BA%E7%BE%8E%E8%82%A1%E5%BE%8C%E5%B8%82%E8%B5%B0%E5%90%91",
+"sum_tried": 1
+},
+{
+"key": "深夜美股高开高走除英伟达半导体板块飙涨马斯克突发利空事关对美关税最新公告字节跳动发布seedream55丨每经晚参",
+"keys": [
+"深夜美股高开高走除英伟达半导体板块飙涨马斯克突发利空事关对美关税最新公告字节跳动发布seedream55丨每经晚参"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "深夜，美股高开高走，除英伟达，半导体板块飙涨；马斯克，突发利空；事关对美关税，最新公告；字节跳动发布Seedream 5.5丨每经晚参",
+"show": "늦은 밤 미국 증시는 상승세를 보였습니다. 엔비디아를 제외하고 반도체 업종이 급등했습니다. 머스크, 갑작스런 부정적인 소식; 미국에 대한 관세와 관련된 최신 발표; ByteDance, 매일 밤 Seedream 5.5丨 출시",
+"source": "每日经济新闻",
+"src_url": "https://www.nbd.com.cn",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uMC1kc0thTW0xMGloWFR3Vk8zWFBtV3JsWkxtaXJwQ2FHakZTOVVwaURJaFBjMTdFcjAyZzhmM09WVDdHUWZBNk9rUkxSbVNlZF9ka2RTMVdhcjdGUFlWVnNNemxaQQ?oc=5",
+"pub": 1794237840.0,
+"time": "11/10 00:24",
+"run": "202611091658",
+"added": 1794243557,
+"url": "https://www.nbd.com.cn/articles/2026-11-09/4643037.html",
+"sum_tried": 1
+},
+{
+"key": "美股動向禮來眼底基因療法獲批在華開展臨床試驗全部新聞美股",
+"keys": [
+"美股動向禮來眼底基因療法獲批在華開展臨床試驗全部新聞美股"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股動向｜禮來眼底基因療法獲批在華開展臨床試驗 | 全部 - 新聞 - 美股",
+"show": "미국 주식 동향 | 일라이릴리, 안저유전자치료제 중국 임상시험 승인 | 전체 - 뉴스 - 미국 주식",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxOZTBsTUtWdWlHYXYyX0s0ZlBSdnlVYzhzWV9zWmRUVVZ4LXNwZ29QWk00OFpwOHJTWkVHMnhhWkVZXzVsaEc2bkw2T3B0VUdNUVpWTGotcWpLRHF1QXkwdnVJT2JwSW9ERjFyODhCRW5pa1V0WEZsQ3pkbFpVcEk3NmpWZXF6dVd0QU1Xb3ItN2psdlRYeWI2cWVKZjZxazdCZ1lEMUF0N256QnJCRTJ0WUQtMEVvblYxTjJVLTdZZkFEV2Y2cnRlUnZ0U2RiTWlMc0lIaGNoU0s4cFg2Um9wZ2Q3T1EyVjgzN2JwQTZkc29wVTluUDNvYnB6c1A2LTZYN2YzRUhUWFpfdDV3QWdUd09vLVBmWC1IRUdhSU9famw0Uk9qeW93TXRpRXN6Y0U0SVFsWHg4ZnFuLTZQZHdaNFZHSXh5T3dPcWJKcXYwR2RydjFkQlBfVWpKeWo4S3pfUE9ObzBLbHRRWU9FZXNSLXpQQTFocTVfNW44?oc=5",
+"pub": 1794237530.0,
+"time": "11/10 00:18",
+"run": "202611091658",
+"added": 1794243568,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416009/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E7%A6%AE%E4%BE%86%E7%9C%BC%E5%BA%95%E5%9F%BA%E5%9B%A0%E7%99%82%E6%B3%95%E7%8D%B2%E6%89%B9%E5%9C%A8%E8%8F%AF%E9%96%8B%E5%B1%95%E8%87%A8%E5%BA%8A%E8%A9%A6%E9%A9%97",
+"sum_tried": 1
+},
+{
 "key": "美股開盤輝達暴跌8黃仁勳持股市值蒸發近4000億",
 "keys": [
 "美股開盤輝達暴跌8黃仁勳持股市值蒸發近4000億"
@@ -884,6 +988,26 @@
 "added": 1794242645,
 "url": "https://udn.com/news/story/6811/9867834",
 "sum": "영국 BBC는 미국 증시가 9일 개장을 앞두고 전반적으로 상승세를 보였다고 보도했다. 하지만 후이다 CEO 황젠쉰이 혼외정사를 인정해 지난 9일 미국 증시 개장 이후 후이다 주가는 주당 171.8달러로 8% 하락했다."
+},
+{
+"key": "美股異動每日優鮮usmf升11043報2239美元全部新聞美股",
+"keys": [
+"美股異動每日優鮮usmf升11043報2239美元全部新聞美股"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股異動|每日優鮮(US.MF)升110.43%，報22.39美元 | 全部 - 新聞 - 美股",
+"show": "미국 주식의 변화 | Daily Youxian (US.MF)은 110.43% 상승한 US$22.39 | 모두 - 뉴스 - 미국 주식",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOcVhzTS1oQzY3OU1vRVlMWml2MFJZSVJ3ekJhVDRoYjdXQUt6S2ZZMjllOW5EcjBvTGltZWtRcE8wOTdGOUdScWFSdG16djZHb1JTR1QyR056THRzN29NV255QXQwZWREWEh3eTlJSVNvQVM5QnRhSVktcEpsOXNmanlRaHpNbmxhOWgyOGwzTEVEUENNa3g5QzlEdENhUVRkeEo0M3NrY3ZpUElucFdBSUFXYVJnSmpjbE1WUmJLZ3ZWZGJQc3FQcGdvREJGM1hTZDk2Z1ZZcnpiaVJYN2UxY05SMGc2VENEWlhvMlNPUGtRSm9rak96ZnM5OFEwOXRyR3ppbTlLaGx4WVNqNFVhMlEtZ1RjbElVNktNWUpOMlJsTV9TSUwxcG9rcXBHOGpq?oc=5",
+"pub": 1794237227.0,
+"time": "11/10 00:13",
+"run": "202611091658",
+"added": 1794243570,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416008/%E7%BE%8E%E8%82%A1%E7%95%B0%E5%8B%95%7C%E6%AF%8F%E6%97%A5%E5%84%AA%E9%AE%AE%28US.MF%29%E5%8D%87110.43%25%EF%BC%8C%E5%A0%B122.39%E7%BE%8E%E5%85%83",
+"sum_tried": 1
 },
 {
 "key": "wallstreetstickswithaiplaybookafterhistorictechunwind",
@@ -925,6 +1049,26 @@
 "added": 1794242660,
 "url": "https://s.kabutan.jp/news/n202611100013/",
 "sum": "다우평균, 임시 800달러 초과의 대폭고 나스닥도 급신 엔비디아는 팬 CEO의 중국 여성 문제로 하락 25088.57(+509.15 +2.07%) CME 닛케이 평균 선물 60485(대증 종비: +1515 +2.51%) 오늘의 NY주식시장, 다우평균은 한때 800달러를 넘는 대폭고가 되었고, IT·하이테크 주식도 일제히 환매가 강해지고, 나스닥은 2%초급 늘었다. 원유 시세가 하락하고 있으며, WTI가 한때 86달러대로 하락하고 있는 것이 미국 주식시장을 지원하고 있다."
+},
+{
+"key": "美股道指早段急升逾800點輝達曾跌約8",
+"keys": [
+"美股道指早段急升逾800點輝達曾跌約8"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股道指早段急升逾800點 輝達曾跌約8%",
+"show": "다우존스산업평균지수는 이른 아침 800포인트 이상 급등한 반면, 후이다는 한때 8% 정도 하락했다.",
+"source": "TVB",
+"src_url": "https://news.tvb.com",
+"link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPdldYemQyaHZ3RVFyNndqcDhSdVRMYkZUVGJOcnFsWm5JVHVpblRtUU9RNGoyTTV0RnVmcmJpS1BJSlBQUHdyZlB5YTQ4dUdjVERLU2hQZGxFQXZtdV9XWW5RVmhndHlqTjlGMUh6RjVhdGtLNXAteW52U3lza2wwZnItNkFGS0szT0ZHdFFLeENKNkh2QnVjaXVVbVprWEpvdTJDMkRVYTU5LTFwN2dpMjBTanI3V3BveFVyT1BQelp4ZENPM2VLOW0zbVQ0eEZIOGw2VGkwWEhsR21CNnYxa1JjU1IyVnRNLTkyMDFPRHJJdjd4STdtRjBtVkdFVXRy?oc=5",
+"pub": 1794237000.0,
+"time": "11/10 00:10",
+"run": "202611091658",
+"added": 1794243573,
+"url": "https://news.tvb.com/tc/1205446-%E7%BE%8E%E8%82%A1%E9%81%93%E6%8C%87%E6%97%A9%E6%AE%B5%E6%80%A5%E5%8D%87%E9%80%BE800%E9%BB%9E%E8%BC%9D%E9%81%94%E6%9B%BE%E8%B7%8C%E7%B4%848",
+"sum": "미국 증시는 장 초반 3개 주요 지수가 약 1~2% 상승하는 등 좋은 성적을 냈다. 다우지수는 한때 800포인트 이상 상승했다가 52,000포인트 선으로 복귀했습니다. 나스닥지수는 500포인트 이상 상승해 약 2% 상승했다. 기술주는 일반적으로 좋은 성과를 냈으며, 칩 주식인 ​​Micron Technology와 SanDisk는 약 50% 상승했습니다. 브로드컴과 AMD는 7~8% 급등했다. Huida는 한때 약 8% 하락하여 $170 선까지 떨어졌습니다. Huida CEO Huang Renxun은 혼외정사를 인정했으며 이번 사건에는 외국 스파이가 연루된 것으로 의심됩니다."
 },
 {
 "key": "riskonsp500surgesoutofthegateadds1trillioninmarketvalue",
@@ -1004,6 +1148,27 @@
 "run": "202611091650",
 "added": 1794243030,
 "url": "https://news.cnyes.com/news/id/6653692",
+"sum_tried": 1,
+"sum": "월요일 미국 증시는 반등했고, 다우존스 지수가 한때 600포인트 이상 상승했습니다. 유가가 하락하고 헐값 사냥이 돌아왔고, 후이다를 제외한 기술주가 강세를 보였습니다.\nHuida는 시장이 열리기 전에 5% 이상 하락했습니다. Huang Renxun과 Huang Le의 관계에 대한 조사로 인해 이사회는 독립적인 조사에 착수했습니다. 알파벳의 새로운 AI 칩 출시도 압박을 가중시켰다.\n이번 주의 초점은 미국 인플레이션 데이터, Cisco 및 Applied Materials 재무 보고서입니다. 전략가들은 AI 반등에 대해 서로 다른 견해를 가지고 있으며 일부는 집회에서 이익을 얻을 것을 권장합니다."
+},
+{
+"key": "纳斯达克中国金龙指数跌086",
+"keys": [
+"纳斯达克中国金龙指数跌086"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "纳斯达克中国金龙指数跌0.86%",
+"show": "나스닥 차이나 골든 드래곤 지수는 0.86% 하락했다.",
+"source": "每日经济新闻",
+"src_url": "https://www.nbd.com.cn",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pY2lwS0pLaXRzeEFXd2dEalVQV1RDZ1gzU2ROMU05ODZhMFdzNG14WGZ6QWFTRVlnNjE0ZGt4ODExd3V2eUdrd055THJFZ2paM0R1X0hXYWRXaUs3UUFoRnl0d25UUQ?oc=5",
+"pub": 1794234960.0,
+"time": "11/09 23:36",
+"run": "202611091658",
+"added": 1794243560,
+"url": "https://www.nbd.com.cn/articles/2026-11-09/4643002.html",
 "sum_tried": 1
 },
 {
@@ -1265,7 +1430,7 @@
 "run": "202611091650",
 "added": 1794243022,
 "url": "https://www.wsj.com/finance/regulation/nyse-to-settle-tokenized-stocks-on-avalanche-blockchain-038ce412",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "民主党胜选加剧政治压力华尔街谋划提前推进巨额并购",
@@ -1445,7 +1610,7 @@
 "run": "202611091650",
 "added": 1794243024,
 "url": "https://www.bloomberg.com/news/newsletters/2026-11-09/jensen-huang-puts-200-billion-dent-in-nvidia-s-stock-price",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "英伟达盘前跌超5美股存储芯片光通信股下挫",
@@ -1605,7 +1770,7 @@
 "run": "202611091650",
 "added": 1794243024,
 "url": "https://www.nytimes.com/2026/11/09/business/nvidia-stock-price-jensen-huang-ceo.html",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "黃仁勳出軌遭董事會調查華爾街對英偉達的圍獵也開始收網",
@@ -1668,6 +1833,46 @@
 "sum": "① [3대 선물지수 혼재 하락] 보도시간 현재 다우선물은 0.75% 상승, S&P 500 선물은 0.38% 상승, 나스닥선물은 0.02% 하락했다. ②[Nvidia는 4% 이상 하락했고, Huang Renxun은 부정 행위를 인정했으며, 1,495억 달러의 주식 보유에는 부부의 공동실질소유권이 포함됨] 11월 현지 시간"
 },
 {
+"key": "aipanicgripsstocks",
+"keys": [
+"aipanicgripsstocks"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "AI Panic Grips Stocks",
+"show": "AI 패닉 그립 주식",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HMEZ1QUI4OGozSS1aN3Zrd0tSRDJIVVoyNmx2QldNczdqREhwaTFSRHlHR1c3dS1oNzRuc193NlhBOHBzVjcxUTNldHN0dXZjbXV6SDJ0Xy1qZk9HZ3VJb2xLcWV1ZkJ1ZnBkRDl0N0I3UEtmYVhN?oc=5",
+"pub": 1794217453.0,
+"time": "11/09 18:44",
+"run": "202611091658",
+"added": 1794243552,
+"url": "https://www.wsj.com/finance/investing/ai-panic-grips-stocks-60a59518",
+"sum_tried": 1
+},
+{
+"key": "treasuryyieldsaresteadyasinvestorsawaitmoreeconomicdata",
+"keys": [
+"treasuryyieldsaresteadyasinvestorsawaitmoreeconomicdata"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Treasury yields are steady as investors await more economic data",
+"show": "투자자들이 더 많은 경제 데이터를 기다리면서 국채 수익률은 안정적입니다.",
+"source": "CNBC",
+"src_url": "https://www.cnbc.com",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JVE44LUJheWlkSEJZWlBaUVRGUXR2aGVMbm9yZnNDUnR1alJLSDdlU3Y3RktFcmplWmViVjV1ME1UYU9qSDA1YTN2NUdJbTJvWmZGUU5FZ3VTMU1lV3ppbk10SXBWLWxTcHVWYjRFbw?oc=5",
+"pub": 1794217357.0,
+"time": "11/09 18:42",
+"run": "202611091658",
+"added": 1794243552,
+"url": "https://www.cnbc.com/2026/11/09/us-treasurys-bonds-yields.html",
+"sum": "투자자들이 금요일 강력한 고용 발표 이후 새로운 경제 데이터를 기다리면서 국채 수익률은 보합세를 보였습니다."
+},
+{
 "key": "ai美股cathiewood料牛市未完續押注馬斯克商業帝國透露方舟投資增持spacex",
 "keys": [
 "ai美股cathiewood料牛市未完續押注馬斯克商業帝國透露方舟投資增持spacex"
@@ -1726,6 +1931,46 @@
 "added": 1794230064,
 "url": "https://www.bloomberg.com/news/articles/2026-11-09/hedge-funds-dump-tech-stocks-at-one-of-fastest-paces-on-record",
 "sum_tried": 2
+},
+{
+"key": "goldrisesabove4100anouncewithfocusonusinflationdata",
+"keys": [
+"goldrisesabove4100anouncewithfocusonusinflationdata"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Gold Rises Above $4,100 an Ounce, With Focus on U.S. Inflation Data",
+"show": "금은 미국 인플레이션 데이터에 초점을 맞춰 온스당 4,100달러 이상 상승",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRm5kNDdzUnNUa1J6RkFIN1J1TlFOeXlsR1lEQmNDclhjcEpZOTQtNzNrYXlLNUt3LW05MmZBdnFZaHNFdEF2Sk5zT2lFMWNId3FoQnlTaklkQ0J6cmRJd0VrNHYtODEwUnR2a09LMUVZUVRTVGRZQjdiYUZCSVV1czY3RzlvTDNqd3llNjBCU0pkZlBTSVY0dw?oc=5",
+"pub": 1794214140.0,
+"time": "11/09 17:49",
+"run": "202611091658",
+"added": 1794243552,
+"url": "https://www.wsj.com/finance/commodities-futures/gold-edges-higher-amid-mixed-signals-00565ca1",
+"sum_tried": 1
+},
+{
+"key": "asianequitiesmostlyreboundthoughsentimentremainsfragile",
+"keys": [
+"asianequitiesmostlyreboundthoughsentimentremainsfragile"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Asian Equities Mostly Rebound, Though Sentiment Remains Fragile",
+"show": "아시아 주식은 대부분 반등했지만, 심리는 여전히 약함",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSFE0ak5BQV93SEJKbU5OSE15NDFYY0xLYmhqOHdKVFhsODM0VUZyaV9rM2x6ZnRoRWkzS0NSV2ctZy1EdENTUzhWZ2hCTllpZlFYOVEzU2EwRDJoTElkM3I4WHVQWUpfZXVhQkdWVEVNcU9TNHRFRy1DbVVjbVFUSzNzSGQwWGUxczN6S19qbVY5a2k1bXJfX3hNQUliZ2RTRkVOVmdPWTdRUQ?oc=5",
+"pub": 1794212220.0,
+"time": "11/09 17:17",
+"run": "202611091658",
+"added": 1794243553,
+"url": "https://www.wsj.com/finance/stocks/asian-equities-mostly-rebound-though-sentiment-remains-fragile-34b7cc83",
+"sum_tried": 1
 },
 {
 "key": "科技股跌到比大盤便宜華爾街喊加碼大摩點名未來兩三週是良機",
@@ -1805,7 +2050,8 @@
 "run": "202611091650",
 "added": 1794243034,
 "url": "https://news.cnyes.com/news/id/6653254",
-"sum_tried": 1
+"sum_tried": 1,
+"sum": "미국 증시 급락세는 AI 정책 우려가 주원인이었지만, S&P 500 주요 11개 종목 모두 흑자로 마감하며 매도 압력이 시장 전체로 확산됐다.\nBloomberg 통계에 따르면 S&P 500 기업 중 80% 이상이 기술 및 산업 분야에서 강력한 성과를 거두며 매출 13.2%, 이익 성장 28.0%를 기록했습니다.\n역사적 백테스팅에 따르면 급격한 하락 후 3, 6, 12개월의 평균 수익률은 대부분 긍정적이며 단기 패닉이 지속되지 않을 수 있습니다."
 },
 {
 "key": "現貨黃金報410795全部新聞美股",
@@ -2113,6 +2359,26 @@
 "sum_tried": 2
 },
 {
+"key": "goldgainsasloweroilpricestemperinflationfearsusinflationinfocus",
+"keys": [
+"goldgainsasloweroilpricestemperinflationfearsusinflationinfocus"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Gold gains as lower oil prices temper inflation fears; U.S. inflation in focus",
+"show": "낮은 유가로 인플레이션 우려가 누그러지면서 금은 상승합니다. 미국 인플레이션에 초점",
+"source": "CNBC",
+"src_url": "https://www.cnbc.com",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeUI1TW05YjFMZ2ttT3hUYnJfdE5fNFVOcHZsVTJldlU1Zy1kbUpTT18wdW9UVDRvYXNXRU9rLWdQZDUyeTQ2emxzb3hCd0VJMkpMalRuOGVKaGFKUXgtdFlTZGdiY2RmVWFxdXdzUlhkTGVwazh3d1hGbWd3dU50QVNOc0NDNUlTMmVMbXBaZ2xZbmRHTG16dFNxYjlvWWhnRVVtdzBwa3J0cVBqd2E0?oc=5",
+"pub": 1794193560.0,
+"time": "11/09 12:06",
+"run": "202611091658",
+"added": 1794243554,
+"url": "https://www.cnbc.com/2026/11/09/gold-gains-more-than-1percent-as-softer-oil-prices-ease-inflation-worries.html",
+"sum": "금은 유가 하락으로 인플레이션 우려가 완화되면서 상승했고, 투자자들은 이번 주 연준의 금리 전망을 결정할 수 있는 인플레이션 데이터를 기다리고 있었습니다."
+},
+{
 "key": "美股ai退潮洗走故事股港股盈利ai迎重估窗口即時新聞新聞",
 "keys": [
 "美股ai退潮洗走故事股港股盈利ai迎重估窗口即時新聞新聞"
@@ -2151,6 +2417,26 @@
 "added": 1794207232,
 "url": "https://www.cls.cn/detail/2528042",
 "sum": "① 미국의 억만장자 Elon Musk는 금요일에 SpaceX의 연간 수익이 2027년 12월까지 5000억 달러를 초과할 것으로 예상된다고 말했습니다. ② 그는 또한 SpaceX의 연간 수익이 1조 달러에 도달하는 것이 불가능하지 않다고 말했습니다. ③Musk의 기대는 월스트리트의 가장 낙관적인 분석가들조차 충격에 빠뜨렸다. Financial News Agency, 11월 7일(편집자 Bian Chun) 미국의 억만장자 Elon Musk는 금요일에 SpaceX의 연간 매출이 2027년 12월까지 5천억 달러를 초과할 것으로 예상된다고 말했습니다. 이 예측은 로켓, 위성 및 인공 지능(AI) 회사에 대한 월스트리트 분석가들의 기대를 훨씬 뛰어넘는 것입니다. 머스크는 투자 컨퍼런스에서 \"2027년 12월까지 우리의 연간 반복 수익이 5000억 달러를 초과할 가능성이 매우 높아 보인다\"고 말했다. \"이것은 약속이 아니라 단지 최선의 추측일 뿐입니다.\" 그는 또한 SpaceX가 연간 매출 1조 달러 규모를 달성하는 것이 불가능하지 않다고 말했습니다."
+},
+{
+"key": "nvidiaplungesbuttechsharesreboundoilpricesslump",
+"keys": [
+"nvidiaplungesbuttechsharesreboundoilpricesslump"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Nvidia plunges but tech shares rebound, oil prices slump",
+"show": "엔비디아는 급락했지만 기술주는 반등하고 유가는 폭락했습니다.",
+"source": "France 24",
+"src_url": "https://www.france24.com",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcGNwWi1wNTJIc2cwMHhNYlZGWnoxZWF6QW5PNlhZYU9EeHFRUDN2OVhTTFdwRXNxYWJ0RlNsTDVsaTl5Y0xNMndIRXZTY1pwOXRFTzhIUEo2dl9nS00xOE8tNXlnN08yd3pSVVZXNUtoNWthVUdPVl9oakg0dE0wM2xLNm9MMTNSZ1lKUF9UN1V4a2lSZWRUVl9kU2Y5N0VRdUtWYUF4bnQ3S3djZ2pxSDBkUjE?oc=5",
+"pub": 1794192954.0,
+"time": "11/09 11:55",
+"run": "202611091658",
+"added": 1794243556,
+"url": "https://www.france24.com/en/live-news/20261109-tech-firms-claw-back-some-losses-after-midterms-rout-eyes-on-nvidia",
+"sum_tried": 1
 },
 {
 "key": "台股好美股也別錯過基金教母蕭碧燕風水要輪流轉掌握市寬績選股心法",
