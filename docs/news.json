@@ -279,25 +279,6 @@
 "sum": "[루용산 취재/종합보고서] 지난 3일 미국 중간선거에서 민주당이 대승을 거둔 뒤, 민주당이 장악한 의회가 인공지능(AI) 산업에 대한 감독을 강화할 것이라는 시장 우려로 5일 기술주들이 거센 매도압력을 받았다. 많은 월스트리트 분석가들이"
 },
 {
-"key": "美股選後上漲勝率逾九成美國股票基金與美國科技基金宜納入資產配置",
-"keys": [
-"美股選後上漲勝率逾九成美國股票基金與美國科技基金宜納入資產配置"
-],
-"count": 2,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇭🇰 홍콩",
-"title": "美股選後上漲勝率逾九成 美國股票基金與美國科技基金宜納入資產配置",
-"show": "대선 이후 상승하는 미국 주식의 승률은 90%를 넘는다. 미국 주식펀드와 미국 기술펀드도 자산배분에 포함돼야",
-"source": "經濟日報",
-"src_url": "https://money.udn.com",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PUGc1VnptczJHNUU0UTZ4LVZpSGpxVnZKbzhQWFFfNUp3R3MzQVQ1LTNsbE9VMVlkSzgzZVR6ems2eEFCcjVNUnZyUFYzMk52RldPZFJxWkxkSHNCOUVXX0hQeHRIa0xVUWcwVzlRZUlZbjIxaFFLYkR5VdIBX0FVX3lxTE9ROUk3WG5oalBUdklFWGIxNnBuak9uSDNTeXNreDNKcHFRR2JzWUZkblVZTlA0OWQ0U3lvM29od2dKLXlWODRlaEJXS1RFTWx0RE00YzUwMVg1dnZzYnlN?oc=5",
-"pub": 1794128568.0,
-"time": "11/08 18:02",
-"run": "202611081352",
-"url": "https://money.udn.com/money/story/5613/9865225?from=edn_newestlist_rank",
-"sum": "미국 중간선거가 최악의 상황으로 치닫고 있다. 민주당은 단번에 하원과 하원을 모두 승리했습니다. 트럼프 미국 대통령은 향후 2년 동안 행정부에서 강력한 견제와 균형에 직면할 수도 있다. 미국 주식과 AI 산업 전망도 시장의 관심의 초점이 됐다. 그러나 정치적 패배가 주식시장이 뒤따를 것이라는 의미는 아닙니다! \"Juheng Buying Fund\"의 통계에 따르면, 1927년 이후 실시된 24번의 미국 중간선거 중 S&P 500 지수는 선거 다음 해에 22차례 상승해 승률 91.7%, 평균 수익률 17%를 기록했습니다. 《주행매수펀드》는 이번 선거가 단기적인 충격을 가져올 수는 있지만, 정치 지형의 변화가 미국 증시의 장기적인 추세를 뒤집을 수는 없을 수 있으므로, 투자자들은 선거 결과로 인해 성급하게 퇴출해서는 안 된다고 지적했다."
-},
-{
 "key": "科技股跌到比大盤便宜華爾街喊加碼大摩點名未來兩三週是良機",
 "keys": [
 "科技股跌到比大盤便宜華爾街喊加碼大摩點名未來兩三週是良機"
@@ -335,27 +316,7 @@
 "run": "202611090850",
 "added": 1794214254,
 "url": "https://inews.hket.com/article/4222033/%E3%80%90%E7%BE%8E%E8%82%A1%E6%9C%9F%E8%B2%A8%E3%80%91%E9%BB%83%E4%BB%81%E5%8B%B3%E6%89%BF%E8%AA%8D%E5%87%BA%E8%BB%8C%E3%80%81%E8%8B%B1%E5%81%89%E9%81%94%E5%A4%9C%E7%9B%A4%E8%B7%8C%E8%BF%916-%E3%80%80%E9%81%93%E6%8C%87%E6%9C%9F%E8%B2%A8%E5%8D%87294%E9%BB%9E%E3%80%81%E7%B4%8D%E6%8C%87%E6%9C%9F%E8%B2%A8%E8%B7%8C%E8%BF%910.1-%EF%BC%88%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%EF%BC%89",
-"sum_tried": 1
-},
-{
-"key": "marketvulnerabilityhasbeenexposedforgood",
-"keys": [
-"marketvulnerabilityhasbeenexposedforgood"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🌍 세계",
-"title": "Market Vulnerability Has Been Exposed for Good",
-"show": "시장 취약성은 영원히 노출되었습니다",
-"source": "Bloomberg.com",
-"src_url": "https://www.bloomberg.com",
-"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSVBJaVUyUElvZ0cxMFhCaE5MdzFZZkJ3dTVQSDJfcnFlWXlQOW13TXhBOTFNVkpxRENQYURMcjdMVnE1UU4yMEt2WXpYSjVLdGxfR080MG1RUVJHRXBLZzJCME9MLW1BRWtpN0lZOUhvdm94VEtrN1c4YUNBMnBnZVBNeW04Q08xdzVkazhwTW9nSkY1YVRXTHQwTW9hU0diUXRUOW02Nmh6V0xIMnRF?oc=5",
-"pub": 1794208500.0,
-"time": "11/09 16:15",
-"run": "202611090850",
-"added": 1794214257,
-"url": "https://www.bloomberg.com/news/articles/2026-11-09/market-vulnerability-has-been-exposed-for-good-taking-stock",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "現貨黃金報410795全部新聞美股",
@@ -415,7 +376,7 @@
 "run": "202611090850",
 "added": 1794214257,
 "url": "https://inews.hket.com/article/4221709/%E3%80%90%E5%A4%A7%E8%A1%8C%E7%9C%8B%E6%B3%95%E3%80%91%E5%85%89%E8%AD%89%E5%9C%8B%E9%9A%9B%E6%B9%AF%E9%BA%97%E9%B4%BB%EF%BC%9A%E7%B4%8D%E6%8C%87%E3%80%8C%E6%AE%BA%E4%BC%B0%E5%80%BC%E3%80%8D%E6%83%85%E6%B3%81%E6%9C%AA%E5%AE%8C%E3%80%80%E7%9F%AD%E6%9C%9F%E5%AE%9C%E9%81%BF%E9%96%8B%E7%BE%8E%E8%82%A1AI%E8%82%A1",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "美股科技股創網路泡沫後最慘跌幅是山腰還是谷底價值浮現台股選股策略",
@@ -1628,6 +1589,26 @@
 "sum_tried": 2
 },
 {
+"key": "美股收盘科技重挫纳指跌超2红利能源巨头再创新高",
+"keys": [
+"美股收盘科技重挫纳指跌超2红利能源巨头再创新高"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "美股收盘：科技重挫纳指跌超2% 红利、能源巨头再创新高",
+"show": "미국 주식 마감: 기술 하락, 나스닥 지수 2% 이상 하락, 배당금, 에너지 거대 기업이 신기록 달성",
+"source": "财联社",
+"src_url": "https://www.cls.cn",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FVjZ6SUdpZnlzNDRpeEZ5a0hSWXZrS0FjVFd4dUc0YklzTWc5Y0UyQmdiMEZLZHRMcUQ1VkxGN1ZjZDI0MGNnLQ?oc=5",
+"pub": 1794167916.0,
+"time": "11/09 04:58",
+"run": "202611090902",
+"added": 1794214932,
+"url": "https://www.cls.cn/detail/2507375",
+"sum": "① Jen-Hsun Huang은 시장을 위로했습니다. 모든 것이 지나갈 것입니다. ② 필라델피아 반도체 지수는 2008년 이후 가장 긴 연속 하락세를 기록했습니다. ③ '미국산 마오타이' 코카콜라가 최고치를 경신했다. ④ 애플의 폴더블 스크린은 첫날 사전예약을 받고 내년까지 출하가 예정돼 있다. Financial News Agency, 10월 17일(편집자 Shi Zhengcheng) 어젯밤과 오늘 아침, 미국 증시를 다시 기술주 매도세가 휩쓸었고, 나스닥 지수는 2% 이상 하락했습니다. 동시에, 유가 상승은 에너지 부문을 뒷받침했고, 안전자산 자금은 제약, 소매업과 같은 방어 대상에 계속해서 쏟아졌습니다. 마감 기준 S&P 500 지수는 1.09% 하락한 7659.44포인트를 기록했습니다. 나스닥 종합지수는 2.14% 하락한 26140.03포인트를 기록했습니다. 다우존스 산업평균지수는 0.34% 하락한 52002.41포인트를 기록했습니다. S&P와 나스닥도 금요일에 다시 50일 이동평균선 아래로 떨어졌습니다."
+},
+{
 "key": "ウォール街に突き付けられるaiの現実ナスダック25兆ドル消失wsjpickup",
 "keys": [
 "ウォール街に突き付けられるaiの現実ナスダック25兆ドル消失wsjpickup"
@@ -1748,6 +1729,26 @@
 "sum": "월스트리트의 많은 주식시장 전략가들은 중간선거 이후 미국 주식에 대한 단기 매도 압력이 투자자들에게 할인된 매수 기회를 제공했다고 믿고 있으며, 고객들에게 시장 진입 기회를 활용할 것을 촉구하고 있다."
 },
 {
+"key": "早报美联储放鸽美股走强国际金价大幅上涨创业板芯片指数今日发布lululemon盘后暴跌",
+"keys": [
+"早报美联储放鸽美股走强国际金价大幅上涨创业板芯片指数今日发布lululemon盘后暴跌"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "【早报】美联储“放鸽”，美股走强；国际金价，大幅上涨；创业板芯片指数，今日发布；Lululemon，盘后暴跌",
+"show": "[모닝포스트] 연준이 \"비둘기 방출\", 미국 증시 강세; 국제 금값이 급등했다. 오늘 GEM 칩 지수가 발표되었습니다. 룰루레몬, 장중 급락",
+"source": "财联社",
+"src_url": "https://www.cls.cn",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBoT0hiU01IY1k2Umw0RzJGQXl6a2c4cU9KejM5X2xuN0tOSnd6TUMzMEFQTUdwa0lXY0VlZW56MGwyQ0VlYUcwQQ?oc=5",
+"pub": 1794157752.0,
+"time": "11/09 02:09",
+"run": "202611090902",
+"added": 1794214934,
+"url": "https://www.cls.cn/detail/2473774",
+"sum": "① 10개 부서: 사회적 자본이 초기, 소규모, 장기 및 하드 기술에 투자하도록 유도하기 위해 국가 중소기업 개발 기금의 2단계 설립 ② GEM 칩 지수가 오늘 발표되었습니다. ③ 미국 주식이 상승세를 마감했고, 금광 주식이 강세를 보였습니다. ④ 상하이의 많은 은행들이 1991년 이전에 태어난 사람들은 새로운 40년 모기지를 신청할 수 없다는 점을 분명히 했습니다. ⑤ Zhongji InnoLight는 자사주 매입과 함께 3일 연속 자사주 매입을 실시했습니다. amount exceeding 800 million yuan. 매크로뉴스 1. 황링(Huang Ling) 상무부 대변인은 지난 3일 열린 정례 기자회견에서 미국은 중국의 거듭된 주장에도 불구하고 이란 관련 제재를 이유로 중국 기업과 국민을 반복적으로 제재해왔다고 밝혔다. 중국은 이에 대해 강한 불만을 품고 단호히 반대한다. 중국은 미국이 즉각 잘못을 시정하고 관련 중국 기업과 국민에 대한 제재를 해제할 것을 촉구한다. 중국은 우리 기업과 공민의 정당한 권익을 확고히 수호할 것입니다."
+},
+{
 "key": "nomatterwhathappenstothesp500innovemberthese3dividendstocksbelonginyourportfolio",
 "keys": [
 "nomatterwhathappenstothesp500innovemberthese3dividendstocksbelonginyourportfolio"
@@ -1786,6 +1787,66 @@
 "added": 1794207224,
 "url": "https://www.newspim.com/news/view/20261109000005",
 "sum": "[서울=뉴스핌] 김현영 기자 = 월가 전략가들 상당수는 미국 중간선거 이후 단기적인 매도세가 나타나 투자자들이 주식을 싼값에 살 기회가 생길 것으로 기대해 왔다.그런데 지난 5일, 시장은 이들의 예상을 훨씬 뛰어넘는 충격을 받았고 전략가들은 이제 고객들에게 이"
+},
+{
+"key": "沃什今晚造访国会山华尔街担心要再和市场卖关子可能会出事",
+"keys": [
+"沃什今晚造访国会山华尔街担心要再和市场卖关子可能会出事"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "沃什今晚造访国会山！华尔街担心：要再和市场“卖关子”可能会出事",
+"show": "워시는 오늘 밤 국회의사당을 방문합니다! 월스트리트는 우리가 계속해서 시장을 '부인'하면 뭔가 잘못될 수 있다고 우려하고 있습니다.",
+"source": "财联社",
+"src_url": "https://www.cls.cn",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE53bG1WRERsSko1SjFjSUNlRW5GazRuUkpvbldUaS1qQVE5dzM5c2ZvVW1jeWctbnc4WFItMmNXYjRkckdLekdGRg?oc=5",
+"pub": 1794152846.0,
+"time": "11/09 00:47",
+"run": "202611090902",
+"added": 1794214936,
+"url": "https://www.cls.cn/detail/2425499",
+"sum": "① 취임 이후, 케빈 워시(Kevin Warsh) 연준 의장은 금리 방향을 밝히는 것을 피하려고 노력해 왔으며, 투자자, 분석가 및 기타 정책 입안자에게 중요한 또 다른 사항, 즉 경제가 어려움에 직면할 때 그는 어떻게 대응할 것인가?를 무심코 모호하게 만들었습니다. ② Warsh가 오늘 밤 국회의사당으로의 이틀간의 여행을 공식적으로 시작하면서 연준 감시자들은 인플레이션, 노동 시장 및 경제 성장에 대한 그의 견해에 세심한 주의를 기울일 것입니다. Financial News Agency, 7월 14일(Editor Xiaoxiang) 케빈 워시 연준 의장은 취임 이후 금리 방향을 밝히지 않으려고 최선을 다했습니다. 의도치 않게 그는 투자자, 분석가 및 기타 정책 입안자에게 중요한 또 다른 사항, 즉 경제가 어려움에 직면할 때 어떻게 대응할 것인지를 모호하게 만들었습니다."
+},
+{
+"key": "科技股痛苦调整难阻加息预期美联储戴利仍倾向进一步收紧政策",
+"keys": [
+"科技股痛苦调整难阻加息预期美联储戴利仍倾向进一步收紧政策"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "科技股“痛苦”调整难阻加息预期 美联储戴利仍倾向进一步收紧政策",
+"show": "기술주의 \"고통스러운\" 조정은 금리 인상 기대를 방해하지 않을 것입니다. Fed Daley는 여전히 추가 긴축 정책을 선호합니다.",
+"source": "财联社",
+"src_url": "https://www.cls.cn",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPOFYteXlwS056YXBvTVB0SXJjN0FTVmJCdUZnUDc4R3ZlSUFfVWQzbVJKOGljX210WXBYQTRnSmRMMDhUVUxfdw?oc=5",
+"pub": 1794150250.0,
+"time": "11/09 00:04",
+"run": "202611090902",
+"added": 1794214938,
+"url": "https://www.cls.cn/detail/2527938",
+"sum": "① Mary Daly 샌프란시스코 연준 총재는 연준이 지속적으로 높은 인플레이션을 억제하기 위해 금리를 더 인상해야 할 것으로 예상한다고 금요일에 말했습니다. ② 향후 금리 인상 시기와 범위는 아직 알 수 없으며, 연준은 신흥 경제 변수를 종합적으로 고려할 필요가 있다. ③ 그녀는 최근 기술주의 하락이 투자자들을 고통스럽게 만들었다고 인정했지만, 이번 조정은 일반적으로 여전히 질서정연합니다. Financial Associated Press, 11월 7일(편집자 Niu Zhanlin) 메리 데일리(Mary Daly) 샌프란시스코 연준 총재는 금요일에 연준이 지속적인 높은 인플레이션을 억제하기 위해 금리를 더 인상해야 할 것으로 예상한다고 말했습니다. 다만, 경기 전망이 불투명한 상황에서 향후 금리 인상 시기와 규모는 아직 미지수다. 데일리는 이날 인터뷰에서 \"통화정책을 더욱 긴축해야 할 것으로 기대한다\"고 말했다. 금리를 언제 올릴지, 얼마나 인상할지 아직 불투명하다고 강조했다. 연준은 끊임없이 등장하는 다양한 경제변수를 종합적으로 고려해야 한다."
+},
+{
+"key": "从华尔街到陆家嘴投资秘籍spacex年化收入有望破千亿美元国内商业航天多点突破加速发力机遇如何把握",
+"keys": [
+"从华尔街到陆家嘴投资秘籍spacex年化收入有望破千亿美元国内商业航天多点突破加速发力机遇如何把握"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "[ 从华尔街到陆家嘴 投资秘籍 SpaceX年化收入有望破千亿美元 国内商业航天多点突破加速发力 机遇如何把握？",
+"show": "[월스트리트부터 루자쭈이까지 투자팁 스페이스X의 연간 매출은 1000억 달러를 넘을 것으로 예상된다. 국내 상업용 항공우주는 여러 가지 혁신을 이루었고 개발이 가속화되었습니다. 기회를 잡는 방법은 무엇입니까?",
+"source": "第一财经",
+"src_url": "https://www.yicai.com",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJN0VJcy16dU9NRUxmN2hna0FEbXFsTnM3S1lqVndOZ1BoMzlvZE9kZzJxTWNYd0p3SEJSVzdicFdUR21ZX00zOWxuNzY4SFd2ckhwT2szaEE?oc=5",
+"pub": 1794146737.0,
+"time": "11/08 23:05",
+"run": "202611090902",
+"added": 1794214940,
+"url": "https://www.yicai.com/vip/news/103431444.html",
+"sum": "현지 시간으로 지난 금요일, 제33차 Barron's 투자 컨퍼런스에서 가상 노변 인터뷰가 진행되었습니다. 머스크는 원격으로 참여해 다수의 블록버스터 예측을 내놨다. 올해 12월 스페이스X의 연간 매출은 1000억 달러를 넘을 것으로 예상되고, 내년 12월 연간 반복 매출은 5000억 달러를 넘을 수도 있다. SpaceX가 최근 발표한 2026년 3분기 재무 보고서에 따르면 보고 기간 동안 회사의 수익은 145억 8천만 달러로 전년 대비 161억 달러 증가했습니다."
 },
 {
 "key": "美國債務警報拉響華爾街估恐觸發非常規措施債限上限最快提前至明年2月觸頂",
@@ -1846,6 +1907,26 @@
 "run": "202611081352",
 "url": "https://news.cnyes.com/news/id/6652324",
 "sum": "민주당이 의회를 장악하게 되면 AI 규제, 데이터센터 구축, 전력망 비용이 더욱 엄격해질 수 있다. 미국 주식은 11월 5일 수수료가 12.3% 하락하면서 급락했습니다.\nLin Yahui는 AI 자본 지출과 수익이 압박을 받고 있으며 동북아 반도체, 메모리, 서버 체인의 가치 평가가 재평가에 직면하고 있다고 말했습니다.\nS&P 500은 10월 고점 대비 약 6% 조정을 받았지만 여전히 3월의 8.7%보다 낮습니다. J.P Morgan Asset Management는 다양한 배분을 요구했습니다."
+},
+{
+"key": "早报美联储10月加息概率大幅回落原油黄金双双上涨美光科技q4营收利润双超预期",
+"keys": [
+"早报美联储10月加息概率大幅回落原油黄金双双上涨美光科技q4营收利润双超预期"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "【早报】美联储10月加息概率，大幅回落；原油、黄金双双上涨；美光科技，Q4营收利润双超预期",
+"show": "[모닝포스트] 10월 연준이 금리를 인상할 확률이 급락했다. 원유와 금 모두 상승했습니다. 마이크론 테크놀로지(Micron Technology)의 4분기 매출과 이익이 기대치를 초과했습니다.",
+"source": "财联社",
+"src_url": "https://www.cls.cn",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE50UXFMemlOeldjQ2xIejNOUXN2MnlhUl9oaklqc0huZ2hUY0h2S0VPb1RpUEsyRldiVzVJQmRhU184eElKRWRkZA?oc=5",
+"pub": 1794140186.0,
+"time": "11/08 21:16",
+"run": "202611090902",
+"added": 1794214941,
+"url": "https://www.cls.cn/detail/2496760",
+"sum": "① 시진핑: 포용적·기초적·기본적 민생 건설 강화 ② 중앙은행: 10월 8일 3개월간 1조2000억 위안 규모의 매입 역환매 작업을 실시할 예정이다. ③ 미국 최대 기술주가 3% 이상 상승했고, 인텔은 3% 이상 상승했다. ④ 애플이 스마트 홈 시장에 진출할 계획이다. ⑤ 하이얼 스마트홈과 몽타주 테크놀로지가 환매 진행을 발표했다. 매크로 뉴스 1. 10월 1일 발행되는 '치시' 잡지 19호에는 시진핑 중공중앙 총서기, 국가주석, 중앙군사위원회 위원장이 쓴 '보편적, 기본적, 기본적 민생 건설 강화'라는 중요한 글이 게재될 예정입니다. 2012년 11월부터 2026년 1월까지 시진핑 총서기가 한 중요한 발언에서 발췌한 내용이다. 기사에서는 중국식 현대화는 민생을 최우선으로 생각한다는 점을 강조하고 있다. 더 나은 삶을 향한 국민의 열망이 우리의 목표입니다. 우리의 목표는 야심적이고 단순합니다. 결국, 국민들이 더 나은 삶을 살 수 있도록 하는 것입니다. 우리는 발전 과정에서 인민의 생활을 보장하고 개선하는 것을 견지해야 하며 더 나은 삶을 창조하기 위한 공동 노력을 장려하고 더 나은 삶에 대한 인민의 열망을 끊임없이 실현해야 합니다."
 },
 {
 "key": "アメリカ中間選挙民主党大勝大荒れ相場いつまでウォール街エクスプレス",
@@ -1926,26 +2007,6 @@
 "sum": "AI 주식 대패: 싱가포르 투자자들은 미국 기술 매도 이후 하락세를 매수해야 할까요, 아니면 노출을 줄여야 할까요? straitstimes.com에서 자세한 내용을 읽어보세요."
 },
 {
-"key": "sixdeadinshootingatmarketsquareinpoland",
-"keys": [
-"sixdeadinshootingatmarketsquareinpoland"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "Six Dead in Shooting at Market Square in Poland",
-"show": "폴란드 시장 광장에서 총격 사건으로 6명 사망",
-"source": "WSJ",
-"src_url": "https://www.wsj.com",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYlJseDJnMVkzeVBUenVwRTVsWVVEU3prS1hWUXk1enhtRE5KaFlTOWhmYmZNTElpaEdSWWJUZ0Jvam5hYTlSdklrLTRnc1FEb3ZtcEdJcDA3SUN5ZFJjeWFMaGdObnJ2RXY2STJJd05Mam5kMjJpSkFkZHRIcEZ2dm1leXRwd3RkU2VXUTY4V1JlRUk?oc=5",
-"pub": 1794090420.0,
-"time": "11/08 07:27",
-"run": "202611081434",
-"added": 1794148452,
-"url": "https://www.wsj.com/world/europe/six-dead-in-shooting-at-market-square-in-poland-7ba72f7b",
-"sum_tried": 2
-},
-{
 "key": "130902港股医药板块早盘活跃港股通创新药etf易方达159316标的指数上涨16",
 "keys": [
 "130902港股医药板块早盘活跃港股通创新药etf易方达159316标的指数上涨16",
@@ -2024,7 +2085,7 @@
 "run": "202611090850",
 "added": 1794214267,
 "url": "https://www.reuters.com/markets/quote/IBBQ.O/",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "科创100etf鹏华588220早盘交投活跃半导体商业航天医药迎来密集催化科技板块集体反弹",
@@ -2442,6 +2503,27 @@
 "sum": "생명공학 주식은 강세장에서도 변동성이 클 수 있습니다. 그렇다면 투자자들은 어떻게 함정을 피할 수 있을까요?"
 },
 {
+"key": "正崴土城廠鋰電池成品區起火危機未解消防持續灌水戒備",
+"keys": [
+"正崴土城廠鋰電池成品區起火危機未解消防持續灌水戒備",
+"正崴土城廠鋰電池成品區起火危機未解消防持續灌水戒備時事"
+],
+"count": 2,
+"theme": "🔋 2차전지",
+"region": "🇹🇼 대만",
+"title": "正崴土城廠鋰電池成品區起火危機未解 消防持續灌水戒備",
+"show": "정웨이 투청(Zhengwei Tucheng) 공장 리튬 배터리 완제품 구역 화재 위기가 여전히 해결되지 않아 소방대원들의 경계가 계속되고 있다",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MajBXcTRVaEpTckhFNldDSHNPTkRORm9jREJsb1NZTzRSODNjVDRJa25lSk1RZ0NPMUw0ZVNnckNDcVVraENhQnE2bWZLZHpE0gFWQVVfeXFMTW5ORzM0b2FaOFJvQUxRZDdydWI5b1pVZTlIOWNyWWllZjBsVHRkY2U0QnVyeTlySG1Pc2VLbXRYRXlISGdBbndPd1lGa2Z1ZE9jN3d4Ync?oc=5",
+"pub": 1794214586.0,
+"time": "11/09 17:56",
+"run": "202611090902",
+"added": 1794214964,
+"url": "https://udn.com/news/story/7320/9867211",
+"sum": "오늘 아침 신베이시 투청구 중산로에 위치한 상장기업 정웨이정밀(Zhengwei Precision) 공장에서 화재가 발생했습니다. 5층에서 다량의 짙은 연기가 피어올랐습니다. 소방당국은 화재를 구조하기 위해 수백 명의 인력을 파견했습니다. 불은 오전 10시 33분께 진화됐다. 불이 난 곳은 리튬배터리 완제품 보관 장소인 것으로 파악됐다. 직원들은 배터리 구역에서 불이 난 것을 발견하고 구조에 나선 뒤 창문을 열어두는 대신 다량의 산소가 유입돼 불이 더욱 확대된 것으로 의심했다. 소방대원들은 불길을 식히기 위해 계속해서 다량의 물을 쏟아부었다. 현재 화재는 진압 중이다. 위험이 완전히 제거되려면 리튬 배터리 반응이 완료될 때까지 기다려야 합니다."
+},
+{
 "key": "리포트브리핑에코프로비엠양극재출하부진지속목표가90000원im증권",
 "keys": [
 "리포트브리핑에코프로비엠양극재출하부진지속목표가90000원im증권",
@@ -2505,6 +2587,46 @@
 "added": 1794177868,
 "url": "https://www.nikkei.com/article/DGXZQOSG296RJ0Z21C26A0000000/",
 "sum": "東北大学の中田優樹助教らはリチウムイオン電池の負極に適用できるアルミ箔を開発した。マンガンを添加したのが特徴で、蓄電容量を維持しながら充放電による劣化を抑えた。実用化すれば電池の製造工程を減らすことができる。現在普及するリチウムイオン電池の負極には粉末状の黒鉛が使われる。負極として使うには銅箔や接着剤などと組み合わせる工程が必要になる。製造時のコストがかさむため、代替材料が研究されている。"
+},
+{
+"key": "河南持续推进燃料电池汽车示范应用支持加氢装备和传感器领军企业发展",
+"keys": [
+"河南持续推进燃料电池汽车示范应用支持加氢装备和传感器领军企业发展"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇨🇳 중국",
+"title": "河南：持续推进燃料电池汽车示范应用，支持加氢装备和传感器领军企业发展",
+"show": "허난성: 연료전지 차량의 시범 적용을 지속적으로 장려하고 수소화 장비 및 센서 부문의 선두 기업 개발을 지원합니다.",
+"source": "界面新闻",
+"src_url": "https://www.jiemian.com",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96bHp5aFd6Y25uamY1UnB1aG5JeUFkYUlsR3JkeE9PSGxuZUgydExUdVczdnFkendwTWtaemFRS3VrV3F5VjBHQUs1T0JsTm83SzgxczdfUDQ?oc=5",
+"pub": 1794214679.0,
+"time": "11/09 17:57",
+"run": "202611090902",
+"added": 1794214962,
+"url": "https://www.jiemian.com/article/15311932.html",
+"sum": "허난성 상무부를 포함한 19개 부서는 공동으로 \"풀체인 자동차 소비 촉진을 위한 자동차 애프터마켓 육성 및 강화를 위한 허난성 실행 계획\"을 발표했습니다. 그 중에는 자동차 부품 기술 연구개발의 창의성을 높이는 것도 언급된다. 체인 강화, 지능형 네트워크 연결, 연료전지 차량 실증 및 리더십, 기술 혁신 플랫폼 구축을 위한 핵심 자동차 부품 및 부품을 공동으로 추진합니다. 조향 기어, 충격 흡수 장치, 구동축, 워터 펌프, 실린더 라이너 및 동력 배터리와 같은 부품의 장점을 통합하고 개선합니다. 지능형 연결 버스의 선점자 이점을 최대한 활용하고 온보드 감지, 제어 의사 결정 및 정보 보안과 같은 핵심 기술의 적용을 가속화하십시오. 계속해서 연료전지 차량의 시범 적용을 촉진하고, 수소화 장비 및 센서 분야 선도 기업의 발전을 지원하며, 구현을 통해 기업의 생산 능력 출시를 가속화합니다. \"상용차용 지능형 전기 섀시 핵심 기술 연구 개발 및 적용\"과 같은 주요 과학 기술 프로젝트의 구현을 가속화하고 결과의 산업적 적용을 촉진합니다. 새로운 전력 및 에너지 저장 배터리 소재, 차량 충격 흡수 장치 등에 중점을 둔 다수의 파일럿 기지를 구축하여 산업 독립성 및 제어 가능성 수준을 향상시킵니다. 해외 시장 개척 노력을 강화하고 제품 수출을 촉진해 브랜드, 기술 수출 등 가치사슬 내 고급 연계까지 점진적으로 확대한다."
+},
+{
+"key": "bmwwidensbatterycomponentsupplierswithsamsunglgenergy",
+"keys": [
+"bmwwidensbatterycomponentsupplierswithsamsunglgenergy"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇺🇸 미국",
+"title": "BMW Widens Battery Component Suppliers With Samsung, LG Energy",
+"show": "BMW, 삼성·LG에너지와 배터리 부품 공급업체 확대",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcUw5cndJSkZiMzdEeUNpcWN6V2M1NWVubTFMQ21hTGw3XzZOQzNDakE1Y2hwQkY5X3E4RS03c1Rna3g0ZDdkMUdQRy1SNTRjLVFfbVJ3VnU0RUx1aXRjNmprRE5xQVlzcTYzZjJ1NDluRzJQZVNzb21rVHVVdm1KcWdQOXNpYnlha25uMGMtM185S0E1VDZKLUszVjZJYVE3MFRVQnlkOU5rVkxNQ1J4TG9n?oc=5",
+"pub": 1794213891.0,
+"time": "11/09 17:44",
+"run": "202611090902",
+"added": 1794214961,
+"url": "https://www.bloomberg.com/news/articles/2026-11-09/bmw-widens-battery-component-suppliers-with-samsung-lg-energy",
+"sum_tried": 1
 },
 {
 "key": "시뮬레이션으로여는충북제조혁신유진테크놀로지이차전지정밀금형설계최적화로재료비61절감",
@@ -2910,7 +3032,8 @@
 "夜期高水165點遠信儲能上市美期亞股個別發展083620261109即時財經新聞",
 "遠信儲能暗盤升逾12倍不宜高追20261109經濟",
 "恒指收市跌32點成交1737億近一個月低北水流入19億元新股遠信儲能升59162320261109即時財經新聞",
-"遠信儲能09621新股收高近59每手賺2885元即時新聞新聞"
+"遠信儲能09621新股收高近59每手賺2885元即時新聞新聞",
+"新股上市丨遠信儲能首掛收升59"
 ],
 "count": 5,
 "theme": "⚡ 전고체배터리·ESS",
@@ -3086,6 +3209,26 @@
 "added": 1794206097,
 "url": "https://www.yicai.com/news/103431950.html",
 "sum": "WeChat을 열고 하단의 \"검색\"을 클릭한 다음 \"스캔\"을 사용하여 웹페이지를 친구들과 공유하세요. 중국 비즈니스 뉴스 2026-11-09 11:07:05 편집자: Qi Xinyi Dell 주식이 공개한 투자자 관계 활동 기록에 따르면 회사는 최근 Guolian Minsheng Securities와 같은 기관으로부터 설문조사를 받은 것으로 나타났습니다. 델(Del Co., Ltd.)은 다양한 적용 시나리오에 따라 에너지 밀도, 속도 성능, 사이클 수명 등 다양한 지표의 종합적인 균형을 맞출 수 있는 독립적인 전해질 소재 공식 시스템을 구축했다고 밝혔다. 생산능력 측면에서는 외부 협력업체와 위탁가공 계약을 체결했다. 파트너의 원래 리튬 배터리 생산 라인을 기반으로 회사의 전고체 배터리 생산 프로세스 요구 사항에 따라 특수 수정 및 장비 디버깅을 구현하여 회사의 전고체 배터리 제품 생산을 담당했습니다. 생산라인은 현재 시험생산 및 생산능력 확대 단계에 있다."
+},
+{
+"key": "超购近1389倍跻身历史级超购王远信储能上市首日盘中一度狂飙近130",
+"keys": [
+"超购近1389倍跻身历史级超购王远信储能上市首日盘中一度狂飙近130"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇨🇳 중국",
+"title": "超购近1389倍跻身历史级“超购王” 远信储能上市首日盘中一度狂飙近130%",
+"show": "거의 1,389회 과매수를 기록하며 역사적인 '과매수 왕'이 되었습니다. YuanSin Energy Storage는 상장 첫날 거의 130% 급등했습니다.",
+"source": "财联社",
+"src_url": "https://www.cls.cn",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1yTzNOMmdnZktsTTJaVzlXTzRySUJsRWQwa2hWSlQyZnhpclRIem9GLTZEZTR6VjNtc1BPdjZaSnFxeFBLTFRMRw?oc=5",
+"pub": 1794192660.0,
+"time": "11/09 11:51",
+"run": "202611090902",
+"added": 1794214973,
+"url": "https://www.cls.cn/detail/2528615",
+"sum": "① Yuanxin Energy Storage의 상장 첫날, 2차 시장에서 집중적인 자금 조달을 촉발한 이유는 무엇입니까? ② 출하량 상위 10위권에 진입했고, 해외 점유율도 급등했다. Farsonic Energy Storage가 AIDC 컴퓨팅 전력 분배 및 스토리지에 투자하여 성장을 위한 새로운 공간을 열 수 있습니까? 파이낸셜뉴스(Financial News Agency)가 11월 9일 보도했다(편집자 후자롱). 홍콩 증시의 신에너지 부문이 또 하나의 큰 이슈를 맞이했다. Yuanxin Energy Storage(09621.HK)가 오늘 공식적으로 상장되었습니다. 초기 거래에서 급격히 상승했고 빠르게 상승했습니다. 장중 증가율은 130%에 가까웠다. 보도 시점 기준으로 119.84% 상승한 HK$21.50을 기록했습니다. Yuanxin Energy Storage는 1000배가 넘는 초과 청약 배수와 콤팩트한 순환 칩 구조로 유통 시장에서 집중적인 자금 추적을 촉발시켰습니다. 공모가는 1,389배 가까이 과매수돼 홍콩 주식 역사상 '과매수 왕'이 됐다. Yuanxin Energy Storage는 IPO 단계에서 선도적인 청약 열정을 보여주었습니다. 홍콩 공모는 1,388.75배 초과 청약을 기록해 같은 기간 다른 공모 주식보다 훨씬 많았을 뿐만 아니라 홍콩 주식 시장 역사상 '과매수 왕'에 직접 이름을 올렸다."
 },
 {
 "key": "이온어스美thorenergy와북미ess시장공략",
@@ -3491,7 +3634,7 @@
 "run": "202611090850",
 "added": 1794214304,
 "url": "https://howlife.cna.com.tw/local/20261109s004.aspx",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "藍營挺核公投穩定ai算力民團批成本比綠能高拖累產業",
@@ -3851,25 +3994,6 @@
 "run": "202611072313",
 "url": "https://news.mingpao.com/pns/%E7%B6%93%E6%BF%9F/article/20261108/s00004/1794070126116/%E7%BE%8Eai%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E7%B7%A9%E5%BB%BA-%E5%88%86%E6%9E%90-%E5%88%A9%E8%B6%85%E5%A4%A7%E7%A7%91%E4%BC%81",
 "sum_tried": 2
-},
-{
-"key": "whatmidtermelectionbluewaverebukeoftrumpmeansforrenewableenergy",
-"keys": [
-"whatmidtermelectionbluewaverebukeoftrumpmeansforrenewableenergy"
-],
-"count": 1,
-"theme": "🏭 AI 전력",
-"region": "🇺🇸 미국",
-"title": "What midterm election blue wave rebuke of Trump means for renewable energy",
-"show": "트럼프의 중간선거 블루웨이브 질책이 재생에너지에 미치는 영향",
-"source": "CNBC",
-"src_url": "https://www.cnbc.com",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUGhqVms1N0laV2g0enlDUzZiZzFPeC1acEdOdnpCQ21meEx6OURXb3FFc2dUY1ViOFpCWXZtd1lQYkRsSkZSZ3pxU3lIa3oyd0VnU1RnM1gyVUJPTzFmYU1RbHJsMHRaWG44dUtYYVAyazlERms2cWFNbzdVNzNWVUxCR0RGOC1vQVcyMHF0SQ?oc=5",
-"pub": 1794061478.0,
-"time": "11/07 23:24",
-"run": "202611072313",
-"url": "https://www.cnbc.com/2026/11/07/midterm-election-blue-wave-trump-renewable-energy.html",
-"sum": "The conservative war on renewable energy suffered a big loss in the rout of President Trump and the GOP in midterm elections. Investors should pay attention."
 },
 {
 "key": "infineonxtraifxstockmaybe14undervaluedfollowingaidatacenterpowernews",
