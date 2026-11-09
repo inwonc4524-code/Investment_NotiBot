@@ -59,6 +59,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main              # 실행이 밀려서 늦게 시작해도 항상 최신 기록에서 시작
 
       - uses: actions/setup-python@v5
         with:
@@ -82,6 +84,7 @@ jobs:
             # 속보 확인이 동시에 기록을 저장했을 수 있어서, 실패하면 최신 내용 받아서 다시 시도
             for t in 1 2 3 4 5; do
               git pull -q --rebase origin main && git push -q && echo "저장 완료" && exit 0
+              git rebase --abort 2>/dev/null || true        # 충돌로 멈춘 상태면 정리하고 다시 시도
               echo "저장 재시도 $t/5"; sleep $((t * 5))
             done
             exit 1
