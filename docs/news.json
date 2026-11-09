@@ -5,7 +5,8 @@
 "asianstockssteadyasaimideastjittersrecededollarfirmonfedbets",
 "asianstockssteadyasaimiddleeastjittersrecede",
 "asianstocksbounceasaimideastjittersrecededollarfirmonfedbets",
-"asianstocksreboundafterairout"
+"asianstocksreboundafterairout",
+"globalstockssteadyafterairout"
 ],
 "count": 4,
 "theme": "🇺🇸 미국 S&P500",
@@ -907,6 +908,26 @@
 "added": 1794207494,
 "url": "https://www.cls.cn/detail/2512879",
 "sum": "① SpaceX는 9% 이상 하락한 반면 Apple은 1% 이상 상승하여 새로운 최고치를 기록했습니다. ② 필라델피아 반도체 지수는 거의 7% 하락했고, 모든 구성 종목이 하락했습니다. ③ 스토리지 개념이 급격히 하락하여 SanDisk와 Hynix가 8% 이상 하락했습니다. ④ Western Digital의 첫 번째 회계 분기 순이익은 전년 대비 55% 증가했습니다. Financial News Agency, 10월 23일(자오하오 편집자) 목요일(10월 22일) 인공지능 기업의 지출에 대한 시장 우려가 다시 한 번 심화되고 지정학적 긴장이 고조되면서 미국 주식 기술 부문이 크게 약세를 보였습니다. 마감 기준 나스닥 종합지수는 2.6% 하락한 26008.86포인트를 기록했다. S&P 500 지수는 1.21% 하락한 7663.43포인트를 기록했습니다. 다우존스 지수는 0.02% 상승한 52867.98포인트로 3일 연속 상승했다."
+},
+{
+"key": "纳斯达克12月6日起重大改革每天仅休市1小时新增夜盘对准亚洲白天",
+"keys": [
+"纳斯达克12月6日起重大改革每天仅休市1小时新增夜盘对准亚洲白天"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "纳斯达克12月6日起重大改革：每天仅休市1小时，新增夜盘对准亚洲白天",
+"show": "나스닥은 12월 6일부터 대대적인 개혁을 거칩니다. 시장은 매일 한 시간만 문을 닫고, 새로운 야간 거래는 낮에는 아시아에 집중됩니다.",
+"source": "21财经",
+"src_url": "https://www.21jingji.com",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEFyVzQ4cXBkZkt0S1lNci1HOF9jM3B3LUFhRFJMbVFJUm9jeWJxcTlIVHlESUpBem5Xc09Sb2oxZVA3Qm0xblNWbWpQcWxVcnZwRGxIZlhRRGtiRjFfSUFJYkRZZHJpeTZUQnlCdU5JVlJOSmNuYlVRQTlURXN1c3l1dHJYYWJrcWJFREpqMA?oc=5",
+"pub": 1794190173.0,
+"time": "11/09 11:09",
+"run": "202611090927",
+"added": 1794216448,
+"url": "https://www.21jingji.com/article/20261109/herald/c8ef02faf0188ad53135b6492d58c2a3.html",
+"sum": "Xinhua Finance에 따르면 Nasdaq은 2026년 12월 6일에 \"23/5\" 거래 시스템을 공식적으로 시행할 예정입니다. 연속 거래는 하루 23시간, 주 5일 열려 있으며 매일 20:00~21:00(동부 표준시) 사이에 1시간만 마감됩니다. 이 계획은 미국 증권거래위원회(SEC)의 승인을 받았으며, 나스닥이 1971년 창설된 이후 40여년 만에 최대 규모로 조정된 거래 체계다. 거래시간도 대폭 확대됐다. 주간과 야간이 명확하게 구분됐다. 새로운 시스템은 거래 주간을 일요일 21:00에서 금요일 20:00까지 연장했습니다. 현재 4시~9시 30분 프리마켓, 9시 30분~16시 정규, 16시~20시 애프터마켓의 3개 섹션이 '낮 시간대'로 통합되고, 새로 생성된 '야간 시간대'인 21시부터 다음날 4시까지가 함께 글로벌 거래 기간을 구성합니다."
 },
 {
 "key": "台股開盤政策利多美股回彈台股回神漲逾千點站回4萬1關卡",
@@ -3177,7 +3198,8 @@
 "恒指收市跌32點成交1737億近一個月低北水流入19億元新股遠信儲能升59162320261109即時財經新聞",
 "遠信儲能09621新股收高近59每手賺2885元即時新聞新聞",
 "新股上市丨遠信儲能首掛收升59",
-"新股掛牌遠信儲能首掛全日最低位收市仍高招股價近六成每手賺2885元專題透視新聞"
+"新股掛牌遠信儲能首掛全日最低位收市仍高招股價近六成每手賺2885元專題透視新聞",
+"新股掛牌遠信儲能首掛全日最低位收市仍高招股價近六成每手賺2885元"
 ],
 "count": 5,
 "theme": "⚡ 전고체배터리·ESS",
@@ -4390,7 +4412,7 @@
 "run": "202611090921",
 "added": 1794216125,
 "url": "https://www.cls.cn/detail/2529104",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "數字辦試驗計劃借出人形機械人可於社區活動表演跳舞功夫等方保僑讚縮窄社會數碼鴻溝",
