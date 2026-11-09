@@ -869,9 +869,11 @@ footer b{color:var(--text);font-weight:600}
 .s-label{margin:16px 0 4px;color:var(--acc);font-size:12px;font-weight:700;letter-spacing:.5px}
 .s-sum{font-size:15px;line-height:1.75}.s-sum.empty{color:var(--sub);font-size:13.5px}
 .s-btns{display:flex;gap:8px;margin-top:20px}
-.s-btns button,.s-btns a{flex:1;text-align:center;padding:12px;border-radius:10px;font:inherit;font-size:14.5px;text-decoration:none}
-.s-btns button{background:transparent;border:1px solid var(--line);color:var(--sub)}
-.s-btns a{background:var(--acc);color:#1f1e1d;font-weight:600}
+.s-btns a{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:11px 6px;border-radius:10px;font:inherit;font-size:13.5px;line-height:1.3;text-decoration:none;
+  background:var(--acc);color:#1f1e1d;font-weight:600}
+.s-btns a.cl{background:transparent;border:1px solid var(--acc);color:var(--acc)}
+.s-close button{width:100%;margin-top:8px;padding:11px;border-radius:10px;background:transparent;border:1px solid var(--line);color:var(--sub);font:inherit;font-size:14px}
+.s-cnote{margin-top:8px;color:var(--sub);font-size:11.5px;text-align:center}
 </style></head><body>
 <div class="wrap">
 <header><h1>📰 투자 테마 뉴스</h1><div class="upd" id="upd"></div></header>
@@ -889,7 +891,9 @@ footer b{color:var(--text);font-weight:600}
   <div id="s-orig" class="orig"></div>
   <div class="s-label">요약</div>
   <div id="s-sum" class="s-sum"></div>
-  <div class="s-btns"><button onclick="closeSheet()">닫기</button><a id="s-go" target="_blank" rel="noopener" onclick="closeSheet()">원문 보기 ↗</a></div>
+  <div class="s-btns"><a id="s-go" target="_blank" rel="noopener" onclick="closeSheet()">원문 보기 ↗</a><a id="s-cs" class="cl" target="_blank" rel="noopener" onclick="closeSheet()">✳︎ Claude로 요약번역</a><a id="s-ct" class="cl" target="_blank" rel="noopener" onclick="closeSheet()">✳︎ Claude로 번역</a></div>
+  <div class="s-close"><button onclick="closeSheet()">닫기</button></div>
+  <div id="s-cnote" class="s-cnote">Claude 버튼은 Claude 앱(또는 claude.ai)이 기사 주소가 입력된 채로 열려요. 보내기만 누르면 돼요.</div>
 </div>
 <script id="data" type="application/json">__DATA__</script>
 <script>
@@ -940,7 +944,7 @@ function renderCtrl(){
 function card(n, prev){
   var hot = n.c > 1 ? '<span class="hot'+(n.c>=5?' big':'')+'">🔥 언론 '+n.c+'곳</span>' : '';
   var isNew = prev && n.a > prev ? ' <span class="new">NEW</span>' : '';
-  return '<a class="card" href="'+esc(n.u)+'" target="_blank" rel="noopener" data-s="'+esc(n.su||'')+'">'+
+  return '<a class="card" href="'+esc(n.u)+'" target="_blank" rel="noopener" data-s="'+esc(n.su||'')+'" data-so="'+esc(n.so)+'">'+
     '<div class="meta">'+hot+esc(RL[n.r]||'')+' · '+esc(n.so)+' · '+esc(n.tm)+isNew+'</div>'+
     '<div class="title">'+esc(n.s)+'</div>'+(n.t?'<div class="orig">'+esc(n.t)+'</div>':'')+'</a>';
 }
@@ -1017,9 +1021,20 @@ document.addEventListener('click', function(e){
   $('s-sum').textContent = sm || '이 기사는 요약을 가져오지 못했어요. (사이트가 자동 접속을 막았거나 아직 준비 중)';
   $('s-sum').className = 's-sum' + (sm ? '' : ' empty');
   $('s-go').href = c.href;
+  // 외국어 기사면 Claude 버튼 보이기 (한국어 기사는 숨김)
+  var foreign = !!o;
+  $('s-cs').hidden = $('s-ct').hidden = $('s-cnote').hidden = !foreign;
+  if(foreign){
+    var info = '제목: ' + o.textContent + '\\n출처: ' + (c.dataset.so || '') + '\\n링크: ' + c.href +
+               (sm ? '\\n(참고용 짧은 소개: ' + sm + ')' : '');
+    var tail = '\\n\\n링크의 기사를 직접 열어서 읽고 답해 줘. 유료 구독 등으로 본문을 열 수 없으면 그렇다고 먼저 말하고, 확인 가능한 정보만으로 답해 줘.';
+    $('s-cs').href = claudeLink('아래 해외 기사를 한국어로 요약해 줘. 핵심 내용 3~5줄, 그리고 투자자 입장에서 중요한 숫자와 의미를 짧게 정리해 줘.\\n\\n' + info + tail);
+    $('s-ct').href = claudeLink('아래 해외 기사의 내용을 처음부터 끝까지 순서대로, 빠지는 내용 없이 자연스러운 한국어로 자세히 옮겨 줘. 전문 용어는 한국에서 쓰는 표현으로 바꾸고 필요하면 괄호로 원어를 적어 줘.\\n\\n' + info + tail);
+  }
   $('dim').hidden = false; $('sheet').hidden = false; $('sheet').scrollTop = 0;
   document.body.style.overflow = 'hidden';
 });
+function claudeLink(prompt){ return 'https://claude.ai/new?q=' + encodeURIComponent(prompt); }
 function closeSheet(){ $('dim').hidden = true; $('sheet').hidden = true; document.body.style.overflow = ''; }
 document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeSheet(); });
 </script></body></html>""".replace("__DATA__", blob)
