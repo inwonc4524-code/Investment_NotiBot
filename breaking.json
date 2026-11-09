@@ -1,28 +1,6 @@
 {
 "items": [
 {
-"key": "teslawindingdownproductionofcybertruckmusksays",
-"keys": [
-"teslawindingdownproductionofcybertruckmusksays",
-"teslatowinddowncybertruckproductionintexasnextyearelonmusksays",
-"teslatowinddowncybertruckproductionafteryearsofpoorsalesinfewmarkets",
-"ripcybertruckmusksaysteslawindingdownproductionmonthsafteritwascalledthebiggestf"
-],
-"count": 4,
-"theme": "🚨 미국 속보",
-"region": "🇺🇸 미국",
-"title": "Tesla Winding Down Production of Cybertruck, Musk Says",
-"show": "머스크는 테슬라가 사이버트럭 생산을 중단한다고 밝혔다.",
-"source": "WSJ",
-"src_url": "https://www.wsj.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd0Jtd1JvNWI2RUJHUlA0MVd4Q2RWdUFrelplWVVDNVBkei13Zk9najBrWDY2aHpUY3lYN1J4d21LczZSLTllR1k0Qk16eEtKVklKa01NU3JSeHdzTzBOUWV5aTlnNHBJOXhvWGZTT2R5TjFlUl92M3NvQ2lMaEJGOGhJaG1CQWtyUVZVenVBQ1NQOHVabDFZWUxnOWJDUQ?oc=5",
-"url": "https://www.wsj.com/business/autos/tesla-winding-down-production-of-cybertruck-musk-says-89df7158",
-"pub": 1793965980.0,
-"time": "11/06 20:53",
-"run": "breaking"
-},
-{
 "key": "리벨리온엔비디아skt와한국형소버린ai기반넓힌다",
 "keys": [
 "리벨리온엔비디아skt와한국형소버린ai기반넓힌다",
@@ -405,6 +383,29 @@
 "time": "11/09 20:06",
 "run": "breaking",
 "added": 1794223472
+},
+{
+"key": "elonmusksaysteslawillhavetorefundsomecybertruckdepositsonceproductionisshutdown",
+"keys": [
+"elonmusksaysteslawillhavetorefundsomecybertruckdepositsonceproductionisshutdown",
+"elonmusksaysteslawillrefunddepositstoalotofpeopleascybertruckproductionwindsdown",
+"teslaexpandsrobotaxiservicetosanantonio"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Elon Musk says Tesla will have to refund some Cybertruck deposits once production is shut down",
+"show": "Elon Musk는 Tesla가 생산이 중단되면 일부 Cybertruck 보증금을 환불해야 할 것이라고 말했습니다.",
+"source": "CNBC",
+"src_url": "https://www.cnbc.com",
+"sum": "CNBC의 Andrew Ross Sorkin이 Tesla를 둘러싼 최신 뉴스를 보도합니다.",
+"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMnU4OVdFRUVXVGhRRjlyUzVtZlMtcTZ1Zkoyd2dxWGJ0bnlfSzQ1dFl6dGd1MUMtNWgtVXVPemQ4Q3ZSZTh6aW9HcEtIV3lwZ2l0NkxTRW1RN011bVUteVNjLVNmVjdNTTdWb2tHN2l0SlR0MnpjeU4zSnRscUNCcmYxdUJuZDUyVU95WnA2aEd6U0EzdUd6cjNVamRZdDFvd2tlNG5XYVItZFpnVFlKMnV5VlRjWm5YV1JzOWpUZjFVYU5IdVM3eVJwcWFibnpmOXNr?oc=5",
+"url": "https://www.cnbc.com/video/2026/11/09/elon-musk-says-tesla-will-have-to-refund-some-cybertruck-deposits-once-production-is-shut-down.html",
+"pub": 1794224130.0,
+"time": "11/09 20:35",
+"run": "breaking",
+"added": 1794227086
 }
 ],
 "seen": {
@@ -469,8 +470,8 @@
 "nvidialaunchesinvestigationintoitsceosrelationshipwithanallegedchinesespy": 1794216228.8159955,
 "nvidiaceojensenhuangsfuturehangsinthebalanceasboardlaunchesprobeoveraffair": 1794222025.9663444,
 "reactionstonvidiasprobeintoceojensenhuang": 1794220565.571199,
-"nvidiaopensinvestigationintojensenhuangsrelationshipwithchinesespy": 1794219847.4110165,
-"nvidialaunchesinvestigationintoceosallegedrelationshipwithchinesespy": 1794223466.7131948,
+"nvidiaopensinvestigationintojensenhuangsrelationshipwithchinesespy": 1794224205.2842736,
+"nvidialaunchesinvestigationintoceosallegedrelationshipwithchinesespy": 1794224205.284275,
 "nvidiasharessinkasboardlaunchesprobeintojensenhuangsaffair": 1794222025.9663439,
 "nvidialaunchesinvestigationintojensenhuangsaffairwithchinesespy": 1794222025.966345,
 "bitcoinslidesto73510overtheweekenddidnvidiascandaltriggerbtcs2000flashcrash": 1794222746.6466465,
@@ -479,8 +480,11 @@
 "nvidiastockslidesascompanyprobesjensenhuangaffairwithallegedchinesespy": 1794222746.646636,
 "nvidiainvestigatesceoafterreportshehadaffairwithchinesespy": 1794222746.646636,
 "watchjensenhuangsaffairsparksnvidiacrisis": 1794222746.6466365,
-"nvidiaopensinvestigationintojensenhuangsrelationshipwithallegedchinesespy": 1794223466.7131946,
+"nvidiaopensinvestigationintojensenhuangsrelationshipwithallegedchinesespy": 1794224205.284274,
 "google母企傳考慮發港元及坡元債開拓更多亞洲融資渠道": 1794223472.9219623,
-"google母企抽水潮據報相中港元債規模相當於15億美元": 1794223472.9219635
+"google母企抽水潮據報相中港元債規模相當於15億美元": 1794223472.9219635,
+"elonmusksaysteslawillhavetorefundsomecybertruckdepositsonceproductionisshutdown": 1794227087.5921292,
+"elonmusksaysteslawillrefunddepositstoalotofpeopleascybertruckproductionwindsdown": 1794227087.5921333,
+"teslaexpandsrobotaxiservicetosanantonio": 1794227087.5921347
 }
 }
