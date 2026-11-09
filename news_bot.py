@@ -892,9 +892,9 @@ footer b{color:var(--text);font-weight:600}
   <div id="s-orig" class="orig"></div>
   <div class="s-label">요약</div>
   <div id="s-sum" class="s-sum"></div>
-  <div class="s-btns"><a id="s-go" target="_blank" rel="noopener" onclick="closeSheet()">원문 보기 ↗</a><a id="s-cs" class="cl" target="_blank" rel="noopener" onclick="askAI(this)">✦ Gemini로 요약번역</a><a id="s-ct" class="cl" target="_blank" rel="noopener" onclick="askAI(this)">✦ Gemini로 번역</a></div>
+  <div class="s-btns"><a id="s-go" target="_blank" rel="noopener" onclick="closeSheet()">원문 보기 ↗</a><a id="s-cs" class="cl" target="_blank" rel="noopener" onclick="askAI(this)">✦ 원문 + Gemini 요약</a><a id="s-ct" class="cl" target="_blank" rel="noopener" onclick="askAI(this)">✦ 원문 + Gemini 번역</a></div>
   <div class="s-close"><button onclick="closeSheet()">닫기</button></div>
-  <div id="s-cnote" class="s-cnote">Gemini 버튼을 누르면 요청 문장이 복사되고 Gemini가 열려요. 입력창을 길게 눌러 붙여넣기 → 보내기</div>
+  <div id="s-cnote" class="s-cnote">✦ 버튼: 요청 문장이 복사되고 원문이 열려요 → 측면 버튼을 길게 눌러 Gemini → 붙여넣기 → 보내기 (화면의 기사를 읽고 답해요)</div>
 <div id="toast" hidden></div>
 </div>
 <script id="data" type="application/json">__DATA__</script>
@@ -1023,25 +1023,23 @@ document.addEventListener('click', function(e){
   $('s-sum').textContent = sm || '이 기사는 요약을 가져오지 못했어요. (사이트가 자동 접속을 막았거나 아직 준비 중)';
   $('s-sum').className = 's-sum' + (sm ? '' : ' empty');
   $('s-go').href = c.href;
-  // 외국어 기사면 Claude 버튼 보이기 (한국어 기사는 숨김)
+  // 외국어 기사면 ✦ Gemini 버튼 보이기 (한국어 기사는 숨김)
   var foreign = !!o;
   $('s-cs').hidden = $('s-ct').hidden = $('s-cnote').hidden = !foreign;
   if(foreign){
-    var info = '제목: ' + o.textContent + '\\n출처: ' + (c.dataset.so || '') + '\\n링크: ' + c.href +
-               (sm ? '\\n(참고용 짧은 소개: ' + sm + ')' : '');
-    var tail = '\\n\\n링크의 기사를 직접 열어서 읽고 답해 줘. 유료 구독 등으로 본문을 열 수 없으면 그렇다고 먼저 말하고, 확인 가능한 정보만으로 답해 줘.';
-    $('s-cs').href = aiLink('아래 해외 기사를 한국어로 요약해 줘. 핵심 내용 3~5줄, 그리고 투자자 입장에서 중요한 숫자와 의미를 짧게 정리해 줘.\\n\\n' + info + tail);
-    $('s-ct').href = aiLink('아래 해외 기사의 내용을 처음부터 끝까지 순서대로, 빠지는 내용 없이 자연스러운 한국어로 자세히 옮겨 줘. 전문 용어는 한국에서 쓰는 표현으로 바꾸고 필요하면 괄호로 원어를 적어 줘.\\n\\n' + info + tail);
+    // 원문을 열고, Gemini 가 '지금 화면'의 기사를 읽고 답하도록 요청 문장만 복사
+    $('s-cs').href = $('s-ct').href = c.href;
+    $('s-cs').dataset.q = '지금 화면에 보이는 기사를 읽고 한국어로 요약해 줘. 핵심 내용 3~5줄, 그리고 투자자 입장에서 중요한 숫자와 의미를 짧게 정리해 줘.';
+    $('s-ct').dataset.q = '지금 화면에 보이는 기사를 처음부터 끝까지 자연스러운 한국어로 번역해 줘. 화면에 안 보이는 아래 내용이 있으면 이어서 번역할 수 있게 알려 줘. 전문 용어는 한국에서 쓰는 표현으로 바꾸고 필요하면 괄호로 원어를 적어 줘.';
   }
   $('dim').hidden = false; $('sheet').hidden = false; $('sheet').scrollTop = 0;
   document.body.style.overflow = 'hidden';
 });
-// Gemini 로 열기: 요청 문장을 복사해 두고 Gemini 를 엶 (자동 입력이 되는 환경이면 바로 입력돼 있음)
-function aiLink(prompt){ return 'https://gemini.google.com/app?q=' + encodeURIComponent(prompt); }
+// ✦ 버튼: Gemini 요청 문장을 복사하고 원문을 엶 → 원문 화면에서 Gemini 를 불러 붙여넣기
 function askAI(a){
-  var q = decodeURIComponent((a.href.split('?q=')[1] || ''));
+  var q = a.dataset.q || '';
   try { if(navigator.clipboard) navigator.clipboard.writeText(q); } catch(e){}
-  toast('요청 문장을 복사했어요 · Gemini 입력창에 붙여넣고 보내세요');
+  toast('요청 문장을 복사했어요 · 원문에서 측면 버튼 길게 → Gemini → 붙여넣기');
   setTimeout(closeSheet, 50);
 }
 function toast(msg){ var t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(function(){ t.hidden = true; }, 4000); }
