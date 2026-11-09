@@ -609,6 +609,27 @@
 "time": "11/10 08:11",
 "run": "breaking",
 "added": 1794267034
+},
+{
+"key": "속보nhn3분기영업익588억전년比1126증가",
+"keys": [
+"속보nhn3분기영업익588억전년比1126증가"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] NHN 3분기 영업익 588억…전년比 112.6% 증가",
+"show": "[속보] NHN 3분기 영업익 588억…전년比 112.6% 증가",
+"source": "한국경제",
+"src_url": "https://www.hankyung.com",
+"sum": "AI 추천 뉴스 [속보] NHN 3분기 영업익 588억…전년比 112.6% 증가 [속보] NHN 3분기 영업익 588억…전년比 112.6% 증가 이정우 한경닷컴 기자 krse9059@hankyung.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mX0RwOUZ0TzNxRmlaMkxFQjJKbmRSM0Y2aUFMSk40U3FZS1o3dHVxbU9iNVFKVGNnakdsLVlkVV9lR1B6WE92WENrcE5xRERnTUVlMGotVTdPZw?oc=5",
+"url": "https://www.hankyung.com/article/2026111064887",
+"pub": 1794267330.0,
+"time": "11/10 08:35",
+"run": "breaking",
+"added": 1794267754
 }
 ],
 "seen": {
@@ -772,6 +793,7 @@
 "nvidiaceoisincongresssightsafterspyscandal": 1794267035.3367903,
 "everythingweknowsofaraboutthenvidiaspyscandaltargetingceojensenhuang": 1794267035.3367953,
 "ashortsellerflaggednvidiaceostiestoasuspectedchinesespysixmonthsbeforethescandal": 1794267035.336797,
-"atimelineofnvidiaceojensenhuangssuspectedspydrama": 1794267035.3367975
+"atimelineofnvidiaceojensenhuangssuspectedspydrama": 1794267035.3367975,
+"속보nhn3분기영업익588억전년比1126증가": 1794267754.2535424
 }
 }
