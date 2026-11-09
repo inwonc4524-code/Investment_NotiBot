@@ -271,6 +271,14 @@ def load_sources():
 _AUTO = load_sources().get("auto", {})
 
 
+# 언론사 사이트 안의 보도자료 코너 등 (원문 주소로 확인)
+PR_URL = re.compile(r"[?&]g=prt\b|prtimes\.|prnewswire|businesswire|globenewswire|newswire\.|/press-?release", re.I)
+
+
+def is_pr(url):
+    return bool(url and PR_URL.search(url))
+
+
 def is_blocked(source, url=""):
     s = (source or "").lower() + " " + _domain(url)
     return any(b in s for b in BLOCKED)
@@ -1122,6 +1130,10 @@ def _breaking_round(data, seen, region, words, theme, mark, min_src, max_new, pu
         cnt = n_sources(g)
         show = translate_ko(rep["title"])
         real = decode_gnews(rep["link"]) or rep["link"]
+        if is_pr(real):                     # 보도자료는 속보가 아님
+            for k in keys:
+                seen[k] = time.time()
+            continue
         summ = fetch_summary(real)
         pub = rep["published"]
         item = {"key": keys[0], "keys": keys[:60], "count": cnt, "theme": theme, "rk": region["key"],
@@ -1221,6 +1233,10 @@ def update_auto(sc):
 def clean_news(news):
     """같은 원문 주소 중복 제거 + 사이트 소개문 같은 엉터리 요약 지우기"""
     out, by_url = [], {}
+    pr = sum(1 for n in news if is_pr(n.get("url")))
+    news = [n for n in news if not is_pr(n.get("url"))]
+    if pr:
+        print(f"정리: 보도자료 {pr}건 제외")
     for n in sorted(news, key=lambda n: (-n.get("count", 1), n["pub"])):
         u = n.get("url")
         if u and u in by_url:
