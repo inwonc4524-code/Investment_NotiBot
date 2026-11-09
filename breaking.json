@@ -427,6 +427,27 @@
 "time": "11/09 23:35",
 "run": "breaking",
 "added": 1794235798
+},
+{
+"key": "快訊黃仁勳認外遇美科技股狂歡唯輝達大跌8",
+"keys": [
+"快訊黃仁勳認外遇美科技股狂歡唯輝達大跌8"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "快訊／黃仁勳認外遇！美科技股狂歡「唯輝達大跌8%」",
+"show": "뉴스/황런순(Huang Renxun)이 불륜을 인정했습니다!美 기술주 카니발 '웨이후이다 8% 급락'",
+"source": "TVBS新聞網",
+"src_url": "https://news.tvbs.com.tw",
+"sum": "NVIDIA CEO Jen-Hsun Huang이 혼외정사에 연루되어 회사 주가에 영향을 미쳤습니다! 오늘(9일) 대만 시간 저녁 블룸버그통신에 따르면 젠쉰 황은 중국 간첩 혐의로 기소된 여성 앨리스 황과 혼외 관계를 가졌다고 인정했다. 이 소식은 미중 기술 경쟁이 심화될 것이라는 시장의 우려를 불러일으켰습니다. 미국 주식은 개장 당시 Huida(NVDA.O)가 8.4% 하락하며 3월 이후 최저치를 기록했습니다.",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQUWVWT045UWZUS0NvSzhXYVJETmxORkxnODRVbVFpbV9ES2VjazVvNGVKam8wc1hnc2gzZVZDQjJFYWQ5MWQwRzdUNTFqYzQ?oc=5",
+"url": "https://news.tvbs.com.tw/money/4048174",
+"pub": 1794235080.0,
+"time": "11/09 23:38",
+"run": "breaking",
+"added": 1794236550
 }
 ],
 "seen": {
@@ -513,6 +534,7 @@
 "巴凱銀行香港分行與歐亞開發銀行簽署合作備忘錄202820261109即時財經新聞": 1794231453.5088553,
 "nvidiasharesplummetafterhuanginvestigation": 1794233632.444492,
 "nvidiasharesplungeover5asjensenhuangsaffairwithsuspectedchinesespysparksboardpro": 1794233632.4444923,
-"속보뉴욕증시상승개장불륜간첩스캔들엔비디아7하락출발": 1794235798.9729044
+"속보뉴욕증시상승개장불륜간첩스캔들엔비디아7하락출발": 1794236544.6867511,
+"快訊黃仁勳認外遇美科技股狂歡唯輝達大跌8": 1794236550.802878
 }
 }
