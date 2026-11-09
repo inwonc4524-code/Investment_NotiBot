@@ -91,6 +91,51 @@
 "time": "11/09 15:06",
 "run": "breaking",
 "added": 1794205984
+},
+{
+"key": "원달러환율95원내린13471원머니투데이",
+"keys": [
+"원달러환율95원내린13471원머니투데이",
+"원달러환율95원내린13471원",
+"속보원달러환율95원내린13471원",
+"속보원달러환율95원내린13471원마감"
+],
+"count": 4,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 원·달러 환율, 9.5원 내린 1347.1원",
+"show": "[속보] 원·달러 환율, 9.5원 내린 1347.1원",
+"source": "Chosunbiz",
+"src_url": "https://biz.chosun.com",
+"sum": "입력 2026.11.09. 15:35업데이트 2026.11.09. 15:43 조선비즈 구글 검색 먼저 보기 서울 중구 하나은행 위변조대응센터에서 직원이 달러를 정리하고 있다. /연합뉴스 미 달러화 대비 원화 환율(원·달러 환율)은 9일 오후 3시 30분 1347.1원으로 주간 거래를 마쳤다. 직전 거래일 주간 종가보다 9.5원(0.7%) 내렸다. 지난 6일 한 달 만에 가장 높은 수준인 1350원대를 기록했지만 한 달 만에 1340원대로 내려간 것이다.",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONFBWS2tQUWlDZzFPM3o0a0xvSHFadGtFZ0VNZTd0T19ja2dvOEJyVTlVdlZBUmlRM3paQ0wwVHd2Yk1pTDV1NHRsaUZ3STlvZE9YUkpCSEtxY1B4dW5td2tJblNpYkwwUVdKUUMxc1d6VjQxRUNwYzNuRlBCY1JWRVBUamNEQdIBmgFBVV95cUxQMmdMWXV1MnV6ajBPbkxBY1NHcllOWGtBV2lzVjl3TVJfZjlvTFZsT0JwUjR5eFlXSVlpTXQyeENBS216TGd0ekgyZW9CeG9iQkh2SHFSMnh1eDd1TGlGVkFXMFJKbGZlNkdmMXIyamVCeXAzejJpdDFJZTdHN29oYkRIYUd6WlBRZjNpVkVXTjJwRDhocE8yZlZR?oc=5",
+"url": "https://biz.chosun.com/policy/policy_sub/2026/11/09/ABU77S6BTZGXDLIBDUPBUE4VMI/",
+"pub": 1794206100.0,
+"time": "11/09 15:35",
+"run": "breaking",
+"added": 1794206711
+},
+{
+"key": "속보장중2대반등했던코스피결국08하락5000피는사수",
+"keys": [
+"속보장중2대반등했던코스피결국08하락5000피는사수"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 장중 2%대 반등했던 코스피, 결국 0.8% 하락…5000피는 사수",
+"show": "[속보] 장중 2%대 반등했던 코스피, 결국 0.8% 하락…5000피는 사수",
+"source": "한국경제",
+"src_url": "https://www.hankyung.com",
+"sum": "AI 추천 뉴스 [속보] 장중 2%대 반등했던 코스피, 결국 0.8% 하락…5000피는 사수 [속보] 장중 2%대 반등했던 코스피, 결국 0.8% 하락…5000피는 사수 신용현 한경닷컴 기자 yonghyun@hankyung.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxcUltdE16QUR2am5VVEtaUklwY2VMcHhHaEhaVWhTNnlkV3NHUmhpYnVwRUdFWjRjakMyYVpna2wydEhGYTFrek13dU1TQ29ZVFlrTGdac2xoZw?oc=5",
+"url": "https://www.hankyung.com/article/2026110953477",
+"pub": 1794206182.0,
+"time": "11/09 15:36",
+"run": "breaking",
+"added": 1794206712
 }
 ],
 "seen": {
@@ -103,6 +148,11 @@
 "台股漲196006點": 1794205984.066246,
 "台股收盤國安基金救市台股大漲1960點權值股齊揚": 1794205984.066247,
 "台股收盤大漲196006點收416617點台積電收2235元漲468ai人機協作證券": 1794205984.066248,
-"台股收盤大漲1960點台積電殺尾新台幣反貶逾1角專家揭警訊財經": 1794205984.0662482
+"台股收盤大漲1960點台積電殺尾新台幣反貶逾1角專家揭警訊財經": 1794205984.0662482,
+"원달러환율95원내린13471원머니투데이": 1794206711.2450328,
+"원달러환율95원내린13471원": 1794206711.2450342,
+"속보원달러환율95원내린13471원": 1794206711.2450345,
+"속보원달러환율95원내린13471원마감": 1794206711.2450347,
+"속보장중2대반등했던코스피결국08하락5000피는사수": 1794206712.1668124
 }
 }
