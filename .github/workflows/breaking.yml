@@ -1,14 +1,18 @@
 name: 미국 속보 알림
 
 # GitHub 의 15분 예약 실행은 실제로는 45~60분 간격으로만 돌아서,
-# 1시간마다 한 번 시작해서 그 안에서 12분 간격으로 5번 확인하는 방식으로 바꿈.
+# 1시간마다 한 번 시작해서 그 안에서 12분 간격으로 5번 확인하는 방식.
 on:
   schedule:
     # 시간은 UTC 기준 (한국시간 = UTC + 9시간)
-    # 미국 프리마켓~애프터마켓 시간대(한국 18:00 ~ 다음날 11:00)
-    - cron: "3 9-23 * * 1-5"   # 미국 월~금
-    - cron: "3 0-1 * * 2-6"    # (UTC 자정 넘어가는 시간)
+    # 미국 속보 + 해외(아시아·세계) 속보를 함께 확인하므로 평일 하루 종일 1시간마다 시작
+    - cron: "3 * * * 1-5"      # 한국 월 09시 ~ 토 08시
+    - cron: "3 0-1 * * 6"      # 한국 토 09~10시 (미국 금요일 장 마감 직후)
   workflow_dispatch:           # 직접 실행 버튼
+    inputs:
+      rounds:
+        description: "몇 번 확인할지 (기본 5번, 12분 간격)"
+        default: "5"
   push:                        # 속보 설정을 고치면 바로 한 번 실행
     branches: [main]
     paths:
@@ -34,14 +38,15 @@ jobs:
 
       - run: pip install requests trafilatura
 
-      - name: 12분 간격으로 5번 속보 확인
+      - name: 12분 간격으로 여러 번 속보 확인
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          ROUNDS: ${{ inputs.rounds || '5' }}
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          for i in 1 2 3 4 5; do
-            echo "===== 확인 $i/5 ($(TZ=Asia/Seoul date '+%H:%M'))"
+          for i in $(seq 1 "$ROUNDS"); do
+            echo "===== 확인 $i/$ROUNDS ($(TZ=Asia/Seoul date '+%H:%M'))"
             git pull -q --rebase origin main || true
             python news_bot.py breaking || echo "확인 중 오류 (다음 회차에 다시 시도)"
             git add breaking.json
@@ -52,5 +57,5 @@ jobs:
                 sleep 5
               done
             fi
-            if [ "$i" -lt 5 ]; then sleep 720; fi
+            if [ "$i" -lt "$ROUNDS" ]; then sleep 720; fi
           done

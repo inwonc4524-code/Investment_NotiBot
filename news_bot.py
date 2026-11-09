@@ -28,6 +28,7 @@ import requests
 #    en   : 미국·세계 뉴스 검색어 (영어)
 #    zh   : 홍콩·대만 뉴스 검색어 (중국어 번체)
 #    ja   : 일본 뉴스 검색어 (일본어)   ※ 싱가포르는 영어(en) 검색어를 씀
+#    cn   : 중국 뉴스 검색어 (중국어 간체)
 #    검색어는 여러 개 넣을 수 있고, 하나라도 들어간 기사를 찾습니다.
 #    etfs : 이 테마와 연결된 내 ETF (알림 맨 위에 표시)
 # ─────────────────────────────────────────────
@@ -37,49 +38,56 @@ THEMES = [
      "kr": ["S&P500", "뉴욕증시", "미국 증시", "연준 금리"],
      "en": ["S&P 500", "Wall Street stocks", "Federal Reserve rate", "US stock market"],
      "zh": ["美股", "標普500", "聯準會", "美聯儲", "華爾街"],
-     "ja": ["米国株", "S&P500", "米連邦準備制度", "FRB 利下げ", "ウォール街", "ナスダック"]},
+     "ja": ["米国株", "S&P500", "米連邦準備制度", "FRB 利下げ", "ウォール街", "ナスダック"],
+     "cn": ["美股", "标普500", "美联储", "华尔街", "纳斯达克"]},
     {"name": "🧬 나스닥 바이오",
      "etfs": "TIGER 미국나스닥바이오",
      "kr": ["나스닥 바이오", "미국 바이오주", "바이오 ETF", "FDA 승인"],
      "en": ["biotech stocks", "Nasdaq Biotechnology", "IBB ETF", "XBI", "FDA approval"],
      "zh": ["生技股", "生物科技股", "納斯達克生技", "FDA 批准"],
-     "ja": ["バイオ株", "米バイオテック", "創薬ベンチャー", "FDA 承認"]},
+     "ja": ["バイオ株", "米バイオテック", "創薬ベンチャー", "FDA 承認"],
+     "cn": ["生物科技股", "美国生物医药", "创新药", "FDA 批准"]},
     {"name": "🔋 2차전지",
      "etfs": "TIGER 2차전지테마 · KODEX 2차전지산업 · TIGER 2차전지소재Fn",
      "kr": ["2차전지", "이차전지", "LG에너지솔루션", "에코프로비엠", "포스코퓨처엠", "양극재", "리튬 가격"],
      "en": ["EV battery", "lithium price", "battery makers", "CATL", "cathode materials"],
      "zh": ["電池股", "鋰電池", "寧德時代", "鋰價", "正極材料"],
-     "ja": ["車載電池", "リチウムイオン電池", "電池メーカー", "リチウム価格", "正極材"]},
+     "ja": ["車載電池", "リチウムイオン電池", "電池メーカー", "リチウム価格", "正極材"],
+     "cn": ["动力电池", "锂电池", "宁德时代", "碳酸锂 价格", "正极材料"]},
     {"name": "⚡ 전고체배터리·ESS",
      "etfs": "KODEX 전고체배터리ESS TOP2플러스",
      "kr": ["전고체 배터리", "전고체 전지", "ESS 배터리", "에너지저장장치", "삼성SDI 전고체"],
      "en": ["solid-state battery", "energy storage system", "ESS battery", "grid-scale storage"],
      "zh": ["固態電池", "全固態電池", "儲能", "儲能系統"],
-     "ja": ["全固体電池", "蓄電池", "蓄電システム", "系統用蓄電池"]},
+     "ja": ["全固体電池", "蓄電池", "蓄電システム", "系統用蓄電池"],
+     "cn": ["固态电池", "全固态电池", "储能", "储能系统"]},
     {"name": "🏭 AI 전력",
      "etfs": "ACE 코리아AI전력TOP10",
      "kr": ["AI 전력", "전력기기", "변압기 수출", "HD현대일렉트릭", "효성중공업", "LS ELECTRIC", "두산에너빌리티"],
      "en": ["AI power demand", "data center power", "transformer shortage", "power grid investment"],
      "zh": ["AI 電力", "重電股", "變壓器", "資料中心 電力", "電網"],
-     "ja": ["データセンター 電力", "AI 電力需要", "変圧器", "送電網", "重電株"]},
+     "ja": ["データセンター 電力", "AI 電力需要", "変圧器", "送電網", "重電株"],
+     "cn": ["AI 电力", "变压器", "数据中心 电力", "电网 投资", "算力 电力"]},
     {"name": "🤖 로봇",
      "etfs": "",
      "kr": ["로봇 관련주", "휴머노이드", "레인보우로보틱스", "두산로보틱스", "로봇 ETF", "협동로봇"],
      "en": ["humanoid robot", "robotics stocks", "Tesla Optimus", "BOTZ ETF", "Figure AI", "industrial robots"],
      "zh": ["人形機器人", "機器人概念股", "機器人股", "優必選"],
-     "ja": ["ヒューマノイド", "ロボット株", "産業用ロボット", "ファナック", "安川電機"]},
+     "ja": ["ヒューマノイド", "ロボット株", "産業用ロボット", "ファナック", "安川電機"],
+     "cn": ["人形机器人", "机器人概念股", "工业机器人", "优必选", "宇树科技"]},
 ]
 
 # ─────────────────────────────────────────────
 # 2) 어느 지역 뉴스를 볼지
 #    필요 없는 지역은 줄 앞에 # 을 붙이면 꺼집니다.
 # ─────────────────────────────────────────────
-REGIONS = [
+REGIONS = [   # 이 순서대로 국가 버튼이 보여요
     {"key": "kr", "label": "🇰🇷 한국", "words": "kr", "hl": "ko", "gl": "KR", "ceid": "KR:ko"},
     {"key": "us", "label": "🇺🇸 미국", "words": "en", "hl": "en-US", "gl": "US", "ceid": "US:en"},
-    {"key": "jp", "label": "🇯🇵 일본", "words": "ja", "hl": "ja", "gl": "JP", "ceid": "JP:ja"},
-    {"key": "hk", "label": "🇭🇰 홍콩", "words": "zh", "hl": "zh-HK", "gl": "HK", "ceid": "HK:zh-Hant"},
+    {"key": "cn", "label": "🇨🇳 중국", "words": "cn", "hl": "zh-CN", "gl": "CN", "ceid": "CN:zh-Hans"},
     {"key": "tw", "label": "🇹🇼 대만", "words": "zh", "hl": "zh-TW", "gl": "TW", "ceid": "TW:zh-Hant"},
+    {"key": "hk", "label": "🇭🇰 홍콩", "words": "zh", "hl": "zh-HK", "gl": "HK", "ceid": "HK:zh-Hant"},
+    {"key": "jp", "label": "🇯🇵 일본", "words": "ja", "hl": "ja", "gl": "JP", "ceid": "JP:ja"},
     {"key": "sg", "label": "🇸🇬 싱가포르", "words": "en", "hl": "en-SG", "gl": "SG", "ceid": "SG:en"},
     {"key": "world", "label": "🌍 세계", "words": "en", "hl": "en-GB", "gl": "GB", "ceid": "GB:en"},
 ]
@@ -139,6 +147,13 @@ TRUSTED = {
         "經濟日報", "hket.com", "信報", "hkej.com", "香港電台", "RTHK", "rthk.hk",
         "星島", "stheadline.com", "now新聞", "news.now.com", "TVB", "無綫新聞", "tvb.com",
         "經濟通", "etnet", "etnet.com.hk", "AASTOCKS", "aastocks.com", "香港01", "hk01.com",
+    ],
+    "cn": [
+        "财新", "Caixin", "caixin.com", "第一财经", "yicai.com", "证券时报", "stcn.com", "中国证券报", "cs.com.cn",
+        "上海证券报", "cnstock.com", "21世纪经济报道", "21jingji.com", "经济观察", "eeo.com.cn",
+        "界面新闻", "jiemian.com", "澎湃新闻", "thepaper.cn", "每日经济新闻", "nbd.com.cn", "财联社", "cls.cn",
+        "新华社", "新华网", "xinhuanet.com", "news.cn", "人民日报", "人民网", "people.com.cn", "央视", "cctv.com",
+        "中国新闻网", "chinanews.com.cn", "36氪", "36kr.com",
     ],
     "jp": [
         "日本経済新聞", "日経", "nikkei.com", "NHK", "nhk.or.jp", "共同通信", "kyodonews.jp", "時事通信", "時事ドットコム", "jiji.com",
@@ -707,7 +722,7 @@ def _added(n):
 def _pack(n, rkey):
     """페이지에 넣을 기사 정보 (짧은 이름으로 줄여서 페이지를 가볍게)"""
     d = {"s": n["show"], "so": n.get("source", ""), "tm": n.get("time", ""), "c": n.get("count", 1),
-         "r": rkey.get(n["region"], "us"), "u": n.get("url") or n["link"], "p": int(n["pub"]), "a": _added(n)}
+         "r": n.get("rk") or rkey.get(n["region"], "us"), "u": n.get("url") or n["link"], "p": int(n["pub"]), "a": _added(n)}
     if n["show"] != n["title"]:
         d["t"] = n["title"]
     if n.get("sum"):
@@ -716,17 +731,18 @@ def _pack(n, rkey):
 
 
 def build_pages(news, run_id, updated):
-    by_theme = {BREAKING_NAME: []}
+    by_theme = {BREAKING_NAME: [], GLOBAL_BREAKING_NAME: []}
     by_theme.update({t["name"]: [] for t in THEMES})
     brk = sorted(load_breaking().get("items", []), key=lambda n: -n["pub"])
     rk = {r["label"]: r["key"] for r in REGIONS}
     news = [n for n in brk + list(news)
             if any(is_trusted(k, n.get("source", ""), n.get("src_url") or n.get("url", ""))
                    for k in (["us", "world"] if n.get("theme") == BREAKING_NAME else [rk.get(n["region"], "")]))]
+    brk_names = (BREAKING_NAME, GLOBAL_BREAKING_NAME)
     for n in news:
         by_theme.setdefault(n["theme"], []).append(n)
     etfs = {t["name"]: t.get("etfs", "") for t in THEMES}
-    etfs[BREAKING_NAME] = ""
+    etfs[BREAKING_NAME] = etfs[GLOBAL_BREAKING_NAME] = ""
     rkey = {r["label"]: r["key"] for r in REGIONS}
 
     # ① 예쁜 페이지 (GitHub Pages) — 탭을 눌러야 그 테마 뉴스가 보이고, 새 뉴스가 있으면 탭에 레드닷
@@ -734,15 +750,17 @@ def build_pages(news, run_id, updated):
         "updated": updated,
         "regions": [{"k": r["key"], "l": r["label"]} for r in REGIONS],
         "themes": [{"name": name,
-                    "note": ("미국장 시간에 12분마다 확인 · 여러 언론이 동시에 보도한 큰 소식"
-                             if name == BREAKING_NAME else (f"보유: {etfs[name]}" if etfs.get(name) else "")),
-                    "breaking": name == BREAKING_NAME,
+                    "note": ("평일 12분마다 확인 · 여러 언론이 동시에 보도한 큰 소식 · 휴대폰 알림"
+                             if name == BREAKING_NAME else
+                             "한국·중국·대만·홍콩·일본·싱가포르·세계 · 여러 언론이 동시에 보도했거나 언론사가 속보로 표시한 소식"
+                             if name == GLOBAL_BREAKING_NAME else (f"보유: {etfs[name]}" if etfs.get(name) else "")),
+                    "breaking": name in brk_names,
                     "items": [_pack(n, rkey) for n in items]}
                    for name, items in by_theme.items()],
         "auto": {r["label"]: v for r in REGIONS for k, v in load_sources().get("auto", {}).items()
                  if k == r["key"] and v},
         "breaking_url": f"https://raw.githubusercontent.com/{REPO}/main/breaking.json",
-        "breaking_label": BREAKING_NAME, "show": SHOW_PER_THEME,
+        "show": SHOW_PER_THEME,
     }
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     html = """<!DOCTYPE html>
@@ -900,18 +918,21 @@ function more(){ S.shown += 20; renderMain(); }
 function less(){ S.shown = D.show; renderMain(); window.scrollTo(0, 0); }
 $('upd').textContent = '업데이트 ' + D.updated + ' · 탭을 눌러 테마별 뉴스 보기';
 
-// 🚨 미국 속보는 페이지를 새로 올리지 않아도 최신 내용을 바로 가져옴
-var BI = D.themes.findIndex(function(t){ return t.breaking; });
+// 🚨 미국 속보 · 🌏 해외 속보는 페이지를 새로 올리지 않아도 최신 내용을 바로 가져옴
 function refreshBreaking(){
-  if(BI < 0 || !window.fetch) return;
+  if(!window.fetch) return;
   fetch(D.breaking_url + '?t=' + Date.now(), {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(b){
-    var items = (b.items || []).map(function(n){
-      var d = {s:n.show, so:n.source||'', tm:n.time||'', c:n.count||1, r:'us', u:n.url||n.link, p:Math.floor(n.pub), a:Math.floor(n.added||n.pub)};
-      if(n.show !== n.title) d.t = n.title; if(n.sum) d.su = n.sum; return d;
+    var all = b.items || [];
+    D.themes.forEach(function(t, i){
+      if(!t.breaking) return;
+      var items = all.filter(function(n){ return n.theme === t.name; }).map(function(n){
+        var d = {s:n.show, so:n.source||'', tm:n.time||'', c:n.count||1, r:n.rk||'us', u:n.url||n.link, p:Math.floor(n.pub), a:Math.floor(n.added||n.pub)};
+        if(n.show !== n.title) d.t = n.title; if(n.sum) d.su = n.sum; return d;
+      });
+      if(!items.length && t.items.length) return;
+      t.items = items;
+      if(S.tab === i){ S.seen[t.name] = Math.max(S.seen[t.name]||0, newest(t)); save('seen', S.seen); renderMain(); }
     });
-    if(!items.length && D.themes[BI].items.length) return;
-    D.themes[BI].items = items;
-    if(S.tab === BI){ S.seen[D.themes[BI].name] = Math.max(S.seen[D.themes[BI].name]||0, newest(D.themes[BI])); save('seen', S.seen); renderMain(); }
     renderTabs();
   }).catch(function(){});
 }
@@ -983,64 +1004,104 @@ def load_breaking():
         return {"items": [], "seen": {}}
 
 
-def check_breaking():
-    data = load_breaking()
-    seen = data.setdefault("seen", {})
+# ── 🌏 해외 속보 (한국·중국·대만·홍콩·일본·싱가포르·세계) ──
+GLOBAL_BREAKING_NAME = "🌏 해외 속보"
+GLOBAL_BREAKING_PUSH = False   # True 로 바꾸면 해외 속보도 휴대폰 알림 (기본은 탭에만 쌓임)
+GLOBAL_BREAKING_MAX = 3        # 한 번 확인할 때 지역마다 최대 몇 개까지
+# 지역별 시장 검색어
+GLOBAL_BREAKING_WORDS = {
+    "kr": ["코스피", "코스닥", "증시", "환율", "한국은행", "반도체"],
+    "cn": ["A股", "股市", "人民币", "央行", "沪指"],
+    "tw": ["台股", "加權指數", "台積電", "央行", "新台幣"],
+    "hk": ["港股", "恒指", "恒生指數", "港元"],
+    "jp": ["日経平均", "株式市場", "日銀", "円相場", "東証"],
+    "sg": ["Singapore stocks", "STI", "MAS", "Singapore dollar", "SGX"],
+    "world": ["global markets", "European stocks", "ECB", "oil prices", "China economy"],
+}
+# 언론사가 제목에 직접 속보라고 단 경우 (나라별 표기)
+GLOBAL_BREAKING_MARK = re.compile(r"\[속보\]|【速報】|速報|快訊|快讯|突發|突发|即時|\bbreaking\b|\bjust in\b", re.I)
+
+
+def _topic_url(region):
+    return (f"https://news.google.com/rss/headlines/section/topic/BUSINESS"
+            f"?hl={region['hl']}&gl={region['gl']}&ceid={region['ceid']}")
+
+
+def _breaking_round(data, seen, region, words, theme, mark, min_src, max_new, push):
+    """한 지역의 최근 90분 기사에서 속보를 골라 data 에 추가. 새로 추가한 개수를 돌려줌"""
     now = datetime.now(timezone.utc)
     since = now - timedelta(minutes=BREAKING_WINDOW_MIN)
+    trust_keys = ["us", "world"] if region["key"] == "us" else [region["key"]]
     items = []
-    for url in (BREAKING_TOPIC, search_url(US, BREAKING_WORDS, when="1h")):
+    for url in (_topic_url(region), search_url(region, words, when="1h")):
         try:
             r = requests.get(url, headers=HEADERS, timeout=30)
             r.raise_for_status()
             items += parse_rss(r.text)
         except Exception as e:
-            print(f"  ! 속보 가져오기 실패: {e}")
+            print(f"  ! {region['label']} 속보 가져오기 실패: {e}")
     uniq = {}
     for it in items:
         k = title_key(it["title"])
         if (k and it["published"] and it["published"] >= since and not EXCLUDE.search(it["title"])
-                and (is_trusted("us", it["source"], it["src_url"]) or is_trusted("world", it["source"], it["src_url"]))):
+                and any(is_trusted(t, it["source"], it["src_url"]) for t in trust_keys)):
             uniq.setdefault(k + (it["source"] or ""), it)
     items = sorted(uniq.values(), key=lambda x: x["published"], reverse=True)
     groups = cluster(items)
-    cands = [g for g in groups if n_sources(g) >= BREAKING_MIN_SOURCES
-             or any(BREAKING_MARK.search(m["title"]) for m in g)]
+    cands = [g for g in groups if n_sources(g) >= min_src or any(mark.search(m["title"]) for m in g)]
     cands.sort(key=lambda g: (n_sources(g), g[0]["published"]), reverse=True)
-    print(f"속보 확인: 최근 {BREAKING_WINDOW_MIN}분 기사 {len(items)}건 → 소식 {len(groups)}개 → 속보 후보 {len(cands)}개")
+    print(f"  {region['label']}: 최근 {BREAKING_WINDOW_MIN}분 기사 {len(items)}건 → 소식 {len(groups)}개 → 속보 후보 {len(cands)}개")
 
-    recent = [x for x in data["items"] if x["pub"] >= time.time() - 12 * 3600]
-    alerts = 0
+    recent = [x for x in data["items"] if x.get("theme") == theme and x["pub"] >= time.time() - 12 * 3600]
+    added = 0
     for g in cands:
         keys = list(dict.fromkeys(title_key(m["title"]) for m in g))
         if any(k in seen for k in keys) or any(same_story(g[0]["title"], x["title"]) for x in recent):
             for k in keys:
                 seen[k] = time.time()
             continue
-        if alerts >= BREAKING_MAX_ALERTS:
+        if added >= max_new:
             break
-        rep = next((m for m in g if BREAKING_MARK.search(m["title"])), g[0])
+        rep = next((m for m in g if mark.search(m["title"])), g[0])
         cnt = n_sources(g)
         show = translate_ko(rep["title"])
         real = decode_gnews(rep["link"]) or rep["link"]
         summ = fetch_summary(real)
         pub = rep["published"]
-        item = {"key": keys[0], "keys": keys[:60], "count": cnt, "theme": BREAKING_NAME,
-                "region": US["label"], "title": rep["title"], "show": show, "source": rep["source"],
+        item = {"key": keys[0], "keys": keys[:60], "count": cnt, "theme": theme, "rk": region["key"],
+                "region": region["label"], "title": rep["title"], "show": show, "source": rep["source"],
                 "src_url": rep.get("src_url", ""), "sum": translate_ko(summ) if summ else "",
                 "link": rep["link"], "url": real, "pub": pub.timestamp(),
                 "time": pub.astimezone(KST).strftime("%m/%d %H:%M"), "run": "breaking",
                 "added": int(time.time())}
-        meta = " · ".join(x for x in [rep["source"], item["time"], f"언론 {cnt}곳" if cnt > 1 else ""] if x)
-        if notify(f"🚨 미국 속보", f"{show}\n{meta}", click=real,
-                  tags=["rotating_light"], priority=4):
-            data["items"].append(item)
-            recent.append(item)
-            for k in keys:
-                seen[k] = time.time()
-            alerts += 1
-            print(f"  🚨 {show}")
+        if push:
+            meta = " · ".join(x for x in [rep["source"], item["time"], f"언론 {cnt}곳" if cnt > 1 else ""] if x)
+            label = "🚨 미국 속보" if region["key"] == "us" else f"🌏 {region['label']} 속보"
+            if not notify(label, f"{show}\n{meta}", click=real, tags=["rotating_light"], priority=4):
+                continue   # 알림 실패 → 다음 확인 때 다시 시도
             time.sleep(1)
+        data["items"].append(item)
+        recent.append(item)
+        for k in keys:
+            seen[k] = time.time()
+        added += 1
+        print(f"    {'🚨' if push else '•'} {show}")
+    return added
+
+
+def check_breaking():
+    data = load_breaking()
+    seen = data.setdefault("seen", {})
+    print("속보 확인:")
+    us_new = _breaking_round(data, seen, US, BREAKING_WORDS, BREAKING_NAME, BREAKING_MARK,
+                             BREAKING_MIN_SOURCES, BREAKING_MAX_ALERTS, push=True)
+    gl_new = 0
+    for region in REGIONS:
+        if region["key"] == "us" or region["key"] not in GLOBAL_BREAKING_WORDS:
+            continue
+        gl_new += _breaking_round(data, seen, region, GLOBAL_BREAKING_WORDS[region["key"]], GLOBAL_BREAKING_NAME,
+                                  GLOBAL_BREAKING_MARK, BREAKING_MIN_SOURCES, GLOBAL_BREAKING_MAX,
+                                  push=GLOBAL_BREAKING_PUSH)
 
     cutoff = time.time() - PAGE_DAYS * 86400
     data["items"] = [x for x in data["items"] if x["pub"] >= cutoff]
@@ -1048,7 +1109,7 @@ def check_breaking():
     with open(BREAKING_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=0)
 
-    print(f"속보 알림 {alerts}건")
+    print(f"미국 속보 알림 {us_new}건 · 해외 속보 {gl_new}건 추가")
 
 
 def score_sources(region_key, raw_items, sc):
