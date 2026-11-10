@@ -1417,6 +1417,28 @@
 "time": "11/10 23:47",
 "run": "breaking",
 "added": 1794322963
+},
+{
+"key": "microsofttopsnvidiasmarketcapforfirsttimesincejune2025",
+"keys": [
+"microsofttopsnvidiasmarketcapforfirsttimesincejune2025",
+"microsofttopnvidiasmarketcapforfirsttimesincejune2025"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Microsoft tops Nvidia's market cap for first time since June 2025",
+"show": "마이크로소프트, 2025년 6월 이후 처음으로 엔비디아 시가총액 1위",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNGpwLVRZNGJRQ3diMmx2QnhNaERXa3RCdzR1MThDdk04TGprcXF5Z3djdXFrUnlPN25udC1qNU5BNVRhN2ZnWWd1dk5sR0lUN0FhdDR5dWFIeWZqQ2UwMGFFdmpvbkxFazJfNy1HTjR4aHZJN3ZRTnFmMFhvcm43YjRhYXB0a29LbllQYUFxNkY5WUZ1MlJ4U0tELVNTa3c3Vkl1YlJyOA?oc=5",
+"url": "https://www.reuters.com/business/microsoft-top-nvidias-market-cap-first-time-since-june-2025-2026-11-10/",
+"pub": 1794330670.0,
+"time": "11/11 02:11",
+"run": "breaking",
+"added": 1794333138
 }
 ],
 "seen": {
@@ -1834,6 +1856,8 @@
 "뉴욕증시cpi월러발언소화하며하락출발": 1794325149.6102061,
 "속보뉴욕증시예상웃돈美cpi에하락출발기술주압박": 1794325149.610207,
 "nvidiaceojensenhuangsaffairwithallegedchinesespyatimeline": 1794330955.454413,
-"nvidiaandjensenhuangfaceshareholderlawsuitoverallegedrelationshipwithsuspectedch": 1794330955.4544141
+"nvidiaandjensenhuangfaceshareholderlawsuitoverallegedrelationshipwithsuspectedch": 1794330955.4544141,
+"microsofttopsnvidiasmarketcapforfirsttimesincejune2025": 1794333139.813044,
+"microsofttopnvidiasmarketcapforfirsttimesincejune2025": 1794333139.8130481
 }
 }
