@@ -1463,6 +1463,50 @@
 "time": "11/11 04:24",
 "run": "breaking",
 "added": 1794338947
+},
+{
+"key": "fedsbowmanstillworktodotobringinflationcloserto2",
+"keys": [
+"fedsbowmanstillworktodotobringinflationcloserto2",
+"fedsbowmanpersistentinflationfirminglabormarketindicatetheresstillworktodo",
+"fedsbowmansaysstillworktodooninflation"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Fed’s Bowman: Still Work to Do to Bring Inflation Closer to 2%",
+"show": "Fed’s Bowman: Still Work to Do to Bring Inflation Closer to 2%",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRnJkMVFRd1dWT055SVFSQmhqNEJqV0NMeFZadEVpcVB2bFZCRkJlay1rRTRpSDM4LWFCNV9hYkl3Y1BCMUFkRTlXVmtlcnFjeHdPZWctVGJvWXFlSU1qYjRWWi1MT1VydVY1YnFjMndrZS1sOGtibWV3QmlPZ0N1OFNpdnJTU2U0R3RhQjVxdUJ2cE9KVV9CSVRxaEczX2F6bjJEYk9HVUlfNE5R?oc=5",
+"url": "https://www.wsj.com/pro/central-banking/feds-bowman-still-work-to-do-to-bring-inflation-closer-to-2-99dc553e",
+"pub": 1794344040.0,
+"time": "11/11 05:54",
+"run": "breaking",
+"added": 1794344766
+},
+{
+"key": "속보뉴욕증시인플레우려에일제히하락나스닥07",
+"keys": [
+"속보뉴욕증시인플레우려에일제히하락나스닥07"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보][뉴욕증시] 인플레 우려에 일제히 하락…나스닥, 0.7%↓",
+"show": "[속보][뉴욕증시] 인플레 우려에 일제히 하락…나스닥, 0.7%↓",
+"source": "파이낸셜뉴스",
+"src_url": "https://www.fnnews.com",
+"sum": "국제 국제경제 [속보][뉴욕증시] 인플레 우려에 일제히 하락…나스닥, 0.7%↓ 송경재 기자 파이낸셜뉴스 입력 2026.11.11 06:01 수정 2026.11.11 06:01 기사 듣기 구글 검색 선호 매체 추가 [파이낸셜뉴스] [email protected] 송경재 기자 ※ 저작권자 © 파이낸셜뉴스, 무단전재-재배포 금지 송경재 국제부 [email protected] [국제유가] 브렌트유, 장중 90달러 붕괴…91.49달러에 마감 2026-11-11 05:55 앤스로픽 창업자들, IPO로 24조원 챙기고 경영권도 지킨다",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XRnB4WHBVZTBycmx3QXBhQzl0ZHQ5MHJVR3Y1R1dvVEotaWZZVnBsdjVZOTZxOThDcUJiZmVfYXVDYXhycmJ3YXZVVUtrN3p6Q3BFZm5DRjQxdw?oc=5",
+"url": "https://www.fnnews.com/news/202611110600548589",
+"pub": 1794344481.0,
+"time": "11/11 06:01",
+"run": "breaking",
+"added": 1794344770
 }
 ],
 "seen": {
@@ -1886,6 +1930,10 @@
 "nvidiahiresformerusprosecutoratwachtelltoleadjensenhuangprobe": 1794339665.8604858,
 "nvidiahireslawfirmwachtellliptontoleadhuangaffairprobe": 1794339665.8604865,
 "nvidiahireslawfirmwachtellliptontoleadjensenhuangaffairprobe": 1794339665.8604867,
-"nvidiahireswachtellliptontoinvestigateceosaffairwithchineseexecutive": 1794339665.860487
+"nvidiahireswachtellliptontoinvestigateceosaffairwithchineseexecutive": 1794339665.860487,
+"fedsbowmanstillworktodotobringinflationcloserto2": 1794344767.7847784,
+"fedsbowmanpersistentinflationfirminglabormarketindicatetheresstillworktodo": 1794344767.7847831,
+"fedsbowmansaysstillworktodooninflation": 1794344767.784784,
+"속보뉴욕증시인플레우려에일제히하락나스닥07": 1794344770.010065
 }
 }
