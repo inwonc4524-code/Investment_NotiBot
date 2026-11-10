@@ -1304,6 +1304,52 @@
 "time": "11/10 20:33",
 "run": "breaking",
 "added": 1794312092
+},
+{
+"key": "jensenhuangsaffairwithallegedchinesespyfurthercomplicatesnvidiaschinaproblem",
+"keys": [
+"jensenhuangsaffairwithallegedchinesespyfurthercomplicatesnvidiaschinaproblem",
+"nvidiaceosaffairwithanallegedchinesespycouldbeaproblemfortheeconomy",
+"nvidiajensenhuangsuedbyshareholdersoverallegedtiestosuspectedchinesespy"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
+"show": "Jensen Huang과 중국 스파이 혐의와의 관계로 인해 Nvidia의 중국 문제가 더욱 복잡해졌습니다.",
+"source": "CNBC",
+"src_url": "https://www.cnbc.com",
+"sum": "Jensen Huang에 대한 혐의는 중국에 대한 칩 판매에 대한 미국 정책에 대한 Nvidia CEO의 잠재적 영향력에 새로운 관심을 불러일으켰습니다.",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MUldsMl9mWlZIdmo2ZUxRd3BPWHZJYzI5S3hHMmN5ZXFCdVhuc3V2ZEpVeHJNV0YzSUVsT1VQaDNXRml4Q0ZYb051SEhxYzZyT0tsanB3b05OUHpWNWtnRzRRQU5XTWttaHBrTnlwZUFheXQ2NVE?oc=5",
+"url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
+"pub": 1794312001.0,
+"time": "11/10 21:00",
+"run": "breaking",
+"added": 1794312813
+},
+{
+"key": "季配9元破紀錄台積電將砸320億入股openaianthropic",
+"keys": [
+"季配9元破紀錄台積電將砸320億入股openaianthropic",
+"台積電出手核准最高10億美元認購anthropicopenai股份",
+"台積電入股anthropic擬砸5億美元投資同步布局openai"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
+"show": "분기별 할당액 9위안 기록 경신, TSMC는 OpenAI, Anthropic에 투자하기 위해 320억 달러 지출 예정",
+"source": "中時新聞網",
+"src_url": "https://www.chinatimes.com",
+"sum": "웨이퍼파운드리 선두업체인 TSMC는 10일 이사회를 열고 2026년 3분기에 주당 9위안의 현금 배당금을 배정하기로 결정했다. 단일 분기 이익과 배당금 모두 새로운 역사적 상한선을 설정했다. 동시에 이사회는 최대 409억2000만 달러의 자본예산을 통과시켰고, 각자가 5억 달러를 넘지 않는 금액에 앤트로픽과 오픈AI의 지분을 인수하겠다고 발표했다. 합계",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RSnRrVFZjZ1h0ekV3aEZlM3Q5X2dJaU1Cd3BvMU95anUyWFlhRFR6cGNCYlROREZMVXBPZkk0cmJYYmJRbkh4RmJsclUyWDd6RkpfZTQ2VUIzcmRYU1dlUEthWnN0REhLazNTZjJR?oc=5",
+"url": "https://www.chinatimes.com/realtimenews/20261110004697-260410",
+"pub": 1794312507.0,
+"time": "11/10 21:08",
+"run": "breaking",
+"added": 1794312820
 }
 ],
 "seen": {
@@ -1694,6 +1740,12 @@
 "금융보안문지기금융보안원도해킹으로정보유출": 1794310629.7619853,
 "한은총재신현송국제결제은행cpmi의장선임지급결제국제기준수립주도": 1794312094.547961,
 "신현송한은총재bis지급위의장선임비서구권처음": 1794312094.5479622,
-"teslacybertruckisevpickupmarketslatestcasualty": 1794312094.1792707
+"teslacybertruckisevpickupmarketslatestcasualty": 1794312094.1792707,
+"jensenhuangsaffairwithallegedchinesespyfurthercomplicatesnvidiaschinaproblem": 1794312814.5440416,
+"nvidiaceosaffairwithanallegedchinesespycouldbeaproblemfortheeconomy": 1794312814.544046,
+"nvidiajensenhuangsuedbyshareholdersoverallegedtiestosuspectedchinesespy": 1794312814.544047,
+"季配9元破紀錄台積電將砸320億入股openaianthropic": 1794312820.721626,
+"台積電出手核准最高10億美元認購anthropicopenai股份": 1794312820.721627,
+"台積電入股anthropic擬砸5億美元投資同步布局openai": 1794312820.7216272
 }
 }
