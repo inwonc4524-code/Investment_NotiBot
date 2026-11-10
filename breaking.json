@@ -1184,6 +1184,29 @@
 "time": "11/10 17:41",
 "run": "breaking",
 "added": 1794300466
+},
+{
+"key": "fedswallerputshalfpointratehikeintothemixfordecember",
+"keys": [
+"fedswallerputshalfpointratehikeintothemixfordecember",
+"fedswallerplanstosupportatleastaquarterpointratehikeindecember",
+"fedgovernorwallerseesdecemberhikelikelyopensdoortopossiblehalfpointincrease"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Fed’s Waller puts half-point rate hike into the mix for December",
+"show": "연준 월러(Fed’s Waller), 12월 금리 인상에 0.5%포인트 인상 고려",
+"source": "MarketWatch",
+"src_url": "https://www.marketwatch.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQUJIeWdYUTVoMVRrQTYxRklXZ1IyWmp3VlFtajV3b0JHV1oxUkJhcGc1Q1EtV20yc0RyZnlwa2d2bmpPdFVTUEw3MmhHVmJyYWZEWmJMT0MwMGt6X0ZwN3hXbHRpQ1pybEhIX2tqSHRiUTVsX0Q4eWVXWXNNRHdKTVl0aXV4NlJDME4tb2xSdldtV2NCUHkyMmE4SUowb0Ffc05nWFp2V2dqdw?oc=5",
+"url": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc",
+"pub": 1794303900.0,
+"time": "11/10 18:45",
+"run": "breaking",
+"added": 1794304085
 }
 ],
 "seen": {
@@ -1549,6 +1572,9 @@
 "恒指全日升108點收報24557舜宇飆6滙控升4三桶油逆市跌": 1794301178.8837602,
 "恒指升108點終止兩連跌匯控升43航空股強勢三桶油逆市跌芯德首掛收漲28": 1794301178.8837605,
 "港股收市報24557點升108點": 1794301178.883761,
-"高息定存丨華僑推定存1個月港元利率最高55厘171620261110即時財經新聞": 1794302620.4675934
+"高息定存丨華僑推定存1個月港元利率最高55厘171620261110即時財經新聞": 1794304090.9608734,
+"fedswallerputshalfpointratehikeintothemixfordecember": 1794304086.793489,
+"fedswallerplanstosupportatleastaquarterpointratehikeindecember": 1794304086.7934926,
+"fedgovernorwallerseesdecemberhikelikelyopensdoortopossiblehalfpointincrease": 1794304086.7934937
 }
 }
