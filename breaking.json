@@ -1507,6 +1507,49 @@
 "time": "11/11 06:01",
 "run": "breaking",
 "added": 1794344770
+},
+{
+"key": "속보엔비디아쇼크빅스텝가능성에뉴욕증시하락마감",
+"keys": [
+"속보엔비디아쇼크빅스텝가능성에뉴욕증시하락마감",
+"속보뉴욕증시금리인상가능성에하락마감다우03"
+],
+"count": 2,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보]엔비디아 쇼크·'빅스텝' 가능성에 뉴욕증시 하락 마감",
+"show": "[속보]엔비디아 쇼크·'빅스텝' 가능성에 뉴욕증시 하락 마감",
+"source": "아시아경제",
+"src_url": "https://www.asiae.co.kr",
+"sum": "[속보]엔비디아 쇼크·'빅스텝' 가능성에 뉴욕증시 하락 마감 10일(현지시간) 미국의 3대 지수는 일제히 하락 마감했다. AD 이날 뉴욕증시에서 다우존스30산업평균지수(다우지수)는 전 거래일보다 0.30% 내리며 마쳤다. 대형주 중심의 S&P500지수는 0.38%, 기술주 중심의 나스닥지수는 0.74% 하락해 장을 마무리했다. 뉴욕(미국)=황윤주 특파원 hyj@asiae.co.kr <ⓒ투자가를 위한 경제콘텐츠 플랫폼, 아시아경제.",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBheEFDTXhfWTFOUzh6blBxVnI0b0xXcU5YZmtSR2hwcVFOMkNHajZkelltbWRPWVM3eTg0eTdtSnZCTzFaLUZvbHBHWENFdGxPOXo5dkZUdjNmdk1ObTQwbA?oc=5",
+"url": "https://www.asiae.co.kr/article/2026111106080888613",
+"pub": 1794344888.0,
+"time": "11/11 06:08",
+"run": "breaking",
+"added": 1794345471
+},
+{
+"key": "속보美반도체지수035하락美cpi예상상회연준05p인상가능성",
+"keys": [
+"속보美반도체지수035하락美cpi예상상회연준05p인상가능성"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 美 반도체 지수 0.35% 하락…美 CPI 예상 상회·연준 0.5%p 인상 가능성",
+"show": "[속보] 美 반도체 지수 0.35% 하락…美 CPI 예상 상회·연준 0.5%p 인상 가능성",
+"source": "한국경제",
+"src_url": "https://www.hankyung.com",
+"sum": "[속보] 美 반도체 지수 0.35% 하락…美 CPI 예상 상회·연준 0.5%p 인상 가능성, 박상경 기자, 국제",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VRWFCNTBtMkRSNWhheW5TMFdzVm1jNnZBV3FEUFJETjA4Q3RVdi13TTd6MWluNF9sTmtDUW5lZWlpSUltZUxKWFNCT29pNlNQZE1qWEh2N0dLUQ?oc=5",
+"url": "https://www.hankyung.com/article/2026111187697",
+"pub": 1794344877.0,
+"time": "11/11 06:07",
+"run": "breaking",
+"added": 1794345472
 }
 ],
 "seen": {
@@ -1931,9 +1974,12 @@
 "nvidiahireslawfirmwachtellliptontoleadhuangaffairprobe": 1794339665.8604865,
 "nvidiahireslawfirmwachtellliptontoleadjensenhuangaffairprobe": 1794339665.8604867,
 "nvidiahireswachtellliptontoinvestigateceosaffairwithchineseexecutive": 1794339665.860487,
-"fedsbowmanstillworktodotobringinflationcloserto2": 1794344767.7847784,
-"fedsbowmanpersistentinflationfirminglabormarketindicatetheresstillworktodo": 1794344767.7847831,
-"fedsbowmansaysstillworktodooninflation": 1794344767.784784,
-"속보뉴욕증시인플레우려에일제히하락나스닥07": 1794344770.010065
+"fedsbowmanstillworktodotobringinflationcloserto2": 1794345469.103907,
+"fedsbowmanpersistentinflationfirminglabormarketindicatetheresstillworktodo": 1794345469.1039076,
+"fedsbowmansaysstillworktodooninflation": 1794345469.1039083,
+"속보뉴욕증시인플레우려에일제히하락나스닥07": 1794345472.7154033,
+"속보엔비디아쇼크빅스텝가능성에뉴욕증시하락마감": 1794345471.8011384,
+"속보뉴욕증시금리인상가능성에하락마감다우03": 1794345471.801139,
+"속보美반도체지수035하락美cpi예상상회연준05p인상가능성": 1794345472.7153816
 }
 }
