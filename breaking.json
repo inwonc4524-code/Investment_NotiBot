@@ -1439,6 +1439,30 @@
 "time": "11/11 02:11",
 "run": "breaking",
 "added": 1794333138
+},
+{
+"key": "nvidiahiresformerusprosecutoratwachtelltoleadjensenhuangprobe",
+"keys": [
+"nvidiahiresformerusprosecutoratwachtelltoleadjensenhuangprobe",
+"nvidiahireslawfirmwachtellliptontoleadhuangaffairprobe",
+"nvidiahireslawfirmwachtellliptontoleadjensenhuangaffairprobe",
+"nvidiahireswachtellliptontoinvestigateceosaffairwithchineseexecutive"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Nvidia hires former US prosecutor at Wachtell to lead Jensen Huang probe",
+"show": "엔비디아, 와치텔(Wachtell) 전직 미국 검사 고용해 젠슨 황 수사 주도",
+"source": "Financial Times",
+"src_url": "https://www.ft.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU2VFamlVYlV5ejRiejhEdjkzSmt0cXN0TWxMbFJrUm0xdlZ0RHgwY3NkbE44eDBfX0dfU3ExT3lZWTB3QUljbDRMSXAwQy1oRzJUbTc4b1RBX2pTSDZVeExOajdHMEFQQzZTbU5tR3NLMzRfRTdaeVNyU3F2aF9lRDRVbEc?oc=5",
+"url": "https://www.ft.com/content/8d59bf02-960e-4eb1-b5dc-55397e31cea5?syn-25a6b1a6=1",
+"pub": 1794338692.0,
+"time": "11/11 04:24",
+"run": "breaking",
+"added": 1794338947
 }
 ],
 "seen": {
@@ -1858,6 +1882,10 @@
 "nvidiaceojensenhuangsaffairwithallegedchinesespyatimeline": 1794330955.454413,
 "nvidiaandjensenhuangfaceshareholderlawsuitoverallegedrelationshipwithsuspectedch": 1794330955.4544141,
 "microsofttopsnvidiasmarketcapforfirsttimesincejune2025": 1794333139.813044,
-"microsofttopnvidiasmarketcapforfirsttimesincejune2025": 1794333139.8130481
+"microsofttopnvidiasmarketcapforfirsttimesincejune2025": 1794333139.8130481,
+"nvidiahiresformerusprosecutoratwachtelltoleadjensenhuangprobe": 1794338949.0764084,
+"nvidiahireslawfirmwachtellliptontoleadhuangaffairprobe": 1794338949.076412,
+"nvidiahireslawfirmwachtellliptontoleadjensenhuangaffairprobe": 1794338949.0764132,
+"nvidiahireswachtellliptontoinvestigateceosaffairwithchineseexecutive": 1794338949.0764134
 }
 }
