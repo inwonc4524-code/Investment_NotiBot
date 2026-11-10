@@ -841,6 +841,29 @@
 "time": "11/10 12:02",
 "run": "breaking",
 "added": 1794280123
+},
+{
+"key": "singaporetolaunchgoldvaultserviceforforeigncentralbanks",
+"keys": [
+"singaporetolaunchgoldvaultserviceforforeigncentralbanks",
+"sporeopensnationalcurrencyvaulttoforeigncentralbankstostoregoldreserves",
+"singaporelaunchesgoldvaultingserviceforcentralbanks"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "sg",
+"region": "🇸🇬 싱가포르",
+"title": "Singapore to launch gold vault service for foreign central banks",
+"show": "Singapore to launch gold vault service for foreign central banks",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdkZPMEwxa2tfX3NsSzdWM3J1OHg1QlhWc0Nhb2hwV1ZfRWdUZDhrSWgwMmROOS15YkI0RElqMlJWWmpaUWlBSHllQ1h4UlNNaWlTa2FBbEVqVXlENmI0OHFCZzlVeEhwTjdraVhWOUxFY194dHBSbWFZZFB0SE9NYVJ2ZUhnMXVOQ1VaUm1QaFp6amVWRHVmY3c1T2tzWE5lSGRZZWJMUW1pTjFIS2pJckJB?oc=5",
+"url": "https://www.reuters.com/world/asia-pacific/singapore-launch-gold-vault-service-foreign-central-banks-2026-11-10/",
+"pub": 1794279840.0,
+"time": "11/10 12:04",
+"run": "breaking",
+"added": 1794281585
 }
 ],
 "seen": {
@@ -1007,7 +1030,7 @@
 "atimelineofnvidiaceojensenhuangssuspectedspydrama": 1794267035.3367975,
 "속보nhn3분기영업익588억전년比1126증가": 1794269221.5346441,
 "nvidiasuedoverjensenhuangsallegedspyaffair": 1794270687.0703514,
-"trumpsaysfbiislookingatnvidiaceojensenhuangsaffairwithallegedchineseagent": 1794280121.424372,
+"trumpsaysfbiislookingatnvidiaceojensenhuangsaffairwithallegedchineseagent": 1794281561.7460833,
 "trumpsaysfbiinvestigatinghuangaffaircalledembattledceo": 1794269217.3052106,
 "nvidiainvestigatesceojensenhuangsaffairwithallegedchinesespy": 1794269217.3052096,
 "fbilookingintojensenhuangsaffairasnvidiasharesslide": 1794269937.0119307,
@@ -1096,14 +1119,22 @@
 "동원파츠코스닥입성첫날따블터치한뒤40대상승이런국장저런주식": 1794277221.0239797,
 "특징주동원파츠코스닥입성첫날30대강세": 1794277221.0239809,
 "특징주동원파츠상장첫날강세장초반상승률116": 1794277221.0239816,
-"fbitoinvestigatenvidiaceooveraffairwithallegedchinesespytrumpsays": 1794280121.4243727,
+"fbitoinvestigatenvidiaceooveraffairwithallegedchinesespytrumpsays": 1794281561.7460837,
 "trumpsaysfbiinvestigatingnvidiabosssaffairwithallegedchinesespy": 1794280121.4243731,
-"3분기10대기업무역집중도60돌파반도체호황영향": 1794280123.6643453,
-"반도체날개대기업수출2배로톱10기업비중60돌파": 1794280123.6643474,
-"반도체쏠림에10대대기업수출액이전체의60넘어역대최대": 1794280123.6643476,
-"수출72급증이면엔반도체독주10대기업의존도역대최고": 1794280123.6643481,
-"반도체수출호황에10대기업무역집중도609역대최고수준": 1794280123.6643481,
-"반도체호황에대기업수출10310대기업비중60돌파": 1794280123.6643486,
-"반도체호황에10대기업무역집중도60첫돌파중견중기도역대최대수출": 1794280123.664349
+"3분기10대기업무역집중도60돌파반도체호황영향": 1794281562.778912,
+"반도체날개대기업수출2배로톱10기업비중60돌파": 1794281562.7789123,
+"반도체쏠림에10대대기업수출액이전체의60넘어역대최대": 1794281562.7789128,
+"수출72급증이면엔반도체독주10대기업의존도역대최고": 1794281562.7789128,
+"반도체수출호황에10대기업무역집중도609역대최고수준": 1794281562.7789137,
+"반도체호황에대기업수출10310대기업비중60돌파": 1794281562.778914,
+"반도체호황에10대기업무역집중도60첫돌파중견중기도역대최대수출": 1794281562.7789142,
+"반도체호조에3분기대기업수출1035급증상위10곳이60차지": 1794281562.778913,
+"코스피코스닥45급등세매수사이드카발동": 1794280842.937035,
+"최근하락딛고반등코스피코스닥매수사이드카": 1794280842.9370353,
+"외환코스피매수사이드카1340원대중반으로되돌림": 1794280842.9370353,
+"nvidiasharesfallover4asjensenhuangadmitstoaffairwithsuspectedchinesespytrumpsays": 1794281561.7460828,
+"singaporetolaunchgoldvaultserviceforforeigncentralbanks": 1794281585.0475779,
+"sporeopensnationalcurrencyvaulttoforeigncentralbankstostoregoldreserves": 1794281585.0475793,
+"singaporelaunchesgoldvaultingserviceforcentralbanks": 1794281585.0475802
 }
 }
