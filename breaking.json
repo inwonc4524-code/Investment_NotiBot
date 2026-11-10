@@ -956,6 +956,53 @@
 "time": "11/10 14:27",
 "run": "breaking",
 "added": 1794288832
+},
+{
+"key": "김정관호남반도체클러스터팹배치가중요군공항이전및배치내년윤곽",
+"keys": [
+"김정관호남반도체클러스터팹배치가중요군공항이전및배치내년윤곽",
+"김정관호남반도체클러스터팹배치이달확정",
+"호남반도체클러스터이달팹배치확정김정관기업투자철회전혀없어",
+"산업장관호남반도체생산시설배치이달내마무리"
+],
+"count": 4,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "김정관 “호남 반도체 클러스터, 팹 배치가 중요…군공항 이전 및 배치 내년 윤곽”",
+"show": "김정관 “호남 반도체 클러스터, 팹 배치가 중요…군공항 이전 및 배치 내년 윤곽”",
+"source": "헤럴드경제",
+"src_url": "https://biz.heraldcorp.com",
+"sum": "[헤럴드경제=양대근 기자] 김정관 산업통상부 장관은 10일 호남 반도체 클러스터 사업의 진행상황과 관련 “기업들이 팹(반도체 생산시설) 배치를 어떻게 하느냐가 굉장히",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUZGtaNnRLRWdHT2FRdWVQcmc2amdBVVNfVEcxQUVCWDRrVU55S2hUSEdqMUlMVUh6TU5UZzJlRl82Y21qOG5wSkZ6NzNiWTNHQVBnYjd3?oc=5",
+"url": "https://biz.heraldcorp.com/article/10932270",
+"pub": 1794288992.0,
+"time": "11/10 14:36",
+"run": "breaking",
+"added": 1794289553
+},
+{
+"key": "台積電10月營收再創高金額逾5868億元年增597",
+"keys": [
+"台積電10月營收再創高金額逾5868億元年增597",
+"台積電10月營收58689億元再創高ai2奈米推升q4開門紅",
+"台積電營收10月逾5868億元年月雙增創新高"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "台積電10月營收再創高 金額逾5868億元、年增59.7％",
+"show": "TSMC의 매출은 10월에 또 다른 최고치를 기록해 연간 59.7% 증가한 5,868억 위안을 넘어섰습니다.",
+"source": "財訊",
+"src_url": "https://www.wealth.com.tw",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zV0RJVFhFQ1pmU2hlOFpocHcwczcxOHVEdTRGR000YzFHVXNlRl9JX0JEX3NMNDVKYXMwcUc1WU1JQTFGVjVuZlA3a19ZVWNybkdyR3JPWEdzejNIclg0YWhRblMtZzhwWW40M3N1dzB3ZFVyRFFWVDBmRQ?oc=5",
+"url": "https://www.wealth.com.tw/articles/b6f4698f-1052-431c-a8d7-64a5de7d10de",
+"pub": 1794289221.0,
+"time": "11/10 14:40",
+"run": "breaking",
+"added": 1794289556
 }
 ],
 "seen": {
@@ -1249,8 +1296,15 @@
 "코스피코스닥개장직후매수사이드카글로벌반도체株투심회복투자360": 1794288832.1008804,
 "whoisalicehuangthechinesebusinesswomantiedtonvidiasceo": 1794288111.445008,
 "alicehuangchinesebusinesswomantiedtonvidiaceowentfromfinancetochips": 1794288111.4450083,
-"예결위서호남반도체ai예산공방與속도내야vs野졸속": 1794288832.972668,
-"여야예결위서호남반도체공방野졸속추진與속도내야": 1794288832.972669,
-"예결위호남반도체공방예타없이100조추진vs명운걸린문제": 1794288832.9726694
+"예결위서호남반도체ai예산공방與속도내야vs野졸속": 1794289553.3950043,
+"여야예결위서호남반도체공방野졸속추진與속도내야": 1794289553.3950047,
+"예결위호남반도체공방예타없이100조추진vs명운걸린문제": 1794289553.3950052,
+"김정관호남반도체클러스터팹배치가중요군공항이전및배치내년윤곽": 1794289553.3949716,
+"김정관호남반도체클러스터팹배치이달확정": 1794289553.3949726,
+"호남반도체클러스터이달팹배치확정김정관기업투자철회전혀없어": 1794289553.394973,
+"산업장관호남반도체생산시설배치이달내마무리": 1794289553.3949738,
+"台積電10月營收再創高金額逾5868億元年增597": 1794289556.3471618,
+"台積電10月營收58689億元再創高ai2奈米推升q4開門紅": 1794289556.347163,
+"台積電營收10月逾5868億元年月雙增創新高": 1794289556.3471632
 }
 }
