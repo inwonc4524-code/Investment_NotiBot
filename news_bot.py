@@ -1154,7 +1154,7 @@ def _breaking_round(data, seen, region, words, theme, mark, min_src, max_new, pu
             label = "🚨 미국 속보" if region["key"] == "us" else f"🌏 {region['label']} 속보"
             card = {"paper": "주식뉴스 속보", "kicker": label.split(" ", 1)[-1], "headline": show,
                     "lines": [meta] + ([item["sum"]] if item.get("sum") else []), "footer": "눌러서 기사 원문 보기"}
-            if not notify(f"{label} | {show}"[:120], f"{show}\n{meta}", click=real, tags=["rotating_light"],
+            if not notify(f"{label} | {show}"[:120], f"\u200b\n{show}\n\n{meta}", click=real, tags=["rotating_light"],
                           priority=4, card=card):
                 continue   # 알림 실패 → 다음 확인 때 다시 시도
             time.sleep(1)
@@ -1485,7 +1485,7 @@ def send_summary():
             "lines": [f"{n} {c}개 — {sm['top'].get(n, '')}" for n, c in sm["counts"].items() if c],
             "footer": "눌러서 뉴스 목록 보기"}
     title = f"📰 {best[1]} · {top_head}"[:120] if top_head else f"📰 투자 뉴스 {total}개 ({sm['updated']})"
-    notify(title, f"총 {total}개 ({sm['updated']})\n━━━━━━━━━━\n" + "\n\n".join(lines) + "\n\n👉 눌러서 뉴스 목록 보기",
+    notify(title, "\u200b\n" + f"총 {total}개 ({sm['updated']})\n━━━━━━━━━━\n" + "\n\n".join(lines) + "\n\n👉 눌러서 뉴스 목록 보기",
            click=page, actions=[{"action": "view", "label": "뉴스 목록 열기", "url": page}],
            tags=["newspaper"], priority=3, card=card)
 
