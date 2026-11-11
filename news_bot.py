@@ -940,7 +940,7 @@ footer b{color:var(--text);font-weight:600}
   <div id="s-orig" class="orig"></div>
   <div class="s-label">요약</div>
   <div id="s-sum" class="s-sum"></div>
-  <div class="s-btns"><a id="s-go" target="_blank" rel="noopener" onclick="closeSheet()">원문 보기 ↗</a><a id="s-cs" class="cl" target="_blank" rel="noopener" onclick="askAI(this)">✦ 원문 + Gemini 요약</a><a id="s-ct" class="cl" target="_blank" rel="noopener" onclick="askAI(this)">✦ 원문 + Gemini 번역</a></div>
+  <div class="s-btns"><a id="s-go" target="_blank" rel="noopener" onclick="closeSheet()">원문 보기 ↗</a><a id="s-cs" class="cl" target="_blank" rel="noopener" onclick="askAI(this)">✦ 원문 + Gemini 요약</a><a id="s-ct" class="cl" target="_blank" rel="noopener" onclick="askAI(this)">✦ 원문 + Gemini 쉬운 번역</a></div>
   <div class="s-close"><button onclick="closeSheet()">닫기</button></div>
   <div id="s-cnote" class="s-cnote">✦ 버튼: 요청 문장이 복사되고 원문이 열려요 → 크롬에서 측면 버튼 길게 → Gemini의 「이 페이지에 관해 질문하기」 → 붙여넣기 → 보내기 (기사 전체를 읽어요)</div>
 <div id="toast" hidden></div>
@@ -1078,7 +1078,7 @@ document.addEventListener('click', function(e){
     // 원문을 열고, Gemini 가 '지금 화면'의 기사를 읽고 답하도록 요청 문장만 복사
     $('s-cs').href = $('s-ct').href = c.href;
     $('s-cs').dataset.q = '이 페이지의 기사 전체를 처음부터 끝까지 읽고 한국어로 요약해 줘. 핵심 내용 3~5줄, 그리고 투자자 입장에서 중요한 숫자와 의미를 짧게 정리해 줘.';
-    $('s-ct').dataset.q = "너는 한국 경제신문의 국제부 전문 번역 기자야.\\n이 페이지의 뉴스 기사 전체를 한국어로 번역해 줘.\\n\\n[번역 원칙]\\n1. 정확성: 내용을 빼거나 보태지 말고, 문단 순서를 그대로 지켜 줘. 추측이나 의견은 넣지 마.\\n2. 자연스러움: 직역투(~되어지다, ~에 의해, ~하는 것이다)를 피하고, 한국 경제신문 기사처럼 간결한 문장으로 써 줘. 긴 문장은 뜻이 바뀌지 않는 선에서 나눠도 돼.\\n3. 숫자·단위: 금액, 퍼센트, 날짜는 정확히 옮기고 한국식으로 바꿔 줘. (예: $2.5 billion → 25억 달러, 3.2 percentage points → 3.2%포인트, Q3 → 3분기)\\n4. 이름·용어: 회사명·인물명·기관명은 한국 언론에서 쓰는 표기를 따르고, 처음 나올 때만 괄호로 원문을 적어 줘. (예: 연방준비제도(Fed), 엔비디아(Nvidia))\\n5. 금융 용어: 한국 증권가에서 쓰는 표현으로 옮겨 줘. (예: guidance → 실적 전망, bearish → 약세, short squeeze → 숏 스퀴즈)\\n6. 인용문: 따옴표 안 발언은 말투를 살려 번역하고, 누가 한 말인지 분명히 해 줘.\\n7. 애매한 부분: 원문 뜻이 둘 이상으로 읽히거나 확실하지 않은 표현은 번역 뒤에 [번역 메모]로 짧게 알려 줘.\\n\\n[출력 형식]\\n- 첫 줄: 한국어 제목\\n- 둘째 줄: 출처 · 날짜 (페이지에 있으면)\\n- 본문: 원문 문단 순서대로 번역\\n- 맨 끝: 「투자 포인트」 3줄 이내 (기사에 나온 사실만 근거로)\\n\\n기사가 길어서 한 번에 다 못 하면, 끝난 지점을 알려 주고 내가 \\"계속\\"이라고 하면 이어서 번역해 줘.";
+    $('s-ct').dataset.q = "너는 어려운 경제 뉴스를 초등학생도 이해할 수 있게 풀어 주는 친절한 번역가야.\\n이 페이지의 뉴스 기사 전체를 쉬운 한국어로 번역해 줘.\\n\\n[가장 중요한 규칙]\\n- 쉽게 쓰더라도 기사 내용은 정확해야 해. 사실을 빼거나, 바꾸거나, 지어내지 마.\\n- 기사 순서대로, 빠지는 내용 없이 번역해 줘.\\n\\n[쉽게 쓰는 방법]\\n1. 한 문장에는 한 가지 내용만 써 줘. 문장은 짧게.\\n2. \\"~습니다/~해요\\"체로 친절하게 써 줘.\\n3. 어려운 말은 쉬운 말로 바꾸고, 꼭 필요한 전문 용어는 처음 나올 때 괄호로 뜻을 풀어 줘.\\n   (예: 금리(돈을 빌릴 때 내는 이자의 비율), 실적(회사가 번 돈과 성과), 주가(회사 주식 한 주의 가격))\\n4. 한자어·외래어보다 쉬운 우리말을 먼저 써 줘. (예: 하락 → 떨어졌어요, 상승 → 올랐어요)\\n5. 큰 숫자는 읽기 쉽게 바꾸되 정확한 값은 지켜 줘. (예: $2.5 billion → 25억 달러(약 3조 5천억 원쯤))\\n   환율로 바꾼 값은 \\"약\\"을 붙여서 대략이라는 걸 알려 줘.\\n6. 회사·사람 이름은 한국에서 부르는 이름으로 쓰고, 처음 나올 때만 괄호에 영어 이름을 적어 줘. (예: 엔비디아(Nvidia))\\n7. 누가 한 말인지 분명하게 써 줘. (예: 젠슨 황 대표는 \\"…\\"라고 말했어요.)\\n\\n[출력 형식]\\n① 한 줄 요약: 이 기사가 무슨 이야기인지 한 문장으로\\n② 쉬운 번역: 기사 순서대로\\n③ 어려운 말 풀이: 기사에 나온 경제 용어 3~5개를 한 줄씩 쉽게 설명\\n④ 그래서 무슨 뜻이야?: 이 소식이 주식 투자하는 사람에게 왜 중요한지 2~3줄\\n   (기사에 나온 사실만 근거로, 내 생각이나 예측은 넣지 마)\\n\\n기사가 길어서 한 번에 다 못 하면, 어디까지 했는지 알려 주고 내가 \\"계속\\"이라고 하면 이어서 해 줘.";
   }
   $('dim').hidden = false; $('sheet').hidden = false; $('sheet').scrollTop = 0;
   document.body.style.overflow = 'hidden';
