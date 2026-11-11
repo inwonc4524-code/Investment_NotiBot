@@ -1485,7 +1485,7 @@ def send_summary():
             "lines": [f"{n} {c}개 — {sm['top'].get(n, '')}" for n, c in sm["counts"].items() if c],
             "footer": "눌러서 뉴스 목록 보기"}
     title = f"📰 {best[1]} · {top_head}"[:120] if top_head else f"📰 투자 뉴스 {total}개 ({sm['updated']})"
-    notify(title, f"총 {total}개 ({sm['updated']})\n━━━━━━━━━━\n" + "\n".join(lines) + "\n\n👉 눌러서 뉴스 목록 보기",
+    notify(title, f"총 {total}개 ({sm['updated']})\n━━━━━━━━━━\n" + "\n\n".join(lines) + "\n\n👉 눌러서 뉴스 목록 보기",
            click=page, actions=[{"action": "view", "label": "뉴스 목록 열기", "url": page}],
            tags=["newspaper"], priority=3, card=card)
 
