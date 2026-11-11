@@ -28,7 +28,8 @@
 "글로벌마켓시황물가부담속금리인상언급뉴욕증시하락",
 "속보뉴욕증시금리인상가능성에하락마감다우03",
 "뉴욕증시cpi월러발언소화하며하락출발",
-"속보뉴욕증시예상웃돈美cpi에하락출발기술주압박"
+"속보뉴욕증시예상웃돈美cpi에하락출발기술주압박",
+"속보젠슨황리스크엔비디아553뉴욕증시예상웃돈물가에일제히하락"
 ],
 "count": 18,
 "theme": "🇺🇸 미국 S&P500",
@@ -1189,7 +1190,7 @@
 "run": "202611110611",
 "added": 1794377512,
 "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451713",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "米株価指数先物ナスダック1高コアウィーブ決算に安堵",
@@ -1209,7 +1210,7 @@
 "run": "202611110611",
 "added": 1794377529,
 "url": "https://kabutan.jp/news/marketnews/?b=n202611110587",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "エヌビディアコアウィーブ海外市場ビュー米国株ピックアップ11月11日",
@@ -1320,7 +1321,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇯🇵 일본",
 "title": "AI暴落で見えた一筋の光明、アフォーダビリティ銘柄に照準＜大山季之の米国株マーケット・ビュー＞",
-"show": "AI暴落で見えた一筋の光明、アフォーダビリティ銘柄に照準＜大山季之の米国株マーケット・ビュー＞",
+"show": "AI 폭락으로 보인 일근의 광명, 어포더빌리티 종목에 조준 <오야마 시노유키의 미국 주식 시장·뷰",
 "source": "株探",
 "src_url": "https://kabutan.jp",
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByYkZFSE9RV2NTQ1dzcUFCQzNneHIwc0hOOVVQdjlwbHV5YzdpTHZ4OGczUllMb0g4T0t1VlhhMk1aWnMyOXhMM0VsWklvNzFKdUhDdmpkTHl1NFFOajVPZg?oc=5",
@@ -1360,7 +1361,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "《晨間解盤》美股收跌國安基金護盤有撐- 上市櫃",
-"show": "《晨間解盤》美股收跌國安基金護盤有撐- 上市櫃",
+"show": "\"아침 해석\" 미국 주식은 하락 마감, Guoan Fund는 시장을 지원했습니다 - 상장 카운터",
 "source": "旺得富理財網",
 "src_url": "https://wantrich.chinatimes.com",
 "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4N09uSURleTltYjlUTlZYdGRYLVV3N3pFMWVPZlpIa055MGNJX2FaX0ZrMC1oR1R5ZEVDVk9lb2tkOWs0cWFVZS1RcXdlZG1ZY0ozNEl4cjFlMW8zbUNvcW1abm81elMwVUE?oc=5",
@@ -1380,7 +1381,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇺🇸 미국",
 "title": "Amazon’s Cloud Computing Business Already Brings in More Revenue Than 476 Companies in the S&P 500. Here’s What It Would Take to Reach $1 Trillion.",
-"show": "Amazon’s Cloud Computing Business Already Brings in More Revenue Than 476 Companies in the S&P 500. Here’s What It Would Take to Reach $1 Trillion.",
+"show": "Amazon의 클라우드 컴퓨팅 사업은 이미 S&P 500의 476개 회사보다 더 많은 수익을 창출하고 있습니다. 1조 달러에 도달하려면 다음이 필요합니다.",
 "source": "Yahoo Finance",
 "src_url": "https://finance.yahoo.com",
 "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYlp0WlN6d2FIbVdORmhxTm1zM1hGeDNEWVdPM1dCajY0WHFwZm43b19aUG5KR3g3YVA3YjAxajZydHRIdkp2MmhBYWNmTHBFUEpxRk1nNHB6bTN2SFJIMks3YWg3M2w5UW90eUZUQ2RwV2FTNmNQek5DV2sxYnYtQnJvNEMyMWhoalpDWjlDeU5xMVhrazhTMEZoYVhRSUtXNGc?oc=5",
@@ -1421,7 +1422,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇯🇵 일본",
 "title": "FRB理事、0.5％利上げの可能性に言及 インフレへの警戒感",
-"show": "FRB理事、0.5％利上げの可能性に言及 インフレへの警戒感",
+"show": "FRB 이사, 0.5% 금리 인상 가능성 언급 인플레이션에 대한 경계감",
 "source": "毎日新聞",
 "src_url": "https://mainichi.jp",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUSWtNdVRfSjZGZkVmTFA0bFZSWFktcGw4ZVpPblBGc0cwWS1PY3BRSkJqZWVOOEp1NVpROXZ5VlhqWTczZk5VVlZFdUNiTi1iaGxJQlRlYjRPWmRCWmp3TjNEM3YxRGJj?oc=5",
@@ -1441,7 +1442,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇨🇳 중국",
 "title": "美股、原油、黄金集体下跌；我国算力总规模达310万PFLOPS丨盘前情报",
-"show": "美股、原油、黄金集体下跌；我国算力总规模达310万PFLOPS丨盘前情报",
+"show": "미국 주식, 원유, 금이 종합적으로 하락했습니다. 우리나라의 총 컴퓨팅 파워는 310만 PFLOPS丨에 도달했습니다. 사전 시장 정보",
 "source": "21财经",
 "src_url": "https://www.21jingji.com",
 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcEZRWHE2ZXhRQTYzbjVJUHRNNE9zcmZfTThfTmFkTjFEa2xFTU1JbHNESU9VVElxTGFFVW0xc09SQlFfcjZyUFJNUjUzS0IwaW9PTnVRbnR2RThvYlBrMjRWNng1ejF5bUczcHJhbDNTRzJYcE15TnVKSXAzejlhRmNVY3pfaFNSWFJxa2Rodw?oc=5",
@@ -1461,7 +1462,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "美股收盤／通膨超預期、升息疑慮升溫那指跌0.74%、道瓊跌158點",
-"show": "美股收盤／通膨超預期、升息疑慮升溫那指跌0.74%、道瓊跌158點",
+"show": "미국 증시 마감/인플레이션 예상 초과, 금리인상 우려 고조, 나스닥 0.74% 하락, 다우존스 158포인트 하락",
 "source": "鉅亨網",
 "src_url": "https://news.cnyes.com",
 "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmUEotUFdUeFRGYmhxS3EyUXNDX3gyOTVvVWt1amdnUHBMbFVRTDNoU1FwbHJLWjk1ckVtUi1lOURVU1ZJX0NSZU9RTDJoNWs?oc=5",
@@ -1481,7 +1482,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "通膨高於預期！美下月升息2碼機率增華爾街4大指數終場收黑- 新聞",
-"show": "通膨高於預期！美下月升息2碼機率增華爾街4大指數終場收黑- 新聞",
+"show": "예상보다 높은 인플레이션!美, 내달 2% 금리 인상 가능성 높아져 월스트리트 4대 지수 흑자 마감 - 중앙일보",
 "source": "MoneyDJ",
 "src_url": "https://www.moneydj.com",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMEF1Z0I1QnJVRHVpbEdjc004WDNDMm05VnVfZElrd1Z3Vkg5Um9Cd1o4UHdNcTBGZFBEVHVwRW5BckRjelg0WjMtRlViN3NXM2tzRVJhMExyNU5NUGlTR3d1dWZDWTFIc3lNRWRFWkVRYUhoOU85djd2RUQ5T3M5clVWaTZUQkEyemdld3ljUElTQQ?oc=5",
@@ -1502,7 +1503,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "《盤前掃瞄-國外消息》NVIDIA續挫；美股收黑- 上市櫃",
-"show": "《盤前掃瞄-國外消息》NVIDIA續挫；美股收黑- 上市櫃",
+"show": "\"시장 전 스캔-외국 뉴스\" NVIDIA는 계속 하락세를 보이고 있습니다. 미국 주식은 흑자세로 마감 - 상장 카운터",
 "source": "旺得富理財網",
 "src_url": "https://wantrich.chinatimes.com",
 "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGQ0N3RTZ3aUFjWGlZZ2xISGwtVFotbjV1ck9jNjhqbTZ6NUFmeDNaNld1OFJHZ3lJTFpYRjUzOVlkbFVEUW1qRzFKbzEtc2dRWWt0T2xVbndKLTExb0EtbHlhTm5jUFRHWXc?oc=5",
@@ -1522,7 +1523,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇨🇳 중국",
 "title": "“鹰风”席卷美联储！美国通胀阴霾挥之不去 又一官员呼吁渐进加息",
-"show": "“鹰风”席卷美联储！美国通胀阴霾挥之不去 又一官员呼吁渐进加息",
+"show": "\"독수리 바람\"이 연방준비은행을 휩쓸었습니다! 미국 인플레이션이 지속되자 또 다른 관료는 점진적인 금리 인상을 촉구했다.",
 "source": "财联社",
 "src_url": "https://www.cls.cn",
 "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKdHVHMUZGN0JtUXRiVW5hOG5KX053SHpyNWxEd1hVWTc3Sjl4YnNrVzZBTGZNUzlMTXQ3bE1vLVJnUWU4elBNcg?oc=5",
@@ -1542,7 +1543,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇭🇰 홍콩",
 "title": "美聯儲理事沃勒︰倘通脹加速支持一次過加息半厘 以保局方信譽",
-"show": "美聯儲理事沃勒︰倘通脹加速支持一次過加息半厘 以保局方信譽",
+"show": "월러 연준 총재: 인플레이션이 가속화되면 연준의 신뢰성을 보호하기 위해 1회 0.5% 금리 인상을 지지합니다.",
 "source": "香港01",
 "src_url": "https://www.hk01.com",
 "link": "https://news.google.com/rss/articles/CBMivANBVV95cUxOME14TGtlTktRUFlxYUZzZDlqc3BrbnEyWHdyS1R0aVVoM0x6OUFKTUpsVF8tX01UejdhN21xdHVuR1dpRW8xTzJjLVM5dEYtN2pJUEdRN21yekFwUkMzVGx2MVJBeV9idm9vM0xHQTNmVmhKTjBiZTJsQXV1Z3BHcXRNRUU4OUR2TDNLNllTamNiNWdVT0theHp2TFZHaGxUdmRKZ1lmeGFCWGJEX3UwdjlGNkUwM0tMN25nN09oVUtTRTdfekVGRm5Da2kzOUtIOF81RFlNV0duNDVLREIxRTVwV3FVOHVCVkFBN0hZLWZ5LWxQR1ZrMDdoUFRSTUU5Y3FKY3BVUTlzYXdjMzR3WWtZYTdyRm9XR3lhR0g4b0xmdUphd3BnbVAydlV2Zk9nZGNNa3JVTFVDNFJhRDZoMnhISXlMc0N1UUJ0ZDMtZzAzdmtna2g3cXhCZlVsTmFTWHF0eEN6TUt5NE83T05UYkRIQzdRM29ULUJmNm9Uc1lfbGVXVDRsLVFLOGdLMUMyWWtyVzFpWGxVLXVlLWhoM1M5QlpDYS1jRE9kNUFDZFpjWlVzR01qSHJoMGI?oc=5",
@@ -1562,7 +1563,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇯🇵 일본",
 "title": "NY株反落、157ドル安 米FRBの大幅利上げ警戒で売り優勢",
-"show": "NY株反落、157ドル安 米FRBの大幅利上げ警戒で売り優勢",
+"show": "NY주 반락, 157달러 안미 FRB의 대폭 금리 인상 경계로 판매 우세",
 "source": "毎日新聞",
 "src_url": "https://mainichi.jp",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUSWFLdVFiWjNOSnRKUWtXbUZYd2QzdlB3NnZOOEJZRnRsdmg3V2pBVjRESFN4R1FtSmpORHlRUGRTbVVHYno1UEtET2w4X2ZhTTJHYlVtOTctNVNOOC1paDJjRl9nNXZO?oc=5",
@@ -1582,7 +1583,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇺🇸 미국",
 "title": "Jim Cramer: Wall Street is focusing too much on what could go wrong instead of right",
-"show": "Jim Cramer: Wall Street is focusing too much on what could go wrong instead of right",
+"show": "짐 크레이머: 월스트리트는 옳은 일이 아니라 잘못될 수 있는 일에 너무 많은 초점을 맞추고 있습니다.",
 "source": "CNBC",
 "src_url": "https://www.cnbc.com",
 "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZXEtNjBGQmkySUh6d3RIZlo0M3lpY2txS25RcW00YURRZnlpWWJ5UWJlRU8wbE1vNERBUUFZMDhad253YUw4NTl6Smt2ODVDZFVOOEtzLVlKTHIxa2hZbEJiYXZMOEFmN3hwcUFqWm40UkRfdk9Vd29qS1FEdE85UElxTQ?oc=5",
@@ -1623,7 +1624,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇭🇰 홍콩",
 "title": "美股下跌 美國通脹超預期引發加息憂慮(曾惠琪報道)",
-"show": "美股下跌 美國通脹超預期引發加息憂慮(曾惠琪報道)",
+"show": "미국 증시는 미국의 인플레이션이 예상을 뛰어넘어 금리 인상 우려가 커지면서 하락했습니다(Zeng Huiqi 보고).",
 "source": "Now 新聞",
 "src_url": "https://news.now.com",
 "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFcGRRLWhPbXlfOWJTd2d2c2RfUVA5UEZLeTJhVXVKeXN4OHpDRGRZaDlVZm9Db3NXQnlSQ1pGS09xekZza0Y2bldhT2stWkZIX2RDaGxISE94by1JYUJ3VlZiZGJ3cjA4TktvRGJ3?oc=5",
@@ -1643,7 +1644,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇨🇳 중국",
 "title": "英伟达两日累跌9%，美股芯片、光通信股深夜下挫，黄金白银跳水，比特币跌破7.4万美元",
-"show": "英伟达两日累跌9%，美股芯片、光通信股深夜下挫，黄金白银跳水，比特币跌破7.4万美元",
+"show": "엔비디아는 이틀 만에 9% 하락했고, 미국 칩과 광통신 주식은 밤늦게 하락했으며, 금과 은은 급락했고, 비트코인은 74,000달러 아래로 떨어졌습니다.",
 "source": "21财经",
 "src_url": "https://www.21jingji.com",
 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeTRTVG1PQjFSUGlBSTVjSjdkMzA4SWphN25IbFU5NDhUNU9BbVhuOEh4OHJOeDJWdmcwWjlhSlNYeUxUeFhTT0tvdlg4UklQVHRWT05XWkdLc29va3I1a25wS1BTdjJDS3hhSC1HcC1hZFJQWVl4em1zNmhnQzFqUXR2SDNYSzlwNlRIQVVHZw?oc=5",
@@ -1663,7 +1664,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇭🇰 홍콩",
 "title": "ETF系列丨5隻美股ETF大比拼 最高20厘息|香港經濟日報",
-"show": "ETF系列丨5隻美股ETF大比拼 最高20厘息|香港經濟日報",
+"show": "ETF 시리즈丨 미국 주식 ETF 5개, 금리 최대 20% 경쟁 | 홍콩경제신문",
 "source": "香港經濟日報HKET",
 "src_url": "https://invest.hket.com",
 "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWHVja3NZbGZUMUZURXpUYTRmTkpQaVo2RkJJd0tsbEVsV0w2VUs5cFNDMjdiYWp6ZEItNmtKa3RyamE3OUpoVm9NdGt3ZTZuYmpBS3ZMdmhwMTFmMFhGYkJpNjhFWjgzbG44ekNHdXZNX3RwY1Mwd21XaWJaTG9KdGsza3JoQ28ySzNnV1N5NFpOOXBOWDAwS2dMMFAzNDVIMExaLW1RdWtuQjBMX1RPRks4V2ZqRXpJRUx3d1ZCRUZoZkQwRnpmb2Y0TFZEWmFXZUN3b2hscmtpd3dnUEw5X3N4aUNqZ3ZnYmlMcXVvbFZDZE1uNmgzZ1M2TDJlZw?oc=5",
@@ -1683,7 +1684,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇭🇰 홍콩",
 "title": "【港股夜期+ADR+北水】夜期跌234點 阿里美股低港1%（不斷更新）",
-"show": "【港股夜期+ADR+北水】夜期跌234點 阿里美股低港1%（不斷更新）",
+"show": "[홍콩주야간+ADR+베이수이]야간 234포인트 하락, 홍콩주 알리바바 미국주가 1% 하락 (지속 업데이트)",
 "source": "香港經濟日報HKET",
 "src_url": "https://inews.hket.com",
 "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxNUC1YM2s2SVVjWHNFN3RTazFMYU1RNHBCNmhzT1JaMXJ0UDBtd3ZzbkkwQmlSQ3JELS1TRGlRekdvaWNaSnVDZ3ZwVE4yMGpfRkRJbnF5U2liX1pnSEV1VmNWVkVSanlLYW5KQXpadHcyal90N2hLUUFxY3RpOXRjVmNONEdqQ1NDNFl5T08xeUFxTkt0WWtMUTZxd2JTejlEdk5ucHhpU05pSWNEUmJQM0VRZnJhNlJoNUpTTXBYdHM4YmwwYjdpZE1XSFJ2cHVhR0ZjdjlRYmF6VktYTnNEYXd3Qk9TX19GcnBGc2pDWkhGM2NlZXZIVzhuVmg3cVhUbnVIZTlyYS1za2xwRnQ2b0FuVGdnR21RY0hFOURkR19GRnB0bHBNZ1l2NHJwYW9hWmhEblR2MlJ5Y1pxcmlEWldhTzJjNWFvaE5wQ3I3MmZiMEJpUlQxX0V6d09uTnctTE9XbmlpQWtFOVBjYXNNUmdBbzhjQ2Q4ZDAxb1JPQ1hTVnc4OGsyX1Vn?oc=5",
@@ -1703,7 +1704,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "通膨超預期！達拉斯Fed總裁喊至少再升息2次、冬季步調可能加快",
-"show": "通膨超預期！達拉斯Fed總裁喊至少再升息2次、冬季步調可能加快",
+"show": "인플레이션은 예상을 뛰어넘는다! 댈러스 연준 총재, 금리 인상 최소 2번 더 요구, 겨울에는 속도 더 빨라질 수도",
 "source": "鉅亨網",
 "src_url": "https://news.cnyes.com",
 "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jS1BjZ1FjSHNPaGl2TlpFRXh3RkRlU2JjRnR5dGZSOWVlTXhqSHcxRlg5QnJ5dmJqbFdYS1NvWDEzcC0wMHprR3cyTl9RSm8?oc=5",
@@ -1723,7 +1724,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇯🇵 일본",
 "title": "米国株は反落、エヌビディアが連日の大幅安 (朝の材料チェック)",
-"show": "米国株は反落、エヌビディアが連日の大幅安 (朝の材料チェック)",
+"show": "미국 주식은 반락, 엔비디아가 연일의 대폭 저감 (아침 재료 체크)",
 "source": "QUICK Money World",
 "src_url": "https://moneyworld.jp",
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1ODZFSHNQakN3TDV1b1ppWHBxN3pBYjRaeC1nN0REdGJ6MTgyZkp1V3JIZ3MxY25uTnd1QmpNcEk3UWwxNU5FQjFnZlB1UWdJRlA3UTFn?oc=5",
@@ -1763,7 +1764,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇭🇰 홍콩",
 "title": "美股扭轉上日升勢 三項主要指數收市下跌",
-"show": "美股扭轉上日升勢 三項主要指數收市下跌",
+"show": "미국 증시는 3개 주요 지수가 하락세로 마감하는 등 전날 상승세를 반전시켰습니다.",
 "source": "TVB",
 "src_url": "https://news.tvb.com",
 "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOVngyRXhkZXBCOElUMF9rM2ZVQ1gycHlnVXhZOUhvdU5lM2JjZGpBWWxOSFRiRXV4X3B5SjljY2Z1SVktdEFGMVMzYlY3Y0RWcUM3Vm9pd2pBWHhkb08tdkJkQXI3WTdtUm0xRGVScktBdFZieDJfb0Z0cTJfSVRvODRDU2VnNG5idzRLS0txX0MxR2RYaW85YjVTckZPSnJacVZDRFBlX2JjZVJJZVJPMExYYUhlaGt2VVJuVWxiVUQ0LVBiRkI5NGltaXRDZURSaXNxZDdjU3o4OERyRzVNVTB4Sk11aXdhQi1CSUFqelhMek5qeFlPSWxiVDZ5U0RsSFFReE8taWJGLUJrNmhpb29FOTRxX0tBVzlqSFU5aw?oc=5",
@@ -1783,7 +1784,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇺🇸 미국",
 "title": "Why this top Wall Street strategist isn't bullish on the S&P 500 for 2027",
-"show": "Why this top Wall Street strategist isn't bullish on the S&P 500 for 2027",
+"show": "이 최고 월스트리트 전략가가 2027년 S&P 500에 대해 낙관적이지 않은 이유",
 "source": "Yahoo Finance",
 "src_url": "https://finance.yahoo.com",
 "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZkphQ1EwdGpRRkd2b1FqQnR6Z2x4UXlxUFJSZFpReTlsSnVZUjBXZlhKT3k3M25UOHMzUFFnSk9IbnFtSnFuMThzWExLZ0FIUmQ4cmZpc3pqYWI4cjM5Nl9DdVcxdEc3ckZNdUN0bjkwVmN1dGtMWHNRbGtXLU9rVXhZSWljaVBPVXpGZmJEUFVwRDhDRkh6MmJSSzBGT19aX1R4Qm1vYmdQd3NGZmpfYzlRNm84RmVZcTNINVh6V1hRZENvX1dj?oc=5",
@@ -1803,7 +1804,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "〈美股盤後〉美CPI超預期 12月升息兩碼機率升 四大指數盡墨 輝達再挫超5%",
-"show": "〈美股盤後〉美CPI超預期 12月升息兩碼機率升 四大指數盡墨 輝達再挫超5%",
+"show": "<미국 영업시간 외 주식> 미국 CPI 예상 초과, 12월 두 자릿수 금리 인상 가능성 높아져 4대 지수 소진, 후이다 또 5% 이상 하락",
 "source": "鉅亨網",
 "src_url": "https://news.cnyes.com",
 "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jSlpPSW4xTlpZSC1iT2hWck9xYmd3VlBNNW10bGhac2RaS3JYVW84OUw1NTFzc1pEdjE5cTBKYXlsNzM0Wmc4aTQ0VC1reTg?oc=5",
@@ -1863,7 +1864,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇭🇰 홍콩",
 "title": "美股日誌｜通脹高於預期 加息陰霾再起 金股油齊跌",
-"show": "美股日誌｜通脹高於預期 加息陰霾再起 金股油齊跌",
+"show": "미국 주식 일기 │ 예상보다 높은 인플레이션, 금리 인상 유령이 반등, 금주와 석유 모두 하락",
 "source": "星島頭條",
 "src_url": "https://www.stheadline.com",
 "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPdUtPeGM2Q3Z2NW1qeHFnU1ZlXzFFUFRmRy00aFNER1d3NUxNRUx3c3RrUTZaamNOOFNvSl9kdlhGQVI2VGVFdWZsYUxPWElkSlM4YWlERjMyb3BMXzBpRHJ4Q3haSGgtN1JmX1V5QjVtRjdHV09POWF3ZU9RT0JTWllJVm1MSFRwS0lNM2Iya3ZfdHpLZnczdXc3UzAwa0YyRnpjOUhlTzhTNjQ2cFNneE84eDBPMUUzUmJEeUtmN09vUWRPLXhwdlltdVdMSjJiYTJxRXQzRHJaU0I5Q0dYM011RlFCMkNLNEFEcjNQV0VYNkVZaHVzV1B0dGpkMmVPZU93bVMtN2RBVnFFck9xVjJGVFZBbDNGUEFXejhBaEgzX3hQcDdyak9McmxMMWNVa212QzNoQXFhU1hJS0wxZU5qTnlWSEExRUdsQXJRWVNLay1GeWRWSTF4dw?oc=5",
@@ -1883,7 +1884,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇸🇬 싱가포르",
 "title": "US stocks fall on hot inflation report as Nvidia tumbles again",
-"show": "US stocks fall on hot inflation report as Nvidia tumbles again",
+"show": "엔비디아가 다시 하락함에 따라 미국 주식은 뜨거운 인플레이션 보고서로 하락",
 "source": "CNA",
 "src_url": "https://www.channelnewsasia.com",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVXZQNlNoNGltVWhERXdid3F2YWZqR2ZfMU5idUFiWEx1N01fR0JNMHlLWjQwR3prenpRYnktU01vU3Z4VkFxTm9MWXNuTFY1d1VITm9nRzc3cGl6N2hELUV0bEstMVRlbXY5WjFLVkhidjVjTFJObDcyckp5ZjZZSXl5UDZCNFJqS0M5dUdwSE93QkR6ZHc?oc=5",
@@ -1903,7 +1904,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇺🇸 미국",
 "title": "US Stock Market today: Why are S&P 500, Nasdaq, Dow Jones, Russell 2000 down ahead of Veterans Day 2026? Check key Wall Street stocks",
-"show": "US Stock Market today: Why are S&P 500, Nasdaq, Dow Jones, Russell 2000 down ahead of Veterans Day 2026? Check key Wall Street stocks",
+"show": "오늘의 미국 주식 시장: 2026년 재향군인의 날을 앞두고 S&P 500, 나스닥, 다우존스, 러셀 2000이 하락하는 이유는 무엇입니까? 주요 월스트리트 주식을 확인하세요",
 "source": "The Economic Times",
 "src_url": "https://m.economictimes.com",
 "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNLXBMVk5wRjMtdkptT0tfZDMxSmFPaUlkMU5jMHhIOUxMVXlVNmNYcy1lS21ieUJxQjlGdlVJQU1Bakl2NlU1RVJNT1lIbG85NWh1N3I3eGo5QUpuanM2MXJFOGNjZFRpdTc3T3laM25aX0kzVnJQeTRxR3dNNzhJY1Z3OFZmRGFMQTZYLUVPb3ZtVjdIRHpXYlZQM0R3dHdxR3ppQkpOY3gxN0hKc2FqbzlCQWdNSFhUam5Db0o2Qk1WS1VvUkswM0tkR0JZNXZmeG5MYTd0ZU9GamNDNThmNkZzbHVDMTI3TEZaRk52a3BkQ0dPTWRYZ2haUGN2Qm9DYjJxU3pLSVJoaGw2Z3hxMmRCYVFsMDJBVzlTcU1TWTFFVGZiNHprUjFsdw?oc=5",
@@ -1923,7 +1924,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇺🇸 미국",
 "title": "US Stock Futures Trade Mixed With Focus on CPI, Anthropic IPO",
-"show": "US Stock Futures Trade Mixed With Focus on CPI, Anthropic IPO",
+"show": "CPI, 인류적 IPO에 초점을 맞춘 미국 주식 선물 거래",
 "source": "Bloomberg.com",
 "src_url": "https://www.bloomberg.com",
 "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdjBQVFA0Nll1UzlIOTRoQVA1d2ZnRUtFSnFGNERjXzMtOG0tcmpfS1IxOGR4Vzk1bGpzbzZvejFZbW1Jc25VNFBWeEdhdk1lSVV2dmNUeXg5MVZObVg3R2dKX3BCdmFkX3dSNndwWmFlcUY2LW1EM19FeGZtWnhJWjhfX0ltZHlfWTI5eW1pR3hOZl96aW1xNXlPUnBoSy1pVmdxMjkxZTM3MDlLYm1sLQ?oc=5",
@@ -1963,7 +1964,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇯🇵 일본",
 "title": "ダウ平均は反落 米ＣＰＩが予想上回る＝米国株概況",
-"show": "ダウ平均は反落 米ＣＰＩが予想上回る＝米国株概況",
+"show": "다우 평균은 반락 미국 CPI가 예상보다 뛰어나다 = 미국 주식 개황",
 "source": "株探",
 "src_url": "https://kabutan.jp",
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NdnlpRkVvOVozd1RJWXY3RmUtNm9GaVlQQjl4c1gzYWpVbXVydTBPVDZvcFR1RHF0LTd2aVk0VlNJLU1qMmdBeHdPbkZjV0d5Q2xLajJicFVlVmRVVlMxSQ?oc=5",
@@ -1983,7 +1984,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇸🇬 싱가포르",
 "title": "U.S. stocks slip following a discouraging update on inflation",
-"show": "U.S. stocks slip following a discouraging update on inflation",
+"show": "미국 증시는 실망스러운 인플레이션 업데이트로 하락",
 "source": "BNN Bloomberg",
 "src_url": "https://www.bnnbloomberg.ca",
 "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNDB1OUxfdVFDWXdiQjJ0SDZYU0E2QnVhNmhfZVZiTGdLYkZaN3ZFdTBwN3RaX3pnMWNhSTdHRUFjSURaalMwdnVwWkl5X1VMZ255NWxtbzBSYW5fS2IzVkNOS2RWdW8tUXlEVks0b0J0N3FTa3U2LTlzN19KNmJ2R1hlTm5ZSGRjdG92cHdOOVFLTFM5QVdMZDVzclBqMGdUcXl5NTJKYnVIY0cwMkhxYW9TcEY3N3NCS3BCMFdMU0hiUWs?oc=5",
@@ -2005,7 +2006,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇺🇸 미국",
 "title": "Yields Jump as Inflation Comes in Hotter Than Expected",
-"show": "Yields Jump as Inflation Comes in Hotter Than Expected",
+"show": "인플레이션이 예상보다 뜨거워지면서 수익률 급등",
 "source": "WSJ",
 "src_url": "https://www.wsj.com",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdmZHLWI2UExZVlVtSjJ5aEF0eC0yQkFKSHZFa04yWkxPSE5ieDhodjR6Z0ozQjRObjlIU3Q1alpYZEdxazlHbUg0UWpVV0ZNNnluNFBZbVdkZTY3NGFUdVpuRDJxTFI4STA1WXNmSmt5bEZOSEs5QWhEbWlVcVR5ZE1OcjFvbzFPaWo3VmFSdlZnUDZ6d2xIS3RYTHp4RlU?oc=5",
@@ -2025,7 +2026,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇭🇰 홍콩",
 "title": "美股動向｜龐普里亞諾指黃仁勳醜聞或成AI股轉捩點",
-"show": "美股動向｜龐普里亞諾指黃仁勳醜聞或成AI股轉捩點",
+"show": "미국 주식 동향 | Pompliano는 Jen-Hsun Huang 스캔들이 AI 주식의 전환점이 될 수 있다고 말했습니다.",
 "source": "etnet 經濟通",
 "src_url": "https://www.etnet.com.hk",
 "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOT3dRSkJmRlVfRFJKWXNVRU5TX241endLMjJTdmFQclFWLXZIMDR5aUVIV0RBSDQ3M0RoQlEtOHFTamVKM1dENXZ3eHRra1c3ckN2MzVCelhrbV9qUVRuS25vZXdTTjc2U19wbTlSM2w3TXRZVm1jbHpla1RLcVltUDFvT2xfLVBEQWszMzJvSUVsSGpqRVJVaGNwYVZQVU9QYkZYUEdmbTF1a0NUbkZfaUlkU2cwV3dFR1NmMV9yVS1GRG1JWFJSaGRRMTFuRG9fS2EwRzlCTVlHWndTLUZTd0JvR20zSEZ3dkxaSThsTmdVSkE5UnUxcURaVzVJZ3MxelhVS01DYkFCZUJ5aGxhbUVvSVExNmZESV9wZFkyMUd5Zk9YU2NxWWI3anh1VEVoVktOZTU5Skhrdmh3ekpHZzNHQ3Q1Z3lUQlZFTDRSOURFcUpRaDhIc0dNTnpucTM4QXMxT2xzSm5IMWF0eDRzTl9B?oc=5",
@@ -2046,7 +2047,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇺🇸 미국",
 "title": "Bonds Tumble as Hot Inflation Fuels Bets on More Fed Rate Hikes",
-"show": "Bonds Tumble as Hot Inflation Fuels Bets on More Fed Rate Hikes",
+"show": "뜨거운 인플레이션이 연준의 추가 금리 인상에 대한 베팅을 부채질하면서 채권이 폭락했습니다.",
 "source": "Bloomberg.com",
 "src_url": "https://www.bloomberg.com",
 "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakFPZlVwd2pvZDUwU0IzS3I3bHNNTlJOV3JRUXpyTEstS0FRN2JHeDE1R2J6cWxBU3o4SWI2SWhLNTdmdDZzTl9Na3lSLVdqcDd1c0RtSHllU3dSRk04aGNqWmZnbVQxdVVDRmhzcmlJU2tHUnJWQ1JNNzhmNXZITHJmdFpOZWdrWWdvam95YWpvd1ZxWDlROG5Za185MW1fWjFqb05QYmhzRDhpY0NHT3dMeWQ?oc=5",
@@ -2067,7 +2068,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇭🇰 홍콩",
 "title": "美股業績 | 日月光美股升逾3%，10月營收按年增47%創新高",
-"show": "美股業績 | 日月光美股升逾3%，10月營收按年增47%創新高",
+"show": "미국 주식 결과 | ASE의 미국 주식은 3% 이상 상승했으며, 10월 수익은 전년 동기 대비 47% 증가하여 새로운 최고치를 기록했습니다.",
 "source": "etnet 經濟通",
 "src_url": "https://www.etnet.com.hk",
 "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxQMS1FWlZuejJ1MGxGQTVUT1ZicVE5Z1dXRmVEQ0k0VXRKLVc3Ykp6MllzVHBiT0s3eFlKN0lVb0dwdTdUNng1R19VNEo3dXlUeE9sTzVWa3JtNUNrdmI5bFFwSVNPWEpWd3JMWUZVRk5wR1VHZGxSZDZpMncxTUo4blp4a0pwNEtKNlI3SmRLdkE2a3ZZNFFfNXZjNkVfU1FnbHFZc0lodUU5b1RhdDZIU2FKekFld3lybU84UXNkUkxVNFp0cVc0Q3NLWms4djE4UEN0c0FKVnJ5UDV0Q2o0RmladF9NbUQxRE4yVURIbS1PWlVfZ3FSNE55bTVwaWV3RDd1UHVPZGVITW92bTlJN2FJTTlNR2pCYXQyWVJfbkZPZUM4THFNOGNvenVnMjFPRm82Vng3eFFiNjBGc2xzTEVEVDEzSkYwV0xlV19WTXRza1JGWXJ6U3lfTEVuaEdCM1lmNnVJSVkxNEY3RWRQbm9nZV9mZEtQYm5aN0x0bWo?oc=5",
@@ -2736,7 +2737,7 @@
 "run": "202611110611",
 "added": 1794377522,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416186/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7CSkydance%E6%93%AC%E4%B8%89%E5%B9%B4%E5%89%8A%E6%94%AF60%E5%84%84%E7%BE%8E%E5%85%83%EF%BC%8C%E6%8F%AD%E5%9B%9B%E5%A4%A7%E7%AF%80%E6%B5%81%E6%96%B9%E6%A1%88",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "hereswhylastyearsgovernmentshutdownwillhauntoctobersinflationdata",
@@ -2776,7 +2777,7 @@
 "run": "202611110611",
 "added": 1794377524,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416184/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E3%80%8C%E5%A4%A7%E6%B2%BD%E7%A9%BA%E3%80%8D%E6%8A%95%E8%B3%87%E8%80%85%E8%AD%A6%E5%91%8A%EF%BC%8COpenAI%E8%8B%A5%E5%80%92%E9%96%89%E6%81%90%E8%A7%B8%E7%99%BC%E5%8D%B3%E6%99%82%E8%A1%B0%E9%80%80",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "美股動向花旗降irhythm評級至中性股價潛在升幅達75",
@@ -2796,7 +2797,7 @@
 "run": "202611110611",
 "added": 1794377525,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416182/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E8%8A%B1%E6%97%97%E9%99%8DiRhythm%E8%A9%95%E7%B4%9A%E8%87%B3%E4%B8%AD%E6%80%A7%EF%BC%8C%E8%82%A1%E5%83%B9%E6%BD%9B%E5%9C%A8%E5%8D%87%E5%B9%85%E9%81%9475%25",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "美股動向摩根士丹利對標指技術走勢發表最新觀點料再試低位後迎年底升浪",
@@ -2816,7 +2817,7 @@
 "run": "202611110611",
 "added": 1794377526,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416179/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E6%91%A9%E6%A0%B9%E5%A3%AB%E4%B8%B9%E5%88%A9%E5%B0%8D%E6%A8%99%E6%8C%87%E6%8A%80%E8%A1%93%E8%B5%B0%E5%8B%A2%E7%99%BC%E8%A1%A8%E6%9C%80%E6%96%B0%E8%A7%80%E9%BB%9E%EF%BC%8C%E6%96%99%E5%86%8D%E8%A9%A6%E4%BD%8E%E4%BD%8D%E5%BE%8C%E8%BF%8E%E5%B9%B4%E5%BA%95%E5%8D%87%E6%B5%AA",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "美股業績thetradedesk第三季收入按年跌05回購額增至10億美元",
@@ -2836,6 +2837,46 @@
 "run": "202611110611",
 "added": 1794377527,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416175/The+Trade+Desk%E7%AC%AC%E4%B8%89%E5%AD%A3%E6%94%B6%E5%85%A5%E6%8C%89%E5%B9%B4%E8%B7%8C0.5%25%EF%BC%8C%E5%9B%9E%E8%B3%BC%E9%A1%8D%E5%A2%9E%E8%87%B310%E5%84%84%E7%BE%8E%E5%85%83?topic=%E7%BE%8E%E8%82%A1%E6%A5%AD%E7%B8%BE",
+"sum_tried": 2
+},
+{
+"key": "美股動向tomlee指vix指標反轉釋觸底信號標指周一大漲23",
+"keys": [
+"美股動向tomlee指vix指標反轉釋觸底信號標指周一大漲23"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股動向｜Tom Lee指VIX指標反轉釋觸底信號，標指周一大漲2.3%",
+"show": "미국 주식 동향 | Tom Lee는 VIX 지표가 역전되어 바닥을 신호했으며 S&P 500이 월요일에 2.3% 상승했다고 말했습니다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMihANBVV95cUxPRW90YUJJc0dfN0VGYmFCQTNoTEtsWS1TbVNTRTZTZ05ZVHpPT0tVbzBmc2lUTkJ4RG15Yl9KN0FQUjRBLVpHQTFtWEllbFVrcGRwYkdnemFiODBmelNRQncwSEI5d3pLQU90MEtTR1E2N3EyRDIwOHRRYklwQmJSMDRGMUZjQjlSYzBMYldCMGdWMFVlM1RadXlRM3M3bjRXMWNxQ0pOZldGLUNIb1ZSMnJOTW1xeUE5blFUNVZZOU9iblBzX2hWYnpuOV9NSVB5STRNaVczQjJDbDVReG9SVGlmTXdSeHlqMVA1MV9JN2dvY2JsLTBlTmd4RE1yZDFmb3phUWZpajNpUGNyRVBWdVZhTnJJVlV5bE1kOVlKdk41RmFfMUlvX25haW1YekZBanFKRmJfZE42TTNKekVGWlBWUWxNUVVnbnU0S0FyQ2F5c2pDSjcwcGdoMnNqYTdSanBFQ2J0UUNvSTVyZl9WajNCVE1BMUM1X1h3UkdKVG1KTHpo?oc=5",
+"pub": 1794323700.0,
+"time": "11/11 00:15",
+"run": "202611110615",
+"added": 1794377756,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416173/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7CTom+Lee%E6%8C%87VIX%E6%8C%87%E6%A8%99%E5%8F%8D%E8%BD%89%E9%87%8B%E8%A7%B8%E5%BA%95%E4%BF%A1%E8%99%9F%EF%BC%8C%E6%A8%99%E6%8C%87%E5%91%A8%E4%B8%80%E5%A4%A7%E6%BC%B22.3%25",
+"sum_tried": 1
+},
+{
+"key": "美股業績taketwo升逾6gta6數碼預購量達771萬份",
+"keys": [
+"美股業績taketwo升逾6gta6數碼預購量達771萬份"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股業績 | Take-Two升逾6%，《GTA 6》數碼預購量達771萬份",
+"show": "미국 주식 결과 | Take-Two는 6% 이상 상승, 'GTA 6' 디지털 선주문량 771만장 달성",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOeHlZSTBrWEFUR2g1ZkNsNWhyX1VVY2JSYTFwYm9STkhGdTVCckNyd3hUb3dvRkNMMndHeGo0V3kxY3BVNnhydF9rQmhQaGdCYkNMbURic3dRN1drTjZCdjFYNG5SZ3huNy0wNnJHVXFfd3lCQnVuZUNsYi1NdEJIb2ZNMDFFbVVNT3NxWHlpMDBoTl9VVjV6RnVKcWlGTWY4YUJwcFhlZXpMVURqYnJsZTJHS1hyUTJxdXJFMlh5c2ZMbVh2bGlCdXFidkNmRnZKaElrTTdmVk5TMDdtRlM4MGpiaGV6ME1JWjhvN3p4VzNhRHNNdFZ2aEFNVm0zYmlDUkgtTXBhdTJGSm9IRm1sUjQxbzR4cUZid0tqTHRKb3p0UWczNm5yWkJ4RzNpbkZHWVEydTItZVAyYVU1TVVDbVh4b0NxYXdFR29BajBreVgxSjVFNnBIQmMwaE4?oc=5",
+"pub": 1794323640.0,
+"time": "11/11 00:14",
+"run": "202611110615",
+"added": 1794377757,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416172/%E7%BE%8E%E8%82%A1%E6%A5%AD%E7%B8%BE+%7C+Take-Two%E5%8D%87%E9%80%BE6%25%EF%BC%8C%E3%80%8AGTA+6%E3%80%8B%E6%95%B8%E7%A2%BC%E9%A0%90%E8%B3%BC%E9%87%8F%E9%81%94771%E8%90%AC%E4%BB%BD",
 "sum_tried": 1
 },
 {
@@ -2879,6 +2920,46 @@
 "sum": "美国关键经济数据公布！ 据央视财经，当地时间10日，美国劳工统计局最新公布的数据显示，10月美国消费者价格指数（CPI）环比上涨0.4%，剔除食品和能源价格的核心CPI环比上涨0.3%。 另据财联社报道，通胀数据公布后，交易员对12月加息的预期仍维持在100%，并加大对美联储到2027年中期至少加息两次的押注。 据21财经雷达，数据公布后，美股指数期货应声跳水。美元指数直线拉升，突破102关口。美债收益率跳升。美国1至5年期国债收益率当日至少上涨10个基点。"
 },
 {
+"key": "美股業績himshers第三季收入升49仍遜預期下調全年盈利指引",
+"keys": [
+"美股業績himshers第三季收入升49仍遜預期下調全年盈利指引"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股業績 | Hims & Hers第三季收入升49%仍遜預期，下調全年盈利指引",
+"show": "미국 주식 결과 | Hims & Hers의 3분기 매출은 49% 증가했지만 여전히 기대치를 밑돌며 연간 이익 지침을 낮췄습니다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMipANBVV95cUxPOWZfRkFWRXM3ZUhOOFRUZVFUTFJ3NlBwQm1yenFmalhGRHYxOFMwVkZfUnZ4V3VsWDVJdTZXUnZ4TkdjOXZ2X29aTzJVNUhtZ3J2cnB0alBfWk5GUzczXzJaY196TnpJNS1iZ0ViZUFBdDY2b1drdDhCYnRUYlh2YnhpQmQxNzVkZzZ0UmlUSU80dnhEX2lqWi00dEY3NGFnNDFWNUtYRGFtcTE1QWFWT1JmM1laOGF4VTdmUU5ycjRib3JEQi1lQzVuaU9DVHhfTFVaN01FT0pKMm5JU2JkUDNsbFVQdnpvTmlBZnduQ09DWVdMZWlYLVNuNEJJdFFpeU0wcTh6MnhOVWt5RUJpdkdCbDdPbzVaaV9uU0VnXzN5Mzc0b2doRll3ODg4UjY5S0RBSDJaeFBPZ3lZUjd2MnBxVG9IUkQtTS1UdDNmaDFmUW1kU0cwRU8wdTFVcHJWdC1TZ3JhNng3dXF6T1E5aUZSQVBUY1FCZWVyQkJWaG5aVGhidEhlQXd1QXdPeDNUbnFWT2tVZ1FaUXJKdnlUWTBLSW4?oc=5",
+"pub": 1794322680.0,
+"time": "11/10 23:58",
+"run": "202611110615",
+"added": 1794377758,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416170/Hims+%26+Hers%E7%AC%AC%E4%B8%89%E5%AD%A3%E6%94%B6%E5%85%A5%E5%8D%8749%25%E4%BB%8D%E9%81%9C%E9%A0%90%E6%9C%9F%EF%BC%8C%E4%B8%8B%E8%AA%BF%E5%85%A8%E5%B9%B4%E7%9B%88%E5%88%A9%E6%8C%87%E5%BC%95?topic=%E7%BE%8E%E8%82%A1%E6%A5%AD%E7%B8%BE",
+"sum_tried": 1
+},
+{
+"key": "美股業績軟銀季度虧損逾70億美元科技股拋售拖累業績",
+"keys": [
+"美股業績軟銀季度虧損逾70億美元科技股拋售拖累業績"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股業績 | 軟銀季度虧損逾70億美元，科技股拋售拖累業績",
+"show": "미국 주식 결과 | SoftBank의 분기 손실은 기술주 매각으로 인해 실적이 저하되면서 70억 달러를 초과했습니다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMimANBVV95cUxOTWFyaG1GOTRGZW0xakRCSTVuMWt5clFCSGRwakRwczVVb2VNdl84bDdiTXBDVEFFRjE2anNjYzNYS3ZKNkdTWDVVSG9EVHk4THNPUEk1TDhQRldIUkJDaFVuMUp5N3lyMXNQQ3VmSnVkMUYzZER3RFVoNGhPc0s2a3AzODRUQlktbGRlNzBhUUpFWWVGbmxycUJjcnpvQ3FPOTF3UUN2Sm5hXzJIY29ycmluaUxjWmU0Q3dKYkwwU3NJYXo4dGljT3RJYnIyZy1DRlVCMlFzU3p5aDhKVXphaFdEeFBYblpQNHNIRUlCS3o1VkRMLTdqdWNjM0IydGFVWnBkM0trX05vVXFHclVNWUpBdFhwMm1VeV9tbUU2V3FIV2Nma2RTVFEteDc1TXhoTmliRHBrTzVmZ2Q3S1U3WVg1djNHbnh6WkxrNmdNeF9xLTJ1QV9fN2NYTHU1THpMN21NSWVUWG1SVGI5MVppUC05Mmt4WHdlaWxKSVEzSy1yRWpjVy1PT0Q2emN1YnZOMDBfWVJRbnc?oc=5",
+"pub": 1794322500.0,
+"time": "11/10 23:55",
+"run": "202611110615",
+"added": 1794377760,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416169/%E7%BE%8E%E8%82%A1%E6%A5%AD%E7%B8%BE+%7C+%E8%BB%9F%E9%8A%80%E5%AD%A3%E5%BA%A6%E8%99%A7%E6%90%8D%E9%80%BE70%E5%84%84%E7%BE%8E%E5%85%83%EF%BC%8C%E7%A7%91%E6%8A%80%E8%82%A1%E6%8B%8B%E5%94%AE%E6%8B%96%E7%B4%AF%E6%A5%AD%E7%B8%BE",
+"sum_tried": 1
+},
+{
 "key": "instantviewhotoctoberinflationreportrattlesmarkets",
 "keys": [
 "instantviewhotoctoberinflationreportrattlesmarkets"
@@ -2917,6 +2998,46 @@
 "added": 1794367450,
 "url": "https://news.cnyes.com/news/id/6656401",
 "sum": "美國10月CPI月增0.4%、核心CPI月增0.3%，高於預期，Fed理事華勒稱12月可能一次升息2碼。&#10;美債殖利率走高、美股開低，費半跌1.91%、那斯達克跌0.95%，科技股估值再受壓抑。&#10;輝達早盤跌3.8%，台積電10月營收年增59.7%；阿里巴巴擬分拆平頭哥赴港上市。"
+},
+{
+"key": "美股開盤道指開市早段跌247點納指挫08英偉達續跌逾4",
+"keys": [
+"美股開盤道指開市早段跌247點納指挫08英偉達續跌逾4"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股開盤 | 道指開市早段跌247點，納指挫0.8%，英偉達續跌逾4%",
+"show": "미국 주식 개장 | 다우지수는 개장 초반 247포인트 하락했고, 나스닥지수는 0.8% 하락했으며, 엔비디아는 4% 이상 하락세를 이어갔다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMimwNBVV95cUxOX0diX3gzTlBVVnFsQV8tMVFpTi0xS01iQXdBZDF6YUY2RnUyOUJjSUtRVVVJcTBKRXBmVnBPaVJPOUF1ZVFLeGpkV3p3b0hjckFHb2ZlNTdOdUJROGU3NUlaYnl0R1hOZEp3MzFva285bFN6R3ZFdjU3NFRsU2N3UE1obWlOYVllTnY1QzVENUNXMXllaWotM3duN0VkRERBekNkemt3WkpaNlRENnJxRU5iSnhINkIzMTByT2gwNkZNYkljbzZ6dk5tSEtyTkVqOGhHR2YzLXlJaHJKYkRYQTkyYnZuR1F5NlZPd0pHN0oyMnVXc01WY3RYN29PRHdSM2pmZm5YbUtERlZqMXNfX3Z5NVVUYkVEQndnaU5WbjlIYVBVYjBmY05MeVlZXzlpMWFKUXhtTHEtTG5TTHVwUWhkcUo2LXhqa2phUVBVaUNfWENZLUNXakNGc1JxZ0UwUzVDUm00STFOR1hMTllTZ1VQRVZ0Q1FOQS1IcnFtN3J5OHZyc2FJWkVRSnk3YkM2VWxmbVRXWUk3Z2M?oc=5",
+"pub": 1794321180.0,
+"time": "11/10 23:33",
+"run": "202611110615",
+"added": 1794377761,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416165/%E7%BE%8E%E8%82%A1%E9%96%8B%E7%9B%A4+%7C+%E9%81%93%E6%8C%87%E9%96%8B%E5%B8%82%E6%97%A9%E6%AE%B5%E8%B7%8C247%E9%BB%9E%EF%BC%8C%E7%B4%8D%E6%8C%87%E6%8C%AB0.8%25%EF%BC%8C%E8%8B%B1%E5%81%89%E9%81%94%E7%BA%8C%E8%B7%8C%E9%80%BE4%25",
+"sum_tried": 1
+},
+{
+"key": "美股動向美光英偉達等半導體股反彈特朗普表態撐ai基建",
+"keys": [
+"美股動向美光英偉達等半導體股反彈特朗普表態撐ai基建"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股動向｜美光、英偉達等半導體股反彈，特朗普表態撐AI基建",
+"show": "미국 주식 동향 | 마이크론·엔비디아 등 반도체주 반등, 트럼프 AI 인프라 지지 표명",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMirgNBVV95cUxQQ0wwZDVtR0w3SHBzaHhzclI0TW1hZ1BEQTdzbWpIYlU2VXk3ZFpyb1ZMamJqZFFjZHVYQTNVX21MbDlNWktJTEtISTRaODMyaUNIcnc5N3E0Z2VLUXY5RHhhQUlEODlVWU5kVElHNE1HaFZaVUoxY2VQZmNaaktiVzEyMWxnT0kxVFc0VVQtTkRRSTZJSkw4N1hpc2JER0I2SjVYWk0tUXYwc2V6VFc0NUstUDFZX2NIeUFoRWZGMUVMOGlLMWdyZDBZRjZXbGFUMi00aVVpX2J5UGlIT1E1cnpheW1vbzVYNFNyNTZpRy1WU3R3QS1FUG1VR0hoRmtPOWJhZHVtMHk3aENpajBoVVVzNHZMZnN2bDdXc2NydzRab0k0b1VyVlY3Y3NXOFVoWjA0bkk3VXhfc1cxUmw5N0NLSGNzX0xLUVl4RU1TVUdGcUt4VDRMY0k2cFdSYm9vVVI1UFJMdDE3OWY1bGNTZzRtNi1ONkdUVEdnQllWd256bkhERnUxU20yWlZfRzNDTGs1R21IZERpSVcyX3Z6U1NiQmZsM2lHdXV5TDVB?oc=5",
+"pub": 1794320700.0,
+"time": "11/10 23:25",
+"run": "202611110615",
+"added": 1794377762,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416163/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E7%BE%8E%E5%85%89%E3%80%81%E8%8B%B1%E5%81%89%E9%81%94%E7%AD%89%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%82%A1%E5%8F%8D%E5%BD%88%EF%BC%8C%E7%89%B9%E6%9C%97%E6%99%AE%E8%A1%A8%E6%85%8B%E6%92%90AI%E5%9F%BA%E5%BB%BA",
+"sum_tried": 1
 },
 {
 "key": "뉴욕증시개장전특징주산미나데이크투인터랙티브라이엇플랫폼스vs로켓랩스카이댄스힘스앤드허스",
@@ -4802,7 +4923,7 @@
 "theme": "🧬 나스닥 바이오",
 "region": "🇭🇰 홍콩",
 "title": "FDA要求藥廠標明GLP-1藥物或增眼疾風險 可能令視力永久受損(甄子慧報道)",
-"show": "FDA要求藥廠標明GLP-1藥物或增眼疾風險 可能令視力永久受損(甄子慧報道)",
+"show": "FDA는 GLP-1 약물이 안과 질환의 위험을 증가시키고 시력을 영구적으로 손상시킬 수 있음을 의약품 제조업체에 표시하도록 요구합니다(Donnie Yen 보고).",
 "source": "Now 新聞",
 "src_url": "https://news.now.com",
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51bHdidzRzN3dNd2NHM25TX0N6UkpVeG9udEZtbEVZeFEtSnl5OERRU1dmbXhFQy1ELWNkby01T3BBTTZNSExqUEtYZnpac3dLQUNkNEp3Y2JFT0poaWVRUDVjbkkxUV93WnpzYg?oc=5",
@@ -4822,7 +4943,7 @@
 "theme": "🧬 나스닥 바이오",
 "region": "🇺🇸 미국",
 "title": "Merck KGaA lands FDA nod in rare tumor disorder, portending Ono, Daiichi showdown",
-"show": "Merck KGaA lands FDA nod in rare tumor disorder, portending Ono, Daiichi showdown",
+"show": "머크 KGaA, 희귀 종양 질환에 대해 FDA 승인을 받아 오노와 다이이치의 대결이 예고됨",
 "source": "Fierce Pharma",
 "src_url": "https://www.fiercepharma.com",
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMFRvbkJoanZQWGVfQWNGbzV2NEZHRV9zdXVBWjBBMVlUOFZXQmMzM0xiQ0t1QlRNbWxlVVF5bnpJb0xHNGRTc1JyMnpNSmpZSGpEb3NRekNVZzhtNVVTdDhPR09OLWx2aTB3ZzM5NjJpN0pWWFJnYnRVTGczb28tMUp6M2YtVUU?oc=5",
@@ -6022,7 +6143,7 @@
 "run": "202611110611",
 "added": 1794377548,
 "url": "https://www.bloomberg.com/news/articles/2026-11-11/chinese-lithium-giant-says-price-swings-have-turned-more-extreme",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "긴축우려딛고코스피반등반도체이차전지강세",
@@ -6153,7 +6274,7 @@
 "theme": "🔋 2차전지",
 "region": "🇨🇳 중국",
 "title": "碳酸锂价格触及年内低点 较5月中旬高点已跌去近六成",
-"show": "碳酸锂价格触及年内低点 较5月中旬高点已跌去近六成",
+"show": "탄산리튬 가격은 올해 최저치를 기록했고, 5월 중순 고점 대비 60% 가까이 하락했다.",
 "source": "第一财经",
 "src_url": "https://www.yicai.com",
 "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnX3dJclZ0aWtBRWFwUlBnLXJLT2VLQlo3TzQyclpOV3ZTT0VfT1lmai1IOUpzSWk3UUpsdHBtMmtTV3BESWhrNDZUWEVEcGs3X0Jv?oc=5",
@@ -6273,7 +6394,7 @@
 "theme": "🔋 2차전지",
 "region": "🌍 세계",
 "title": "PMET Resources Delivers Enhanced CV5 Lithium-Tantalum Feasibility Study – Company Announcement",
-"show": "PMET Resources Delivers Enhanced CV5 Lithium-Tantalum Feasibility Study – Company Announcement",
+"show": "PMET Resources, 향상된 CV5 리튬-탄탈륨 타당성 조사 제공 – 회사 발표",
 "source": "Financial Times",
 "src_url": "https://markets.ft.com",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeUdMMkoxZmw5ZG1XS0l5VW9VYk94TWhPQkYzNW1mV2hzMTFJM3cxUFdrdmtPVm5qM3RvVmktaVgzMEZVTzNnbTJIeUhlUmZBRC01czJXeHAxZlpmZEF6VVZaY1ZkYWR3XzdBdWpydXd3My14QWdWTm1weWFyV2RqSERZYS1WTnFWTFhxYnNEdEVSNW9VMnc?oc=5",
@@ -7496,7 +7617,7 @@
 "theme": "⚡ 전고체배터리·ESS",
 "region": "🇯🇵 일본",
 "title": "要件化まで半年を切ったJC-STAR制度──太陽光・蓄電池事業者が再確認したい制度のポイント",
-"show": "要件化まで半年を切ったJC-STAR制度──太陽光・蓄電池事業者が再確認したい制度のポイント",
+"show": "요건화까지 반년을 끊은 JC-STAR 제도── 태양광·축전지 사업자가 재확인하고 싶은 제도의 포인트",
 "source": "ITmedia",
 "src_url": "https://www.itmedia.co.jp",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGZ2NkaVZXSVVnY3J0ZTc3RThnSFBGQzNDVU5La1c2V2RQUE4yb3RkUG9CRy1Gd191eGcxTTltZkJ3S0gzQm5WWjQtdTJ4N19PTWZfOXZhT0VZSGNNbUhoeGxBaDBVR3ZsMVdJd2hod2R0S0lC?oc=5",
@@ -8389,7 +8510,10 @@
 "두산에너빌리티체코원전공급망확대현지기업4곳과협력",
 "두산에너빌리티동반성장지수평가최우수명예기업선정",
 "두산에너빌동반성장3년연속최우수원전가스터빈협력사지원강화",
-"단독두산에너빌리티퇴직연금적립률미달에과태료"
+"단독두산에너빌리티퇴직연금적립률미달에과태료",
+"두산에너빌리티동반성장지수평가최우수명예기업선정머니투데이",
+"두산에너빌리티체코원전공급망협력강화4개사역량점검",
+"두산에너빌리티동반성장지수평가3년연속최우수등급"
 ],
 "count": 15,
 "theme": "🏭 AI 전력",
@@ -8663,7 +8787,7 @@
 "run": "202611110611",
 "added": 1794377567,
 "url": "https://www.bloomberg.com/news/articles/2026-11-11/global-policies-target-data-center-grid-delays-lower-emissions?srnd=homepage-asia",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "ai전력수요잡는다두산퓨얼셀9분기연속적자딛고북미공략지속",
@@ -8766,6 +8890,26 @@
 "sum": "한국전기연구원(KERI·원장 강상희)이 11일부터 사흘간 일정으로 경남 김해 롯데호텔앤리조트에서 '제73차 세계단락시험협의체(STL) 기술위원회 회의'를 개최한다. STL은 글로벌 고전압 전력기기 시험기관이 참여하는 최고 권위의 국제 협력체다. 발전소에서 만들어진 전기가 가정과 산업 현장으로 안전하게 공급되려면 수많은 전력기기를 거치는데 이 기기들이 낙뢰 등 극한의 환경을 고장 없이 견뎌내는지 평가하는 엄격한 국제 기준을 STL에서 다룬다."
 },
 {
+"key": "keri세계전력기기시험기관11곳과국제표준논의",
+"keys": [
+"keri세계전력기기시험기관11곳과국제표준논의"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇰🇷 한국",
+"title": "KERI, 세계 전력기기 시험기관 11곳과 국제표준 논의",
+"show": "KERI, 세계 전력기기 시험기관 11곳과 국제표준 논의",
+"source": "데일리안",
+"src_url": "https://www.dailian.co.kr",
+"link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYjNEVTFVZG5TOEhlVlgzNmJyODlsWTYzblFneEgtQXZNbVdTX2F4dmRTRndEZHZPTDJZQ0l1cVp4UWk0b1BtTWJuQ3pMZHhCY0loY0QwX1p1RUt5QjdROGw4WkNrRGVzeHZBOWF6SDhrRkdfMVVlNWdIM0I3UGZuYmR0b1lsdDZDd1FiMmROZzdLRlpoT3lRYWRwUlJyX1Y3dHJPX3JjS0J6LV8zb2tvTkUxS2IwdngxWVRzeHpxVTd6VENBNXhBRVFaRWNCUGo1QXUzRmNwWUZ5RUhxUzc4djJCbw?oc=5",
+"pub": 1794362400.0,
+"time": "11/11 11:00",
+"run": "202611110615",
+"added": 1794377798,
+"url": "https://www.dailian.co.kr/news/view/1713407/KERI-%EC%84%B8%EA%B3%84-%EC%A0%84%EB%A0%A5%EA%B8%B0%EA%B8%B0-%EC%8B%9C%ED%97%98%EA%B8%B0%EA%B4%80-11-2026",
+"sum": "세계 주요 전력기기 시험기관 전문가들이 경남 김해에 모여 고전압 전력기기 시험기술과 국제표준 발전 방향을 논의한다.한국전기연구원(KERI)은 오는 13일까지 경남 김해 롯데호텔앤리조트에서 ‘제73차 세계단락시험협의체 기술위원회(STL TC) 회의’를 개최한다고 11일 밝혔다.세계단락시험협의체(STL)는 고전압 전력기기 시험기관들이 참여하는 국제 협력체다."
+},
+{
 "key": "송재도에경원원장ai전력확보기업투자계획과연계해야",
 "keys": [
 "송재도에경원원장ai전력확보기업투자계획과연계해야"
@@ -8783,7 +8927,7 @@
 "run": "202611110611",
 "added": 1794377567,
 "url": "https://www.news1.kr/economy/env-policy/6350101",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "datacenterpowerdemandissettosurgeraisingnewclimatechallengesbloombergnef",
@@ -8794,7 +8938,7 @@
 "theme": "🏭 AI 전력",
 "region": "🇺🇸 미국",
 "title": "Data Center Power Demand Is Set to Surge, Raising New Climate Challenges: BloombergNEF",
-"show": "Data Center Power Demand Is Set to Surge, Raising New Climate Challenges: BloombergNEF",
+"show": "데이터 센터 전력 수요가 급증하여 새로운 기후 문제 제기: BloombergNEF",
 "source": "BloombergNEF",
 "src_url": "https://about.bnef.com",
 "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMURrMXpOcUV2WU51Zkh6SGZER0ExR2pWR3RUOUZjZWVKWGRfYjRWclZOZ2gzSUhwZ3N6emIxaTVrd2tDUzlNTlRUWHAtVHYxN1lFYklvUERtSFJSa1dIN01NZVY1alQyNTRMQ0dCVi1aNG1nLVJLWjdnZXFEU05sYUVTcmtuMTgtUHFCU09IejZFdm1RMjljcGJUUXYya2t0UjhWRjFza1p5Y3ZCTERqYTNXYVh6aVBpbmlxN3NLWHN5X2t4akRvRVp3?oc=5",
@@ -8815,7 +8959,7 @@
 "theme": "🏭 AI 전력",
 "region": "🇭🇰 홍콩",
 "title": "【Emily】議員訪港燈應變中心 觀摩AI監察電網 - 20261111 - 港聞",
-"show": "【Emily】議員訪港燈應變中心 觀摩AI監察電網 - 20261111 - 港聞",
+"show": "【에밀리】회원들이 HK Electric 비상 대응 센터를 방문하여 AI 모니터링 전력망을 관찰했습니다. - 20261111 - Hong Kong News",
 "source": "明報新聞網",
 "src_url": "https://news.mingpao.com",
 "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxPM29RVUpKVmtqX3ZqN01QaDFkTjNuUEM2WWFjODdhOWoxbUhjQmREM1JvTXcyeHg5N2xmSXBJWEFKbFB6SG94RlN2S3Uwb1I4Wm16c3B3Tl9qekM2amk1cHB4NlpneVV3bUM4d3ZMU29kRWFPU0QzeU1mVFNJaE1mM3VRQkNWbElic1d1S3RWTU9fbVZBVEtoRTZVOWs0VzBGSmpnMFh4ejdZRFFhc1VZcnlCTFBTMzJMVUFrQTl6eUlzTzI1OXNDbVdxcHpnZUs0SEQ3T0RYX1Mtckp6Y1hmSWpxN2h5V08wLUNOamc2a3dqTnpvX2ZvcExSLWdhclhKNGp1RmtNbFdDZS1JZVRxbVo0bWZaR1huLV9ESXpncktFX1dUVFZncVlkN05ESjYtY1JyaG9TSi1LUGVhajZTY1JCVUR4bnhhb1FOMkR2LUgyRzJZZjQ0b05vbk42WWhleFR3cHFn?oc=5",
@@ -10555,6 +10699,26 @@
 "sum": "{{aisd}} AI 생성 면책조항 베이징 경제 정보(Beijing Economic Information)에 따르면 \"실체형 지능형 로봇 산업의 고품질 발전을 위한 베이징 실행 계획(2026-2028)\"이 발표되었습니다. 이 계획은 베이징이 구현된 지능형 로봇 산업을 고정밀 산업의 중요한 영역이자 미래 산업의 핵심 돌파구로 간주하고 산업의 고품질 발전 촉진을 가속화하며 2028년까지 5개 이상의 세계 일류 기업과 10개의 국내 선도 기업을 육성하기 위해 노력할 것이라고 제안합니다. 완전한 로봇 기업으로서 구현된 지능형 모델, 로봇 본체 및 핵심 기술은 모두 세계 일류 수준에 도달했습니다. 베이징-천진-허베이 지역은 전국 전체 기계 생산 능력의 25%를 차지하고 핵심 부품 일치율은 60%를 초과합니다. 전체 수명주기, 다부처 협력 참여를 포괄하는 과학적이고 효과적인 안전 거버넌스 시스템을 구축하고, 이 도시를 세계적 수준의 지능형 로봇 기술 구현 및 산업 혁신의 고지로 건설하는 것은 이번이 처음입니다."
 },
 {
+"key": "北京持续擦亮机器人两会一赛品牌",
+"keys": [
+"北京持续擦亮机器人两会一赛品牌"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇨🇳 중국",
+"title": "北京：持续擦亮机器人“两会一赛”品牌",
+"show": "베이징: '두 세션과 하나의 경쟁'을 위해 로봇 브랜드를 계속해서 연마합니다.",
+"source": "第一财经",
+"src_url": "https://www.yicai.com",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zZnBiM3h0bEJ3Z0c2UzZlOVY3TnJVT0VtSVZ4MjdUNUJJZk4wNGN1N1hVeWtPc2RXRE5hYUFPY0tRd2hoalJYOTd6ZTIwLS1WVTg2WQ?oc=5",
+"pub": 1794372180.0,
+"time": "11/11 13:43",
+"run": "202611110615",
+"added": 1794377808,
+"url": "https://www.yicai.com/brief/103435914.html",
+"sum": "베이징경제정보(Beijing Economic Information)에 따르면, '베이징 구현 지능형 로봇 산업 고품질 발전 실행 계획(2026-2028)'이 발표되었으며, 이 계획은 로봇의 '두 세션과 하나의 경쟁' 브랜드를 지속적으로 연마할 것을 제안합니다. 사람을 키우다"
+},
+{
 "key": "일본제1회휴머노이드로봇엑스포11일개막13일까지사흘간열려",
 "keys": [
 "일본제1회휴머노이드로봇엑스포11일개막13일까지사흘간열려"
@@ -10763,7 +10927,7 @@
 "theme": "🤖 로봇",
 "region": "🇹🇼 대만",
 "title": "《電機股》上銀Q3獲利創16季高點取得美系人形機器人訂單- 證券",
-"show": "《電機股》上銀Q3獲利創16季高點取得美系人形機器人訂單- 證券",
+"show": "'전기기계주' 상하이은행그룹 3분기 이익 16분기 최고 기록, 미국 휴머노이드 로봇 수주 확보 - 증권",
 "source": "工商時報",
 "src_url": "https://www.ctee.com.tw",
 "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMDYtbUJybnlZRTh4UjVOYmhpbGNBRWxzQjhlZ2E4ZjNaZzNZbng2U1JZTF93LXU5UjU1TjR6bm8yMVdOeXFPaEJPTFBFOXFsYVU0dDktUTVmRUkxRzFz?oc=5",
@@ -10804,7 +10968,7 @@
 "theme": "🤖 로봇",
 "region": "🇯🇵 일본",
 "title": "なぜ日本でロボットが増えないのか？→東芝幹部の指摘がキレッキレで、ぐうの音も出ない",
-"show": "なぜ日本でロボットが増えないのか？→東芝幹部の指摘がキレッキレで、ぐうの音も出ない",
+"show": "왜 일본에서 로봇이 늘지 않는가? → 도시바 간부의 지적이 깨끗하고, 구우의 소리도 나오지 않는다",
 "source": "ダイヤモンド・オンライン",
 "src_url": "https://diamond.jp",
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vOEI4Y2pqb2pLQTNSd3Y1TmduOWJ0enR0dnRSZnE5Y3hKTXh0OUVqMUpHaDJhd25MMVdfZUZQSXRYRk9MQWVEWnlCV1pUcnZnT25DTGNB?oc=5",
@@ -11581,25 +11745,5 @@
 "added": 1794264267,
 "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000774028_DJY1WQMG1CIXMQ9545590",
 "sum": "삼성SDI가 현대차그룹 보스턴 다이나믹스의 휴머노이드 로봇 '아틀라스'에 배터리를 공급하고 초도 물량을 맡는다는 소문이 돌았다. 무엇이든..."
-},
-{
-"key": "蘋果進擊機器人鴻準有望成為大贏家",
-"keys": [
-"蘋果進擊機器人鴻準有望成為大贏家"
-],
-"count": 1,
-"theme": "🤖 로봇",
-"region": "🇹🇼 대만",
-"title": "蘋果進擊機器人 鴻準有望成為大贏家",
-"show": "애플 공격로봇 '홍준'이 승자가 될 것으로 예상",
-"source": "經濟日報",
-"src_url": "https://money.udn.com",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNjVSV1ZpRnBWUXlLNHBLZ1VUZXVyR01wLWRzTTUxeTJ6QjctblNYUFdCdVRvbHdYT0o1bmg3LVZYUlAxZFdNUjg3TWN3OFBDX28yTm1sdWhEd1IwTTdjczdrYjdxa1B1a2gtQXRJaEMyNG85WkZ5OWFBYzJIS3RtQ9IBX0FVX3lxTFBJb2VyZUM3NUFxdEdLTGdzUXl1M19JampLVnotZi1lNTZmaHpEempSaFdpbjA3dWlxUmpzd0NmZHlJMmlDZGd1M09RQlNWenIwN281ZUlaN3FidVdrWWJV?oc=5",
-"pub": 1794240209.0,
-"time": "11/10 01:03",
-"run": "202611091643",
-"added": 1794242719,
-"url": "https://money.udn.com/money/story/5612/9867940?from=edn_related_storybottom",
-"sum": "애플이 자체 개발한 휴머노이드 로봇 '브레인(Brain)'이 출시됐고, 그 결과는 자사 로봇 연구 프로젝트(애플 AIML 리서치) 공식 홈페이지에 공개됐다. 단일 작업 테스트의 평균 성공률이 90%를 넘는다. 이는 애플이 로봇 제품 개발에 박차를 가하며 획기적인 발전을 이뤘음을 의미한다. 대만 제조사 중에는 홍준(2354)이 가장 큰 승자가 될 것으로 예상된다. 애플 로봇을 대량 수주할 경우 델타일렉트로닉스(2308)도 수혜를 입을 것으로 예상된다."
 }
 ]
