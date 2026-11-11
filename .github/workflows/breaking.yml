@@ -68,7 +68,7 @@ jobs:
                 done
               fi
             fi
-            # 정기 뉴스 시간(07:40·12:10·17:10·22:10)이 지났는데 아직 안 돌았으면 바로 시작
+            # 정기 뉴스 시간(07:40·12:10·15:55·22:10)이 지났는데 아직 안 돌았으면 바로 시작
             last=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/news_bot.yml/runs?per_page=1" --jq '.workflow_runs[0].created_at' 2>/dev/null || echo "")
             if [ "$(python news_bot.py slot "$last")" = "due" ]; then
               gh workflow run news_bot.yml --ref main -f report=false && echo "정기 뉴스 시간이 지나서 바로 시작함 (마지막 실행: $last)"
