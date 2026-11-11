@@ -1,3 +1,4 @@
 .summary.json
 __pycache__/
 .breaking_new
+.fontcache/

@@ -40,7 +40,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install requests trafilatura
+      - run: pip install requests trafilatura pillow fonttools
 
       - name: 12분 간격으로 여러 번 속보 확인
         env:

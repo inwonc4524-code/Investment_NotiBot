@@ -658,27 +658,11 @@ def save_state(state):
 # ─────────────────────────────────────────────
 # 휴대폰 알림
 # ─────────────────────────────────────────────
-def notify(title, message, click=None, actions=None, tags=None, priority=3):
-    if not NTFY_TOPIC:
-        print("[NTFY_TOPIC 없음 — 알림 대신 화면에 출력]\n" + title + "\n" + message + "\n")
-        return True
-    body = {"topic": NTFY_TOPIC, "title": title, "message": message[:3900], "priority": priority}
-    if click:
-        body["click"] = click
-    if actions:
-        body["actions"] = actions[:3]
-    if tags:
-        body["tags"] = tags
-    for attempt in range(3):
-        try:
-            r = requests.post("https://ntfy.sh/", data=json.dumps(body).encode("utf-8"),
-                              headers={"Content-Type": "application/json"}, timeout=20)
-            r.raise_for_status()
-            return True
-        except Exception as e:
-            print(f"  ! 알림 전송 실패 ({attempt + 1}/3): {e}")
-            time.sleep(3)
-    return False
+def notify(title, message, click=None, actions=None, tags=None, priority=3, card=None):
+    """신문처럼 보이는 알림 (newscard.py): 제목·본문 + 조선일보 명조체 신문 카드 그림."""
+    import newscard
+    return newscard.send(NTFY_TOPIC, title, message, click=click, tags=tags, priority=priority,
+                         actions=actions, card=card)
 
 
 # ─────────────────────────────────────────────
@@ -1168,7 +1152,10 @@ def _breaking_round(data, seen, region, words, theme, mark, min_src, max_new, pu
         if push:
             meta = " · ".join(x for x in [rep["source"], item["time"], f"언론 {cnt}곳" if cnt > 1 else ""] if x)
             label = "🚨 미국 속보" if region["key"] == "us" else f"🌏 {region['label']} 속보"
-            if not notify(label, f"{show}\n{meta}", click=real, tags=["rotating_light"], priority=4):
+            card = {"paper": "주식뉴스 속보", "kicker": label.split(" ", 1)[-1], "headline": show,
+                    "lines": [meta] + ([item["sum"]] if item.get("sum") else []), "footer": "눌러서 기사 원문 보기"}
+            if not notify(f"{label} | {show}"[:120], f"{show}\n{meta}", click=real, tags=["rotating_light"],
+                          priority=4, card=card):
                 continue   # 알림 실패 → 다음 확인 때 다시 시도
             time.sleep(1)
         data["items"].append(item)
@@ -1490,9 +1477,17 @@ def send_summary():
         lines.append("새 소식이 없어요.")
     if sm["failed"]:
         lines.append("\n⚠️ 가져오기 실패: " + ", ".join(sm["failed"]))
-    notify(f"📰 투자 뉴스 {total}개 ({sm['updated']})", "\n".join(lines), click=page,
-           actions=[{"action": "view", "label": "뉴스 목록 열기", "url": page}],
-           tags=["newspaper"], priority=3)
+    # 가장 많이 나온 테마의 대표 기사를 헤드라인으로
+    best = max(((c, n) for n, c in sm["counts"].items() if c), default=(0, ""))
+    top_head = sm["top"].get(best[1], "") if best[0] else ""
+    card = {"paper": "주식뉴스", "kicker": f"뉴스 {total}개 · {sm['updated']}",
+            "headline": top_head or f"투자 뉴스 {total}개",
+            "lines": [f"{n} {c}개 — {sm['top'].get(n, '')}" for n, c in sm["counts"].items() if c],
+            "footer": "눌러서 뉴스 목록 보기"}
+    title = f"📰 {best[1]} · {top_head}"[:120] if top_head else f"📰 투자 뉴스 {total}개 ({sm['updated']})"
+    notify(title, f"총 {total}개 ({sm['updated']})\n━━━━━━━━━━\n" + "\n".join(lines) + "\n\n👉 눌러서 뉴스 목록 보기",
+           click=page, actions=[{"action": "view", "label": "뉴스 목록 열기", "url": page}],
+           tags=["newspaper"], priority=3, card=card)
 
 
 # ─────────────────────────────────────────────
