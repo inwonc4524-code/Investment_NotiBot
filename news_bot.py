@@ -1436,11 +1436,16 @@ def collect():
 
     # 알림 단계에 넘겨줄 요약 (테마별 가장 화제인 새 소식)
     top = {}
+    top_items = {}          # 신문 카드용: 테마마다 화제 기사 2개 (제목 + 기사 요약 + 출처)
     for n in sorted(new_items, key=lambda n: (-n["count"], -n["pub"])):
         if n["theme"] not in top:
             top[n["theme"]] = n["show"] + (f" (언론 {n['count']}곳)" if n["count"] > 1 else "")
+        lst = top_items.setdefault(n["theme"], [])
+        if len(lst) < 2:
+            lst.append({"t": n["show"], "s": n.get("sum", ""), "src": n.get("source", ""),
+                        "c": n.get("count", 1), "time": n.get("time", "")})
     with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
-        json.dump({"counts": counts, "top": top, "failed": failed, "updated": updated,
+        json.dump({"counts": counts, "top": top, "top_items": top_items, "failed": failed, "updated": updated,
                    "total": len(new_items)}, f, ensure_ascii=False)
     print(f"완료 {updated} — 새 소식 {len(new_items)}개")
 
@@ -1452,6 +1457,27 @@ def collect():
 # ─────────────────────────────────────────────
 # 2단계: 알림 한 번 보내기
 # ─────────────────────────────────────────────
+def news_card_lines(sm, max_items=8):
+    """신문 카드 본문: 기사가 많은 테마부터, 테마마다 화제 기사(제목 + 실제 기사 내용 요약 + 출처)."""
+    ti = sm.get("top_items") or {}
+    if not ti:      # 예전 형식 요약 파일이면 제목만
+        return [f"{n} {c}개 — {sm['top'].get(n, '')}" for n, c in sm["counts"].items() if c]
+    themes = [n for n, c in sorted(sm["counts"].items(), key=lambda x: -x[1]) if c and ti.get(n)]
+    out = []
+    # 1바퀴: 테마마다 1개씩, 자리가 남으면 2바퀴: 두 번째 기사
+    for rnd in (0, 1):
+        for n in themes:
+            if len(out) >= max_items:
+                break
+            arts = ti[n]
+            if rnd < len(arts):
+                a = arts[rnd]
+                meta = " · ".join(x for x in [n, a.get("src", ""), a.get("time", ""),
+                                               f"언론 {a['c']}곳" if a.get("c", 1) > 1 else ""] if x)
+                out.append({"head": a["t"], "body": a.get("s", ""), "meta": meta})
+    return out
+
+
 def send_summary():
     try:
         with open(SUMMARY_FILE, encoding="utf-8") as f:
@@ -1481,8 +1507,10 @@ def send_summary():
     best = max(((c, n) for n, c in sm["counts"].items() if c), default=(0, ""))
     top_head = sm["top"].get(best[1], "") if best[0] else ""
     card = {"paper": "주식뉴스", "kicker": f"뉴스 {total}개 · {sm['updated']}",
-            "headline": top_head or f"투자 뉴스 {total}개",
-            "lines": [f"{n} {c}개 — {sm['top'].get(n, '')}" for n, c in sm["counts"].items() if c],
+            # 큰 제목: 기사 수가 많은 테마 3개 (첫 기사 제목은 본문에 요약과 함께 나와서 겹치지 않게)
+            "headline": " · ".join(f"{n} {c}개" for n, c in sorted(sm["counts"].items(), key=lambda x: -x[1])[:3] if c)
+                        or f"투자 뉴스 {total}개",
+            "lines": news_card_lines(sm),
             "footer": "눌러서 뉴스 목록 보기"}
     title = f"📰 {best[1]} · {top_head}"[:120] if top_head else f"📰 투자 뉴스 {total}개 ({sm['updated']})"
     notify(title, "\u200b\n" + f"총 {total}개 ({sm['updated']})\n━━━━━━━━━━\n" + "\n\n".join(lines) + "\n\n👉 눌러서 뉴스 목록 보기",
