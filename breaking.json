@@ -2173,6 +2173,27 @@
 "time": "11/11 21:21",
 "run": "breaking",
 "added": 1794402202
+},
+{
+"key": "속보코어위브호실적에뉴욕증시3대지수상승춭발",
+"keys": [
+"속보코어위브호실적에뉴욕증시3대지수상승춭발"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보]코어위브 호실적에 뉴욕증시 3대지수 상승 춭발",
+"show": "[속보]코어위브 호실적에 뉴욕증시 3대지수 상승 춭발",
+"source": "뉴시스",
+"src_url": "https://www.newsis.com",
+"sum": "[속보]코어위브 호실적에 뉴욕증시 3대지수 상승 춭발",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zaDlfcTBiR1BRNUN4eTJ2LTNvZWI2NDBHSWt6RW5wejlyZElVeUhHSnJySURYZjFkSUE1VU1yVFFnYWt5ZGV4ZkZobTcxMksxbTIwQnpMdUFNUG16WWJNcNIBeEFVX3lxTFAyZmUtcnBnNHUzQTZ4NGR3UFRkSFo5cDdXUkpNTEFwR1F5X0RtNWE5TGdKaE4tR19zVmEwaFRTclREc0J2QktOQmdiS0FlVGlrc3ZieHg1QjFObEVtS3hHUnBkV2dPRW5xQ0lxRVQxamU4Z1pJeFkzVw?oc=5",
+"url": "https://www.newsis.com/view/NISX20261111_0003864581",
+"pub": 1794407953.0,
+"time": "11/11 23:39",
+"run": "breaking",
+"added": 1794408737
 }
 ],
 "seen": {
@@ -2677,6 +2698,7 @@
 "블룸버그中ymtc상장추진계속내년1분기목표": 1794402202.3686042,
 "中ymtc증시한파에도내년1분기ipo추진": 1794402202.3686056,
 "글로벌3위낸드中ymtc이르면내년1분기ipo목표": 1794402202.368606,
-"旗下投資項目被證監會點名可疑華記楊官華指未獲聯絡質疑未審先判213420261111即時財經新聞": 1794405831.741654
+"旗下投資項目被證監會點名可疑華記楊官華指未獲聯絡質疑未審先判213420261111即時財經新聞": 1794405831.741654,
+"속보코어위브호실적에뉴욕증시3대지수상승춭발": 1794408737.0622845
 }
 }
