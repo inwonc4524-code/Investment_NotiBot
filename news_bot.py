@@ -410,6 +410,69 @@ _translate_cache = {}
 _translate_fail = {"n": 0}     # 연속 실패 수 — 번역 서버가 막혔을 때 계속 붙잡고 있지 않게
 
 
+# ─────────────────────────────────────────────
+# 번역 다듬기 (glossary.json 용어집 + 이번 주 번역 기록)
+# ─────────────────────────────────────────────
+GLOSSARY_FILE = os.path.join(HERE, "glossary.json")
+TRLOG_FILE = os.path.join(HERE, "translate_log.json")
+try:
+    with open(GLOSSARY_FILE, encoding="utf-8") as _f:
+        GLOSSARY = json.load(_f)
+except Exception:
+    GLOSSARY = {}
+_trlog = []
+
+
+def _pre_fix(text):
+    """번역 전에 영어 원문을 번역기가 잘 알아듣는 말로 바꿔요 (예: the Fed → the Federal Reserve)."""
+    for a, b in (GLOSSARY.get("pre") or {}).items():
+        if a.strip().isalpha() or re.fullmatch(r"[A-Za-z/'.]+", a.strip()):
+            text = re.sub(r"(?<![A-Za-z])" + re.escape(a.strip()) + r"(?![A-Za-z])" + (" " if a.endswith(" ") else ""),
+                          b.strip() + (" " if a.endswith(" ") else ""), text)
+        else:
+            text = text.replace(a, b)
+    return text
+
+
+def polish(ko):
+    """번역된 한국어를 용어집으로 다듬어요 (영어로 남은 이름 → 한국어, 어색한 표현 → 신문 표현)."""
+    if not ko:
+        return ko
+    for en, k in sorted((GLOSSARY.get("names") or {}).items(), key=lambda x: -len(x[0])):
+        ko = re.sub(r"(?<![A-Za-z])" + re.escape(en) + r"(?![A-Za-z])", k, ko)
+    for a, b in sorted((GLOSSARY.get("post") or {}).items(), key=lambda x: -len(x[0])):
+        ko = ko.replace(a, b)
+    for pat, rep in GLOSSARY.get("regex_post") or []:
+        if rep == "BP2PCT":      # 25bp → 0.25%포인트
+            ko = re.sub(pat, lambda m: f"{float(m.group(1)) / 100:g}%포인트", ko)
+        else:
+            ko = re.sub(pat, rep, ko)
+    return ko.strip()
+
+
+def log_translation(src, ko):
+    _trlog.append({"t": int(time.time()), "en": src[:300], "ko": ko[:300]})
+
+
+def save_translate_log():
+    """이번 주 번역 기록 (토요일 점검이 어색한 번역을 찾아 용어집에 추가하는 데 써요)."""
+    if not _trlog:
+        return
+    try:
+        with open(TRLOG_FILE, encoding="utf-8") as f:
+            old = json.load(f)
+    except Exception:
+        old = []
+    week = time.time() - 8 * 86400
+    seen, out = set(), []
+    for e in old + _trlog:
+        if e["t"] >= week and e["en"] not in seen:
+            seen.add(e["en"])
+            out.append(e)
+    with open(TRLOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(out[-600:], f, ensure_ascii=False, indent=0)
+
+
 def translate_ko(text, tries=3):
     if not TRANSLATE_EN or not text or re.search(r"[가-힣]", text):
         return text
@@ -422,12 +485,13 @@ def translate_ko(text, tries=3):
     for attempt in range(tries):
         try:
             r = requests.get("https://translate.googleapis.com/translate_a/single",
-                             params={"client": "gtx", "sl": "auto", "tl": "ko", "dt": "t", "q": text},
+                             params={"client": "gtx", "sl": "auto", "tl": "ko", "dt": "t", "q": _pre_fix(text)},
                              headers=HEADERS, timeout=15)
             r.raise_for_status()
             out = "".join(seg[0] for seg in r.json()[0] if seg and seg[0]).strip()
             if out:
-                result = out
+                result = polish(out)
+                log_translation(text, result)
                 api_ok = True
                 break
         except Exception as e:
@@ -1428,6 +1492,13 @@ def collect():
     retranslate_failed(shown)
     add_summaries(shown, limit=300)
     news = clean_news(news)
+    for n in news:          # 용어집이 바뀌면 예전에 번역한 기사도 다시 다듬기
+        if not is_korean(n.get("title", "")):
+            if n.get("show") and n["show"] != n.get("title"):
+                n["show"] = polish(n["show"])
+            if n.get("sum") and is_korean(n["sum"]):
+                n["sum"] = polish(n["sum"])
+    save_translate_log()
     order = {t["name"]: i for i, t in enumerate(THEMES)}
     news.sort(key=lambda n: (order.get(n["theme"], 99), -n.get("count", 1), -n["pub"]))
     save_news(news)

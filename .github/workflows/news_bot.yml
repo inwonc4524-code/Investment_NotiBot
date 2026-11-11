@@ -78,7 +78,7 @@ jobs:
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add seen.json docs NEWS.md sources.json
+          git add seen.json docs NEWS.md sources.json translate_log.json 2>/dev/null || git add seen.json docs NEWS.md sources.json
           if ! git diff --cached --quiet; then
             git commit -m "뉴스 업데이트"
             # 속보 확인이 동시에 기록을 저장했을 수 있어서, 실패하면 최신 내용 받아서 다시 시도
