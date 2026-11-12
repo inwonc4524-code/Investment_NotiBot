@@ -1,29 +1,6 @@
 {
 "items": [
 {
-"key": "elonmusksaysteslawillhavetorefundsomecybertruckdepositsonceproductionisshutdown",
-"keys": [
-"elonmusksaysteslawillhavetorefundsomecybertruckdepositsonceproductionisshutdown",
-"elonmusksaysteslawillrefunddepositstoalotofpeopleascybertruckproductionwindsdown",
-"teslaexpandsrobotaxiservicetosanantonio"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Elon Musk says Tesla will have to refund some Cybertruck deposits once production is shut down",
-"show": "Elon Musk는 Tesla가 생산이 중단되면 일부 Cybertruck 보증금을 환불해야 할 것이라고 말했습니다.",
-"source": "CNBC",
-"src_url": "https://www.cnbc.com",
-"sum": "CNBC의 Andrew Ross Sorkin이 Tesla를 둘러싼 최신 뉴스를 보도합니다.",
-"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMnU4OVdFRUVXVGhRRjlyUzVtZlMtcTZ1Zkoyd2dxWGJ0bnlfSzQ1dFl6dGd1MUMtNWgtVXVPemQ4Q3ZSZTh6aW9HcEtIV3lwZ2l0NkxTRW1RN011bVUteVNjLVNmVjdNTTdWb2tHN2l0SlR0MnpjeU4zSnRscUNCcmYxdUJuZDUyVU95WnA2aEd6U0EzdUd6cjNVamRZdDFvd2tlNG5XYVItZFpnVFlKMnV5VlRjWm5YV1JzOWpUZjFVYU5IdVM3eVJwcWFibnpmOXNr?oc=5",
-"url": "https://www.cnbc.com/video/2026/11/09/elon-musk-says-tesla-will-have-to-refund-some-cybertruck-deposits-once-production-is-shut-down.html",
-"pub": 1794224130.0,
-"time": "11/09 20:35",
-"run": "breaking",
-"added": 1794227086
-},
-{
 "key": "속보뉴욕증시상승개장불륜간첩스캔들엔비디아7하락출발",
 "keys": [
 "속보뉴욕증시상승개장불륜간첩스캔들엔비디아7하락출발"
@@ -2548,18 +2525,33 @@
 "time": "11/12 19:23",
 "run": "breaking",
 "added": 1794479366
+},
+{
+"key": "techstocksunderpressureasnvidiacrisisdeepens",
+"keys": [
+"techstocksunderpressureasnvidiacrisisdeepens",
+"nvidiascandalhitstechstocks",
+"nvdastockontracktohitlowestlevelinoverayeardanivesvaluesnvidiaat225withoutjensen"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Tech stocks under pressure as Nvidia crisis deepens",
+"show": "엔비디아 위기가 심화됨에 따라 기술주에 압력이 가해졌습니다.",
+"source": "AFP.com",
+"src_url": "https://www.afp.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWU1RsajZEc0RUMjdQQ3hsbENPQjRQcEMwNC1nWkxHaUhwYng0R3d6OEJmcWd4SHhsNjl5a0w0M01ZTGVVakVKWWFTSEttbUgzU213YmZKNHlkRm1vdW9QTjRTb2lkbTZHeGVjYnY1emE5N2NBVXM2WHltTQ?oc=5",
+"url": "https://www.afp.com/en/tech-stocks-under-pressure-nvidia-crisis-deepens",
+"pub": 1794485115.0,
+"time": "11/12 21:05",
+"run": "breaking",
+"added": 1794485173
 }
 ],
 "seen": {
 "atimelineofnvidiaceojensenhuangssuspectedspydrama": 1794440844.3866184,
-"신현송한은총재bis지급시장인프라위원회의장선임비서구권최초": 1794312094.5479617,
-"속보금융보안원도해킹으로정보유출": 1794310629.761986,
-"營收速報櫻花建253910月營收2288億元年增率高達15762": 1794311374.3742259,
-"營收速報國碩240610月營收910億元年增率高達5139": 1794311374.3742263,
-"금융보안문지기금융보안원도해킹으로정보유출": 1794310629.7619853,
-"한은총재신현송국제결제은행cpmi의장선임지급결제국제기준수립주도": 1794312094.547961,
-"신현송한은총재bis지급위의장선임비서구권처음": 1794312094.5479622,
-"teslacybertruckisevpickupmarketslatestcasualty": 1794312094.1792707,
 "jensenhuangsaffairwithallegedchinesespyfurthercomplicatesnvidiaschinaproblem": 1794312814.5440416,
 "nvidiaceosaffairwithanallegedchinesespycouldbeaproblemfortheeconomy": 1794330955.4544137,
 "nvidiajensenhuangsuedbyshareholdersoverallegedtiestosuspectedchinesespy": 1794312814.544047,
@@ -2785,7 +2777,7 @@
 "nvidiaispreparingtooustceojensenhuangwsjreports": 1794443032.3008187,
 "nvidiastocktumblesonreportboardtooustceojensenhuang": 1794440124.3905256,
 "nvidiastocktumblesasceojensenhuanghadsecondaffairnytreportsn": 1794439405.1356058,
-"nvidiasinksafterreportimplicatesceojensenhuangin2ndaffair": 1794472114.3409,
+"nvidiasinksafterreportimplicatesceojensenhuangin2ndaffair": 1794484451.5271497,
 "exclusivenvidiaispreparingtooustceojensenhuang": 1794445220.1939023,
 "nvidiaceohadanaffairwithhealthexecutiveatfirmnytsays": 1794439405.1356266,
 "nvidiaceohuangallegedlyinvolvedinasecondaffairwithannvidiaexec": 1794438657.8569405,
@@ -3003,10 +2995,21 @@
 "nvidiareportedlyweighsfateofceohuang": 1794480828.6115518,
 "nvidiaboardweighsceohuangsfutureasleadershipcrisisdeepens": 1794479370.1729074,
 "alookatthenvidiaboarddecidingceojensenhuangsfate": 1794482268.7509024,
-"nvidiasharesslideasboardconsidersjensenhuangsfuture": 1794482988.263898,
-"nvidiaboardweighstemporaryceostartssearchforpotentialreplacementafterjensenhuang": 1794482268.7509017,
-"nvidiaboardweighsjensenhuangsfutureafteraffairwithallegechinesespy": 1794482988.2638977,
+"nvidiasharesslideasboardconsidersjensenhuangsfuture": 1794484451.527175,
+"nvidiaboardweighstemporaryceostartssearchforpotentialreplacementafterjensenhuang": 1794484451.527151,
+"nvidiaboardweighsjensenhuangsfutureafteraffairwithallegechinesespy": 1794483731.0425212,
 "nvidiasharesplungeasboardreportedlyweighsoustingceojensenhuangfollowlive": 1794482988.2638984,
-"firstftnvidiaboardweighsjensenhuangsfutureasscandaldeepens": 1794482988.2638972
+"firstftnvidiaboardweighsjensenhuangsfutureasscandaldeepens": 1794484451.5271745,
+"whynvidiaceojensenhuangisunique": 1794484451.5271502,
+"ceojensenhuangsaidtohavehadrelationshipwithnvidiaexecutivenyt": 1794484451.5271506,
+"businessnvidiaboardweighingupwhetherornottooustceojensenhuang": 1794484451.5271516,
+"whynvidiacanstillsurgeevenwithoutjensenhuangdanniles": 1794484451.5271518,
+"nvidiaboardweighsjensenhuangsfuturecanitremoveitsfounder": 1794484451.5271742,
+"nvidiaboardweighsjensenhuangsfutureafteraffairwithallegedspy": 1794484451.5271747,
+"cannvidiasurvivewithoutjensenhuang": 1794484451.527175,
+"techstocksunderpressureasnvidiacrisisdeepens": 1794485176.4325275,
+"nvidiascandalhitstechstocks": 1794485176.4325314,
+"nvdastockontracktohitlowestlevelinoverayeardanivesvaluesnvidiaat225withoutjensen": 1794485176.4325325,
+"高息定存丨大象銀行推港元35厘定存美元定存最高445厘195020261112即時財經新聞": 1794485179.354649
 }
 }
