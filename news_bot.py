@@ -484,11 +484,20 @@ def translate_ko(text, tries=3):
     api_ok = False                # 번역 서버가 응답했는지 (번역 결과가 원문과 같아도 성공)
     for attempt in range(tries):
         try:
-            r = requests.get("https://translate.googleapis.com/translate_a/single",
-                             params={"client": "gtx", "sl": "auto", "tl": "ko", "dt": "t", "q": _pre_fix(text)},
-                             headers=HEADERS, timeout=15)
-            r.raise_for_status()
-            out = "".join(seg[0] for seg in r.json()[0] if seg and seg[0]).strip()
+            if attempt % 2 == 0:      # 기본 번역 주소
+                r = requests.get("https://translate.googleapis.com/translate_a/single",
+                                 params={"client": "gtx", "sl": "auto", "tl": "ko", "dt": "t", "q": _pre_fix(text)},
+                                 headers=HEADERS, timeout=15)
+                r.raise_for_status()
+                out = "".join(seg[0] for seg in r.json()[0] if seg and seg[0]).strip()
+            else:                     # 예비 번역 주소 (기본 주소가 막혔을 때)
+                r = requests.get("https://clients5.google.com/translate_a/t",
+                                 params={"client": "dict-chrome-ex", "sl": "auto", "tl": "ko", "q": _pre_fix(text)},
+                                 headers=HEADERS, timeout=15)
+                r.raise_for_status()
+                j = r.json()
+                first = j[0] if isinstance(j, list) and j else j
+                out = (first[0] if isinstance(first, list) else first if isinstance(first, str) else "").strip()
             if out:
                 result = polish(out)
                 log_translation(text, result)
@@ -508,7 +517,7 @@ def translate_ko(text, tries=3):
     return result
 
 
-def retranslate_failed(items, limit=40):
+def retranslate_failed(items, limit=150):
     """예전에 번역에 실패해서 원문 그대로 남은 제목을 다시 번역"""
     done = fixed = 0
     for n in items:
@@ -1072,7 +1081,7 @@ document.addEventListener('click', function(e){
   $('s-sum').className = 's-sum' + (sm ? '' : ' empty');
   $('s-go').href = c.href;
   // 외국어 기사면 ✦ Gemini 버튼 보이기 (한국어 기사는 숨김)
-  var foreign = !!o;
+  var foreign = !!o || !/[가-힣]/.test(c.querySelector('.title').textContent);   // 번역이 안 됐어도 외국 기사면 버튼 표시
   $('s-cs').hidden = $('s-ct').hidden = $('s-cnote').hidden = !foreign;
   if(foreign){
     // 원문을 열고, Gemini 가 '지금 화면'의 기사를 읽고 답하도록 요청 문장만 복사
@@ -1245,6 +1254,7 @@ def check_breaking():
                                   GLOBAL_BREAKING_MARK, BREAKING_MIN_SOURCES, GLOBAL_BREAKING_MAX,
                                   push=GLOBAL_BREAKING_PUSH)
 
+    retranslate_failed(data["items"], limit=20)   # 번역 서버가 막혀 원문 그대로 남은 속보 제목 다시 번역
     cutoff = time.time() - PAGE_DAYS * 86400
     data["items"] = [x for x in data["items"] if x["pub"] >= cutoff]
     data["seen"] = {k: v for k, v in seen.items() if v >= time.time() - 2 * 86400}
