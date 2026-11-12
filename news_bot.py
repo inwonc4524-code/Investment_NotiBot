@@ -450,6 +450,29 @@ def polish(ko):
     return ko.strip()
 
 
+def easy(text, max_n=2):
+    """기사 요약 속 어려운 경제 낱말 뒤에 쉬운 풀이를 괄호로 붙여요 (요약마다 처음 나온 낱말 max_n 개까지).
+    예) '금리 인하' → '금리(돈을 빌릴 때 내는 이자 비율) 인하'"""
+    if not text:
+        return text
+    done = 0
+    for w, e in sorted((GLOSSARY.get("easy") or {}).items(), key=lambda x: -len(x[0])):
+        if done >= max_n:
+            break
+        i = text.find(w)
+        if i < 0:
+            continue
+        j = i + len(w)
+        if text[j:j + 1] == "(":          # 이미 풀이가 있으면 건너뛰기
+            continue
+        # 더 긴 낱말의 일부면 건너뛰기 (예: '기준금리' 안의 '금리'는 이미 풀이됨)
+        if re.search(r"\(" + re.escape(e) + r"\)", text):
+            continue
+        text = text[:j] + f"({e})" + text[j:]
+        done += 1
+    return text
+
+
 def log_translation(src, ko):
     _trlog.append({"t": int(time.time()), "en": src[:300], "ko": ko[:300]})
 
@@ -837,7 +860,7 @@ def _pack(n, rkey):
     if n["show"] != n["title"]:
         d["t"] = n["title"]
     if n.get("sum"):
-        d["su"] = n["sum"]
+        d["su"] = easy(n["sum"])
     return d
 
 
@@ -1226,7 +1249,7 @@ def _breaking_round(data, seen, region, words, theme, mark, min_src, max_new, pu
             meta = " · ".join(x for x in [rep["source"], item["time"], f"언론 {cnt}곳" if cnt > 1 else ""] if x)
             label = "🚨 미국 속보" if region["key"] == "us" else f"🌏 {region['label']} 속보"
             card = {"paper": "주식뉴스 속보", "kicker": label.split(" ", 1)[-1], "headline": show,
-                    "lines": [meta] + ([item["sum"]] if item.get("sum") else []), "footer": "눌러서 기사 원문 보기"}
+                    "lines": [meta] + ([easy(item["sum"])] if item.get("sum") else []), "footer": "눌러서 기사 원문 보기"}
             if not notify(f"{label} | {show}"[:120], f"\u200b\n{show}\n\n{meta}", click=real, tags=["rotating_light"],
                           priority=4, card=card):
                 continue   # 알림 실패 → 다음 확인 때 다시 시도
@@ -1523,7 +1546,7 @@ def collect():
             top[n["theme"]] = n["show"] + (f" (언론 {n['count']}곳)" if n["count"] > 1 else "")
         lst = top_items.setdefault(n["theme"], [])
         if len(lst) < 2:
-            lst.append({"t": n["show"], "s": n.get("sum", ""), "src": n.get("source", ""),
+            lst.append({"t": n["show"], "s": easy(n.get("sum", "")), "src": n.get("source", ""),
                         "c": n.get("count", 1), "time": n.get("time", "")})
     with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
         json.dump({"counts": counts, "top": top, "top_items": top_items, "failed": failed, "updated": updated,
