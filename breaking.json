@@ -1,27 +1,6 @@
 {
 "items": [
 {
-"key": "속보뉴욕증시저가매수세유입에일제히상승마감",
-"keys": [
-"속보뉴욕증시저가매수세유입에일제히상승마감"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보]뉴욕증시, 저가 매수세 유입에 일제히 상승 마감",
-"show": "[속보]뉴욕증시, 저가 매수세 유입에 일제히 상승 마감",
-"source": "아시아경제",
-"src_url": "https://www.asiae.co.kr",
-"sum": "9일(현지시간) 미국의 3대 지수는 일제히 상승 마감했다. AD 이날 뉴욕증시에서 다우존스30산업평균지수(다우지수)는 전 거래일보다 2.15% 오르며 마쳤다. 대형주 중심의 S&P500지수는 2.35%, 기술주 중심의 나스닥지수는 2.74% 상승해 장을 마무리했다. 뉴욕(미국)=황윤주 특파원 hyj@asiae.co.kr <ⓒ투자가를 위한 경제콘텐츠 플랫폼, 아시아경제. 무단전재 배포금지, AI 학습 및 활용 금지>",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RVk01UjRtYmlqNGFMRzlabnlZRktNOWxEQ3lKS28tMWZPOTJ3T2xJa05KNDVHYVFvbGJKWHkzdlNnNjVWQ0hkWDlCR3hOYmd2M3k1bG4tN0xiQnBHRDFXNw?oc=5",
-"url": "https://www.asiae.co.kr/article/2026111004100851175",
-"pub": 1794258804.0,
-"time": "11/10 06:13",
-"run": "breaking",
-"added": 1794259044
-},
-{
 "key": "nvidiasharesslumponspyprobe",
 "keys": [
 "nvidiasharesslumponspyprobe",
@@ -2671,6 +2650,27 @@
 "time": "11/13 06:05",
 "run": "breaking",
 "added": 1794517872
+},
+{
+"key": "속보필라델피아반도체지수젠슨황퇴진여파에054하락마감",
+"keys": [
+"속보필라델피아반도체지수젠슨황퇴진여파에054하락마감"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 필라델피아 반도체지수, 젠슨황 퇴진 여파에 0.54% 하락 마감",
+"show": "[속보] 필라델피아 반도체지수, 젠슨황 퇴진 여파에 0.54% 하락 마감",
+"source": "뉴스1",
+"src_url": "https://www.news1.kr",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwTHVsSGNEVVFoa0gzZEFRcE5XMGhsQkFUQmlhNWxpUGNTR2RBT0NwRDhIdEtGcDE2MXNyQ29rZThDMTV0NFYtM01YUng0QlgyMUVUbGpiSldPVUNTYk8xQ3ZNNVd0T0E?oc=5",
+"url": "https://www.news1.kr/world/international-economy/6352654",
+"pub": 1794517567.0,
+"time": "11/13 06:06",
+"run": "breaking",
+"added": 1794518618
 }
 ],
 "seen": {
@@ -2680,7 +2680,6 @@
 "fedsbowmansaysstillworktodooninflation": 1794346213.8649693,
 "속보뉴욕증시인플레우려에일제히하락나스닥07": 1794347654.6222863,
 "속보엔비디아쇼크빅스텝가능성에뉴욕증시하락마감": 1794348374.5629158,
-"속보뉴욕증시금리인상가능성에하락마감다우03": 1794345471.801139,
 "속보美반도체지수035하락美cpi예상상회연준05p인상가능성": 1794348374.5629249,
 "예상웃돈물가에뉴욕증시일제히하락나스닥07": 1794349135.099149,
 "속보뉴욕증시하락나스닥074": 1794346214.367918,
@@ -3135,7 +3134,7 @@
 "nvidiaceojensenhuangresignsasceoamidmountingscandals": 1794492454.487229,
 "nvidiaceojensenhuangresigns": 1794498994.3613315,
 "nvidiaceojensenhuangstepsdowninbigblowtoaiboom": 1794492454.4872293,
-"jensenhuangresignsasnvidiaceoafteraffairwithallegedspy": 1794517868.239101,
+"jensenhuangresignsasnvidiaceoafteraffairwithallegedspy": 1794517897.2210388,
 "whomightreplacejensenhuangatnvidia": 1794492454.4872296,
 "jensenhuangresignsasnvidiaceoafterallegedaffairs": 1794495363.441113,
 "nvidiaceojensenhuangresignsimmediately": 1794495363.4411137,
@@ -3260,12 +3259,12 @@
 "sp500andnasdaqturnhigheraschipstocksrecoverfromearlierlossesseenafterjensenhuang": 1794504809.9958196,
 "nvidiaceojensenhuangresignsafterbinancetraderspricedinhisexit": 1794507716.6816304,
 "nvidiasharestumbleafterjensenhuangresignsasceo": 1794509177.8873274,
-"nvidiaceojensenhuangresignsinblowtoaiboomhehelpedfoster": 1794517868.2391016,
+"nvidiaceojensenhuangresignsinblowtoaiboomhehelpedfoster": 1794517897.2210393,
 "watchjensenhuangresignsfromnvidiaamidaffairsandallegedspyscandal": 1794509177.8873224,
 "nvidiastockplungesafterjensenhuangresignsasceo": 1794512057.1465163,
 "watchnvidianamescolettekressasinterimceo": 1794509897.3495557,
 "jensenhuangisoutasnvidianamescolettekressinterimceo": 1794509897.349556,
-"whatweknowafterjensenhuangresignsasnvidiasceo": 1794517868.2391026,
+"whatweknowafterjensenhuangresignsasnvidiasceo": 1794517897.2210405,
 "fedtoskipratevoteatoctober2027meetingunderwarshplan": 1794512083.637247,
 "fedwillnotholdpolicyvoteatoctober2027meeting": 1794512083.6372473,
 "fedreleasesmeetingschedulefor2027willnotholdpolicymeetingnextoctober": 1794512083.6372478,
@@ -3281,18 +3280,23 @@
 "exnvidiaceohuanghireslawyers": 1794514989.3160217,
 "formernvidiaceohuanghadrelationshipwithsecondemployeereuters": 1794514989.3160217,
 "videojensenhuangstepsdownasnvidiasceo": 1794514968.3258367,
-"jensenhuangresignsasnvidiaceoamidscandal": 1794517868.2391021,
+"jensenhuangresignsasnvidiaceoamidscandal": 1794517897.2210398,
 "spacexandteslaadvancemergertalkstowardpotentiallyrecordbreakingdealreport": 1794517155.2380984,
 "spacexteslamergertalksprogressbloombergnewsreports": 1794517155.2381032,
 "spacexandteslatalksonrecordmergeraresaidtoprogress": 1794517155.238104,
-"10월수출물가환율하락에도석달만에반도체의힘": 1794517872.11597,
-"환율유가동반하락에10월수입물가18": 1794517872.115971,
-"10월수출물량439급증반도체호조에증가율역대최고": 1794517872.1159725,
-"반도체ai인프라수출호황수출물량증가율439역대최대머니투데이": 1794517872.1159732,
-"환율유가하락에10월수입물가내림세전환": 1794517872.1159737,
-"환율유가떨어지니10월수입물가한달만에하락": 1794517872.115974,
-"반도체가이끈10월수출물가반등교역조건또역대급개선": 1794517872.1159742,
-"반도체ai호황에수출물량439급증역대최대증가폭": 1794517872.1159744,
-"10월수출물가반등무역지수는역대최고": 1794517872.1159744
+"10월수출물가환율하락에도석달만에반도체의힘": 1794518617.8372552,
+"환율유가동반하락에10월수입물가18": 1794518617.8372557,
+"10월수출물량439급증반도체호조에증가율역대최고": 1794518617.8372564,
+"반도체ai인프라수출호황수출물량증가율439역대최대머니투데이": 1794517897.7652268,
+"환율유가하락에10월수입물가내림세전환": 1794518617.8372562,
+"환율유가떨어지니10월수입물가한달만에하락": 1794518617.8372571,
+"반도체가이끈10월수출물가반등교역조건또역대급개선": 1794518617.8372574,
+"반도체ai호황에수출물량439급증역대최대증가폭": 1794518617.8372574,
+"10월수출물가반등무역지수는역대최고": 1794518617.837258,
+"국제유가환율동반하락에10월수입물가한달만에하락": 1794518617.8372548,
+"반도체호황에수출물량439역대최고교역구매력도급증": 1794518617.8372567,
+"속보뉴욕증시젠슨황전격퇴진에엔비디아급락434": 1794518617.8372848,
+"뉴욕증시젠슨황엔비디아ceo사임에하락나스닥039상보": 1794518617.837285,
+"속보필라델피아반도체지수젠슨황퇴진여파에054하락마감": 1794518618.6825895
 }
 }
