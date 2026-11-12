@@ -2656,17 +2656,55 @@
 "time": "11/12 12:10",
 "run": "breaking",
 "added": 1794456101
+},
+{
+"key": "속보시진핑조국통일은역사적임무",
+"keys": [
+"속보시진핑조국통일은역사적임무"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 시진핑 조국통일은 역사적 임무",
+"show": "[속보] 시진핑 조국통일은 역사적 임무",
+"source": "SBS Biz",
+"src_url": "https://biz.sbs.co.kr",
+"sum": "[시진핑 중국 국가주석 (로이터=연합뉴스)][속보] 시진핑 \"조국통일은 역사적 임무\" …",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WdkVoTXM5cmJBVXRxQnA2TTk4Y0JXeXpNdzNmR2k2ZzdEQXZGVDBpRU96a00xRmluOVA1SGdMbWFMY3h2U0xWOUVGNzFNM0NSYkY00gFYQVVfeXFMTWFybmt1emxkY1Q2RVc1V0ZpUnBjTjlmUmh5UUlheUNyb0xjdER5Um5qRmRmOGZta0dBMFpNUU9FTEtza3FndGlfNE9XV0xOdFFvR1RjVXlVbg?oc=5",
+"url": "https://biz.sbs.co.kr/article/20000345978",
+"pub": 1794457860.0,
+"time": "11/12 13:31",
+"run": "breaking",
+"added": 1794459001
+},
+{
+"key": "美升息預期增台股偏弱新台幣午盤貶56分暫收32916元",
+"keys": [
+"美升息預期增台股偏弱新台幣午盤貶56分暫收32916元",
+"新台幣午盤貶56分暫收32916元"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "美升息預期增＋台股偏弱 新台幣午盤貶5.6分 暫收32.916元",
+"show": "미국 금리인상 기대감 증폭 + 대만증시 약세, 신대만달러는 정오 5.6센트 하락해 32.916위안으로 임시 마감",
+"source": "工商時報",
+"src_url": "https://www.ctee.com.tw",
+"sum": "강력한 인플레이션 데이터로 인해 시장에서는 미국의 통화 정책을 더욱 긴축할 것으로 예상됩니다. 미국 연방준비제도(Fed·연준)의 금리 인상에 대한 시장의 기대가 높아지면서 달러지수는 강세를 이어가며 지난달 최고치를 경신했다. 일본 엔화는 미국 달러 대비 심리적 수준인 160포인트까지 하락했습니다. 게다가 대만 증시는 장중 12일 4만4000포인트 아래로 떨어지며 마이너스로 돌아섰다. 미국 달러 대비 신대만 달러 환율도 동시에 약세를 이어갔고, 외국 자본은 여전히 ​​송금 편향성을 보였다. 신대만달러는 장중 32.927위안까지 떨어졌고, 최근 32.8~32위안 사이에서 계속 거래되고 있다.",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnZmVSdEJGRUVhdm1pcE5xdzhEOUgtb0hwY092dHo5ckFabEJraWVJRFY2TU4xc0U2Rl9xTkRYMjFNU1VWRklKWEtYWHZjaDEtVFdIbjBMNUF4NF8zWDg0?oc=5",
+"url": "https://www.ctee.com.tw/news/20261112701198-430302",
+"pub": 1794458340.0,
+"time": "11/12 13:39",
+"run": "breaking",
+"added": 1794459007
 }
 ],
 "seen": {
 "atimelineofnvidiaceojensenhuangssuspectedspydrama": 1794440844.3866184,
 "trumpsaysfbiislookingatnvidiaceojensenhuangsaffairwithallegedchineseagent": 1794297543.4146676,
 "trumpsaysfbiinvestigatingnvidiabosssaffairwithallegedchinesespy": 1794288111.4450097,
-"港元拆息個別發展一個月hibor由升轉跌111920261110即時財經新聞": 1794284473.0125308,
-"trumpsaysfbiprobingnvidiaceohuangsaffairwithallegedspy": 1794285931.4320338,
-"trumpsaysfbiinvestigatingnvidiaceohuangoverchinesescandal": 1794285931.4320333,
-"fbiislookingatnvidiaceojensenhuangsaffairwithanallegedchineseagenttrumpsays": 1794285931.4320328,
-"fbilookingintonvidiaceojensenhuangsaffairassharesslide": 1794284469.8985012,
 "恒指升69點晶片股強勢中芯升近4藍籌最佳芯德半導體首掛半日飈22120520261110即時財經新聞": 1794288114.3066325,
 "美훈풍에삼전닉스46코스피코스닥매수사이드카": 1794288832.1008809,
 "코스피코스닥매수사이드카발동후상승폭축소오후3대": 1794288832.1008818,
@@ -3137,12 +3175,19 @@
 "반도체호황인데왜소비안늘까kdi유가급등의소비위축효과가반도체호황효과뛰어넘어": 1794456094.4728951,
 "kdi유가에막힌소비회복내년반도체효과본격화": 1794455374.2476487,
 "반도체호황효과는언제역대급수출에도지갑닫힌이유": 1794455374.2476504,
-"港元拆息普遍向上貼現窗投放25億創4個月高1個月hibor創一周高111620261112即時財經新聞": 1794456816.397335,
+"港元拆息普遍向上貼現窗投放25億創4個月高1個月hibor創一周高111620261112即時財經新聞": 1794456842.3039937,
 "올해민간소비누른고유가반도체호황효과는내년체감전망": 1794456094.4728942,
 "최근반도체호황과유가상승이민간소비에미치는영향": 1794455374.247649,
 "kdi현안분석반도체호황유가상승민간소비영향": 1794455374.2476492,
 "반도체호황과유가상승민간소비에미치는영향kdi현안분석": 1794456094.472895,
 "ひらまつ2764ひらまつレポート月次売上速報2026年11月12日適時開示日経会社情報digital": 1794456101.0986488,
-"恒指半日跌223點北水流入59億元120120261112即時財經新聞": 1794456816.397334
+"恒指半日跌223點北水流入59億元120120261112即時財經新聞": 1794459008.4697087,
+"恒指半日跌223點": 1794459008.469708,
+"恒指半日跌223點曾跌穿10天線北水流入59億元新股一微科技升81宏芯宇跌004": 1794459008.4697082,
+"港股中午收市報24092點跌223點": 1794459008.4697092,
+"속보시진핑조국통일은역사적임무": 1794459001.3995104,
+"美升息預期增台股偏弱新台幣午盤貶56分暫收32916元": 1794459007.6925125,
+"新台幣午盤貶56分暫收32916元": 1794459007.6925135,
+"恒指走勢丨半日跌223點兩萬四失而復得阿里挫半成": 1794459008.4697073
 }
 }
