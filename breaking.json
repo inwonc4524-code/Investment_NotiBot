@@ -1,30 +1,6 @@
 {
 "items": [
 {
-"key": "속보유가급락에美증시2대반등반도체엔비디아",
-"keys": [
-"속보유가급락에美증시2대반등반도체엔비디아",
-"속보엔비디아43급락에도필라델피아반도체지수69급등",
-"속보뉴욕증시3대지수각각2넘게급등엔비디아43급락",
-"속보뉴욕증시엔비디아위기에도급반등나스닥27"
-],
-"count": 4,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보]유가 급락에 美증시 2%대 반등…반도체↑ 엔비디아↓",
-"show": "[속보]유가 급락에 美증시 2%대 반등…반도체↑ 엔비디아↓",
-"source": "이데일리",
-"src_url": "https://www.edaily.co.kr",
-"sum": "뉴욕증시가 9일(현지시간) 국제유가 하락과 기술주 저가 매수세에 힘입어 큰 폭으로 상승했다. 지난주 급락했던 반도체주가 반등했고 산업재와 소비재로도 매수세가 확산했다. 다만 엔비디아는 젠슨 황 최고경영자(CEO)에 대한 이사회 조사 여파로 하락했다. 사진=로이터이날...",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWW9OV2F6XzBtU1kyUlNzcG1XRVh6RGhaMXNOUWF5VndwUVFQOFY4cUdrSGJVMlE5RklMQ3o1QjRNeXNqN2FqVzRTUFlmMG9oZWgzTjBqUmJnZjYxNDJsbnIwc0lIWU1FMFJiYTY4STZqNnJaa25KLVJXdXBwZm81OQ?oc=5",
-"url": "https://www.edaily.co.kr/News/Read?newsId=01918806645644408&mediaCodeNo=257",
-"pub": 1794258338.0,
-"time": "11/10 06:05",
-"run": "breaking",
-"added": 1794259042
-},
-{
 "key": "속보뉴욕증시저가매수세유입에일제히상승마감",
 "keys": [
 "속보뉴욕증시저가매수세유입에일제히상승마감"
@@ -2666,6 +2642,35 @@
 "time": "11/13 05:49",
 "run": "breaking",
 "added": 1794517151
+},
+{
+"key": "10월수출물가환율하락에도석달만에반도체의힘",
+"keys": [
+"10월수출물가환율하락에도석달만에반도체의힘",
+"환율유가동반하락에10월수입물가18",
+"10월수출물량439급증반도체호조에증가율역대최고",
+"반도체ai인프라수출호황수출물량증가율439역대최대머니투데이",
+"환율유가하락에10월수입물가내림세전환",
+"환율유가떨어지니10월수입물가한달만에하락",
+"반도체가이끈10월수출물가반등교역조건또역대급개선",
+"반도체ai호황에수출물량439급증역대최대증가폭",
+"10월수출물가반등무역지수는역대최고"
+],
+"count": 9,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "10월 수출물가, 환율 하락에도 석 달 만에 ↑…'반도체의 힘'",
+"show": "10월 수출물가, 환율 하락에도 석 달 만에 ↑…'반도체의 힘'",
+"source": "데일리안",
+"src_url": "https://www.dailian.co.kr",
+"sum": "지난달 원·달러 환율 하락에도 불구하고 반도체 가격 강세에 힘입어 수출물가가 석 달 만에 상승세로 돌아섰다.반면 국제유가와 환율이 동반 하락하면서 수입물가는 한 달 만에 내림세로 전환했다.13일 한국은행이 발표한 '2026년 10월 수출입물가지수 및 무역지수(잠정)'에 따르면 지난달 원화 기준 수출물가지수는 184.15로 전월(182.84)보다 0.7% 상",
+"link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZGlJczlCRHRJUGoyaU9vdUJZVzZFNjdCejlDbHN1ZlN2Rms1bzY4ZnE5enRUMk85SWFjbFlMZnplQjNuMDVGRkw3eUtQa2VaT3U1WnhHcUpPTVFLNnR6Sk5uUkpCaVFiQ29GdGhHWnAyM3IyVzZXazlTQWF0N3R3M0RFOW5FN1dITThUaTF5bFhRMzIxSTlvbU5LUXpDUFpoaHNEYTB1SWZYR0M3TWpfQ0dIR3NOWm5SRUZISWl3R0hJMlZDQXdFS1pRRGNsUjBDV3VzZjNCeVg4clZOV1drbGF4b3BuMTB0bTMyMXJnZnNEemJlV1pQMlo3N1pkTU5FUnVZ?oc=5",
+"url": "https://www.dailian.co.kr/news/view/1714301/10%EC%9B%94-%EC%88%98%EC%B6%9C%EB%AC%BC%EA%B0%80-%ED%99%98%EC%9C%A8-%ED%95%98%EB%9D%BD%EC%97%90%EB%8F%84-%EC%84%9D-%EB%8B%AC-2026",
+"pub": 1794517500.0,
+"time": "11/13 06:05",
+"run": "breaking",
+"added": 1794517872
 }
 ],
 "seen": {
@@ -3130,7 +3135,7 @@
 "nvidiaceojensenhuangresignsasceoamidmountingscandals": 1794492454.487229,
 "nvidiaceojensenhuangresigns": 1794498994.3613315,
 "nvidiaceojensenhuangstepsdowninbigblowtoaiboom": 1794492454.4872293,
-"jensenhuangresignsasnvidiaceoafteraffairwithallegedspy": 1794517148.7144861,
+"jensenhuangresignsasnvidiaceoafteraffairwithallegedspy": 1794517868.239101,
 "whomightreplacejensenhuangatnvidia": 1794492454.4872296,
 "jensenhuangresignsasnvidiaceoafterallegedaffairs": 1794495363.441113,
 "nvidiaceojensenhuangresignsimmediately": 1794495363.4411137,
@@ -3255,12 +3260,12 @@
 "sp500andnasdaqturnhigheraschipstocksrecoverfromearlierlossesseenafterjensenhuang": 1794504809.9958196,
 "nvidiaceojensenhuangresignsafterbinancetraderspricedinhisexit": 1794507716.6816304,
 "nvidiasharestumbleafterjensenhuangresignsasceo": 1794509177.8873274,
-"nvidiaceojensenhuangresignsinblowtoaiboomhehelpedfoster": 1794517148.7144878,
+"nvidiaceojensenhuangresignsinblowtoaiboomhehelpedfoster": 1794517868.2391016,
 "watchjensenhuangresignsfromnvidiaamidaffairsandallegedspyscandal": 1794509177.8873224,
 "nvidiastockplungesafterjensenhuangresignsasceo": 1794512057.1465163,
 "watchnvidianamescolettekressasinterimceo": 1794509897.3495557,
 "jensenhuangisoutasnvidianamescolettekressinterimceo": 1794509897.349556,
-"whatweknowafterjensenhuangresignsasnvidiasceo": 1794517148.7144887,
+"whatweknowafterjensenhuangresignsasnvidiasceo": 1794517868.2391026,
 "fedtoskipratevoteatoctober2027meetingunderwarshplan": 1794512083.637247,
 "fedwillnotholdpolicyvoteatoctober2027meeting": 1794512083.6372473,
 "fedreleasesmeetingschedulefor2027willnotholdpolicymeetingnextoctober": 1794512083.6372478,
@@ -3276,9 +3281,18 @@
 "exnvidiaceohuanghireslawyers": 1794514989.3160217,
 "formernvidiaceohuanghadrelationshipwithsecondemployeereuters": 1794514989.3160217,
 "videojensenhuangstepsdownasnvidiasceo": 1794514968.3258367,
-"jensenhuangresignsasnvidiaceoamidscandal": 1794517148.7144868,
+"jensenhuangresignsasnvidiaceoamidscandal": 1794517868.2391021,
 "spacexandteslaadvancemergertalkstowardpotentiallyrecordbreakingdealreport": 1794517155.2380984,
 "spacexteslamergertalksprogressbloombergnewsreports": 1794517155.2381032,
-"spacexandteslatalksonrecordmergeraresaidtoprogress": 1794517155.238104
+"spacexandteslatalksonrecordmergeraresaidtoprogress": 1794517155.238104,
+"10월수출물가환율하락에도석달만에반도체의힘": 1794517872.11597,
+"환율유가동반하락에10월수입물가18": 1794517872.115971,
+"10월수출물량439급증반도체호조에증가율역대최고": 1794517872.1159725,
+"반도체ai인프라수출호황수출물량증가율439역대최대머니투데이": 1794517872.1159732,
+"환율유가하락에10월수입물가내림세전환": 1794517872.1159737,
+"환율유가떨어지니10월수입물가한달만에하락": 1794517872.115974,
+"반도체가이끈10월수출물가반등교역조건또역대급개선": 1794517872.1159742,
+"반도체ai호황에수출물량439급증역대최대증가폭": 1794517872.1159744,
+"10월수출물가반등무역지수는역대최고": 1794517872.1159744
 }
 }
