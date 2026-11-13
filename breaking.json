@@ -1,27 +1,6 @@
 {
 "items": [
 {
-"key": "anthropic上市市值14萬億美元較兩月前預估低223820261110即時財經新聞",
-"keys": [
-"anthropic上市市值14萬億美元較兩月前預估低223820261110即時財經新聞"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "hk",
-"region": "🇭🇰 홍콩",
-"title": "Anthropic上市市值1.4萬億美元 較兩月前預估低 (22:38) - 20261110 - 即時財經新聞",
-"show": "앤트로픽 상장시가 1조4000억 달러로 두 달 전 예상(22:38)보다 낮아 - 20261110 - 실시간 금융뉴스",
-"source": "明報財經網",
-"src_url": "https://finance.mingpao.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPSlREbkhMT1Q4dVBfLWhjT0hSWERXUnRPbzBUaGlpYXEtLS10dGtSZVQtUWR4VGl5bHdoZDlxYk9tZVk5ZC02cE03a2JfSG4wdk1yOGJXd3lYaWhBUVZjY0tkVlR3NGg0QnV4Y0xRMzV4QlBrWHoyWG9TZk9RdklhV2JjUVZMVTJEUk5MQS12Znh4bERMd21yWkVwdF95bUlaVDJiQWlHVXhfdDlSVXdpbmNXRk10VkFjUWVZZlliTUgtcDhuT1NRZlE2aEFiaFZJT004aGFQZ2F6ODBXbEx0UExONlU0aUtBcjhWbjY1TUhkODJldER5MXRnUVlUektuTU44Vnp2YUJfd3dIY0Z6eXhVaFllQVJCSW9WOE5GbzhTWk1oc1E4UGx1eW11dGlOOTYyZ0thSQ?oc=5",
-"url": "https://finance.mingpao.com/fin/instantf/20261110/1794321739766/anthropic%E4%B8%8A%E5%B8%82%E5%B8%82%E5%80%BC1-4%E8%90%AC%E5%84%84%E7%BE%8E%E5%85%83-%E8%BC%83%E5%85%A9%E6%9C%88%E5%89%8D%E9%A0%90%E4%BC%B0%E4%BD%8E",
-"pub": 1794321809.0,
-"time": "11/10 23:43",
-"run": "breaking",
-"added": 1794322246
-},
-{
 "key": "뉴욕개장10월cpi예상치웃돌며하락출발나스닥081",
 "keys": [
 "뉴욕개장10월cpi예상치웃돌며하락출발나스닥081",
@@ -2502,6 +2481,27 @@
 "time": "11/13 21:50",
 "run": "breaking",
 "added": 1794574588
+},
+{
+"key": "속보뉴욕증시엔비디아안정세속상승출발다우지수04",
+"keys": [
+"속보뉴욕증시엔비디아안정세속상승출발다우지수04"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 뉴욕 증시, 엔비디아 안정세속 상승 출발…다우지수 0.4%↑",
+"show": "[속보] 뉴욕 증시, 엔비디아 안정세속 상승 출발…다우지수 0.4%↑",
+"source": "뉴시스",
+"src_url": "https://www.newsis.com",
+"sum": "[속보] 뉴욕 증시, 엔비디아 안정세속 상승 출발…다우지수 0.4%↑",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjUWtUeHEtaGpBUlhxNUE3RkZBZTYxdk4zVGdWLWZkaTh6eWdYUk42Q3FJemJPR0xkWGZVMGF4bUNGekNMdnJ5Y0I0NmVjZ1Y5eGU3dGYtTnE2eXN0MW9ZMtIBeEFVX3lxTE9LeENDVkZMNXczMnlQanpXM19nUnRsUnRBTFZ6MC0xVjA3bEhNeXhSVHpnb0ZTcjU3ZnFZVnhTeERIOGZtSHhZaGt4Mjk5UFdSY09nWE8xc0NqbXUwT05acW9oSzVYbTgwTUVCQzdsTEdiVkU0N0NrZQ?oc=5",
+"url": "https://www.newsis.com/view/NISX20261113_0003867903",
+"pub": 1794580389.0,
+"time": "11/13 23:33",
+"run": "breaking",
+"added": 1794581119
 }
 ],
 "seen": {
@@ -3179,6 +3179,7 @@
 "대만자유시보앨리스황中국가안전부반도체팀소속의혹": 1794576776.7458572,
 "젠슨황내연녀中국가안전부반도체팀소속": 1794576776.745858,
 "대만매체젠슨황불륜상대中국가안전부반도체팀소속": 1794576056.077434,
-"젠슨황불륜녀中국가안전부반도체팀소속요원": 1794576776.7458587
+"젠슨황불륜녀中국가안전부반도체팀소속요원": 1794576776.7458587,
+"속보뉴욕증시엔비디아안정세속상승출발다우지수04": 1794581119.4094281
 }
 }
