@@ -1,62 +1,6 @@
 {
 "items": [
 {
-"key": "fedswallerputshalfpointratehikeintothemixfordecember",
-"keys": [
-"fedswallerputshalfpointratehikeintothemixfordecember",
-"fedswallerplanstosupportatleastaquarterpointratehikeindecember",
-"fedgovernorwallerseesdecemberhikelikelyopensdoortopossiblehalfpointincrease"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Fed’s Waller puts half-point rate hike into the mix for December",
-"show": "연준 월러(Fed’s Waller), 12월 금리 인상에 0.5%포인트 인상 고려",
-"source": "MarketWatch",
-"src_url": "https://www.marketwatch.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQUJIeWdYUTVoMVRrQTYxRklXZ1IyWmp3VlFtajV3b0JHV1oxUkJhcGc1Q1EtV20yc0RyZnlwa2d2bmpPdFVTUEw3MmhHVmJyYWZEWmJMT0MwMGt6X0ZwN3hXbHRpQ1pybEhIX2tqSHRiUTVsX0Q4eWVXWXNNRHdKTVl0aXV4NlJDME4tb2xSdldtV2NCUHkyMmE4SUowb0Ffc05nWFp2V2dqdw?oc=5",
-"url": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc",
-"pub": 1794303900.0,
-"time": "11/10 18:45",
-"run": "breaking",
-"added": 1794304085
-},
-{
-"key": "신현송총재biscpmi의장선임美유럽외인사중처음",
-"keys": [
-"신현송총재biscpmi의장선임美유럽외인사중처음",
-"신현송한은총재biscpmi의장선임지급결제기준제정",
-"신현송한은총재bis지급시장인프라위원회의장으로선임",
-"신현송한은총재biscpmi의장선임비서구권최초기록",
-"신현송한은총재biscpmi의장선임非美유럽최초",
-"신현송한은총재biscpmi의장선임아시아최초머니투데이",
-"신현송한은총재bis지급시장인프라委의장선임美유럽벽깼다",
-"신현송한은총재bis핵심위원회의장선임비미국유럽권최초",
-"신현송한은총재bis산하cpmi의장맡는다비서구권최초",
-"신현송bis지급및시장인프라위원회의장선임",
-"신현송한은총재bis지급시장인프라위원회의장선임비서구권최초",
-"신현송총재bis핵심위원회의장선임",
-"신현송한은총재bis지급시장인프라위원회의장선임미국유럽외최초"
-],
-"count": 13,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "신현송 총재, ‘BIS CPMI’ 의장 선임…美·유럽 외 인사 중 처음",
-"show": "신현송 총재, ‘BIS CPMI’ 의장 선임…美·유럽 외 인사 중 처음",
-"source": "헤럴드경제",
-"src_url": "https://biz.heraldcorp.com",
-"sum": "신현송 한국은행 총재가 국제결제은행( S) 산하 지급결제 분야 국제기준 제정기구인 ‘지급 및 시장인프라 위원회(CPMI)’ 의장에 선임됐으며 임기는 이달 1일부터 3년간이",
-"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RYUhaZXpIbDZGN3RUcUVwRDlhZ0RhTWx5Qml1dUEydklYRjYwZEhDZWw1NjQ2b2JhcHhFeldrbWtfSFJBQ2dqeUlhWTNXdU5XR25qTjdR?oc=5",
-"url": "https://biz.heraldcorp.com/article/10932482",
-"pub": 1794304804.0,
-"time": "11/10 19:00",
-"run": "breaking",
-"added": 1794305527
-},
-{
 "key": "속보금융보안원도해킹으로정보유출",
 "keys": [
 "속보금융보안원도해킹으로정보유출"
@@ -2622,14 +2566,33 @@
 "time": "11/13 17:46",
 "run": "breaking",
 "added": 1794561502
+},
+{
+"key": "한국판로레알구다이글로벌코스피상장추진예비심사신청서제출",
+"keys": [
+"한국판로레알구다이글로벌코스피상장추진예비심사신청서제출",
+"조선미녀구다이글로벌코스피상장도전장",
+"글로벌뷰티기업확장구다이글로벌코스피상장예심신청"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "\"한국판 로레알\" 구다이글로벌, 코스피 상장 추진…예비심사 신청서 제출",
+"show": "\"한국판 로레알\" 구다이글로벌, 코스피 상장 추진…예비심사 신청서 제출",
+"source": "뉴시스",
+"src_url": "https://www.newsis.com",
+"sum": "[서울=뉴시스]동효정 기자 = 글로벌 뷰티 플랫폼 기업 구다이글로벌이 유가증권시장(코스피) 상장을 추진한다.구다이글로벌은 13일 한국거래소에 코스피 상장을 위한 상장예비심사 신청서를 제출했다고 밝혔다. 이번 신청을 시작으로 기업공개(IPO) 절차를 본격화하고, 거래소 심사 결과에 따라 후속 절차를 진행할 예정이다.구다이글로벌은 조선미녀, 티르티르, 스킨10..",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaZnROSmtsV1pSREJrM2NLMC1pUGlwbzREXzdJX2hoYjUtQzJNXzNhbERoM21KZ2ZybWRGZHZsTXdxSVNFX1VYU3ZNbXV6ZWlEdVBlQWlnVnp0M0lScHVuaNIBeEFVX3lxTE9pWncwdlpnR0tCc2duNW9ZMXBMTGs0NGdpa0ZhbGlfZHFQX1BEYnZQS0dHVWxhNU1TZ2NvR0xVUlpYb0FaYkQ3UVRUQk5qS19aOG9NbkZXVXpIdzdzeHIwUWJTMTYzM1pSWmI4Y0ZUOUZFblBQZmJHTQ?oc=5",
+"url": "https://www.newsis.com/view/NISX20261113_0003867792",
+"pub": 1794563244.0,
+"time": "11/13 18:47",
+"run": "breaking",
+"added": 1794564407
 }
 ],
 "seen": {
 "atimelineofnvidiaceojensenhuangssuspectedspydrama": 1794440844.3866184,
-"恒指跌241點光通訊pcb板塊逆市升白鴿在線插水72新荷花首掛升逾七成161520261111即時財經新聞": 1794389123.3378594,
-"배재규한투운용대표초과세수로주식사서미래세대물려주자": 1794390581.8545136,
-"배재규한투운용대표반도체초과세수로신생아에주식5천만원배정": 1794390581.8545148,
-"신생아에주식5000만원씩배재규한투운용대표파격제안": 1794390581.8545158,
 "道新記者の即時解放求める新聞協会が声明": 1794401485.0708346,
 "블룸버그中ymtc상장추진계속내년1분기목표": 1794402202.3686042,
 "中ymtc증시한파에도내년1분기ipo추진": 1794402202.3686056,
@@ -3298,6 +3261,9 @@
 "恒指收市跌370點北水流入23億元161020261113即時財經新聞": 1794560774.5082638,
 "stunningfallinsidejensenhuangslasthoursasnvidiaceo": 1794558611.743092,
 "恒指收市跌370點失守24000點北水流入23億元科指本周累跌65見逾4個月最大跌幅": 1794560774.5082626,
-"港股收盘恒生科技指数单周大跌65英伟达突发换帅重创ai算力链": 1794561502.2636971
+"港股收盘恒生科技指数单周大跌65英伟达突发换帅重创ai算力链": 1794564408.0474646,
+"한국판로레알구다이글로벌코스피상장추진예비심사신청서제출": 1794564407.6843166,
+"조선미녀구다이글로벌코스피상장도전장": 1794564407.684318,
+"글로벌뷰티기업확장구다이글로벌코스피상장예심신청": 1794564407.6843188
 }
 }
