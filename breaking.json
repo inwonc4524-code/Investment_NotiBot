@@ -1,28 +1,6 @@
 {
 "items": [
 {
-"key": "microsofttopsnvidiasmarketcapforfirsttimesincejune2025",
-"keys": [
-"microsofttopsnvidiasmarketcapforfirsttimesincejune2025",
-"microsofttopnvidiasmarketcapforfirsttimesincejune2025"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Microsoft tops Nvidia's market cap for first time since June 2025",
-"show": "마이크로소프트, 2025년 6월 이후 처음으로 엔비디아 시가총액 1위",
-"source": "Reuters",
-"src_url": "https://www.reuters.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNGpwLVRZNGJRQ3diMmx2QnhNaERXa3RCdzR1MThDdk04TGprcXF5Z3djdXFrUnlPN25udC1qNU5BNVRhN2ZnWWd1dk5sR0lUN0FhdDR5dWFIeWZqQ2UwMGFFdmpvbkxFazJfNy1HTjR4aHZJN3ZRTnFmMFhvcm43YjRhYXB0a29LbllQYUFxNkY5WUZ1MlJ4U0tELVNTa3c3Vkl1YlJyOA?oc=5",
-"url": "https://www.reuters.com/business/microsoft-top-nvidias-market-cap-first-time-since-june-2025-2026-11-10/",
-"pub": 1794330670.0,
-"time": "11/11 02:11",
-"run": "breaking",
-"added": 1794333138
-},
-{
 "key": "nvidiahiresformerusprosecutoratwachtelltoleadjensenhuangprobe",
 "keys": [
 "nvidiahiresformerusprosecutoratwachtelltoleadjensenhuangprobe",
@@ -2503,6 +2481,28 @@
 "time": "11/14 01:26",
 "run": "breaking",
 "added": 1794588393
+},
+{
+"key": "armshaasapproachedbynvidiaboardaspartofceosearchftreports",
+"keys": [
+"armshaasapproachedbynvidiaboardaspartofceosearchftreports",
+"armbossrenehaasapproachedinnvidiaceosearch"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Arm's Haas approached by Nvidia board as part of CEO search, FT reports",
+"show": "FT 보고서에 따르면 엔비디아 이사회는 CEO 검색의 일환으로 Arm's Haas에 접근했습니다.",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMW5kZ01Wbk9TVFVaV1BrRXYwZEs0RmNORjJySnlqTDR5V2E2dlcwcVFFdHBVbG9nQjBPaXFWUjFpX2ZpR0gwUWE0N1ZBODl0VjFWdVBYLUJUYkFWZThNRmJEenhjbnVKTzA4Tkt6T1lPN1NzcTJPTFVDRFV2VFNrWWJ3ei14Q2JPQmZKd19jSUo2MHlIdVZhR3plaWtnNERYdG0yTi1XZThxLTZoZ0xzZUJ0dmN3OHJERlRuN0ZXSQ?oc=5",
+"url": "https://www.reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/",
+"pub": 1794589707.0,
+"time": "11/14 02:08",
+"run": "breaking",
+"added": 1794590555
 }
 ],
 "seen": {
@@ -3180,9 +3180,11 @@
 "nvidiadirectorsoldnearly1binstockweeksbeforethejensenhuangscandalbrokeandnotradi": 1794588396.9849257,
 "huangtotestifybeforecongressafternvidiascandal": 1794588396.9849277,
 "why1600nvidiaworkersarerallyingbehindjensenhuangamidmultiplescandals": 1794588396.984927,
-"nvidiasstockisonalosingstreaknotseenin14yearswhatcomesnext": 1794588396.9848325,
-"whatsnextfornvidiaandtheaiindustry": 1794588396.9848366,
-"whatcomesnextfornvidiahereswhatyouneedtoknow": 1794588396.9848382,
-"whatthenvidiascandalmeansforthecompanysearningsnextweek": 1794588396.9848387
+"nvidiasstockisonalosingstreaknotseenin14yearswhatcomesnext": 1794589113.6314595,
+"whatsnextfornvidiaandtheaiindustry": 1794589113.6314602,
+"whatcomesnextfornvidiahereswhatyouneedtoknow": 1794589113.6314607,
+"whatthenvidiascandalmeansforthecompanysearningsnextweek": 1794589113.6314619,
+"armshaasapproachedbynvidiaboardaspartofceosearchftreports": 1794590558.8436303,
+"armbossrenehaasapproachedinnvidiaceosearch": 1794590558.8436346
 }
 }
