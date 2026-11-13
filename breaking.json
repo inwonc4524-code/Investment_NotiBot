@@ -1,29 +1,6 @@
 {
 "items": [
 {
-"key": "마더스제약증권신고서제출코스닥상장돌입",
-"keys": [
-"마더스제약증권신고서제출코스닥상장돌입",
-"마더스제약코스닥상장증권신고서제출공모264억348억원",
-"마더스제약증권신고서제출코스닥상장절차돌입"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "마더스제약, 증권신고서 제출…코스닥 상장 돌입",
-"show": "마더스제약, 증권신고서 제출…코스닥 상장 돌입",
-"source": "뉴시스",
-"src_url": "https://www.newsis.com",
-"sum": "[서울=뉴시스]황재희 기자 = ETC(전문의약품)·CMO(위탁생산)·신약개발 기업 마더스제약이 코스닥 상장 절차에 돌입한다.마더스제약은 코스닥 상장을 위해 금융위원회에 증권신고서를 제출했다고 10일 밝혔다. 상장 공동 대표주관사는 NH투자증권, KB증권이다. 마더스제약은 이번 상장을 통해 총 240만주를 공모한다. 희망 공모가 밴드는 1만1000원~1만45..",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QVVZsaWZZSnM2dGxpUGIweERtTjY5REZSRlp0TTVXQTA3Z3BJWWVRSGsyblN3dmxST0dfYmREeUkzNnRHY0k5Wkh5UlZ0bjNTVTRJblJwT3dvaWtzN01ZVNIBeEFVX3lxTFB0a1pEaWZnWDdlRkdwM3R5MlRhMXZPa1JWU3hQTVlCbWVBTXpUTFNENzVwU1lKY3F4ZWhaUGZicE5OYWFjUFZpck1WTGNVdWZwSHMxWXFUV29YZXBvSGNRMGtwdm9NYVdDVmYyNnRYZkZReFM1T3lZaw?oc=5",
-"url": "https://www.newsis.com/view/NISX20261110_0003862613",
-"pub": 1794296981.0,
-"time": "11/10 16:49",
-"run": "breaking",
-"added": 1794297547
-},
-{
 "key": "김정관호남팹배치계획이달마무리",
 "keys": [
 "김정관호남팹배치계획이달마무리",
@@ -2650,6 +2627,27 @@
 "time": "11/13 16:29",
 "run": "breaking",
 "added": 1794555682
+},
+{
+"key": "本日のサプライズ決算速報11月13日",
+"keys": [
+"本日のサプライズ決算速報11月13日"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "jp",
+"region": "🇯🇵 일본",
+"title": "★本日の【サプライズ決算】速報 (11月13日)",
+"show": "★ 오늘의 【서프라이즈 결산】 속보 (11 월 13 일)",
+"source": "株探",
+"src_url": "https://kabutan.jp",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTY0dHdDRHd1RPYS0tZExMRHNBSnNIR1lpRFcybmphQkdDSkRpY01NOWtDb0g5ZWdReDE5SWZBMk1Qb2RDUldEMC13YmtJZVFRWGtvaWhma29PRUZtWVItRQ?oc=5",
+"url": "https://kabutan.jp/news/marketnews/?b=n202611131300",
+"pub": 1794555509.0,
+"time": "11/13 16:38",
+"run": "breaking",
+"added": 1794556434
 }
 ],
 "seen": {
@@ -3077,7 +3075,7 @@
 "뉴욕증시젠슨황엔비디아ceo사임속혼조세출발": 1794500463.879932,
 "whoiscolettekressnvidiasinterimceolongtimeexectakestopspotafterjensenhuangresign": 1794535361.4446228,
 "jensenhuangresignsasnvidiaceocfocolettekressstepsin": 1794501182.4862351,
-"jensenhuanganaffairtoomanyleavesnvidiawithoutitsrockstarceo": 1794500463.4541647,
+"jensenhuanganaffairtoomanyleavesnvidiawithoutitsrockstarceo": 1794556427.6326642,
 "trumpsaysexappleceocookisalegendshouldreplacehuangatnvidia": 1794503369.7351646,
 "presidenttrumponlyonemancantakejensenhuangsplacetimcookofapple": 1794500463.454186,
 "jensenhuangresignsleavingcfocolettekresstorunnvidia": 1794501903.0846305,
@@ -3307,22 +3305,28 @@
 "코스피098내린5290코스닥045오른699마감": 1794554960.9404106,
 "속보코스피098내린5290선마감": 1794553520.8759947,
 "속보코스피5220p098내린529053마감": 1794553520.8759947,
-"엔비디아發ai반도체불안외국인팔자전환코스피1하락마감": 1794555680.0017388,
-"증시마감팔자돌아선외인코스피엔비디아쇼크속1하락": 1794555680.0017395,
+"엔비디아發ai반도체불안외국인팔자전환코스피1하락마감": 1794556428.7034857,
+"증시마감팔자돌아선외인코스피엔비디아쇼크속1하락": 1794555708.8570004,
 "코스피돌아선외국인에하락반전1내린5290선마감": 1794554241.3809986,
-"결국팔자로돌아선외국인장중5500찍은코스피5200대약세마감": 1794555680.0017414,
+"결국팔자로돌아선외국인장중5500찍은코스피5200대약세마감": 1794555708.857002,
 "코스피하락원달러환율상승": 1794554241.381019,
 "원달러환율6원오른13367원": 1794554960.940397,
 "달러원환율60원오른13367원1530기준": 1794554241.3810198,
 "피터앤파트너스코스닥상장사맞춤형ir지원사업본격화": 1794554244.2704432,
 "피터앤파트너스코스닥ir지원사업본격화": 1794554244.2704446,
 "피터앤파트너스코스닥연1회ir지원사업추진": 1794554244.2704456,
-"다시5200대로코스피반도체약세에하락마감": 1794555680.001738,
-"마감강세출발코스피외국인변심에1하락": 1794555680.00174,
-"코스피하락다시5290선": 1794555680.0017412,
+"다시5200대로코스피반도체약세에하락마감": 1794556428.7034857,
+"마감강세출발코스피외국인변심에1하락": 1794555708.857001,
+"코스피하락다시5290선": 1794556428.7034867,
 "환율달러강세에닷새만에반등60원오른13367원": 1794554960.9403968,
-"코스피하락에다시5300선아래로": 1794555680.0017407,
-"양승조수자원공사사장취임반도체용수공급최우선": 1794555682.1968613,
-"양승조수자원공사사장취임최우선과제는반도체용수공급": 1794555682.1968625
+"코스피하락에다시5300선아래로": 1794556428.7034864,
+"양승조수자원공사사장취임반도체용수공급최우선": 1794556428.703495,
+"양승조수자원공사사장취임최우선과제는반도체용수공급": 1794556428.7034953,
+"jensenhuangstepsdownasceoofnvidia": 1794556427.6326637,
+"3indianoriginceosinracetoreplacejensenhuangasnvidiachief": 1794556427.6326647,
+"nvidiaemployeeswantjensenhuangbackasceointernalsuggestionboxpostdrawsover1600com": 1794556427.6326659,
+"코스피098하락마감반도체대형주약세": 1794556428.7034853,
+"코스피098하락코스닥045상승마감": 1794556428.7034862,
+"本日のサプライズ決算速報11月13日": 1794556434.6883383
 }
 }
