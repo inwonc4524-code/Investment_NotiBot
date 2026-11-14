@@ -1,30 +1,6 @@
 {
 "items": [
 {
-"key": "삼성전자첨단반도체기술장비개방k반도체연구역량키운다",
-"keys": [
-"삼성전자첨단반도체기술장비개방k반도체연구역량키운다",
-"삼성반도체기술장비대학연구소도쓴다공공팹지원",
-"삼성반도체장비운영노하우공공나노팹에이전",
-"삼성반도체양산노하우공공나노팹에푼다중고장비도이전"
-],
-"count": 4,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "삼성전자, 첨단 반도체 기술·장비 개방…K-반도체 연구역량 키운다",
-"show": "삼성전자, 첨단 반도체 기술·장비 개방…K-반도체 연구역량 키운다",
-"source": "헤럴드경제",
-"src_url": "https://mbiz.heraldcorp.com",
-"sum": "[헤럴드경제=구본혁 기자] 삼성전자가 세계 최고 수준의 반도체 제조 현장에서 축적한 공장 운영 노하우와 장비를 국내 공공 연구기관에 제공한다. 과학기술정보통신부는 1",
-"link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKdTNhS2xtMUcxQ1RRckdIRElHX1A4OUcxYm5hcWJTYXBGd1VuN2J3MFZlUnE5d1Bob0FxRXJQNEhZQzRrdlNCbnhCTTlJT3N1bENkVnJaZw?oc=5",
-"url": "https://mbiz.heraldcorp.com/article/10932971",
-"pub": 1794358810.0,
-"time": "11/11 10:00",
-"run": "breaking",
-"added": 1794359291
-},
-{
 "key": "台積電漲45元台股漲逾600點早盤衝高後回落證券",
 "keys": [
 "台積電漲45元台股漲逾600點早盤衝高後回落證券",
@@ -2337,6 +2313,28 @@
 "time": "11/14 09:10",
 "run": "breaking",
 "added": 1794615294
+},
+{
+"key": "한국중국수입시장6개월째1위미국선96위",
+"keys": [
+"한국중국수입시장6개월째1위미국선96위",
+"속보한국중국수입시장1위"
+],
+"count": 2,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보]한국, 중국 수입시장 1위",
+"show": "[속보]한국, 중국 수입시장 1위",
+"source": "한경매거진",
+"src_url": "https://magazine.hankyung.com",
+"sum": "14일 한국무역협회 해외무역통계에 따르면 한국은 올해 1∼3월 중국 수입시장에서 대만에 이어 2위를 차지했으나 4월 1위로 올라선 뒤 9월까지 선두를 유지했다. 중국은 올해 1∼9월 한국으로부터 지난해 같은 기간보다 75.1% 증가한 2362억달러어치의 상품을 수입했다. 각국의 수입통계는 운송비·관세 반영 여부와 집계 시점 등으로 인해 국내에서 집계한 수출액과는 일부 차이를 보인다. 중국 수입시장에서 한국의 점유율은 9.8%로 가장 높았다.",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vc0lxWExiTEx6SHpnbUFneTVIU3E2N09ieTJDYkxnNEhCWjNaajY0MHg0RTEwbVJaZUVqWjFXUlRzWW9nZEpxcWtaZDNaUWtVUnR5X3JaM0xteldETXhrcnZXUUVuSlp0dGxnaA?oc=5",
+"url": "https://magazine.hankyung.com/business/article/202611146322b",
+"pub": 1794617100.0,
+"time": "11/14 09:45",
+"run": "breaking",
+"added": 1794618195
 }
 ],
 "seen": {
@@ -2344,34 +2342,20 @@
 "exclusivenvidiaispreparingtooustceojensenhuang": 1794489549.6756427,
 "jensenhuangsaidtohavehadrelationshipwithnvidiaexecutivewhoreportstohim": 1794451026.1352272,
 "nvidiasstockdropsastheboardreportedlypreparestoremoveceojensenhuang": 1794481548.639842,
-"nvidiaboardreportedlypreparingtooustjensenhuangamidaffairespionageallegations": 1794445220.1938844,
-"trumpadministrationawareofplanstooustnvidiaceojensenhuangreport": 1794444472.6137576,
-"속보코스피0205380선코스닥027": 1794445220.7808475,
-"코스피5380선강보합출발": 1794445220.780848,
-"nvidiapreparingtoreplaceceojensenhuangassecondallegedaffairemergesreport": 1794445220.1939025,
-"nvidiapreparestopushoutceojensenhuangreports": 1794445220.1939032,
-"nvidiadirectorsreportedlyconsideroustingceojensenhuangwsjreports": 1794444472.6137586,
 "nvidiasaidtomulloustinghuangasceo": 1794470647.3973045,
 "db하이텍3분기영업이익900억전력반도체호조": 1794445940.4100738,
 "db하이텍3q영업익900억7전력반도체수요확대": 1794445940.410074,
-"db하이텍3분기영업이익900억전력반도체수요확대로전년대비7증가": 1794445220.780865,
-"db하이텍3분기영업익900억고부가전력반도체비중확대": 1794444473.146389,
-"코스피1058p020오른538594개장": 1794445220.7808485,
 "lh광명시흥용인반도체에2조추가투입사업속도": 1794446660.9525301,
 "lh광명시흥용인반도체에2조원추가투입보상속도낸다머니투데이": 1794446660.9525309,
 "lh광명시흥용인반도체산단에2조원추가투입보상속도": 1794445940.4100575,
-"lh광명시흥용인반도체산단2조원추가투입보상착공속도": 1794444473.146371,
 "nvidiaboardweighsfateofceojensenhuangafteraffairwithallegedchinesespy": 1794451746.7409956,
 "nvidiapreparestooustjensenhuangafterchinesespyaffair": 1794446660.341992,
 "nvidiaboardreportedlyweighsoustinghuangamidallegedaffairswithexecandsuspectedchi": 1794446660.3419924,
 "lh광명시흥용인반도체에2조원추가투입사업속도전나선다": 1794447381.0005538,
 "주택공급산단조성속도전lh광명시흥용인반도체2조원추가투입": 1794446660.9525306,
 "db하이텍전력반도체로공장풀가동3분기영업익900억원": 1794445940.4100735,
-"코스피장초반5380선강보합출발코스닥700선개장": 1794445220.7808475,
 "속보대통령오는1619일필리핀아세안中apec참석": 1794447381.00056,
-"nvidiapreparingtooustceoamidreportsofasecondaffair": 1794445220.193885,
 "lh광명시흥용인반도체산단에2조원추가투입보상속도높인다": 1794448125.3925645,
-"스팟코스피1058포인트02오른538594출발머니투데이": 1794445220.7808492,
 "db하이텍3분기영업이익900억원가동률사실상100유지종합": 1794445940.4100745,
 "lh광명시흥신도시용인반도체에2조더투입사업속도전": 1794448851.593995,
 "9월까지나리살림32조적자반도체세수호황에8년만에최소": 1794448851.594009,
@@ -2964,6 +2948,8 @@
 "뉴욕증시기술주약세속다우지수만01상승엔비디아낙폭2로좁혀": 1794609482.3327808,
 "速報中アメリカ全土の空港で航空機運航停止通信の問題": 1794612399.1421194,
 "全米の空港で航空機の離陸停止通信障害当局脅威の兆候はなし": 1794612399.1421225,
-"nvidiaapproachesarmceohaasasemployeesseekhuangsreturnreportssay": 1794616010.7712247
+"nvidiaapproachesarmceohaasasemployeesseekhuangsreturnreportssay": 1794616010.7712247,
+"한국중국수입시장6개월째1위미국선96위": 1794618195.064739,
+"속보한국중국수입시장1위": 1794618195.0647402
 }
 }
