@@ -719,9 +719,15 @@ def _rel_terms(theme):
     return _REL_CACHE[name]
 
 
+# 관련 단어를 품고 있지만 뜻이 전혀 다른 말 (예: 'ダウ'(다우) ⊂ '水ダウ'(일본 예능), 'ダウンロード'(다운로드) / 'バイオ'(바이오) ⊂ 'バイオリン'(바이올린))
+FALSE_FRIENDS = ["水ダウ", "水曜日のダウンタウン", "ダウンタウン", "ダウンロード", "ダウン", "バイオリン", "バイオハザード"]
+
+
 def is_relevant(theme, title):
     """기사 제목에 테마 관련 단어가 있는지 (영어는 단어 단위로, 한·중·일은 글자 포함으로 확인)"""
     t = (title or "").lower()
+    for ff in FALSE_FRIENDS:
+        t = t.replace(ff.lower(), " ")
     for w in _rel_terms(theme):
         if re.fullmatch(r"[a-z0-9&.\- ]+", w):     # 영어·숫자: 단어 단위 (예: "dow" ≠ "down")
             if re.search(r"(?<![a-z0-9])" + re.escape(w) + r"(?![a-z0-9])", t):
