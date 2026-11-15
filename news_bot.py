@@ -425,8 +425,8 @@ _trlog = []
 
 
 # 번자체(대만·홍콩)에만 있는 글자 — 간체(중국 본토) 기사와 구별하는 데 써요
-_HANT_ONLY = set("這們對個來時說會從還與為於當將經過開關門長東車書無業務產發線電氣學國際價體點應實現團隊員場議導機構銷戶廠記讓設變認權進聯準鷹漲跌購債銀資幣則")
-_HANS_ONLY = set("这们对个来时说会从还与为于当将经过开关门长东车书无业务产发线电气学国际价体点应实现团队员场议导机构销户厂记让设变认权进联准鹰涨跌购债银资币则")
+_HANT_ONLY = set("貝稱這們對個來時說會從還與為於當將經過開關門長東車書無業務產發線電氣學國際價體點應實現團隊員場議導機構銷戶廠記讓設變認權進聯準鷹漲購債銀資幣則輝達週報陸灣調區傳統態勢續擴盤險據蘭費騰訊擬華爾漢詢兌億萬總營較頭創劃層藥醫療環齊並圍歸險飆錄贏虧買賣節財稅標")
+_HANS_ONLY = set("贝称这们对个来时说会从还与为于当将经过开关门长东车书无业务产发线电气学国际价体点应实现团队员场议导机构销户厂记让设变认权进联准鹰涨购债银资币则辉达报陆湾调区传统态势续扩盘险据兰费腾讯拟华尔汉询兑亿万总营较头创划层药医疗环齐并围归飙录赢亏买卖节财税标")
 _TW_MARK = re.compile(r"台股|台積電|臺股|上市櫃|櫃買|新台幣|台幣|台灣|臺灣|加權指數|鉅亨|MoneyDJ|工商時報|經濟日報|自由時報")
 _NOT_NTD = re.compile(r"港股|港元|港幣|港紙|恒指|恒生|人民幣|美元|日圓|日元|歐元")
 
@@ -576,6 +576,40 @@ def translate_ko(text, tries=3):
             print("  ! 번역 서버가 계속 실패해서 이번 실행에서는 번역을 멈춥니다 (다음 실행 때 자동으로 다시 번역)")
     time.sleep(0.2)
     return result
+
+
+def refresh_translations(items, redo_limit=60):
+    """용어집이 바뀌면 예전에 번역한 기사(뉴스·속보)도 다시 다듬기."""
+    pre_ver = hashlib.md5(json.dumps({k: v for k, v in GLOSSARY.items() if k.startswith("pre")},
+                                     sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:8]
+    redo = 0
+    for n in items:
+        if n.get("sum") and JUNK_SUM.search(n["sum"]):
+            n["sum"] = ""
+        if not is_korean(n.get("title", "")):
+            # 원문 나라에 맞춰 다듬기: 중국 기사의 '우리나라'(我国)는 중국, 일본 기사는 일본 / 대만 기사의 '위안'(元)은 대만달러
+            lang = _lang(n["title"])
+            for f in ("show", "sum"):
+                v = n.get(f)
+                if not v or v == n["title"]:
+                    continue
+                if lang in ("hans", "ja"):
+                    v = v.replace("우리나라", "중국" if lang == "hans" else "일본")
+                if lang == "hant" and _TW_MARK.search(n["title"]) and not _NOT_NTD.search(n["title"]):
+                    v = re.sub(r"(\d[\d,.]*(?:억|만)?) ?위안", r"\1대만달러", v)
+                n[f] = v
+            # 번역 '전' 규칙(pre)이 바뀌었고 그 규칙이 이 제목에 걸리면 제목을 새로 번역 (한 번에 60개까지)
+            if (redo < redo_limit and n.get("pv") != pre_ver and n.get("show") and n["show"] != n["title"]
+                    and _pre_fix(n["title"]) != n["title"]):
+                ko = translate_ko(n["title"])
+                if ko != n["title"]:
+                    n["show"] = ko
+                    redo += 1
+            n["pv"] = pre_ver
+            if n.get("show") and n["show"] != n.get("title"):
+                n["show"] = polish(n["show"])
+            if n.get("sum") and is_korean(n["sum"]):
+                n["sum"] = polish(n["sum"])
 
 
 def retranslate_failed(items, limit=150):
@@ -1327,6 +1361,7 @@ def check_breaking():
                                   push=GLOBAL_BREAKING_PUSH)
 
     retranslate_failed(data["items"], limit=20)   # 번역 서버가 막혀 원문 그대로 남은 속보 제목 다시 번역
+    refresh_translations(data["items"], redo_limit=20)
     cutoff = time.time() - PAGE_DAYS * 86400
     data["items"] = [x for x in data["items"] if x["pub"] >= cutoff]
     data["seen"] = {k: v for k, v in seen.items() if v >= time.time() - 2 * 86400}
@@ -1574,36 +1609,7 @@ def collect():
     retranslate_failed(shown)
     add_summaries(shown, limit=300)
     news = clean_news(news)
-    pre_ver = hashlib.md5(json.dumps({k: v for k, v in GLOSSARY.items() if k.startswith("pre")},
-                                     sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:8]
-    redo = 0
-    for n in news:          # 용어집이 바뀌면 예전에 번역한 기사도 다시 다듬기
-        if n.get("sum") and JUNK_SUM.search(n["sum"]):
-            n["sum"] = ""
-        if not is_korean(n.get("title", "")):
-            # 원문 나라에 맞춰 다듬기: 중국 기사의 '우리나라'(我国)는 중국, 일본 기사는 일본 / 대만 기사의 '위안'(元)은 대만달러
-            lang = _lang(n["title"])
-            for f in ("show", "sum"):
-                v = n.get(f)
-                if not v or v == n["title"]:
-                    continue
-                if lang in ("hans", "ja"):
-                    v = v.replace("우리나라", "중국" if lang == "hans" else "일본")
-                if lang == "hant" and _TW_MARK.search(n["title"]) and not _NOT_NTD.search(n["title"]):
-                    v = re.sub(r"(\d[\d,.]*(?:억|만)?) ?위안", r"\1대만달러", v)
-                n[f] = v
-            # 번역 '전' 규칙(pre)이 바뀌었고 그 규칙이 이 제목에 걸리면 제목을 새로 번역 (한 번에 60개까지)
-            if (redo < 60 and n.get("pv") != pre_ver and n.get("show") and n["show"] != n["title"]
-                    and _pre_fix(n["title"]) != n["title"]):
-                ko = translate_ko(n["title"])
-                if ko != n["title"]:
-                    n["show"] = ko
-                    redo += 1
-            n["pv"] = pre_ver
-            if n.get("show") and n["show"] != n.get("title"):
-                n["show"] = polish(n["show"])
-            if n.get("sum") and is_korean(n["sum"]):
-                n["sum"] = polish(n["sum"])
+    refresh_translations(news)
     save_translate_log()
     order = {t["name"]: i for i, t in enumerate(THEMES)}
     news.sort(key=lambda n: (order.get(n["theme"], 99), -n.get("count", 1), -n["pub"]))
