@@ -717,7 +717,7 @@ def fetch_summary(url):
 
 
 # 기사 내용이 아니라 '보안 점검 중' 같은 접속 확인 화면 글 → 요약으로 쓰지 않기
-JUNK_SUM = re.compile(r"安全检查|安全檢查|人机验证|人機驗證|正在检查|Just a moment|Checking your browser|"
+JUNK_SUM = re.compile(r"安全检查|安全檢查|安全检测|安全檢測|人机验证|人機驗證|正在检查|正在检测|Just a moment|Checking your browser|"
                       r"Enable JavaScript|보안 점검을 진행 중|접속 보안을 보장|네트워크 환경을 점검", re.I)
 
 
@@ -1581,6 +1581,17 @@ def collect():
         if n.get("sum") and JUNK_SUM.search(n["sum"]):
             n["sum"] = ""
         if not is_korean(n.get("title", "")):
+            # 원문 나라에 맞춰 다듬기: 중국 기사의 '우리나라'(我国)는 중국, 일본 기사는 일본 / 대만 기사의 '위안'(元)은 대만달러
+            lang = _lang(n["title"])
+            for f in ("show", "sum"):
+                v = n.get(f)
+                if not v or v == n["title"]:
+                    continue
+                if lang in ("hans", "ja"):
+                    v = v.replace("우리나라", "중국" if lang == "hans" else "일본")
+                if lang == "hant" and _TW_MARK.search(n["title"]) and not _NOT_NTD.search(n["title"]):
+                    v = re.sub(r"(\d[\d,.]*(?:억|만)?) ?위안", r"\1대만달러", v)
+                n[f] = v
             # 번역 '전' 규칙(pre)이 바뀌었고 그 규칙이 이 제목에 걸리면 제목을 새로 번역 (한 번에 60개까지)
             if (redo < 60 and n.get("pv") != pre_ver and n.get("show") and n["show"] != n["title"]
                     and _pre_fix(n["title"]) != n["title"]):
