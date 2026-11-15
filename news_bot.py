@@ -754,7 +754,8 @@ def fetch_summary(url):
 JUNK_SUM = re.compile(r"安全检查|安全檢查|安全检测|安全檢測|人机验证|人機驗證|正在检查|正在检测|Just a moment|Checking your browser|"
                       r"Enable JavaScript|보안 점검을 진행 중|접속 보안을 보장|네트워크 환경을 점검|"
                       r"关于我们 网站声明|网站地图 帮助|商城 订阅 数据|网上有害信息举报|Detailed price information for|"
-                      r"The latest company information, including net asset|抱歉，我們並不支援你正使用的瀏覽器", re.I)
+                      r"The latest company information, including net asset|抱歉，我們並不支援你正使用的瀏覽器|"
+                      r"쇼핑몰 구독 데이터 내 뉴스|회사 소개 웹사이트 성명", re.I)
 
 
 def add_summaries(items, limit=120):
