@@ -9,6 +9,7 @@
 
 ★ 테마를 바꾸고 싶으면 아래 '1) 내 관심 테마' 부분만 고치면 됩니다.
 """
+import hashlib
 import json
 import os
 import re
@@ -423,8 +424,39 @@ except Exception:
 _trlog = []
 
 
+# 번자체(대만·홍콩)에만 있는 글자 — 간체(중국 본토) 기사와 구별하는 데 써요
+_HANT_ONLY = set("這們對個來時說會從還與為於當將經過開關門長東車書無業務產發線電氣學國際價體點應實現團隊員場議導機構銷戶廠記讓設變認權進聯準鷹漲跌購債銀資幣則")
+_HANS_ONLY = set("这们对个来时说会从还与为于当将经过开关门长东车书无业务产发线电气学国际价体点应实现团队员场议导机构销户厂记让设变认权进联准鹰涨跌购债银资币则")
+_TW_MARK = re.compile(r"台股|台積電|臺股|上市櫃|櫃買|新台幣|台幣|台灣|臺灣|加權指數|鉅亨|MoneyDJ|工商時報|經濟日報|自由時報")
+_NOT_NTD = re.compile(r"港股|港元|港幣|港紙|恒指|恒生|人民幣|美元|日圓|日元|歐元")
+
+
+def _lang(text):
+    """원문이 어느 나라 말인지: ja(일본어) / hant(대만·홍콩 번자체) / hans(중국 간체) / 그 밖은 ''"""
+    if re.search(r"[\u3040-\u30ff]", text):
+        return "ja"
+    han = re.findall(r"[\u4e00-\u9fff]", text)
+    if not han:
+        return ""
+    t = sum(c in _HANT_ONLY for c in han)
+    h = sum(c in _HANS_ONLY for c in han)
+    return "hant" if t > h else "hans"
+
+
 def _pre_fix(text):
-    """번역 전에 영어 원문을 번역기가 잘 알아듣는 말로 바꿔요 (예: the Fed → the Federal Reserve)."""
+    """번역 전에 원문을 번역기가 잘 알아듣는 말로 바꿔요 (예: the Fed → the Federal Reserve).
+    pre 는 모든 기사에, pre_ja / pre_hant / pre_hans 는 그 나라 말 기사에만 써요
+    (같은 '国内'도 중국 기사면 중국 국내, 일본 기사면 일본 국내라서)."""
+    lang = _lang(text)
+    if lang:
+        for a, b in (GLOSSARY.get("pre_" + lang) or {}).items():
+            if b.endswith(a) and len(b) > len(a):     # '国内'→'中国国内' 인데 이미 '中国国内'면 그대로 두기
+                text = re.sub("(?<!" + re.escape(b[:-len(a)]) + ")" + re.escape(a), b, text)
+            else:
+                text = text.replace(a, b)
+    # 대만 기사의 '元'은 위안화가 아니라 대만달러 (예: 台積電收2350元 → 'TSMC 2,350위안'으로 잘못 번역되던 것)
+    if lang == "hant" and _TW_MARK.search(text) and not _NOT_NTD.search(text):
+        text = re.sub(r"(\d[\d,.]*\s*(?:萬|億)?)元", r"\1新台幣", text)
     for a, b in (GLOSSARY.get("pre") or {}).items():
         if a.strip().isalpha() or re.fullmatch(r"[A-Za-z/'.]+", a.strip()):
             text = re.sub(r"(?<![A-Za-z])" + re.escape(a.strip()) + r"(?![A-Za-z])" + (" " if a.endswith(" ") else ""),
@@ -445,6 +477,8 @@ def polish(ko):
     for pat, rep in GLOSSARY.get("regex_post") or []:
         if rep == "BP2PCT":      # 25bp → 0.25%포인트
             ko = re.sub(pat, lambda m: f"{float(m.group(1)) / 100:g}%포인트", ko)
+        elif rep == "YARD2PCT":  # 대만·홍콩 '1碼'(=0.25%p)가 '1야드'로 번역된 것 → 0.25%포인트
+            ko = re.sub(pat, lambda m: f"{float(m.group(1)) * 0.25:g}%포인트", ko)
         else:
             ko = re.sub(pat, rep, ko)
     return ko.strip()
@@ -452,24 +486,28 @@ def polish(ko):
 
 def easy(text, max_n=2):
     """기사 요약 속 어려운 경제 낱말 뒤에 쉬운 풀이를 괄호로 붙여요 (요약마다 처음 나온 낱말 max_n 개까지).
-    예) '금리 인하' → '금리(돈을 빌릴 때 내는 이자 비율) 인하'"""
+    예) '금리 인하' → '금리(돈을 빌릴 때 내는 이자 비율) 인하'
+    붙인 풀이 안의 낱말에는 또 풀이를 붙이지 않아요 (예전: '매파적(금리(…)를 올리자는 쪽)' 처럼 겹치던 문제)."""
     if not text:
         return text
-    done = 0
+    done, used, notes = 0, set(), []
     for w, e in sorted((GLOSSARY.get("easy") or {}).items(), key=lambda x: -len(x[0])):
         if done >= max_n:
             break
+        if e in used or re.search(r"\(" + re.escape(e) + r"\)", text):   # 같은 풀이는 한 번만
+            continue
         i = text.find(w)
         if i < 0:
             continue
         j = i + len(w)
-        if text[j:j + 1] == "(":          # 이미 풀이가 있으면 건너뛰기
+        if text[j:j + 1] in ("(", "\x00"):     # 이미 풀이가 있으면 건너뛰기
             continue
-        # 더 긴 낱말의 일부면 건너뛰기 (예: '기준금리' 안의 '금리'는 이미 풀이됨)
-        if re.search(r"\(" + re.escape(e) + r"\)", text):
-            continue
-        text = text[:j] + f"({e})" + text[j:]
+        text = text[:j] + f"\x00{len(notes)}\x00" + text[j:]
+        notes.append(e)
+        used.add(e)
         done += 1
+    for k, e in enumerate(notes):
+        text = text.replace(f"\x00{k}\x00", f"({e})")
     return text
 
 
@@ -678,6 +716,11 @@ def fetch_summary(url):
     return desc[:SUMMARY_MAX]
 
 
+# 기사 내용이 아니라 '보안 점검 중' 같은 접속 확인 화면 글 → 요약으로 쓰지 않기
+JUNK_SUM = re.compile(r"安全检查|安全檢查|人机验证|人機驗證|正在检查|Just a moment|Checking your browser|"
+                      r"Enable JavaScript|보안 점검을 진행 중|접속 보안을 보장|네트워크 환경을 점검", re.I)
+
+
 def add_summaries(items, limit=120):
     """요약이 없는 기사에 한국어 요약 붙이기 (여러 개 동시에 가져옴)"""
     todo = [n for n in items if not n.get("sum") and n.get("sum_tried", 0) < 2 and n.get("url")][:limit]
@@ -694,7 +737,7 @@ def add_summaries(items, limit=120):
     ok = 0
     for n, d in zip(todo, raw):
         if (d and dup[(n["source"], d)] == 1 and title_key(d) != title_key(n["title"])
-                and len(d) >= 30 and not re.search(r"https?://", d)):
+                and len(d) >= 30 and not re.search(r"https?://", d) and not JUNK_SUM.search(d)):
             n["sum"] = translate_ko(d)
             ok += 1
         else:
@@ -1531,8 +1574,21 @@ def collect():
     retranslate_failed(shown)
     add_summaries(shown, limit=300)
     news = clean_news(news)
+    pre_ver = hashlib.md5(json.dumps({k: v for k, v in GLOSSARY.items() if k.startswith("pre")},
+                                     sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:8]
+    redo = 0
     for n in news:          # 용어집이 바뀌면 예전에 번역한 기사도 다시 다듬기
+        if n.get("sum") and JUNK_SUM.search(n["sum"]):
+            n["sum"] = ""
         if not is_korean(n.get("title", "")):
+            # 번역 '전' 규칙(pre)이 바뀌었고 그 규칙이 이 제목에 걸리면 제목을 새로 번역 (한 번에 60개까지)
+            if (redo < 60 and n.get("pv") != pre_ver and n.get("show") and n["show"] != n["title"]
+                    and _pre_fix(n["title"]) != n["title"]):
+                ko = translate_ko(n["title"])
+                if ko != n["title"]:
+                    n["show"] = ko
+                    redo += 1
+            n["pv"] = pre_ver
             if n.get("show") and n["show"] != n.get("title"):
                 n["show"] = polish(n["show"])
             if n.get("sum") and is_korean(n["sum"]):
