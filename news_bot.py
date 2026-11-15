@@ -752,7 +752,9 @@ def fetch_summary(url):
 
 # 기사 내용이 아니라 '보안 점검 중' 같은 접속 확인 화면 글 → 요약으로 쓰지 않기
 JUNK_SUM = re.compile(r"安全检查|安全檢查|安全检测|安全檢測|人机验证|人機驗證|正在检查|正在检测|Just a moment|Checking your browser|"
-                      r"Enable JavaScript|보안 점검을 진행 중|접속 보안을 보장|네트워크 환경을 점검", re.I)
+                      r"Enable JavaScript|보안 점검을 진행 중|접속 보안을 보장|네트워크 환경을 점검|"
+                      r"关于我们 网站声明|网站地图 帮助|商城 订阅 数据|网上有害信息举报|Detailed price information for|"
+                      r"The latest company information, including net asset|抱歉，我們並不支援你正使用的瀏覽器", re.I)
 
 
 def add_summaries(items, limit=120):
