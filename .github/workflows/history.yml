@@ -1,0 +1,62 @@
+name: 테마별 뉴스 장기 추이
+
+# 2025-01-01 부터의 테마별·나라별 하루 뉴스 수를 GDELT 에서 받아 history.json 에 쌓음
+# 처음엔 다 채울 때까지 스스로 이어서 실행, 그 뒤엔 매일 한 번 최근 2주만 갱신
+on:
+  schedule:
+    - cron: "40 18 * * *"      # 한국 03:40 무렵 (UTC 18:40)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "news_history.py"
+      - ".github/workflows/history.yml"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: history
+  cancel-in-progress: false
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -q requests
+
+      - name: 장기 추이 받기
+        id: run
+        run: python news_history.py
+
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add history.json
+          if ! git diff --cached --quiet; then
+            git commit -q -m "장기 추이 기록"
+            for t in 1 2 3 4 5; do
+              git pull -q --rebase origin main && git push -q && echo "저장 완료" && exit 0
+              git rebase --abort 2>/dev/null || true
+              echo "저장 재시도 $t/5"; sleep $((t * 5))
+            done
+            exit 1
+          fi
+
+      - name: 아직 덜 채웠으면 이어서 한 번 더
+        if: steps.run.outputs.more == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run history.yml --ref main -R ${{ github.repository }}
