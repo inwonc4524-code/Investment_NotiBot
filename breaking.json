@@ -717,6 +717,29 @@
 "run": "breaking",
 "added": 1794801974,
 "pv": "8bab9ca2"
+},
+{
+"key": "chinaseconomyfalterswithsurpriseacrosstheboardslowdown",
+"keys": [
+"chinaseconomyfalterswithsurpriseacrosstheboardslowdown",
+"chinaseconomymissesforecastswithacrosstheboardslowdown"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "world",
+"region": "🌍 세계",
+"title": "China’s economy falters with surprise across-the-board slowdown",
+"show": "중국 경제가 전반에 걸친 놀라운 둔화로 흔들리고 있다",
+"source": "AFR",
+"src_url": "https://www.afr.com",
+"sum": "10월 수치는 중국이 9월 말 성장 촉진 노력을 강화한 이후 경제가 탄력을 잃고 있다는 비관적인 모습을 보여줍니다.",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOGI1VW1PaXVzcXZfdVVHX0tkOXcwVFIzRXZuaG9iczJ1MkFGaXZXdkVVWWNuSkp0eFBkUHgxM2ZnTkRQcEw3YjBOR3E0ZVBxeVlpem5lSXBiLVdsdWp2VVY5WE9oLXkweXZKTmM4SUlKTWZuS01jZ1BXQUt5d3JfeDBWakVmWGFMcmUyTldGamlFNnZHYTBJLXRMRDlpYUk4Mi0ybzBVajBLSUNOTnFJ?oc=5",
+"url": "https://www.afr.com/world/asia/china-s-economy-falters-with-surprise-across-the-board-slowdown-20261116-p61eke",
+"pub": 1794801840.0,
+"time": "11/16 13:04",
+"run": "breaking",
+"added": 1794802690,
+"pv": "8bab9ca2"
 }
 ],
 "seen": {
@@ -761,14 +784,18 @@
 "台股上周暴漲近4千點你賺到了嗎人氣etf反彈力揭曉僅2檔贏大盤": 1794799070.4558356,
 "日経平均株価が反落午前終値は959円安の6万0182円": 1794799778.1956425,
 "週明け日経平均午前の終値は円安の万円半導体関連株に売り": 1794799778.1956427,
-"港元拆息普遍向上1個月hibor終止3連升111820261116即時財經新聞": 1794801975.8424847,
+"港元拆息普遍向上1個月hibor終止3連升111820261116即時財經新聞": 1794802685.3877506,
 "sellalert5stocksanalystsdowngradedonthursday": 1794801242.1392531,
-"ft黃仁勳與盟友討論重返nvidia擔任ceo082220261116即時財經新聞": 1794801975.842484,
+"ft黃仁勳與盟友討論重返nvidia擔任ceo082220261116即時財經新聞": 1794802685.3877504,
 "jensenhuangcomebackreportprimesnvidiasharesforabounce": 1794801967.671332,
 "nvidiasharesinfocusasjensenhuangreportedlyweighscomebackmusksiliconvalleyexecuti": 1794801967.6713355,
 "nvidiaedgeshigherasjensenhuangreportedlymullsreturn": 1794801967.6713364,
 "台股盤中重挫逾1800點跌破42000點": 1794801974.9799275,
 "台股盤中開低走低大跌逾1800點跌破42k權值股電子股慘綠": 1794801974.9799287,
-"hkexpress香港快運再推長者優惠單程票價低至65元逾20個航點涵蓋日韓泰內地110920261116即時財經新聞": 1794801975.8425562
+"hkexpress香港快運再推長者優惠單程票價低至65元逾20個航點涵蓋日韓泰內地110920261116即時財經新聞": 1794802685.3877587,
+"恒指半日升197點北水流入4億元新世界跌38120720261116即時財經新聞": 1794802685.3877497,
+"恒指半日升197點北水流入4億元120120261116即時財經新聞": 1794802685.3877501,
+"chinaseconomyfalterswithsurpriseacrosstheboardslowdown": 1794802690.8648655,
+"chinaseconomymissesforecastswithacrosstheboardslowdown": 1794802690.8648672
 }
 }
