@@ -3,6 +3,8 @@
 📊 테마별 뉴스 통계 봇
 - 증시 주요 테마 20개가 나라별로 하루에 뉴스가 몇 개 나왔는지 셉니다.
 - 3시간마다 모아서 같은 기사는 한 번만 세고, 날짜(한국 시간)별로 쌓아요.
+  (구글 뉴스 영어판·번체판은 나라끼리 같은 기사가 겹쳐서, 한 기사는 처음 잡힌 나라 한 곳에만 셈:
+   한국 → 미국 → 중국 → 대만 → 홍콩 → 일본 → 싱가포르 → 세계 순)
 - 매일 아침 어제 통계를 휴대폰으로 알려 주고, 뉴스 페이지의 📊 통계 탭에서 추이를 볼 수 있어요.
 
 ★ 테마나 검색어를 바꾸고 싶으면 아래 STAT_THEMES 만 고치면 됩니다.
@@ -166,6 +168,16 @@ def collect():
     today = now.strftime("%Y-%m-%d")
     yday = (now - timedelta(days=1)).strftime("%Y-%m-%d")
     live = {today, yday}
+    if st.get("dedup") != 1:        # 나라 간 중복 제거 방식으로 바뀌기 전 숫자는 지우고 다시 셈
+        for d in live:
+            days.pop(d, None)
+        st["keys"] = keys = {}
+        st["dedup"] = 1
+    # 같은 테마에서 이미 다른 나라로 센 기사 (한 기사는 처음 잡힌 나라 한 곳에만 셈)
+    seen_theme = {}
+    for d, slots in keys.items():
+        for slot, ks in slots.items():
+            seen_theme.setdefault((d, slot.split("|")[0]), set()).update(ks)
     fails = 0
     t0 = time.time()
 
@@ -196,10 +208,12 @@ def collect():
                 k = nb.title_key(title)[:40]
                 if not k:
                     continue
-                bucket = keys.setdefault(d, {}).setdefault(slot, [])
-                if k not in bucket:
-                    bucket.append(k)
-                    added += 1
+                taken = seen_theme.setdefault((d, theme["name"]), set())
+                if k in taken:                 # 이미 다른 나라(또는 이번 나라)로 셈
+                    continue
+                taken.add(k)
+                keys.setdefault(d, {}).setdefault(slot, []).append(k)
+                added += 1
             for d in live:
                 n = len(keys.get(d, {}).get(slot, []))
                 if n:

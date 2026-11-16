@@ -950,6 +950,125 @@ def _pack(n, rkey):
     return d
 
 
+STATS_TAB = "📊 통계"
+STATS_JS = r"""// ───────── 📊 통계 탭 ─────────
+var ST = null, STLOAD = false;
+S.sp = load('sp', 'yday'); S.open = {};
+function kdate(off){ var d = new Date(Date.now() + 9*3600e3 - off*86400e3); return d.toISOString().slice(0,10); }
+function loadStats(){
+  if(STLOAD) return; STLOAD = true;
+  fetch(D.stats_url + '?t=' + Date.now(), {cache:'no-store'}).then(function(r){ return r.json(); })
+    .then(function(j){ ST = j; if(D.themes[S.tab].stats) renderMain(); })
+    .catch(function(){ ST = {err:1}; if(D.themes[S.tab].stats) renderMain(); });
+}
+function cnt(day, th){                     // 하루·테마의 뉴스 수 (국가 필터 반영)
+  var v = ((ST.days||{})[day]||{})[th] || {}, n = 0;
+  for(var k in v){ if(S.region==='all' || k===S.region) n += v[k]; }
+  return n;
+}
+function period(){                         // [이번 기간 날짜들, 비교할 이전 기간 날짜들, 이름]
+  var L = {today:[0,1,'오늘(진행 중)'], yday:[1,1,'어제'], w:[1,7,'최근 7일'], m:[1,30,'최근 30일']}[S.sp] || [1,1,'어제'];
+  var cur = [], prev = [];
+  for(var i=0;i<L[1];i++){ cur.push(kdate(L[0]+i)); prev.push(kdate(L[0]+L[1]+i)); }
+  return [cur, prev, L[2]];
+}
+function sum(days, th){ var n=0; days.forEach(function(d){ n += cnt(d, th); }); return n; }
+function capped(days, th){
+  var c = ST.capped || {}, hit = false;
+  days.forEach(function(d){ (c[d]||[]).forEach(function(s){ var p = s.split('|');
+    if(p[0]===th && (S.region==='all' || p[1]===S.region)) hit = true; }); });
+  return hit;
+}
+function chg(n, p){
+  if(!p) return n ? '<span class="chg">신규</span>' : '';
+  var pct = Math.round((n-p)/p*100);
+  if(pct > 0) return '<span class="chg up">▲'+pct+'%</span>';
+  if(pct < 0) return '<span class="chg dn">▼'+(-pct)+'%</span>';
+  return '<span class="chg">–</span>';
+}
+function spark(th, days){                  // 최근 14일 흐름 (작은 선)
+  var vals = []; for(var i=days-1;i>=0;i--) vals.push(cnt(kdate(i+1), th));
+  var mx = Math.max.apply(null, vals.concat([1])), w = 64, h = 20;
+  var pts = vals.map(function(v,i){ return (i*(w/(days-1))).toFixed(1)+','+(h-2-(v/mx)*(h-4)).toFixed(1); }).join(' ');
+  return '<svg class="spark" viewBox="0 0 '+w+' '+h+'" width="'+w+'" height="'+h+'" aria-hidden="true"><polyline points="'+pts+'" fill="none" stroke="var(--acc)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>';
+}
+function detail(th){                       // 30일 막대 그래프 + 나라별 구성
+  var vals = [], labels = [];
+  for(var i=29;i>=0;i--){ var d = kdate(i); vals.push(cnt(d, th)); labels.push(d.slice(5).replace('-','/')); }
+  var mx = Math.max.apply(null, vals.concat([1])), W = 320, H = 110, bw = W/30;
+  var bars = vals.map(function(v,i){
+    var bh = Math.max(v ? 2 : 0, (v/mx)*(H-30)), x = i*bw + 1, y = H-14-bh;
+    return '<g class="bar"><rect x="'+x.toFixed(1)+'" y="0" width="'+(bw-2).toFixed(1)+'" height="'+(H-14)+'" fill="transparent"/>'+
+      '<rect x="'+x.toFixed(1)+'" y="'+y.toFixed(1)+'" width="'+(bw-2).toFixed(1)+'" height="'+bh.toFixed(1)+'" rx="2" fill="var(--acc)"'+(i===29?' opacity=".55"':'')+'/>'+
+      '<title>'+labels[i]+(i===29?' (오늘, 진행 중)':'')+' · '+v.toLocaleString()+'건</title></g>';
+  }).join('');
+  var axis = '<text x="0" y="'+(H-2)+'" class="ax">'+labels[0]+'</text><text x="'+W+'" y="'+(H-2)+'" class="ax" text-anchor="end">오늘</text>'+
+             '<line x1="0" y1="'+(H-14)+'" x2="'+W+'" y2="'+(H-14)+'" stroke="var(--line)"/>'+
+             '<text x="0" y="9" class="ax">최대 '+mx.toLocaleString()+'건</text>';
+  var P = period(), parts = D.regions.map(function(r){
+    var n = 0; P[0].forEach(function(d){ n += (((ST.days||{})[d]||{})[th]||{})[r.k] || 0; }); return [r, n];
+  }).filter(function(x){ return x[1] > 0; }).sort(function(a,b){ return b[1]-a[1]; });
+  var pm = parts.length ? parts[0][1] : 1;
+  var rows = parts.map(function(x){
+    return '<div class="crow"><span class="cl">'+esc(x[0].l)+'</span><span class="cb"><i style="width:'+Math.max(2, x[1]/pm*100)+'%"></i></span><span class="cn">'+x[1].toLocaleString()+'</span></div>';
+  }).join('') || '<div class="note">이 기간 기사 없음</div>';
+  return '<div class="det"><div class="dt">최근 30일 하루 뉴스 수'+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
+    '<svg class="bars" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" role="img" aria-label="'+esc(th)+' 30일 뉴스 수">'+bars+axis+'</svg>'+
+    '<div class="dt">'+esc(P[2])+' 나라별</div>'+rows+'</div>';
+}
+function renderStats(t){
+  var h = '<h2>📊 테마별 뉴스 통계</h2>';
+  if(!ST){ loadStats(); $('main').innerHTML = h + '<p class="none">통계를 불러오는 중…</p>'; return; }
+  if(ST.err || !ST.days){ $('main').innerHTML = h + '<p class="none">아직 모인 통계가 없어요. 3시간마다 모이니 잠시 후 다시 확인해 주세요.</p>'; return; }
+  var P = period();
+  if(S.sp==='yday' && !Object.keys((ST.days||{})[P[0][0]]||{}).length){ S.sp = 'today'; P = period(); }
+  h += '<p class="note">기사 제목에 테마 단어가 들어간 뉴스 수 · 3시간마다 모아 같은 기사는 한 번만 셈 · 업데이트 '+esc(ST.updated||'')+'</p>';
+  h += '<div class="seg">' + [['today','오늘'],['yday','어제'],['w','7일'],['m','30일']].map(function(x){
+    return '<button data-sp="'+x[0]+'" class="'+(S.sp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
+  var rows = (ST.themes||[]).map(function(th){ return {th:th, n:sum(P[0], th), p:sum(P[1], th), cap:capped(P[0], th)}; })
+                            .sort(function(a,b){ return b.n - a.n; });
+  var mx = rows.length ? Math.max(1, rows[0].n) : 1, total = 0; rows.forEach(function(r){ total += r.n; });
+  h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 전체 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">(전 기간 대비)</span></div>';
+  h += rows.map(function(r, i){
+    var open = S.open[r.th];
+    return '<div class="srow'+(open?' open':'')+'" data-th="'+esc(r.th)+'">'+
+      '<div class="sline"><span class="rk">'+(i+1)+'</span><span class="sn">'+esc(r.th)+'</span>'+
+      '<span class="sb"><i style="width:'+Math.max(r.n?2:0, r.n/mx*100)+'%"></i></span>'+
+      '<span class="sc">'+r.n.toLocaleString()+(r.cap?'+':'')+'</span>'+chg(r.n, r.p)+spark(r.th, 14)+'</div>'+
+      (open ? detail(r.th) : '') + '</div>';
+  }).join('');
+  h += '<footer>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프와 나라별 구성<br>'+
+       '· 숫자 옆 + 는 검색 결과가 너무 많아 실제보다 적게 잡혔을 수 있다는 표시예요 (구글 뉴스는 한 번에 최대 100개)<br>'+
+       '· ▲▼ 는 바로 앞 같은 길이 기간과 비교 (오늘은 진행 중이라 작게 나와요)</footer>';
+  $('main').innerHTML = h;
+}
+document.addEventListener('click', function(e){
+  var b = e.target.closest('.seg button');
+  if(b){ S.sp = b.dataset.sp; save('sp', S.sp); renderMain(); return; }
+  var r = e.target.closest('.srow .sline');
+  if(r){ var th = r.parentNode.dataset.th; S.open[th] = !S.open[th]; renderMain(); }
+});
+"""
+STATS_CSS = r""".seg{display:flex;gap:6px;margin:6px 4px 10px}.seg button{flex:1;border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:7px 0;font:inherit;font-size:13px}
+.seg button.on{background:var(--acc);border-color:var(--acc);color:#1f1e1d;font-weight:600}
+.tot{margin:2px 4px 10px;color:var(--sub);font-size:13px}.tot b{color:var(--text)}.chgnote{font-size:11px}
+.srow{background:var(--card);border-radius:12px;margin:6px 0;padding:10px 12px;cursor:pointer}.srow.open{background:var(--card2)}
+.sline{display:flex;align-items:center;gap:8px}
+.rk{width:18px;color:var(--sub);font-size:12px;text-align:right;flex:none}
+.sn{width:86px;flex:none;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sb{flex:1;height:10px;background:rgba(255,255,255,.05);border-radius:5px;overflow:hidden;min-width:30px}.sb i{display:block;height:100%;background:var(--acc);border-radius:0 4px 4px 0}
+.sc{width:54px;flex:none;text-align:right;font-size:14px;font-variant-numeric:tabular-nums}
+.chg{width:48px;flex:none;text-align:right;font-size:11.5px;color:var(--sub)}.chg.up{color:#f87171}.chg.dn{color:#60a5fa}
+.spark{flex:none}
+.det{margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
+.dt{color:var(--sub);font-size:12px;margin:6px 0 4px}
+.bars{width:100%;height:120px;display:block}.bars .ax{fill:var(--sub);font-size:9px}.bars .bar:hover rect+rect{opacity:.8}
+.crow{display:flex;align-items:center;gap:8px;margin:3px 0;font-size:12.5px}.cl{width:86px;flex:none}.cb{flex:1;height:8px;background:rgba(255,255,255,.05);border-radius:4px;overflow:hidden}
+.cb i{display:block;height:100%;background:var(--acc);opacity:.8;border-radius:0 3px 3px 0}.cn{width:50px;text-align:right;flex:none;font-variant-numeric:tabular-nums}
+@media(max-width:400px){.spark{display:none}.sn{width:74px}}
+"""
+
+
 def build_pages(news, run_id, updated):
     by_theme = {BREAKING_NAME: [], GLOBAL_BREAKING_NAME: []}
     by_theme.update({t["name"]: [] for t in THEMES})
@@ -976,11 +1095,12 @@ def build_pages(news, run_id, updated):
                              if name == GLOBAL_BREAKING_NAME else (f"보유: {etfs[name]}" if etfs.get(name) else "")),
                     "breaking": name in brk_names,
                     "items": [_pack(n, rkey) for n in items]}
-                   for name, items in by_theme.items()],
+                   for name, items in by_theme.items()] + [{"name": STATS_TAB, "note": "", "stats": True, "items": []}],
         "auto": {r["label"]: v for r in REGIONS for k, v in load_sources().get("auto", {}).items()
                  if k == r["key"] and v},
         "breaking_url": f"https://raw.githubusercontent.com/{REPO}/main/breaking.json",
         "show": SHOW_PER_THEME,
+        "stats_url": f"https://raw.githubusercontent.com/{REPO}/main/stats.json",
     }
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     html = """<!DOCTYPE html>
@@ -1041,7 +1161,7 @@ footer b{color:var(--text);font-weight:600}
 .s-close button{width:100%;margin-top:8px;padding:11px;border-radius:10px;background:transparent;border:1px solid var(--line);color:var(--sub);font:inherit;font-size:14px}
 .s-cnote{margin-top:8px;color:var(--sub);font-size:11.5px;text-align:center}
 #toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:9;max-width:90%;padding:10px 16px;border-radius:10px;background:#faf9f5;color:#1f1e1d;font-size:13.5px;box-shadow:0 6px 20px rgba(0,0,0,.4)}
-</style></head><body>
+__STATS_CSS__</style></head><body>
 <div class="wrap">
 <header><h1>📰 투자 테마 뉴스</h1><div class="upd" id="upd"></div></header>
 </div>
@@ -1077,6 +1197,7 @@ function newest(t){ var m = 0; t.items.forEach(function(n){ if(n.a > m) m = n.a;
 if(S.seen === null){ S.seen = {}; D.themes.forEach(function(t){ S.seen[t.name] = newest(t); }); save('seen', S.seen); }  // 처음 방문: 레드닷 없이 시작
 (function(){ var nm = load('tabname', ''); D.themes.forEach(function(t, i){ if(t.name === nm) S.tab = i; }); })();  // 마지막에 본 탭 (이름으로 기억)
 if(location.hash && /^#t\\d+$/.test(location.hash)) S.tab = +location.hash.slice(2);
+if(location.hash === '#stats') D.themes.forEach(function(t, i){ if(t.stats) S.tab = i; });
 if(S.tab >= D.themes.length) S.tab = 0;
 
 function visible(t){
@@ -1092,12 +1213,12 @@ function renderTabs(){
   $('tabs').innerHTML = D.themes.map(function(t, i){
     var dot = newest(t) > (S.seen[t.name] || 0) && i !== S.tab;
     return '<button class="tab'+(i===S.tab?' on':'')+'" onclick="openTab('+i+')">'+esc(t.name)+
-           '<b>'+visible(t).length+'</b>'+(dot?'<span class="dot" title="새 뉴스"></span>':'')+'</button>';
+           (t.stats ? '' : '<b>'+visible(t).length+'</b>')+(dot?'<span class="dot" title="새 뉴스"></span>':'')+'</button>';
   }).join('');
   var on = $('tabs').children[S.tab]; if(on && on.scrollIntoView) on.scrollIntoView({block:'nearest', inline:'center'});
 }
 function renderCtrl(){
-  var br = D.themes[S.tab].breaking;
+  var br = D.themes[S.tab].breaking || D.themes[S.tab].stats;
   var h = '';
   if(!br){
     h += '<button class="'+(S.sort==='c'?'on':'')+'" onclick="setSort(\\'c\\')">🔥 화제순</button>';
@@ -1117,6 +1238,7 @@ function card(n, prev){
     '<div class="title">'+esc(n.s)+'</div>'+(n.t?'<div class="orig">'+esc(n.t)+'</div>':'')+'</a>';
 }
 function renderMain(){
+  if(D.themes[S.tab].stats){ renderStats(D.themes[S.tab]); return; }
   var t = D.themes[S.tab], list = sorted(visible(t), t.breaking), prev = S.prev[t.name] || 0;
   var h = '<h2>'+esc(t.name)+'</h2>' + (t.note ? '<p class="note">'+esc(t.note)+'</p>' : '');
   var fresh = prev ? list.filter(function(n){ return n.a > prev; }).length : 0;
@@ -1144,7 +1266,7 @@ function openTab(i){
   S.tab = i; S.shown = D.show; S.onlyNew = false; save('tabname', t.name);
   if(!(t.name in S.prev)) S.prev[t.name] = S.seen[t.name] || 0;     // 이 탭에서 NEW 로 보여줄 기준
   S.seen[t.name] = Math.max(S.seen[t.name] || 0, newest(t)); save('seen', S.seen);  // 탭에 들어오면 레드닷 지움
-  history.replaceState(null, '', '#t'+i);
+  history.replaceState(null, '', t.stats ? '#stats' : '#t'+i);
   renderTabs(); renderCtrl(); renderMain(); window.scrollTo(0, 0);
 }
 function setSort(k){ S.sort = k; save('sort', k); S.shown = D.show; renderCtrl(); renderMain(); }
@@ -1172,6 +1294,7 @@ function refreshBreaking(){
     renderTabs();
   }).catch(function(){});
 }
+__STATS_JS__
 openTab(S.tab);
 refreshBreaking();
 setInterval(refreshBreaking, 5 * 60 * 1000);
@@ -1211,7 +1334,7 @@ function askAI(a){
 function toast(msg){ var t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(function(){ t.hidden = true; }, 4000); }
 function closeSheet(){ $('dim').hidden = true; $('sheet').hidden = true; document.body.style.overflow = ''; }
 document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeSheet(); });
-</script></body></html>""".replace("__DATA__", blob)
+</script></body></html>""".replace("__DATA__", blob).replace("__STATS_CSS__", STATS_CSS).replace("__STATS_JS__", STATS_JS)
     os.makedirs(os.path.dirname(PAGE_FILE), exist_ok=True)
     with open(PAGE_FILE, "w", encoding="utf-8") as f:
         f.write(html)
