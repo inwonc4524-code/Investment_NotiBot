@@ -12,7 +12,9 @@
    기사 제목에 이 단어 중 하나라도 있어야 그 테마 기사로 셉니다.
 """
 import json
+import math
 import os
+import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -30,8 +32,8 @@ STAT_THEMES = [
     {"name": "2차전지",
      "kr": ["2차전지", "이차전지", "배터리", "양극재", "리튬"],
      "en": ["EV battery", "batteries", "lithium", "battery maker", "cathode"],
-     "zh": ["電池", "鋰電池", "寧德時代", "正極材料"], "cn": ["动力电池", "锂电池", "宁德时代", "碳酸锂"],
-     "ja": ["電池", "リチウムイオン電池", "車載電池"]},
+     "zh": ["鋰電池", "動力電池", "儲能電池", "電池廠", "寧德時代", "正極材料"], "cn": ["动力电池", "锂电池", "宁德时代", "碳酸锂"],
+     "ja": ["リチウムイオン電池", "車載電池", "全固体電池", "蓄電池", "電池材料"]},
     {"name": "AI",
      "kr": ["AI", "인공지능", "생성형"],
      "en": ["AI", "artificial intelligence", "generative AI", "OpenAI"],
@@ -47,15 +49,15 @@ STAT_THEMES = [
     {"name": "방산",
      "kr": ["방산", "방위산업", "한화에어로스페이스", "LIG넥스원", "현대로템"],
      "en": ["defense stocks", "defense contractor", "defense spending", "arms deal", "Lockheed"],
-     "zh": ["軍工", "國防", "軍購"], "cn": ["军工", "国防"], "ja": ["防衛産業", "防衛費", "防衛装備"]},
+     "zh": ["軍工", "國防產業", "國防工業", "軍購"], "cn": ["军工", "国防工业", "军工股", "军贸"], "ja": ["防衛産業", "防衛費", "防衛装備"]},
     {"name": "원전",
      "kr": ["원전", "원자력", "SMR", "두산에너빌리티", "한수원"],
-     "en": ["nuclear power", "nuclear reactor", "SMR", "uranium"],
+     "en": ["nuclear power", "nuclear reactor", "SMR", "uranium stocks", "uranium miner", "uranium price"],
      "zh": ["核電", "核能"], "cn": ["核电", "核能"], "ja": ["原発", "原子力"]},
     {"name": "조선",
      "kr": ["조선업", "조선주", "조선사", "HD현대중공업", "한화오션", "삼성중공업", "LNG선", "HD한국조선해양"],
      "en": ["shipbuilding", "shipbuilder", "shipbuilders", "shipyard"],
-     "zh": ["造船", "船舶"], "cn": ["造船", "船舶"], "ja": ["造船"]},
+     "zh": ["造船", "船廠", "造船業"], "cn": ["造船", "船企", "造船厂", "船舶工业"], "ja": ["造船"]},
     {"name": "전력기기",
      "kr": ["전력기기", "변압기", "전력망", "HD현대일렉트릭", "효성중공업", "LS ELECTRIC", "LS일렉트릭"],
      "en": ["power grid", "transformer", "transformers", "electrical equipment", "grid investment"],
@@ -82,7 +84,7 @@ STAT_THEMES = [
     {"name": "엔터",
      "kr": ["엔터", "K팝", "K-팝", "하이브", "JYP", "SM엔터", "YG엔터"],
      "en": ["K-pop", "entertainment stocks", "music streaming"],
-     "zh": ["韓流", "K-pop"], "cn": ["韩流", "K-pop"], "ja": ["K-POP", "エンタメ"]},
+     "zh": ["韓流", "K-pop"], "cn": ["韩流", "K-pop"], "ja": ["K-POP", "エンタメ株", "芸能事務所"]},
     {"name": "화장품",
      "kr": ["화장품", "K-뷰티", "K뷰티", "아모레퍼시픽", "LG생활건강", "코스맥스"],
      "en": ["cosmetics", "beauty brand", "K-beauty"],
@@ -94,9 +96,9 @@ STAT_THEMES = [
     {"name": "인터넷·플랫폼",
      "kr": ["네이버", "카카오", "플랫폼 기업", "쿠팡", "빅테크"],
      "en": ["Meta", "Alphabet", "Amazon", "Microsoft", "big tech"],
-     "zh": ["騰訊", "阿里巴巴", "網路平台"], "cn": ["互联网", "腾讯", "阿里巴巴", "字节跳动"], "ja": ["楽天", "LINEヤフー", "プラットフォーム"]},
+     "zh": ["騰訊", "阿里巴巴", "網路平台"], "cn": ["互联网", "腾讯", "阿里巴巴", "字节跳动"], "ja": ["楽天", "LINEヤフー", "プラットフォーマー", "IT大手"]},
     {"name": "건설·부동산",
-     "kr": ["건설사", "건설주", "부동산", "아파트", "재건축"],
+     "kr": ["건설사", "건설주", "부동산", "아파트값", "아파트 분양", "아파트 매매", "집값", "재건축"],
      "en": ["homebuilder", "homebuilders", "real estate", "housing market"],
      "zh": ["營建", "房地產", "房市"], "cn": ["房地产", "楼市", "房企"], "ja": ["不動産", "住宅市場", "ゼネコン"]},
     {"name": "가상자산",
@@ -106,9 +108,22 @@ STAT_THEMES = [
 ]
 
 STATS_FILE = os.path.join(nb.HERE, "stats.json")
+# 세지 않을 광고성 글 (제목 앞에 보이지 않는 글자를 넣은 성인 사이트 홍보 글 등)
+SPAM = re.compile(r"^[\u200b-\u200d\ufeff]|porn|nsfw|ポルノ|アダルト|ミルフ|成人聊天|性愛機器人|成人向け", re.I)
+# 테마 단어를 품고 있지만 뜻이 다른 말 → 관련 여부 볼 때 지우고 봄 (실제 기사 표본 점검에서 찾은 것)
+STAT_FALSE = ["보조배터리", "아파트 화재", "아파트서 화재", "제약이", "제약을 받", "시간 제약",
+              "gemini 4 hydrogen", "uranium enrichment", "smr hdd", "at amazon", "on amazon", "amazon rainforest",
+              "central bank", "food bank", "木造船", "太陽電池", "한수원과 wk리그"]
 KEEP_DAYS = 735            # 날짜별 숫자를 며칠치 보관할지 (1년 통계 + 그 전 1년과 비교)
 NOTIFY_HOUR = 7            # 한국 시간 이 시각 이후 첫 수집 때 '어제 통계' 알림
 SATURATED = 95             # 검색 한 번에 이만큼 넘게 나오면 검색어를 나눠서 더 찾음 (구글 뉴스는 한 번에 최대 100개)
+
+
+def relevant(theme, title):
+    t = title
+    for ff in STAT_FALSE:
+        t = re.sub(re.escape(ff), " ", t, flags=re.I)
+    return nb.is_relevant(theme, t)
 
 
 def load_stats():
@@ -142,15 +157,15 @@ def _rss(url):
     return None
 
 
-def fetch_theme(region, words):
-    """한 테마·한 나라의 최근 24시간 기사 (검색 결과가 꽉 차면 검색어를 하나씩 나눠서 더 찾음)"""
-    items = _rss(nb.search_url(region, words, when="1d"))
+def fetch_theme(region, words, when="1d"):
+    """한 테마·한 나라의 최근 기사 (검색 결과가 꽉 차면 검색어를 하나씩 나눠서 더 찾음)"""
+    items = _rss(nb.search_url(region, words, when=when))
     if items is None:
         return None, False
     saturated = len(items) >= SATURATED
     if saturated and len(words) > 1:
         for w in words:
-            more = _rss(nb.search_url(region, [w], when="1d"))
+            more = _rss(nb.search_url(region, [w], when=when))
             time.sleep(0.4)
             if more:
                 items += more
@@ -180,6 +195,15 @@ def collect():
             seen_theme.setdefault((d, slot.split("|")[0]), set()).update(ks)
     fails = 0
     t0 = time.time()
+    # 검색 시간 창 = 지난번 수집 이후 + 1시간 겹침 (구글 뉴스는 한 번에 100개까지라, 창이 짧을수록 빠짐없이 셈)
+    # 겹치는 기사는 위의 기사 표시로 한 번만 셈. 실행이 오래 빠졌으면 최대 24시간
+    try:
+        gap = (now - datetime.fromisoformat(st["last_ok"])).total_seconds() / 3600
+    except Exception:
+        gap = 24
+    win_h = min(24, max(2, math.ceil(gap) + 1))
+    when = "1d" if win_h >= 24 else f"{win_h}h"
+    print(f"검색 시간 창: 최근 {when}")
 
     for theme in STAT_THEMES:
         line = []
@@ -187,7 +211,7 @@ def collect():
             words = theme.get(region["words"]) or []
             if not words:
                 continue
-            items, saturated = fetch_theme(region, words)
+            items, saturated = fetch_theme(region, words, when)
             time.sleep(0.4)
             if items is None:
                 fails += 1
@@ -202,8 +226,8 @@ def collect():
                 if d not in live:
                     continue
                 title = it["title"]
-                if nb.EXCLUDE.search(title) or nb.is_blocked(it["source"], it.get("src_url", "")) \
-                        or not nb.is_relevant(theme, title):
+                if nb.EXCLUDE.search(title) or SPAM.search(title) or nb.is_blocked(it["source"], it.get("src_url", "")) \
+                        or not relevant(theme, title):
                     continue
                 k = nb.title_key(title)[:40]
                 if not k:
@@ -231,6 +255,8 @@ def collect():
     st["keys"] = {d: v for d, v in keys.items() if d in live}
     st["capped"] = {d: v for d, v in capped.items() if d >= cutoff}
     st["updated"] = now.strftime("%m/%d %H:%M")
+    if fails < 40:                              # 대부분 받았을 때만 '지난번 수집' 시각으로 기록
+        st["last_ok"] = now.isoformat()
     save_stats(st)
     total = sum(sum(v.values()) for v in st["days"].get(today, {}).values())
     print(f"완료 {st['updated']} · 오늘 누적 {total}건 · 가져오기 실패 {fails} · {time.time() - t0:.0f}초")

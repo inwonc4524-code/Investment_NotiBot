@@ -40,7 +40,7 @@ THEMES = [
     ("로봇", ['robotics', 'humanoid', '"industrial robot"', '"robot maker"']),
     ("바이오·제약", ['biotech', 'pharmaceutical', 'drugmaker', '"clinical trial"', '"FDA approval"']),
     ("방산", ['"defense industry"', '"defense contractor"', '"arms deal"', '"arms exports"', '"defense spending"']),
-    ("원전", ['"nuclear power"', '"nuclear reactor"', '"small modular reactor"', 'uranium']),
+    ("원전", ['"nuclear power"', '"nuclear reactor"', '"small modular reactor"', '"uranium mining"']),   # 그냥 uranium 은 이란 핵 협상 기사가 섞임
     ("조선", ['shipbuilding', 'shipbuilder', 'shipyard']),
     ("전력기기", ['"power grid"', '"electrical equipment"', '"power transformer"', '"grid investment"']),
     ("자동차", ['automaker', '"car sales"', '"electric vehicle"', '"auto industry"']),
@@ -133,6 +133,21 @@ def main():
     today = datetime.now(KST).date()
     end = today - timedelta(days=1)            # 어제까지 (오늘은 진행 중이라 뺌)
     years = list(range(SINCE.year, end.year + 1))
+    # 검색어를 바꾼 테마는 처음부터 다시 받기 (예전 검색어로 센 숫자와 섞이지 않게)
+    if "qv" not in h:   # 검색어 기록을 시작하기 전에 받은 자료: 원전만 예전 검색어(uranium)로 받았음
+        h["qv"] = {t: " OR ".join(w) for t, w in THEMES}
+        h["qv"]["원전"] = " OR ".join(['"nuclear power"', '"nuclear reactor"', '"small modular reactor"', 'uranium'])
+    qv = h["qv"]
+    for t, words in THEMES:
+        sig = " OR ".join(words)
+        if qv.get(t) != sig:
+            if t in qv:
+                print(f"검색어가 바뀐 테마 → 다시 받음: {t}")
+                for k in [k for k in h["done"] if k.startswith(t + "|")]:
+                    del h["done"][k]
+                h.get("upto", {}).update({k: SINCE.isoformat() for k in list(h.get("upto", {})) if k.startswith(t + "|")})
+                h["s"].pop(t, None)
+            qv[t] = sig
     # ① 처음 채우기: 아직 안 받은 칸. 여러 해가 남았으면 한 번에 통째로 (요청 수를 줄이려고)
     jobs = []
     for theme, words in THEMES:
@@ -190,6 +205,12 @@ def main():
             continue
         put(h, theme, rk, c, a, b)
         upto[f"{theme}|{rk}"] = max(upto.get(f"{theme}|{rk}", ""), b.isoformat())
+        if ys:                                # 예전에 받아 둔 해까지 합쳐, 이 칸이 어디까지 채워졌는지
+            for y in ys:
+                h["done"][f"{theme}|{rk}|{y}"] = True
+            got = [y for y in years if h["done"].get(f"{theme}|{rk}|{y}")]
+            if got:
+                upto[f"{theme}|{rk}"] = max(upto[f"{theme}|{rk}"], min(end, date(max(got), 12, 31)).isoformat())
         ok += 1
         if ys:
             for y in ys:
