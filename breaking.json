@@ -1,30 +1,6 @@
 {
 "items": [
 {
-"key": "senatebankingcommitteeasksjensenhuangandhowardlutnicktotestifyindecember",
-"keys": [
-"senatebankingcommitteeasksjensenhuangandhowardlutnicktotestifyindecember",
-"ussenatechairasksexnvidiaceojensenhuangcommercesecretarylutnicktotestify",
-"uscommercesecretaryinthespotlightovernvidiascandal"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Senate Banking Committee asks Jensen Huang and Howard Lutnick to testify in December",
-"show": "상원 은행위원회는 젠슨 황과 하워드 러트닉에게 12월에 증언을 요청했습니다.",
-"source": "Fortune",
-"src_url": "https://fortune.com",
-"sum": "위원회는 \"심각한 국가 안보 문제를 제기하는 질문에 대한 답변을 찾고 있습니다.\"",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMUM1OExiTGlEVFNsQjdaTG15Sm8tY0ZHcWtOYURrYUtxWmw5UjlHVG5SX3VkMjNyMDFfZmtKblV1NEdiazRtakd6LW1oRTktd0dHaVNNRzBJLXdaajBjMEFYcEdDVE5JUVg2dHZjWU1BcUZ0WUJtdHFhRG5fTlRFazhiaDZEOTFJMjA3N3hyZi1NajNvbFE?oc=5",
-"url": "https://fortune.com/2026/11/13/senate-banking-committee-nvidia-jensen-huang-howard-lutnick/",
-"pub": 1794571440.0,
-"time": "11/13 21:04",
-"run": "breaking",
-"added": 1794572402,
-"pv": "8bab9ca2"
-},
-{
 "key": "대만자유시보앨리스황中국가안전부반도체팀소속의혹",
 "keys": [
 "대만자유시보앨리스황中국가안전부반도체팀소속의혹",
@@ -811,6 +787,29 @@
 "run": "breaking",
 "added": 1794826654,
 "pv": "8bab9ca2"
+},
+{
+"key": "trumpsnvidiastakegrewtoasmuchas62millionwashingtonpostreports",
+"keys": [
+"trumpsnvidiastakegrewtoasmuchas62millionwashingtonpostreports",
+"trumpsstakeinnvidiagrewtoasmuchas62millionbeforescandalbrokeout"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Trump's Nvidia stake grew to as much as $62 million, Washington Post reports",
+"show": "워싱턴포스트(WP)는 트럼프의 엔비디아 지분이 6200만 달러까지 늘어났다고 보도했다.",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNajk2S3gxMEdjVExKMzV3QmljQnVtYk1fN2Z2LUdldndlNjlkbVdrc2hhbnkzdFNtSFE0UzNUbjFYT1JQY2ZJRlpEalZXeW5XcDZCYW5NWjhCVUFqQldQTmg0ZUVfY1lYTHZnTHdNTTBqem12eC0zNE1NVVgyaVcxMi10WmdwVnlCUDNFY2ZRdnVrdURLTDctZTY2VkRLaWZ0d1A1VmFrd1pYbnl2NVhhV3Fn?oc=5",
+"url": "https://www.reuters.com/world/china/trumps-nvidia-stake-grew-much-62-million-washington-post-reports-2026-11-16/",
+"pub": 1794831353.0,
+"time": "11/16 21:15",
+"run": "breaking",
+"added": 1794832463,
+"pv": "8bab9ca2"
 }
 ],
 "seen": {
@@ -952,6 +951,8 @@
 "新台幣收32886元貶48分ai人機協作證券": 1794820130.65784,
 "新台幣貶48分收32886元": 1794820130.6578407,
 "新台幣貶48分收32886元外匯市場金融": 1794820130.657841,
-"快訊台股暴跌跌幅亞股最慘金管會證交所都發聲": 1794828840.5544174
+"快訊台股暴跌跌幅亞股最慘金管會證交所都發聲": 1794828840.5544174,
+"trumpsnvidiastakegrewtoasmuchas62millionwashingtonpostreports": 1794832467.1751049,
+"trumpsstakeinnvidiagrewtoasmuchas62millionbeforescandalbrokeout": 1794832467.175109
 }
 }
