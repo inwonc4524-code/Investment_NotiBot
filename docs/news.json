@@ -53,6 +53,31 @@
 "sum": "16일 오전 아시아 시장에서 미국 주가지수 선물은 엔비디아의 실적 발표와 인공지능(AI) 기업 앤트로픽의 기업공개(IPO)를 앞두고 하락세를 나타냈다. 미국 국채금리도 전반적으로 올랐다.연합인포맥스 지수선물 통합화면(화면번호 6520)에 따르면 한국 시각으로 오전 10시20분 기준 E-미니 S&P500 지수 선물은 전장 대비 0.08% 내린 7,576.00에 거래됐다.기술주 중심의 E-미니 나스닥100 지수 선물은 전장 대비 0.3% 하락한 27,949.75를 나타냈다.지난주 뉴욕증시에서 다우존스30산업평균지수와 S&P500지수,"
 },
 {
+"key": "dowsp500nasdaqfuturesedgelowerasmarketsbracefornvidiaearningsanthropicipofedminu",
+"keys": [
+"dowsp500nasdaqfuturesedgelowerasmarketsbracefornvidiaearningsanthropicipofedminu",
+"sp500nasdaqfuturesslideasnvidiaearningsanthropicdebutloom",
+"sp500nasdaqfuturesfallaheadofnvidiaearningsanthropicipo",
+"nvidiaearningsanthropicipoaheadinnewtestforaieconomy",
+"asiansharesfallbeforenvidiaearningsanthropicipotesttechrally"
+],
+"count": 6,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus",
+"show": "다우, S&P500, 나스닥 Futures Edge Lower As Markets Brace For 엔비디아 수익, 인류 최초 공모(IPO), 연준 회의록: SMMT, NBIS, HELP, MSTR 집중",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
+"pub": 1794794640.0,
+"time": "11/16 11:04",
+"run": "202611160246",
+"added": 1794797181,
+"url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-020421221.html",
+"sum": "엔비디아는 11월 17일 임시 CEO 콜레트 크레스의 지휘 하에 3분기 실적을 발표할 예정입니다.",
+"pv": "8bab9ca2"
+},
+{
 "key": "英伟达美股盘前跌3",
 "keys": [
 "英伟达美股盘前跌3",
@@ -113,29 +138,6 @@
 "added": 1794784792,
 "url": "https://news.rthk.hk/rthk/ch/component/k2/1877915-20261116.htm",
 "sum": "지난주 미국 3대 주가지수는 모두 2% 이상 상승했다. 다우존스지수는 2주 하락세를 마감했고, S&P500과 나스닥도 4주 하락세를 마감했다. 이번 주 시장의 초점은 화요일 시장 마감 후 엔비디아의 실적에 관한 것이며, 임시 CEO인 크레스(Kress)는 목요일에 전체 직원 회의를 열 계획입니다. 엔비디아는 지난주 13% 가까이 하락해 6개월 연속 하락세를 이어갔다.",
-"pv": "8bab9ca2"
-},
-{
-"key": "dowsp500nasdaqfuturesedgelowerasmarketsbracefornvidiaearningsanthropicipofedminu",
-"keys": [
-"dowsp500nasdaqfuturesedgelowerasmarketsbracefornvidiaearningsanthropicipofedminu",
-"sp500nasdaqfuturesslideasnvidiaearningsanthropicdebutloom",
-"sp500nasdaqfuturesfallaheadofnvidiaearningsanthropicipo"
-],
-"count": 3,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus",
-"show": "다우, S&P500, 나스닥 Futures Edge Lower As Markets Brace For 엔비디아 수익, 인류 최초 공모(IPO), 연준 회의록: SMMT, NBIS, HELP, MSTR 집중",
-"source": "Yahoo Finance",
-"src_url": "https://finance.yahoo.com",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
-"pub": 1794794640.0,
-"time": "11/16 11:04",
-"run": "202611160246",
-"added": 1794797181,
-"url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-020421221.html",
-"sum": "엔비디아는 11월 17일 임시 CEO 콜레트 크레스의 지휘 하에 3분기 실적을 발표할 예정입니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -526,7 +528,7 @@
 "run": "202611161435",
 "added": 1794839740,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416906/%E8%8B%B1%E5%81%89%E9%81%94%28US.NVDA%29%E9%96%8B%E8%B7%8C2.30%25%EF%BC%8C%E7%BE%8E%E8%82%A1%E4%BA%94%E5%A4%A7%E5%B8%82%E5%80%BC%E8%82%A1%E4%BB%BD%E9%96%8B%E5%B8%82%E8%A1%A8%E7%8F%BE",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -547,7 +549,7 @@
 "run": "202611161435",
 "added": 1794839738,
 "url": "https://www.spglobal.com/spdji/en/blog/article/a-dual-quality-lens-for-us-small-cap-dividend-growth-the-sp-smallcap-600-dividend-aristocrats/",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -589,7 +591,7 @@
 "run": "202611161435",
 "added": 1794839742,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416904/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E7%95%A2%E8%8F%B2%E7%89%B9%E6%84%9F%E6%81%A9%E7%AF%80%E6%8D%9055%E5%84%84%E7%BE%8E%E5%85%83%E5%B7%B4%E9%83%A1%E8%82%A1%E4%BB%BD%EF%BC%8C%E7%B1%B2%E5%96%84%E8%A1%8C%E8%A4%87%E5%88%A9%E6%95%88%E6%87%89%E5%8B%9D%E6%8A%95%E8%B3%87",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -630,7 +632,7 @@
 "run": "202611161435",
 "added": 1794839743,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416903/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E5%BE%AE%E8%BB%9F%E7%B5%82%E6%AD%A2%E7%94%B2%E9%AA%A8%E6%96%87AI%E5%90%88%E4%BD%9C%EF%BC%8C%E6%99%B6%E7%89%87%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E9%9A%B1%E6%86%82%E6%B5%AE%E9%9D%A2",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -651,7 +653,7 @@
 "run": "202611161435",
 "added": 1794839744,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416902/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+Take-Two%E7%9B%A4%E5%89%8D%E5%8D%87%E9%80%BE2%25%EF%BC%8C%E3%80%8AGTA+VI%E3%80%8B%E9%A0%90%E8%B3%BC%E6%96%99%E7%A0%B41200%E8%90%AC%E4%BB%BD",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -672,7 +674,7 @@
 "run": "202611161435",
 "added": 1794839745,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416901/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E7%BE%8E%E6%93%AC%E7%A6%81%E8%8F%AF%E4%BC%81%E6%B5%B7%E5%A4%96%E7%A7%9F%E7%94%A8AI%E6%99%B6%E7%89%87%EF%BC%8C%E7%94%B2%E9%AA%A8%E6%96%87%E6%A5%AD%E5%8B%99%E6%81%90%E5%8F%97%E9%87%8D%E5%89%B5",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -693,7 +695,7 @@
 "run": "202611161435",
 "added": 1794839747,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416900/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E9%87%8F%E5%8C%96%E5%9F%BA%E9%87%91%E5%B7%A8%E9%A0%AD%E5%AD%A3%E5%85%A7%E6%B8%9B%E6%8C%81%E8%8B%B1%E5%81%89%E9%81%94%E8%BF%91%E5%85%A8%E6%95%B8%E6%8C%81%E8%82%A1%EF%BC%8C%E8%BD%89%E6%8A%95%E7%BE%8E%E5%85%89",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -1584,6 +1586,27 @@
 "pv": "8bab9ca2"
 },
 {
+"key": "美联储议息多空分歧加剧人形机器人出货高增巨头加码机构狂卖vs散户抄底芯片股丨20261020从华尔街到陆家嘴",
+"keys": [
+"美联储议息多空分歧加剧人形机器人出货高增巨头加码机构狂卖vs散户抄底芯片股丨20261020从华尔街到陆家嘴"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "美联储议息多空分歧加剧？人形机器人：出货高增+巨头加码！机构狂卖vs散户抄底芯片股丨20261020从华尔街到陆家嘴",
+"show": "연준의 금리 논의에서 롱-숏 차이가 심화되고 있습니까? 휴머노이드 로봇: 출하량 증가 + 거대 기업의 투자 증가! 기관 매도 vs. 개인 투자자, 반도체주 매수 | 20261020월스트리트에서 루자쭈이까지",
+"source": "第一财经",
+"src_url": "https://www.yicai.com",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Td2gtVlBSN1ZobjBKZHZxa01uUVFBYm1qRHM0VEx4SHdIQkNGRTNpZEhxM3BWU1lyQ0s5YWoxeENpVS1nZ201Uk1UT1I3eDZQcTZ3dw?oc=5",
+"pub": 1794804755.0,
+"time": "11/16 13:52",
+"run": "202611161437",
+"added": 1794839852,
+"url": "https://www.yicai.com/video/103400301.html",
+"sum": "① 시장은 아무 조치도 취하지 않을 것에 베팅하고 있습니다. 경제학자들은 연준의 10월 금리 인상에 대한 우려가 과소평가됐다고 경고합니다. 선물 시장은 연준의 10월 금리 인상을 거의 무시하고 있습니다. 이는 연준에게 10월 금리 인상 가능성이 약 17%에 불과하며 아무 조치도 취하지 않을 것이라고 예상하고 있습니다. 그러나 많은 경제학자들은 이번 달 연준 금리 회의가 확실하지 않다고 믿고 있습니다. 뱅크오브아메리카 전 수석 이코노미스트 에단 해리스(Ethan Harris)는 이를 '50-50'이라고 불렀고, 옥스포드 경제학자 매튜 마틴(Matthew Martin)은 10월과 12월에 금리가 연속 인상될 것이라고 예측하기도 했다. 이러한 차이는 예상보다 높은 인플레이션에서 비롯됩니다. 미국의 9월 CPI는 전년 동기 대비 3.7%, PPI는 전년 동기 대비 6.3%였습니다. 에너지와 해외 원자재 가격은 상승세를 가속화하며 경직성을 부각시켰다. 워시 연준 의장은 의도적으로 중립을 유지했으며 선제적 성명을 거부했습니다. 금리가 예상치 못하게 인상되면 미국 채권수익률이 상승하고, 달러화 가치가 상승하며, 성장주와 고수익채권 등 위험자산이 위축되고, 만기금리에 대한 시장의 기대가 높아진다. 현재 시장은 이번 라운드의 정책 게임의 강도를 과소평가할 수 있습니다.",
+"pv": "8bab9ca2"
+},
+{
 "key": "모건스탠리sp50015상승여력대만보다한국주식선호globalmoneyclub",
 "keys": [
 "모건스탠리sp50015상승여력대만보다한국주식선호globalmoneyclub"
@@ -2357,6 +2380,27 @@
 "added": 1794784802,
 "url": "https://news.mingpao.com/pns/%E7%B6%93%E6%BF%9F/photo1/20261116/s00004/1794758738993/1794758738978",
 "sum_tried": 2,
+"pv": "8bab9ca2"
+},
+{
+"key": "ft黃仁勳考慮回歸輝達執行長矽谷大咖組戰情室幫忙遊說美股動態國際",
+"keys": [
+"ft黃仁勳考慮回歸輝達執行長矽谷大咖組戰情室幫忙遊說美股動態國際"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "FT：黃仁勳考慮回歸輝達執行長 矽谷大咖組「戰情室」幫忙遊說 | 美股動態 | 國際",
+"show": "FT: 젠슨 황은 엔비디아의 CEO로 복귀하는 것을 고려하고 있습니다. 실리콘 밸리의 유명 인사들이 로비 활동을 돕기 위해 \"전쟁실\"을 구성했습니다. 미국 증시 동향 | 국제적인",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mMktYSnlTdEJMVnRlTVlTcl9SQkc0NXc5WjJOYjl5NGswTUpWYS1HeEo5WGdyaHVwZFhwd2ZlbS1pOTllTHVhb0ZJeXJLVUFfTXZ5bFNEcFNlQkZ6?oc=5",
+"pub": 1794770668.0,
+"time": "11/16 04:24",
+"run": "202611161437",
+"added": 1794839854,
+"url": "https://money.udn.com/money/story/123398/9880721",
+"sum": "영국 파이낸셜 타임즈(FT)는 이 문제에 정통한 사람들의 말을 인용해 엔비디아 공동 창립자인 젠슨 황이 혼외 관계로 엔비디아를 떠난 후 Silicon Valley가 엔비디아 이사회에 젠슨 황이 CEO로 복귀할 수 있도록 계속해서 압력을 가했다고 보도했습니다. 이제 '인공지능(AI)의 대부'로 알려진 젠슨 황이 엔비디아의 조타수 역할을 맡기 위해 '컴백'을 고려하고 있습니다.",
 "pv": "8bab9ca2"
 },
 {
