@@ -4,8 +4,8 @@
 - 구글 뉴스는 지난 날짜 검색이 하루 몇 건밖에 안 나와서, 과거 통계는 GDELT(전 세계 뉴스 기록 프로젝트)의
   '날짜별 기사 수' 자료로 만듭니다. 65개 언어 기사를 영어로 번역해 두고 세기 때문에
   아래 영어 검색어 하나로 한국·중국·일본 언론 기사까지 셀 수 있어요.
-- 매일 한 번 최근 2주를 다시 받아서 최신으로 유지하고, 처음 한 번은 2025-01-01부터 전부 채웁니다.
-  (GDELT 는 5초에 한 번만 물어볼 수 있어서 처음 채우는 데 1~2시간, 여러 번에 나눠 이어서 받음)
+- 처음 한 번은 2025-01-01부터 전부 채우고, 그 뒤엔 일주일에 한 번 최근 2주를 다시 받아 최신으로 유지합니다.
+  (GDELT 는 깃허브 서버에서 부르면 '너무 자주 물어본다'며 자주 막혀서 요청 한 번에 1~2분 → 처음 채우기는 몇 시간, 스스로 이어서 실행)
 - 결과는 history.json → 뉴스 페이지 📊 통계 탭의 '장기 추이' 에서 월별 그래프로 봅니다.
 
 ※ 3시간마다 세는 일별 통계(news_stats.py, 기사 제목 기준)와는 세는 방법이 달라
@@ -26,7 +26,7 @@ KST = timezone(timedelta(hours=9))
 SINCE = date(2025, 1, 1)
 API = "https://api.gdeltproject.org/api/v2/doc/doc"
 REFRESH_DAYS = 14          # 매일 최근 며칠을 다시 받을지 (GDELT 는 며칠 늦게 들어오는 기사가 있음)
-TIME_BUDGET = 45 * 60      # 한 번 실행에 최대 몇 초까지 받을지 (넘으면 저장하고 다음 실행에서 이어서)
+TIME_BUDGET = 40 * 60      # 한 번 실행에 최대 몇 초까지 받을지 (넘으면 저장하고 바로 이어서 다시 실행)
 GAP = 6                    # 요청 사이 간격 (초) — GDELT 규칙: 5초에 한 번
 
 # 나라 (GDELT 나라 코드) — 일별 통계 탭의 나라 키와 같게
@@ -81,7 +81,7 @@ def fetch(words, code, start, end):
     q = "(" + " OR ".join(words) + ")" + f" sourcecountry:{code}"
     params = {"query": q, "mode": "timelinevolraw", "format": "json",
               "startdatetime": start.strftime("%Y%m%d000000"), "enddatetime": end.strftime("%Y%m%d235959")}
-    for attempt in range(6):
+    for attempt in range(5):
         wait = GAP - (time.time() - _last[0])
         if wait > 0:
             time.sleep(wait)
@@ -122,56 +122,70 @@ def main():
     h = load()
     today = datetime.now(KST).date()
     end = today - timedelta(days=1)            # 어제까지 (오늘은 진행 중이라 뺌)
-    # 할 일: ① 아직 안 받은 연도 묶음(처음 채우기) ② 최근 2주 다시 받기
+    years = list(range(SINCE.year, end.year + 1))
+    # ① 처음 채우기: 아직 안 받은 칸. 여러 해가 남았으면 한 번에 통째로 (요청 수를 줄이려고)
     jobs = []
     for theme, words in THEMES:
         for rk, code in REGIONS:
-            y = SINCE.year
-            while y <= end.year:
-                a, b = max(SINCE, date(y, 1, 1)), min(end, date(y, 12, 31))
-                key = f"{theme}|{rk}|{y}"
-                # 지난 해는 한 번 받으면 끝, 올해는 처음 한 번만 통째로 받고 이후엔 최근 2주만
-                if not h["done"].get(key):
-                    jobs.append((0, theme, words, rk, code, a, b, key))
-                y += 1
-    # 며칠 실행이 빠졌어도 구멍이 안 나게: 마지막으로 다 받은 날 이후부터 (최소 최근 2주)
-    a = end - timedelta(days=REFRESH_DAYS - 1)
-    if h.get("through"):
-        a = min(a, date.fromisoformat(h["through"]) - timedelta(days=2))
-    a = max(SINCE, a)
-    for theme, words in THEMES:
-        for rk, code in REGIONS:
-            jobs.append((1, theme, words, rk, code, a, end, None))
-    first = sum(1 for j in jobs if j[0] == 0)
-    print(f"처음 채우기 남은 묶음 {first}개 · 최근 {REFRESH_DAYS}일 갱신 {len(jobs) - first}개")
+            left = [y for y in years if not h["done"].get(f"{theme}|{rk}|{y}")]
+            if len(left) > 1 and h.get("whole_ok", True):
+                jobs.append(("fill", theme, words, rk, code, max(SINCE, date(left[0], 1, 1)), min(end, date(left[-1], 12, 31)), left))
+            else:
+                for y in left:
+                    jobs.append(("fill", theme, words, rk, code, max(SINCE, date(y, 1, 1)), min(end, date(y, 12, 31)), [y]))
+    # ② 최근 갱신: GDELT 는 요청이 아주 느려서(한 번에 1~2분) 일주일에 한 번, 마지막으로 받은 날 이후 + 최근 2주
+    #    (처음 채우기가 다 끝난 뒤부터. 칸마다 마지막으로 받은 날 이후 + 최근 2주)
+    upto = h.setdefault("upto", {})
+    for t, _ in THEMES:                       # 예전 기록(칸별 날짜가 없던 때) → 다 받은 칸은 그때 끝 날짜로
+        for rk, _ in REGIONS:
+            if f"{t}|{rk}" not in upto and h.get("end") and all(h["done"].get(f"{t}|{rk}|{y}") for y in years):
+                upto[f"{t}|{rk}"] = min(h["end"], end.isoformat())
+    oldest = min((date.fromisoformat(upto.get(f"{t}|{rk}", "2000-01-01")) for t, _ in THEMES for rk, _ in REGIONS))
+    need_refresh = not jobs and oldest <= end - timedelta(days=7)
+    if need_refresh:
+        for theme, words in THEMES:
+            for rk, code in REGIONS:
+                u = date.fromisoformat(upto.get(f"{theme}|{rk}", SINCE.isoformat()))
+                a = max(SINCE, min(end - timedelta(days=REFRESH_DAYS - 1), u - timedelta(days=2)))
+                jobs.append(("refresh", theme, words, rk, code, a, end, None))
+    first = sum(1 for j in jobs if j[0] == "fill")
+    print(f"처음 채우기 남은 요청 {first}개 · 최근 갱신 {len(jobs) - first}개" + ("" if need_refresh or first else " (최근 갱신은 일주일에 한 번)"))
 
     ok = fail = 0
-    refresh_all = True
-    fresh = set()                             # 이번 실행에서 통째로 받은 칸 → 최근 2주 다시 받기는 건너뜀
-    for kind, theme, words, rk, code, a, b, key in jobs:
+    ran_out = False
+    k = 0
+    while k < len(jobs):
+        kind, theme, words, rk, code, a, b, ys = jobs[k]
+        k += 1
         if time.time() - t0 > TIME_BUDGET:
-            print("시간이 다 돼서 여기까지 저장 → 다음 실행에서 이어서 받음")
-            refresh_all = False
+            print("시간이 다 돼서 여기까지 저장 → 이어서 다시 실행")
+            ran_out = True
             break
-        if kind == 1 and (theme, rk, b.year) in fresh:
+        if len(ys or []) > 1 and h.get("whole_ok") is False:      # 통째로 받기가 안 되는 걸 알았으면 바로 나눔
+            for y in ys:
+                jobs.append(("fill", theme, words, rk, code, max(SINCE, date(y, 1, 1)), min(end, date(y, 12, 31)), [y]))
             continue
-        if kind == 1 and not h["done"].get(f"{theme}|{rk}|{b.year}"):
-            refresh_all = False
-            continue                          # 아직 처음 채우기가 안 끝난 칸은 그때 같이 받음
         c = fetch(words, code, a, b)
         if c is None:
             fail += 1
-            if kind == 1:
-                refresh_all = False
             print(f"  ✗ {theme} {rk} {a}~{b}")
             continue
+        span = (b - a).days + 1
+        if len(ys or []) > 1 and len(c) < span * 0.6:
+            # 기간이 길면 GDELT 가 하루 단위가 아니라 묶어서 줄 수 있음 → 앞으로는 해마다 나눠 받기
+            print(f"  ! 긴 기간은 하루 단위로 안 와서({len(c)}개) 해마다 나눠 받음")
+            h["whole_ok"] = False
+            for y in ys:
+                jobs.append(("fill", theme, words, rk, code, max(SINCE, date(y, 1, 1)), min(end, date(y, 12, 31)), [y]))
+            continue
         put(h, theme, rk, c, a, b)
+        upto[f"{theme}|{rk}"] = max(upto.get(f"{theme}|{rk}", ""), b.isoformat())
         ok += 1
-        if key:
-            h["done"][key] = True
-            fresh.add((theme, rk, a.year))
-            print(f"  ✓ {theme} {rk} {a.year}: {sum(c.values()):,}건 ({len(c)}일)")
-        if ok % 20 == 0:
+        if ys:
+            for y in ys:
+                h["done"][f"{theme}|{rk}|{y}"] = True
+            print(f"  ✓ {theme} {rk} {a}~{b}: {sum(c.values()):,}건 ({len(c)}일)")
+        if ok % 10 == 0:
             h["updated"] = datetime.now(KST).strftime("%m/%d %H:%M")
             save(h)                           # 중간중간 저장 (도중에 멈춰도 받은 만큼은 남게)
 
@@ -184,14 +198,13 @@ def main():
     h["themes"] = [t for t, _ in THEMES]
     h["regions"] = [rk for rk, _ in REGIONS]
     h["end"] = end.isoformat()
-    if refresh_all:
-        h["through"] = end.isoformat()
+    h["through"] = min(upto.get(f"{t}|{rk}", "") for t, _ in THEMES for rk, _ in REGIONS) or None   # 모든 칸이 받은 마지막 날
     h["complete"] = all(h["done"].get(f"{t}|{rk}|{y}") for t, _ in THEMES for rk, _ in REGIONS
                         for y in range(SINCE.year, end.year + 1))
     h["updated"] = datetime.now(KST).strftime("%m/%d %H:%M")
     save(h)
     with open(os.environ.get("GITHUB_OUTPUT", os.devnull), "a") as f:
-        f.write(f"more={'false' if h['complete'] else 'true'}\n")   # 아직 덜 채웠으면 워크플로가 바로 이어서 한 번 더
+        f.write(f"more={'true' if ran_out else 'false'}\n")   # 시간이 모자라 덜 받았으면 워크플로가 바로 이어서 한 번 더
     print(f"완료: 받기 {ok} · 실패 {fail} · 처음 채우기 {'끝' if h['complete'] else '진행 중'} · {time.time() - t0:.0f}초")
 
 
