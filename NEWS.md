@@ -1,10 +1,11 @@
 # 📰 투자 테마 뉴스
 
-업데이트 11/16 11:49 · 최근 3일
+업데이트 11/16 13:31 · 최근 3일
 
 
 ## 🚨 미국 속보
 
+- [매수 경고: 목요일에 주식 분석가 5명이 업그레이드되었습니다](https://finance.yahoo.com/markets/stocks/articles/buy-alert-5-stocks-analysts-025136531.html) — 🇺🇸 미국 · Yahoo Finance · 11/16 11:51
 - 🔥3 [젠슨 황을 엔비디아 CEO로 복귀시키기 위한 캠페인](https://www.wsj.com/tech/the-campaign-to-bring-back-jensen-huang-as-nvidia-ceo-e91b0b2c) — 🇺🇸 미국 · WSJ · 11/16 11:35
 - 🔥3 [엔비디아는 직원들이 황의 복귀를 요구함에 따라 Arm CEO 하스에게 접근한다고 보도했습니다.](https://www.businesstimes.com.sg/international/global/nvidia-approaches-arm-ceo-haas-employees-seek-huangs-return-reports-say) — 🇺🇸 미국 · The Business Times · 11/14 09:10
 - 🔥3 [FT 보고서에 따르면 엔비디아 이사회는 CEO 물색의 일환으로 Arm의 르네 하스에 접근했습니다.](https://www.reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/) — 🇺🇸 미국 · Reuters · 11/14 02:08
@@ -14,6 +15,8 @@
 
 ## 🌏 해외 속보
 
+- 🔥4 [KDI “비반도체 생산성 부진이 실질임금 정체로”…임금 격차 경고](https://www.hani.co.kr/arti/economy/economy_general/1287512.html) — 🇰🇷 한국 · 한겨레 · 11/16 12:00
+- 🔥3 [지난주 대만 증시는 4000포인트 가까이 급등했다. 돈을 벌었나요? 수백만 개의 인기 ETF의 반등력이 밝혀졌습니다. 그 중 단 2개만이 시장을 이겼습니다 - Financial Management](https://www.ctee.com.tw/news/20261116700676-430403) — 🇹🇼 대만 · 工商時報 · 11/16 11:51
 - 🔥3 [닛케이 평균 앞뒤 반락 959엔 내린 6만 182엔](https://www.nikkei.com/article/DGXZQOFL161X50W6A111C2000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/16 11:35
 - 🔥3 [자동차보험 부정수급 방지·호남 반도체 산단…국토부 33건 특별포상](https://www.edaily.co.kr/News/Read?newsId=01961446645646376&mediaCodeNo=257) — 🇰🇷 한국 · 이데일리 · 11/16 11:00
 - 🔥5 [항셍지수는 71포인트 상승, KCI는 0.41% 상승, 신세계는 45% 하락 (09:26) - 20261116 - 실시간 금융뉴스](https://finance.mingpao.com/fin/instantf/20261116/1794792819792/%E6%81%92%E6%8C%87%E9%AB%98%E9%96%8B71%E9%BB%9E-%E7%A7%91%E6%8C%87%E5%8D%870-41-%E6%96%B0%E4%B8%96%E7%95%8C%E8%B7%8C45) — 🇭🇰 홍콩 · 明報財經網 · 11/16 10:36
@@ -111,18 +114,15 @@
 - [인터넷 증권, 개인 투자자를 미국 주식에 초대 앤트로픽 기업공개(IPO)는 23시간 거래 전초전](https://www.nikkei.com/article/DGXZQOUB126UT0S6A111C2000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/15 11:00
 - [젠슨 황의 축출로 기술주가 폭락했습니다. 싱텔 CEO, 주식 매도 : 이번 주 시장](https://www.straitstimes.com/business/companies-markets/jensen-huangs-ousting-sends-tech-stocks-tumbling-singtel-ceo-sells-shares-markets-this-week) — 🇸🇬 싱가포르 · The Straits Times · 11/15 11:00
 - ["믿을 건 대표지수뿐"...연금개미, 반도체 팔고 S&P500 샀다](https://www.hankyung.com/article/202611135506i) — 🇰🇷 한국 · 한국경제 · 11/15 10:13
-- [폭넓은 종목에 투자하는 ETF의 운용 성적은 S&P500 지수를 상회한다](https://barrons.jiji.com/article/9095) — 🇯🇵 일본 · バロンズ・ダイジェスト · 11/15 10:06
 - [위기에 빠져도 엔비디아는 역시 사다 Even in Crisis, 엔비디아 Stock Is Still a Buy | 【WEEKLY】2026년 11월 15일호](https://barrons.jiji.com/article/9088) — 🇯🇵 일본 · バロンズ・ダイジェスト · 11/15 10:06
+- [폭넓은 종목에 투자하는 ETF의 운용 성적은 S&P500 지수를 상회한다](https://barrons.jiji.com/article/9095) — 🇯🇵 일본 · バロンズ・ダイジェスト · 11/15 10:06
 - [굿모닝 월드》미국 10월 도매 인플레이션은 4년 만에 최고치를 기록했으며 시장은 연준이 12월 금리를 인상할 것으로 예상하고 있습니다 | 삶](https://www.cna.com.tw/news/ahel/202611155001.aspx) — 🇹🇼 대만 · 中央社 CNA · 11/15 08:26
 - [게임업계의 '슈퍼 머니 인쇄기'가 다음 주에 신제품을 출시합니다! "GTA VI"가 월스트리트에 영향을 미치는 이유는 무엇입니까?](https://www.cls.cn/detail/2534581) — 🇨🇳 중국 · 财联社 · 11/15 05:58
 - [엔비디아의 CEO로 젠슨 황의 복귀를 지원하십시오. 테슬라 CEO 머스크도 청원에 동참 | 미국 주식 뉴스 | 국제적인](https://money.udn.com/money/story/123398/9879202) — 🇹🇼 대만 · 經濟日報 · 11/15 03:05
 - [뉴욕증시, 반도체 약세ㆍ사우디 피격](https://m.etoday.co.kr/view_photo.php?idxno=2634887&seq=1) — 🇰🇷 한국 · 이투데이 · 11/15 00:33
 - [미국 증시 마감: PCE 인플레이션은 예상을 소폭 상회했고, 3대 주요 지수는 소폭 하락세로 마감했으며, 시장은 더 많은 정책 신호를 기다리고 있었습니다.](https://www.cls.cn/detail/2465573) — 🇨🇳 중국 · 财联社 · 11/14 23:09
 - [Yicai 앵커가 말했다 | 미국 증시 AI가 하룻밤 사이에 거의 3조 달러 증발했지만 A주의 일부 사람들은 추세를 거스르고 급등했습니다. "동쪽에서 상승하고 서쪽에서 하락"이 정말로 올까요?](https://www.yicai.com/video/103429566.html) — 🇨🇳 중국 · 第一财经 · 11/14 20:02
-- [스탠리블랙앤데커가 오늘날 최고의 S&P500 주식인 이유](https://www.barrons.com/articles/stanley-black-decker-earnings-stock-price-32a92ca0) — 🇺🇸 미국 · Barron's · 11/14 19:30
 - [Lin Mingtian: 10월에 연준이 금리를 인상할 가능성이 높아졌으며 국제 금 가격은 추세를 반전시키기보다는 조정하게 될 것입니다.](https://www.yicai.com/video/103382895.html) — 🇨🇳 중국 · 第一财经 · 11/14 19:10
-- [(모닝 포스트) 연준은 보류를 유지했고 워시는 금리 논의 빈도를 줄일 것이라고 발표했습니다. 미국 주식 메모리 칩 부문이 전반적으로 폭발적으로 성장했습니다. 구글의 실적은 기대에 못 미쳤고, 벨 이후 급락했다.](https://www.cls.cn/detail/2518583) — 🇨🇳 중국 · 财联社 · 11/14 16:14
-- [주식은 대부분 기술, 엔비디아 우려로 완화됩니다. 항공사 주가는 장 후반에 하락](https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/) — 🇺🇸 미국 · Reuters · 11/14 13:59
 
 ## 🧬 나스닥 바이오
 
@@ -265,7 +265,7 @@
 - 🔥2 [미국 양당이 도입한 강세 법안에 편승해 전력 및 에너지 ETF는 자금 전망을 갖고 있습니다.](https://udn.com/news/amp/story/123006/9880423) — 🇹🇼 대만 · UDN · 11/16 04:51
 - 🔥2 [김정관 산업장관, 체코 원전사업 정상 추진 약속“결과로 책임질 것”](https://www.etoday.co.kr/news/view/2648134) — 🇰🇷 한국 · 이투데이 · 11/14 07:28
 - [블록체인 개발 및 충전, 마이크로그리드 레이아웃 | 핫 하이라이트 | 사업정보](https://money.udn.com/money/story/5635/9880824?from=edn_subcatelist_cate) — 🇹🇼 대만 · 經濟日報 · 11/16 11:04
-- [LS일렉트릭, 美 AI 데이터센터 전력장비 1300억원 수주 - 36Kr](https://www.36kr.com/newsflashes/4071729157641095) — 🇨🇳 중국 · www.36kr.com · 11/16 10:53 🆕
+- [LS일렉트릭, 美 AI 데이터센터 전력장비 1300억원 수주 - 36Kr](https://www.36kr.com/newsflashes/4071729157641095) — 🇨🇳 중국 · www.36kr.com · 11/16 10:53
 - [LS일렉트릭, 미국서 AI 데이터센터 전력시스템 9383만달러 수주](https://en.yna.co.kr/view/AEN20261116002700320) — 🇺🇸 미국 · Yonhap News Agency · 11/16 09:50
 - [LS일렉트릭, 美 빅테크에 AI 전력설비 공급…1300억 추가 수주 - 머니투데이](https://www.mt.co.kr/industry/2026/11/16/2026111609124644288) — 🇰🇷 한국 · 머니투데이 · 11/16 09:38
 - [중국과 티베트가 내려다보이는 곳 | 나그취(Nagqu)의 고지대 3개 현에서 태양광발전소 가동, 전력 불안정에 작별 인사](https://news.tvb.com/tc/1206208-%E4%BF%AF%E7%9E%B0%E7%A5%9E%E5%B7%9E%E8%A5%BF%E8%97%8F%E9%82%A3%E6%9B%B2%E9%AB%98%E6%B5%B7%E6%8B%94%E4%B8%89%E7%B8%A3%E5%85%89%E4%BC%8F%E6%8A%95%E9%81%8B%E5%91%8A%E5%88%A5%E9%9B%BB%E5%8A%9B%E4%B8%8D%E7%A9%A9) — 🇭🇰 홍콩 · TVB · 11/16 09:00
@@ -344,4 +344,3 @@
 - [로봇 교통경찰, AI 항저우 경찰이 즉시 영어를 바꿔 행인의 의심 해결에 도움 - Cross-Strait](https://www.ctee.com.tw/news/20261113701019-430801) — 🇹🇼 대만 · 工商時報 · 11/13 13:00
 - [ASUS, 최초의 휴머노이드 로봇 Gallop 발표](https://www.cnbc.com/video/2026/11/13/asus-announces-first-humanoid-robot-gallop.html) — 🇺🇸 미국 · CNBC · 11/13 12:33
 - [유비테크, 메타엑스와 협력해 2028년 로봇 칩 대량 생산](https://www.21jingji.com/article/20261113/herald/52fdd685f52c0ae8b6e9eb9b149a1425.html) — 🇨🇳 중국 · 21财经 · 11/13 12:23
-- [로봇부품 구매액은 전년 대비 300% 가까이 증가했고, 장중 로봇ETF 보시(158037) 추적지수도 1% 이상 상승했다.](https://m.jiemian.com/article/15329587.html) — 🇨🇳 중국 · Jiemian.com · 11/13 11:54
