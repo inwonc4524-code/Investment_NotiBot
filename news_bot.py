@@ -1556,7 +1556,8 @@ GLOBAL_BREAKING_WORDS = {
     "world": ["global markets", "European stocks", "ECB", "oil prices", "China economy"],
 }
 # 언론사가 제목에 직접 속보라고 단 경우 (나라별 표기)
-GLOBAL_BREAKING_MARK = re.compile(r"\[속보\]|【速報】|速報|快訊|快讯|突發|突发|即時|\bbreaking\b|\bjust in\b", re.I)
+# (월차·결산·실적 '속보'는 회사 공시 이름이라 뺌: 예) ランドネット 月次実績速報)
+GLOBAL_BREAKING_MARK = re.compile(r"\[속보\]|【速報】|(?<!月次)(?<!決算)(?<!実績)(?<!業績)速報|快訊|快讯|突發|突发|即時|\bbreaking\b|\bjust in\b", re.I)
 
 
 def _topic_url(region):
