@@ -9,8 +9,8 @@ random.seed(1)
 print("===== 1. 통계 표본")
 TH = {t["name"]: t for t in ns.STAT_THEMES}
 RG = {r["key"]: r for r in nb.REGIONS}
-cells = [("AI","kr"),("AI","jp"),("금융","us"),("금융","tw"),("인터넷·플랫폼","us"),("자동차","cn"),
-         ("우주항공","us"),("건설·부동산","kr"),("바이오·제약","kr"),("가상자산","world"),("원전","us"),("전력기기","us")]
+cells = [("전력기기","us"),("전력기기","world"),("AI","kr"),("반도체","us"),("조선","kr"),("방산","us"),
+         ("수소","jp"),("게임","us"),("엔터","kr"),("화장품","cn"),("2차전지","tw"),("로봇","hk")]
 for th, rk in cells:
     t, r = TH[th], RG[rk]
     items, sat = ns.fetch_theme(r, t[r["words"]], "6h")
@@ -34,7 +34,7 @@ print("===== 2. GDELT 대조")
 h = json.load(open("history.json"))
 since = date.fromisoformat(h["since"])
 words = dict(nh.THEMES); codes = dict(nh.REGIONS)
-for th, rk, y, m in [("바이오·제약","hk",2021,6), ("신재생에너지","us",2024,8), ("금융","us",2026,7)]:
+for th, rk, y, m in [("반도체","kr",2023,3), ("가상자산","cn",2022,11), ("방산","jp",2025,9)]:
     a = date(y, m, 1); b = (date(y + (m == 12), m % 12 + 1, 1) - timedelta(days=1))
     c = nh.fetch(words[th], codes[rk], a, b)
     arr = h["s"][th][rk]
