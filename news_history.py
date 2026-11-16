@@ -91,6 +91,7 @@ def fetch(words, code, start, end):
     q = "(" + " OR ".join(words) + ")" + f" sourcecountry:{code}"
     params = {"query": q, "mode": "timelinevolraw", "format": "json",
               "startdatetime": start.strftime("%Y%m%d000000"), "enddatetime": end.strftime("%Y%m%d235959")}
+    last = None
     for attempt in range(5):
         wait = GAP - (time.time() - _last[0])
         if wait > 0:
@@ -107,10 +108,13 @@ def fetch(words, code, start, end):
             if r.status_code == 200:                    # 검색어 문제 등 (예: 너무 짧은 단어)
                 print(f"    ! GDELT 응답 이상: {r.text[:150]}")
                 return None
+            last = r.status_code
             time.sleep(10 + attempt * 10)               # 429(너무 자주 물어봄) → 점점 길게 쉬고 다시
         except Exception as e:
+            last = str(e)[:80]
             print(f"    ! {e}")
             time.sleep(10)
+    print(f"    ! 5번 모두 실패 (마지막 응답: {last})")
     return None
 
 
