@@ -1,0 +1,57 @@
+name: 테마별 뉴스 통계
+
+# 3시간마다 테마 20개 × 8개국 뉴스 수를 모아 stats.json 에 쌓음 (같은 기사는 한 번만 셈)
+# 한국 07시 이후 첫 수집 때 '어제 통계'를 휴대폰으로 알림
+on:
+  schedule:
+    # 시간은 UTC 기준 (한국시간 = UTC + 9시간) → 한국 01·04·07·10·13·16·19·22시 무렵
+    - cron: "25 1-23/3 * * *"
+  workflow_dispatch:           # 직접 실행 버튼
+  push:                        # 통계 설정을 고치면 바로 한 번 실행
+    branches: [main]
+    paths:
+      - "news_stats.py"
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -q requests pillow fonttools
+
+      - name: 테마별 뉴스 수 모으기
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python news_stats.py
+
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add stats.json
+          if ! git diff --cached --quiet; then
+            git commit -q -m "통계 기록"
+            for t in 1 2 3 4 5; do
+              git pull -q --rebase origin main && git push -q && echo "저장 완료" && exit 0
+              git rebase --abort 2>/dev/null || true
+              echo "저장 재시도 $t/5"; sleep $((t * 5))
+            done
+            exit 1
+          fi

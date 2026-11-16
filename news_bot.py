@@ -810,7 +810,7 @@ def is_relevant(theme, title):
         t = t.replace(ff.lower(), " ")
     for w in _rel_terms(theme):
         if re.fullmatch(r"[a-z0-9&.\- ]+", w):     # 영어·숫자: 단어 단위 (예: "dow" ≠ "down")
-            if re.search(r"(?<![a-z0-9])" + re.escape(w) + r"(?![a-z0-9])", t):
+            if re.search(r"(?<![a-z0-9])" + re.escape(w) + r"(?![a-z])", t):   # 뒤에 숫자는 허용 (HBM4, SMR2)
                 return True
         elif w in t:
             return True
