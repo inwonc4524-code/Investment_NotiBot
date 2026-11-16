@@ -864,6 +864,30 @@
 "run": "breaking",
 "added": 1794871003,
 "pv": "b052c435"
+},
+{
+"key": "美股輝達財報前夕ai股陷低迷道瓊大瀉739點台積電adr暴跌63",
+"keys": [
+"美股輝達財報前夕ai股陷低迷道瓊大瀉739點台積電adr暴跌63",
+"美股收盤輝達財報倒數主要指數盡墨台積電adr重挫634",
+"美股盤後輝達財報前ai股掀賣壓道瓊瀉近740點費半台積adr重挫超5"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "美股｜輝達財報前夕 AI股陷低迷 道瓊大瀉739點 台積電ADR暴跌6.3％",
+"show": "미국 주식｜엔비디아 실적발표 전날 AI주가 하락세에 빠졌고, 다우존스가 739포인트 급락했으며, TSMC의 ADR이 6.3% 급락했다.",
+"source": "工商時報",
+"src_url": "https://www.ctee.com.tw",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44X2NGRXRFYjlTbWVmSHZOdjJlbVhxUXZZWHNuVEhuVWZORWJuN1phZ013WlEwSEgwdDV3NVphMFNsRDVzR3EwTENFdTNxVE8zQ0dUalNRWHgtenctN1lV?oc=5",
+"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44X2NGRXRFYjlTbWVmSHZOdjJlbVhxUXZZWHNuVEhuVWZORWJuN1phZ013WlEwSEgwdDV3NVphMFNsRDVzR3EwTENFdTNxVE8zQ0dUalNRWHgtenctN1lV?oc=5",
+"pub": 1794869640.0,
+"time": "11/17 07:54",
+"run": "breaking",
+"added": 1794871724,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -1089,6 +1113,9 @@
 "美증시ai빅테크7개종목일제히하락엔비디아41급락에나스닥25": 1794870258.8774362,
 "오늘의증시엔비디아4대급락에美ai주와르르코스피하락출발전망": 1794869538.939472,
 "젠슨황파장지속뉴욕증시일제히하락엔비디아41sk하이닉스adr73투자360": 1794870258.8774357,
-"justinkevinwarshdefiestrumpaftermidtermswarnsstockmarketcrashjoblossfullspeech": 1794871007.2161286
+"justinkevinwarshdefiestrumpaftermidtermswarnsstockmarketcrashjoblossfullspeech": 1794871720.7542617,
+"美股輝達財報前夕ai股陷低迷道瓊大瀉739點台積電adr暴跌63": 1794871724.0874653,
+"美股收盤輝達財報倒數主要指數盡墨台積電adr重挫634": 1794871724.0874662,
+"美股盤後輝達財報前ai股掀賣壓道瓊瀉近740點費半台積adr重挫超5": 1794871724.0874667
 }
 }
