@@ -1,6 +1,6 @@
 # 📰 투자 테마 뉴스
 
-업데이트 11/16 11:13 · 최근 3일
+업데이트 11/16 11:14 · 최근 3일
 
 
 ## 🚨 미국 속보
@@ -41,7 +41,6 @@
 - 🔥4 [이번 주 미국 증시의 초점: 엔비디아 결과, 앤트로픽 상장](https://news.rthk.hk/rthk/ch/component/k2/1877915-20261116.htm) — 🇭🇰 홍콩 · RTHK News · 11/16 07:19
 - 🔥4 [(뉴욕증시-주간전망) 엔비디아 실적에 앤트로픽 상장…'AI 빅위크' |](https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4444787) — 🇰🇷 한국 · 연합인포맥스 · 11/15 07:06
 - 🔥4 [AI가 금융시스템의 가장 큰 위협이 된다! 최근 연준 조사에서 응답자의 87%는 주식시장 조정이나 사이버 공격보다 위험이 훨씬 높다고 경고했습니다.](https://news.cnyes.com/news/id/6662370) — 🇹🇼 대만 · 鉅亨網 · 11/14 12:10
-- 🔥4 [미국 주식 개장: 3대 주요 지수가 종합적으로 상승세를 보였고, 메모리 칩 부문은 하락했습니다.](https://www.21jingji.com/article/20261113/herald/4f1e7e363b838b5e11f02a3f370a25c5.html) — 🇨🇳 중국 · 21财经 · 11/14 00:07
 - 🔥3 [K뷰티 ETF, 뉴욕증시에 떴다](https://stock.mk.co.kr/news/view/1199134) — 🇰🇷 한국 · 매일경제 마켓 · 11/15 17:24
 - 🔥2 [미국 기술주의 큰 하락으로 대만 주식은 초반 거래에서 500포인트 이상 하락했습니다. 외환시장에서 외국자본에 대한 송금 압력이 완화되었습니다.](https://money.udn.com/money/story/5607/9880985?from=udnamp-referralnews_ch1001artbottom) — 🇹🇼 대만 · 經濟日報 · 11/16 10:45
 - 🔥2 [엔비디아 실적, 인류 최초 공모(IPO) 테스트 기술 상승세 전에 아시아 주가 하락](https://www.channelnewsasia.com/business/asian-shares-fall-nvidia-earnings-anthropic-ipo-test-tech-rally-6553841) — 🇸🇬 싱가포르 · CNA · 11/16 10:35
@@ -52,6 +51,7 @@
 - 🔥2 [이번 주 미국 증시에서는 엔비디아의 실적 보고서 외에 또 어떤 변수를 관찰할 수 있을까?](https://money.udn.com/money/story/6710/9880104) — 🇹🇼 대만 · 經濟日報 · 11/15 17:46
 - 🔥2 [젠슨 황이 사임한 후 엔비디아 주식을 구매해야 합니까? 월스트리트는 투자자들에게 답변을 제공합니다](https://ec.ltn.com.tw/article/breakingnews/5641488) — 🇹🇼 대만 · 自由財經 · 11/15 15:52
 - 🔥2 [거의 120억 달러에 달하는 엔비디아 칩 거래가 노출되었습니다! 월스트리트저널은 중국이 말레이시아의 컴퓨팅 파워 네트워크를 이용하고 있다고 폭로했다.](https://ec.ltn.com.tw/article/breakingnews/5641312) — 🇹🇼 대만 · 自由財經 · 11/15 13:13
+- [연준의 금리 인상 속도가 바뀌었나요? 보스턴 연준 총재 "내년 금리 예상보다 높아질 수도"](https://m.cnyes.com/news/id/6662743) — 🇹🇼 대만 · 鉅亨網 · 11/16 11:10 🆕
 - [젠슨 황이 제단에서 떨어졌습니다! 인류의 기업공개(IPO)가 7배 가까이 초과 청약됐고, 월스트리트는 AI 골드러시의 새로운 주인공에 베팅](https://stock.ltn.com.tw/article/hytyrxrs8jjy) — 🇹🇼 대만 · 自由時報 · 11/16 10:52
 - [모건스탠리는 2027년 S&P500 지수 목표를 8,700포인트로 높이고 독일과 영국 채권에 대해 낙관적이다.](https://www.21jingji.com/article/20261116/herald/dbc10d0ccf84109520190063df45283e.html) — 🇨🇳 중국 · 21财经 · 11/16 10:25
 - [엔비디아, 해외 시장 뷰 & 미국 주식 픽업 ​​(11월 16일)](https://www.nikkei.com/prime/veritas/article/DGXZQOKC1615K0W6A111C2000000) — 🇯🇵 일본 · 日本経済新聞 · 11/16 10:17
@@ -133,7 +133,7 @@
 - 🔥2 [엘리 릴리(일라이릴리): 종양학 분야의 혁신적 약물 3개에 대한 새로운 적응증이 국가 의료보험 카탈로그에 포함되었습니다.](https://www.jiemian.com/article/15333120.html) — 🇨🇳 중국 · Jiemian.com · 11/14 12:56
 - 🔥2 [하오딩 신약, 노바티스 승인 및 계약금 9억 8천만 지급](https://udn.com/news/story/7241/9877816) — 🇹🇼 대만 · UDN · 11/14 03:09
 - [특이한 주식丨강팡바이오로직스가 20% 넘게 투자했는데, 미국과 제휴한 항암제가 FDA 승인을 받지 못했다.](https://m.hkej.com/landing/mobarticle2/id/4565963/%E7%95%B0%E5%8B%95%E8%82%A1%E4%B8%A8%E5%BA%B7%E6%96%B9%E7%94%9F%E7%89%A9%E6%8F%92%E9%80%BE%E5%85%A9%E6%88%90%20%E8%88%87%E7%BE%8E%E5%90%88%E4%BD%9C%E5%A4%A5%E4%BC%B4%E6%8A%97%E7%99%8C%E8%97%A5%E6%9C%AA%E7%8D%B2FDA%E6%89%B9%E5%87%86) — 🇭🇰 홍콩 · 信報網站 · 11/16 10:52
-- [혁신의약품에 대한 지불 병목 현상이 완화되었습니다. Southern Fund의 자회사인 Southbound Innovative Drug ETF Southern(159297)은 하루 거래액이 약 1억 2400만 위안에 달하는 활발히 거래되고 있습니다.](https://www.jiemian.com/article/15335093.html) — 🇨🇳 중국 · Jiemian.com · 11/16 10:50 🆕
+- [혁신의약품에 대한 지불 병목 현상이 완화되었습니다. Southern Fund의 자회사인 Southbound Innovative Drug ETF Southern(159297)은 하루 거래액이 약 1억 2400만 위안에 달하는 활발히 거래되고 있습니다.](https://www.jiemian.com/article/15335093.html) — 🇨🇳 중국 · Jiemian.com · 11/16 10:50
 - [미 FDA, 중국산 유망 폐암 치료제 '이보네시맙' 승인 거부](https://stock.mk.co.kr/news/view/1199355) — 🇰🇷 한국 · 매일경제 마켓 · 11/16 10:28
 - [한 가지 평가: 의료 보험 카탈로그는 2026년에 조정 및 출시되어 혁신적인 약물 쪽으로 더욱 기울어질 것입니다.](https://www.yicai.com/news/103441253.html) — 🇨🇳 중국 · 第一财经 · 11/16 10:28
 - [9년 동안 14개의 카테고리 1 혁신 약물이 등장했습니다. 광둥성 이 지역은 무엇을 제대로 했나요? | 광둥성의 경제 생태를 해독하다](https://www.21jingji.com/article/20261116/herald/13d02f47a0f5495600207da8c686e65e.html) — 🇨🇳 중국 · 21财经 · 11/16 08:43
@@ -255,10 +255,10 @@
 
 보유: ACE 코리아AI전력TOP10
 
-- 🔥16 [효성중공업, SK텔레콤과 AI 데이터센터 전력 인프라 구축 맞손](https://www.asiae.co.kr/article/2026111611072002951) — 🇰🇷 한국 · 아시아경제 · 11/16 11:07 🆕
+- 🔥17 [효성중공업, SK텔레콤과 AI 데이터센터 전력 인프라 구축 맞손](https://www.asiae.co.kr/article/2026111611072002951) — 🇰🇷 한국 · 아시아경제 · 11/16 11:07
 - 🔥2 [미국 양당이 도입한 강세 법안에 편승해 전력 및 에너지 ETF는 자금 전망을 갖고 있습니다.](https://udn.com/news/amp/story/123006/9880423) — 🇹🇼 대만 · UDN · 11/16 04:51
 - 🔥2 [김정관 산업장관, 체코 원전사업 정상 추진 약속“결과로 책임질 것”](https://www.etoday.co.kr/news/view/2648134) — 🇰🇷 한국 · 이투데이 · 11/14 07:28
-- [블록체인 개발 및 충전, 마이크로그리드 레이아웃 | 핫 하이라이트 | 사업정보](https://money.udn.com/money/story/5635/9880824?from=edn_subcatelist_cate) — 🇹🇼 대만 · 經濟日報 · 11/16 11:04 🆕
+- [블록체인 개발 및 충전, 마이크로그리드 레이아웃 | 핫 하이라이트 | 사업정보](https://money.udn.com/money/story/5635/9880824?from=edn_subcatelist_cate) — 🇹🇼 대만 · 經濟日報 · 11/16 11:04
 - [LS일렉트릭, 미국서 AI 데이터센터 전력시스템 9383만달러 수주](https://en.yna.co.kr/view/AEN20261116002700320) — 🇺🇸 미국 · Yonhap News Agency · 11/16 09:50
 - [LS일렉트릭, 美 빅테크에 AI 전력설비 공급…1300억 추가 수주 - 머니투데이](https://www.mt.co.kr/industry/2026/11/16/2026111609124644288) — 🇰🇷 한국 · 머니투데이 · 11/16 09:38
 - [중국과 티베트가 내려다보이는 곳 | 나그취(Nagqu)의 고지대 3개 현에서 태양광발전소 가동, 전력 불안정에 작별 인사](https://news.tvb.com/tc/1206208-%E4%BF%AF%E7%9E%B0%E7%A5%9E%E5%B7%9E%E8%A5%BF%E8%97%8F%E9%82%A3%E6%9B%B2%E9%AB%98%E6%B5%B7%E6%8B%94%E4%B8%89%E7%B8%A3%E5%85%89%E4%BC%8F%E6%8A%95%E9%81%8B%E5%91%8A%E5%88%A5%E9%9B%BB%E5%8A%9B%E4%B8%8D%E7%A9%A9) — 🇭🇰 홍콩 · TVB · 11/16 09:00
@@ -286,7 +286,7 @@
 
 ## 🤖 로봇
 
-- 🔥15 [LG전자, 한국로봇산업진흥원과 휴머노이드 안전·품질 경쟁력 강화 나서](https://www.businesspost.co.kr/BP?command=article_view&num=452036) — 🇰🇷 한국 · 비즈니스포스트 · 11/16 10:13
+- 🔥17 [LG전자, 한국로봇산업진흥원과 휴머노이드 안전·품질 경쟁력 강화 나서](https://www.businesspost.co.kr/BP?command=article_view&num=452036) — 🇰🇷 한국 · 비즈니스포스트 · 11/16 10:13
 - 🔥4 [울산 남구, 中상하이 '휴머노이드 로봇 실증기지' 찾았다](https://mobile.newsis.com/view_amp.html?ar_id=NISX20261113_0003867719) — 🇰🇷 한국 · 뉴시스 · 11/13 17:33
 - 🔥3 [보도자료 : XNOVA, 「NexTech Week 2026(가을) 제1회 휴머노이드 로봇 EXPO」에 출전 3일간에 1,500명 이상이 참석해, 부스는 대성황에(PR TIMES)](https://mainichi.jp/articles/20261114/pr2/00m/020/025000c) — 🇯🇵 일본 · 毎日新聞 · 11/14 11:52
 - 🔥2 [중롄중커, bauma CHINA 2026에서 AI 기반 장비 및 로봇 공학 선보일 예정](https://www.straitstimes.com/paid-press-releases/zoomlion-to-showcase-ai-powered-equipment-and-robotics-at-bauma-china-2026-20261113) — 🇸🇬 싱가포르 · The Straits Times · 11/13 20:56
