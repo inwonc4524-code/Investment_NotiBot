@@ -226,6 +226,7 @@ def collect():
                 continue
             slot = f'{theme["name"]}|{region["key"]}'
             added = 0
+            hit_days = set()                   # 검색 결과에 나온 날짜 (상한에 걸렸을 때 그 날짜에 + 표시)
             for it in items:
                 pub = it.get("published")
                 if not pub:
@@ -233,6 +234,7 @@ def collect():
                 d = pub.astimezone(nb.KST).strftime("%Y-%m-%d")
                 if d not in live:
                     continue
+                hit_days.add(d)
                 title = it["title"]
                 if nb.EXCLUDE.search(title) or SPAM.search(title) or nb.is_blocked(it["source"], it.get("src_url", "")) \
                         or not relevant(theme, title):
@@ -250,10 +252,11 @@ def collect():
                 n = len(keys.get(d, {}).get(slot, []))
                 if n:
                     days.setdefault(d, {}).setdefault(theme["name"], {})[region["key"]] = n
-            if saturated:
-                lst = capped.setdefault(today, [])
-                if slot not in lst:
-                    lst.append(slot)
+            if saturated:                      # 자정 직후엔 검색 창이 거의 어제라서, 오늘이 아니라 기사가 나온 날짜에 표시
+                for d in (hit_days or {today}):
+                    lst = capped.setdefault(d, [])
+                    if slot not in lst:
+                        lst.append(slot)
             line.append(f'{region["key"]}+{added}')
         print(f'■ {theme["name"]}: ' + " ".join(line))
 
