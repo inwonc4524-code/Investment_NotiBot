@@ -814,6 +814,30 @@
 "run": "breaking",
 "added": 1794847738,
 "pv": "b052c435"
+},
+{
+"key": "fedwarnsofgrowingfinancialrisksfromaiboom",
+"keys": [
+"fedwarnsofgrowingfinancialrisksfromaiboom",
+"fedsbarrwarnsonairiskstofinancialsystem",
+"fedweighsaispromiseandrisk"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Fed warns of growing financial risks from AI boom",
+"show": "연준, AI 붐으로 인한 금융 위험 증가 경고",
+"source": "Axios",
+"src_url": "https://www.axios.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qSlctTWtmQ2hMM1dOZTJHRE8yOUQySGtxTnc0X202UVFHYlEtUVE2LXBDMWJmd19JTmpmaHZQNUZIMUFXWEZGOURxVG44TDBLQlFVMWhiTVJNY284Y3dVcVNHbFdaX1g1OWk1SA?oc=5",
+"url": "https://www.axios.com/2026/11/16/fed-ai-boom-financial-risks",
+"pub": 1794849498.0,
+"time": "11/17 02:18",
+"run": "breaking",
+"added": 1794850647,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -970,16 +994,19 @@
 "뉴욕증시기술주약세에하락출발": 1794843370.8071744,
 "aimy뉴스뉴욕반도체주프리뷰엔비디아실적앞두고반도체주급락": 1794842651.391603,
 "속보뉴욕증시엔비디아發기술주약세에하락출발나스닥113": 1794842651.3916028,
-"trumpbackspotentialreturnofjensenhuangasnvidiaceo": 1794849897.6909773,
-"trumponhuangspotentialreturnasnvidiaceoiwouldnotmindthat": 1794849897.6909654,
+"trumpbackspotentialreturnofjensenhuangasnvidiaceo": 1794849923.1445262,
+"trumponhuangspotentialreturnasnvidiaceoiwouldnotmindthat": 1794849923.1445127,
 "campaigntobringbackjensenhuangasnvidiaceogainssteamwithtrumpsupport": 1794848457.7447808,
-"trumpbackscallsforreinstatementofjensenhuangasnvidiaceo": 1794849897.690977,
+"trumpbackscallsforreinstatementofjensenhuangasnvidiaceo": 1794849923.1445255,
 "trumpsayshesopentoreinstatementofjensenhuangasnvidiachief": 1794848457.7447803,
-"siliconvalleyleadersbackcallforjensenhuangsreturntonvidia": 1794849897.6909773,
-"trumpbacksjensenhuangsnvidiareturnover180000signpetition": 1794849897.6909783,
+"siliconvalleyleadersbackcallforjensenhuangsreturntonvidia": 1794849923.1445258,
+"trumpbacksjensenhuangsnvidiareturnover180000signpetition": 1794849923.1445265,
 "elonmuskandtechexecutivessignpetitiondemandingnvidiabringbackjensenhuang": 1794849178.165965,
 "trumpsayshewouldnotmindjensenhuangsreturntonvidia": 1794848457.7447925,
-"trumpsayshewouldnotmindhuangbeingreinstatedasnvidiaceo": 1794849897.6909647,
-"trumpsayswouldnotmindhuangbeingreinstatedatnvidia": 1794849897.690964
+"trumpsayshewouldnotmindhuangbeingreinstatedasnvidiaceo": 1794849923.144512,
+"trumpsayswouldnotmindhuangbeingreinstatedatnvidia": 1794849923.1445115,
+"fedwarnsofgrowingfinancialrisksfromaiboom": 1794850651.3364904,
+"fedsbarrwarnsonairiskstofinancialsystem": 1794850651.3364952,
+"fedweighsaispromiseandrisk": 1794850651.336496
 }
 }
