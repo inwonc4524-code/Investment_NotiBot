@@ -838,6 +838,29 @@
 "run": "breaking",
 "added": 1794850647,
 "pv": "b052c435"
+},
+{
+"key": "속보美中ai반도체원격접속차단",
+"keys": [
+"속보美中ai반도체원격접속차단",
+"속보미상무부ai반도체중국원격접속차단조치",
+"속보美ai반도체에대한中원격접속차단조치"
+],
+"count": 4,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보]美, 中 AI 반도체 원격접속 차단",
+"show": "[속보]美, 中 AI 반도체 원격접속 차단",
+"source": "파이낸셜뉴스",
+"src_url": "https://www.fnnews.com",
+"sum": "국제 국제경제 [속보]美, 中 AI 반도체 원격접속 차단 송경재 기자 파이낸셜뉴스 입력 2026.11.17 02:44 수정 2026.11.17 02:44 기사 듣기 구글 검색 선호 매체 추가 [파이낸셜뉴스] [email protected] 송경재 기자 ※ 저작권자 © 파이낸셜뉴스, 무단전재-재배포 금지 송경재 국제부 [email protected] [속보]엔비디아 \"젠슨 황 CEO 복귀 검토 안 해\" 2026-11-17 02:41 워시 美 연준 의장 \"AI, 경제에 중요하지만 실망스러울 수도\" 2026-11-17 02:43",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hbzNVWUVOLUVFc29FWVcyOTVobkYzR1RZd1JlUWdmR25rd3RyYUdzUkFGWHo0Y09sR2xDNVZpUkF4LU0zb3BLYk9aNjF5U013YUZOcGlFRXBBdw?oc=5",
+"url": "https://www.fnnews.com/news/202611170245149306",
+"pub": 1794851088.0,
+"time": "11/17 02:44",
+"run": "breaking",
+"added": 1794851366
 }
 ],
 "seen": {
@@ -1005,8 +1028,11 @@
 "trumpsayshewouldnotmindjensenhuangsreturntonvidia": 1794848457.7447925,
 "trumpsayshewouldnotmindhuangbeingreinstatedasnvidiaceo": 1794849923.144512,
 "trumpsayswouldnotmindhuangbeingreinstatedatnvidia": 1794849923.1445115,
-"fedwarnsofgrowingfinancialrisksfromaiboom": 1794850651.3364904,
-"fedsbarrwarnsonairiskstofinancialsystem": 1794850651.3364952,
-"fedweighsaispromiseandrisk": 1794850651.336496
+"fedwarnsofgrowingfinancialrisksfromaiboom": 1794851363.502976,
+"fedsbarrwarnsonairiskstofinancialsystem": 1794851363.5029755,
+"fedweighsaispromiseandrisk": 1794851363.5029764,
+"속보美中ai반도체원격접속차단": 1794851366.2116694,
+"속보미상무부ai반도체중국원격접속차단조치": 1794851366.2116709,
+"속보美ai반도체에대한中원격접속차단조치": 1794851366.211671
 }
 }
