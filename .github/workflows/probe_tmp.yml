@@ -1,0 +1,8 @@
+name: probe (임시 점검)
+on: workflow_dispatch
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests && python probe_tmp.py
