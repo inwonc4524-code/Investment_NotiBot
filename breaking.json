@@ -811,6 +811,30 @@
 "run": "breaking",
 "added": 1794833933,
 "pv": "8bab9ca2"
+},
+{
+"key": "nvidiastockdoesntneedajensenhuangcomebacktothrive",
+"keys": [
+"nvidiastockdoesntneedajensenhuangcomebacktothrive",
+"isjensenhuangplottingacomeback",
+"nvidiastockfallsasjensenhuangreportedlyweighsceocomebackmuskbacksreturn"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Nvidia Stock Doesn’t Need a Jensen Huang Comeback to Thrive",
+"show": "엔비디아 주식은 번성하기 위해 젠슨 황의 복귀가 필요하지 않습니다",
+"source": "Barron's",
+"src_url": "https://www.barrons.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcVZqLW05Y1FaS0xnVEM2T3EwUGlwZ21LSHJUQVdYWnMwcVczbDFYWE91MlQtcHNhdWhlbVdVUnE5a1JqeUE4aEpOSUtlTEdBMnJnMFl0UVdXOUNodGJCNDRSbzlLbXpZVXljR3QwVGdYWTVDNldJRHRPUXRqZFV6RWxHZlV2RWFsZGc?oc=5",
+"url": "https://www.barrons.com/articles/nvidia-stock-price-jensen-huang-comeback-9b6e1ebd",
+"pub": 1794834180.0,
+"time": "11/16 22:03",
+"run": "breaking",
+"added": 1794835372,
+"pv": "8bab9ca2"
 }
 ],
 "seen": {
@@ -955,8 +979,12 @@
 "快訊台股暴跌跌幅亞股最慘金管會證交所都發聲": 1794828840.5544174,
 "trumpsnvidiastakegrewtoasmuchas62millionwashingtonpostreports": 1794833931.6556485,
 "trumpsstakeinnvidiagrewtoasmuchas62millionbeforescandalbrokeout": 1794833931.655649,
-"stocksdipaheadofnvidiaearningsanthropicipo": 1794833936.1567733,
-"nvidiaearningsanthropicipoaheadinnewtestforaieconomy": 1794833936.1567774,
-"nvidiaearningsfedminutesanthropicsipoputairallytothetest3chartstowatchthisweek": 1794833936.156779
+"stocksdipaheadofnvidiaearningsanthropicipo": 1794835371.97255,
+"nvidiaearningsanthropicipoaheadinnewtestforaieconomy": 1794835371.9725504,
+"nvidiaearningsfedminutesanthropicsipoputairallytothetest3chartstowatchthisweek": 1794833936.156779,
+"techstocksdragusfuturesloweraheadofnvidiaearningsandpotentialmarketdebutfromanth": 1794835371.9725497,
+"nvidiastockdoesntneedajensenhuangcomebacktothrive": 1794835376.0019407,
+"isjensenhuangplottingacomeback": 1794835376.0019448,
+"nvidiastockfallsasjensenhuangreportedlyweighsceocomebackmuskbacksreturn": 1794835376.0019462
 }
 }
