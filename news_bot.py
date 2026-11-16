@@ -989,11 +989,12 @@ function ranks(rows, ok){                  // 이전 기간 순위 (r.pr) — �
   rows.slice().sort(function(a,b){ return b.p - a.p || (a.th < b.th ? -1 : 1); }).forEach(function(r, i){ r.pr = i; });
 }
 function mv(r, i){                         // 순위 변동: 🔺 빨강 몇 계단 오름 · 🔻 파랑 몇 계단 내림
-  if(r.pr === null || (!r.n && !r.p)) return '<span class="mv"></span>';
+  if(r.pr === null) return '<span class="mv"></span>';                       // 비교할 이전 기간 자료 없음
+  if(!r.n && !r.p) return '<span class="mv same" title="두 기간 모두 0건">-</span>';
   var d = r.pr - i;
   if(d > 0) return '<span class="mv up" title="이전 기간 '+(r.pr+1)+'위 → '+d+'계단 상승">▲<i class="gap"></i>'+d+'</span>';
   if(d < 0) return '<span class="mv dn" title="이전 기간 '+(r.pr+1)+'위 → '+(-d)+'계단 하락">▼<i class="gap"></i>'+(-d)+'</span>';
-  return '<span class="mv same" title="순위 그대로">–</span>';
+  return '<span class="mv same" title="순위 그대로 ('+(i+1)+'위)">-</span>';   // 변동 없음
 }
 function chg(n, p, hc, hp){
   if(hp === 0) return '<span class="chg">·</span>';          // 비교할 이전 기간 자료가 아직 없음
@@ -1196,7 +1197,7 @@ STATS_CSS = r""".seg{display:flex;gap:4px;margin:6px 4px 10px}.seg button{flex:1
 .srow{background:var(--card);border-radius:12px;margin:6px 0;padding:10px 12px;cursor:pointer}.srow.open{background:var(--card2)}
 .sline{display:flex;align-items:center;gap:8px}
 .rk{width:18px;color:var(--sub);font-size:12px;text-align:right;flex:none}
-.mv .gap{display:inline-block;width:3px}.mv{width:30px;flex:none;font-size:11px;font-weight:600;text-align:left;font-variant-numeric:tabular-nums;margin-right:-4px}.mv.up{color:#f87171}.mv.dn{color:#60a5fa}.mv.same{color:var(--sub);font-weight:400}
+.mv .gap{display:inline-block;width:3px}.mv{width:30px;flex:none;font-size:11px;font-weight:600;text-align:left;font-variant-numeric:tabular-nums;margin-right:-4px}.mv.up{color:#f87171}.mv.dn{color:#60a5fa}.mv.same{color:#a8a29e;font-size:15px;font-weight:700;line-height:1;padding-left:3px}
 .sn{width:86px;flex:none;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sb{flex:1;height:10px;background:rgba(255,255,255,.05);border-radius:5px;overflow:hidden;min-width:30px}.sb i{display:block;height:100%;background:var(--acc);border-radius:0 4px 4px 0}
 .sc{width:54px;flex:none;text-align:right;font-size:14px;font-variant-numeric:tabular-nums}
