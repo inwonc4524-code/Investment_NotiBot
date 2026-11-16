@@ -491,12 +491,32 @@ def easy(text, max_n=2):
     if not text:
         return text
     done, used, notes = 0, set(), []
+    easy_words = list((GLOSSARY.get("easy") or {}).keys())
     for w, e in sorted((GLOSSARY.get("easy") or {}).items(), key=lambda x: -len(x[0])):
         if done >= max_n:
             break
         if e in used or re.search(r"\(" + re.escape(e) + r"\)", text):   # 같은 풀이는 한 번만
             continue
+        # 더 긴 풀이 낱말 안에 들어 있는 곳은 건너뛰고 다음에 나온 곳을 찾음
+        # (예: '약세장' 에 풀이를 붙였는데 그 안의 '약세' 에도 붙어 '약세(…)장(…)' 으로 두 번 쪼개지던 문제)
+        longer = [k for k in easy_words if len(k) > len(w) and w in k]
+
+        def inside(i):                         # i 자리의 w 를 품은 더 긴 풀이 낱말의 끝 위치 (없으면 -1)
+            for k in longer:
+                for o in range(len(k) - len(w) + 1):
+                    p = i - o
+                    if k[o:o + len(w)] == w and p >= 0 and text[p:p + len(k)] == k:
+                        return p + len(k)
+            return -1
         i = text.find(w)
+        while i >= 0:
+            end = inside(i)
+            if end < 0:
+                break
+            if text[end:end + 1] == "\x00":       # 더 긴 낱말에 이미 풀이를 붙였으면 이 낱말은 건너뜀 (예전과 같음)
+                i = -1
+                break
+            i = text.find(w, i + 1)
         if i < 0:
             continue
         j = i + len(w)
