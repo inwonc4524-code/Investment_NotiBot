@@ -1,6 +1,6 @@
 # 📰 투자 테마 뉴스
 
-업데이트 11/16 15:14 · 최근 3일
+업데이트 11/16 15:57 · 최근 3일
 
 
 ## 🚨 미국 속보
@@ -15,6 +15,7 @@
 
 ## 🌏 해외 속보
 
+- 🔥3 [원·달러 환율, 1.0원 내린 1335.7원 마감](https://www.newsis.com/view/NISX20261116_0003870079) — 🇰🇷 한국 · 뉴시스 · 11/16 15:46
 - 🔥3 [대만 증시는 2635.04포인트 하락했다](https://money.udn.com/money/story/5612/9881670?form=udn_ch2_common3_cate) — 🇹🇼 대만 · 經濟日報 · 11/16 15:00
 - 🔥3 ['엔비디아 리스크' 코스피 5100선 붕괴…외국인 1.4조 순매도(장중시황)](https://www.news1.kr/finance/general-stock/6355386) — 🇰🇷 한국 · 뉴스1 · 11/16 14:30
 - [(속보) 코스피, 3% 넘게 하락해 5000선으로…5거래일 만](https://m.sedaily.com/amparticle/20114877) — 🇰🇷 한국 · 서울경제 · 11/16 14:08
@@ -39,16 +40,14 @@
 - [★ 오늘의 【서프라이즈 결산】 속보 (11월 13일)](https://kabutan.jp/news/marketnews/?b=n202611131300) — 🇯🇵 일본 · 株探 · 11/13 16:38
 - 🔥3 [양승조 수자원공사 사장 취임…“반도체 용수 공급 최우선”](https://www.asiatoday.co.kr/kn/view.php?key=20261113010005280) — 🇰🇷 한국 · 아시아투데이 · 11/13 16:29
 - 🔥3 [피터앤파트너스, 코스닥 상장사 맞춤형 ‘IR 지원 사업’ 본격화](https://www.mk.co.kr/news/stock/12208088) — 🇰🇷 한국 · 매일경제 · 11/13 15:56
-- 🔥4 [(속보)원·달러 환율, 6.0원 오른 1336.7원 마감](https://nwww.newsis.com/view/NISX20261113_0003867424) — 🇰🇷 한국 · 뉴시스 · 11/13 15:33
-- 🔥3 [(속보)코스닥, 3.13포인트(0.45%) 오른 699.66 마감](https://www.newsis.com/view/NISX20261113_0003867421) — 🇰🇷 한국 · 뉴시스 · 11/13 15:33
 
 ## 🇺🇸 미국 S&P500
 
 보유: TIGER 미국S&P500
 
+- 🔥5 [KB국민은행, S&P500 연동 달러예금 출시](https://www.sentv.co.kr/article/view/sentv202611160119) — 🇰🇷 한국 · 서울경제TV · 11/16 14:09
 - 🔥5 [S&P500 선물, 엔비디아 실적·앤트로픽 IPO 주시하며 약보합…美 국채금리↑](https://news.einfomax.co.kr/news/articleView.html?idxno=4444951) — 🇰🇷 한국 · 연합인포맥스 · 11/16 12:32
 - 🔥4 [이번 주 미국 증시의 초점: 엔비디아 결과, 앤트로픽 상장](https://news.rthk.hk/rthk/ch/component/k2/1877915-20261116.htm) — 🇭🇰 홍콩 · RTHK News · 11/16 07:19
-- 🔥3 [KB국민은행, S&P500 연동 달러예금 출시](https://www.sentv.co.kr/article/view/sentv202611160119) — 🇰🇷 한국 · 서울경제TV · 11/16 14:09
 - 🔥3 [젠슨 황이 제단에서 떨어졌습니다! 인류의 기업공개(IPO)가 7배 가까이 초과 청약됐고, 월스트리트는 AI 골드러시의 새로운 주인공에 베팅](https://stock.ltn.com.tw/article/hytyrxrs8jjy) — 🇹🇼 대만 · 自由時報 · 11/16 10:52
 - 🔥3 [엔비디아 실적, 인류 최초 공모(IPO) 테스트 기술 상승세 전에 아시아 주가 하락](https://www.channelnewsasia.com/business/asian-shares-fall-nvidia-earnings-anthropic-ipo-test-tech-rally-6553841) — 🇸🇬 싱가포르 · CNA · 11/16 10:35
 - 🔥3 [(마켓무버)뉴욕증시 혼조 마감…엔비디아 리더십 공백에 기술주 약세](https://www.edaily.co.kr/News/Read?newsId=01341526645646376&mediaCodeNo=257) — 🇰🇷 한국 · 이데일리 · 11/16 08:12
@@ -144,6 +143,7 @@
 - 🔥4 [(시판 전 팁: 새로운 의료보험 카탈로그! 혁신신약 'C-포지션' 공개 새로운 에너지 저장 블록버스터 계획 발표; 광칩 리더, 대규모 주문 수주](https://www.yicai.com/vip/news/103441088.html) — 🇨🇳 중국 · 第一财经 · 11/16 08:16
 - 🔥4 [12가지 새로운 유형의 약물이 추가되어 2026년 상업 건강 보험 혁신 약물 카탈로그에 총 28가지 유형이 추가되었습니다.](https://www.jiemian.com/article/15333030.html) — 🇨🇳 중국 · Jiemian.com · 11/14 11:43
 - 🔥3 [상업보험 혁신의약품 카탈로그에 12개 신약 신규 추가, 가격협상 성공률 100%](http://www.eeo.com.cn/2026/1114/1092864.shtml) — 🇨🇳 중국 · 经济观察网 · 11/14 13:39
+- 🔥2 [보령·셀트리온제약, 年 처방액 517억 당뇨병 치료제 공동판매 - 머니투데이](https://www.mt.co.kr/thebio/2026/11/16/2026111615403821339) — 🇰🇷 한국 · 머니투데이 · 11/16 15:48 🆕
 - 🔥2 [특이한 주식丨강팡바이오로직스가 20% 넘게 투자했는데, 미국과 제휴한 항암제가 FDA 승인을 받지 못했다.](https://m.hkej.com/landing/mobarticle2/id/4565963/%E7%95%B0%E5%8B%95%E8%82%A1%E4%B8%A8%E5%BA%B7%E6%96%B9%E7%94%9F%E7%89%A9%E6%8F%92%E9%80%BE%E5%85%A9%E6%88%90%20%E8%88%87%E7%BE%8E%E5%90%88%E4%BD%9C%E5%A4%A5%E4%BC%B4%E6%8A%97%E7%99%8C%E8%97%A5%E6%9C%AA%E7%8D%B2FDA%E6%89%B9%E5%87%86) — 🇭🇰 홍콩 · 信報網站 · 11/16 10:52
 - 🔥2 [혁신의약품에 대한 지불 병목 현상이 완화되었습니다. Southern Fund의 자회사인 Southbound Innovative Drug ETF Southern(159297)은 하루 거래액이 약 1억 2400만 위안에 달하는 활발히 거래되고 있습니다.](https://www.jiemian.com/article/15335093.html) — 🇨🇳 중국 · Jiemian.com · 11/16 10:50
 - 🔥2 [CITIC 증권: 국가 의료 보험 협상은 계속해서 혁신적인 의약품을 지원하고 2027년 상업화 성장에 초점을 맞추고 있습니다.](https://www.yicai.com/news/103441152.html) — 🇨🇳 중국 · 第一财经 · 11/16 09:12
@@ -152,7 +152,9 @@
 - 🔥2 [상용보험 혁신신약부터 국가협상의약품까지, 밀리언급 CAR-T가 최초로 기본의료보험에 진입](https://www.yicai.com/news/103440735.html) — 🇨🇳 중국 · 第一财经 · 11/14 15:06
 - 🔥2 [엘리 릴리(일라이릴리): 종양학 분야의 혁신적 약물 3개에 대한 새로운 적응증이 국가 의료보험 카탈로그에 포함되었습니다.](https://www.jiemian.com/article/15333120.html) — 🇨🇳 중국 · Jiemian.com · 11/14 12:56
 - 🔥2 [하오딩 신약, 노바티스 승인 및 계약금 9억 8천만 지급](https://udn.com/news/story/7241/9877816) — 🇹🇼 대만 · UDN · 11/14 03:09
+- [AI 후광이 사라집니다! 생명공학주가 대세를 거스르고 하오딩에서 이탈하고, 쌍요가 자금유치에 앞장섰다 - 산업](https://www.ctee.com.tw/news/20261116701269-430504) — 🇹🇼 대만 · 工商時報 · 11/16 15:22 🆕
 - [미국 FDA가 항암제 바이오시밀러를 승인한 후 바이오콘 주가 상승](https://www.cnbctv18.com/market/biocon-share-price-usfda-approval-pebrilzo-fifth-oncology-biosimilar-her2-positive-breast-cancer-drug-20034624.htm) — 🇸🇬 싱가포르 · CNBC TV18 · 11/16 14:23
+- [로슈의 가지바/가지바로(Gazyva/Gazyvaro)가 원발성 막성 신병증에 대한 최초의 FDA 승인 치료제가 되었습니다.](https://markets.ft.com/data/announce/detail?dockey=1330-1001303720en-7E5IHST4P922M2E2PSATRO9GMM) — 🌍 세계 · Financial Times · 11/16 14:00 🆕
 - [혁신 의약품 분야의 변동 및 약화, Tonghua Jinma 제한 다운](https://m.jiemian.com/article/15335955.html) — 🇨🇳 중국 · Jiemian.com · 11/16 12:01
 - [미 FDA, 중국산 유망 폐암 치료제 '이보네시맙' 승인 거부](https://stock.mk.co.kr/news/view/1199355) — 🇰🇷 한국 · 매일경제 마켓 · 11/16 10:28
 - [한 가지 평가: 의료 보험 카탈로그는 2026년에 조정 및 출시되어 혁신적인 약물 쪽으로 더욱 기울어질 것입니다.](https://www.yicai.com/news/103441253.html) — 🇨🇳 중국 · 第一财经 · 11/16 10:28
@@ -185,13 +187,16 @@
 - 🔥14 [LG엔솔 빠진 역대 최대 ESS 입찰…삼성SDI 대 SK온 맞대결](https://www.yna.co.kr/amp/view/AKR20261114002700003) — 🇰🇷 한국 · 연합뉴스 · 11/15 06:31
 - 🔥10 [전기차에서 ESS·선박·로봇으로…포항 배터리 엑스포](https://m.dailian.co.kr/news/view/1715075/) — 🇰🇷 한국 · 데일리안 · 11/15 06:21
 - 🔥9 [김동명 LG엔솔 사장 “수능은 끝 아닌 새로운 시작”…임직원 자녀 210명 응원](https://www.asiatoday.co.kr/kn/view.php?key=20261116010005995) — 🇰🇷 한국 · 아시아투데이 · 11/16 14:11
-- 🔥4 [포항서 '국제 배터리엑스포' 개막…전시·체험·강연 다채](https://www.yna.co.kr/amp/view/AKR20261113121800053) — 🇰🇷 한국 · 연합뉴스 · 11/13 15:38
 - 🔥3 [CATL 초콜릿 배터리 교환소는 6,000개를 목표로 내년에 두 배로 늘어날 것으로 예상됩니다.](https://www.yicai.com/brief/103440391.html) — 🇨🇳 중국 · 第一财经 · 11/13 21:10
 - 🔥2 [잇따르는 리튬 이온 전지 화재, 구제에 벽](https://www.asahi.com/articles/ASVCB0VZZVCBPTIL008M.html) — 🇯🇵 일본 · 朝日新聞 · 11/16 10:00
 - 🔥2 [에코프로, 포항에서 배터리 소재 기술력 및 글로벌 공급망 공개 - 머니투데이](https://www.mt.co.kr/index.php/amp/industry/2026/11/15/2026111513370542094) — 🇰🇷 한국 · 머니투데이 · 11/15 13:44
 - 🔥2 [경북도·RIST, 이차전지 폐수 독성 분석…리튬 회수·재활용 방안 제시](https://www.hankookilbo.com/news/article/A2026111511320000075) — 🇰🇷 한국 · 한국일보 · 11/15 11:55
 - 🔥2 [이차전지 양산 설비 도면 빼돌려 부당 이득…전 직원들 벌금형·집유](https://www.fnnews.com/news/202611151000366860) — 🇰🇷 한국 · 파이낸셜뉴스 · 11/15 10:00
 - 🔥2 [2개 부서: 맹목적인 확장 위험을 방지하기 위해 에너지 저장 배터리 회사가 프로젝트 건설을 합리적이고 질서 있게 추진하도록 안내합니다.](https://www.yicai.com/news/103439940.html) — 🇨🇳 중국 · 第一财经 · 11/13 16:24
+- [‘이차전지 전주기’ 한눈에… 포항서 48개사 참가한 에너지 축제 성황리 종료](https://www.etoday.co.kr/news/view/2648792?trc=right_categori_news) — 🇰🇷 한국 · 이투데이 · 11/16 15:53 🆕
+- [목표는 3억 킬로와트이며, 주요 에너지 저장 정책이 구현되었습니다! 배터리 부문은 배터리 ETF 차이나 유니버셜(159796) 지수가 1% 이상 하락하는 등 약세를 보이고 변동성이 크다. 전 세계적으로 전력 부족 현상이 발생하고 있습니다. 에너지 저장 기회에 대해 어떻게 생각하시나요?](https://www.jiemian.com/article/15336863.html) — 🇨🇳 중국 · Jiemian.com · 11/16 15:41 🆕
+- [KTR, 광양에 189억 투입…‘이차전지 소재 실증센터’ 구축](https://www.joongang.co.kr/article/25479020) — 🇰🇷 한국 · 중앙일보 · 11/16 15:35 🆕
+- [4천번 급속 충전에도 거뜬…국내 연구진, 차세대 배터리 개발](https://www.yna.co.kr/view/AKR20261116125400053) — 🇰🇷 한국 · 연합뉴스 · 11/16 15:30 🆕
 - [보도자료: 미드리무시 유래 재료로 만드는 불소 프리의 리튬 이온 전지 정극용 바인더(공동 통신 PR 와이어)](https://mainichi.jp/articles/20261116/pls/00m/020/554000c) — 🇯🇵 일본 · 毎日新聞 · 11/16 14:00
 - [CATL 장쑤 자회사, 자본금 20억 위안으로 증자](https://m.jiemian.com/article/15336117.html) — 🇨🇳 중국 · Jiemian.com · 11/16 12:42
 - [「리튬 이온 전지 등의 제조·판매 사업자 등과 제휴한 회수 체제 구축 실증 사업」에 참가(PR TIMES)](https://mainichi.jp/articles/20261116/pr2/00m/020/144000c) — 🇯🇵 일본 · 毎日新聞 · 11/16 11:23
@@ -229,8 +234,6 @@
 - [강원에너지, 이차전지 소재 성장에 실적 개선 본격화](https://www.newspim.com/news/view/20261113001315) — 🇰🇷 한국 · 뉴스핌 · 11/13 16:34
 - ["China News" 두 부서: 에너지 저장 배터리 회사가 합리적이고 질서 있는 방식으로 프로젝트 건설을 촉진하고 맹목적인 확장 위험을 방지하도록 안내](https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=china&newsid=20261113775) — 🇭🇰 홍콩 · etnet 經濟通 · 11/13 16:30
 - [CATL과 시드니 뉴사우스웨일스대학교, 에너지 전환 공동 추진을 위한 협력 양해각서 체결](https://www.jiemian.com/article/15329814.html) — 🇨🇳 중국 · Jiemian.com · 11/13 16:13
-- [2차전지 연구실·소재공장 찾아 독일 날아간 경남정보대 학생들](https://www.asiae.co.kr/article/2026111315495389236) — 🇰🇷 한국 · 아시아경제 · 11/13 15:49
-- [소재부터 로봇까지, 이차전지 미래 기술 포항에 집결](https://www.sedaily.com/article/20114052) — 🇰🇷 한국 · 서울경제 · 11/13 15:14
 
 ## ⚡ 전고체배터리·ESS
 
@@ -240,11 +243,12 @@
 - 🔥5 [2030년까지 중국의 새로운 에너지 저장 장치 설치 용량은 3억 킬로와트에 도달할 계획입니다.](https://www.chinanews.com.cn/cj/2026/11-13/10731719.shtml) — 🇨🇳 중국 · 中国新闻网 · 11/13 22:01
 - 🔥3 [세계 최초 300MW 인공 챔버 압축 공기 에너지 저장 발전소가 그리드에 연결되어 전기를 생산합니다.](https://m.jiemian.com/article/15335821.html) — 🇨🇳 중국 · Jiemian.com · 11/16 11:44
 - 🔥3 [2개 부서: 그리드 측에서 독립적인 신에너지 저장 용량 전기 가격 메커니즘 구축](https://36kr.com/newsflashes/4067858999317376) — 🇨🇳 중국 · 36氪 · 11/13 16:58
+- 🔥2 ['네트워크 주식' 청화발전, 저궤도 위성과 에너지 저장장치 결합해 윈린 방재 통신망 구축](https://www.chinatimes.com/realtimenews/20261116002671-260410) — 🇹🇼 대만 · 中時新聞網 · 11/16 14:49
 - 🔥2 ["한정된 시간의 전력 소비"에 작별 인사, Donggao 그리드형 에너지 저장 장치가 인도네시아 외딴 섬의 2,000 가구를 밝힙니다.](https://money.udn.com/money/story/123828/9881536) — 🇹🇼 대만 · 經濟日報 · 11/16 14:00
 - 🔥2 [엠플러스, '전고체 배터리' 양산시장 뚫었다…글로벌 기업서 200억대 수주](https://www.fnnews.com/news/202611160844070909) — 🇰🇷 한국 · 파이낸셜뉴스 · 11/16 08:46
 - 🔥2 [2개 부서: 리튬이온 배터리 에너지 저장 장치의 반복적 업그레이드를 가속화하고 나트륨 이온 배터리 에너지 저장 장치의 적용을 촉진합니다.](https://www.yicai.com/news/103439922.html) — 🇨🇳 중국 · 第一财经 · 11/13 16:16
 - 🔥2 [2개 부서: 대용량 및 고출력 배터리 에너지 저장에 대한 연구와 고출력 배터리 에너지 저장 및 슈퍼커패시터의 시범 적용을 촉진합니다.](https://www.yicai.com/brief/103439907.html) — 🇨🇳 중국 · 第一财经 · 11/13 16:12
-- ['네트워크 주식' 청화발전, 저궤도 위성과 에너지 저장장치 결합해 윈린 방재 통신망 구축](https://www.chinatimes.com/realtimenews/20261116002671-260410) — 🇹🇼 대만 · 中時新聞網 · 11/16 14:49
+- [벌써 2031년 ESS 물량도 확보한 삼성SDI..내년엔 전고체 배터리 승부 - 머니투데이](https://www.mt.co.kr/industry/2026/11/16/2026111613174278091) — 🇰🇷 한국 · 머니투데이 · 11/16 15:50 🆕
 - [에너지저장장치 세계 1위 기업 BYD, 유럽 최초 배터리셀 공장 건설로 포르투갈 선택](https://www.21jingji.com/article/20261116/herald/cbeaa9178eb78165f3431db94c10dfe3.html) — 🇨🇳 중국 · 21财经 · 11/16 14:20
 - [보도자료 : (도시바) 태양광 발전소에 축전지 병설 프로젝트를 초완공 (Digital PR Platform)](https://mainichi.jp/articles/20261116/pls/00m/020/287000c) — 🇯🇵 일본 · 毎日新聞 · 11/16 14:00
 - [당신을 중심으로 구성된 Keeper Family: Sungrow의 종합 C&I 에너지 저장 솔루션 소개](https://www.straitstimes.com/paid-press-releases/keeper-family-shaped-around-you-introducing-sungrows-comprehensive-ci-energy-storage-solutions-20261116) — 🇸🇬 싱가포르 · The Straits Times · 11/16 13:23
@@ -275,7 +279,6 @@
 - [신규 스토리지 관련 주요 정책을 공개합니다! Enjie 주가는 3% 이상 하락했고, 배터리 ETF China Universal(159796) 지수는 2% 이상 하락해 이틀 연속 약한 하락세를 보였습니다! 중국의 대규모 국내 보유고 가격이 상승하고 있으며, 신흥 시장에서는 가계 저축이 장악하고 있습니다.](https://www.jiemian.com/article/15331355.html) — 🇨🇳 중국 · Jiemian.com · 11/13 17:57
 - [Shaoyang Hydraulic : 컨소시엄이 4억 6200만 위안의 에너지 저장 프로젝트 계약을 체결했습니다.](https://www.jiemian.com/article/15331419.html) — 🇨🇳 중국 · Jiemian.com · 11/13 17:51
 - [2개 부서: 슈퍼커패시터, 압축 이산화탄소 에너지 저장, 액체 공기 에너지 저장, 중력 에너지 저장, 용융염 열 저장과 같은 기술의 시범 적용을 장려합니다.](https://www.jiemian.com/article/15330777.html) — 🇨🇳 중국 · Jiemian.com · 11/13 16:08
-- [Wiltshire Rivals 부지에 설치된 대형 배터리에 수백 명이 반대](https://www.bbc.com/news/articles/cmze757jx001o) — 🌍 세계 · BBC · 11/13 15:22
 
 ## 🏭 AI 전력
 
@@ -285,6 +288,7 @@
 - 🔥4 [GE 베르노바(GE 버노바), SK온(SK On), 자이터(Xiter)가 AI 전력 인프라 구축 사업 기회 포착을 위한 전략적 협력 MOU 체결](https://www.ctee.com.tw/news/20261116700732-430502) — 🇹🇼 대만 · 工商時報 · 11/16 11:56
 - 🔥2 [미국 양당이 도입한 강세 법안에 편승해 전력 및 에너지 ETF는 자금 전망을 갖고 있습니다.](https://udn.com/news/amp/story/123006/9880423) — 🇹🇼 대만 · UDN · 11/16 04:51
 - 🔥2 [김정관 산업장관, 체코 원전사업 정상 추진 약속“결과로 책임질 것”](https://www.etoday.co.kr/news/view/2648134) — 🇰🇷 한국 · 이투데이 · 11/14 07:28
+- [중부 전력 PG, 철탑 작업자의 구조 훈련 현지 소방과 조립 시간 단축 목표](https://www.nikkei.com/article/DGXZQOFD163U30W6A111C2000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/16 15:22 🆕
 - [한전 'AI 전력설비 고장분석' 교육, 공공 HRD 콘테스트 대통령상](https://www.fnnews.com/news/202611161434110593) — 🇰🇷 한국 · 파이낸셜뉴스 · 11/16 14:35
 - [Lite-On은 AI 파워, Netcom, Edge AI 및 엔비디아 MGX 아키텍처에 초점을 맞춘 electronica 2026에 참여합니다.](https://news.cnyes.com/news/id/6663547) — 🇹🇼 대만 · 鉅亨網 · 11/16 12:11
 - [HD현대, '발전부터 전력망까지' 북미 에너지시장 공략](https://www.yna.co.kr/view/AKR20261116082400003) — 🇰🇷 한국 · 연합뉴스 · 11/16 11:53
@@ -317,12 +321,14 @@
 
 ## 🤖 로봇
 
-- 🔥19 [LG전자, 한국로봇산업진흥원과 휴머노이드 안전·품질 경쟁력 강화 나서](https://www.businesspost.co.kr/BP?command=article_view&num=452036) — 🇰🇷 한국 · 비즈니스포스트 · 11/16 10:13
+- 🔥20 [LG전자, 한국로봇산업진흥원과 휴머노이드 안전·품질 경쟁력 강화 나서](https://www.businesspost.co.kr/BP?command=article_view&num=452036) — 🇰🇷 한국 · 비즈니스포스트 · 11/16 10:13
 - 🔥4 [울산 남구, 中상하이 '휴머노이드 로봇 실증기지' 찾았다](https://mobile.newsis.com/view_amp.html?ar_id=NISX20261113_0003867719) — 🇰🇷 한국 · 뉴시스 · 11/13 17:33
 - 🔥3 [국가통계국: 10월 중국 산업용 로봇 생산량 전년 동기 대비 26% 증가](https://www.jiemian.com/article/15335460.html) — 🇨🇳 중국 · Jiemian.com · 11/16 11:19
 - 🔥3 [보도자료 : XNOVA, 「NexTech Week 2026(가을) 제1회 휴머노이드 로봇 EXPO」에 출전 3일간에 1,500명 이상이 참석해, 부스는 대성황에(PR TIMES)](https://mainichi.jp/articles/20261114/pr2/00m/020/025000c) — 🇯🇵 일본 · 毎日新聞 · 11/14 11:52
 - 🔥2 [153세 건축가 타이세이, AI와 로봇공학에 투자하기 위해 펀드 조성](https://www.bloomberg.com/news/articles/2026-11-15/taisei-launches-150-million-ai-robotics-fund-with-pegasus-tech-ventures) — 🇺🇸 미국 · Bloomberg.com · 11/16 08:01
 - 🔥2 [중롄중커, bauma CHINA 2026에서 AI 기반 장비 및 로봇 공학 선보일 예정](https://www.straitstimes.com/paid-press-releases/zoomlion-to-showcase-ai-powered-equipment-and-robotics-at-bauma-china-2026-20261113) — 🇸🇬 싱가포르 · The Straits Times · 11/13 20:56
+- [아이엘, '로봇손' 사업 진출…'아이엘핸드' 상표출원](https://www.dailian.co.kr/news/view/1715624/%EC%95%84%EC%9D%B4%EC%97%98-%EB%A1%9C%EB%B4%87%EC%86%90-%EC%82%AC%EC%97%85-%EC%A7%84%EC%B6%9C%EC%95%84%EC%9D%B4%EC%97%98%ED%95%B8%EB%93%9C-%EC%83%81-2026) — 🇰🇷 한국 · 데일리안 · 11/16 15:19 🆕
+- [아이엘, 피지컬AI 핵심 부품 ‘로봇핸드’로 사업 확장](https://www.sedaily.com/article/20114902) — 🇰🇷 한국 · 서울경제 · 11/16 14:55 🆕
 - [심천 APEC │ 뉴스 센터, AI 안경 매칭 전시 및 커피 머신 작동을 위한 휴머노이드 로봇 설치](https://news.rthk.hk/rthk/ch/component/k2/1877974-20261116.htm) — 🇭🇰 홍콩 · RTHK News · 11/16 14:06
 - [삼기, 3분기 영업익 114억 전분기比 883%↑…“휴머노이드 로봇 부품 개발 확대 계획”](https://www.etoday.co.kr/news/view/2648685) — 🇰🇷 한국 · 이투데이 · 11/16 13:56
 - [美 군사용 휴머노이드 로봇 기업 '파운데이션', 임금 체불·자금 운용 논란](https://www.irobotnews.com/news/articleView.html?idxno=49608) — 🇰🇷 한국 · 로봇신문 · 11/16 11:37
@@ -363,5 +369,3 @@
 - [150.8위안/주! 유니트리는 새로운 '신주 청약 붐'을 일으켰으며 투자자들은 소원을 빌고 복권에 당첨되기 위해 줄을 섰습니다.](https://www.yicai.com/news/103308404.html) — 🇨🇳 중국 · 第一财经 · 11/13 19:19
 - [허싸이 CFO Fan Peng: Lidar는 순전히 시장 점유율을 추구하는 단계를 통과했으며 로봇의 응용 시나리오를 포착해야 합니다.](https://www.jiemian.com/article/15330653.html) — 🇨🇳 중국 · Jiemian.com · 11/13 17:31
 - [(숏폼) 레인보우 로보틱스 두 자릿수 껑충 이벤트성 급등 이용해야](https://biz.sbs.co.kr/amp/article/20000346329) — 🇰🇷 한국 · SBS Biz · 11/13 17:00
-- [中 광군제, '200만원 휴머노이드' 판매 두 배 이상 급증 - 머니투데이](https://www.mt.co.kr/world/2026/11/13/2026111315093515227) — 🇰🇷 한국 · 머니투데이 · 11/13 15:32
-- [Matrix의 초지능형 MATRIX-3가 중국 국제 수입 박람회에서 데뷔하여 휴머노이드 로봇 내비게이션 장면의 실제 구현을 시연했습니다.](http://jjckb.xinhuanet.com/20261113/7b95c4f4da734577bf81494ee794e248/c.html) — 🇨🇳 중국 · 经济参考报 · 11/13 15:18
