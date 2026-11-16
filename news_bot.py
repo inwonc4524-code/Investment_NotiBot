@@ -1088,14 +1088,14 @@ def build_pages(news, run_id, updated):
     data = {
         "updated": updated,
         "regions": [{"k": r["key"], "l": r["label"]} for r in REGIONS],
-        "themes": [{"name": name,
+        "themes": [{"name": STATS_TAB, "note": "", "stats": True, "items": []}] + [{"name": name,
                     "note": ("평일 12분마다 확인 · 여러 언론이 동시에 보도한 큰 소식 · 휴대폰 알림"
                              if name == BREAKING_NAME else
                              "한국·중국·대만·홍콩·일본·싱가포르·세계 · 여러 언론이 동시에 보도했거나 언론사가 속보로 표시한 소식"
                              if name == GLOBAL_BREAKING_NAME else (f"보유: {etfs[name]}" if etfs.get(name) else "")),
                     "breaking": name in brk_names,
                     "items": [_pack(n, rkey) for n in items]}
-                   for name, items in by_theme.items()] + [{"name": STATS_TAB, "note": "", "stats": True, "items": []}],
+                   for name, items in by_theme.items()],
         "auto": {r["label"]: v for r in REGIONS for k, v in load_sources().get("auto", {}).items()
                  if k == r["key"] and v},
         "breaking_url": f"https://raw.githubusercontent.com/{REPO}/main/breaking.json",
@@ -1192,13 +1192,13 @@ function esc(t){ return String(t==null?'':t).replace(/[&<>"]/g, function(c){ ret
 // 휴대폰에 기억해 두는 값 (마지막 탭, 탭별로 마지막에 본 시각, 정렬, 국가)
 function load(k, d){ try { var v = localStorage.getItem('nb_'+k); return v===null ? d : JSON.parse(v); } catch(e){ return d; } }
 function save(k, v){ try { localStorage.setItem('nb_'+k, JSON.stringify(v)); } catch(e){} }
-var S = { tab: 0, seen: load('seen', null), sort: load('sort', 'c'), region: load('region', 'all'), shown: D.show, prev: {} };
+var S = { tab: (D.themes[0] && D.themes[0].stats && D.themes.length > 1) ? 1 : 0, seen: load('seen', null), sort: load('sort', 'c'), region: load('region', 'all'), shown: D.show, prev: {} };
 function newest(t){ var m = 0; t.items.forEach(function(n){ if(n.a > m) m = n.a; }); return m; }
 if(S.seen === null){ S.seen = {}; D.themes.forEach(function(t){ S.seen[t.name] = newest(t); }); save('seen', S.seen); }  // 처음 방문: 레드닷 없이 시작
 (function(){ var nm = load('tabname', ''); D.themes.forEach(function(t, i){ if(t.name === nm) S.tab = i; }); })();  // 마지막에 본 탭 (이름으로 기억)
 if(location.hash && /^#t\\d+$/.test(location.hash)) S.tab = +location.hash.slice(2);
 if(location.hash === '#stats') D.themes.forEach(function(t, i){ if(t.stats) S.tab = i; });
-if(S.tab >= D.themes.length) S.tab = 0;
+if(S.tab >= D.themes.length) S.tab = D.themes.length > 1 ? 1 : 0;
 
 function visible(t){
   return t.items.filter(function(n){ return S.region==='all' || n.r===S.region; });
