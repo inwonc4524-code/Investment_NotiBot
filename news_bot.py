@@ -982,6 +982,19 @@ function capped(days, th){
     if(p[0]===th && (S.region==='all' || p[1]===S.region)) hit = true; }); });
   return hit;
 }
+function byN(a,b){ return b.n - a.n || (a.th < b.th ? -1 : 1); }        // 많은 순 (같으면 이름순으로 고정)
+function ranks(rows, ok){                  // 이전 기간 순위 (r.pr) — 이전 기간 자료가 없으면 표시 안 함
+  rows.forEach(function(r){ r.pr = null; });
+  if(!ok) return;
+  rows.slice().sort(function(a,b){ return b.p - a.p || (a.th < b.th ? -1 : 1); }).forEach(function(r, i){ r.pr = i; });
+}
+function mv(r, i){                         // 순위 변동: 🔺 빨강 몇 계단 오름 · 🔻 파랑 몇 계단 내림
+  if(r.pr === null || (!r.n && !r.p)) return '<span class="mv"></span>';
+  var d = r.pr - i;
+  if(d > 0) return '<span class="mv up" title="이전 기간 '+(r.pr+1)+'위 → '+d+'계단 상승">▲'+d+'</span>';
+  if(d < 0) return '<span class="mv dn" title="이전 기간 '+(r.pr+1)+'위 → '+(-d)+'계단 하락">▼'+(-d)+'</span>';
+  return '<span class="mv same" title="순위 그대로">–</span>';
+}
 function chg(n, p, hc, hp){
   if(hp === 0) return '<span class="chg">·</span>';          // 비교할 이전 기간 자료가 아직 없음
   if(hc && hp && hc !== hp){ n = n/hc; p = p/hp; }            // 모인 날 수가 다르면 하루 평균끼리 비교
@@ -1038,7 +1051,8 @@ function renderStats(t){
     return '<button data-sp="'+x[0]+'" class="'+(S.sp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
   var hc = have(P[0]), hp = have(P[1]), f = firstDay();
   var rows = (ST.themes||[]).map(function(th){ return {th:th, n:sum(P[0], th), p:sum(P[1], th), cap:capped(P[0], th)}; })
-                            .sort(function(a,b){ return b.n - a.n; });
+                            .sort(byN);
+  ranks(rows, hp > 0);
   var mx = rows.length ? Math.max(1, rows[0].n) : 1, total = 0; rows.forEach(function(r){ total += r.n; });
   h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 전체 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">'+(hp ? '(전 기간 대비)' : '')+'</span></div>';
   if(P[0].length > 1 && hc < P[0].length)
@@ -1047,12 +1061,12 @@ function renderStats(t){
   h += rows.map(function(r, i){
     var open = S.open[r.th];
     return '<div class="srow'+(open?' open':'')+'" data-th="'+esc(r.th)+'">'+
-      '<div class="sline"><span class="rk">'+(i+1)+'</span><span class="sn">'+esc(r.th)+'</span>'+
+      '<div class="sline">'+mv(r, i)+'<span class="rk">'+(i+1)+'</span><span class="sn">'+esc(r.th)+'</span>'+
       '<span class="sb"><i style="width:'+Math.max(r.n?2:0, r.n/mx*100)+'%"></i></span>'+
       '<span class="sc">'+r.n.toLocaleString()+(r.cap?'+':'')+'</span>'+chg(r.n, r.p, hc, hp)+spark(r.th, 14)+'</div>'+
       (open ? detail(r.th) : '') + '</div>';
   }).join('');
-  h += '<footer>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
+  h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 바로 앞 같은 길이 기간보다 몇 계단 오르고 내렸는지<br>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
        '· 숫자 옆 + 는 검색 결과가 너무 많아 실제보다 적게 잡혔을 수 있다는 표시예요 (구글 뉴스는 한 번에 최대 100개)<br>'+
        '· ▲▼ 는 바로 앞 같은 길이 기간과 비교 (오늘은 진행 중이라 작게 나와요 · 모인 날 수가 다르면 하루 평균끼리 비교)<br>'+
        '· 통계는 '+esc(f)+'부터 모았어요 (첫날은 일부만 잡힘) · 2년치까지 보관 (1년 통계를 그 전 1년과 비교)</footer>';
@@ -1150,18 +1164,19 @@ function renderLong(h){
   var dc = avn(P[0][0], P[0][1]), dp = P[1] ? avn(P[1][0], P[1][1]) : 0, span = P[0][1] - P[0][0];
   if(span - dc > 0) h += '<div class="warn">ℹ️ 이 기간 중 '+(span-dc)+'일은 GDELT 서버 사정으로 자료가 비어 있어요 ('+span+'일 중 '+dc+'일치). 합계는 그만큼 적게 잡히고, ▲▼ 비교는 하루 평균끼리 해요.</div>';
   var rows = (HI.themes||[]).map(function(th){ return {th:th, n:hsum(th, P[0][0], P[0][1]), p: P[1] ? hsum(th, P[1][0], P[1][1]) : null}; })
-                            .sort(function(a,b){ return b.n - a.n; });
+                            .sort(byN);
+  ranks(rows, !!P[1] && dp > 0);
   var mx = rows.length ? Math.max(1, rows[0].n) : 1, total = 0; rows.forEach(function(r){ total += r.n; });
   h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 7개 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">'+(P[1]?'('+P[3]+')':'')+'</span></div>';
   h += rows.map(function(r, i){
     var open = S.open['L'+r.th];
     return '<div class="srow'+(open?' open':'')+'" data-th="'+esc(r.th)+'" data-l="1">'+
-      '<div class="sline"><span class="rk">'+(i+1)+'</span><span class="sn">'+esc(r.th)+'</span>'+
+      '<div class="sline">'+mv(r, i)+'<span class="rk">'+(i+1)+'</span><span class="sn">'+esc(r.th)+'</span>'+
       '<span class="sb"><i style="width:'+Math.max(r.n?2:0, r.n/mx*100)+'%"></i></span>'+
       '<span class="sc">'+r.n.toLocaleString()+'</span>'+(r.p===null ? '<span class="chg"></span>' : chg(r.n, r.p, dc, dp))+mspark(r.th)+'</div>'+
       (open ? ldetail(r.th) : '') + '</div>';
   }).join('');
-  h += '<footer>· 오른쪽 작은 선 = '+HI.since.slice(0,4)+'년 1월부터 달별 흐름(하루 평균), 줄을 누르면 달별 그래프와 나라별 구성<br>'+
+  h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 비교 기간(전달·작년 같은 기간·재작년)보다 몇 계단 오르고 내렸는지<br>· 오른쪽 작은 선 = '+HI.since.slice(0,4)+'년 1월부터 달별 흐름(하루 평균), 줄을 누르면 달별 그래프와 나라별 구성<br>'+
        '· 일별 집계(기사 제목 기준, 구글 뉴스)와 세는 방법이 달라 숫자 크기는 서로 비교하지 말고 흐름만 보세요<br>'+
        '· 한국·중국·일본 기사도 GDELT 가 영어로 번역해 둔 것을 영어 검색어로 셉니다 · 자료가 빠진 날은 0이 아니라 빈칸으로 둠</footer>';
   $('main').innerHTML = h;
@@ -1181,6 +1196,7 @@ STATS_CSS = r""".seg{display:flex;gap:4px;margin:6px 4px 10px}.seg button{flex:1
 .srow{background:var(--card);border-radius:12px;margin:6px 0;padding:10px 12px;cursor:pointer}.srow.open{background:var(--card2)}
 .sline{display:flex;align-items:center;gap:8px}
 .rk{width:18px;color:var(--sub);font-size:12px;text-align:right;flex:none}
+.mv{width:26px;flex:none;font-size:11px;font-weight:600;text-align:left;font-variant-numeric:tabular-nums;margin-right:-4px}.mv.up{color:#f87171}.mv.dn{color:#60a5fa}.mv.same{color:var(--sub);font-weight:400}
 .sn{width:86px;flex:none;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sb{flex:1;height:10px;background:rgba(255,255,255,.05);border-radius:5px;overflow:hidden;min-width:30px}.sb i{display:block;height:100%;background:var(--acc);border-radius:0 4px 4px 0}
 .sc{width:54px;flex:none;text-align:right;font-size:14px;font-variant-numeric:tabular-nums}
