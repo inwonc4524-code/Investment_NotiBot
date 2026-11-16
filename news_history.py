@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-📈 테마별 뉴스 장기 추이 (2025년 1월 ~ 지금)
+📈 테마별 뉴스 장기 추이 (2021년 1월 ~ 지금)
 - 구글 뉴스는 지난 날짜 검색이 하루 몇 건밖에 안 나와서, 과거 통계는 GDELT(전 세계 뉴스 기록 프로젝트)의
   '날짜별 기사 수' 자료로 만듭니다. 65개 언어 기사를 영어로 번역해 두고 세기 때문에
   아래 영어 검색어 하나로 한국·중국·일본 언론 기사까지 셀 수 있어요.
-- 처음 한 번은 2025-01-01부터 전부 채우고, 그 뒤엔 일주일에 한 번 최근 2주를 다시 받아 최신으로 유지합니다.
+- 처음 한 번은 2021-01-01부터 전부 채우고, 그 뒤엔 일주일에 한 번 최근 2주를 다시 받아 최신으로 유지합니다.
   (GDELT 는 깃허브 서버에서 부르면 '너무 자주 물어본다'며 자주 막혀서 요청 한 번에 1~2분 → 처음 채우기는 몇 시간, 스스로 이어서 실행)
 - 결과는 history.json → 뉴스 페이지 📊 통계 탭의 '장기 추이' 에서 월별 그래프로 봅니다.
 
@@ -23,7 +23,7 @@ import requests
 HERE = os.path.dirname(os.path.abspath(__file__))
 FILE = os.path.join(HERE, "history.json")
 KST = timezone(timedelta(hours=9))
-SINCE = date(2025, 1, 1)
+SINCE = date(2021, 1, 1)
 API = "https://api.gdeltproject.org/api/v2/doc/doc"
 REFRESH_DAYS = 14          # 매일 최근 며칠을 다시 받을지 (GDELT 는 며칠 늦게 들어오는 기사가 있음)
 TIME_BUDGET = 40 * 60      # 한 번 실행에 최대 몇 초까지 받을지 (넘으면 저장하고 바로 이어서 다시 실행)
@@ -62,6 +62,16 @@ def load():
         with open(FILE, encoding="utf-8") as f:
             d = json.load(f)
         if isinstance(d, dict) and d.get("since") == SINCE.isoformat():
+            return d
+        if isinstance(d, dict) and d.get("since") and d["since"] > SINCE.isoformat():
+            # 시작일을 앞당김 (예: 2025 → 2021): 이미 받은 자료는 살리고 앞쪽에 빈칸만 붙임
+            pad = (date.fromisoformat(d["since"]) - SINCE).days
+            for t in d.get("s", {}):
+                for rk in d["s"][t]:
+                    d["s"][t][rk] = [None] * pad + d["s"][t][rk]
+            d["since"] = SINCE.isoformat()
+            d["complete"] = False
+            print(f"시작일을 {SINCE} 로 앞당김 → 이미 받은 자료는 그대로 두고 앞쪽 {pad}일을 새로 받음")
             return d
     except Exception:
         pass
@@ -105,7 +115,7 @@ def fetch(words, code, start, end):
 
 
 def put(h, theme, rk, counts, start, end):
-    """받은 숫자를 배열(2025-01-01 부터 하루 한 칸)에 넣기. 자료가 없는 날은 null"""
+    """받은 숫자를 배열(SINCE 부터 하루 한 칸)에 넣기. 자료가 없는 날은 null"""
     n_days = (end - SINCE).days + 1
     arr = h["s"].setdefault(theme, {}).setdefault(rk, [])
     if len(arr) < n_days:

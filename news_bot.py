@@ -1026,7 +1026,7 @@ function detail(th){                       // 30일(또는 6개월·1년은 주�
 }
 function renderStats(t){
   var h = '<h2>📊 테마별 뉴스 통계</h2>';
-  h += '<div class="seg sm">' + [['d','📊 일별 집계'],['l','📈 장기 추이 (2025.1~)']].map(function(x){
+  h += '<div class="seg sm">' + [['d','📊 일별 집계'],['l','📈 장기 추이 (2021~)']].map(function(x){
     return '<button data-sm="'+x[0]+'" class="'+(S.sm===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
   if(S.sm === 'l') return renderLong(h);
   if(!ST){ loadStats(); $('main').innerHTML = h + '<p class="none">통계를 불러오는 중…</p>'; return; }
@@ -1064,7 +1064,7 @@ document.addEventListener('click', function(e){
   var r = e.target.closest('.srow .sline');
   if(r){ var th = (r.parentNode.dataset.l ? 'L' : '') + r.parentNode.dataset.th; S.open[th] = !S.open[th]; renderMain(); }
 });
-// ───────── 📈 장기 추이 (2025.1~, GDELT) ─────────
+// ───────── 📈 장기 추이 (2021.1~, GDELT) ─────────
 var HI = null, HILOAD = false;
 S.sm = load('sm', 'd'); S.lp = load('lp', 'lm');
 function loadHist(){
@@ -1102,7 +1102,8 @@ function lperiod(){                        // [이번 a,b] [비교 a,b 또는 nu
     return [[x.a, x.b], p ? [p.a, p.b] : null, x.y+'년 '+x.m+'월', '전달 대비']; }
   if(S.lp === 'ty'){ var a = dIdx(ty+'-01-01'), pa = dIdx((ty-1)+'-01-01'), len = HI.n - a;
     return [[a, HI.n], pa >= 0 ? [pa, pa+len] : null, ty+'년 (1월 1일~'+HI.end.slice(5).replace('-','/')+')', '작년 같은 기간 대비']; }
-  if(S.lp === 'y25') return [[0, dIdx('2026-01-01')], null, '2025년 전체', ''];
+  if(S.lp === 'ly'){ var la = Math.max(0, dIdx((ty-1)+'-01-01')), lb = dIdx(ty+'-01-01'), pa = dIdx((ty-2)+'-01-01');
+    return [[la, lb], pa >= 0 ? [pa, la] : null, (ty-1)+'년 전체', '재작년 대비']; }
   return [[0, HI.n], null, HI.since.slice(0,7).replace('-','.')+' ~ '+HI.end.replace(/-/g,'.')+' 전체', ''];
 }
 function mspark(th){                       // 달별 흐름 (작은 선, 진행 중인 달은 빼고)
@@ -1133,7 +1134,7 @@ function ldetail(th){                      // 달별 막대 + 나라별 구성
   var rows = parts.map(function(x){
     return '<div class="crow"><span class="cl">'+esc(x[0].l)+'</span><span class="cb"><i style="width:'+Math.max(2, x[1]/pm*100)+'%"></i></span><span class="cn">'+x[1].toLocaleString()+'</span></div>';
   }).join('') || '<div class="note">이 기간 기사 없음</div>';
-  return '<div class="det"><div class="dt">달별 하루 평균 뉴스 수 (2025년 1월~)'+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
+  return '<div class="det"><div class="dt">달별 하루 평균 뉴스 수 ('+HI.since.slice(0,4)+'년 1월~)'+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
     '<svg class="bars" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" role="img" aria-label="'+esc(th)+' 달별 뉴스 수">'+bars+axis+'</svg>'+
     '<div class="dt">'+esc(P[2])+' 나라별</div>'+rows+'</div>';
 }
@@ -1143,8 +1144,8 @@ function renderLong(h){
   if(S.region === 'world'){ $('main').innerHTML = h + '<p class="none">장기 추이는 나라별(한국·미국·중국·대만·홍콩·일본·싱가포르)로만 셀 수 있어요. 위에서 \'전체\'나 다른 나라를 골라 주세요.</p>'; return; }
   var P = lperiod();
   h += '<p class="note">GDELT(전 세계 뉴스 기록) 자료 · 본문에 테마 단어가 나온 기사 수 · 일주일에 한 번 갱신 · '+esc(HI.end.slice(5).replace('-','/'))+'까지 · 업데이트 '+esc(HI.updated||'')+'</p>';
-  if(!HI.complete) h += '<div class="warn">⏳ 2025년 1월부터 자료를 아직 받는 중이에요. 다 받기 전엔 일부 테마·나라가 0으로 보여요. 자료 서버가 느려서 몇 시간 걸려요 (봇이 알아서 이어 받음).</div>';
-  h += '<div class="seg lp">' + [['lm','지난달'],['ty','올해'],['y25','2025년'],['all','전체']].map(function(x){
+  if(!HI.complete) h += '<div class="warn">⏳ '+HI.since.slice(0,4)+'년 1월부터 자료를 아직 받는 중이에요. 다 받기 전엔 일부 테마·나라·연도가 0이나 빈칸으로 보여요. 자료 서버가 느려서 하루쯤 걸려요 (봇이 알아서 이어 받음).</div>';
+  h += '<div class="seg lp">' + [['lm','지난달'],['ty','올해'],['ly','작년'],['all','전체']].map(function(x){
     return '<button data-lp="'+x[0]+'" class="'+(S.lp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
   var dc = avn(P[0][0], P[0][1]), dp = P[1] ? avn(P[1][0], P[1][1]) : 0, span = P[0][1] - P[0][0];
   if(span - dc > 0) h += '<div class="warn">ℹ️ 이 기간 중 '+(span-dc)+'일은 GDELT 서버 사정으로 자료가 비어 있어요 ('+span+'일 중 '+dc+'일치). 합계는 그만큼 적게 잡히고, ▲▼ 비교는 하루 평균끼리 해요.</div>';
@@ -1160,7 +1161,7 @@ function renderLong(h){
       '<span class="sc">'+r.n.toLocaleString()+'</span>'+(r.p===null ? '<span class="chg"></span>' : chg(r.n, r.p, dc, dp))+mspark(r.th)+'</div>'+
       (open ? ldetail(r.th) : '') + '</div>';
   }).join('');
-  h += '<footer>· 오른쪽 작은 선 = 2025년 1월부터 달별 흐름(하루 평균), 줄을 누르면 달별 그래프와 나라별 구성<br>'+
+  h += '<footer>· 오른쪽 작은 선 = '+HI.since.slice(0,4)+'년 1월부터 달별 흐름(하루 평균), 줄을 누르면 달별 그래프와 나라별 구성<br>'+
        '· 일별 집계(기사 제목 기준, 구글 뉴스)와 세는 방법이 달라 숫자 크기는 서로 비교하지 말고 흐름만 보세요<br>'+
        '· 한국·중국·일본 기사도 GDELT 가 영어로 번역해 둔 것을 영어 검색어로 셉니다 · 자료가 빠진 날은 0이 아니라 빈칸으로 둠</footer>';
   $('main').innerHTML = h;
