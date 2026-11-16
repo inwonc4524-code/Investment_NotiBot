@@ -1,6 +1,6 @@
 # 📰 투자 테마 뉴스
 
-업데이트 11/16 14:28 · 최근 3일
+업데이트 11/16 14:31 · 최근 3일
 
 
 ## 🚨 미국 속보
@@ -53,15 +53,17 @@
 - 🔥2 [KB국민은행, S&P500 연동 달러예금 출시](https://www.sentv.co.kr/article/view/sentv202611160119) — 🇰🇷 한국 · 서울경제TV · 11/16 14:09
 - 🔥2 [미국 기술주의 큰 하락으로 대만 주식은 초반 거래에서 500포인트 이상 하락했습니다. 외환시장에서 외국자본에 대한 송금 압력이 완화되었습니다.](https://money.udn.com/money/story/5607/9880985?from=udnamp-referralnews_ch1001artbottom) — 🇹🇼 대만 · 經濟日報 · 11/16 10:45
 - 🔥2 [젠슨 황은 월스트리트에서 사임하고 엔비디아의 발언을 하향 조정했습니다. 소매 투자자들은 여전히 ​​바닥을 추측하기 위해 시장에 진입했습니다.](https://stock.ltn.com.tw/article/zryycxg2nxp8) — 🇹🇼 대만 · 自由時報 · 11/16 10:32
+- 🔥2 [엔비디아, 해외 시장 뷰 & 미국 주식 픽업 ​​(11월 16일)](https://www.nikkei.com/prime/veritas/article/DGXZQOKC1615K0W6A111C2000000) — 🇯🇵 일본 · 日本経済新聞 · 11/16 10:17
 - 🔥2 [(마켓무버)뉴욕증시 혼조 마감…엔비디아 리더십 공백에 기술주 약세](https://www.edaily.co.kr/News/Read?newsId=01341526645646376&mediaCodeNo=257) — 🇰🇷 한국 · 이데일리 · 11/16 08:12
 - 🔥2 [이익마진 초과한 S&P500 기업 수 감소 - 글로벌 금융 - Business Times](https://www.chinatimes.com/newspapers/20261116000213-260203) — 🇹🇼 대만 · 中時新聞網 · 11/16 05:10
 - 🔥2 [딥을 살 때까지 기다리시겠습니까? 월스트리트의 60%는 금 가격이 3,200달러까지 하락할 수 있다고 생각합니다.](https://stock.ltn.com.tw/article/bagn1djytcck) — 🇹🇼 대만 · 自由時報 · 11/15 22:03
 - 🔥2 [이번 주 미국 증시에서는 엔비디아의 실적 보고서 외에 또 어떤 변수를 관찰할 수 있을까?](https://money.udn.com/money/story/6710/9880104) — 🇹🇼 대만 · 經濟日報 · 11/15 17:46
 - 🔥2 [젠슨 황이 사임한 후 엔비디아 주식을 구매해야 합니까? 월스트리트는 투자자들에게 답변을 제공합니다](https://ec.ltn.com.tw/article/breakingnews/5641488) — 🇹🇼 대만 · 自由財經 · 11/15 15:52
 - 🔥2 [거의 120억 달러에 달하는 엔비디아 칩 거래가 노출되었습니다! 월스트리트저널은 중국이 말레이시아의 컴퓨팅 파워 네트워크를 이용하고 있다고 폭로했다.](https://ec.ltn.com.tw/article/breakingnews/5641312) — 🇹🇼 대만 · 自由財經 · 11/15 13:13
-- [美联储金融稳定报告预警AI相关风险：用于数据中心建设的远期租赁与兜底担保规模已达约3万亿美元](https://www.thepaper.cn/newsDetail_forward_34488735) — 🇨🇳 중국 · ThePaper.cn · 11/16 14:21 🆕
+- [연준의 금융 안정성 보고서는 AI 관련 위험에 대해 경고합니다. 데이터 센터 건설에 사용되는 전방 임대 및 백업 보증 규모는 약 3조 달러에 달합니다.](https://www.thepaper.cn/newsDetail_forward_34488735) — 🇨🇳 중국 · ThePaper.cn · 11/16 14:21
 - [민주당이 의회에서 승리하면 AI 규제에 대한 불확실성이 높아지고 미국의 두 가지 주요 주식 ETF에 도입 기회가 생길 것입니다.](https://udn.com/news/story/123006/9881527) — 🇹🇼 대만 · UDN · 11/16 13:55
 - [모건스탠리 “S&P500 15% 상승 여력…대만보다 한국 주식 선호”｜Global Money Club](https://www.joongang.co.kr/gmc/article/25478978) — 🇰🇷 한국 · 중앙일보 · 11/16 13:37
+- ['홍콩주식' 미국증시 약세에도 항셍지수 일시적으로 0.9% 상승](https://www.ctee.com.tw/news/20261116701136-430801) — 🇹🇼 대만 · 工商時報 · 11/16 13:16 🆕
 - [골드만삭스는 S&P500이 내년에도 15% 상승을 이어가며 8,700포인트에 도전할 것이라고 낙관했다.](https://m.moneydj.com/f1a.aspx?a=1f0710c9-014c-4580-a616-b81060da30b9&c=MB00) — 🇹🇼 대만 · MoneyDJ · 11/16 13:04
 - [젠슨 황은 엔비디아에게 충격을 주기 위해 사임했습니다! 최소 10명의 월스트리트 분석가가 목표주가를 200달러로 낮추면서 등급을 하향 조정했습니다.](https://news.cnyes.com/news/id/6663172) — 🇹🇼 대만 · 鉅亨網 · 11/16 12:40
 - [월스트리트와 경쟁하다 - Wen Jie | AI 주가 급락해 시장 하락, 마이크로소프트는 그 수정을 활용해 단계별 배포(동영상 포함)](https://www.etnet.com.hk/www/tc/news/news-article.php?section=features&category=interview&newsid=416833) — 🇭🇰 홍콩 · etnet 經濟通 · 11/16 12:33
@@ -74,7 +76,6 @@
 - [다우, S&P500, 나스닥 Futures Edge Lower As Markets Brace For 엔비디아 수익, 인류 최초 공모(IPO), 연준 회의록: SMMT, NBIS, HELP, MSTR 집중](https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-020421221.html) — 🇺🇸 미국 · Yahoo Finance · 11/16 11:04
 - [모건스탠리는 2027년 S&P500 지수 목표를 8,700포인트로 높이고 독일과 영국 채권에 대해 낙관적이다.](https://www.21jingji.com/article/20261116/herald/dbc10d0ccf84109520190063df45283e.html) — 🇨🇳 중국 · 21财经 · 11/16 10:25
 - [또 다른 연준 관계자는 "매파적"이다.](https://www.21jingji.com/article/20261116/herald/5448135692bec7d5fb6aa6c8c1a1a5b1.html) — 🇨🇳 중국 · 21财经 · 11/16 10:24
-- [엔비디아, 해외 시장 뷰 & 미국 주식 픽업 ​​(11월 16일)](https://www.nikkei.com/prime/veritas/article/DGXZQOKC1615K0W6A111C2000000) — 🇯🇵 일본 · 日本経済新聞 · 11/16 10:17
 - [알리안츠 "연준, 금리 세 번 더 올린 뒤 2028년 말 3.75%까지 인하"](https://news.einfomax.co.kr/news/articleView.html?idxno=4444905) — 🇰🇷 한국 · 연합인포맥스 · 11/16 10:17
 - [미국 증시는 혼합되어 있습니다! 대만 증시는 하락세로 출발하며 500포인트 이상 하락했습니다. TSMC는 NT$2,340로 하락했습니다.](https://news.tvbs.com.tw/money/4051109) — 🇹🇼 대만 · TVBS新聞網 · 11/16 10:08
 - [전략 미국 증시는 밤새 거래에서 8% 이상 하락했습니다.](https://www.jiemian.com/article/15334977.html) — 🇨🇳 중국 · Jiemian.com · 11/16 10:06
@@ -148,6 +149,7 @@
 - 🔥2 [상용보험 혁신신약부터 국가협상의약품까지, 밀리언급 CAR-T가 최초로 기본의료보험에 진입](https://www.yicai.com/news/103440735.html) — 🇨🇳 중국 · 第一财经 · 11/14 15:06
 - 🔥2 [엘리 릴리(일라이릴리): 종양학 분야의 혁신적 약물 3개에 대한 새로운 적응증이 국가 의료보험 카탈로그에 포함되었습니다.](https://www.jiemian.com/article/15333120.html) — 🇨🇳 중국 · Jiemian.com · 11/14 12:56
 - 🔥2 [하오딩 신약, 노바티스 승인 및 계약금 9억 8천만 지급](https://udn.com/news/story/7241/9877816) — 🇹🇼 대만 · UDN · 11/14 03:09
+- [미국 FDA가 항암제 바이오시밀러를 승인한 후 바이오콘 주가 상승](https://www.cnbctv18.com/market/biocon-share-price-usfda-approval-pebrilzo-fifth-oncology-biosimilar-her2-positive-breast-cancer-drug-20034624.htm) — 🇸🇬 싱가포르 · CNBC TV18 · 11/16 14:23 🆕
 - [혁신 의약품 분야의 변동 및 약화, Tonghua Jinma 제한 다운](https://m.jiemian.com/article/15335955.html) — 🇨🇳 중국 · Jiemian.com · 11/16 12:01
 - [미 FDA, 중국산 유망 폐암 치료제 '이보네시맙' 승인 거부](https://stock.mk.co.kr/news/view/1199355) — 🇰🇷 한국 · 매일경제 마켓 · 11/16 10:28
 - [한 가지 평가: 의료 보험 카탈로그는 2026년에 조정 및 출시되어 혁신적인 약물 쪽으로 더욱 기울어질 것입니다.](https://www.yicai.com/news/103441253.html) — 🇨🇳 중국 · 第一财经 · 11/16 10:28
@@ -239,6 +241,7 @@
 - 🔥2 [엠플러스, '전고체 배터리' 양산시장 뚫었다…글로벌 기업서 200억대 수주](https://www.fnnews.com/news/202611160844070909) — 🇰🇷 한국 · 파이낸셜뉴스 · 11/16 08:46
 - 🔥2 [2개 부서: 리튬이온 배터리 에너지 저장 장치의 반복적 업그레이드를 가속화하고 나트륨 이온 배터리 에너지 저장 장치의 적용을 촉진합니다.](https://www.yicai.com/news/103439922.html) — 🇨🇳 중국 · 第一财经 · 11/13 16:16
 - 🔥2 [2개 부서: 대용량 및 고출력 배터리 에너지 저장에 대한 연구와 고출력 배터리 에너지 저장 및 슈퍼커패시터의 시범 적용을 촉진합니다.](https://www.yicai.com/brief/103439907.html) — 🇨🇳 중국 · 第一财经 · 11/13 16:12
+- [에너지저장장치 세계 1위 기업 BYD, 유럽 최초 배터리셀 공장 건설로 포르투갈 선택](https://www.21jingji.com/article/20261116/herald/cbeaa9178eb78165f3431db94c10dfe3.html) — 🇨🇳 중국 · 21财经 · 11/16 14:20 🆕
 - ["한정된 시간의 전력 소비"에 작별 인사, Donggao 그리드형 에너지 저장 장치가 인도네시아 외딴 섬의 2,000 가구를 밝힙니다.](https://money.udn.com/money/story/123828/9881536) — 🇹🇼 대만 · 經濟日報 · 11/16 14:00
 - [보도자료 : (도시바) 태양광 발전소에 축전지 병설 프로젝트를 초완공 (Digital PR Platform)](https://mainichi.jp/articles/20261116/pls/00m/020/287000c) — 🇯🇵 일본 · 毎日新聞 · 11/16 14:00
 - [당신을 중심으로 구성된 Keeper Family: Sungrow의 종합 C&I 에너지 저장 솔루션 소개](https://www.straitstimes.com/paid-press-releases/keeper-family-shaped-around-you-introducing-sungrows-comprehensive-ci-energy-storage-solutions-20261116) — 🇸🇬 싱가포르 · The Straits Times · 11/16 13:23
@@ -248,7 +251,7 @@
 - [중국 메이커가 JC-STAR 대응에 고전하는 이유── 태양광·축전지 사업자가 취해야 할 대응은](https://www.itmedia.co.jp/smartjapan/articles/2611/16/news007.html) — 🇯🇵 일본 · ITmedia · 11/16 07:00
 - [이시카리에 「국산」특고 축전소, 재에너지산지소에 공헌도(4페이지째)](https://xtech.nikkei.com/atcl/nxt/column/18/02443/110600187/?P=4) — 🇯🇵 일본 · 日経クロステック · 11/16 05:00
 - [ESS Tech, Inc.의 주가(GWHTQ)를 실시간으로 확인해보세요](https://www.cnbc.com/quotes/GWHTQ) — 🇺🇸 미국 · CNBC · 11/16 04:10
-- [从零碳咖啡屋到全球储能解决方案 福建宁德聚力打造零碳未来城](https://www.chinanews.com.cn/cj/2026/11-15/10732461.shtml) — 🇨🇳 중국 · 中国新闻网 · 11/15 21:06 🆕
+- [탄소 제로 커피 하우스부터 글로벌 에너지 저장 솔루션까지, Fujian Ningde는 탄소 제로 미래 도시를 건설하기 위해 협력하고 있습니다.](https://www.chinanews.com.cn/cj/2026/11-15/10732461.shtml) — 🇨🇳 중국 · 中国新闻网 · 11/15 21:06
 - [테슬라 실적 발표 대본: 로봇 공학, 자율 주행 및 에너지 저장에 크게 투자하고 자본 지출이 계속 확대되고 있습니다.](https://www.cls.cn/detail/2434633) — 🇨🇳 중국 · 财联社 · 11/15 10:43
 - [해외조사 및 선정 | 골드만삭스: 글로벌 배터리 수급 비율은 2029년 바닥을 칠 수 있고, 에너지 저장 성장은 초과분을 상쇄하기 어려울 것](https://www.cls.cn/detail/2506034) — 🇨🇳 중국 · 财联社 · 11/15 05:55
 - [화웨이, 새로운 20kW 가정용 배터리로 테슬라 파워월에 도전](https://electrek.co/2026/11/14/huawei-set-to-challenge-tesla-powerwall-with-new-20-kw-home-battery/) — 🇺🇸 미국 · Electrek · 11/15 01:25
