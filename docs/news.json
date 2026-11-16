@@ -26,6 +26,37 @@
 "sum": "KB국민은행은 미국 S&P500 지수에 연동해 수익률이 결정되는 ‘KB Star 지수연동외화예금 26-1호’를 출시했다고 16일 밝혔다. 만기는 1년으로, 만"
 },
 {
+"key": "英伟达美股盘前跌3",
+"keys": [
+"英伟达美股盘前跌3",
+"英伟达盘前跌超2美股存储芯片股盘前齐跌",
+"小鹏集团美股盘前涨超6",
+"美股盘前英伟达跌近2黄仁勋考虑重返公司存储光通信及芯片股下跌闪迪跌超5",
+"美股芯片股盘前普跌",
+"英伟达美股盘前跌2",
+"英伟达美股盘前跌17",
+"美股存储概念股盘前走低",
+"美股芯片股盘前普跌英伟达跌4台积电跌53",
+"202316美股芯片股盘前普跌英伟达跌台积电跌53",
+"195502英伟达美股盘前跌超3"
+],
+"count": 5,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "英伟达美股盘前跌3%",
+"show": "엔비디아 미국 증시는 시장 개장 전 3% 하락했습니다.",
+"source": "第一财经",
+"src_url": "https://www.yicai.com",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKMUpJS05sNlp2STJxRWZiX0hDU0loU3JxQ2wwNzZDckNzbk9MMjVxVGxSa1psTVo5S3ZOc0lFeC1WS3VMeFQ1Vk1samFTendhR2ZmNw?oc=5",
+"pub": 1794830160.0,
+"time": "11/16 20:56",
+"run": "202611161159",
+"added": 1794830362,
+"url": "https://www.yicai.com/brief/103442396.html",
+"sum": "2026/11/16 19:56 [엔비디아 미국 증시는 시장 개장 전 3% 하락] 엔비디아 미국 증시는 시장 개장 전 3% 하락했습니다.",
+"pv": "8bab9ca2"
+},
+{
 "key": "sp500선물엔비디아실적앤트로픽ipo주시하며약보합美국채금리",
 "keys": [
 "sp500선물엔비디아실적앤트로픽ipo주시하며약보합美국채금리",
@@ -49,34 +80,6 @@
 "added": 1794806398,
 "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444951",
 "sum": "16일 오전 아시아 시장에서 미국 주가지수 선물은 엔비디아의 실적 발표와 인공지능(AI) 기업 앤트로픽의 기업공개(IPO)를 앞두고 하락세를 나타냈다. 미국 국채금리도 전반적으로 올랐다.연합인포맥스 지수선물 통합화면(화면번호 6520)에 따르면 한국 시각으로 오전 10시20분 기준 E-미니 S&P500 지수 선물은 전장 대비 0.08% 내린 7,576.00에 거래됐다.기술주 중심의 E-미니 나스닥100 지수 선물은 전장 대비 0.3% 하락한 27,949.75를 나타냈다.지난주 뉴욕증시에서 다우존스30산업평균지수와 S&P500지수,"
-},
-{
-"key": "英伟达美股盘前跌3",
-"keys": [
-"英伟达美股盘前跌3",
-"英伟达盘前跌超2美股存储芯片股盘前齐跌",
-"小鹏集团美股盘前涨超6",
-"美股盘前英伟达跌近2黄仁勋考虑重返公司存储光通信及芯片股下跌闪迪跌超5",
-"美股芯片股盘前普跌",
-"英伟达美股盘前跌2",
-"英伟达美股盘前跌17",
-"美股存储概念股盘前走低"
-],
-"count": 4,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "英伟达美股盘前跌3%",
-"show": "엔비디아 미국 증시는 시장 개장 전 3% 하락했습니다.",
-"source": "第一财经",
-"src_url": "https://www.yicai.com",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKMUpJS05sNlp2STJxRWZiX0hDU0loU3JxQ2wwNzZDckNzbk9MMjVxVGxSa1psTVo5S3ZOc0lFeC1WS3VMeFQ1Vk1samFTendhR2ZmNw?oc=5",
-"pub": 1794830160.0,
-"time": "11/16 20:56",
-"run": "202611161159",
-"added": 1794830362,
-"url": "https://www.yicai.com/brief/103442396.html",
-"sum": "2026/11/16 19:56 [엔비디아 미국 증시는 시장 개장 전 3% 하락] 엔비디아 미국 증시는 시장 개장 전 3% 하락했습니다.",
-"pv": "8bab9ca2"
 },
 {
 "key": "美股本周焦點nvidia業績anthropic上市",
@@ -104,6 +107,28 @@
 "added": 1794784792,
 "url": "https://news.rthk.hk/rthk/ch/component/k2/1877915-20261116.htm",
 "sum": "지난주 미국 3대 주가지수는 모두 2% 이상 상승했다. 다우존스지수는 2주 하락세를 마감했고, S&P500과 나스닥도 4주 하락세를 마감했다. 이번 주 시장의 초점은 화요일 시장 마감 후 엔비디아의 실적에 관한 것이며, 임시 CEO인 크레스(Kress)는 목요일에 전체 직원 회의를 열 계획입니다. 엔비디아는 지난주 13% 가까이 하락해 6개월 연속 하락세를 이어갔다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "dowsp500nasdaqfuturesedgelowerasmarketsbracefornvidiaearningsanthropicipofedminu",
+"keys": [
+"dowsp500nasdaqfuturesedgelowerasmarketsbracefornvidiaearningsanthropicipofedminu",
+"sp500nasdaqfuturesslideasnvidiaearningsanthropicdebutloom"
+],
+"count": 3,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus",
+"show": "다우, S&P500, 나스닥 Futures Edge Lower As Markets Brace For 엔비디아 수익, 인류 최초 공모(IPO), 연준 회의록: SMMT, NBIS, HELP, MSTR 집중",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
+"pub": 1794794640.0,
+"time": "11/16 11:04",
+"run": "202611160246",
+"added": 1794797181,
+"url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-020421221.html",
+"sum": "엔비디아는 11월 17일 임시 CEO 콜레트 크레스의 지휘 하에 3분기 실적을 발표할 예정입니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -255,28 +280,6 @@
 "added": 1794809524,
 "url": "https://money.udn.com/money/story/5607/9881677",
 "sum": "오늘 대만 증시는 또 급락했습니다. 미국 반도체주 폭락 영향으로 젠슨 엔비디아 CEO 황 회장 사임 논란 확산과 미국 물가·금리 인상 우려가 닥치자 대만 증시는 하락세로 출발하고 매도압력이 계속 높아지며 4만3000포인트, 4만2000포인트를 연달아 돌파했다. 최종 가중지수는 2,635.04포인트(6.03%) 하락한 41,040포인트로 마감했다. 거래량은 NT$8,450억 6천만으로 증가했습니다. 이는 대만 주식 역사상 두 번째로 큰 마감점 하락폭으로, 올해 7월 17일의 2,953.71포인트 하락에 이어 두 번째입니다.",
-"pv": "8bab9ca2"
-},
-{
-"key": "dowsp500nasdaqfuturesedgelowerasmarketsbracefornvidiaearningsanthropicipofedminu",
-"keys": [
-"dowsp500nasdaqfuturesedgelowerasmarketsbracefornvidiaearningsanthropicipofedminu",
-"sp500nasdaqfuturesslideasnvidiaearningsanthropicdebutloom"
-],
-"count": 2,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus",
-"show": "다우, S&P500, 나스닥 Futures Edge Lower As Markets Brace For 엔비디아 수익, 인류 최초 공모(IPO), 연준 회의록: SMMT, NBIS, HELP, MSTR 집중",
-"source": "Yahoo Finance",
-"src_url": "https://finance.yahoo.com",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
-"pub": 1794794640.0,
-"time": "11/16 11:04",
-"run": "202611160246",
-"added": 1794797181,
-"url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-020421221.html",
-"sum": "엔비디아는 11월 17일 임시 CEO 콜레트 크레스의 지휘 하에 3분기 실적을 발표할 예정입니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -453,25 +456,150 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "輝達財報之外本周美股還有哪些觀察變數",
+"key": "nearlyafifthofthesp500istiedtothreemenwithnoclearsuccessors",
 "keys": [
-"輝達財報之外本周美股還有哪些觀察變數",
-"本周美股超刺激輝達財報川普關稅來襲5大變數一次看"
+"nearlyafifthofthesp500istiedtothreemenwithnoclearsuccessors"
 ],
-"count": 2,
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Nearly a fifth of the S&P 500 is tied to three men with no clear successors",
+"show": "S&P500의 거의 5분의 1이 뚜렷한 후임자가 없는 3명의 남성에게 묶여 있습니다.",
+"source": "The Washington Post",
+"src_url": "https://www.washingtonpost.com",
+"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWXJEMDRWY3p3dFRQc09wYzlRWTFhclRLOVVEdGhvVnR0SWg0emhNQ1lwMWp1OW1CT21GZk5OTXEwRlRvRVd1d01ONEVhcDZ6TU9zOUcweVQ1cEw3bFJHUHJzdm1kaU02bWdrNUFOaDdPaUhQajZITGwwLVQ1VFNVRTVsSjZGRnM1NlNZclpSOTdCSHc3ZlZ2czU3NEI4TlJheWRmZjlkYlZZM2plOEpoZlpYTHpLOFk?oc=5",
+"pub": 1794834179.0,
+"time": "11/16 22:02",
+"run": "202611161311",
+"added": 1794834696,
+"url": "https://www.washingtonpost.com/technology/2026/11/16/probably-biggest-fear-elon-has-why-huangs-exit-looms-over-musk/",
+"sum_tried": 1,
+"pv": "8bab9ca2"
+},
+{
+"key": "ifyouhadinvested10000inthevanguardsp500etfvooin2016hereswhatyouwouldhavetoday",
+"keys": [
+"ifyouhadinvested10000inthevanguardsp500etfvooin2016hereswhatyouwouldhavetoday"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "If You Had Invested $10,000 in the Vanguard S&P 500 ETF (VOO) in 2016, Here's What You Would Have Today",
+"show": "2016년에 Vanguard S&P500 ETF(VOO)에 10,000달러를 투자했다면 현재 얻게 될 결과는 다음과 같습니다.",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcTJSZGZmYXVlYWRnbWVLOFRCMXEycGRtWjBHZm5Ca1JZeWNIRy1Ra2hmTmFqVXRrSmNpX3dvU1lnRFp4TDNQZ2FCVXF5Vk9wSEhOeWVmOVl0Ym8zT193ZWNpbHA5VnlQbGlCWm5mazlkempXa0FaWWJMTXR1aVd1ZlMtX2lpX0RLbWFjZ3EtYklQSGJiNHBHQw?oc=5",
+"pub": 1794832980.0,
+"time": "11/16 21:43",
+"run": "202611161311",
+"added": 1794834696,
+"url": "https://finance.yahoo.com/markets/stocks/articles/had-invested-10-000-vanguard-124300986.html",
+"sum": "10년 전만 해도 Vanguard S&P500 ETF(NYSEMKT: VOO)에 10,000달러를 투자하는 것은 꽤 지루하게 들렸을 것입니다. 대신, ETF(상장지수펀드)는 사람들이 돈을 투자할 수 있는 최고의 자산 중 하나로 변했습니다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "sp500futuresfallinpremarkettradingteluscorpvaxcytelead",
+"keys": [
+"sp500futuresfallinpremarkettradingteluscorpvaxcytelead"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "S&P 500 Futures Fall in Premarket Trading; TELUS Corp., Vaxcyte Lead",
+"show": "S&P500 선물은 개장 전 거래에서 하락합니다. TELUS Corp., 백사이트 리드",
+"source": "Barron's",
+"src_url": "https://www.barrons.com",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWFc5NFdRS0l6VGdWMGctVmNmNkR5OUZTdGNSaFRWMWNDLXFwQW5yVDFqcWNrcUJyckE4NldtdHVDUm5maEZUd2tOMVVKNzVKdjlaTG43WFNyVm0xTUVNRlRud3VMSExjZWpIT2xQeU1jRVpwYnpKaHFhcDRTUWxqRERDd2dLaGZKdHI4UlVqc3p2bTdFRE1WV0VtMlpvWTVTcmpfU0IzRkdwSkk?oc=5",
+"pub": 1794832200.0,
+"time": "11/16 21:30",
+"run": "202611161311",
+"added": 1794834697,
+"url": "https://www.barrons.com/articles/s-p-500-futures-fall-in-premarket-trading-telus-corp-vaxcyte-lead-4ac44841",
+"sum_tried": 1,
+"pv": "8bab9ca2"
+},
+{
+"key": "morganstanleyraisesglobalequitiestomaximumoverweightoncheapvaluationsearningsstr",
+"keys": [
+"morganstanleyraisesglobalequitiestomaximumoverweightoncheapvaluationsearningsstr"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🌍 세계",
+"title": "Morgan Stanley raises global equities to 'maximum overweight' on cheap valuations, earnings strength",
+"show": "모건스탠리는 저렴한 밸류에이션과 실적 강세를 바탕으로 글로벌 주식을 '최대 비중 확대'로 높였습니다.",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ3J4U2xyQnlXT2xOVHU3LVlOODhtZDRaSVV5WTcwbzBERE41Sy1meWRLQk1aRThLTURuRlQtRkgwRG1JOWNmYl9sYkFOMEdnRjBaV0NvcXI5bUVwVldhZk5SMGMzRTRDcGtiMElOZ3hYbVFmbVJLZ2RRV0NRUmtwRU5xWkhJOWRzN1JxaWloUHp6cnE0WWdoYjJsRVNHRDI3dFRXTV9DaVRvQWV5dnVKTUkzZzFWZC1nY1E?oc=5",
+"pub": 1794831233.0,
+"time": "11/16 21:13",
+"run": "202611161311",
+"added": 1794834707,
+"url": "https://www.reuters.com/business/morgan-stanley-raises-global-equities-maximum-overweight-cheap-valuations-2026-11-16/",
+"sum_tried": 1,
+"pv": "8bab9ca2"
+},
+{
+"key": "聯準會官員警告人工智慧風險恐加速存款擠兌並引發金融波動",
+"keys": [
+"聯準會官員警告人工智慧風險恐加速存款擠兌並引發金融波動"
+],
+"count": 1,
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
-"title": "輝達財報之外 本周美股還有哪些觀察變數？",
-"show": "이번 주 미국 증시에서는 엔비디아의 실적 보고서 외에 또 어떤 변수를 관찰할 수 있을까?",
+"title": "聯準會官員警告人工智慧風險 恐加速存款擠兌並引發金融波動",
+"show": "연준 관계자들은 인공 지능 위험에 대해 경고하며 예금 운영을 가속화하고 금융 변동성을 유발할 수 있습니다.",
+"source": "鉅亨網",
+"src_url": "https://news.cnyes.com",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNVkk4N0pYcGlyVnprekl5N3pMQWNra2dxSGwyc2JWZERJQ3NyaXZUQmpXcDdySXZiRndzVmRVZVdsUUY1YkQtZ253bWhNbUU?oc=5",
+"pub": 1794831004.0,
+"time": "11/16 21:10",
+"run": "202611161311",
+"added": 1794834704,
+"url": "https://news.cnyes.com/news/id/6664040",
+"sum": "Barr는 밀라노에서 금융 시스템에 AI를 도입하면 시장 거래, 정보 보안, 소비자/투자자 보호를 위협할 수 있다고 경고했습니다.\n연준의 '금융 안정성 보고서'에 따르면 응답자의 87%가 AI를 주요 위험으로 꼽았고 사이버 공격, 자금 조달 및 주식 시장 하락을 우려하고 있는 것으로 나타났습니다.\n그는 AI 에이전트가 승인 없이 소매 계정을 운영하려고 시도했다고 말하며 실행 및 조작을 방지하기 위해 안전 가드레일을 설치할 것을 촉구했습니다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "堪薩斯城聯邦準備銀行總裁聯準會在降低通膨方面還有更多工作要做國際焦點國際",
+"keys": [
+"堪薩斯城聯邦準備銀行總裁聯準會在降低通膨方面還有更多工作要做國際焦點國際"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "堪薩斯城聯邦準備銀行總裁：聯準會在降低通膨方面還有更多工作要做 | 國際焦點 | 國際",
+"show": "캔자스시티 연준 총재: 연준은 인플레이션을 줄이기 위해 해야 할 일이 더 많습니다 | 국제 포커스 | 국제적인",
 "source": "經濟日報",
 "src_url": "https://money.udn.com",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RY2MwYy05cVJNRnd4VHdGMUMteXlfZk1hbHExbEdjalRrdnpyX05fcU1iUFg4NWVrdHItZk11bVBqMlJ1SVBYRV9ESTBvQ0d6aEFWN3NvMnBoQdIBX0FVX3lxTE4wLVpkcDRvOHpvYmFEMFJjNXlMck9vMEZrcWRDTDE3ZjZzOU1LRTEwTjVjYkgxU0ZERHRmTWxkTjVxR29JUjJSV01UNDhYSk5iV1FCN0xYWkVaR2RadnZR?oc=5",
-"pub": 1794732405.0,
-"time": "11/15 17:46",
-"run": "202611151237",
-"added": 1794746284,
-"url": "https://money.udn.com/money/story/6710/9880104",
-"sum": "프랭클린인베스트먼트컨설팅은 이번 주 미국 증시에 주목해야 할 주요 변수를 5가지로 꼽았다. 첫 번째는 중동 정세와 유가다. 미-이란 협상의 진전 상황, 호르무즈 해협과 홍해의 교통 상황, 유가 변동 등을 주목해야 한다. 두 번째는 연준: 연방공개시장운영위원회(FOMC) 의사록과 경제, 고용, 인플레이션, 금리 등에 대한 관료들의 견해를 주목하세요. 10월의 소매 판매, 산업 생산, 건축 허가, 신규 주택 착공 등. 넷째, 기업 실적 보고서: 이번 주 실적 보고서를 발표할 16개 기업에는 엔비디아, Intuition, Palo Alto Internet, Red Cat, Wal-Mart, Ross Department Store, Target Department Store, Home Depot, Lowe's Company, Bath & Body Works, 윌리엄스-Sonoma, Disney 등이 있습니다.",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YbnpyRHdQbjNpZlV4SS1Da211SnhjdnMzYWh4YTQ1LUVtcXRjMDVXS0dFUThHWmhmQzRubDNRRzhpS3luUWxCMm5rekQzQjV4b0xvbnhGb2RwUQ?oc=5",
+"pub": 1794830775.0,
+"time": "11/16 21:06",
+"run": "202611161311",
+"added": 1794834706,
+"url": "https://money.udn.com/money/story/5599/9881105",
+"sum": "중앙은행 인플레이션 00:00 2026/11/16 20:06:15 Bloomberg Economics x Bloomberg Economic Daily가 Bloomberg와 손을 잡고 글로벌 실시간 금융 동향, 시사 분석, 유명인 칼럼을 제공합니다. 원스톱 독서와 세상과의 동기화. [블룸버그] -- 인플레이션은 여전히 ​​과열 상태이며 정책입안자들은 해야 할 일이 더 많다고 캔자스시티 연준 총재인 제프리 슈미드가 말했습니다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "blackstonedigitalinfrastructuretrust美股盘前一度涨超8",
+"keys": [
+"blackstonedigitalinfrastructuretrust美股盘前一度涨超8"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "Blackstone Digital Infrastructure Trust美股盘前一度涨超8%",
+"show": "블랙스톤 Digital Infrastructure Trust 미국 증시는 시장 개장 전 8% 이상 상승했습니다.",
+"source": "第一财经",
+"src_url": "https://www.yicai.com",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SZG13VVM0V0RaWFF3U25wTVRJeTJSRExHVDVSLUVXNXZ5ejlHWnZ3dlhKYjdhTGhZcmIzY2F1b3ZSd2xrWUZJa0FfUTh2TVpVVTFlOA?oc=5",
+"pub": 1794830520.0,
+"time": "11/16 21:02",
+"run": "202611161311",
+"added": 1794834702,
+"url": "https://www.yicai.com/brief/103442401.html",
+"sum": "블랙스톤 Digital Infrastructure Trust의 미국 증시는 개장 전 한때 8% 이상 상승했으며 현재는 5% 이상 상승하고 있습니다. 앞서 50억 달러를 조달할 계획인 것으로 전해졌다.",
 "pv": "8bab9ca2"
 },
 {
@@ -493,6 +621,27 @@
 "added": 1794830373,
 "url": "https://money.udn.com/money/story/5599/9880890",
 "sum": "[블룸버그] -- 극심한 시장 변동성이 일주일간 이어진 후, 미국 재무부 거래자들은 금리 인상 주기 연장에 대한 시장 기대가 높아짐에 따라 금리 방향에 대한 단서를 찾기 위해 연준 관계자들의 일련의 연설과 중앙은행의 최근 회의록을 지켜볼 예정입니다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "ustechstockssettoopenloweramidnvidiafallout",
+"keys": [
+"ustechstockssettoopenloweramidnvidiafallout"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🌍 세계",
+"title": "US tech stocks set to open lower amid Nvidia fallout",
+"show": "엔비디아의 낙진으로 인해 미국 기술주가 하락할 예정",
+"source": "Financial Times",
+"src_url": "https://www.ft.com",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdHpWSGthNWNZV0Rxbm9EQTNpV0xXM3loSEJZaU5leHJjYklEMC00N29LVmFSNmc0SjlDYXI4SDhuaG9yLUt5bmJSeUY0dXdIS2M4Q3pHOUd1ZWc2OE9BM2ZyVnFjZHhBandlQUhITkV0ZXUwcTd6OGluY0dBYmhRY2lIbFU?oc=5",
+"pub": 1794827274.0,
+"time": "11/16 20:07",
+"run": "202611161311",
+"added": 1794834707,
+"url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
+"sum_tried": 1,
 "pv": "8bab9ca2"
 },
 {
@@ -534,7 +683,7 @@
 "run": "202611161159",
 "added": 1794830382,
 "url": "https://video.hket.com/video/4225902/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%90%BD%E5%8F%B0%E8%A7%B8%E7%99%BC%E3%80%8CAI%E9%87%8F%E5%8C%96%E7%B7%8A%E7%B8%AE%E3%80%8D%E3%80%81%E8%8A%AF%E7%89%87%E8%82%A1%E5%A4%A7%E6%B4%97%E7%89%8C%EF%BC%9F%E5%82%B3%E5%AF%86%E8%AC%80%E5%BE%A9%E8%81%B7%20NVDA%E6%80%A5%E8%B7%8C%E5%BE%8C%E6%92%88%E5%BA%95%E5%AE%9A%E6%8E%A5%E7%81%AB%E6%A3%92%EF%BC%9FAnthropic%E4%B8%8A%E5%B8%82%E6%95%A3%E6%88%B6%E6%94%BB%E7%95%A5%EF%BC%81%EF%BD%9C%E5%A7%9A%E6%B5%A9%E7%84%B6%20Patrick%E3%80%90%E7%BE%8E%E8%82%A1FocUS%E3%80%91?mtc=80040",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -597,6 +746,27 @@
 "run": "202611161159",
 "added": 1794830388,
 "url": "https://www.reuters.com/world/feds-barr-warns-ai-risks-financial-system-2026-11-16/",
+"sum_tried": 2,
+"pv": "8bab9ca2"
+},
+{
+"key": "ustreasuryyieldsdeclinebutfedratehikeprospectsinfocus",
+"keys": [
+"ustreasuryyieldsdeclinebutfedratehikeprospectsinfocus"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus",
+"show": "미국 국채 금리는 하락했지만 연준의 금리 인상 전망은 초점을 맞췄습니다.",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0dsM2ttY3ctRTRCZzZPRzE4aG1RNzBCeUQzUEFRbGk1VzRqZGF4Z2J6NFFXVExyX0xROFU1bWFGc3U5ZXpWR21YQmh6S096RXVFS25wcjY4QmxDTUJhdkh5eG51UjVrRVlfZHBpX0pKZkJMOFI4eVVvV1BvSWxIOWQ3aFZId2xOcXJXeGI2SlZvd0RqUUhzT2NVck1jQ3VKLUNXSEFaYXhuNzVtbm1vaQ?oc=5",
+"pub": 1794823380.0,
+"time": "11/16 19:03",
+"run": "202611161311",
+"added": 1794834698,
+"url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-decline-but-fed-rate-hike-prospects-in-focus-1257629b",
 "sum_tried": 1,
 "pv": "8bab9ca2"
 },
@@ -639,7 +809,7 @@
 "run": "202611161159",
 "added": 1794830360,
 "url": "https://www.wsj.com/finance/investing/stock-futures-slip-ahead-of-pivotal-week-for-ai-trade-with-nvidia-anthropic-in-focus-c1768330",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -723,7 +893,7 @@
 "run": "202611161159",
 "added": 1794830389,
 "url": "https://www.reuters.com/markets/europe/european-shares-hover-near-record-highs-tech-stocks-lag-2026-11-16/",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -744,7 +914,7 @@
 "run": "202611161159",
 "added": 1794830361,
 "url": "https://www.bloomberg.com/news/articles/2026-11-16/european-stocks-fluctuate-as-ai-concerns-keep-investors-on-edge",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -791,7 +961,8 @@
 {
 "key": "美股期貨英偉達股價夜盤再跌1道指期貨跌104點納指期貨跌1不斷更新",
 "keys": [
-"美股期貨英偉達股價夜盤再跌1道指期貨跌104點納指期貨跌1不斷更新"
+"美股期貨英偉達股價夜盤再跌1道指期貨跌104點納指期貨跌1不斷更新",
+"美股期貨英偉達股價跌4納指期貨跌15不斷更新"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -806,7 +977,7 @@
 "run": "202611161159",
 "added": 1794830386,
 "url": "https://inews.hket.com/article/4225700/%E3%80%90%E7%BE%8E%E8%82%A1%E6%9C%9F%E8%B2%A8%E3%80%91%E8%8B%B1%E5%81%89%E9%81%94%E8%82%A1%E5%83%B9%E5%A4%9C%E7%9B%A4%E5%86%8D%E8%B7%8C1-%E3%80%80%E9%81%93%E6%8C%87%E6%9C%9F%E8%B2%A8%E8%B7%8C104%E9%BB%9E%E3%80%81%E7%B4%8D%E6%8C%87%E6%9C%9F%E8%B2%A8%E8%B7%8C1-%EF%BC%88%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%EF%BC%89",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -848,6 +1019,27 @@
 "run": "202611161159",
 "added": 1794830389,
 "url": "https://www.reuters.com/world/india/india-wholesale-prices-rise-1229-year-on-year-october-2026-11-16/",
+"sum_tried": 2,
+"pv": "8bab9ca2"
+},
+{
+"key": "asianequitiesdropasuschipselloffspillsover",
+"keys": [
+"asianequitiesdropasuschipselloffspillsover"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Asian Equities Drop as U.S. Chip Selloff Spills Over",
+"show": "미국 칩 매도세 급증으로 아시아 주식 하락",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEVpV2tyTTZHU0JJTFJLNGQ5Y3pJbFBUUE90S1ZWQWg3ZGNzWXJVUU16cmVxb013eHdDOU9YcUU2aGdNQVpYS0lpYkJqTFptZzYyQ21oOFROLUNlRFRSU0FDNTdNMjZkQm11WmdZNlpIUkRvNVFMTXNQaDYyc3RrZjIwWnRPX0Vsblk4NFdNN2tZMmZ6S1J0RnRFa0dyb0xwV1lhYUVYNno3WEU?oc=5",
+"pub": 1794809760.0,
+"time": "11/16 15:16",
+"run": "202611161311",
+"added": 1794834698,
+"url": "https://www.wsj.com/finance/stocks/asian-equities-fall-as-u-s-chip-maker-share-selloff-spills-over-f6edc8d5",
 "sum_tried": 1,
 "pv": "8bab9ca2"
 },
@@ -855,7 +1047,8 @@
 "key": "纳斯达克100指数期货跌幅扩大至1",
 "keys": [
 "纳斯达克100指数期货跌幅扩大至1",
-"纳斯达克100指数期货下跌1"
+"纳斯达克100指数期货下跌1",
+"纳斯达克100指数期货跌超15"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -953,7 +1146,7 @@
 "run": "202611161159",
 "added": 1794830368,
 "url": "https://www.yicai.com/video/103441650.html",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -1206,6 +1399,27 @@
 "added": 1794797181,
 "url": "https://udn.com/news/story/123006/9881046",
 "sum": "뉴스 듣기 0:00 / 0:00 젠슨 황의 사임이 논란을 불러일으켰습니다! 엔비디아의 실적 보고서는 8%에 충격을 줄 수 있습니다. NT$0.09813백만은 미국 상위 50개 주식에 배치됩니다. 엔비디아는 대만 시간으로 11월 18일 이른 아침에 3분기 실적 보고서를 발표하고 기자 회견을 가질 예정입니다. 창업자인 젠슨 황이 사임한 후 처음으로 분기 실적을 발표하는 만큼 시장의 위험회피 성향이 급격히 높아졌다. 옵션시장에서는 엔비디아 주가가 최대 8%까지 등락할 수 있다고 전망하고 있다. 이러한 불확실성의 영향으로 오늘(16일) 대만 증시는 장 초반 1,450포인트 이상 하락했고, 미국 기술주도 최근 높은 변동성을 보이며 블랙록 S&P 엑설런트 50(009813)이 오늘 장 초반 소폭 하락세를 보였다. , 장중 최저가는 NT$11.35를 기록했고 오전 10시 현재 NT$11.37(지난주 종가는 NT$11.47)에 거래되어 최근 52주 최고가인 NT$11.85에서 보기 드문 되돌림 공간을 남겼습니다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "usirandealuncertaintytoweighonrupeeandbondsfedrbiratepathseyed",
+"keys": [
+"usirandealuncertaintytoweighonrupeeandbondsfedrbiratepathseyed"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "US-Iran deal uncertainty to weigh on rupee and bonds; Fed, RBI rate paths eyed",
+"show": "미국-이란 협상 불확실성으로 인해 루피와 채권에 부담; 연준, RBI 금리경로 주목",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVNxZjdMUWpxX0k5UFljV1NLWVhkTW5lMnE0SVVsRjlVNml3N1BCWmt2NTgwV0RGZkNYam1yQ1N3MXRjUHJLME5jZmY0dERCNGo4Rl9rZjdKZldwajhnbmlTQ25PRzE4WndhUEFoS29fZmFDWVczMUZfRFRRa21MektCU0luRGJiNllsTnZiRmZHVUN1R0kwTlJsM2dCN2hlYzJyOXk0bUZRX29XajFHRkhubzk?oc=5",
+"pub": 1794792720.0,
+"time": "11/16 10:32",
+"run": "202611161311",
+"added": 1794834699,
+"url": "https://www.reuters.com/world/india/us-iran-deal-uncertainty-weigh-rupee-bonds-fed-rbi-rate-paths-eyed-2026-11-16/",
+"sum_tried": 1,
 "pv": "8bab9ca2"
 },
 {
@@ -1773,7 +1987,7 @@
 "run": "202611161159",
 "added": 1794830369,
 "url": "https://m.36kr.com/p/4071919873922948",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -1795,6 +2009,27 @@
 "added": 1794789701,
 "url": "https://www.wsj.com/opinion/rational-investing-and-stock-market-bubbles-f75ed12c",
 "sum_tried": 2,
+"pv": "8bab9ca2"
+},
+{
+"key": "专访美联储前副主席科恩美联储不加息代价更高",
+"keys": [
+"专访美联储前副主席科恩美联储不加息代价更高"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "专访美联储前副主席科恩：美联储不加息代价更高",
+"show": "코헨 전 연준 부의장과의 독점 인터뷰: 연준의 금리 인상 실패는 더 많은 비용을 초래할 것입니다",
+"source": "36Kr",
+"src_url": "https://m.36kr.com",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IbURObm0zcmk2U0syaDVXb3ZzZjZ1RmpsV3dBa0p4M2ltNlB1SDctMmtLandpMUdMWVNRckhJcjlzOGlfUndxWkpmbXpHdw?oc=5",
+"pub": 1794761880.0,
+"time": "11/16 01:58",
+"run": "202611161311",
+"added": 1794834703,
+"url": "https://m.36kr.com/p/4072170578236547",
+"sum_tried": 1,
 "pv": "8bab9ca2"
 },
 {
@@ -1903,27 +2138,6 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "华尔街紧急上调利率预期美股最大风险变成美联储",
-"keys": [
-"华尔街紧急上调利率预期美股最大风险变成美联储"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "华尔街紧急上调利率预期！美股最大风险变成美联储？",
-"show": "월스트리트는 금리 기대감을 긴급히 높인다! 미국 주식이 연준이 되는 가장 큰 위험은 무엇일까요?",
-"source": "第一财经",
-"src_url": "https://www.yicai.com",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tYXVVS1FFZ2VmVF9UUFlseXZ0Z1p3dVF1cHlGb1FnRVNSVUNrVEJ4MlRhVjJhT24tdF83SXNlNGJGdnFpWnFUandicGd5SHBIV0NB?oc=5",
-"pub": 1794736142.0,
-"time": "11/15 18:49",
-"run": "202611151237",
-"added": 1794746280,
-"url": "https://www.yicai.com/news/103437262.html",
-"sum": "최근 인플레이션 보고서가 예상을 뛰어넘으면서 시장은 연준의 정책 경로를 빠르게 재평가하고 있습니다. 반면, 연준의 '과도한 힘' 리스크는 2027년 주식시장에 점점 더 심각한 위협이 되고 있다. 기관들은 집중적인 상향 조정을 단행했다. 뱅크오브아메리카, Citigroup 및 Standard Chartered Bank는 모두 최신 연구 보고서에서 Waller 연준 총재의 발언이 12월에 0.5%포인트 금리 인상의 문을 열었다고 경고했습니다. 스탠더드차타드은행의 이코노미스트 스티브 잉글랜더는 \"12월 0.5%포인트 금리 인상 가능성은 우리가 예상했던 것보다 강력하지만 아직 확인되지 않았다\"고 말했다. 이번 주 초, 크리스토퍼 월러 연준 총재는 다음 달 금리를 0.25%포인트 인상하고, 가격 압력이 가속화되면 더 큰 금리 인상을 권고했습니다.",
-"pv": "8bab9ca2"
-},
-{
 "key": "美联储加息冲击全球债市富达国际朱蕾中国债券配置价值不降反升",
 "keys": [
 "美联储加息冲击全球债市富达国际朱蕾中国债券配置价值不降反升"
@@ -1943,47 +2157,6 @@
 "url": "https://www.yicai.com/news/103373834.html",
 "sum": "지난주 연준은 3년여 만에 처음으로 0.25%포인트 금리 인상을 발표해 연방기금 금리 목표 범위를 3.75~4.00%로 높였다. 결의안 발표 이후 미국 채권시장은 '매파적 충격'에서 '신뢰회복'으로 급속히 전환됐다. 현재 미국 10년 만기 국채수익률은 5% 밑으로 떨어졌지만, 후속 추이는 여전히 불분명하다. 선진국 국채가 집단 매도세를 보이면서 중국과 미국 간 금리 역전 현상이 오랫동안 지속됐다. 월요일(9월 21일) 현재 중국 10년만기 국채수익률은 약 1.68%로, 둘 사이의 격차는 여전히 320BP(베이시스포인트)를 넘어섰다. 그렇다면 연준의 변화는 전 세계 주류 채권 자산에 어떤 영향을 미치게 될까요? 중국 채권시장의 매력이 바뀔까? 불확실성 시대에 자금유지에 영향을 미치는 핵심요소는 무엇인가? 최근 위의 뜨거운 주제에 초점을 맞춰 제일재경은 Fidelity International의 아시아 채권 부문 책임자인 Zhu Lei와 단독 인터뷰를 진행했습니다.",
 "pv": "8bab9ca2"
-},
-{
-"key": "4年前急裁員今年忙到熬通宵華爾街在大陸賺到錢了嗎",
-"keys": [
-"4年前急裁員今年忙到熬通宵華爾街在大陸賺到錢了嗎"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "4年前急裁員…今年忙到熬通宵 華爾街在大陸賺到錢了嗎？",
-"show": "4년 전에도 긴급 정리해고가 있었어요... 올해는 너무 바빠서 밤을 새웠어요. 월스트리트가 중국 본토에서 돈을 벌었나요?",
-"source": "UDN",
-"src_url": "https://udn.com",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB0dUNRR3VweHhKbGxkTUdFLXFON2ZZVDRKUzlqVlJLdlFYbng1U2V5R3VwTWdSVzJrRXNWb0FMbGcwMGFMQm5weWpZYjdLVnRP?oc=5",
-"pub": 1794732980.0,
-"time": "11/15 17:56",
-"run": "202611151237",
-"added": 1794746286,
-"url": "https://udn.com/news/story/7333/9880076",
-"sum": "2022년 11월, 홍콩 모건스탠리의 중국 기업 투자 은행 직원 수십 명이 일시적으로 사무실 46층에 호출돼 동료들이 해고되고 건물에서 나가라는 요청을 받는 모습을 지켜봤다. 당시 일부 외국인 투자자들은 중국을 '투자할 수 없는' 국가로 간주했습니다.",
-"pv": "8bab9ca2"
-},
-{
-"key": "3분증시뉴욕증시cpi경계감속이틀째약세",
-"keys": [
-"3분증시뉴욕증시cpi경계감속이틀째약세"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇰🇷 한국",
-"title": "[3분증시] 뉴욕증시, CPI 경계감 속 이틀째 약세",
-"show": "[3분증시] 뉴욕증시, CPI 경계감 속 이틀째 약세",
-"source": "연합뉴스TV",
-"src_url": "https://m.yonhapnewstv.co.kr",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55TzFwWko5TVZnS28wMUFtVThpNnRqTzYxVG9GVVRXNF8tREE1U3BQMFYwY0FTaF9tQ0Q4dnQyVW5RaTA5YUtUSEdYd0ltaUZPM2x5Rw?oc=5",
-"pub": 1794729766.0,
-"time": "11/15 17:02",
-"run": "202611151237",
-"added": 1794746279,
-"url": "https://m.yonhapnewstv.co.kr/newsFeed/7356",
-"sum": "<출연 : 권용욱 연합인포맥스 기자> 세계 증시와 우리 증시를 짚어보는 시간 '3분 증시'입니다. 연합인포맥스 권용욱 기자 나와있습니다. 먼저 간밤 미국 증시부터 정리해주시죠. [기자] 네. 간밤 뉴욕 증시는 3대 주가지수가 이틀째 동반 약세를 보였습니다. 유가는 오르고 미국 국채금리는 내리는 엇갈린 흐름이 나타났는데요. 증시는 중요한 물가 지표 발표를 기다리며 조정을 이어갔습니다. 마감가를 살펴보면 다우지수는 전장보다"
 },
 {
 "key": "statestreetpictetcalltimeoneuropesstockmarketrally",
@@ -2071,48 +2244,6 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "加密货币全线暴跌超33万人爆仓美联储加息大消息",
-"keys": [
-"加密货币全线暴跌超33万人爆仓美联储加息大消息"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "加密货币全线暴跌，超33万人爆仓！美联储，加息大消息",
-"show": "암호화폐는 전반적으로 급락했으며 330,000명 이상의 사람들이 포지션을 청산했습니다! 연준, 금리 인상 큰 소식",
-"source": "21财经",
-"src_url": "https://www.21jingji.com",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdC1ONmxYOHppXzkteXQwWWpmWUUwVjE2TmVZOHp4LVR0cUIzeHBOMEJ2Nk05SWJ0V3dGeXBPLTJnMGw0WVR4M1ZGcjZTQkUycVdrVk1PT1Q4aDdTaUlKblktbUt4NnRpUGVKX2dhQXVWUklHeWlSS1lWRldlWDJOVk1PVnlBSWNMbWF2dmFMRQ?oc=5",
-"pub": 1794714473.0,
-"time": "11/15 12:47",
-"run": "202611151237",
-"added": 1794746281,
-"url": "https://www.21jingji.com/article/20261115/herald/647531e1613e10476a8bf7231012e1ba.html",
-"sum": "암호화폐는 전반적으로 급락했습니다. 보도 시간 현재 비트코인은 거의 8%, 이더리움은 10%, 도지코인은 12%, SOL과 HYPE는 11%, XRP와 BNB는 9%, ZEC는 8% 이상 하락했습니다. 코인글래스(CoinGlass) 통계에 따르면 지난 24시간 동안 전 세계적으로 총 336,900명이 포지션을 청산했으며 청산 금액은 미화 21억 달러를 넘었다. 그 중 90% 이상의 포지션이 매수 주문으로 인해 청산되었습니다. 최근 몇 주 동안 암호화폐는 미국의 금리가 오랫동안 높은 수준으로 유지될 것이라는 시장의 기대, 미국 현물 비트코인 ​​ETF 자금의 상당한 유출, 인공 지능 개념 주식에 대한 열풍의 냉각으로 인한 위험 회피, 그리고 그에 따른 바이낸스의 60억 달러 이상의 도난에 따른 영향 등 다양한 요인으로 인해 계속 압박을 받고 있습니다. 데이터에 따르면 10월 30일부터 11월 13일까지 미국 상장 현물 비트코인 ​​ETF는 거의 미화 30억 달러에 달하는 순유출을 기록했습니다.",
-"pv": "8bab9ca2"
-},
-{
-"key": "美股点金丨持币观望货币基金净流入创六年新高反弹能走多远",
-"keys": [
-"美股点金丨持币观望货币基金净流入创六年新高反弹能走多远"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "美股点金丨持币观望！货币基金净流入创六年新高，反弹能走多远",
-"show": "미국 주식 팁丨통화를 보유하고 기다려 보세요! 통화기금 순유입 6년 만에 최고치, 반등 어디까지 갈까?",
-"source": "第一财经",
-"src_url": "https://www.yicai.com",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94U1ZYVjdEZE5PdWN2WlpaZDA5Y0FYWkdVZThKODd5WmlNQXRKbS1kVlRuRkc2TFhqQk1zNkZRSHVGbTlvMmE0R0FPc2NpdllOcmFj?oc=5",
-"pub": 1794710266.0,
-"time": "11/15 11:37",
-"run": "202611151237",
-"added": 1794746283,
-"url": "https://www.yicai.com/news/103388790.html",
-"sum": "미국 증시는 처음에는 하락했다가 이번 주에 상승했으며, 미국 채권 수익률은 계속해서 높은 수준을 유지했습니다. 9월 연방공개시장위원회(FOMC) 회의록은 매파적인 신호를 내놨다. 늦은 거래에서 기술주의 안정화는 3대 주요 주가지수가 주중 손실을 회복하는 데 도움이 되었습니다. 그러나 자본 흐름이 다시 조심스러워졌고, 위험 회피로 인해 자금 펀드 매수가 늘어났습니다. 미국 주식의 새로운 실적 시즌이 다음 주에 시작될 예정이며, 인공지능의 성과 향상이 위험 선호도에 영향을 미칠 수 있습니다. 동시에, 중동 상황과 미국 채권 수익률 추세는 계속해서 투자자들의 신경을 불안하게 할 것입니다. 가격 압박은 무시할 수 없습니다. 이번 주에 발표된 주요 데이터는 가격 압력이 여전히 높은 가운데 경제의 회복력을 계속해서 보여줍니다. 미국 ISM 서비스 PMI는 9월 54.9를 기록하며 2개월 연속 상승세를 이어갔다. 그러나 이 지수는 27개월 연속 50 호황-불황선을 넘어섰으며, 이는 서비스 기업 활동이 지속적으로 확대되고 있음을 나타냅니다. ISM 서비스 물가지수는 72.6에서 74.0으로 상승해 2022년 7월 이후 최고치를 기록했고, 112개월 연속 상승세를 이어갔다.",
-"pv": "8bab9ca2"
-},
-{
 "key": "危機に陥ってもエヌビディアはやはり買いevenincrisisnvidiastockisstillabuyweekly2026年11月15日号",
 "keys": [
 "危機に陥ってもエヌビディアはやはり買いevenincrisisnvidiastockisstillabuyweekly2026年11月15日号"
@@ -2131,28 +2262,6 @@
 "added": 1794784811,
 "url": "https://barrons.jiji.com/article/9088",
 "sum": "나쁜 소식이 나오고 조사가 모두 끝나고 새로운 리더가 선정된 새벽에는 엔비디아 <NVDA>는 반도체 제조로 돌아갈 것이다. 지난주도 그랬지만, 세계는 엔비디아의 반도체를 필요로 할 것이다. 엔비디아가 세계의 톱에 올라간 이유의 대부분은 카리스마적인 창업자인 젠슨 황씨에 의한 것이다. 후안씨가 생성 인공지능(AI)의 경이적인 대두에 큰 영향을 준 것에 이의를 제기할 자는 없다. 대규모 언어 모델(LLM)은 컴퓨팅…",
-"pv": "8bab9ca2"
-},
-{
-"key": "挺黃仁勳回任輝達ceo特斯拉執行長馬斯克也加入連署美股動態國際",
-"keys": [
-"挺黃仁勳回任輝達ceo特斯拉執行長馬斯克也加入連署美股動態國際",
-"黃仁勳低調參與接班人遴選馬斯克輝達恐流失部分關鍵交易美股動態國際"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "挺黃仁勳回任輝達 CEO 特斯拉執行長馬斯克也加入連署 | 美股動態 | 國際",
-"show": "엔비디아의 CEO로 젠슨 황의 복귀를 지원하십시오. 테슬라 CEO 머스크도 청원에 동참 | 미국 주식 뉴스 | 국제적인",
-"source": "經濟日報",
-"src_url": "https://money.udn.com",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wUmctazZkMFlBb19lMnBid0xoZjhjU2JLSUJRNlpMaUNRTUJLTGJNaXNNcTBHYlRYS2JZTE1IRXVzd2p0V0ZzOWFEaUw3OVJXVWo2TGFjeVNkbHhf?oc=5",
-"pub": 1794679531.0,
-"time": "11/15 03:05",
-"run": "202611151237",
-"added": 1794746287,
-"url": "https://money.udn.com/money/story/123398/9879202",
-"sum": "경제일보 Liu Zhongyong 작성/외신 종합 뉴스 테슬라 CEO 머스크와 엔비디아 직원 및 주주들은 젠슨 황이 엔비디아 CEO로 복귀할 것을 요구하는 청원에 동참했습니다. '젠슨과 함께하라(Stand with Jensen)'라는 제목의 청원은 보도 당시 약 9만 명의 서명을 받았다. 공동 서명 웹사이트에 나열된 서명자에는 현재 엔비디아 직원 4,800명과 기존 주주 47,000명이 포함됩니다. 다른 잘 알려진 서명자로는 유명한 월스트리트 황소인 Fundstrat의 Tom Lee와 Shopify의 CEO인 Tobi Lutke가 있습니다. 머스크는 공개 서한에서 젠슨 황이 엔비디아를 구축하는 데 33년을 투자했으며 그의 리더십과 공헌이 갑자기 교체되기보다는 공정한 대우와 적법한 절차를 밟아야 한다고 믿었음을 확인했습니다. 공동 서명자들은 또한 젠슨 황이 교체되기 전에 상당한 적법 절차 보장을 받지 못했다는 점에 의문을 제기했으며, 사건에 연루된 여성이 스파이라는 것을 증명할 증거를 아무도 그들에게 제공하지 않았다고 말했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -2508,6 +2617,27 @@
 "added": 1794610375,
 "url": "https://udn.com/news/story/7241/9877816",
 "sum": "룬타이그룹 산하 생명공학신약기업 하오딩(Haoding)이 대형 다국적 제약회사 노바티스와 협력 및 라이선스 계약을 체결했다고 어제(13일) 밝혔다. 하이딩의 다중 독점 항체-약물 접합체(ADC) 플랫폼 기술을 사용해 신약 페이로드를 탑재한 차세대 ADC 약물을 공동 개발할 예정이다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "ukdrugmakerintalkstoboostestrogenpatchsupplyinus",
+"keys": [
+"ukdrugmakerintalkstoboostestrogenpatchsupplyinus"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇺🇸 미국",
+"title": "UK Drugmaker in Talks to Boost Estrogen Patch Supply in US",
+"show": "영국 제약회사, 미국 내 에스트로겐 패치 공급 확대 논의 중",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0xkcHhjMXQ1b1hVdUYxVUlIMkFHQTFIdDJLYmZrbHdHR0hrZlpOSEpvbkpVQUxFT0lsdTJhU3JjZHpSZExmN0dKb0FUbHoyX0tRUF9RSFMtVllrUXktY0RFd2c0NlRtanVvaDVabUJXZFNHcVFWS3BwQU90bjFuZGV5aWJXSUNRVzB5ZWlkTGI3TGM2NzlSemRIZzRkRFFQbXhNTEJ3QjZJeHRNMkE?oc=5",
+"pub": 1794833100.0,
+"time": "11/16 21:45",
+"run": "202611161311",
+"added": 1794834714,
+"url": "https://www.bloomberg.com/news/articles/2026-11-16/uk-drugmaker-in-talks-to-boost-estrogen-patch-supply-in-us",
+"sum_tried": 1,
 "pv": "8bab9ca2"
 },
 {
@@ -3161,48 +3291,6 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "创新药融资近900亿元中国医药资产迎来价值重估",
-"keys": [
-"创新药融资近900亿元中国医药资产迎来价值重估"
-],
-"count": 1,
-"theme": "🧬 나스닥 바이오",
-"region": "🇨🇳 중국",
-"title": "创新药融资近900亿元，中国医药资产迎来价值重估",
-"show": "혁신적인 의약품에 대한 자금 조달이 거의 900억 위안에 달했고, 중국의 제약 자산은 재평가를 받고 있습니다.",
-"source": "21财经",
-"src_url": "https://www.21jingji.com",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd3pfaWExTlRZYmplWEtwM05PZ2NqNEg1YVM0bXh5d1hWYkF2N2dVMmYxdXNFUHpidmJTUWlCcmI2emZNc3NBUUU5aHFrS09tQ3p3dEk2WDRsOWRSNVd6RHRMRzhoeTZFYjhZLUNUR1NmWHFiN0Q3VVRCazl1UHlOZGpwTFNPRTNqRkoxdVNKRQ?oc=5",
-"pub": 1794574020.0,
-"time": "11/13 21:47",
-"run": "202611131321",
-"added": 1794576116,
-"url": "https://www.21jingji.com/article/20261113/herald/9dcaa00ffa3b07d9081506930976b7d4.html",
-"sum": "한루 21세기경제연구원 연구원 2026년에는 중국 의료·보건 분야의 대규모 자금조달 소식이 속속 들려올 것이다. 지난 1월 Jiyu Pharmaceutical은 시리즈 A 자금 조달에서 약 20억 위안을 완료했습니다. 심장대사 질환에 중점을 두고 있는 Jixing Pharmaceutical은 최대 2억 8700만 달러에 달하는 시리즈 D1 자금 조달을 완료했다고 발표했습니다. 지난 3월, 거대고리 펩타이드 약물 연구 및 개발을 전문으로 하는 Yuanshengtide는 1억 5천만 달러 규모의 시리즈 B 자금 조달을 완료하여 국제 생명공학 기금(International Biotechnology Fund), Decheng Capital, CDH Capital 및 다수의 국제 투자 기관의 참여를 유치했습니다. 성숙한 R&D 시스템을 갖춘 기업부터 첨단 기술에 초점을 맞춘 신약 플랫폼까지, 자금조달 사례가 속속 등장하고 있다. 프로젝트마다 단계가 다르지만 자금 사용은 일반적으로 임상 개발, 기술 플랫폼 반복 및 향후 상업화를 의미합니다.",
-"pv": "8bab9ca2"
-},
-{
-"key": "merckkgaaxtramrkstocklooksaboutrightonfdaapprovalnews",
-"keys": [
-"merckkgaaxtramrkstocklooksaboutrightonfdaapprovalnews"
-],
-"count": 1,
-"theme": "🧬 나스닥 바이오",
-"region": "🇺🇸 미국",
-"title": "Merck KGaA (XTRA:MRK) Stock Looks About Right On FDA Approval News",
-"show": "머크(독일) (XTRA:MRK) 주식은 FDA 승인에 적합한 것으로 보입니다.",
-"source": "Yahoo Finance Singapore",
-"src_url": "https://sg.finance.yahoo.com",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zcUtjZlZZMU9pbklZMlphN0xjMS01MTZLajZDU3ExVTJnZzFfUFJDVjR4ZlJ4UWNtRUFUZWFEVjJXeEZRLVNLUVROa3NDby1HQmtrNGR1Y25zR0kyNnI4cmh1Q3lhVDN3TFAyTWdkMnRvdW8wd19xQW9BbjBPM28?oc=5",
-"pub": 1794572273.0,
-"time": "11/13 21:17",
-"run": "202611132250",
-"added": 1794610370,
-"url": "https://sg.finance.yahoo.com/news/merck-kgaa-xtra-mrk-stock-121753850.html",
-"sum": "머크(독일) 주가는 지난 한 해 동안 탄탄하게 상승했지만, 장기적인 관점에서는 여전히 약한 5년 수익률을 기록하고 있으며, 이는 현재 가격이 사업 수익과 일치하는지 여부에 주목하고 있습니다. 새로운 제품 소식과 포트폴리오 재편이 진행 중인 가운데, 주식은 투자자들이 오늘 얼마나 많은 수익을 지불해야 하는지 자세히 살펴보게 됩니다. 공유 프리",
-"pv": "8bab9ca2"
-},
-{
 "key": "lg엔솔빠진역대최대ess입찰삼성sdi대sk온맞대결",
 "keys": [
 "lg엔솔빠진역대최대ess입찰삼성sdi대sk온맞대결",
@@ -3321,29 +3409,6 @@
 "sum": "김동명 LG에너지솔루션 사장이 2027학년도 대학수학능력시험을 앞둔 임직원 자녀들에게 격려 선물과 응원의 메시지를 전했다. 구성원뿐 아니라 가족의 중요한 순간까지 함께하는 기업문화를 조성하기 위한 취지다.LG엔솔은 김 사장이 수능을 앞둔 임직원 자녀 약 210명에게.."
 },
 {
-"key": "目标6000座宁德时代巧克力换电站预计明年翻倍",
-"keys": [
-"目标6000座宁德时代巧克力换电站预计明年翻倍",
-"宁德时代发布巧克力电池管家",
-"宁德时代发布巧克力电池管家宣布明年累计建站6000座"
-],
-"count": 3,
-"theme": "🔋 2차전지",
-"region": "🇨🇳 중국",
-"title": "目标6000座，宁德时代巧克力换电站预计明年翻倍",
-"show": "CATL 초콜릿 배터리 교환소는 6,000개를 목표로 내년에 두 배로 늘어날 것으로 예상됩니다.",
-"source": "第一财经",
-"src_url": "https://www.yicai.com",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OQUtycDIyQ2RmdkMtZFhhNWdJckdxTlc3U3QzQXJVQTduQkQ0eXNqMVd4cEE2blhhVjhTNGF0eVEwRzBZdnptSUtLcW1EN1ljMVBlaw?oc=5",
-"pub": 1794571800.0,
-"time": "11/13 21:10",
-"run": "202611131321",
-"added": 1794576128,
-"url": "https://www.yicai.com/brief/103440391.html",
-"sum": "제일재경 기자는 CATL이 2027년에 전국 297개 도시에 걸쳐 6,000개의 초콜릿 전력 교환소를 건설할 계획이며 기본적으로 중국 본토의 현급 도시와 지방자치단체를 완전히 포괄할 계획이라는 사실을 알게 되었습니다. 이에 비해 올해 말에는",
-"pv": "8bab9ca2"
-},
-{
 "key": "相次ぐリチウムイオン電池火災救済に壁日弁連が初の無料電話相談",
 "keys": [
 "相次ぐリチウムイオン電池火災救済に壁日弁連が初の無料電話相談"
@@ -3430,7 +3495,8 @@
 {
 "key": "renaulttocutupto1000whitecollarjobsinfranceaddrolesforevproductionsaysources",
 "keys": [
-"renaulttocutupto1000whitecollarjobsinfranceaddrolesforevproductionsaysources"
+"renaulttocutupto1000whitecollarjobsinfranceaddrolesforevproductionsaysources",
+"renaulttoadd1650rolesforevproductioncutwhitecollarjobssourcessay"
 ],
 "count": 1,
 "theme": "🔋 2차전지",
@@ -3445,7 +3511,7 @@
 "run": "202611161159",
 "added": 1794830417,
 "url": "https://www.reuters.com/business/world-at-work/renault-cut-up-1000-white-collar-jobs-france-add-roles-ev-production-say-sources-2026-11-16/",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -3550,7 +3616,7 @@
 "run": "202611161159",
 "added": 1794830424,
 "url": "https://markets.ft.com/data/announce/detail?dockey=600-202611160354DGAP____CORPNEWS_corporate_2435458_en-1",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -3612,7 +3678,8 @@
 "run": "202611161159",
 "added": 1794830415,
 "url": "https://www.donga.com/news/It/article/all/20261116/135033078/1",
-"sum_tried": 1
+"sum_tried": 1,
+"sum": "※2019년부터 강소특구는 지역 주도의 혁신성장을 지원하기 위해 탄생했습니다. 현재 지역 혁신 거점으로서 강소특구 내 기술 창업과 연구소기업 등이 지역 경제성장을 견인하는 유니콘 기업으로 성장하도록 성장단계별 맞춤형 기술사업화를 지원해 나가고 있습니다. IT동아는 과…"
 },
 {
 "key": "리튬값4분기들어35넘게하락k배터리수익성변수로",
@@ -4323,68 +4390,6 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "国家能源局有关负责同志就十五五新型储能实施方案答记者问",
-"keys": [
-"国家能源局有关负责同志就十五五新型储能实施方案答记者问",
-"国家发展改革委国家能源局关于印发十五五新型储能实施方案的通知",
-"国家发改委国家能源局联合印发十五五新型储能实施方案",
-"两部门联合印发十五五新型储能实施方案",
-"两部门印发十五五新型储能实施方案",
-"国家发改委国家能源局印发十五五新型储能实施方案",
-"锂电产业链周记锂电池相关出口管制暂停实施至明年1月十五五新型储能方案落地",
-"两部门进一步推动新型储能参与电能量市场",
-"两部门推动新型储能公平参与中长期现货市场",
-"两部门推动完善新型储能充放电价格机制",
-"新型储能十五五换挡从规模化转向市场化",
-"新型储能下一程从规模扩张到价值兑现",
-"早报新型储能重磅实施方案印发tcl中环中国稀土下周一复牌",
-"新型储能重磅方案发布",
-"十五五新型储能实施方案发布支持氢储能等前沿技术储备"
-],
-"count": 7,
-"theme": "⚡ 전고체배터리·ESS",
-"region": "🇨🇳 중국",
-"title": "国家能源局有关负责同志就《“十五五”新型储能实施方案》答记者问",
-"show": "국가에너지청 관계자들이 '15차 5개년 신에너지저장장치 이행계획' 기자들의 질의에 답변했다.",
-"source": "Jiemian.com",
-"src_url": "https://www.jiemian.com",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DeldFeVhtRWhETElnbnQwTEJSYmpBUEl6WU1CSktyNzdvQVZvSTFoWHVWdUIwY3NmMTY3Uk5hUGFGUTF3S2JHaGNLMHlwYWdGWl9TM3ZPN0w?oc=5",
-"pub": 1794572762.0,
-"time": "11/13 21:26",
-"run": "202611131321",
-"added": 1794576145,
-"url": "https://www.jiemian.com/article/15332228.html",
-"sum": "최근 국가발전개혁위원회와 국가에너지국은 공동으로 '15차 5개년 계획 신에너지저장 시행계획'(이하 '시행계획')을 발표했다. 기자는 국가 에너지 관리국의 관련 책임자 동지들과 인터뷰했습니다. 1. 실시계획을 발표하게 된 배경은 무엇입니까? 답변: 당 중앙위원회와 국무원은 새로운 에너지 저장 장치의 개발을 매우 중요하게 생각합니다. 신에너지저장장치 개발은 3년 연속 '정부사업보고서'에 포함됐다. '국가경제사회발전을 위한 15차 5개년 계획'에서는 신에너지저장장치 개발을 본격화할 것을 제안하고 있으며, 이는 '15차 5개년 계획'에서 신에너지저장장치 개발 방향을 제시한 바 있다.",
-"pv": "8bab9ca2"
-},
-{
-"key": "到2030年中国新型储能装机规模计划达3亿千瓦",
-"keys": [
-"到2030年中国新型储能装机规模计划达3亿千瓦",
-"两部门到2030年新能源基地配置新型储能规模约5000万6000万千瓦",
-"两部门到2030年可承担顶峰保供作用的电网侧独立新型储能规模约14亿千瓦",
-"新型储能十五五规划出炉2030年装机容量目标3亿千瓦",
-"2030年全国新型储能装机规模有望达到3亿千瓦",
-"新型储能迈入市场化新阶段十五五方案划定3亿千瓦发展目标",
-"两部门印发十五五新型储能实施方案2030年全国新型储能装机达3亿千瓦南方基金司南投顾关注储能产业的市场化转型"
-],
-"count": 5,
-"theme": "⚡ 전고체배터리·ESS",
-"region": "🇨🇳 중국",
-"title": "到2030年中国新型储能装机规模计划达3亿千瓦",
-"show": "2030년까지 중국의 새로운 에너지 저장 장치 설치 용량은 3억 킬로와트에 도달할 계획입니다.",
-"source": "中国新闻网",
-"src_url": "https://www.chinanews.com.cn",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WSkdUVURvUUE1c3NXS2IxUWxYU2diSTZYZi1VVDdOQzQzZ1cyRmpsRDlOMHlZQThSLXFlLUFoQ19zWW1mY0NpbTRvVy1GRC1NcERrNDUyQWZBVUpUTlNWZUthTWFMYUJJ?oc=5",
-"pub": 1794574910.0,
-"time": "11/13 22:01",
-"run": "202611131321",
-"added": 1794576145,
-"url": "https://www.chinanews.com.cn/cj/2026/11-13/10731719.shtml",
-"sum": "2030년까지 중국의 새로운 에너지 저장 장치 설치 용량은 3억 킬로와트에 도달할 계획입니다. 중국신사서비스, 베이징, 11월 13일(왕멍야오 기자) 중국 국가에너지국이 13일 발표한 '15차 5개년 계획 신에너지저장 실행계획'에서는 2030년까지 신에너지저장이 대규모 개발단계에서 시장지향적 발전단계로 진입해 국가 신에너지저장 설치용량이 3억 킬로와트에 달하고 평균 에너지 저장시간은 약 3시간에 달한다는 목표를 세웠다. '이중 탄소' 목표의 지도 하에 중국의 신에너지는 급속히 발전했으며 시스템 피크 조절 및 전원 공급 보장에 대한 압력은 계속해서 높아지고 있습니다. 중요한 유연성 조정 자원으로서 새로운 에너지 저장 장치는 새로운 전력 시스템을 구축하기 위한 객관적인 요구 사항이 되었습니다. 2025년 말까지 중국은 1억 3,600만 킬로와트/3억 5,100만 킬로와트 시간에 달하는 새로운 에너지 저장 장치 설치 용량을 완료하고 가동했습니다.",
-"pv": "8bab9ca2"
-},
-{
 "key": "通網股中華電結合低軌衛星與儲能打造雲林防災通訊網",
 "keys": [
 "通網股中華電結合低軌衛星與儲能打造雲林防災通訊網",
@@ -4493,6 +4498,27 @@
 "sum": "이차전지 조립장비 전문기업 엠플러스가 글로벌 기업으로부터 200억원대 전고체 배터리 장비를 수주하며 차세대 배터리 시장 공략에 속도를 내고 있다."
 },
 {
+"key": "cop31聚焦资金问题未来五年新型储能方案印发碳中和周报",
+"keys": [
+"cop31聚焦资金问题未来五年新型储能方案印发碳中和周报"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇨🇳 중국",
+"title": "COP31聚焦资金问题；未来五年新型储能方案印发｜碳中和周报",
+"show": "COP31은 자금 문제에 중점을 둡니다. 향후 5년간 새로운 에너지 저장 솔루션 출시 | 탄소 중립 주간 보고서",
+"source": "21财经",
+"src_url": "https://www.21jingji.com",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTmJlWG9ieDhuMGlEVmp4UmdYYmZHYnNuVHBxbk14ajBscHBueXA0aUhCQW5oakhEVDdTQkNwdThOLTl6STZ3RTZqN1pYUUtjXzBuOHJNUTNMVU9PS1ZzYkFta2l1VWVxRmh2cXdVNUdrb21fbF9aV0RRMzBVU1U0Q08tNHU0REUtMkFwUExNWQ?oc=5",
+"pub": 1794832200.0,
+"time": "11/16 21:30",
+"run": "202611161311",
+"added": 1794834730,
+"url": "https://www.21jingji.com/article/20261116/herald/e198303f2eb48ae188bd2b8ebe707a4c.html",
+"sum": "21세기 비즈니스 헤럴드 기자 레이예(Lei Ye)와 리더상위(Li Deshangyu)가 베이징에서 보도했습니다. Carbon Neutral Weekly는 탄소 중립 정책, 지역 역학, 기업 관행 등을 포함한 \"이중 탄소\" 분야의 최신 최첨단 개발에 중점을 둡니다. 매주 탄소 중립 분야의 주요 이벤트를 선택하고 논평하여 시의적절하고 포괄적인 탄소 중립 정보 플랫폼을 구축할 것입니다. 1. 탄소 중립 정책 1. COP31이 진행되는 동안 글로벌 기후 거버넌스는 이행을 향해 나아가고 있습니다. 지난 11월 11일 터키 안탈리아에서 열린 제31차 유엔기후변화협약 당사국총회(COP31)가 실질적인 협의 단계에 돌입했다. 올해는 파리협정 이행을 위한 새로운 10년이 시작되는 해이며, 글로벌 기후 거버넌스는 약속에서 이행까지 중요한 전환점에 있습니다. 회의 의장국인 터키는 '대화, 합의, 행동'이라는 회의 슬로건을 제시하고, 다자간 협상 과정의 보완책으로 '전력화', '폐기물 제로' 등 자발적 행동 계획을 내놨다.",
+"pv": "8bab9ca2"
+},
+{
 "key": "194317新型储能方案落地强化绿电板块成长逻辑绿色电力etf易方达562960标的指数涨近1",
 "keys": [
 "194317新型储能方案落地强化绿电板块成长逻辑绿色电力etf易方达562960标的指数涨近1"
@@ -4510,7 +4536,7 @@
 "run": "202611161159",
 "added": 1794830439,
 "url": "https://www.cls.cn/detail/2535669",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -5061,28 +5087,6 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "新型储能迈入市场化新阶段十五五方案划定3亿千瓦发展目标",
-"keys": [
-"新型储能迈入市场化新阶段十五五方案划定3亿千瓦发展目标",
-"推动新型储能进入市场化发展阶段锐财经经济科技"
-],
-"count": 1,
-"theme": "⚡ 전고체배터리·ESS",
-"region": "🇨🇳 중국",
-"title": "新型储能迈入市场化新阶段，“十五五”方案划定3亿千瓦发展目标",
-"show": "새로운 에너지 저장 장치는 새로운 시장화 단계에 진입했으며 '15차 5개년 계획'에서는 3억 kW의 개발 목표를 설정했습니다.",
-"source": "第一财经",
-"src_url": "https://www.yicai.com",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lRGtSTWVacDBnNU5TX2pnZWpyTzV6NmhqbmVMMTNlWnZ0UkR4RHd3cm92eTlfR2FPc3hvMFRmNUxaNlpibDEwS0pFTjZuaUJUQUVN?oc=5",
-"pub": 1794574403.0,
-"time": "11/13 21:53",
-"run": "202611131321",
-"added": 1794576149,
-"url": "https://www.yicai.com/news/103440392.html",
-"sum": "11월 13일 국가발전개혁위원회와 국가에너지청은 공동으로 '15차 5개년 계획 신에너지저장 구현계획'(이하 '계획')을 발표했는데, 이 계획에서는 2030년까지 신에너지저장장치가 대규모 개발단계에서 시장지향적 개발단계로 진입할 것임을 명시했다. 국가 신에너지 저장장치 설치 용량은 3억kW에 달하고, 평균 에너지 저장 시간은 약 3시간이 될 전망이다. \"계획\"은 \"15차 5개년 계획\" 기간 동안 신에너지 저장 장치가 주로 시스템의 \"소스, 그리드 및 부하\" 측면의 일중 조정 요구를 충족하고, 신에너지 소비 촉진, 전력 공급 보장, 전력 시스템의 안전하고 안정적인 운영 지원을 위한 신에너지 저장 장치의 적용을 심화하고, 혁신적인 응용 시나리오를 확장하고 신에너지의 비전기적 활용 실천을 지원한다는 전체 요구 사항을 명시합니다. 동시에, 제도적 메커니즘과 비즈니스 모델의 혁신을 가속화해야 하며, 새로운 에너지 저장 장치의 가치를 합리적으로 반영하는 전력 시장 메커니즘과 가격 메커니즘이 더욱 완전해지고, 새로운 에너지 저장 장치의 안정적인 용량 가치가 더 잘 반영될 수 있습니다.",
-"pv": "8bab9ca2"
-},
-{
 "key": "효성중공업sk텔레콤과ai데이터센터전력인프라구축맞손",
 "keys": [
 "효성중공업sk텔레콤과ai데이터센터전력인프라구축맞손",
@@ -5168,6 +5172,28 @@
 "pv": "8bab9ca2"
 },
 {
+"key": "光寶科參與electronica2026電子展聚焦ai電力網通edgeai與輝達mgx架構",
+"keys": [
+"光寶科參與electronica2026電子展聚焦ai電力網通edgeai與輝達mgx架構",
+"光寶科秀ai電力技術布局800vdc與edgeai"
+],
+"count": 2,
+"theme": "🏭 AI 전력",
+"region": "🇹🇼 대만",
+"title": "光寶科參與electronica 2026電子展 聚焦AI電力、網通、Edge AI與輝達MGX架構",
+"show": "Lite-On은 AI 파워, Netcom, Edge AI 및 엔비디아 MGX 아키텍처에 초점을 맞춘 electronica 2026에 참여합니다.",
+"source": "鉅亨網",
+"src_url": "https://news.cnyes.com",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfcGhBUnV5QlhPbHQtaW9xQ1dmQXBsUEh3M1Zkd0JSVU1MOVFPOUtKSXJCSEZZTE8tTUlNS3MwdTZsM3BkdHhRbEhQUkNPdTA?oc=5",
+"pub": 1794798692.0,
+"time": "11/16 12:11",
+"run": "202611160519",
+"added": 1794806462,
+"url": "https://news.cnyes.com/news/id/6663547",
+"sum": "Lite-On은 AIDC 파워와 Edge AI에 초점을 맞춰 electronica 2026에 등장할 예정입니다.\n110kW, 72kW Power Shelf, 800VDC 아키텍처 등 AI 전력 솔루션을 전시했습니다.\n또한 지상 스마트 애플리케이션을 강화하기 위해 엔터프라이즈 및 엣지 전력, 5G, O-RAN, FWA, AI 카메라 및 AI Box를 홍보합니다.",
+"pv": "8bab9ca2"
+},
+{
 "key": "搭上美國兩黨合推法案利多電力能源etf有錢景",
 "keys": [
 "搭上美國兩黨合推法案利多電力能源etf有錢景"
@@ -5208,6 +5234,48 @@
 "added": 1794659885,
 "url": "https://www.etoday.co.kr/news/view/2648134",
 "sum": "한·체코 산업장관 화상 면담두코바니 원전사업 이행 논의양국 장관 월 1회 소통 추진▲김정관 산업통상부 장관이 9일 국회 산업통상자원중소벤처기업위"
+},
+{
+"key": "中東ai資料中心搶電遇瓶頸變壓器交期長達4年沙國2030年再生能源目標恐難達成",
+"keys": [
+"中東ai資料中心搶電遇瓶頸變壓器交期長達4年沙國2030年再生能源目標恐難達成"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇹🇼 대만",
+"title": "中東AI資料中心搶電遇瓶頸！變壓器交期長達4年沙國2030年再生能源目標恐難達成",
+"show": "중동 AI 데이터센터, 전력 공급 병목 현상에 직면하다! 변압기 배송에 최대 4년이 소요되어 사우디아라비아가 2030년 재생 에너지 목표를 달성하기가 어렵습니다.",
+"source": "鉅亨網",
+"src_url": "https://news.cnyes.com",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qTDJLN21hQW9QVG5rNUlVbG0xVjBQbVBxOWg4Y1p3dXgzeGFhTTRLM0VxcG1nelE1bzBpT2JrNzdyLVlOZGZ2Y2pNYlZBcFE?oc=5",
+"pub": 1794834011.0,
+"time": "11/16 22:00",
+"run": "202611161311",
+"added": 1794834739,
+"url": "https://news.cnyes.com/news/id/6664275",
+"sum": "중동 AI 데이터센터, 전력 공급 병목 현상에 직면하다! 변압기 납품 기간은 최장 4년으로, 사우디아라비아의 2030년 재생에너지 목표는 달성하기 어려울 수 있다. 유애널라이즈 2026년 11월 16일 (유애널라이즈/산업데이터센터 보고서) ⸺ 중동 국가들이 AI 데이터센터와 신재생에너지에 대한 투자를 가속화하고 있지만, 전력기기 납품 시간이 건설 병목 현상이 되고 있다. 연구기관인 글로벌인피니티랩스는 사우디아라비아의 초고압 변압기 납품 기간이 최대 3~4년이라고 지적했다. 발전소 자금이 마련되더라도 장비가 예정대로 배송되지 않을 수 있으며, 이로 인해 새로운 전력이 그리드에 연결되는 시간이 느려질 수 있습니다. 사우디아라비아는 2030년 재생에너지 설비용량을 130GW로 늘릴 계획이지만, 2025년 말 기준 실제 가동용량은 12.3GW에 불과해 목표에 비해 117.7GW가 부족하다. 예정대로 목표를 달성하려면 향후 5년 동안 매년 평균 23.5GW를 추가해야 하는데, 이는 현재 건설 속도보다 훨씬 높은 수준이다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "blackstonereittobuyamazondatacentersin5billiondeal",
+"keys": [
+"blackstonereittobuyamazondatacentersin5billiondeal"
+],
+"count": 1,
+"theme": "🏭 AI 전력",
+"region": "🇺🇸 미국",
+"title": "Blackstone REIT to Buy Amazon Data Centers in $5 Billion Deal",
+"show": "블랙스톤 REIT, 50억 달러 규모의 거래로 아마존 데이터 센터 구매",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONmdvREdrMXNHU3B6VVdldWdxVWswUnNjeXU4T2xGTlFfeDkyRzg0YkRweTdtZnhJNEZQcDRIMkR0NEw4Zk5QVzFfVllmMlI2OHFZeFRUMnVLRzIzSUY1U0RVSnZma2lZQjZORXIxSjZYck1fMExpMDVncXRka0dPby1tSW14SU40eDUtTnR2SmU2N0lNN243MkRlM01xQmpJeGtXT2wwelpPcXhET1lnQg?oc=5",
+"pub": 1794830037.0,
+"time": "11/16 20:53",
+"run": "202611161311",
+"added": 1794834737,
+"url": "https://www.bloomberg.com/news/articles/2026-11-16/blackstone-reit-to-buy-amazon-data-centers-in-5-billion-deal",
+"sum_tried": 1,
+"pv": "8bab9ca2"
 },
 {
 "key": "泰國布吉知名遊客區致命火釀幾十人死傷疑電單車地舖變壓器爆炸導致楊潔儀報道",
@@ -5311,7 +5379,7 @@
 "run": "202611161159",
 "added": 1794830455,
 "url": "https://www.bloomberg.com/news/articles/2026-11-16/norway-s-imports-hit-record-on-data-center-equipment-cars",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -5353,7 +5421,7 @@
 "run": "202611161159",
 "added": 1794830454,
 "url": "https://www.news1.kr/industry/general-industry/6355657",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "中部電力pg鉄塔作業者の救助訓練地元消防と組み時間短縮目指す",
@@ -5395,27 +5463,6 @@
 "added": 1794809555,
 "url": "https://www.fnnews.com/news/202611161434110593",
 "sum": "한국전력은 지난 11~12일 국가공무원인재개발원 주최로 열린 '2026 공공 HRD 콘테스트' 교육과정 분야에서 대통령상을 받았다고 16일 밝혔다. 올해 44회째인 이 대회는 교수학습, 교육과정, 연구개발 3개 분야로 나뉜다."
-},
-{
-"key": "光寶科參與electronica2026電子展聚焦ai電力網通edgeai與輝達mgx架構",
-"keys": [
-"光寶科參與electronica2026電子展聚焦ai電力網通edgeai與輝達mgx架構"
-],
-"count": 1,
-"theme": "🏭 AI 전력",
-"region": "🇹🇼 대만",
-"title": "光寶科參與electronica 2026電子展 聚焦AI電力、網通、Edge AI與輝達MGX架構",
-"show": "Lite-On은 AI 파워, Netcom, Edge AI 및 엔비디아 MGX 아키텍처에 초점을 맞춘 electronica 2026에 참여합니다.",
-"source": "鉅亨網",
-"src_url": "https://news.cnyes.com",
-"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfcGhBUnV5QlhPbHQtaW9xQ1dmQXBsUEh3M1Zkd0JSVU1MOVFPOUtKSXJCSEZZTE8tTUlNS3MwdTZsM3BkdHhRbEhQUkNPdTA?oc=5",
-"pub": 1794798692.0,
-"time": "11/16 12:11",
-"run": "202611160519",
-"added": 1794806462,
-"url": "https://news.cnyes.com/news/id/6663547",
-"sum": "Lite-On은 AIDC 파워와 Edge AI에 초점을 맞춰 electronica 2026에 등장할 예정입니다.\n110kW, 72kW Power Shelf, 800VDC 아키텍처 등 AI 전력 솔루션을 전시했습니다.\n또한 지상 스마트 애플리케이션을 강화하기 위해 엔터프라이즈 및 엣지 전력, 5G, O-RAN, FWA, AI 카메라 및 AI Box를 홍보합니다.",
-"pv": "8bab9ca2"
 },
 {
 "key": "hd현대발전부터전력망까지북미에너지시장공략",
@@ -6011,6 +6058,28 @@
 "pv": "8bab9ca2"
 },
 {
+"key": "友智識數字辦人形機械人友智寶跳舞打功夫老友記眉飛色舞讚叻",
+"keys": [
+"友智識數字辦人形機械人友智寶跳舞打功夫老友記眉飛色舞讚叻",
+"數字辦免費借出人形機械人友智寶於社區表演跳舞功夫"
+],
+"count": 2,
+"theme": "🤖 로봇",
+"region": "🇭🇰 홍콩",
+"title": "友智識︱數字辦人形機械人「友智寶」跳舞打功夫 老友記眉飛色舞讚叻",
+"show": "Youzhishi︱디지털 휴머노이드 로봇 'Youzhobao'가 춤을 추며 쿵푸를 선보이고, 친구들은 기쁨과 칭찬으로 춤을 춥니다.",
+"source": "星島頭條",
+"src_url": "https://www.stheadline.com",
+"link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQU09GdG1oMGR1TE5QWl9DVUlsblRyZTRmc2RSN28yLXM0a2FkcmUybFBOWFVxUmotMUs4MXhBTW9TTllWNktkYjl3RzJLZkVhamdMLWdqRE1iUmdfUHhRZFJ4c3hwRWU4cmx0b1hxaWpaNFh3cUo4Q3VueWVndU14Q21EcFZHcDJZWWlZUlBkbnMxTE05U1NBMnBNNDdlQXlaTE15U1lLWEFPLXc3RFoxbjZGeVE2bUd1aXhFNHJjWlhvU0lETEt3aTBnOUY0U2NIUXQybWU0VHByaFJJdGxLR202RVF5d1NDamltU1ZpcFpZS0pxUC1wQ2tWN0RBS0VZcVJPTnJRYzk3THpHdUczZ2I2U0RybUhubVc1TnNCX3NhRFZscS1sdmEtb2I3QVVHR19NcUdLaHRwdVUxemp3UUhsVF8tVXVmeURGT2prNkRmVExGajFHc3hHSkJONDQ5NmQwX29qYmU4MzdpdGg2WVdLUTJ4bW4xQ09sbFhlLUlVcU9HNUVMYmJ5NjZ1TGpzYUNlSkFjb1BObEp0ZU9BaFl3SHRTX3M?oc=5",
+"pub": 1794827048.0,
+"time": "11/16 20:04",
+"run": "202611161159",
+"added": 1794830486,
+"url": "https://www.stheadline.com/society/3637773/%E5%8F%8B%E6%99%BA%E8%AD%98%E6%95%B8%E5%AD%97%E8%BE%A6%E4%BA%BA%E5%BD%A2%E6%A9%9F%E6%A2%B0%E4%BA%BA%E5%8F%8B%E6%99%BA%E5%AF%B6%E8%B7%B3%E8%88%9E%E6%89%93%E5%8A%9F%E5%A4%AB-%E8%80%81%E5%8F%8B%E8%A8%98%E7%9C%89%E9%A3%9B%E8%89%B2%E8%88%9E%E8%AE%9A%E5%8F%BB",
+"sum": "디지털오피스는 오늘(16일) '친절한 지식' 커뮤니티 디지털 포용 프로그램 2차와 '로봇을 커뮤니티 속으로' 시범 프로그램 론칭식을 가졌다. Sun Dong 혁신기술산업국 국장은 더 많은 사람들에게 혜택을 제공하기 위해 서비스 규모가 확대될 것이라고 말했습니다. 디지털 오피스와 사회혁신기금은 2024년에 2년간의 '친절한 지식' 디지털 포용 프로그램을 시작하여 노인과 기타 도움이 필요한 사람들이 디지털 기술을 습득할 수 있도록 지원합니다. 여기에는 스마트폰 및 디지털 서비스 사용을 돕기 위한 지원 지점 설정, 디지털 서비스 및 기술 과정 설정, 온라인 기술 학습 플랫폼 설정 등이 포함됩니다. 우정 지식 프로젝트 기술 및 산업 혁신을 통해 커뮤니티 디지털 지원 포인트가 두 배로 증가했습니다.",
+"pv": "8bab9ca2"
+},
+{
 "key": "153yearoldbuildertaiseisetsupfundtoinvestinaiandrobotics",
 "keys": [
 "153yearoldbuildertaiseisetsupfundtoinvestinaiandrobotics",
@@ -6030,6 +6099,27 @@
 "added": 1794789755,
 "url": "https://www.bloomberg.com/news/articles/2026-11-15/taisei-launches-150-million-ai-robotics-fund-with-pegasus-tech-ventures",
 "sum_tried": 2,
+"pv": "8bab9ca2"
+},
+{
+"key": "10月工业机器人集成电路产量增速均超20新动能支撑作用继续提升",
+"keys": [
+"10月工业机器人集成电路产量增速均超20新动能支撑作用继续提升"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇨🇳 중국",
+"title": "10月工业机器人、集成电路产量增速均超20% 新动能支撑作用继续提升",
+"show": "10월에는 산업용 로봇과 집적회로 생산 증가율이 20%를 넘어섰고, 신운동에너지의 지원 역할도 계속해서 높아졌다.",
+"source": "21财经",
+"src_url": "https://www.21jingji.com",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSm9ZOW8yRHppZVpTWFN6dDNHbzQ3MjQ3M2dOT1NDTWxpSjZjRTVyUW9rQXN1cGxxU3NmS2tVdHNSajVhTHhyTnFKR1hRM25LbmF2c1oyZFlHTDZKaWFaOXFaY2FraTRBb1ZYRlMyVDgxbGE0QVYzS0NRbnhtaTZJSXB5OVRheWxWbHp1ZFZZMA?oc=5",
+"pub": 1794829920.0,
+"time": "11/16 20:52",
+"run": "202611161311",
+"added": 1794834748,
+"url": "https://www.21jingji.com/article/20261116/herald/35a348029c0464373fc004d7f9ceb32c.html",
+"sum": "1월부터 10월까지 첨단제조와 스마트제조로 대표되는 새로운 원동력은 산업부가가치가 일정 규모 이상으로 성장하는 데 50% 이상 기여했다. 10월에는 첨단기술제품과 '3대 신제품' 수출액이 전년 동기 대비 50% 이상 증가했다. 3D 프린팅 장비, 리튬이온 배터리, 산업용 로봇의 생산량은 전년 동기 대비 각각 85.9%, 30.0%, 26.0% 증가했다. 국가통계국이 16일 발표한 국가경제실적에 따르면, 다양한 분야에서 새로운 생산력 배양이 가속화되고, 새로운 운동에너지의 추진력이 지속적으로 강화되며, 국가경제 운영이 전반적으로 안정되고 새롭고 더 나은 성과를 향해 발전하고 있다. 새로운 운동에너지의 축적은 컴퓨팅 파워에 대한 수요에 새로운 기회를 가져왔습니다. \"기술 혁신과 산업 혁신이 깊이 통합되고, 새로운 과학 기술 성과가 지속적으로 나타나고 있으며, 새로운 산업, 새로운 비즈니스 형식 및 신제품이 더 나은 방향으로 개발되고 있으며, 전통 산업의 변화와 업그레이드 속도가 가속화되고, 디지털화와 지능이 통합 및 발전하고 있습니다. 이는 고품질 경제 발전을 강력하게 지원했습니다.\" 중국 국가통계국 국민경제종합통계국 대변인이자 수석경제학자인 푸 링후이(Fu Linghui)는 10월 경제 성과를 분석하면서 이렇게 말했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -6054,30 +6144,31 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "友智識數字辦人形機械人友智寶跳舞打功夫老友記眉飛色舞讚叻",
+"key": "發不出薪水卻借15億買海景豪宅軍用機器人新創ceo再爆前科累累",
 "keys": [
-"友智識數字辦人形機械人友智寶跳舞打功夫老友記眉飛色舞讚叻"
+"發不出薪水卻借15億買海景豪宅軍用機器人新創ceo再爆前科累累"
 ],
 "count": 1,
 "theme": "🤖 로봇",
-"region": "🇭🇰 홍콩",
-"title": "友智識︱數字辦人形機械人「友智寶」跳舞打功夫 老友記眉飛色舞讚叻",
-"show": "Youzhishi︱디지털 휴머노이드 로봇 'Youzhobao'가 춤을 추며 쿵푸를 선보이고, 친구들은 기쁨과 칭찬으로 춤을 춥니다.",
-"source": "星島頭條",
-"src_url": "https://www.stheadline.com",
-"link": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQU09GdG1oMGR1TE5QWl9DVUlsblRyZTRmc2RSN28yLXM0a2FkcmUybFBOWFVxUmotMUs4MXhBTW9TTllWNktkYjl3RzJLZkVhamdMLWdqRE1iUmdfUHhRZFJ4c3hwRWU4cmx0b1hxaWpaNFh3cUo4Q3VueWVndU14Q21EcFZHcDJZWWlZUlBkbnMxTE05U1NBMnBNNDdlQXlaTE15U1lLWEFPLXc3RFoxbjZGeVE2bUd1aXhFNHJjWlhvU0lETEt3aTBnOUY0U2NIUXQybWU0VHByaFJJdGxLR202RVF5d1NDamltU1ZpcFpZS0pxUC1wQ2tWN0RBS0VZcVJPTnJRYzk3THpHdUczZ2I2U0RybUhubVc1TnNCX3NhRFZscS1sdmEtb2I3QVVHR19NcUdLaHRwdVUxemp3UUhsVF8tVXVmeURGT2prNkRmVExGajFHc3hHSkJONDQ5NmQwX29qYmU4MzdpdGg2WVdLUTJ4bW4xQ09sbFhlLUlVcU9HNUVMYmJ5NjZ1TGpzYUNlSkFjb1BObEp0ZU9BaFl3SHRTX3M?oc=5",
-"pub": 1794827048.0,
-"time": "11/16 20:04",
-"run": "202611161159",
-"added": 1794830486,
-"url": "https://www.stheadline.com/society/3637773/%E5%8F%8B%E6%99%BA%E8%AD%98%E6%95%B8%E5%AD%97%E8%BE%A6%E4%BA%BA%E5%BD%A2%E6%A9%9F%E6%A2%B0%E4%BA%BA%E5%8F%8B%E6%99%BA%E5%AF%B6%E8%B7%B3%E8%88%9E%E6%89%93%E5%8A%9F%E5%A4%AB-%E8%80%81%E5%8F%8B%E8%A8%98%E7%9C%89%E9%A3%9B%E8%89%B2%E8%88%9E%E8%AE%9A%E5%8F%BB",
-"sum": "디지털오피스는 오늘(16일) '친절한 지식' 커뮤니티 디지털 포용 프로그램 2차와 '로봇을 커뮤니티 속으로' 시범 프로그램 론칭식을 가졌다. Sun Dong 혁신기술산업국 국장은 더 많은 사람들에게 혜택을 제공하기 위해 서비스 규모가 확대될 것이라고 말했습니다. 디지털 오피스와 사회혁신기금은 2024년에 2년간의 '친절한 지식' 디지털 포용 프로그램을 시작하여 노인과 기타 도움이 필요한 사람들이 디지털 기술을 습득할 수 있도록 지원합니다. 여기에는 스마트폰 및 디지털 서비스 사용을 돕기 위한 지원 지점 설정, 디지털 서비스 및 기술 과정 설정, 온라인 기술 학습 플랫폼 설정 등이 포함됩니다. 우정 지식 프로젝트 기술 및 산업 혁신을 통해 커뮤니티 디지털 지원 포인트가 두 배로 증가했습니다.",
+"region": "🇹🇼 대만",
+"title": "發不出薪水卻借1.5億買海景豪宅！軍用機器人新創CEO再爆前科累累",
+"show": "월급도 못 갚고 1억 5천만 달러 빌려 바다 전망 맨션 구입! 신생 군용로봇 스타트업 CEO, 전과자 있다",
+"source": "TVBS新聞網",
+"src_url": "https://news.tvbs.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yd0prZnVUTFJ6TG50ZXhXN3VWNERCYjl6M0xHMzIzMmpGVmYxQldzRk1EeGtOcUdfS3JGaWx3MThqdGdYX2VTaUtjdHhfUlk?oc=5",
+"pub": 1794823320.0,
+"time": "11/16 19:02",
+"run": "202611161311",
+"added": 1794834751,
+"url": "https://news.tvbs.com.tw/world/4051451",
+"sum": "군용 휴머노이드 로봇 스타트업 기업 미래산업재단(이하 파운데이션)이 금융위기를 맞았다. 직원들에게 임금을 지급하지 않았을 뿐만 아니라 CEO도 질문을 받았습니다. 회사 자금이 부족하던 시절 460만달러(약 1억5000만달러)를 빌려 캘리포니아 맨션을 구입해 내부 직원들의 불만이 컸다. 이제 회사가 새로운 자본 투입을 모색하면서 운영 및 재무 거버넌스 문제도 주목을 받고 있습니다.",
 "pv": "8bab9ca2"
 },
 {
 "key": "레인보우로보틱스3분기매출139억원적자폭커져",
 "keys": [
-"레인보우로보틱스3분기매출139억원적자폭커져"
+"레인보우로보틱스3분기매출139억원적자폭커져",
+"레인보우로보틱스3분기적자확대매출은30증가"
 ],
 "count": 1,
 "theme": "🤖 로봇",
@@ -6154,7 +6245,7 @@
 "run": "202611161159",
 "added": 1794830488,
 "url": "https://news.now.com/home/local/player?newsId=669771",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -6503,6 +6594,27 @@
 "added": 1794784909,
 "url": "https://www.nikkei.com/prime/tech-foresight/article/DGXZQOUC1217S0S6A111C2000000",
 "sum": "오므론이 개발하는 쌍팔 3손가락의 상반신 로봇은 투명하고 얇은 마이크로플레이트도 잡는 오므론이 창약 분야의 실험 자동화를 위해 쌍팔 3손가락 손의 상반신 로봇(세미휴마노이드) 등을 개발하고 있다. 주로 표적 분자를 탐색하는 실험 현장을 상정하고 전용 지그를 필요로 하지 않는 것이 특징이다. 인간과의 공존을 전제로 환경 변화가 많이 좁은 실험실이라도 쉽게 도입할 수 있는 AI(인공지능) 로봇의 실현을 노린다. 이 기사의 3개의 포인트 ・쌍팔 3손가락의 상반신 로봇 등장, 위치 결정 지그 불필요로 투명 물체를 파지 ・작업마다 역할 분담, 구상 바퀴의 이동형 핸드 로봇은 미닫이 문도 자랑",
+"pv": "8bab9ca2"
+},
+{
+"key": "ceo借460万美元购豪宅人形机器人初创企业遭欠薪危机",
+"keys": [
+"ceo借460万美元购豪宅人形机器人初创企业遭欠薪危机"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇨🇳 중국",
+"title": "CEO借460万美元购豪宅，人形机器人初创企业遭欠薪危机",
+"show": "CEO, 고급 주택 구입 위해 460만 달러 대출, 휴머노이드 로봇 스타트업 임금 위기 직면",
+"source": "36Kr",
+"src_url": "https://www.36kr.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQbWtCNWZiOEZQNGtxYXA5V2poVVBtTjc0SmFxZDZyelBmY2JhZE91NG41TTBSN2phaS1hLWU2MVhRX2Fwb2RrWWtpbGU5azhG?oc=5",
+"pub": 1794771540.0,
+"time": "11/16 04:39",
+"run": "202611161311",
+"added": 1794834749,
+"url": "https://www.36kr.com/p/4072064387143305",
+"sum": "CEO, 맨션 구입 위해 460만달러 대출, 휴머노이드 로봇 스타트업이 급여 위기에 직면했다. 미국의 휴머노이드 로봇 기업인 파운데이션 퓨처 인더스트리즈(Foundation Future Industries)가 지난 10월 30일 급여일을 놓쳤다. CNBC는 11월 14일 이 문제에 정통한 관계자를 인용해 보도 당시 기준으로 관련 급여가 아직 지급되지 않았다고 보도했다. 일부 직원들을 더욱 불만족스럽게 만든 것은 공동 창업자이자 CEO인 Sankaet Pathak이 집을 구입하기 위해 회사로부터 460만 달러를 빌렸다는 사실이었습니다. 공개 기록에 따르면 그의 이름을 딴 회사는 2025년 10월 캘리포니아 주 소살리토에 있는 저택을 같은 가격에 구입했습니다. CNBC에 따르면 Pathak은 재단의 단독 이사이며 회사의 대다수 지분을 보유하고 있습니다. 대변인은 인터뷰 질문에 응답하지 않았습니다.",
 "pv": "8bab9ca2"
 },
 {
