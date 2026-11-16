@@ -1,6 +1,6 @@
 # 📰 투자 테마 뉴스
 
-업데이트 11/16 14:31 · 최근 3일
+업데이트 11/16 14:32 · 최근 3일
 
 
 ## 🚨 미국 속보
@@ -63,7 +63,7 @@
 - [연준의 금융 안정성 보고서는 AI 관련 위험에 대해 경고합니다. 데이터 센터 건설에 사용되는 전방 임대 및 백업 보증 규모는 약 3조 달러에 달합니다.](https://www.thepaper.cn/newsDetail_forward_34488735) — 🇨🇳 중국 · ThePaper.cn · 11/16 14:21
 - [민주당이 의회에서 승리하면 AI 규제에 대한 불확실성이 높아지고 미국의 두 가지 주요 주식 ETF에 도입 기회가 생길 것입니다.](https://udn.com/news/story/123006/9881527) — 🇹🇼 대만 · UDN · 11/16 13:55
 - [모건스탠리 “S&P500 15% 상승 여력…대만보다 한국 주식 선호”｜Global Money Club](https://www.joongang.co.kr/gmc/article/25478978) — 🇰🇷 한국 · 중앙일보 · 11/16 13:37
-- ['홍콩주식' 미국증시 약세에도 항셍지수 일시적으로 0.9% 상승](https://www.ctee.com.tw/news/20261116701136-430801) — 🇹🇼 대만 · 工商時報 · 11/16 13:16 🆕
+- ['홍콩주식' 미국증시 약세에도 항셍지수 일시적으로 0.9% 상승](https://www.ctee.com.tw/news/20261116701136-430801) — 🇹🇼 대만 · 工商時報 · 11/16 13:16
 - [골드만삭스는 S&P500이 내년에도 15% 상승을 이어가며 8,700포인트에 도전할 것이라고 낙관했다.](https://m.moneydj.com/f1a.aspx?a=1f0710c9-014c-4580-a616-b81060da30b9&c=MB00) — 🇹🇼 대만 · MoneyDJ · 11/16 13:04
 - [젠슨 황은 엔비디아에게 충격을 주기 위해 사임했습니다! 최소 10명의 월스트리트 분석가가 목표주가를 200달러로 낮추면서 등급을 하향 조정했습니다.](https://news.cnyes.com/news/id/6663172) — 🇹🇼 대만 · 鉅亨網 · 11/16 12:40
 - [월스트리트와 경쟁하다 - Wen Jie | AI 주가 급락해 시장 하락, 마이크로소프트는 그 수정을 활용해 단계별 배포(동영상 포함)](https://www.etnet.com.hk/www/tc/news/news-article.php?section=features&category=interview&newsid=416833) — 🇭🇰 홍콩 · etnet 經濟通 · 11/16 12:33
@@ -149,7 +149,7 @@
 - 🔥2 [상용보험 혁신신약부터 국가협상의약품까지, 밀리언급 CAR-T가 최초로 기본의료보험에 진입](https://www.yicai.com/news/103440735.html) — 🇨🇳 중국 · 第一财经 · 11/14 15:06
 - 🔥2 [엘리 릴리(일라이릴리): 종양학 분야의 혁신적 약물 3개에 대한 새로운 적응증이 국가 의료보험 카탈로그에 포함되었습니다.](https://www.jiemian.com/article/15333120.html) — 🇨🇳 중국 · Jiemian.com · 11/14 12:56
 - 🔥2 [하오딩 신약, 노바티스 승인 및 계약금 9억 8천만 지급](https://udn.com/news/story/7241/9877816) — 🇹🇼 대만 · UDN · 11/14 03:09
-- [미국 FDA가 항암제 바이오시밀러를 승인한 후 바이오콘 주가 상승](https://www.cnbctv18.com/market/biocon-share-price-usfda-approval-pebrilzo-fifth-oncology-biosimilar-her2-positive-breast-cancer-drug-20034624.htm) — 🇸🇬 싱가포르 · CNBC TV18 · 11/16 14:23 🆕
+- [미국 FDA가 항암제 바이오시밀러를 승인한 후 바이오콘 주가 상승](https://www.cnbctv18.com/market/biocon-share-price-usfda-approval-pebrilzo-fifth-oncology-biosimilar-her2-positive-breast-cancer-drug-20034624.htm) — 🇸🇬 싱가포르 · CNBC TV18 · 11/16 14:23
 - [혁신 의약품 분야의 변동 및 약화, Tonghua Jinma 제한 다운](https://m.jiemian.com/article/15335955.html) — 🇨🇳 중국 · Jiemian.com · 11/16 12:01
 - [미 FDA, 중국산 유망 폐암 치료제 '이보네시맙' 승인 거부](https://stock.mk.co.kr/news/view/1199355) — 🇰🇷 한국 · 매일경제 마켓 · 11/16 10:28
 - [한 가지 평가: 의료 보험 카탈로그는 2026년에 조정 및 출시되어 혁신적인 약물 쪽으로 더욱 기울어질 것입니다.](https://www.yicai.com/news/103441253.html) — 🇨🇳 중국 · 第一财经 · 11/16 10:28
@@ -241,7 +241,7 @@
 - 🔥2 [엠플러스, '전고체 배터리' 양산시장 뚫었다…글로벌 기업서 200억대 수주](https://www.fnnews.com/news/202611160844070909) — 🇰🇷 한국 · 파이낸셜뉴스 · 11/16 08:46
 - 🔥2 [2개 부서: 리튬이온 배터리 에너지 저장 장치의 반복적 업그레이드를 가속화하고 나트륨 이온 배터리 에너지 저장 장치의 적용을 촉진합니다.](https://www.yicai.com/news/103439922.html) — 🇨🇳 중국 · 第一财经 · 11/13 16:16
 - 🔥2 [2개 부서: 대용량 및 고출력 배터리 에너지 저장에 대한 연구와 고출력 배터리 에너지 저장 및 슈퍼커패시터의 시범 적용을 촉진합니다.](https://www.yicai.com/brief/103439907.html) — 🇨🇳 중국 · 第一财经 · 11/13 16:12
-- [에너지저장장치 세계 1위 기업 BYD, 유럽 최초 배터리셀 공장 건설로 포르투갈 선택](https://www.21jingji.com/article/20261116/herald/cbeaa9178eb78165f3431db94c10dfe3.html) — 🇨🇳 중국 · 21财经 · 11/16 14:20 🆕
+- [에너지저장장치 세계 1위 기업 BYD, 유럽 최초 배터리셀 공장 건설로 포르투갈 선택](https://www.21jingji.com/article/20261116/herald/cbeaa9178eb78165f3431db94c10dfe3.html) — 🇨🇳 중국 · 21财经 · 11/16 14:20
 - ["한정된 시간의 전력 소비"에 작별 인사, Donggao 그리드형 에너지 저장 장치가 인도네시아 외딴 섬의 2,000 가구를 밝힙니다.](https://money.udn.com/money/story/123828/9881536) — 🇹🇼 대만 · 經濟日報 · 11/16 14:00
 - [보도자료 : (도시바) 태양광 발전소에 축전지 병설 프로젝트를 초완공 (Digital PR Platform)](https://mainichi.jp/articles/20261116/pls/00m/020/287000c) — 🇯🇵 일본 · 毎日新聞 · 11/16 14:00
 - [당신을 중심으로 구성된 Keeper Family: Sungrow의 종합 C&I 에너지 저장 솔루션 소개](https://www.straitstimes.com/paid-press-releases/keeper-family-shaped-around-you-introducing-sungrows-comprehensive-ci-energy-storage-solutions-20261116) — 🇸🇬 싱가포르 · The Straits Times · 11/16 13:23
@@ -278,7 +278,7 @@
 
 보유: ACE 코리아AI전력TOP10
 
-- 🔥24 [효성중공업, SK텔레콤과 AI 데이터센터 전력 인프라 구축 맞손](https://www.asiae.co.kr/article/2026111611072002951) — 🇰🇷 한국 · 아시아경제 · 11/16 11:07
+- 🔥25 [효성중공업, SK텔레콤과 AI 데이터센터 전력 인프라 구축 맞손](https://www.asiae.co.kr/article/2026111611072002951) — 🇰🇷 한국 · 아시아경제 · 11/16 11:07
 - 🔥2 [미국 양당이 도입한 강세 법안에 편승해 전력 및 에너지 ETF는 자금 전망을 갖고 있습니다.](https://udn.com/news/amp/story/123006/9880423) — 🇹🇼 대만 · UDN · 11/16 04:51
 - 🔥2 [김정관 산업장관, 체코 원전사업 정상 추진 약속“결과로 책임질 것”](https://www.etoday.co.kr/news/view/2648134) — 🇰🇷 한국 · 이투데이 · 11/14 07:28
 - [Lite-On은 AI 파워, Netcom, Edge AI 및 엔비디아 MGX 아키텍처에 초점을 맞춘 electronica 2026에 참여합니다.](https://news.cnyes.com/news/id/6663547) — 🇹🇼 대만 · 鉅亨網 · 11/16 12:11
