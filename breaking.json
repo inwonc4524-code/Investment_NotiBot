@@ -1,27 +1,6 @@
 {
 "items": [
 {
-"key": "속보뉴욕증시혼조나스닥091",
-"keys": [
-"속보뉴욕증시혼조나스닥091"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보] 뉴욕증시, 혼조⋯나스닥 0.91%↓",
-"show": "[속보] 뉴욕증시, 혼조⋯나스닥 0.91%↓",
-"source": "이투데이",
-"src_url": "https://www.etoday.co.kr",
-"sum": "뉴욕증시는 13일(현지시간) 혼조 마감했다. 뉴욕증권거래소에서 다우지수는 전 거래일 대비 50.46포인트(0.1%) 상승한 5만2347.55에 마감했다. S&P500",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NZnJibjF4clZMR2s4bVFZWHljeklCeGVodXV4QUhiaTNpZFp4czRiVmYtdU9mWUt3RzlIWVJWYVZ6djVCSEtCLUlnbFE3NzZjbDRVVGJSTl9lS09OU1JJZk5UUzcwV3hJemZ0Ng?oc=5",
-"url": "https://www.etoday.co.kr/news/view/2648128?trc=sub_list_news",
-"pub": 1794604140.0,
-"time": "11/14 06:09",
-"run": "breaking",
-"added": 1794604391
-},
-{
 "key": "速報中アメリカ全土の空港で航空機運航停止通信の問題",
 "keys": [
 "速報中アメリカ全土の空港で航空機運航停止通信の問題",
@@ -1054,12 +1033,19 @@
 "trumpbacksjensenhuangsreturntonvidiaassamaltmansaysheroeshaveflaws": 1794857907.0267556,
 "jensenhuangsreturntonvidiaunderjeopardyasnvidiasboardreportedlyrefutesreinstatem": 1794857907.0267563,
 "samaltmanweighsinonjensenhuangspotentialnvidiacomeback": 1794857907.0267563,
-"nvidiasboardnotconsideringreinstatingjensenhuangasceo": 1794861543.613984,
-"nvidianotconsideringreinstatinghuangdespitesupportfromtrumpmusk": 1794861543.6139843,
+"nvidiasboardnotconsideringreinstatingjensenhuangasceo": 1794862287.9938438,
+"nvidianotconsideringreinstatinghuangdespitesupportfromtrumpmusk": 1794861567.4085739,
 "nvidiaboardnotweighinghuangsreturnasceo": 1794860102.4335287,
 "trumpsaysexnvidiaceojensenhuangsaffairwithanallegedchinesespydidnotthreatennatio": 1794859386.8499997,
-"watchtrumpbackshuangsreturntonvidia": 1794861543.613983,
-"trumpsaysjensenhuangsreturncertainlyisntabadideanvidiasboardisntconsideringit": 1794861543.6139836,
-"trumpbackshuangsreturntonvidiaasheheadstoasia": 1794861543.6139846
+"watchtrumpbackshuangsreturntonvidia": 1794862287.9938426,
+"trumpsaysjensenhuangsreturncertainlyisntabadideanvidiasboardisntconsideringit": 1794862287.9938433,
+"trumpbackshuangsreturntonvidiaasheheadstoasia": 1794861567.4085748,
+"뉴욕증시하락세로마감나스닥249": 1794864448.7734306,
+"속보뉴욕증시엔비디아등ai주급락에일제히하락나스닥249": 1794863728.505553,
+"속보뉴욕증시엔비디아약세에급락반도체etf속슬17폭락": 1794864448.7734308,
+"속보엔비디아젠슨황사퇴리스크계속412뉴욕증시일제히하락마감": 1794864448.7734287,
+"뉴욕증시일제히하락엔비디아41": 1794864448.7734299,
+"뉴욕증시엔비디아여진에일제히하락나스닥249": 1794864448.77343,
+"속보뉴욕증시엔비디아등ai주급락속하락마감나스닥249": 1794864448.7734303
 }
 }
