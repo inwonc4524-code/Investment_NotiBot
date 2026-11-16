@@ -1081,7 +1081,8 @@ document.addEventListener('click', function(e){
 });
 // ───────── 📈 장기 추이 (2021.1~, GDELT) ─────────
 var HI = null, HILOAD = false;
-S.sm = load('sm', 'd'); S.lp = load('lp', 'lm');
+S.sm = load('sm', 'd'); S.lp = load('lp', 'all'); S.ly = load('ly', 0);
+if(S.lp === 'ly') S.lp = 'yr';          // 예전 '작년' 버튼 → 연도별
 function loadHist(){
   if(HILOAD) return; HILOAD = true;
   fetch(D.history_url + '?t=' + Date.now(), {cache:'no-store'}).then(function(r){ return r.json(); })
@@ -1111,14 +1112,16 @@ function hsum(th, a, b, rk){               // [a, b) 날짜 칸의 합 (국가 �
   return n;
 }
 function avn(a, b){ var n=0; for(var i=Math.max(0,a); i<Math.min(b, HI.n); i++) if(HI.av[i]) n++; return n; }   // 자료 있는 날 수
+function years(){ var a = [], y0 = +HI.since.slice(0,4), ty = +HI.end.slice(0,4); for(var y=ty-1; y>=y0; y--) a.push(y); return a; }   // 다 지난 해 (최근 먼저)
+function pickYear(){ var ys = years(); return ys.indexOf(S.ly) >= 0 ? S.ly : (ys[0] || +HI.end.slice(0,4)); }
 function lperiod(){                        // [이번 a,b] [비교 a,b 또는 null] 이름
   var M = HI.months, last = M[M.length-1], lf = last.full ? M.length-1 : M.length-2, ty = +HI.end.slice(0,4);
   if(S.lp === 'lm' && lf >= 0){ var x = M[lf], p = M[lf-1];
     return [[x.a, x.b], p ? [p.a, p.b] : null, x.y+'년 '+x.m+'월', '전달 대비']; }
   if(S.lp === 'ty'){ var a = dIdx(ty+'-01-01'), pa = dIdx((ty-1)+'-01-01'), len = HI.n - a;
     return [[a, HI.n], pa >= 0 ? [pa, pa+len] : null, ty+'년 (1월 1일~'+HI.end.slice(5).replace('-','/')+')', '작년 같은 기간 대비']; }
-  if(S.lp === 'ly'){ var la = Math.max(0, dIdx((ty-1)+'-01-01')), lb = dIdx(ty+'-01-01'), pa = dIdx((ty-2)+'-01-01');
-    return [[la, lb], pa >= 0 ? [pa, la] : null, (ty-1)+'년 전체', '재작년 대비']; }
+  if(S.lp === 'yr'){ var yy = pickYear(), ya = Math.max(0, dIdx(yy+'-01-01')), yb = Math.min(HI.n, dIdx((yy+1)+'-01-01')), pa = dIdx((yy-1)+'-01-01');
+    return [[ya, yb], pa >= 0 ? [pa, ya] : null, yy+'년 전체', yy-1+'년 대비']; }
   return [[0, HI.n], null, HI.since.slice(0,7).replace('-','.')+' ~ '+HI.end.replace(/-/g,'.')+' 전체', ''];
 }
 function mspark(th){                       // 달별 흐름 (작은 선, 진행 중인 달은 빼고)
@@ -1160,8 +1163,10 @@ function renderLong(h){
   var P = lperiod();
   h += '<p class="note">GDELT(전 세계 뉴스 기록) 자료 · 본문에 테마 단어가 나온 기사 수 · 일주일에 한 번 갱신 · '+esc(HI.end.slice(5).replace('-','/'))+'까지 · 업데이트 '+esc(HI.updated||'')+'</p>';
   if(!HI.complete) h += '<div class="warn">⏳ '+HI.since.slice(0,4)+'년 1월부터 자료를 아직 받는 중이에요. 다 받기 전엔 일부 테마·나라·연도가 0이나 빈칸으로 보여요. 자료 서버가 느려서 하루쯤 걸려요 (봇이 알아서 이어 받음).</div>';
-  h += '<div class="seg lp">' + [['lm','지난달'],['ty','올해'],['ly','작년'],['all','전체']].map(function(x){
+  h += '<div class="seg lp">' + [['all','전체'],['lm','지난달'],['ty','올해'],['yr','연도별']].map(function(x){
     return '<button data-lp="'+x[0]+'" class="'+(S.lp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
+  if(S.lp === 'yr') h += '<div class="seg ly">' + years().map(function(y){
+    return '<button data-ly="'+y+'" class="'+(pickYear()===y?'on':'')+'">'+y+'</button>'; }).join('') + '</div>';
   var dc = avn(P[0][0], P[0][1]), dp = P[1] ? avn(P[1][0], P[1][1]) : 0, span = P[0][1] - P[0][0];
   if(span - dc > 0) h += '<div class="warn">ℹ️ 이 기간 중 '+(span-dc)+'일은 GDELT 서버 사정으로 자료가 비어 있어요 ('+span+'일 중 '+dc+'일치). 합계는 그만큼 적게 잡히고, ▲▼ 비교는 하루 평균끼리 해요.</div>';
   var rows = (HI.themes||[]).map(function(th){ return {th:th, n:hsum(th, P[0][0], P[0][1]), p: P[1] ? hsum(th, P[1][0], P[1][1]) : null}; })
@@ -1177,7 +1182,7 @@ function renderLong(h){
       '<span class="sc">'+r.n.toLocaleString()+'</span>'+(r.p===null ? '<span class="chg"></span>' : chg(r.n, r.p, dc, dp))+mspark(r.th)+'</div>'+
       (open ? ldetail(r.th) : '') + '</div>';
   }).join('');
-  h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 비교 기간(전달·작년 같은 기간·재작년)보다 몇 계단 오르고 내렸는지<br>· 오른쪽 작은 선 = '+HI.since.slice(0,4)+'년 1월부터 달별 흐름(하루 평균), 줄을 누르면 달별 그래프와 나라별 구성<br>'+
+  h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 비교 기간(전달·작년 같은 기간·전년)보다 몇 계단 오르고 내렸는지<br>· 오른쪽 작은 선 = '+HI.since.slice(0,4)+'년 1월부터 달별 흐름(하루 평균), 줄을 누르면 달별 그래프와 나라별 구성<br>'+
        '· 일별 집계(기사 제목 기준, 구글 뉴스)와 세는 방법이 달라 숫자 크기는 서로 비교하지 말고 흐름만 보세요<br>'+
        '· 한국·중국·일본 기사도 GDELT 가 영어로 번역해 둔 것을 영어 검색어로 셉니다 · 자료가 빠진 날은 0이 아니라 빈칸으로 둠</footer>';
   $('main').innerHTML = h;
@@ -1185,11 +1190,14 @@ function renderLong(h){
 document.addEventListener('click', function(e){
   var b = e.target.closest('.seg.lp button');
   if(b){ S.lp = b.dataset.lp; save('lp', S.lp); renderMain(); return; }
+  var yb = e.target.closest('.seg.ly button');
+  if(yb){ S.ly = +yb.dataset.ly; save('ly', S.ly); renderMain(); return; }
   var m = e.target.closest('.seg.sm button');
   if(m){ S.sm = m.dataset.sm; save('sm', S.sm); renderMain(); return; }
 }, true);
 """
 STATS_CSS = r""".seg{display:flex;gap:4px;margin:6px 4px 10px}.seg button{flex:1;min-width:0;border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:7px 0;font:inherit;font-size:12.5px;white-space:nowrap}
+.seg.ly{margin-top:-4px}.seg.ly button{padding:5px 0;font-size:12px}.seg.ly button.on{background:var(--card2);border-color:var(--acc);color:var(--text);font-weight:600}
 .seg.sm{margin-bottom:8px}.seg.sm button{padding:9px 0;font-size:13px}.seg.sm button.on{background:var(--card2);border-color:var(--acc);color:var(--text)}
 .warn{margin:0 4px 10px;padding:8px 10px;border-radius:8px;background:rgba(250,204,21,.08);color:var(--sub);font-size:12.5px;line-height:1.5}.warn b{color:var(--text)}
 .seg button.on{background:var(--acc);border-color:var(--acc);color:#1f1e1d;font-weight:600}
