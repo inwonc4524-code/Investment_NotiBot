@@ -60,7 +60,8 @@ STAT_THEMES = [
      "zh": ["造船", "船廠", "造船業"], "cn": ["造船", "船企", "造船厂", "船舶工业"], "ja": ["造船"]},
     {"name": "전력기기",
      "kr": ["전력기기", "변압기", "전력망", "HD현대일렉트릭", "효성중공업", "LS ELECTRIC", "LS일렉트릭"],
-     "en": ["power grid", "transformer", "transformers", "electrical equipment", "grid investment"],
+     "en": ["power grid", "power transformer", "power transformers", "electrical transformer", "transformer shortage",
+            "transformer maker", "transformer makers", "electrical equipment", "grid investment"],   # 그냥 transformer 는 영화·게임 '트랜스포머'·AI 모델이 섞임
      "zh": ["重電", "變壓器", "電網"], "cn": ["电网", "变压器", "特高压"], "ja": ["送電網", "変圧器", "電力設備"]},
     {"name": "자동차",
      "kr": ["자동차", "현대차", "기아", "전기차"],
@@ -114,7 +115,11 @@ SPAM = re.compile(r"^[\u200b-\u200d\ufeff]|porn|nsfw|ポルノ|アダルト|ミ�
 STAT_FALSE = ["보조배터리", "아파트 화재", "아파트서 화재", "제약이", "제약을 받", "시간 제약",
               "gemini 4 hydrogen", "uranium enrichment", "smr hdd", "at amazon", "on amazon", "amazon rainforest",
               "central bank", "food bank", "木造船", "太陽電池", "한수원과 wk리그", "hydrogen peroxide",
-              "楽天・", "楽天イーグルス", "楽天競馬", "楽天で", "楽天ブックス", "楽天 日本株", "楽天・日本株"]
+              "楽天・", "楽天イーグルス", "楽天競馬", "楽天で", "楽天ブックス", "楽天 日本株", "楽天・日本株",
+              # 조류인플루엔자(AI) 기사 — 인공지능 아님 (2026-11 표본 점검)
+              "고병원성 AI", "AI 항원", "H5형 AI", "H5N1형 AI", "H5N6형 AI", "조류 AI", "AI 방역", "AI 확진",
+              "AI 차단방역", "AI 위기경보", "AI 의심축", "AI 의심 신고", "AI 발생 농장",
+              "제약 요인", "제약요인"]
 KEEP_DAYS = 735            # 날짜별 숫자를 며칠치 보관할지 (1년 통계 + 그 전 1년과 비교)
 NOTIFY_HOUR = 7            # 한국 시간 이 시각 이후 첫 수집 때 '어제 통계' 알림
 SATURATED = 95             # 검색 한 번에 이만큼 넘게 나오면 검색어를 나눠서 더 찾음 (구글 뉴스는 한 번에 최대 100개)

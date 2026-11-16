@@ -234,8 +234,12 @@ def main():
                         for y in range(SINCE.year, end.year + 1))
     h["updated"] = datetime.now(KST).strftime("%m/%d %H:%M")
     save(h)
+    # 시간이 모자라 덜 받았거나, 처음 채우기 중 GDELT 가 막아(429) 몇 칸을 못 받았으면 워크플로가 바로 이어서 한 번 더
+    # (예전엔 마지막 실행에서 실패한 칸이 남아도 멈춰서, 다음 날 새벽 예약 실행까지 기다렸음.
+    #  이번에 하나도 못 받았으면 GDELT 가 통째로 막힌 것이라 끝없이 돌지 않게 멈추고 예약 실행에 맡김)
+    more = ran_out or (not h["complete"] and fail > 0 and ok > 0)
     with open(os.environ.get("GITHUB_OUTPUT", os.devnull), "a") as f:
-        f.write(f"more={'true' if ran_out else 'false'}\n")   # 시간이 모자라 덜 받았으면 워크플로가 바로 이어서 한 번 더
+        f.write(f"more={'true' if more else 'false'}\n")
     print(f"완료: 받기 {ok} · 실패 {fail} · 처음 채우기 {'끝' if h['complete'] else '진행 중'} · {time.time() - t0:.0f}초")
 
 
