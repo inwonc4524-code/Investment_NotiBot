@@ -1011,12 +1011,21 @@ function spark(th, days){                  // 최근 14일 흐름 (작은 선)
   var pts = vals.map(function(v,i){ return (i*(w/(days-1))).toFixed(1)+','+(h-2-(v/mx)*(h-4)).toFixed(1); }).join(' ');
   return '<svg class="spark" viewBox="0 0 '+w+' '+h+'" width="'+w+'" height="'+h+'" aria-hidden="true"><polyline points="'+pts+'" fill="none" stroke="var(--acc)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>';
 }
+function chartW(){                        // 그래프 폭 = 실제 화면 폭 (늘려 붙이지 않아야 글자가 안 찌그러짐)
+  var w = ($('main') && $('main').clientWidth) || 360;
+  return Math.max(260, Math.round(w - 44));
+}
+var _cw = 0, _rt = 0;                     // 화면을 돌리거나 창 크기가 바뀌면 그래프를 새 폭으로 다시 그림
+window.addEventListener('resize', function(){
+  clearTimeout(_rt); _rt = setTimeout(function(){
+    var w = chartW(); if(w !== _cw && D.themes[S.tab] && D.themes[S.tab].stats && document.querySelector('.bars')) renderMain(); _cw = w; }, 200);
+});
 function detail(th){                       // 30일(또는 6개월·1년은 주별) 막대 그래프 + 나라별 구성
   var vals = [], labels = [], wk = (S.sp==='h' || S.sp==='y'), NB = wk ? (S.sp==='h' ? 26 : 52) : 30, nowLbl = wk ? '이번 주' : '오늘';
   if(wk){ for(var w=NB-1;w>=0;w--){ var v=0; for(var j=0;j<7;j++) v += cnt(kdate(w*7+j), th);
             vals.push(v); labels.push(kdate(w*7+6).slice(5).replace('-','/')+'~'+kdate(w*7).slice(5).replace('-','/')); } }
   else for(var i=29;i>=0;i--){ var d = kdate(i); vals.push(cnt(d, th)); labels.push(d.slice(5).replace('-','/')); }
-  var mx = Math.max.apply(null, vals.concat([1])), W = 320, H = 110, bw = W/NB;
+  var mx = Math.max.apply(null, vals.concat([1])), W = chartW(), H = 110, bw = W/NB;
   var bars = vals.map(function(v,i){
     var bh = Math.max(v ? 2 : 0, (v/mx)*(H-30)), x = i*bw + 1, y = H-14-bh;
     return '<g class="bar"><rect x="'+x.toFixed(1)+'" y="0" width="'+(bw-2).toFixed(1)+'" height="'+(H-14)+'" fill="transparent"/>'+
@@ -1035,7 +1044,7 @@ function detail(th){                       // 30일(또는 6개월·1년은 주�
     return '<div class="crow"><span class="cl">'+esc(x[0].l)+'</span><span class="cb"><i style="width:'+Math.max(2, x[1]/pm*100)+'%"></i></span><span class="cn">'+x[1].toLocaleString()+'</span></div>';
   }).join('') || '<div class="note">이 기간 기사 없음</div>';
   return '<div class="det"><div class="dt">'+(wk ? '최근 '+(S.sp==='h'?'6개월':'1년')+' 주별 뉴스 수' : '최근 30일 하루 뉴스 수')+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
-    '<svg class="bars" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" role="img" aria-label="'+esc(th)+' 뉴스 수 그래프">'+bars+axis+'</svg>'+
+    '<svg class="bars" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(th)+' 뉴스 수 그래프">'+bars+axis+'</svg>'+
     '<div class="dt">'+esc(P[2])+' 나라별</div>'+rows+'</div>';
 }
 function renderStats(t){
@@ -1134,7 +1143,7 @@ function mspark(th){                       // 달별 흐름 (작은 선, 진행 
 function ldetail(th){                      // 달별 막대 + 나라별 구성
   var M = HI.months, dn = M.map(function(x){ return avn(x.a, x.b); });
   var vals = M.map(function(x, i){ return dn[i] ? hsum(th, x.a, x.b)/dn[i] : 0; });   // 하루 평균 (자료 빠진 날 영향 없게)
-  var mx = Math.max.apply(null, vals.concat([1])), W = 320, H = 120, bw = W/M.length;
+  var mx = Math.max.apply(null, vals.concat([1])), W = chartW(), H = 120, bw = W/M.length;
   var bars = vals.map(function(v,i){
     var x = M[i], bh = Math.max(v ? 2 : 0, (v/mx)*(H-32)), bx = i*bw + 1, y = H-14-bh;
     return '<g class="bar"><rect x="'+bx.toFixed(1)+'" y="0" width="'+(bw-2).toFixed(1)+'" height="'+(H-14)+'" fill="transparent"/>'+
@@ -1153,7 +1162,7 @@ function ldetail(th){                      // 달별 막대 + 나라별 구성
     return '<div class="crow"><span class="cl">'+esc(x[0].l)+'</span><span class="cb"><i style="width:'+Math.max(2, x[1]/pm*100)+'%"></i></span><span class="cn">'+x[1].toLocaleString()+'</span></div>';
   }).join('') || '<div class="note">이 기간 기사 없음</div>';
   return '<div class="det"><div class="dt">달별 하루 평균 뉴스 수 ('+HI.since.slice(0,4)+'년 1월~)'+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
-    '<svg class="bars" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" role="img" aria-label="'+esc(th)+' 달별 뉴스 수">'+bars+axis+'</svg>'+
+    '<svg class="bars" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(th)+' 달별 뉴스 수">'+bars+axis+'</svg>'+
     '<div class="dt">'+esc(P[2])+' 나라별</div>'+rows+'</div>';
 }
 function renderLong(h){
@@ -1213,7 +1222,7 @@ STATS_CSS = r""".seg{display:flex;gap:4px;margin:6px 4px 10px}.seg button{flex:1
 .spark{flex:none}
 .det{margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
 .dt{color:var(--sub);font-size:12px;margin:6px 0 4px}
-.bars{width:100%;height:120px;display:block}.bars .ax{fill:var(--sub);font-size:9px}.bars .bar:hover rect+rect{opacity:.8}
+.bars{width:100%;height:auto;display:block}.bars .ax{fill:var(--sub);font-size:10px}.bars .bar:hover rect+rect{opacity:.8}
 .crow{display:flex;align-items:center;gap:8px;margin:3px 0;font-size:12.5px}.cl{width:86px;flex:none}.cb{flex:1;height:8px;background:rgba(255,255,255,.05);border-radius:4px;overflow:hidden}
 .cb i{display:block;height:100%;background:var(--acc);opacity:.8;border-radius:0 3px 3px 0}.cn{width:50px;text-align:right;flex:none;font-variant-numeric:tabular-nums}
 @media(max-width:400px){.spark{display:none}.sn{width:74px}}
