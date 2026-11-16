@@ -338,24 +338,45 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "wallstreetstocksmostlylowerasnvidiaextendsslump",
+"key": "黃仁勳去職華爾街降輝達評價散戶仍進場炒底",
 "keys": [
-"wallstreetstocksmostlylowerasnvidiaextendsslump"
+"黃仁勳去職華爾街降輝達評價散戶仍進場炒底"
 ],
-"count": 2,
+"count": 1,
 "theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "Wall Street stocks mostly lower as Nvidia extends slump",
-"show": "엔비디아가 부진을 연장함에 따라 월스트리트 주식은 대부분 하락했습니다.",
-"source": "France 24",
-"src_url": "https://www.france24.com",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdXFEcjN4ZkdQNXRJMThLdUdQQjNIRkNwZEpLUkthdlpvNUFBSUkxbGFDQVFsVExIazZLdVBvVGhQNHFhZDI3VVpjWW5rSkt2UFVqWnduLWw5cEtqdF9Bc3ZlSktpcVpCWUxBWnRqUjU5ektsckIzQWg4TjQtd2JZaHNnLU1JTXJHckc4bGdPYVQ2eFpmazE0b2thNzZHbTB6WVgycw?oc=5",
-"pub": 1794611340.0,
-"time": "11/14 08:09",
-"run": "202611140357",
-"added": 1794628651,
-"url": "https://www.france24.com/en/live-news/20261113-wall-street-stocks-mostly-lower-as-nvidia-extends-slump",
-"sum_tried": 2,
+"region": "🇹🇼 대만",
+"title": "黃仁勳去職華爾街降輝達評價 散戶仍進場炒底",
+"show": "젠슨 황은 월스트리트에서 사임하고 엔비디아의 발언을 하향 조정했습니다. 소매 투자자들은 여전히 ​​바닥을 추측하기 위해 시장에 진입했습니다.",
+"source": "自由時報",
+"src_url": "https://stock.ltn.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4taEVVR2gwbmtUQkFXaGhBZW00U0RhSlNhZkEyVFUxNmNhMnBydDRCcjd5eUhqLTRVaXhwcXRhdDFEVnhxZnJCRFdacWlPTlFOUDgtVGEwOWE?oc=5",
+"pub": 1794792724.0,
+"time": "11/16 10:32",
+"run": "202611160134",
+"added": 1794792894,
+"url": "https://stock.ltn.com.tw/article/zryycxg2nxp8",
+"sum": "엔비디아 주가는 젠슨 황 전 CEO의 갑작스러운 사임으로 급락했다. 그러나 미국 개인 투자자들은 딥을 매수하기 위해 시장에 진입할 기회를 잡았습니다. 단 30분 만에 엔비디아 주식 1억1100만 달러(약 36억4000만 달러)를 순매수해 주식 개장 후 30분 동안 개인 투자자 순매수액 역대 최고 기록을 세웠다. 보고서는 미국의 일부 개인 투자자들이 여전히 주가 급락을 매수 기회로 여기고 있다는 점을 지적했는데, 이는 주로 인공지능(AI) 칩 시장에서 엔비디아의 지배력을 낙관하고 있기 때문이다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "エヌビディア海外市場ビュー米国株ピックアップ11月16日",
+"keys": [
+"エヌビディア海外市場ビュー米国株ピックアップ11月16日"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇯🇵 일본",
+"title": "エヌビディア、海外市場ビュー&米国株ピックアップ（11月16日）",
+"show": "엔비디아, 해외 시장 뷰 & 미국 주식 픽업 ​​(11월 16일)",
+"source": "日本経済新聞",
+"src_url": "https://www.nikkei.com",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0TWhOdktlUjI5eTR0WmM0Y2lRS09XX2NtUy1pdjB1MXdRWG5WdlpQZmpYVVdLaDZkUnpzWW1VcXlSQkFJLXdzUlRYNlJQWkdoY2x2SUZ4UXFVakFwNGwtNEFFd0p2TFZJOWVUUnIyZEhTa1R5NEdfeUJGNU1vQQ?oc=5",
+"pub": 1794791871.0,
+"time": "11/16 10:17",
+"run": "202611160134",
+"added": 1794792895,
+"url": "https://www.nikkei.com/prime/veritas/article/DGXZQOKC1615K0W6A111C2000000",
+"sum": "모든 기사를 무제한 1개월 무료 체험 실시중! 코어위브, 테라다인 해외시장 뷰&미국주 픽업(11월 12일) 엔비디아, 코어위브 해외시장 뷰&미국주 픽업(11월 11일) 해외시장뷰&미국주 픽업(9월 15일)",
 "pv": "8bab9ca2"
 },
 {
@@ -417,7 +438,7 @@
 "run": "202611160127",
 "added": 1794792437,
 "url": "https://www.jiemian.com/article/15334977.html",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -1491,27 +1512,6 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "hethinkshis200000sp500401kspreadshisairisktwoalphabetshareclassesput10380inoneco",
-"keys": [
-"hethinkshis200000sp500401kspreadshisairisktwoalphabetshareclassesput10380inoneco"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "He Thinks His $200,000 S&P 500 401(k) Spreads His AI Risk. Two Alphabet Share Classes Put $10,380 in One Company. A 20% Drop Could Cost Him $2,076",
-"show": "그는 자신의 200,000달러 S&P500 401(k)가 AI 위험을 확산시킨다고 생각합니다. 두 개의 알파벳 주식 클래스가 한 회사에 $10,380를 투자했습니다. 20% 하락하면 $2,076의 비용이 발생할 수 있습니다.",
-"source": "Yahoo Finance",
-"src_url": "https://finance.yahoo.com",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTjBvMllSQlJudFZhTlFkYjQ3ZERqakZkV2I2Sm1iVXhlRnNkZnFSSjdUWTloaVlaMDc5OXNXTFlxV1VxUnl0Q0JqME5iNlZRbk80Q1p3d25nMGJyRVltXzZjdWh6V2R5LVltSHFWTFR6d2VaTklmaHZhOVNDX3pQcHpnT0R4TTZ5N0tZRnNB?oc=5",
-"pub": 1794697426.0,
-"time": "11/15 08:03",
-"run": "202611150026",
-"added": 1794702376,
-"url": "https://finance.yahoo.com/markets/stocks/articles/thinks-200-000-p-500-230346273.html",
-"sum": "그는 단일 AI 승자에 대한 베팅을 피하기 위해 S&P500 인덱스 펀드를 구입했습니다. 펀드가 보유 자산을 나열하는 방식의 한 가지 특이한 점은 그가 생각하는 것보다 한 회사에서 훨씬 더 많은 위험을 안고 있을 수 있다는 것을 의미합니다.",
-"pv": "8bab9ca2"
-},
-{
 "key": "游戏业超级印钞机下周上新gtavi缘何牵动华尔街",
 "keys": [
 "游戏业超级印钞机下周上新gtavi缘何牵动华尔街"
@@ -1886,6 +1886,27 @@
 "added": 1794610375,
 "url": "https://udn.com/news/story/7241/9877816",
 "sum": "룬타이그룹 산하 생명공학신약기업 하오딩(Haoding)이 대형 다국적 제약회사 노바티스와 협력 및 라이선스 계약을 체결했다고 어제(13일) 밝혔다. 하이딩의 다중 독점 항체-약물 접합체(ADC) 플랫폼 기술을 사용해 신약 페이로드를 탑재한 차세대 ADC 약물을 공동 개발할 예정이다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "壹评级2026年医保目录调整发布进一步向创新药倾斜",
+"keys": [
+"壹评级2026年医保目录调整发布进一步向创新药倾斜"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇨🇳 중국",
+"title": "壹评级：2026年医保目录调整发布，进一步向创新药倾斜",
+"show": "한 가지 평가: 의료 보험 카탈로그는 2026년에 조정 및 출시되어 혁신적인 약물 쪽으로 더욱 기울어질 것입니다.",
+"source": "第一财经",
+"src_url": "https://www.yicai.com",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IVmR5bWtkRUFDb0FOMkVRSldSektJclpULVpVSVVFRlN5TnBkQzBjLU1ENjg1MEZhQ1JHN2lxMFBaZWZGNWNPSDBqNnlVNFJsQ3ZN?oc=5",
+"pub": 1794792517.0,
+"time": "11/16 10:28",
+"run": "202611160134",
+"added": 1794792903,
+"url": "https://www.yicai.com/news/103441253.html",
+"sum": "국민의료보험청이 2026년 의료보험목록 조정 결과를 발표했는데, 1급 혁신신약 51개 품목이 사상 최대치를 기록했다. China Business Network의 \"One Rating\"은 정책 방향이 단순히 연구 개발 장려에서 상업화 지원으로 바뀌었고 임상 가치가 있는 혁신적인 약물이 결정론적인 성장 주기를 가져올 것이라고 믿습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -2564,6 +2585,27 @@
 "added": 1794792464,
 "url": "https://www.asahi.com/articles/ASVCB0VZZVCBPTIL008M.html",
 "sum": "모바일 배터리 등에 사용되는 리튬 이온 전지에 의한 화재가 늘어나는 가운데, 일본 변호사 연합회(닛벤련)는 피해를 당한 사람을 대상으로 무료 전화 법률 상담 「리튬 이온 전지 출화 피해 등에 관한 핫라인」을…",
+"pv": "8bab9ca2"
+},
+{
+"key": "龙蟠科技修订宁德时代采购框架协议年度上限至90亿元36氪",
+"keys": [
+"龙蟠科技修订宁德时代采购框架协议年度上限至90亿元36氪"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇨🇳 중국",
+"title": "龙蟠科技：修订宁德时代采购框架协议年度上限至90亿元-36氪",
+"show": "Longpan Technology: CATL 조달 기본 계약의 연간 한도를 90억 위안-36 크립톤으로 수정",
+"source": "www.36kr.com",
+"src_url": "https://www.36kr.com",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LSVpmeGw5cHVsdnl2M2R1NEVXVU9VdjNPSS1yY1NxWmxXbEx3NHBMbjJWdFpaWldlUlk3a05BSDNHQ0t3NlphMGpvQU83eU16dDVfU1BSM1Q4VlBZb3c?oc=5",
+"pub": 1794790468.0,
+"time": "11/16 09:54",
+"run": "202611160134",
+"added": 1794792914,
+"url": "https://www.36kr.com/newsflashes/4071715196490624",
+"sum": "36Kr은 Longpan Technology가 CATL 관련 당사자 그룹의 Longpan 제품 수요 증가와 탄산리튬 가격 변동으로 인해 회사가 2026년 현재 CATL 조달 기본 계약에 따라 연결 거래를 지속하기 위한 연간 한도를 70억 위안에서 90억 위안으로 수정했다고 발표했다는 사실을 알게 되었습니다. 2026년 1월 1일부터 발표일까지 본 계약에 따라 발생한 거래금액은 61억 4천만 위안이다. 연간 한도를 제외하고 나머지 계약 조건은 변경되지 않습니다. 이 문제는 이사회에서 승인되었으며 회람, 독립적 재무 의견 및 주주 승인 요구 사항이 면제되었습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -4793,9 +4835,10 @@
 "lg전자로봇산업진흥원mou휴머노이드품질경쟁력강화",
 "lg전자휴머노이드로봇클로이드국내안전시범인증추진",
 "휴머노이드로봇글로벌경쟁력확보로봇산업진흥원lg전자와인증협력",
-"lg전자클로이드안전시범인증추진휴머노이드평가기준개발참여"
+"lg전자클로이드안전시범인증추진휴머노이드평가기준개발참여",
+"한국로봇산업진흥원lg전자와휴머노이드로봇안전품질협력나선다"
 ],
-"count": 11,
+"count": 12,
 "theme": "🤖 로봇",
 "region": "🇰🇷 한국",
 "title": "LG전자, 한국로봇산업진흥원과 휴머노이드 안전·품질 경쟁력 강화 나서",
@@ -4808,7 +4851,7 @@
 "run": "202611160127",
 "added": 1794792488,
 "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452036",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "울산남구中상하이휴머노이드로봇실증기지찾았다",
