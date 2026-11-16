@@ -113,7 +113,8 @@ SPAM = re.compile(r"^[\u200b-\u200d\ufeff]|porn|nsfw|ポルノ|アダルト|ミ�
 # 테마 단어를 품고 있지만 뜻이 다른 말 → 관련 여부 볼 때 지우고 봄 (실제 기사 표본 점검에서 찾은 것)
 STAT_FALSE = ["보조배터리", "아파트 화재", "아파트서 화재", "제약이", "제약을 받", "시간 제약",
               "gemini 4 hydrogen", "uranium enrichment", "smr hdd", "at amazon", "on amazon", "amazon rainforest",
-              "central bank", "food bank", "木造船", "太陽電池", "한수원과 wk리그"]
+              "central bank", "food bank", "木造船", "太陽電池", "한수원과 wk리그", "hydrogen peroxide",
+              "楽天・", "楽天イーグルス", "楽天競馬", "楽天で", "楽天ブックス", "楽天 日本株", "楽天・日本株"]
 KEEP_DAYS = 735            # 날짜별 숫자를 며칠치 보관할지 (1년 통계 + 그 전 1년과 비교)
 NOTIFY_HOUR = 7            # 한국 시간 이 시각 이후 첫 수집 때 '어제 통계' 알림
 SATURATED = 95             # 검색 한 번에 이만큼 넘게 나오면 검색어를 나눠서 더 찾음 (구글 뉴스는 한 번에 최대 100개)
