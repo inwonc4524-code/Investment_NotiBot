@@ -647,6 +647,51 @@
 "time": "11/16 12:00",
 "run": "breaking",
 "added": 1794798339
+},
+{
+"key": "buyalert5stocksanalystsupgradedonthursday",
+"keys": [
+"buyalert5stocksanalystsupgradedonthursday"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Buy Alert: 5 Stocks Analysts Upgraded on Thursday",
+"show": "매수 경고: 목요일에 주식 분석가 5명이 업그레이드되었습니다",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"sum": "월스트리트의 3분기 실적 시즌이 거의 끝났고 이익 수치도 엄청납니다. FactSet에 따르면 11월 10일 현재 S&P500 기업 중 약 88%가 보고되었으며 수익은 전년 동기 대비 31.4% 증가했습니다. 이는 3분기 연속 25% 이상의 성장이 될 것입니다. 11월 10일, 인플레이션이 […]",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSnd0Y19vbTA5Qm5YMWFpdmNPNDJwSjdjVmRxbUZuYWx2NXVtSjhXX3dOY3Q5ektTMURZcGhMLWZESzdHTEZsRTJkRGNnV19nOHdWRExDZVJDeGdrLVBuV2UtRGxGNnlrOVBNb00ycVE1SHF4aFZFam81WHJEMTRGR0Z6X3VKRDBNUUppbllhSWhmOVE3QVdj?oc=5",
+"url": "https://finance.yahoo.com/markets/stocks/articles/buy-alert-5-stocks-analysts-025136531.html",
+"pub": 1794797460.0,
+"time": "11/16 11:51",
+"run": "breaking",
+"added": 1794799058,
+"pv": "8bab9ca2"
+},
+{
+"key": "台股上周暴漲近4千點你賺到了嗎百萬人氣etf反彈力揭曉僅2檔贏大盤理財",
+"keys": [
+"台股上周暴漲近4千點你賺到了嗎百萬人氣etf反彈力揭曉僅2檔贏大盤理財",
+"台股上周暴漲近4千點你賺到了嗎人氣etf反彈力揭曉僅2檔贏大盤"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "台股上周暴漲近4千點你賺到了嗎？百萬人氣ETF反彈力揭曉僅2檔贏大盤- 理財",
+"show": "지난주 대만 증시는 4000포인트 가까이 급등했다. 돈을 벌었나요? 수백만 개의 인기 ETF의 반등력이 밝혀졌습니다. 그 중 단 2개만이 시장을 이겼습니다 - Financial Management",
+"source": "工商時報",
+"src_url": "https://www.ctee.com.tw",
+"sum": "대만 증시는 지난주 거의 4,000포인트 가까이 강하게 반등하며 4연속 하락세로 한 주를 마감했습니다. 대만 주식은 이번 주 대만 지수 선물 결제, 최고 경영진 교체 후 엔비디아의 첫 실적 보고서 발표, 이에 따른 전 엔비디아 CEO 젠슨 황의 미국 의회 비공개 심문 등 여러 가지 불확실성에 직면하게 될 것입니다. 종목선정이 중요한 이슈가 되었습니다. 지난주 대만 주식이 급등하면서 인기 ETF 600만개 중 Active Taiwan Stock Growth(00981A)와 Yuanta Taiwan 50(0050)만이 시장 대비 좋은 성과를 냈습니다.",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82dVhIamxtZERURkQ3cjRoMjB4RmpQd2VjODN2UWVJZnNYZG5JRnN3bGJXWjhLcjRhZEVQSkhfTzFKMmFvdThrVFl0RllOZjhpam1PNGdQMi0zZkNzOFJJ?oc=5",
+"url": "https://www.ctee.com.tw/news/20261116700676-430403",
+"pub": 1794797460.0,
+"time": "11/16 11:51",
+"run": "breaking",
+"added": 1794799070,
+"pv": "8bab9ca2"
 }
 ],
 "seen": {
@@ -674,12 +719,22 @@
 "thecampaigntobringbackjensenhuangasnvidiaceo": 1794798336.1876261,
 "nvidiastocksteadyasjensenhuangreportedlyweighsceocomebackmuskbacksreturn": 1794798336.1876268,
 "elonmuskjoins158000otherscallingfornvidiatobringbackjensenhuanginopenletter": 1794798336.1876276,
-"日経平均前引け反落959円安の6万182円": 1794798342.874854,
-"日経平均前場引け前週末比95985円安の6018250円fx・為替ニュース": 1794798342.8748543,
-"日経平均16日前引け反落959円安の6万182円": 1794798342.8748548,
-"kdi비반도체생산성부진이실질임금정체로임금격차경고": 1794798339.0531275,
-"kdi실질임금상승위한非반도체혁신생산성개선뒷받침돼야머니투데이": 1794798339.0531285,
-"kdi반도체호황에도실질임금정체비반도체생산성개선이과제": 1794798339.0531292,
-"근로자절반실질임금하락업종근무kdi비반도체생산성부진탓": 1794798339.0531294
+"日経平均前引け反落959円安の6万182円": 1794799072.3983052,
+"日経平均前場引け前週末比95985円安の6018250円fx・為替ニュース": 1794799072.398306,
+"日経平均16日前引け反落959円安の6万182円": 1794799072.3983061,
+"kdi비반도체생산성부진이실질임금정체로임금격차경고": 1794799063.633839,
+"kdi실질임금상승위한非반도체혁신생산성개선뒷받침돼야머니투데이": 1794799063.6338394,
+"kdi반도체호황에도실질임금정체비반도체생산성개선이과제": 1794799063.6338398,
+"근로자절반실질임금하락업종근무kdi비반도체생산성부진탓": 1794799063.6338406,
+"buyalert5stocksanalystsupgradedonthursday": 1794799062.6186004,
+"kdi반도체생산성85뛸때非반도체는04임금격차확대": 1794799063.633838,
+"kdi최근5년산업생산성반도체85非반도체04": 1794799063.6338387,
+"kdi반도체생산성85늘때그외04줄어임금격차": 1794799063.633839,
+"반도체호황에도임금구매력제자리kdi非반도체생산성높여야": 1794799063.6338398,
+"반도체호황에도월급은제자리kdi비반도체생산성정체": 1794799063.63384,
+"台股上周暴漲近4千點你賺到了嗎百萬人氣etf反彈力揭曉僅2檔贏大盤理財": 1794799070.4558349,
+"台股上周暴漲近4千點你賺到了嗎人氣etf反彈力揭曉僅2檔贏大盤": 1794799070.4558356,
+"日経平均株価が反落午前終値は959円安の6万0182円": 1794799072.3983047,
+"週明け日経平均午前の終値は円安の万円半導体関連株に売り": 1794799072.3983052
 }
 }
