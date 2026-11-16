@@ -1057,7 +1057,7 @@ function renderStats(t){
   var P = period();
   if(S.sp==='yday' && !Object.keys((ST.days||{})[P[0][0]]||{}).length){ S.sp = 'today'; P = period(); }
   h += '<p class="note">기사 제목에 테마 단어가 들어간 뉴스 수 · 3시간마다 모아 같은 기사는 한 번만 셈 · 업데이트 '+esc(ST.updated||'')+'</p>';
-  h += '<div class="seg sp">' + [['today','오늘'],['yday','어제'],['w','7일'],['m','30일'],['h','6개월'],['y','1년']].map(function(x){
+  h += '<div class="seg sp">' + [['yday','어제'],['today','오늘'],['w','7일'],['m','30일'],['h','6개월'],['y','1년']].map(function(x){
     return '<button data-sp="'+x[0]+'" class="'+(S.sp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
   var hc = have(P[0]), hp = have(P[1]), f = firstDay();
   var rows = (ST.themes||[]).map(function(th){ return {th:th, n:sum(P[0], th), p:sum(P[1], th), cap:capped(P[0], th)}; })
@@ -1174,7 +1174,7 @@ function renderLong(h){
   if(!HI.complete) h += '<div class="warn">⏳ '+HI.since.slice(0,4)+'년 1월부터 자료를 아직 받는 중이에요. 다 받기 전엔 일부 테마·나라·연도가 0이나 빈칸으로 보여요. 자료 서버가 느려서 하루쯤 걸려요 (봇이 알아서 이어 받음).</div>';
   h += '<div class="seg lp">' + [['all','전체'],['lm','지난달'],['ty','올해'],['yr','연도별']].map(function(x){
     return '<button data-lp="'+x[0]+'" class="'+(S.lp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
-  if(S.lp === 'yr') h += '<div class="seg ly">' + years().map(function(y){
+  if(S.lp === 'yr') h += '<div class="seg ly">' + years().slice().reverse().map(function(y){   // 옛날 → 최근 순서로 (기본 선택은 최근 해)
     return '<button data-ly="'+y+'" class="'+(pickYear()===y?'on':'')+'">'+y+'</button>'; }).join('') + '</div>';
   var dc = avn(P[0][0], P[0][1]), dp = P[1] ? avn(P[1][0], P[1][1]) : 0, span = P[0][1] - P[0][0];
   if(span - dc > 0) h += '<div class="warn">ℹ️ 이 기간 중 '+(span-dc)+'일은 GDELT 서버 사정으로 자료가 비어 있어요 ('+span+'일 중 '+dc+'일치). 합계는 그만큼 적게 잡히고, ▲▼ 비교는 하루 평균끼리 해요.</div>';
