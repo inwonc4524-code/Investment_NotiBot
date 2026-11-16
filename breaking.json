@@ -1,30 +1,6 @@
 {
 "items": [
 {
-"key": "transcriptnvidiaafterjensenhuang",
-"keys": [
-"transcriptnvidiaafterjensenhuang",
-"jensenhuangquitsnvidianoninvasivetreatmentforkidneytumours7highlights",
-"theleatherjacketcomesoffhowjensenhuanglostnvidia"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Transcript: Nvidia after Jensen Huang",
-"show": "대본: 젠슨 황 이후의 엔비디아",
-"source": "Financial Times",
-"src_url": "https://www.ft.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORHFURlNtbFhBTjJuU19GSUZ6TEt6TThic3FaeW8zWEhRdW1uWTJkTjF0QXBHMXA3b01uS25oWXcxcUhPaUQ0SzdnZUFRcjRmdXNENkpsbDV0TVJwdEkyelN0c2NPNWR2LTQ1TlBMdkc0bTk1MkRIc3RDWU96WlpCQURENHQ?oc=5",
-"url": "https://www.ft.com/content/ea28e2d1-072e-43e9-981a-e0edb083680f?syn-25a6b1a6=1",
-"pub": 1794546027.0,
-"time": "11/13 14:00",
-"run": "breaking",
-"added": 1794546240,
-"pv": "8bab9ca2"
-},
-{
 "key": "산중위내년예산안의결연기반도체미래대응기금두고여야이견머니투데이",
 "keys": [
 "산중위내년예산안의결연기반도체미래대응기금두고여야이견머니투데이",
@@ -740,6 +716,28 @@
 "run": "breaking",
 "added": 1794802690,
 "pv": "8bab9ca2"
+},
+{
+"key": "ランドネット29912026年10月度月次業績速報2026年11月16日適時開示日経会社情報digital",
+"keys": [
+"ランドネット29912026年10月度月次業績速報2026年11月16日適時開示日経会社情報digital"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "jp",
+"region": "🇯🇵 일본",
+"title": "ランドネット[2991]：2026年10月度 月次業績速報 2026年11月16日(適時開示) ：日経会社情報DIGITAL",
+"show": "랜드넷[2991]：2026년 10월도 월차 실적 속보 2026년 11월 16일(적시 공개) ：닛케이 회사 정보 DIGITAL",
+"source": "日本経済新聞",
+"src_url": "https://www.nikkei.com",
+"sum": "2026년 11월 16일 랜드넷[2991]의 공개 자료 「2026년 10월도 월차 실적 속보」를 열람할 수 있습니다. 자료는 PDF로 다운로드 가능",
+"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTWxLZVA2YkN1WWtCSTkyWU9weUFxaGd5czBrT2tYYzFBVHFiT1BpNWE2b0JKT19QTjF0dVY3OEJGV1FDd0JkYUFxYTVVQnh1ZUdJbmJiaG9CZjZWQVEzM1dsUDhoQ2tYcEs5a0twVlJpZDNvN2Z0Zk8zOHlWeHMweGxpSlZ5V2tJdUMyNWFjUlNYT0NWREhURldIZU5UT3dGRDkybFpWcDluUzZmU3l4bmRYbWM2NVpqVml4UHQzVnZEWUtQRVpwZHJQY1Y?oc=5",
+"url": "https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=g8gtzj&t=https://www.nikkei.com/nkd/disclosure/tdnr/20261116581103/",
+"pub": 1794805200.0,
+"time": "11/16 14:00",
+"run": "breaking",
+"added": 1794805591,
+"pv": "8bab9ca2"
 }
 ],
 "seen": {
@@ -786,17 +784,18 @@
 "週明け日経平均午前の終値は円安の万円半導体関連株に売り": 1794799778.1956427,
 "港元拆息普遍向上1個月hibor終止3連升111820261116即時財經新聞": 1794802685.3877506,
 "sellalert5stocksanalystsdowngradedonthursday": 1794801242.1392531,
-"ft黃仁勳與盟友討論重返nvidia擔任ceo082220261116即時財經新聞": 1794803405.0729783,
+"ft黃仁勳與盟友討論重返nvidia擔任ceo082220261116即時財經新聞": 1794804148.2103057,
 "jensenhuangcomebackreportprimesnvidiasharesforabounce": 1794801967.671332,
 "nvidiasharesinfocusasjensenhuangreportedlyweighscomebackmusksiliconvalleyexecuti": 1794801967.6713355,
 "nvidiaedgeshigherasjensenhuangreportedlymullsreturn": 1794801967.6713364,
 "台股盤中重挫逾1800點跌破42000點": 1794801974.9799275,
 "台股盤中開低走低大跌逾1800點跌破42k權值股電子股慘綠": 1794801974.9799287,
-"hkexpress香港快運再推長者優惠單程票價低至65元逾20個航點涵蓋日韓泰內地110920261116即時財經新聞": 1794803405.0729861,
-"恒指半日升197點北水流入4億元新世界跌38120720261116即時財經新聞": 1794803405.0729773,
-"恒指半日升197點北水流入4億元120120261116即時財經新聞": 1794803405.0729778,
+"hkexpress香港快運再推長者優惠單程票價低至65元逾20個航點涵蓋日韓泰內地110920261116即時財經新聞": 1794804148.2103117,
+"恒指半日升197點北水流入4億元新世界跌38120720261116即時財經新聞": 1794805587.4592957,
+"恒指半日升197點北水流入4億元120120261116即時財經新聞": 1794804867.5872831,
 "chinaseconomyfalterswithsurpriseacrosstheboardslowdown": 1794802690.8648655,
 "chinaseconomymissesforecastswithacrosstheboardslowdown": 1794802690.8648672,
-"平安數字銀行推限時股票息賺升級賞優惠121720261116即時財經新聞": 1794803405.0729768
+"平安數字銀行推限時股票息賺升級賞優惠121720261116即時財經新聞": 1794805587.459295,
+"ランドネット29912026年10月度月次業績速報2026年11月16日適時開示日経会社情報digital": 1794805591.36433
 }
 }
