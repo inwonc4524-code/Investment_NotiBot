@@ -1,28 +1,6 @@
 {
 "items": [
 {
-"key": "快訊台股強彈逾千點創意成新股后8千金股亮燈漲停",
-"keys": [
-"快訊台股強彈逾千點創意成新股后8千金股亮燈漲停"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "tw",
-"region": "🇹🇼 대만",
-"title": "快訊／台股強彈逾千點！創意成新股后 8千金股亮燈漲停",
-"show": "뉴스/대만주가 1,000포인트 이상 반등했습니다! 창의주가 신주로 편입된 뒤 주가 1000대만달러 이상 종목 8개 종목이 한도 상승에 불을 붙였다",
-"source": "TVBS新聞網",
-"src_url": "https://news.tvbs.com.tw",
-"sum": "엔비디아 CEO 젠슨 황은 스캔들과 국가 안보 위기에 연루되어 사임했습니다. 하지만 대만 증시는 오늘(13일) 1,200포인트 넘게 반등해 4만4,000포인트를 돌파했다. 주목할 점은 ASIC IC 부문이 전반적으로 늘어났다는 점이다. 미디어텍(2454)뿐만 아니라 상한가인 4,235대만달러를 돌파했다. 신주가 공개된 이후에도 입장 변화가 있었다. Chuanhu(2059)는 밀려나고 주요 IC 디자인 서비스 회사인 Creative(3443)에 인수되어 일일 한도 8,645대만달러에 도달했습니다.",
-"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xNGVDR24tRWxJVjNpT1AwWU8zVlNQVlZTZXhqTFc4a0NWZ2VZRXpMYlFMWHNhbDVob3BsZTdaamItanZQTEpqUExxYlRsWTQ?oc=5",
-"url": "https://news.tvbs.com.tw/money/4049933",
-"pub": 1794536820.0,
-"time": "11/13 11:27",
-"run": "breaking",
-"added": 1794537530,
-"pv": "8bab9ca2"
-},
-{
 "key": "港元拆息普遍向上貼現窗投放76億創近6年高1個月hibor見一周高112020261113即時財經新聞",
 "keys": [
 "港元拆息普遍向上貼現窗投放76億創近6年高1個月hibor見一周高112020261113即時財經新聞"
@@ -597,6 +575,54 @@
 "time": "11/16 11:00",
 "run": "breaking",
 "added": 1794795438
+},
+{
+"key": "thecampaigntobringbackjensenhuangasnvidiaceo",
+"keys": [
+"thecampaigntobringbackjensenhuangasnvidiaceo",
+"nvidiastocksteadyasjensenhuangreportedlyweighsceocomebackmuskbacksreturn",
+"elonmuskjoins158000otherscallingfornvidiatobringbackjensenhuanginopenletter"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "The Campaign to Bring Back Jensen Huang as Nvidia CEO",
+"show": "젠슨 황을 엔비디아 CEO로 복귀시키기 위한 캠페인",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOXlROTNsa1ZlaGlSSkd1UFkzQ3RxaXhCcy1QS1BNV01nSDhtaFN4WHptaGFUYTRsYldRaU5lUFZlUmZwVzlHRm5BMTZ6Z0FHaXI3MUo1ZjNzZ29Damlqc0NHS3ktMm5CSlAtOTZNWkdHc25DRTZIVlJHbVJ0c0JhTVZrNFlKT2w1SF9YWV96enU?oc=5",
+"url": "https://www.wsj.com/tech/the-campaign-to-bring-back-jensen-huang-as-nvidia-ceo-e91b0b2c",
+"pub": 1794796547.0,
+"time": "11/16 11:35",
+"run": "breaking",
+"added": 1794796874,
+"pv": "8bab9ca2"
+},
+{
+"key": "日経平均前引け反落959円安の6万182円",
+"keys": [
+"日経平均前引け反落959円安の6万182円",
+"日経平均前場引け前週末比95985円安の6018250円fx・為替ニュース",
+"日経平均16日前引け反落959円安の6万182円"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "jp",
+"region": "🇯🇵 일본",
+"title": "日経平均前引け 反落 959円安の6万182円",
+"show": "닛케이 평균 앞뒤 반락 959엔 내린 6만 182엔",
+"source": "日本経済新聞",
+"src_url": "https://www.nikkei.com",
+"sum": "16일 오전 도쿄 주식시장에서 닛케이 평균 주가는 반락했다. 앞뒤는 전주말 대비 959엔 85전(1.57%) 내린 6만0182엔 50전이었다. 전주말 미국 증시에서 반도체 주가를 받고 애드테스트 등 인공지능(AI)·반도체 관련 명",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1URUFjQzU5cm9kdmVGdG9DdnlleFdYV3BTeTIyTG1jbEV3bUgwZmszcTBreXE3cTdaSmFoclZ1clY0b0JWbFI3VjJRYUFtOGFnbVJWVGFuLUVoSWFkeE5nYVR0cDZwdnNaN29HbA?oc=5",
+"url": "https://www.nikkei.com/article/DGXZQOFL161X50W6A111C2000000/",
+"pub": 1794796554.0,
+"time": "11/16 11:35",
+"run": "breaking",
+"added": 1794796885,
+"pv": "8bab9ca2"
 }
 ],
 "seen": {
@@ -609,17 +635,23 @@
 "코스피외국인기관팔자에5270선약보합코스닥1": 1794791812.364478,
 "마켓라이브외국인기관매도에코스피강보합삼성sdi태양광주강세": 1794791812.3644783,
 "속보코스피코스닥23하락으로낙폭확대외국인팔자": 1794795435.265953,
-"恒指高開71點科指升041新世界跌45092620261116即時財經新聞": 1794795440.0737004,
-"港股走勢丨恒指高開71點新世界復牌插水逾45": 1794795440.0737002,
+"恒指高開71點科指升041新世界跌45092620261116即時財經新聞": 1794796157.5355873,
+"港股走勢丨恒指高開71點新世界復牌插水逾45": 1794796157.535587,
 "恒指高開71點科網股靠穩新世界供股大跌逾45藥明巨諾配股反升近15港股開市": 1794795440.0737007,
 "港股市況恒指高開71點新世界折讓821供11復牌大瀉逾45百度績前升逾2不斷更新": 1794795440.0737007,
 "港股開市升71點新世界供股集資249億元復牌急挫逾45": 1794795440.073701,
 "코스피외국인팔자에2대급락전환코스닥도3약세": 1794795435.2659528,
-"속보코스피코스닥낙폭확대23하락외국인1조원대팔자": 1794795438.0572248,
+"속보코스피코스닥낙폭확대23하락외국인1조원대팔자": 1794796154.4845734,
 "코스피외국인1조원매도에28급락美기술주약세금리상승부담": 1794795435.2659523,
-"자동차보험부정수급방지호남반도체산단국토부33건특별포상": 1794795438.0572062,
-"나이롱환자방지호남권반도체산단계획등국토교통행정33건포상": 1794795438.0572073,
-"8주룰호남반도체산단국토부정책성과33건포상": 1794795438.0572076,
-"코스피코스닥3대하락으로낙폭확대외국인팔자": 1794795438.0572245
+"자동차보험부정수급방지호남반도체산단국토부33건특별포상": 1794796878.5882385,
+"나이롱환자방지호남권반도체산단계획등국토교통행정33건포상": 1794796878.5882394,
+"8주룰호남반도체산단국토부정책성과33건포상": 1794796878.5882397,
+"코스피코스닥3대하락으로낙폭확대외국인팔자": 1794796154.4845731,
+"thecampaigntobringbackjensenhuangasnvidiaceo": 1794796877.995975,
+"nvidiastocksteadyasjensenhuangreportedlyweighsceocomebackmuskbacksreturn": 1794796877.9959815,
+"elonmuskjoins158000otherscallingfornvidiatobringbackjensenhuanginopenletter": 1794796877.9959824,
+"日経平均前引け反落959円安の6万182円": 1794796885.3120282,
+"日経平均前場引け前週末比95985円安の6018250円fx・為替ニュース": 1794796885.312029,
+"日経平均16日前引け反落959円安の6万182円": 1794796885.3120291
 }
 }
