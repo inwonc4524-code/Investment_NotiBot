@@ -967,11 +967,14 @@ function cnt(day, th){                     // 하루·테마의 뉴스 수 (국�
   return n;
 }
 function period(){                         // [이번 기간 날짜들, 비교할 이전 기간 날짜들, 이름]
-  var L = {today:[0,1,'오늘(진행 중)'], yday:[1,1,'어제'], w:[1,7,'최근 7일'], m:[1,30,'최근 30일']}[S.sp] || [1,1,'어제'];
+  var L = {today:[0,1,'오늘(진행 중)'], yday:[1,1,'어제'], w:[1,7,'최근 7일'], m:[1,30,'최근 30일'],
+           h:[1,182,'최근 6개월'], y:[1,365,'최근 1년']}[S.sp] || [1,1,'어제'];
   var cur = [], prev = [];
   for(var i=0;i<L[1];i++){ cur.push(kdate(L[0]+i)); prev.push(kdate(L[0]+L[1]+i)); }
   return [cur, prev, L[2]];
 }
+function have(days){ var n=0; days.forEach(function(d){ if((ST.days||{})[d]) n++; }); return n; }   // 기간 안에 실제로 모인 날 수
+function firstDay(){ var k = Object.keys(ST.days||{}).sort(); return k[0] || ''; }
 function sum(days, th){ var n=0; days.forEach(function(d){ n += cnt(d, th); }); return n; }
 function capped(days, th){
   var c = ST.capped || {}, hit = false;
@@ -979,7 +982,9 @@ function capped(days, th){
     if(p[0]===th && (S.region==='all' || p[1]===S.region)) hit = true; }); });
   return hit;
 }
-function chg(n, p){
+function chg(n, p, hc, hp){
+  if(hp === 0) return '<span class="chg">·</span>';          // 비교할 이전 기간 자료가 아직 없음
+  if(hc && hp && hc !== hp){ n = n/hc; p = p/hp; }            // 모인 날 수가 다르면 하루 평균끼리 비교
   if(!p) return n ? '<span class="chg">신규</span>' : '';
   var pct = Math.round((n-p)/p*100);
   if(pct > 0) return '<span class="chg up">▲'+pct+'%</span>';
@@ -992,19 +997,22 @@ function spark(th, days){                  // 최근 14일 흐름 (작은 선)
   var pts = vals.map(function(v,i){ return (i*(w/(days-1))).toFixed(1)+','+(h-2-(v/mx)*(h-4)).toFixed(1); }).join(' ');
   return '<svg class="spark" viewBox="0 0 '+w+' '+h+'" width="'+w+'" height="'+h+'" aria-hidden="true"><polyline points="'+pts+'" fill="none" stroke="var(--acc)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>';
 }
-function detail(th){                       // 30일 막대 그래프 + 나라별 구성
-  var vals = [], labels = [];
-  for(var i=29;i>=0;i--){ var d = kdate(i); vals.push(cnt(d, th)); labels.push(d.slice(5).replace('-','/')); }
-  var mx = Math.max.apply(null, vals.concat([1])), W = 320, H = 110, bw = W/30;
+function detail(th){                       // 30일(또는 6개월·1년은 주별) 막대 그래프 + 나라별 구성
+  var vals = [], labels = [], wk = (S.sp==='h' || S.sp==='y'), NB = wk ? (S.sp==='h' ? 26 : 52) : 30, nowLbl = wk ? '이번 주' : '오늘';
+  if(wk){ for(var w=NB-1;w>=0;w--){ var v=0; for(var j=0;j<7;j++) v += cnt(kdate(w*7+j), th);
+            vals.push(v); labels.push(kdate(w*7+6).slice(5).replace('-','/')+'~'+kdate(w*7).slice(5).replace('-','/')); } }
+  else for(var i=29;i>=0;i--){ var d = kdate(i); vals.push(cnt(d, th)); labels.push(d.slice(5).replace('-','/')); }
+  var mx = Math.max.apply(null, vals.concat([1])), W = 320, H = 110, bw = W/NB;
   var bars = vals.map(function(v,i){
     var bh = Math.max(v ? 2 : 0, (v/mx)*(H-30)), x = i*bw + 1, y = H-14-bh;
     return '<g class="bar"><rect x="'+x.toFixed(1)+'" y="0" width="'+(bw-2).toFixed(1)+'" height="'+(H-14)+'" fill="transparent"/>'+
-      '<rect x="'+x.toFixed(1)+'" y="'+y.toFixed(1)+'" width="'+(bw-2).toFixed(1)+'" height="'+bh.toFixed(1)+'" rx="2" fill="var(--acc)"'+(i===29?' opacity=".55"':'')+'/>'+
-      '<title>'+labels[i]+(i===29?' (오늘, 진행 중)':'')+' · '+v.toLocaleString()+'건</title></g>';
+      '<rect x="'+x.toFixed(1)+'" y="'+y.toFixed(1)+'" width="'+(bw-2).toFixed(1)+'" height="'+bh.toFixed(1)+'" rx="'+(wk?1:2)+'" fill="var(--acc)"'+(i===NB-1?' opacity=".55"':'')+'/>'+
+      '<title>'+labels[i]+(i===NB-1?' ('+nowLbl+', 진행 중)':'')+' · '+v.toLocaleString()+'건</title></g>';
   }).join('');
-  var axis = '<text x="0" y="'+(H-2)+'" class="ax">'+labels[0]+'</text><text x="'+W+'" y="'+(H-2)+'" class="ax" text-anchor="end">오늘</text>'+
+  var axis = '<text x="0" y="'+(H-2)+'" class="ax">'+labels[0]+'</text><text x="'+W+'" y="'+(H-2)+'" class="ax" text-anchor="end">'+nowLbl+'</text>'+
              '<line x1="0" y1="'+(H-14)+'" x2="'+W+'" y2="'+(H-14)+'" stroke="var(--line)"/>'+
-             '<text x="0" y="9" class="ax">최대 '+mx.toLocaleString()+'건</text>';
+             '<text x="0" y="9" class="ax">최대 '+mx.toLocaleString()+'건'+(wk?' (1주)':'')+'</text>';
+  if(wk) axis = axis.replace('>'+labels[0]+'<', '>'+labels[0].split('~')[0]+'<');
   var P = period(), parts = D.regions.map(function(r){
     var n = 0; P[0].forEach(function(d){ n += (((ST.days||{})[d]||{})[th]||{})[r.k] || 0; }); return [r, n];
   }).filter(function(x){ return x[1] > 0; }).sort(function(a,b){ return b[1]-a[1]; });
@@ -1012,8 +1020,8 @@ function detail(th){                       // 30일 막대 그래프 + 나라별
   var rows = parts.map(function(x){
     return '<div class="crow"><span class="cl">'+esc(x[0].l)+'</span><span class="cb"><i style="width:'+Math.max(2, x[1]/pm*100)+'%"></i></span><span class="cn">'+x[1].toLocaleString()+'</span></div>';
   }).join('') || '<div class="note">이 기간 기사 없음</div>';
-  return '<div class="det"><div class="dt">최근 30일 하루 뉴스 수'+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
-    '<svg class="bars" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" role="img" aria-label="'+esc(th)+' 30일 뉴스 수">'+bars+axis+'</svg>'+
+  return '<div class="det"><div class="dt">'+(wk ? '최근 '+(S.sp==='h'?'6개월':'1년')+' 주별 뉴스 수' : '최근 30일 하루 뉴스 수')+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
+    '<svg class="bars" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" role="img" aria-label="'+esc(th)+' 뉴스 수 그래프">'+bars+axis+'</svg>'+
     '<div class="dt">'+esc(P[2])+' 나라별</div>'+rows+'</div>';
 }
 function renderStats(t){
@@ -1023,23 +1031,28 @@ function renderStats(t){
   var P = period();
   if(S.sp==='yday' && !Object.keys((ST.days||{})[P[0][0]]||{}).length){ S.sp = 'today'; P = period(); }
   h += '<p class="note">기사 제목에 테마 단어가 들어간 뉴스 수 · 3시간마다 모아 같은 기사는 한 번만 셈 · 업데이트 '+esc(ST.updated||'')+'</p>';
-  h += '<div class="seg">' + [['today','오늘'],['yday','어제'],['w','7일'],['m','30일']].map(function(x){
+  h += '<div class="seg">' + [['today','오늘'],['yday','어제'],['w','7일'],['m','30일'],['h','6개월'],['y','1년']].map(function(x){
     return '<button data-sp="'+x[0]+'" class="'+(S.sp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
+  var hc = have(P[0]), hp = have(P[1]), f = firstDay();
   var rows = (ST.themes||[]).map(function(th){ return {th:th, n:sum(P[0], th), p:sum(P[1], th), cap:capped(P[0], th)}; })
                             .sort(function(a,b){ return b.n - a.n; });
   var mx = rows.length ? Math.max(1, rows[0].n) : 1, total = 0; rows.forEach(function(r){ total += r.n; });
-  h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 전체 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">(전 기간 대비)</span></div>';
+  h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 전체 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">'+(hp ? '(전 기간 대비)' : '')+'</span></div>';
+  if(P[0].length > 1 && hc < P[0].length)
+    h += '<div class="warn">⚠️ 통계는 '+f.slice(5).replace('-','/')+'부터 모으기 시작해서 이 기간은 아직 <b>'+hc+'일치</b>만 있어요 ('+P[0].length+'일 중). 날이 지나면 저절로 채워져요.'+
+         (hp ? '' : ' 이전 기간 자료가 없어 ▲▼ 비교는 아직 안 나와요.')+'</div>';
   h += rows.map(function(r, i){
     var open = S.open[r.th];
     return '<div class="srow'+(open?' open':'')+'" data-th="'+esc(r.th)+'">'+
       '<div class="sline"><span class="rk">'+(i+1)+'</span><span class="sn">'+esc(r.th)+'</span>'+
       '<span class="sb"><i style="width:'+Math.max(r.n?2:0, r.n/mx*100)+'%"></i></span>'+
-      '<span class="sc">'+r.n.toLocaleString()+(r.cap?'+':'')+'</span>'+chg(r.n, r.p)+spark(r.th, 14)+'</div>'+
+      '<span class="sc">'+r.n.toLocaleString()+(r.cap?'+':'')+'</span>'+chg(r.n, r.p, hc, hp)+spark(r.th, 14)+'</div>'+
       (open ? detail(r.th) : '') + '</div>';
   }).join('');
-  h += '<footer>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프와 나라별 구성<br>'+
+  h += '<footer>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
        '· 숫자 옆 + 는 검색 결과가 너무 많아 실제보다 적게 잡혔을 수 있다는 표시예요 (구글 뉴스는 한 번에 최대 100개)<br>'+
-       '· ▲▼ 는 바로 앞 같은 길이 기간과 비교 (오늘은 진행 중이라 작게 나와요)</footer>';
+       '· ▲▼ 는 바로 앞 같은 길이 기간과 비교 (오늘은 진행 중이라 작게 나와요 · 모인 날 수가 다르면 하루 평균끼리 비교)<br>'+
+       '· 통계는 '+esc(f)+'부터 모았어요 (첫날은 일부만 잡힘) · 2년치까지 보관 (1년 통계를 그 전 1년과 비교)</footer>';
   $('main').innerHTML = h;
 }
 document.addEventListener('click', function(e){
@@ -1049,7 +1062,8 @@ document.addEventListener('click', function(e){
   if(r){ var th = r.parentNode.dataset.th; S.open[th] = !S.open[th]; renderMain(); }
 });
 """
-STATS_CSS = r""".seg{display:flex;gap:6px;margin:6px 4px 10px}.seg button{flex:1;border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:7px 0;font:inherit;font-size:13px}
+STATS_CSS = r""".seg{display:flex;gap:4px;margin:6px 4px 10px}.seg button{flex:1;min-width:0;border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:7px 0;font:inherit;font-size:12.5px;white-space:nowrap}
+.warn{margin:0 4px 10px;padding:8px 10px;border-radius:8px;background:rgba(250,204,21,.08);color:var(--sub);font-size:12.5px;line-height:1.5}.warn b{color:var(--text)}
 .seg button.on{background:var(--acc);border-color:var(--acc);color:#1f1e1d;font-weight:600}
 .tot{margin:2px 4px 10px;color:var(--sub);font-size:13px}.tot b{color:var(--text)}.chgnote{font-size:11px}
 .srow{background:var(--card);border-radius:12px;margin:6px 0;padding:10px 12px;cursor:pointer}.srow.open{background:var(--card2)}

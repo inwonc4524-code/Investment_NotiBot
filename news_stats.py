@@ -106,7 +106,7 @@ STAT_THEMES = [
 ]
 
 STATS_FILE = os.path.join(nb.HERE, "stats.json")
-KEEP_DAYS = 120            # 날짜별 숫자를 며칠치 보관할지
+KEEP_DAYS = 735            # 날짜별 숫자를 며칠치 보관할지 (1년 통계 + 그 전 1년과 비교)
 NOTIFY_HOUR = 7            # 한국 시간 이 시각 이후 첫 수집 때 '어제 통계' 알림
 SATURATED = 95             # 검색 한 번에 이만큼 넘게 나오면 검색어를 나눠서 더 찾음 (구글 뉴스는 한 번에 최대 100개)
 
