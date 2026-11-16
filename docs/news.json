@@ -35,7 +35,8 @@
 "증시전략엔비디아실적앤트로픽상장에촉각뉴욕증시향방은",
 "엔비디아실적앤트로픽상장겹친다뉴욕증시ai빅위크",
 "뉴욕증시프리뷰주가지수선물하락엔비디아실적앤스로픽상장앞두고기술주약세",
-"마켓무버뉴욕증시혼조마감엔비디아리더십공백에기술주약세"
+"마켓무버뉴욕증시혼조마감엔비디아리더십공백에기술주약세",
+"속보뉴욕증시엔비디아發기술주약세에하락출발나스닥113"
 ],
 "count": 6,
 "theme": "🇺🇸 미국 S&P500",
@@ -65,7 +66,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇺🇸 미국",
 "title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus",
-"show": "다우, S&P500, 나스닥 Futures Edge Lower As Markets Brace For 엔비디아 수익, 인류 최초 공모(IPO), 연준 회의록: SMMT, NBIS, HELP, MSTR 집중",
+"show": "다우, S&P500, 나스닥 Futures Edge Lower As Markets Brace For 엔비디아 수익, 앤트로픽 공모(IPO), 연준 회의록: SMMT, NBIS, HELP, MSTR 집중",
 "source": "Yahoo Finance",
 "src_url": "https://finance.yahoo.com",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
@@ -112,6 +113,31 @@
 "pv": "8bab9ca2"
 },
 {
+"key": "黃仁勳跌落神壇anthropicipo超額認購近7倍華爾街押注ai淘金新主角",
+"keys": [
+"黃仁勳跌落神壇anthropicipo超額認購近7倍華爾街押注ai淘金新主角",
+"华尔街原声ibm副董事长anthropicipo将成ai估值风向标",
+"anthropic超级ipo本周出鞘美股ai信仰面临最严苛大考",
+"美股早盤ai股又被砍那指跌逾1輝達財報與anthropic上市成焦點",
+"美股盤前ai股賣壓全面擴散輝達財報anthropic上市雙重考驗那斯達克期貨重挫12"
+],
+"count": 4,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "黃仁勳跌落神壇！Anthropic IPO超額認購近7倍 華爾街押注AI淘金新主角",
+"show": "젠슨 황이 제단에서 떨어졌습니다! 앤트로픽 기업공개(IPO)가 7배 가까이 초과 청약됐고, 월스트리트는 AI 골드러시의 새로운 주인공에 베팅",
+"source": "自由時報",
+"src_url": "https://stock.ltn.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93XzdSQ1JacDFVeFlGMzEtX2tkSHVhLXRxOFZDalF2WGVhaV9YTzN1eU1WdmR1NDhNeDYwQktBdkJoQmZXalA3VmM0TUtOSnZHOVZfc3VWU3E?oc=5",
+"pub": 1794793957.0,
+"time": "11/16 10:52",
+"run": "202611160158",
+"added": 1794794320,
+"url": "https://stock.ltn.com.tw/article/hytyrxrs8jjy",
+"sum": "엔비디아 CEO 젠슨 황이 큰 어려움에 처해 있는 동안, 인공지능 스타트업 앤트로픽은 역사상 최대 규모의 기업공개(IPO) 중 하나를 준비하고 있습니다. Dario Amodei CEO가 이끄는 앤트로픽은 상장 이후 거의 7차례 청약을 받았으며 시장 목표 가치는 1조 4천억 달러(약 NT$ 45조 9600억)에 달해 AI 투자에 대한 월스트리트의 새로운 베팅을 촉발시켰습니다. 투자로",
+"pv": "8bab9ca2"
+},
+{
 "key": "美股本周焦點nvidia業績anthropic上市",
 "keys": [
 "美股本周焦點nvidia業績anthropic上市",
@@ -141,26 +167,26 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "黃仁勳跌落神壇anthropicipo超額認購近7倍華爾街押注ai淘金新主角",
+"key": "美股盤前美股三大指數期貨向下納指期貨跌逾1",
 "keys": [
-"黃仁勳跌落神壇anthropicipo超額認購近7倍華爾街押注ai淘金新主角",
-"华尔街原声ibm副董事长anthropicipo将成ai估值风向标",
-"anthropic超级ipo本周出鞘美股ai信仰面临最严苛大考"
+"美股盤前美股三大指數期貨向下納指期貨跌逾1",
+"美股初段向下納指跌逾1",
+"美股走勢丨道指早段回落納指跌逾1"
 ],
 "count": 3,
 "theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "黃仁勳跌落神壇！Anthropic IPO超額認購近7倍 華爾街押注AI淘金新主角",
-"show": "젠슨 황이 제단에서 떨어졌습니다! 인류의 기업공개(IPO)가 7배 가까이 초과 청약됐고, 월스트리트는 AI 골드러시의 새로운 주인공에 베팅",
-"source": "自由時報",
-"src_url": "https://stock.ltn.com.tw",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93XzdSQ1JacDFVeFlGMzEtX2tkSHVhLXRxOFZDalF2WGVhaV9YTzN1eU1WdmR1NDhNeDYwQktBdkJoQmZXalA3VmM0TUtOSnZHOVZfc3VWU3E?oc=5",
-"pub": 1794793957.0,
-"time": "11/16 10:52",
-"run": "202611160158",
-"added": 1794794320,
-"url": "https://stock.ltn.com.tw/article/hytyrxrs8jjy",
-"sum": "엔비디아 CEO 젠슨 황이 큰 어려움에 처해 있는 동안, 인공지능 스타트업 앤트로픽은 역사상 최대 규모의 기업공개(IPO) 중 하나를 준비하고 있습니다. Dario Amodei CEO가 이끄는 앤트로픽은 상장 이후 거의 7차례 청약을 받았으며 시장 목표 가치는 1조 4천억 달러(약 NT$ 45조 9600억)에 달해 AI 투자에 대한 월스트리트의 새로운 베팅을 촉발시켰습니다. 투자로",
+"region": "🇭🇰 홍콩",
+"title": "美股盤前 | 美股三大指數期貨向下，納指期貨跌逾1%",
+"show": "미국 증시 개장 전 | 미국 3대 주가지수 선물이 하락했고, 나스닥 선물도 1% 이상 하락했다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNT0RxVDVGNEkzYzZFN1EyVENWTW8xa1FBVVJiNmpkNzhWd0Vfb3ZqVy1qM3dKQkJmNl9Pc1NwWTJQQWpfQ0dNaWdaSW5lYmF0eUljS0p6NXFCeWFJVkkzOHNhUzdjVE5qS052bEYyYUJYcXpwaDEzZzNpbFpXOHpEVjhybDVUV2RhYUZ1Z1FCM0R4Mk5hOTdFT1paZFhuOHAzRDZIQ3J5b2NBVHZON1dLZlJ2LUhJNFllRXprVXhLT0J4MG9YUWllTFBDYktCU1BDZXFsc2V2Um9ENnRyZGVmZlpaVkxyY2xBbHI5b0VsMkw5YXZrRnNFYjVsX1JPNVlvcGc3NWxPbkJoamxvNGxGQ2NiWHgzUVhva3gyTFloTGk4MXFLV3E1Q083Rzg0VThVaWZBUVBfS0Z0NXpmNFI0WW52NXV0cmFRd2Z6NmVFLWRhTFAyMk01d2F3cXJ5NlNxb19ER0hNaFhGWktYNmdwZURCYlBEb3M?oc=5",
+"pub": 1794837158.0,
+"time": "11/16 22:52",
+"run": "202611161406",
+"added": 1794838035,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416898/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%89%8D+%7C+%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E6%9C%9F%E8%B2%A8%E5%90%91%E4%B8%8B%EF%BC%8C%E7%B4%8D%E6%8C%87%E6%9C%9F%E8%B2%A8%E8%B7%8C%E9%80%BE1%25",
+"sum_tried": 2,
 "pv": "8bab9ca2"
 },
 {
@@ -172,7 +198,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇸🇬 싱가포르",
 "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
-"show": "엔비디아 실적, 인류 최초 공모(IPO) 테스트 기술 상승세 전에 아시아 주가 하락",
+"show": "엔비디아 실적, 앤트로픽 공모(IPO) 테스트 기술 상승세 전에 아시아 주가 하락",
 "source": "CNA",
 "src_url": "https://www.channelnewsasia.com",
 "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeDFOckZ5WC00RkRfVFFLb21uWHk1ZE81NmpCUWJlVTl6M3VVa2kyaXBpdVlrRDFMQzVmc2pOOTF0NFJtTm9HVS1IOF80NExRSHl5QklMMUkxcHBIcVAzbkhRWnNubXBvU3JiMzNlSHdRay1NUTlSeTRSeHJQR21USUZ0b1BXV3AwLVQzU0lIRk9lejFkbzhVMHJRMWZBWnFraFNDWDl2WWJYOGZiUzJyY3F3?oc=5",
@@ -256,7 +282,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇨🇳 중국",
 "title": "美联储理事巴尔：AI智能体或加大未来银行挤兑风险",
-"show": "Barr 연준 총재: AI 에이전트가 향후 은행 운영 위험을 증가시킬 수 있음",
+"show": "마이클 바 연준 총재: AI 에이전트가 향후 은행 운영 위험을 증가시킬 수 있음",
 "source": "36Kr",
 "src_url": "https://www.36kr.com",
 "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE41UE05V2tmdEYyVzB4R0ZVVVJ2NVVfLUJ1dmlSazgzUEJHV0FfSnBMQU1sTnZtY3RuSGV3WmNWVmMtcUZUa2hRUFhodXMtRkZhREJMa2xrMW9SYWFZdmc?oc=5",
@@ -265,7 +291,7 @@
 "run": "202611161159",
 "added": 1794830364,
 "url": "https://www.36kr.com/newsflashes/4072337885041800",
-"sum": "11월 16일, 마이클 바 연준 총재는 자율 인공지능 에이전트가 시장 신호나 금리 변화에 따라 고객 예금을 자동으로 이체함으로써 은행 운영을 가속화할 수 있다고 경고했습니다. 그는 대형 은행들이 소매 계좌에 대해 승인되지 않은 작업을 수행하려는 AI 에이전트를 발견했다고 말했습니다. Barr는 AI 에이전트가 은행이 전통적인 유동성 관리 및 규제 개입에 대응할 수 있는 속도를 초과하여 몇 분 안에 대규모로 자금을 이동할 수 있다고 지적했습니다. 그는 또한 3조 달러 이상의 부외 부채와 기술 대기업 간의 \"회전 자금 조달\" 거래와 관련된 AI 인프라 투자 붐에 위험이 있다고 경고했습니다. (인터페이스)",
+"sum": "11월 16일, 마이클 바 연준 총재는 자율 인공지능 에이전트가 시장 신호나 금리 변화에 따라 고객 예금을 자동으로 이체함으로써 은행 운영을 가속화할 수 있다고 경고했습니다. 그는 대형 은행들이 소매 계좌에 대해 승인되지 않은 작업을 수행하려는 AI 에이전트를 발견했다고 말했습니다. 마이클 바는 AI 에이전트가 은행이 전통적인 유동성 관리 및 규제 개입에 대응할 수 있는 속도를 초과하여 몇 분 안에 대규모로 자금을 이동할 수 있다고 지적했습니다. 그는 또한 3조 달러 이상의 부외 부채와 기술 대기업 간의 \"회전 자금 조달\" 거래와 관련된 AI 인프라 투자 붐에 위험이 있다고 경고했습니다. (인터페이스)",
 "pv": "8bab9ca2"
 },
 {
@@ -277,7 +303,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "《國際金融》通膨過熱 Fed施密德暗示升息「勢在必行」",
-"show": "\"국제 금융\" 인플레이션이 과열되고 있으며 연준 Schmid는 금리 인상이 \"필수적\"이라고 암시합니다.",
+"show": "\"국제 금융\" 인플레이션이 과열되고 있으며 연준 슈미드는 금리 인상이 \"필수적\"이라고 암시합니다.",
 "source": "旺得富理財網",
 "src_url": "https://wantrich.chinatimes.com",
 "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ucjFlZkVJUFB3V0k5RzlhbmtPTk5SQk04UG9DR0NWUDRuVGJEZ1dleUFhdV9oWlg3Z0RCWTNRYjNiWWtwT1RPZ1U0TUprVzhhbEVwTDd2eXFnNzdjZVIxekVRYjMyM1haWVE?oc=5",
@@ -309,7 +335,7 @@
 "run": "202611160611",
 "added": 1794809524,
 "url": "https://money.udn.com/money/story/5607/9881677",
-"sum": "오늘 대만 증시는 또 급락했습니다. 미국 반도체주 폭락 영향으로 젠슨 엔비디아 CEO 황 회장 사임 논란 확산과 미국 물가·금리 인상 우려가 닥치자 대만 증시는 하락세로 출발하고 매도압력이 계속 높아지며 4만3000포인트, 4만2000포인트를 연달아 돌파했다. 최종 가중지수는 2,635.04포인트(6.03%) 하락한 41,040포인트로 마감했다. 거래량은 NT$8,450억 6천만으로 증가했습니다. 이는 대만 주식 역사상 두 번째로 큰 마감점 하락폭으로, 올해 7월 17일의 2,953.71포인트 하락에 이어 두 번째입니다.",
+"sum": "오늘 대만 증시는 또 급락했습니다. 미국 반도체주 폭락 영향으로 젠슨 엔비디아 CEO 황 회장 사임 논란 확산과 미국 물가·금리 인상 우려가 닥치자 대만 증시는 하락세로 출발하고 매도압력이 계속 높아지며 4만3000포인트, 4만2000포인트를 연달아 돌파했다. 최종 가권지수는 2,635.04포인트(6.03%) 하락한 41,040포인트로 마감했다. 거래량은 NT$8,450억 6천만으로 증가했습니다. 이는 대만 주식 역사상 두 번째로 큰 마감점 하락폭으로, 올해 7월 17일의 2,953.71포인트 하락에 이어 두 번째입니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -353,7 +379,7 @@
 "run": "202611160158",
 "added": 1794794317,
 "url": "https://money.udn.com/money/story/5607/9880985?from=udnamp-referralnews_ch1001artbottom",
-"sum": "미국 기술주는 계속해서 압박을 받고 있으며, 이로 인해 대만의 주식 시장과 외환 시장이 동시에 약세를 보이고 있습니다. 대만 증시는 장 초반 43512.42포인트에 개장한 뒤 곧바로 매도 압력이 나타나 한때 700포인트 넘게 하락했다. 하락폭은 이후 수렴됐지만 하락폭은 여전히 ​​500포인트를 넘었다. 신대만달러는 미국 달러 대비 32.87대만달러로 출발한 후 32.9대만달러로 하락해 6.2센트 하락해 주식과 환차손이 모두 동반되는 패턴을 보였다.",
+"sum": "미국 기술주는 계속해서 압박을 받고 있으며, 이로 인해 대만의 주식 시장과 외환 시장이 동시에 약세를 보이고 있습니다. 대만 증시는 장 초반 43512.42포인트에 개장한 뒤 곧바로 매도 압력이 나타나 한때 700포인트 넘게 하락했다. 하락폭은 이후 수렴됐지만 하락폭은 여전히 500포인트를 넘었다. 신대만달러는 미국 달러 대비 32.87대만달러로 출발한 후 32.9대만달러로 하락해 6.2센트 하락해 주식과 환차손이 모두 동반되는 패턴을 보였다.",
 "pv": "8bab9ca2"
 },
 {
@@ -365,7 +391,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "黃仁勳去職華爾街降輝達評價 散戶仍進場炒底",
-"show": "젠슨 황은 월스트리트에서 사임하고 엔비디아의 발언을 하향 조정했습니다. 소매 투자자들은 여전히 ​​바닥을 추측하기 위해 시장에 진입했습니다.",
+"show": "젠슨 황은 월스트리트에서 사임하고 엔비디아의 발언을 하향 조정했습니다. 소매 투자자들은 여전히 바닥을 추측하기 위해 시장에 진입했습니다.",
 "source": "自由時報",
 "src_url": "https://stock.ltn.com.tw",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4taEVVR2gwbmtUQkFXaGhBZW00U0RhSlNhZkEyVFUxNmNhMnBydDRCcjd5eUhqLTRVaXhwcXRhdDFEVnhxZnJCRFdacWlPTlFOUDgtVGEwOWE?oc=5",
@@ -409,7 +435,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇯🇵 일본",
 "title": "エヌビディア、海外市場ビュー&米国株ピックアップ（11月16日）",
-"show": "엔비디아, 해외 시장 뷰 & 미국 주식 픽업 ​​(11월 16일)",
+"show": "엔비디아, 해외 시장 뷰 & 미국 주식 픽업 (11월 16일)",
 "source": "日本経済新聞",
 "src_url": "https://www.nikkei.com",
 "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0TWhOdktlUjI5eTR0WmM0Y2lRS09XX2NtUy1pdjB1MXdRWG5WdlpQZmpYVVdLaDZkUnpzWW1VcXlSQkFJLXdzUlRYNlJQWkdoY2x2SUZ4UXFVakFwNGwtNEFFd0p2TFZJOWVUUnIyZEhTa1R5NEdfeUJGNU1vQQ?oc=5",
@@ -511,6 +537,175 @@
 "pv": "8bab9ca2"
 },
 {
+"key": "美股開市貝森特主導收緊晶片出口管制英偉達跌2芯片股再遭拋售不斷更新",
+"keys": [
+"美股開市貝森特主導收緊晶片出口管制英偉達跌2芯片股再遭拋售不斷更新",
+"美股開市貝森特主導收緊芯片出口管制英偉達跌2芯片股再遭拋售不斷更新"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "【美股開市】貝森特主導收緊晶片出口管制 英偉達跌2% 芯片股再遭拋售（不斷更新）",
+"show": "[우리를. 재고 오픈] 베상트가 칩 수출규제 강화 주도, 엔비디아 2% 하락, 칩 재고 또 매도 (지속 업데이트)",
+"source": "香港經濟日報HKET",
+"src_url": "https://inews.hket.com",
+"link": "https://news.google.com/rss/articles/CBMimwRBVV95cUxOVXU5bGtQdEJNdDl5MWFZYVYwcGRWM3ItR2FOdlM1VEtGQk1RakhhazloRExzMVowMVhuamRfNFlmNkVUalhYLWVLOWxYTk5Ick1oWnFfX2s3dXI1ZV81V2dtbXNtYkY0OHhIYkd6SHFEaEhTcXVwcC1wUEZrT01DUHdzcnJOYUpXZ1JMWlF6ZkJXS2FWT0pVQzEzRkQyT0kwYUhLNVVqVGZua2xYX2UwYk02MXZhQUNxV083QlZjMjVITTkwZjk2TTA4SEROdjBGamN3a0lTbTZTUU5WOFh0SjdkaFFvVEQxamx4RFpSTzhRYXZXeTNyVVFiTDJQVjV6dlluVXdXUGpoU2VYdHcyVU0tcXlQUzk4MHJGUEQtdXU2OHEwTzBhMjl1c2F4V2FTSE1DbFc3WVhHQ1hHTFpLaVdobVZyU3VkckNzdjFHUjR0Z0pBZjlaa0ZnT3Ixa0NQTlBvUWxucDY1X2ljWkV1RzJibHRlbHY3UmJJQU9qdmxmeGxnaW1ieGI1aFg4N2diZTJLbk1wT1hDMU9TZ1VVeGtHOTZMWXBRMGVVZE9SZUpjcG1RZXJrOTBORmRRZUVVRWdPcnctc25UY0RnM1FZT1dneU4yQlNBalRSWjFiU1dleDdrdXVSQjRlbVdPTm1Id0pXVWFMNnBhRmdTTjNwZm14RnZleEZQTkI5XzRZbUIzeVlXeER5bk54SQ?oc=5",
+"pub": 1794840681.0,
+"time": "11/16 23:51",
+"run": "202611161453",
+"added": 1794840835,
+"url": "https://inews.hket.com/article/4225700/%E3%80%90%E7%BE%8E%E8%82%A1%E9%96%8B%E5%B8%82%E3%80%91%E8%B2%9D%E6%A3%AE%E7%89%B9%E4%B8%BB%E5%B0%8E%E6%94%B6%E7%B7%8A%E6%99%B6%E7%89%87%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6%E3%80%80%E8%8B%B1%E5%81%89%E9%81%94%E8%B7%8C2-%E3%80%80%E8%8A%AF%E7%89%87%E8%82%A1%E5%86%8D%E9%81%AD%E6%8B%8B%E5%94%AE%EF%BC%88%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%EF%BC%89",
+"sum_tried": 1,
+"pv": "8bab9ca2"
+},
+{
+"key": "nasdaqfalls1atopenasnvidiawoesweighonsentimentaheadofearnings",
+"keys": [
+"nasdaqfalls1atopenasnvidiawoesweighonsentimentaheadofearnings"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇸🇬 싱가포르",
+"title": "Nasdaq falls 1% at open as Nvidia woes weigh on sentiment ahead of earnings",
+"show": "나스닥은 엔비디아의 불황이 실적에 앞서 정서를 압박함에 따라 개장시 1% 하락했습니다.",
+"source": "The Business Times",
+"src_url": "https://www.businesstimes.com.sg",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ0cyZ3duaHBWYVp5TXp1NENGLXZMX0VHTGVnTWkzSjZYOHZoaTZpVVEtM2xHS0w0b2dyWEJ4TTNrWm55YXFCU0VPRVB3Y2UyZ21oM0lxSGI2blVFWE1HTzRRZnE3VW5rMGtIVGlGdDV0RHUwUzRhWjYzSU9SVW43QVpISkpmYVB4ZXo1OFk1UzZJSlI4RG1VbFJBQzZUVVpqaDdROHhycUdFZ0lqOEE?oc=5",
+"pub": 1794840540.0,
+"time": "11/16 23:49",
+"run": "202611161453",
+"added": 1794840843,
+"url": "https://www.businesstimes.com.sg/international/nasdaq-falls-1-open-nvidia-woes-weigh-sentiment-ahead-earnings",
+"sum": "AI 투자 붐의 격동은 완화될 조짐을 보이지 않습니다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "美股開市舊經濟強股靠穩納指頹勢navida繼續跌",
+"keys": [
+"美股開市舊經濟強股靠穩納指頹勢navida繼續跌"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股開市｜ 舊經濟強股靠穩 納指頹勢 Navida繼續跌",
+"show": "미국 주식 개장 | 오래된 경제의 강한 주식은 안정되고 나스닥은 하락하며 Navida는 계속 하락합니다",
+"source": "星島頭條",
+"src_url": "https://www.stheadline.com",
+"link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxONl9JNVpVWVZpLVdrUGJycExVUGZ4U09faGJCc0tER0Q4aW9GZEw5NHZLTE9FZUF5YVVrS29iV2UzRVpMRWhBdTJwaVdHLU8yMDhlSHJNc056NzlHaWtnVDl3WmNObnZyUDIyNWVJeElhNEVyZzAtR1dTdmtZVkVoQkc4ZHcwS0xwb2dhWG9uMWQzc2dmcUJqTVE4SFZMaDNUamhGdDk1LTJyNDVzaGhxaXRoTVhMR0JRWXM5eHVMRUtnd293bGZFeWJSTGF1WTVvYkhZOGJCU1c2VEowSlExMU1XR04tUWlTVlltSG1uM3N2STlIWUd3bEc1bkJSNEM3bVpLOGRvZFJybURGWTM2UEUxTWtqdC1YdjR3eW1QeDFxbXNKSnQ4U29tQ09QbVhkSkZPNGlreHd3cGpBbFQ0Sw?oc=5",
+"pub": 1794840465.0,
+"time": "11/16 23:47",
+"run": "202611161453",
+"added": 1794840837,
+"url": "https://www.stheadline.com/stock-market/3637828/%E7%BE%8E%E8%82%A1%E9%96%8B%E5%B8%82-%E8%88%8A%E7%B6%93%E6%BF%9F%E5%BC%B7%E8%82%A1%E9%9D%A0%E7%A9%A9-%E7%B4%8D%E6%8C%87%E9%A0%B9%E5%8B%A2-Navida%E7%B9%BC%E7%BA%8C%E8%B7%8C",
+"sum": "미국 증시는 월요일에 개장했습니다. 나스닥은 지난 금요일 하락세를 이어가며 약 1% 하락한 24,853포인트로 개장했습니다. 다우지수는 보합세를 유지했고 S&P500지수는 0.6% 하락했다. 이번주 시장의 초점은 물론 나비다(엔비디아, 일명 (엔비디아))가 될 수밖에 없다. 젠슨 황의 빠른 복귀 여부와 더불어 화요일에는 분기별 결과도 발표할 예정입니다. 아울러 AI 개발사 앤트로픽이 이번 주 기업공개(IPO)를 실시할 예정이다. 여러 날 연속 하락세를 보인 엔비디아(NVDA)는 하락세를 이어가며 장초 약 2.5% 하락한 뒤 하락폭을 1%대로 좁혔다. 미국 AMD 2% 하락, 마이크론",
+"pv": "8bab9ca2"
+},
+{
+"key": "美股開盤川普支持黃仁勳回鍋費半挫5強拉台指期夜盤強彈8百點",
+"keys": [
+"美股開盤川普支持黃仁勳回鍋費半挫5強拉台指期夜盤強彈8百點"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "美股開盤／川普「支持黃仁勳回鍋」！費半挫5%強拉 台指期夜盤強彈8百點",
+"show": "미국 증시 개장/트럼프 \"젠슨 황 복귀 지지\"! 필라델피아 반도체 지수는 5% 하락했고 대만 지수 선물은 야간 거래에서 800포인트 반등했습니다.",
+"source": "TVBS新聞網",
+"src_url": "http://news.tvbs.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBqUGFkNk5KbVAwaWRfRk9EckoyNWowMW92UEpJNThjbGxreDIxQ2hjdWNwYkRWeG9RRzM0ek1jWE90amNjYWQxMDZ6UkRndw?oc=5",
+"pub": 1794840360.0,
+"time": "11/16 23:46",
+"run": "202611161453",
+"added": 1794840830,
+"url": "http://news.tvbs.com.tw/money/4051558",
+"sum": "엔비디아 창립자 젠슨 황의 사임으로 인한 불확실성의 영향으로 미국 기술주는 지난주 \"블랙 프라이데이\" 시장을 열었습니다. 16일 월요일에도 4대 지수가 모두 하락하는 등 매도압력이 계속 높아졌다. 그러나 도널드 트럼프 미국 대통령이 “옌센 황이 엔비디아로 돌아가는 것을 보고 싶지 않다”는 발언이 즉각 매수를 자극했다. 대만 지수 선물도 야간 거래에서 800포인트 이상 반등했습니다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "美股業績泰森食品第四季經調整每股盈利跌47",
+"keys": [
+"美股業績泰森食品第四季經調整每股盈利跌47"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股業績 | 泰森食品第四季經調整每股盈利跌47%",
+"show": "미국 주식 결과 | Tyson Foods의 4분기 조정 주당순이익은 47% 감소했습니다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxPbnB5S2F2eGNoNjRvS2ZrNzRMNk11MFl2M2d4UVZJX20zRFRLeUFTd2lfTnM0NGRKREhzSF9MOWo5OFJtQnY2OEF6bGM3SThUcldVa3N0MGh3N2ZOWWpQeFZGUWYxWjA1RmR6S0F3NUNvRjBnV1Z4YXZqY3BseTAyeEdwNEZScHI1RXllVEtpNjd0YjZwb1NxRDVKYUdmSmNLMWJDTnFFVVlPU3NEbEExdXNSWkxVQXEtSHAzTmFWaC1PdW12UGExVHNYNU9SQXZsN0E4M0htVG44SlB0Y1lXTXY5ejBBX1d4clAzQjlsMXFYTjF6MkYzMVg1NVVGRXJvT0JxR05STDN5ZHVBLUpWc0VvdVhYTmhDR1ZaQTEtSTJNUTY0UnhtNnM3by16VGN6STFXRkFHT2FSNU5DWG1PRmI4ZjdZUXBXZ3Fxd2VqdWpxNG1BY25lMm9kaFlFcUdJ?oc=5",
+"pub": 1794840300.0,
+"time": "11/16 23:45",
+"run": "202611161453",
+"added": 1794840839,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416910/%E7%BE%8E%E8%82%A1%E6%A5%AD%E7%B8%BE+%7C+%E6%B3%B0%E6%A3%AE%E9%A3%9F%E5%93%81%E7%AC%AC%E5%9B%9B%E5%AD%A3%E7%B6%93%E8%AA%BF%E6%95%B4%E6%AF%8F%E8%82%A1%E7%9B%88%E5%88%A9%E8%B7%8C47%25",
+"sum_tried": 1,
+"pv": "8bab9ca2"
+},
+{
+"key": "美股纳指低开12芯片股集体下挫",
+"keys": [
+"美股纳指低开12芯片股集体下挫"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "美股纳指低开1.2%，芯片股集体下挫",
+"show": "미국 주식 나스닥은 1.2% 하락세를 기록했고, 반도체주도 함께 하락했습니다.",
+"source": "Jiemian.com",
+"src_url": "https://www.jiemian.com",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE92a3c4Qmw3aDBobnJWVUV5cTFlSGtQUy1MVVZiUzlpTGtqMzVIN2FVeWxNejYzekM5YmZwVXpjREh6azIzUjVpclJtSEhqN3RvbmxBOWJnT0Q?oc=5",
+"pub": 1794840258.0,
+"time": "11/16 23:44",
+"run": "202611161453",
+"added": 1794840829,
+"url": "https://www.jiemian.com/article/15338759.html",
+"sum": "나스닥이 1.24%, 다우지수가 0.16%, S&P500이 0.81% 하락하는 등 미국 3대 주요 증시 지수가 모두 하락세로 출발했습니다. 샌디스크, 어플라이드 머티리얼즈, 세레브라스는 6% 이상 하락했고 씨게이트 테크놀로지, 웨스턴디지털, ARM, AMD는 5% 이상 하락, 인텔, TSMC, 브로드컴은 4% 이상 하락, 엔비디아는 2% 이상 하락했다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "美股早盤輝達換帥後仍難平市場疑慮四大指數齊跌費半挫近5",
+"keys": [
+"美股早盤輝達換帥後仍難平市場疑慮四大指數齊跌費半挫近5"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "美股早盤／輝達換帥後仍難平市場疑慮...四大指數齊跌 費半挫近5%",
+"show": "미국 주식 조기 거래/엔비디아 수장 교체 후에도 여전히 시장 우려 완화 어려움…4개 주요 지수 모두 하락, 필라델피아 반도체 지수도 5% 가까이 하락",
+"source": "UDN",
+"src_url": "https://udn.com",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0wck92WXVnTzZsTzE5aTl2aUY3Zi1iTUxNRExQTkJkdERyM2pvdnlfYXZoY042WjhHNDV2Vnl0dnR3R0VrV08zTEh0Z3MwZnJ4?oc=5",
+"pub": 1794840177.0,
+"time": "11/16 23:42",
+"run": "202611161453",
+"added": 1794840831,
+"url": "https://udn.com/news/story/6811/9882655",
+"sum": "뉴스 듣기 0:00 / 0:00 미국 증시는 초기 거래 중/엔비디아는 수장 교체 후에도 여전히 시장 우려를 잠재우기 위해 애쓰고 있습니다... 4대 주요 지수가 모두 하락했고, 필라델피아 반도체 지수는 거의 5% 하락했습니다. 인공지능(AI) 칩 선두주자 엔비디아의 코칭 교체를 둘러싼 불확실성으로 16일 오전 장 초반 미국 4대 주가지수가 전반적으로 하락했다. 다우존스산업평균지수는 개장 초반 42포인트(약 0.1%) 하락했고, S&P500은 약 0.7%, 나스닥은 1.3%, 필라델피아 반도체 지수는 약 5%, TSMC ADR은 4.5% 하락했다. 엔비디아는 17일 장 마감 후 3분기 실적을 발표할 예정인데, 장 초반 주가는 2.4% 하락했다. 분석가들은 엔비디아의 지난 분기 이익과 매출이 모두 1년 전보다 거의 100% 증가할 것으로 예상하고 있지만, 투자자들은 젠슨 황이 CEO에서 물러난 후 회사가 어떻게 나아갈 것인지에 대해 더 우려하고 있습니다. 엔비디아의 주가는 지난주 13% 하락해 2025년 4월 이후 최대 주간 하락폭을 기록했다.",
+"pv": "8bab9ca2"
+},
+{
+"key": "美股異動萬國數據usgds跌1933報1598美元",
+"keys": [
+"美股異動萬國數據usgds跌1933報1598美元"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股異動|萬國數據(US.GDS)跌19.33%，報15.98美元",
+"show": "미국 주식의 변화 | GDS (US.GDS)는 19.33% 하락한 US$15.98을 기록했습니다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxObjkxYWp2emtBbW1JZlk5eXhrcEo3VDNoenh3eklrYjZkc1NWZ1ZacGphR3lnUFJQOTZQVW9BSm02Rm1QenJjZzFad2V3Y2hBa2lFYmdnaHRCcHItNlRIUVN1Wk9rMGEzNGF1dk1hUnFpWmpXcnF2X24yNWJGM0s4TjJ5ai1zQng1bzFkSTNERGhkS1ROZnJjODlwaGxJNGNRRk1TbzRudnR2YUIzODJYU1ZaNHptb2ItSXFMWVlrVnZzMEJPN29WT2JrNFA3WEl4NzFHR3MxODdMLWpqZ1hwc2FhRUdYb2g1SlYwUXJSYlJJUFBjTDBtdTZrLWhXSzM0V2IwRlJFQUg2bDV3N2J1MGhlZUd2NUotRFRzdHBhMS10TUN4SERJeDd4SkROelZf?oc=5",
+"pub": 1794839876.0,
+"time": "11/16 23:37",
+"run": "202611161453",
+"added": 1794840841,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416908/%E7%BE%8E%E8%82%A1%E7%95%B0%E5%8B%95%7C%E8%90%AC%E5%9C%8B%E6%95%B8%E6%93%9A%28US.GDS%29%E8%B7%8C19.33%25%EF%BC%8C%E5%A0%B115.98%E7%BE%8E%E5%85%83",
+"sum_tried": 1,
+"pv": "8bab9ca2"
+},
+{
 "key": "英偉達usnvda開跌230美股五大市值股份開市表現",
 "keys": [
 "英偉達usnvda開跌230美股五大市值股份開市表現"
@@ -529,6 +724,27 @@
 "added": 1794839740,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416906/%E8%8B%B1%E5%81%89%E9%81%94%28US.NVDA%29%E9%96%8B%E8%B7%8C2.30%25%EF%BC%8C%E7%BE%8E%E8%82%A1%E4%BA%94%E5%A4%A7%E5%B8%82%E5%80%BC%E8%82%A1%E4%BB%BD%E9%96%8B%E5%B8%82%E8%A1%A8%E7%8F%BE",
 "sum_tried": 2,
+"pv": "8bab9ca2"
+},
+{
+"key": "美股開盤道指開市早段跌76點納指跌11英偉達挫逾2",
+"keys": [
+"美股開盤道指開市早段跌76點納指跌11英偉達挫逾2"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股開盤 | 道指開市早段跌76點，納指跌1.1%，英偉達挫逾2%",
+"show": "미국 주식 개장 | 다우지수는 개장 초반 76포인트 하락했고, 나스닥지수는 1.1%, 엔비디아지수는 2% 이상 하락했다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPbmc4ZDd0U2JNdGRKek1nWnNnbEhkMHFtUzRveGFCeWZ1N0dhNGRxMG5TOUs4ak9VQkh1c3ktbE9QdzZ4bnl1MjJxU3RTRzZHR2RQWFFfNVdVOHpXYVBmbzhKR214RDhITzh3SFpsSF9ua0pEWlZhQm80ckthQVBtTnpHc3U4U1pINkp6VXFQcE1RRFphdUlBa3lueEFkOHJPOTBFU3pwWVZIQUJrUnFicm9wOGVnOFNOa0RxU1MxNG94VlZaYXYtTGl4WXFDdjBRcFZRTUVlLXZ6UEI2Ung1TVlCMDc4a3JDN3NQYTVLYWUybjdIUmhOUU5rU3pKcF9pMV9DamF3bzNqOUZmOS1JVTJ2dFllVDdaSjEta1FpMGJYRFZDa21FdGJsMDNBQ1RtbkJiY281b3owNmZORzhySF9sdWZkYkdRRl9XSWlVQ0dWVjN0YUhXOWh5R29HQlpsaW1QclJnSE93WlJuNGNLeVlESF91bHZPNUNKX0pLMnU1UHBsVGxrSEZqOUs1QQ?oc=5",
+"pub": 1794839520.0,
+"time": "11/16 23:32",
+"run": "202611161453",
+"added": 1794840842,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416907/%E7%BE%8E%E8%82%A1%E9%96%8B%E7%9B%A4+%7C+%E9%81%93%E6%8C%87%E9%96%8B%E5%B8%82%E6%97%A9%E6%AE%B5%E8%B7%8C76%E9%BB%9E%EF%BC%8C%E7%B4%8D%E6%8C%87%E8%B7%8C1.1%25%EF%BC%8C%E8%8B%B1%E5%81%89%E9%81%94%E6%8C%AB%E9%80%BE2%25",
+"sum_tried": 1,
 "pv": "8bab9ca2"
 },
 {
@@ -720,24 +936,45 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "美股盤前美股三大指數期貨向下納指期貨跌逾1",
+"key": "sp500nasdaqsetforloweropenasaistocksfeelnvidiaheat",
 "keys": [
-"美股盤前美股三大指數期貨向下納指期貨跌逾1"
+"sp500nasdaqsetforloweropenasaistocksfeelnvidiaheat"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
-"region": "🇭🇰 홍콩",
-"title": "美股盤前 | 美股三大指數期貨向下，納指期貨跌逾1%",
-"show": "미국 증시 개장 전 | 미국 3대 주가지수 선물이 하락했고, 나스닥 선물도 1% 이상 하락했다.",
-"source": "etnet 經濟通",
-"src_url": "https://www.etnet.com.hk",
-"link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNT0RxVDVGNEkzYzZFN1EyVENWTW8xa1FBVVJiNmpkNzhWd0Vfb3ZqVy1qM3dKQkJmNl9Pc1NwWTJQQWpfQ0dNaWdaSW5lYmF0eUljS0p6NXFCeWFJVkkzOHNhUzdjVE5qS052bEYyYUJYcXpwaDEzZzNpbFpXOHpEVjhybDVUV2RhYUZ1Z1FCM0R4Mk5hOTdFT1paZFhuOHAzRDZIQ3J5b2NBVHZON1dLZlJ2LUhJNFllRXprVXhLT0J4MG9YUWllTFBDYktCU1BDZXFsc2V2Um9ENnRyZGVmZlpaVkxyY2xBbHI5b0VsMkw5YXZrRnNFYjVsX1JPNVlvcGc3NWxPbkJoamxvNGxGQ2NiWHgzUVhva3gyTFloTGk4MXFLV3E1Q083Rzg0VThVaWZBUVBfS0Z0NXpmNFI0WW52NXV0cmFRd2Z6NmVFLWRhTFAyMk01d2F3cXJ5NlNxb19ER0hNaFhGWktYNmdwZURCYlBEb3M?oc=5",
-"pub": 1794837158.0,
-"time": "11/16 22:52",
-"run": "202611161406",
-"added": 1794838035,
-"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/416898/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%89%8D+%7C+%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E6%9C%9F%E8%B2%A8%E5%90%91%E4%B8%8B%EF%BC%8C%E7%B4%8D%E6%8C%87%E6%9C%9F%E8%B2%A8%E8%B7%8C%E9%80%BE1%25",
-"sum_tried": 2,
+"region": "🇺🇸 미국",
+"title": "S&P 500, Nasdaq set for lower open as AI stocks feel Nvidia heat",
+"show": "AI 주식이 엔비디아의 열기를 느끼면서 S&P500, 나스닥은 하락세를 보일 예정",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5",
+"pub": 1794837233.0,
+"time": "11/16 22:53",
+"run": "202611161453",
+"added": 1794840824,
+"url": "https://www.reuters.com/business/sp-500-nasdaq-futures-slide-nvidia-earnings-anthropic-debut-loom-2026-11-16/",
+"sum_tried": 1,
+"pv": "8bab9ca2"
+},
+{
+"key": "predictioninstitutionssellingnvidiashareswillpileintothese3sp500stocks",
+"keys": [
+"predictioninstitutionssellingnvidiashareswillpileintothese3sp500stocks"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Prediction: institutions selling Nvidia shares will pile into these 3 S&P 500 stocks",
+"show": "예측: 엔비디아 주식을 판매하는 기관은 S&P500 주식 3개에 포함될 것입니다.",
+"source": "Yahoo Finance UK",
+"src_url": "https://uk.finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMzVaNWFxOXNNbEhpZERoZTBJLVRxSU5sZFk1Qk5XQjhXaWoxbUlXcmI0alU2emRiNkdndlAwM3Y5VXZqbTNqYXJsREpLWGNtdk1YeVlEam84dG1UeFBhWlNKT0x6bWlJeEZrOGM4aXg0eW54eWR5V1hfMUR6WThneEkwYkU4dE5Hd3BydUlKZGh6LXlka3lqYkNn?oc=5",
+"pub": 1794837053.0,
+"time": "11/16 22:50",
+"run": "202611161453",
+"added": 1794840825,
+"url": "https://uk.finance.yahoo.com/news/prediction-institutions-selling-nvidia-shares-135053190.html",
+"sum": "Edward Sheldon은 엔비디아 리더십 혼란의 직접적인 수혜자가 될 수 있는 S&P500 지수의 세 가지 반도체주를 강조합니다. 포스트 예측: 엔비디아 주식을 판매하는 기관은 The Twelfth Magpie에 처음 등장한 S&P500 주식 3개에 쌓일 것입니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -771,7 +1008,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "聯準會巴爾示警：AI代理高速搬錢恐讓銀行擠兌加速",
-"show": "연준 Barr는 AI 에이전트가 고속으로 돈을 이동시키면 은행 운영이 가속화될 수 있다고 경고합니다.",
+"show": "연준 마이클 바는 AI 에이전트가 고속으로 돈을 이동시키면 은행 운영이 가속화될 수 있다고 경고합니다.",
 "source": "鉅亨網",
 "src_url": "https://news.cnyes.com",
 "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kX2dpc1diUkI4blU3bjVqX2w0TVRtd1NDVUF0ZG4tQzgyTmZwM2N4cmRCVWNSMUVFdFRoZE41SjVhZktzZU40NEh3ZUh6cGc?oc=5",
@@ -780,7 +1017,7 @@
 "run": "202611161406",
 "added": 1794838029,
 "url": "https://news.cnyes.com/news/id/6664291",
-"sum": "Barr 연준 총재는 AI 에이전트가 고속으로 자금을 이동하여 은행 운영을 가속화할 수 있다고 경고했습니다. Uanalyze 2026년 11월 16일(Uanalyze/Industry Data Center 보고서) ⸺ Michael Barr 연준 총재는 AI 에이전트가 스트레스를 받는 동안 은행이 예금을 더 빨리 잃게 만들 수 있다고 말했습니다. 시스템이 금리차이나 금융안정 신호를 자동으로 감지해 신속하게 고객에게 자금을 이체할 경우 은행의 기존 유동성 관리 및 규제 당국이 제때 대응하지 못할 수도 있다. Barr는 밀라노에서 열린 금융 AI 컨퍼런스에서 대형 은행들이 AI 에이전트가 개별 고객 계좌를 운영하려고 시도하지만 실제 신원, 고객의 동의 여부, 운영이 고객의 지시를 준수하는지 여부를 확인할 수 없다는 사실을 발견했다고 지적했습니다. 그는 AI 에이전트를 금융 서비스에 도입하려면 신원 확인을 강화하고 개인 운영 권한을 확인하며 에이전트의 권한을 제한하는 기술을 사용해야 한다고 주장했습니다.",
+"sum": "마이클 바 연준 총재는 AI 에이전트가 고속으로 자금을 이동하여 은행 운영을 가속화할 수 있다고 경고했습니다. Uanalyze 2026년 11월 16일(Uanalyze/Industry Data Center 보고서) ⸺ 마이클 바 연준 총재는 AI 에이전트가 스트레스를 받는 동안 은행이 예금을 더 빨리 잃게 만들 수 있다고 말했습니다. 시스템이 금리차이나 금융안정 신호를 자동으로 감지해 신속하게 고객에게 자금을 이체할 경우 은행의 기존 유동성 관리 및 규제 당국이 제때 대응하지 못할 수도 있다. 마이클 바는 밀라노에서 열린 금융 AI 컨퍼런스에서 대형 은행들이 AI 에이전트가 개별 고객 계좌를 운영하려고 시도하지만 실제 신원, 고객의 동의 여부, 운영이 고객의 지시를 준수하는지 여부를 확인할 수 없다는 사실을 발견했다고 지적했습니다. 그는 AI 에이전트를 금융 서비스에 도입하려면 신원 확인을 강화하고 개인 운영 권한을 확인하며 에이전트의 권한을 제한하는 기술을 사용해야 한다고 주장했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -801,7 +1038,7 @@
 "run": "202611161406",
 "added": 1794838031,
 "url": "https://news.cnyes.com/news/id/6663647",
-"sum": "슈미드는 9월 연간 인플레이션율 3.6%가 여전히 목표인 2%보다 높고 추세가 연준의 방향에서 벗어났으며 가격 통제를 위해 해야 할 일이 아직 남아 있다고 말했다.\n시장은 연준이 12월에 0.25% 포인트 금리를 인상할 것이라는 기대를 충분히 반영했으며, 0.5% 포인트 금리 인상 가능성도 약간 있습니다. 콜린스는 내년에는 정책금리가 더 높아질 수도 있다고 말했다.\nSchmid는 인플레이션 압력은 에너지, 관세, AI 건설 및 의료 비용에서 비롯되며 연준은 여전히 ​​수요를 억제하고 가격 안정성을 유지할 수 있는 도구를 보유하고 있다고 지적했습니다.",
+"sum": "슈미드는 9월 연간 인플레이션율 3.6%가 여전히 목표인 2%보다 높고 추세가 연준의 방향에서 벗어났으며 가격 통제를 위해 해야 할 일이 아직 남아 있다고 말했다.\n시장은 연준이 12월에 0.25% 포인트 금리를 인상할 것이라는 기대를 충분히 반영했으며, 0.5% 포인트 금리 인상 가능성도 약간 있습니다. 콜린스는 내년에는 정책금리가 더 높아질 수도 있다고 말했다.\n슈미드는 인플레이션 압력은 에너지, 관세, AI 건설 및 의료 비용에서 비롯되며 연준은 여전히 수요를 억제하고 가격 안정성을 유지할 수 있는 도구를 보유하고 있다고 지적했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -948,7 +1185,7 @@
 "run": "202611161311",
 "added": 1794834704,
 "url": "https://news.cnyes.com/news/id/6664040",
-"sum": "Barr는 밀라노에서 금융 시스템에 AI를 도입하면 시장 거래, 정보 보안, 소비자/투자자 보호를 위협할 수 있다고 경고했습니다.\n연준의 '금융 안정성 보고서'에 따르면 응답자의 87%가 AI를 주요 위험으로 꼽았고 사이버 공격, 자금 조달 및 주식 시장 하락을 우려하고 있는 것으로 나타났습니다.\n그는 AI 에이전트가 승인 없이 소매 계정을 운영하려고 시도했다고 말하며 실행 및 조작을 방지하기 위해 안전 가드레일을 설치할 것을 촉구했습니다.",
+"sum": "마이클 바는 밀라노에서 금융 시스템에 AI를 도입하면 시장 거래, 정보 보안, 소비자/투자자 보호를 위협할 수 있다고 경고했습니다.\n연준의 '금융 안정성 보고서'에 따르면 응답자의 87%가 AI를 주요 위험으로 꼽았고 사이버 공격, 자금 조달 및 주식 시장 하락을 우려하고 있는 것으로 나타났습니다.\n그는 AI 에이전트가 승인 없이 소매 계정을 운영하려고 시도했다고 말하며 실행 및 조작을 방지하기 위해 안전 가드레일을 설치할 것을 촉구했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -960,7 +1197,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "堪薩斯城聯邦準備銀行總裁：聯準會在降低通膨方面還有更多工作要做 | 國際焦點 | 國際",
-"show": "캔자스시티 연준 총재: 연준은 인플레이션을 줄이기 위해 해야 할 일이 더 많습니다 | 국제 포커스 | 국제적인",
+"show": "캔자스시티 연준 총재: 연준은 인플레이션을 줄이기 위해 해야 할 일이 더 많습니다 | 국제 포커스 | 국제",
 "source": "經濟日報",
 "src_url": "https://money.udn.com",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YbnpyRHdQbjNpZlV4SS1Da211SnhjdnMzYWh4YTQ1LUVtcXRjMDVXS0dFUThHWmhmQzRubDNRRzhpS3luUWxCMm5rekQzQjV4b0xvbnhGb2RwUQ?oc=5",
@@ -969,7 +1206,7 @@
 "run": "202611161311",
 "added": 1794834706,
 "url": "https://money.udn.com/money/story/5599/9881105",
-"sum": "중앙은행 인플레이션 00:00 2026/11/16 20:06:15 Bloomberg Economics x Bloomberg Economic Daily가 Bloomberg와 손을 잡고 글로벌 실시간 금융 동향, 시사 분석, 유명인 칼럼을 제공합니다. 원스톱 독서와 세상과의 동기화. [블룸버그] -- 인플레이션은 여전히 ​​과열 상태이며 정책입안자들은 해야 할 일이 더 많다고 캔자스시티 연준 총재인 제프리 슈미드가 말했습니다.",
+"sum": "중앙은행 인플레이션 00:00 2026/11/16 20:06:15 Bloomberg Economics x Bloomberg Economic Daily가 Bloomberg와 손을 잡고 글로벌 실시간 금융 동향, 시사 분석, 유명인 칼럼을 제공합니다. 원스톱 독서와 세상과의 동기화. [블룸버그] -- 인플레이션은 여전히 과열 상태이며 정책입안자들은 해야 할 일이 더 많다고 캔자스시티 연준 총재인 제프리 슈미드가 말했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -1023,7 +1260,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "美債交易員目光轉向聯準會官員演說和會議紀要 以尋找下一步政策線索 | 國際焦點 | 國際",
-"show": "미국 재무부 트레이더들은 다음 정책에 대한 단서를 찾기 위해 연준 관리들의 연설과 회의록을 참고합니다 | 국제 포커스 | 국제적인",
+"show": "미국 국채 트레이더들은 다음 정책에 대한 단서를 찾기 위해 연준 관리들의 연설과 회의록을 참고합니다 | 국제 포커스 | 국제",
 "source": "經濟日報",
 "src_url": "https://money.udn.com",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53VTVYR0NuQlZKenR0cHp4ZkN2ZnVaMGxnZjNfLUhCaG9BSnRQQXpUb19UQ0pGUDhfM1ZaV3gxMUk3YmdWZ1Q4ZllRbGV6ZlF0czBmSUJGVlpfZw?oc=5",
@@ -1032,7 +1269,7 @@
 "run": "202611161159",
 "added": 1794830373,
 "url": "https://money.udn.com/money/story/5599/9880890",
-"sum": "[블룸버그] -- 극심한 시장 변동성이 일주일간 이어진 후, 미국 재무부 거래자들은 금리 인상 주기 연장에 대한 시장 기대가 높아짐에 따라 금리 방향에 대한 단서를 찾기 위해 연준 관계자들의 일련의 연설과 중앙은행의 최근 회의록을 지켜볼 예정입니다.",
+"sum": "[블룸버그] -- 극심한 시장 변동성이 일주일간 이어진 후, 미국 국채 거래자들은 금리 인상 주기 연장에 대한 시장 기대가 높아짐에 따라 금리 방향에 대한 단서를 찾기 위해 연준 관계자들의 일련의 연설과 중앙은행의 최근 회의록을 지켜볼 예정입니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -1180,7 +1417,7 @@
 "run": "202611161159",
 "added": 1794830376,
 "url": "https://news.tvbs.com.tw/money/4051470",
-"sum": "지난 주 월스트리트는 격동의 한 주를 겪었습니다. 미국 칩주들은 오늘(16일) 개장 전 하락세를 보였는데, AMD와 인텔도 모두 4% 이상 하락했다. 분석가들은 이번 주에 두 가지 재정적 하이라이트가 있다고 지적했습니다. 첫째, 엔비디아는 창립자 젠슨 황이 사임한 이후 첫 번째 실적 보고서를 발표할 예정입니다. 둘째, 인공지능(AI) 거대 기업인 앤트로픽은 역사상 최대 규모의 기업공개(IPO)에 영향을 미쳐 월스트리트의 추세에 영향을 미칠 수 있습니다.",
+"sum": "지난 주 월스트리트는 격동의 한 주를 겪었습니다. 미국 반도체주들은 오늘(16일) 개장 전 하락세를 보였는데, AMD와 인텔도 모두 4% 이상 하락했다. 분석가들은 이번 주에 두 가지 재정적 하이라이트가 있다고 지적했습니다. 첫째, 엔비디아는 창립자 젠슨 황이 사임한 이후 첫 번째 실적 보고서를 발표할 예정입니다. 둘째, 인공지능(AI) 거대 기업인 앤트로픽은 역사상 최대 규모의 기업공개(IPO)에 영향을 미쳐 월스트리트의 추세에 영향을 미칠 수 있습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -1192,7 +1429,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🌍 세계",
 "title": "Fed's Barr warns on AI risks to financial system",
-"show": "연준의 Barr는 금융 시스템에 대한 AI 위험에 대해 경고합니다.",
+"show": "연준의 마이클 바는 금융 시스템에 대한 AI 위험에 대해 경고합니다.",
 "source": "Reuters",
 "src_url": "https://www.reuters.com",
 "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMmF2a1AxTXIyN09XQ2FpMmNFYk9UdVdYaFozUTN3UmY2amR1c0g5ZkdMU0NCRG54cy1pWmhadmFNdjNxbmlha1p3SlhnZ1VvZ2dvU3JIT1praWI2eWVIZE1taUNKQ2Nqd1JUakhtQl8tS3B2Y1gwNkJ3ZlFTYkpaSDJuZjZBZjVza2NB?oc=5",
@@ -1202,6 +1439,27 @@
 "added": 1794830388,
 "url": "https://www.reuters.com/world/feds-barr-warns-ai-risks-financial-system-2026-11-16/",
 "sum_tried": 2,
+"pv": "8bab9ca2"
+},
+{
+"key": "tsxslipsasinvestorsassessdomesticinflationdata",
+"keys": [
+"tsxslipsasinvestorsassessdomesticinflationdata"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "TSX slips as investors assess domestic inflation data",
+"show": "투자자들이 국내 인플레이션 데이터를 평가하면서 TSX가 미끄러졌습니다.",
+"source": "The Globe and Mail",
+"src_url": "https://www.theglobeandmail.com",
+"link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNVE1RGs4am9ZQ19NSjRfVHZvQ1NVNm9ISjRyQlpjcHhYd0UzYVFCYm9xeFRTV3AyZWhWdV9KUlBxR0ZxVmE2V3d5OV9IZUVGSVVFbFBWWXZsZWlScUZRSHZnbkMxaDlSYUs1eENPVE9IZGNDNDFLYlFoMExkMDR1SDZJa2gteXg1X1oyZFpBbXFlYWczeG9kb3BJalVYVWVoUTdpcjVpVVk0MzBWazVwX2FpRlJLbVRlOEdDVXkwVFIyNy1WbE5pS1FHVEUteUVBOGN6STFNZzBGTEYyRGVaQm1JTjJOQQ?oc=5",
+"pub": 1794823556.0,
+"time": "11/16 19:05",
+"run": "202611161453",
+"added": 1794840826,
+"url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-stocks-dip-as-caution-sets-in-before-nvidia-earnings/",
+"sum": "나스닥은 엔비디아의 불황이 실적에 앞서 정서를 압박함에 따라 개장시 1% 하락했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -1256,7 +1514,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇺🇸 미국",
 "title": "Stock Futures Slip Ahead of Pivotal Week for AI Trade With Nvidia, Anthropic in Focus",
-"show": "인류학에 초점을 맞춘 엔비디아와 함께 AI 투자를 위한 중요한 주간을 앞두고 주식 선물이 미끄러졌습니다.",
+"show": "앤트로픽에 초점을 맞춘 엔비디아와 함께 AI 투자를 위한 중요한 주간을 앞두고 주식 선물이 미끄러졌습니다.",
 "source": "WSJ",
 "src_url": "https://www.wsj.com",
 "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS3NsU18tTmdONnFEdnZIZzUyb3JXVFVpQjhhQ04tcG15MFpUclFpeTVUczh3X3RmRWZ4eWQ2Tk5SbUwtVlBvaGNSQ3N6MXRYa0tSVk43alVlMFZNTGZRdnNDWHlQcUwxMjNtR3lnVU5zbkJpQkpta0R5anRiQ01rVTZhNDdqbEtsMWFnWms2ZzFHVUJLSWlZdXhlZFlIWXk0dUVOS3M2elFGOFhuRFU3bk9MOVgtMnJ6azltUGktWXdhd2lRaUZMYkp5UQ?oc=5",
@@ -1361,7 +1619,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🌍 세계",
 "title": "European shares hover near record highs; tech stocks lag",
-"show": "유럽 ​​증시는 사상 최고치에 근접했습니다. 기술주 시차",
+"show": "유럽 증시는 사상 최고치에 근접했습니다. 기술주 시차",
 "source": "Reuters",
 "src_url": "https://www.reuters.com",
 "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMmtTMUtYTXIxeXB2T0RuYUpZMjBwTmpmWFVyY010TTVPbzE2akJxTEVYTjJzeTRoSlZpZDZSejM1MEhuWm0zSFQ5Mi1NX0tvVHRUX29VdHV0NkI3MUMwVUtxLTlKam1iQTZueGJ4eEZSY1c3S3diM3BSTGZoRjlGNm5kODVxS3BjcThWRjFIRzgtSzByTzFIVGV2V255RVpSZUlDbWZqZElPUQ?oc=5",
@@ -1455,6 +1713,27 @@
 "added": 1794830386,
 "url": "https://inews.hket.com/article/4225700/%E3%80%90%E7%BE%8E%E8%82%A1%E6%9C%9F%E8%B2%A8%E3%80%91%E8%8B%B1%E5%81%89%E9%81%94%E8%82%A1%E5%83%B9%E5%A4%9C%E7%9B%A4%E5%86%8D%E8%B7%8C1-%E3%80%80%E9%81%93%E6%8C%87%E6%9C%9F%E8%B2%A8%E8%B7%8C104%E9%BB%9E%E3%80%81%E7%B4%8D%E6%8C%87%E6%9C%9F%E8%B2%A8%E8%B7%8C1-%EF%BC%88%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%EF%BC%89",
 "sum_tried": 2,
+"pv": "8bab9ca2"
+},
+{
+"key": "華盛頓聯手華爾街奪舍輝達學者示警黃仁勳風暴背後更值得台灣警惕的認知戰",
+"keys": [
+"華盛頓聯手華爾街奪舍輝達學者示警黃仁勳風暴背後更值得台灣警惕的認知戰"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "華盛頓聯手華爾街「奪舍」輝達？學者示警：黃仁勳風暴背後，更值得台灣警惕的認知戰",
+"show": "워싱턴이 월스트리트와 힘을 합쳐 엔비디아를 붙잡는다? 학자는 경고합니다: 젠슨 황 폭풍 뒤에는 대만이 경계해야 할 인지 전쟁이 있습니다",
+"source": "今周刊",
+"src_url": "https://www.businesstoday.com.tw",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQ0VaY1NBcWJrRFMxYXdreHNOTmtaY1lHeFE1eWxrWUl6WVNWVjhRMENXRFFPand0dU1OcUVqQXdWd0xPUUdQeE93Nmo0YWxfY0VyOGlkY2g4czYzb09GT3JsU2hGTXB5Q0RHZG1fUjEtOVhObDdBOGljM1ZaQTRnRg?oc=5",
+"pub": 1794812100.0,
+"time": "11/16 15:55",
+"run": "202611161453",
+"added": 1794840834,
+"url": "https://www.businesstoday.com.tw/article/category/183027/post/202611160024/",
+"sum": "젠슨 황의 스캔들은 개인 스캔들에서 미국 국가 안보, 글로벌 AI 경쟁 및 엔비디아의 기업 지배구조와 관련된 주요 위기로 발전했습니다. 젠슨 황의 CEO 사임으로 이번 폭풍은 월스트리트에 영향을 미칠 뿐만 아니라 대만 반도체 산업의 미래에도 직결됩니다. 그러나 대만이 황옌센 개인의 운명보다 더 경계해야 할 것은 이번 사건을 둘러싸고 급속히 퍼지고 있는 또 다른 전쟁, 즉 정보전과 인지전이다.",
 "pv": "8bab9ca2"
 },
 {
@@ -1582,7 +1861,7 @@
 "run": "202611160519",
 "added": 1794806405,
 "url": "https://udn.com/news/story/123006/9881527",
-"sum": "미국 중간선거가 2027년 정책 동향에 영향을 미치게 된다. 민주당이 의회를 장악하게 되면 AI 규제, 관세, 그린에너지 정책 등이 새로운 변수를 낳을 수 있고, 시장 변동성은 커질 수밖에 없다. 그러나 역사적 경험으로 볼 때 미국 증시는 중간 선거 이후 더 나은 성과를 보이는 경향이 있으며 다우 Jones와 S&P500 지수 ETF는 자본 헤징 옵션이 되었습니다.",
+"sum": "미국 중간선거가 2027년 정책 동향에 영향을 미치게 된다. 민주당이 의회를 장악하게 되면 AI 규제, 관세, 그린에너지 정책 등이 새로운 변수를 낳을 수 있고, 시장 변동성은 커질 수밖에 없다. 그러나 역사적 경험으로 볼 때 미국 증시는 중간 선거 이후 더 나은 성과를 보이는 경향이 있으며 다우존스와 S&P500 지수 ETF는 자본 헤징 옵션이 되었습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -1656,7 +1935,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇨🇳 중국",
 "title": "美股芯片股创4月来最大周涨幅，对冲基金为何逢高减持？华尔街：警惕AI版量化紧缩",
-"show": "미국 칩주가 4월 이후 최대 주간 상승폭을 기록했다. 헤지펀드는 왜 보유자산을 줄였는가? 월스트리트: AI 버전의 양적 긴축을 경계하라",
+"show": "미국 반도체주가 4월 이후 최대 주간 상승폭을 기록했다. 헤지펀드는 왜 보유자산을 줄였는가? 월스트리트: AI 버전의 양적 긴축을 경계하라",
 "source": "第一财经",
 "src_url": "https://www.yicai.com",
 "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5c253X0NDVlU3VW9RNU4td3pJbFktTHJGV2R6SXhXRGZoOHBIM2Jwdi10b1EwRzNVZVNvZVZRMVB4ZTN1dmpWaGpPRmFzSDVyVlZV?oc=5",
@@ -1665,7 +1944,7 @@
 "run": "202611161159",
 "added": 1794830369,
 "url": "https://www.yicai.com/news/103442171.html",
-"sum": "현재 미국 기술주와 인공지능(AI) 주식의 급격한 매도 이후 시장 참여자들은 하락세에 포지션을 추가할 것을 요구했습니다. 그러나 지난주 엔비디아 관련 사건 이후 시장 심리는 다시 악화됐다. 칩주가 지난주 4월 이후 최대 주간 상승폭을 기록했음에도 불구하고 헤지펀드는 상승폭을 줄였다. 일부 월스트리트 기관에서는 엔비디아 관련 사건으로 인해 많은 AI 분야에서 유동성이 빠져나가 AI 버전의 양적 긴축이 촉발될 것이라고 경고하기도 했습니다. 헤지펀드는 이익을 위해 보유 지분을 축소했습니다. 최근의 시장 혼란 속에서도 미국의 주요 주가 지수는 지난주 상승세를 기록했습니다. 나스닥은 2.3%, S&P500은 2.5%, 다우존스는 2.1% 상승하며 모두 8월 초 이후 최고의 주간 실적을 기록했습니다. 필라델피아 반도체 지수는 지난주 한 주 동안 8% 이상 상승해 4월 이후 최고 성적을 기록했다.",
+"sum": "현재 미국 기술주와 인공지능(AI) 주식의 급격한 매도 이후 시장 참여자들은 하락세에 포지션을 추가할 것을 요구했습니다. 그러나 지난주 엔비디아 관련 사건 이후 시장 심리는 다시 악화됐다. 반도체주가 지난주 4월 이후 최대 주간 상승폭을 기록했음에도 불구하고 헤지펀드는 상승폭을 줄였다. 일부 월스트리트 기관에서는 엔비디아 관련 사건으로 인해 많은 AI 분야에서 유동성이 빠져나가 AI 버전의 양적 긴축이 촉발될 것이라고 경고하기도 했습니다. 헤지펀드는 이익을 위해 보유 지분을 축소했습니다. 최근의 시장 혼란 속에서도 미국의 주요 주가 지수는 지난주 상승세를 기록했습니다. 나스닥은 2.3%, S&P500은 2.5%, 다우존스는 2.1% 상승하며 모두 8월 초 이후 최고의 주간 실적을 기록했습니다. 필라델피아 반도체 지수는 지난주 한 주 동안 8% 이상 상승해 4월 이후 최고 성적을 기록했다.",
 "pv": "8bab9ca2"
 },
 {
@@ -1686,7 +1965,7 @@
 "run": "202611160530",
 "added": 1794807031,
 "url": "https://www.ctee.com.tw/news/20261116701136-430801",
-"sum": "[The Times의 Ke Wanxiu 및 종합 외국 뉴스 보도 편집] 미국은 지난 금요일에 문을 닫았지만 기술주와 칩주는 특히 약세를 보였습니다. 홍콩 항셍지수는 월요일 일시적으로 0.9% 상승한 23,854.51포인트를 기록했다. 국영기업주(H주)는 일시적으로 0.87% 상승한 8007.04포인트를 기록했다. Hang Seng Technology 주가 지수는 일시적으로 0.56% 상승했으며 Li Auto는 3.6% 상승해 최고 실적을 기록했습니다. 이어 바이두그룹과 메이투안이 3.2% 상승했고, 호라이즌 로보틱스가 3.1% 상승했다.",
+"sum": "[The Times의 Ke Wanxiu 및 종합 외국 뉴스 보도 편집] 미국은 지난 금요일에 문을 닫았지만 기술주와 반도체주는 특히 약세를 보였습니다. 홍콩 항셍지수는 월요일 일시적으로 0.9% 상승한 23,854.51포인트를 기록했다. 국영기업주(H주)는 일시적으로 0.87% 상승한 8007.04포인트를 기록했다. Hang Seng Technology 주가 지수는 일시적으로 0.56% 상승했으며 Li Auto는 3.6% 상승해 최고 실적을 기록했습니다. 이어 바이두그룹과 메이투안이 3.2% 상승했고, 호라이즌 로보틱스가 3.1% 상승했다.",
 "pv": "8bab9ca2"
 },
 {
@@ -1761,7 +2040,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "AI熱潮動搖 資料中心概念股6月來蒸發4.2兆美元 | 美股動態 | 國際",
-"show": "AI 열풍이 흔들리고 있다. 6월에 데이터 센터 컨셉 주식이 4조 2천억 달러 증발했습니다 | 미국 증시 동향 | 국제적인",
+"show": "AI 열풍이 흔들리고 있다. 6월에 데이터 센터 컨셉 주식이 4조 2천억 달러 증발했습니다 | 미국 증시 동향 | 국제",
 "source": "經濟日報",
 "src_url": "https://money.udn.com",
 "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DaUJJalIzWUlpcjJrdndhS2NMbU1OOXctdmpZdUs4Z3ByQmstMkM3UEN1b1NZLXlpVGRxQUdTeE84c3lvREc1eWYtQ19zVktCclFtWF9TM0FiSDhYVlFhd3k3Ukk2SXBsWGsteUs0RzBfS2UxN1Mtek5qWFgtQQ?oc=5",
@@ -1917,7 +2196,7 @@
 "run": "202611160519",
 "added": 1794806402,
 "url": "https://www.21jingji.com/article/20261116/herald/5448135692bec7d5fb6aa6c8c1a1a5b1.html",
-"sum": "제프 슈미드 캔자스시티 연은총재는 \"연준은 과열된 가격 압력에 대처할 수 있는 도구와 책임을 갖고 있으며 중앙은행은 여전히 ​​인플레이션에 대해 할 일이 남아 있다\"고 말했다. 슈미드는 하와이에서 열린 신용조합 회의에서 인플레이션이 \"물가안정 목표인 2%를 충격적으로 초과했으며 잘못된 방향으로 움직이고 있다\"고 말했다. 그는 추가 금리 인상을 명시적으로 요구하지 않았습니다. 슈미드는 최근 인플레이션의 현재 성격과 연준의 이를 억제할 수 있는 능력에 대해 형성된 지배적인 견해가 현실과는 거리가 멀다고 말했습니다. 그는 높은 인플레이션이 반복되는 공급 충격으로 인해 발생한다는 생각은 요점을 놓치고 있다고 말했습니다. 인플레이션은 항상 공급과 수요의 불균형의 결과입니다. 수요가 강하기 때문에 공급 측면의 충격으로 인해 가격이 상승할 수 있습니다. 수요는 항상 인플레이션에서 핵심적인 역할을 해왔으며, 연준은 수요에 미치는 영향을 통해 인플레이션을 처리할 수 있는 도구와 책임을 항상 갖고 있었습니다.",
+"sum": "제프 슈미드 캔자스시티 연은총재는 \"연준은 과열된 가격 압력에 대처할 수 있는 도구와 책임을 갖고 있으며 중앙은행은 여전히 인플레이션에 대해 할 일이 남아 있다\"고 말했다. 슈미드는 하와이에서 열린 신용조합 회의에서 인플레이션이 \"물가안정 목표인 2%를 충격적으로 초과했으며 잘못된 방향으로 움직이고 있다\"고 말했다. 그는 추가 금리 인상을 명시적으로 요구하지 않았습니다. 슈미드는 최근 인플레이션의 현재 성격과 연준의 이를 억제할 수 있는 능력에 대해 형성된 지배적인 견해가 현실과는 거리가 멀다고 말했습니다. 그는 높은 인플레이션이 반복되는 공급 충격으로 인해 발생한다는 생각은 요점을 놓치고 있다고 말했습니다. 인플레이션은 항상 공급과 수요의 불균형의 결과입니다. 수요가 강하기 때문에 공급 측면의 충격으로 인해 가격이 상승할 수 있습니다. 수요는 항상 인플레이션에서 핵심적인 역할을 해왔으며, 연준은 수요에 미치는 영향을 통해 인플레이션을 처리할 수 있는 도구와 책임을 항상 갖고 있었습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -1958,7 +2237,7 @@
 "run": "202611160127",
 "added": 1794792443,
 "url": "https://news.tvbs.com.tw/money/4051109",
-"sum": "금요일 미국 증시는 혼조세를 보였습니다. 대만 증시는 오늘(16일) 162.7포인트 하락세로 출발했다. 이후 가중지수는 하락세를 확대해 500포인트 이상 하락했고 최저점은 43126.73포인트에 이르렀다. TSMC는 NT$10에서 NT$2,340로 개장했습니다.",
+"sum": "금요일 미국 증시는 혼조세를 보였습니다. 대만 증시는 오늘(16일) 162.7포인트 하락세로 출발했다. 이후 가권지수는 하락세를 확대해 500포인트 이상 하락했고 최저점은 43126.73포인트에 이르렀다. TSMC는 NT$10에서 NT$2,340로 개장했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -1991,7 +2270,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "摩根士丹利財富管理 Shalett：AI 資本支出驅動的牛市邏輯依然穩固 | 美股動態 | 國際",
-"show": "모건스탠리 Wealth Management Shalett: AI 자본 지출이 주도하는 강세장 논리는 여전히 견고합니다 | 미국 증시 동향 | 국제적인",
+"show": "모건스탠리 웰스매니지먼트 샬렛: AI 자본 지출이 주도하는 강세장 논리는 여전히 견고합니다 | 미국 증시 동향 | 국제",
 "source": "經濟日報",
 "src_url": "https://money.udn.com",
 "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92MVU1ZjgyRUZFMUkxVUk0QUVvcE1kOVRDWkNVbTdfaEE4RzZHejI1TVU4ZjZ3b2ZpdlIzOFRab242My1xRHVObC1RZ3ZyeDdQeW5CWFVQckVCUU91?oc=5",
@@ -2021,7 +2300,7 @@
 "run": "202611160127",
 "added": 1794792447,
 "url": "https://wantrich.chinatimes.com/news/20261116900072-420101",
-"sum": "[타임스-타이페이] 미국의 인플레이션이 여전히 높은 수준을 유지하고 있다. 미국 증시는 상승보다 하락이 더 컸습니다. 대만 증시는 반등세를 이어갈 것으로 예상된다. 미국의 인플레이션 압력은 여전히 ​​높으며 연준이 12월에 금리를 인상할 것이라는 기대를 계속해서 높이고 있습니다. 10년 만기 미국 국채 금리는 10월 중순 이후 최고치를 경신했다. 기술주는 다시 한번 매도 압력을 받았습니다. 미국 4대 주요 주가지수는 -3.43%에서 0.10%까지 상승보다 하락폭이 더 컸다. TSMC ADR은 1.67% 하락했고, 대만지수선물도 1% 하락했습니다.",
+"sum": "[타임스-타이페이] 미국의 인플레이션이 여전히 높은 수준을 유지하고 있다. 미국 증시는 상승보다 하락이 더 컸습니다. 대만 증시는 반등세를 이어갈 것으로 예상된다. 미국의 인플레이션 압력은 여전히 높으며 연준이 12월에 금리를 인상할 것이라는 기대를 계속해서 높이고 있습니다. 10년 만기 미국 국채 금리는 10월 중순 이후 최고치를 경신했다. 기술주는 다시 한번 매도 압력을 받았습니다. 미국 4대 주요 주가지수는 -3.43%에서 0.10%까지 상승보다 하락폭이 더 컸다. TSMC ADR은 1.67% 하락했고, 대만지수선물도 1% 하락했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -2054,7 +2333,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇨🇳 중국",
 "title": "美联储施密德：通胀仍过高，美联储还有工作要做",
-"show": "연준의 Schmid : 인플레이션은 여전히 ​​​​너무 높으며 연준는 여전히해야 할 일이 있습니다",
+"show": "연준의 슈미드 : 인플레이션은 여전히 너무 높으며 연준은 여전히해야 할 일이 있습니다",
 "source": "Jiemian.com",
 "src_url": "https://www.jiemian.com",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QZzM0dlRpNW5qamF2X01kNDVELTFENVJHM2hDa1ljWUJBWjBGYl9scE1lXzZYdDJwNnZhNC1pMWE2WU9ZaGU4UUtUTU44ekVIelhRQ19DZG4?oc=5",
@@ -2117,7 +2396,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇺🇸 미국",
 "title": "US Stock Market today: Factors that will dictate S&P 500, Nasdaq, Dow Jones, Russell 2000; Nvidia, other W",
-"show": "현재 미국 증시: S&P500, 나스닥, 다우 Jones, Russell 2000을 결정하는 요인; 엔비디아, 기타 W",
+"show": "현재 미국 증시: S&P500, 나스닥, 다우존스, 러셀2000을 결정하는 요인; 엔비디아, 기타 W",
 "source": "The Economic Times",
 "src_url": "https://m.economictimes.com",
 "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQWXd1NDVGN0M0MG9TTUVIMnljaGVGT253U0VKM0tVaHh2NEdiY1hfUjc4MV80RVBYZGhENE9KVHJ6MXdKbm9MY0otRUJETEV2R1VZYnQ1X2F2cGloWTlwYjlMMndCUzVlczZNSzM5Z0puWG1tZWNRNG5SazNVX25YTTB6T0g2dk1TTWVkaTdOUnNjWXpmYlNSRElkVkFrclNua1VPZ0sxOHdmSW5BZFlRU3QwYlFxQ0pzTE5WMzEtejdQRmFTdzVnR3JWYW81U19mLUpDLWJYT2QtR1I5WXZNRmFLVlY2dXUxQTJlSU1XeTNNMi1CREh6MXg5NDA3dkdjX09wOC1CS0tiUlp5ZTkyd2Qta3UtTUUyemVYYVZITHJQZ1hmZFNzbUdqa003Q3BPbE5R0gG4AkFVX3lxTE1VWUJhV1AzbFUtWXNOb2Y0ZzZFOVpnZlAzRmIzZEFLQ20tTDZzRDA4S0N2Nk9sRmxabFhFZGF6V0NwblFOZVNQZ3JRa1RUUUVfckJMVkh0b2lOSWRUZ1ZJSFBDeW9Pbm80OC16a2xoQXM2NDR0b2FzMUptX0gzeHlzU3N0d29Rb3dFc3RaU2lRSXV5QzQyYTNCSklSUXVKcFlRSktyejZYZFlfbXZ5a1NOODJPcEV4WU1FMUxrbHZ4RXhkcTdQS19BdjhHcXpsME1XSDNnSHFhb29VQVpGWDl1TWVjdF9jT0kxbk9EeHNxeFc1Rlotajk2MVhMQWpMd3F1Wm83dFVoM2NKbW15V2EyTVk3UXZzZkJwUWNKTG1nZ1BLRFJsbWZralBuZW9tTmllYm9NY20zZA?oc=5",
@@ -2222,7 +2501,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇭🇰 홍콩",
 "title": "本周開盤前 五件國際事不可不知 | 美股動態 | 國際",
-"show": "이번 주 시장이 열리기 전에 알아야 할 5가지 국제 사항 | 미국 증시 동향 | 국제적인",
+"show": "이번 주 시장이 열리기 전에 알아야 할 5가지 국제 사항 | 미국 증시 동향 | 국제",
 "source": "經濟日報",
 "src_url": "https://money.udn.com",
 "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYVNHakd3VkdBNUwxbnhpcGRFaFJNRjJzc1RNVkZlREVmdGpLM0toUFJPNmZFaUo4c3ZLcHBkU2xjS1dwczcwOTRIUElUOXJIaVNKVGlnQjZETkQ3UlBMNGFnYmszOXRUVnEtYVF3clVMdE9NWGdJeDhkdnlMU3BGeXNMZw?oc=5",
@@ -2370,7 +2649,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇭🇰 홍콩",
 "title": "富達國際Ashray Ohri：中期選舉後美股波動增 現看法中性 - 20261116 - 圖片看世界",
-"show": "Fidelity International Ashray Ohri: 중간선거 이후 미국 증시 변동성 증가, 중립적 견해 - 20261116 - 사진으로 세상 보기",
+"show": "피델리티 인터내셔널 Ashray Ohri: 중간선거 이후 미국 증시 변동성 증가, 중립적 견해 - 20261116 - 사진으로 세상 보기",
 "source": "明報新聞網",
 "src_url": "https://news.mingpao.com",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYkU2TGVSQ3dybmtjVFNTN1RuSGdlX0hFajkzTV9lcXotcHRiSkNSQlhtemlNVVJycl9MRkdNaHdnT0kxVV9mUy1QRUV1SnJZUzJ6N2J1WE8wMVhFQkEyaFBjY0xmSnhlWEJmUlBHZWlqbUwyTTRVUDdWTWJ1RzhkUmxESUVEWFVBbkVXSXBBcmhfUmdqWnR2RGNQbGs4VmM?oc=5",
@@ -2391,7 +2670,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "FT：黃仁勳考慮回歸輝達執行長 矽谷大咖組「戰情室」幫忙遊說 | 美股動態 | 國際",
-"show": "FT: 젠슨 황은 엔비디아의 CEO로 복귀하는 것을 고려하고 있습니다. 실리콘 밸리의 유명 인사들이 로비 활동을 돕기 위해 \"전쟁실\"을 구성했습니다. 미국 증시 동향 | 국제적인",
+"show": "FT: 젠슨 황은 엔비디아의 CEO로 복귀하는 것을 고려하고 있습니다. 실리콘 밸리의 유명 인사들이 로비 활동을 돕기 위해 \"전쟁실\"을 구성했습니다. 미국 증시 동향 | 국제",
 "source": "經濟日報",
 "src_url": "https://money.udn.com",
 "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mMktYSnlTdEJMVnRlTVlTcl9SQkc0NXc5WjJOYjl5NGswTUpWYS1HeEo5WGdyaHVwZFhwd2ZlbS1pOTllTHVhb0ZJeXJLVUFfTXZ5bFNEcFNlQkZ6?oc=5",
@@ -2538,7 +2817,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇹🇼 대만",
 "title": "華爾街堅守大陸市場 開花結果 | 外媒解析 | 國際",
-"show": "월스트리트는 본토 시장을 고수하고 열매를 맺는다 | 외신분석 | 국제적인",
+"show": "월스트리트는 본토 시장을 고수하고 열매를 맺는다 | 외신분석 | 국제",
 "source": "經濟日報",
 "src_url": "https://money.udn.com",
 "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtMzZTWnlOM2pLR080b2xYZUNpalJZc3MyYWZDa3FFYzYtNE5PQ2ZpMGZjQzhwUm02MURwZEVIZHFjOWoyRk02UmFmMXE4bmVDVU9feVJnWUtfeXpU?oc=5",
@@ -2622,7 +2901,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇨🇳 중국",
 "title": "华尔街前瞻SpaceX首份财报：业绩之外更看重未来指引",
-"show": "월스트리트, 스페이스X의 첫 실적 보고서 미리보기: 성과 외에도 향후 지침이 더 중요",
+"show": "월스트리트, 스페이스X의 첫 실적 보고서 미리보기: 성과 외에도 향후 실적 전망이 더 중요",
 "source": "财联社",
 "src_url": "https://www.cls.cn",
 "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE13aHA5M1RMcUFRZjNCUXBzRmNReFBWZXY2Z2FheXFOZ3JoSWZ2U1M3U1FYdl9SZW40Mk81ZW42N05KZUlBUjA4cQ?oc=5",
@@ -2665,7 +2944,7 @@
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇨🇳 중국",
 "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了",
-"show": "[모닝포스트] 미국 칩주 급락; 중국 컨셉주는 추세를 거스르고 강세를 보였습니다. 원유는 급등했고 금은 상승 마감했습니다. A주 자사주 매입의 또 다른 물결이 다가오고 있습니다",
+"show": "[모닝포스트] 미국 반도체주 급락; 중국 컨셉주는 추세를 거스르고 강세를 보였습니다. 원유는 급등했고 금은 상승 마감했습니다. A주 자사주 매입의 또 다른 물결이 다가오고 있습니다",
 "source": "财联社",
 "src_url": "https://www.cls.cn",
 "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfMzZvODEwVVVXWEpJYnVxTE93UF9OUnpHWV9nMkJlUXc4Vl9URzZnMXNrX0hUaVJ3UWo4MHB1UDNtOGNWc19EZg?oc=5",
@@ -2867,7 +3146,7 @@
 "theme": "🧬 나스닥 바이오",
 "region": "🇭🇰 홍콩",
 "title": "異動股丨康方生物插逾兩成 與美合作夥伴抗癌藥未獲FDA批准",
-"show": "특이한 주식丨강팡바이오로직스가 20% 넘게 투자했는데, 미국과 제휴한 항암제가 FDA 승인을 받지 못했다.",
+"show": "특이한 주식丨아케소가 20% 넘게 투자했는데, 미국과 제휴한 항암제가 FDA 승인을 받지 못했다.",
 "source": "信報網站",
 "src_url": "https://m.hkej.com",
 "link": "https://news.google.com/rss/articles/CBMikwNBVV95cUxNX3Mtc0JfTFM2amtvYVdoZ2lBT3ZGUFZVQ1BOOGNTMFUtd1B4LWwtTzFiVS0wRjRGOW5uTGx4dHMzRnB6R01uOFplWjR5UmQwWXhNYWVLTmhQRHI5eElsS1V3U091MDhYcVBTSVFfN1R2Q1lCWHlfa3ZjdUFlNHhFNFFZU3FmX3FDZW5yU1RoQXMyaVk4c0JoV20xMS1tUDBKRGhOak5JTUs1dnQtcTJKQWRLOHcyWDBidTRSZ25kQ1dZeDQ4dDg5Sk5lRVRaYUdLeU9TWDZXWXFITk91V1dlWUF5cWt0TTJWMmlKdWFGeGoyaC1UUEhlUm5DbGtPendvY0tZV2U2X2JIaGctWlg3N0c4eXpnLUJSb29QdGo5T0JLelN2WUQ3cjhnbG92T2xaaG9rT04zXy1YNmw2M0lKQktOSXZrSzlFMWx2SVEyLTQtUXdseDJJajg3MFNHZ0pxM2J5OWlSOWF0Z28tZ3A3RFBLcHhrSFZNTktWcU1EZHVMRzY0d0ZkejRZWUJneFVZYVlR?oc=5",
@@ -2876,7 +3155,7 @@
 "run": "202611160158",
 "added": 1794794329,
 "url": "https://m.hkej.com/landing/mobarticle2/id/4565963/%E7%95%B0%E5%8B%95%E8%82%A1%E4%B8%A8%E5%BA%B7%E6%96%B9%E7%94%9F%E7%89%A9%E6%8F%92%E9%80%BE%E5%85%A9%E6%88%90%20%E8%88%87%E7%BE%8E%E5%90%88%E4%BD%9C%E5%A4%A5%E4%BC%B4%E6%8A%97%E7%99%8C%E8%97%A5%E6%9C%AA%E7%8D%B2FDA%E6%89%B9%E5%87%86",
-"sum": "강팡바이오로직스(09926)와 미국 파트너의 항암제인 FDA가 승인을 거부했다. 주가는 일시적으로 31.8%나 하락해 최저치인 56.1위안까지 떨어졌다. 오전 9시 46분 현재 24.2% 하락한 62.35위안에 거래되고 있으며 거래액은 15억 2천만 위안 이상이다. 강팡바이오로직스(Kangfang Biologics)의 전략적 파트너인 미국 제약회사 서밋 테라퓨틱스(Summit Therapeutics)는 미국 식품의약국(FDA)이 폐암치료제 출시 신청을 거부했다고 밝혔다. Kangfang Biologics는 중국 내 ivonescimab 약물의 최초 개발 및 유통업체입니다.",
+"sum": "아케소(09926)와 미국 파트너의 항암제인 FDA가 승인을 거부했다. 주가는 일시적으로 31.8%나 하락해 최저치인 56.1위안까지 떨어졌다. 오전 9시 46분 현재 24.2% 하락한 62.35위안에 거래되고 있으며 거래액은 15억 2천만 위안 이상이다. 아케소의 전략적 파트너인 미국 제약회사 서밋 테라퓨틱스(Summit Therapeutics)는 미국 식품의약국(FDA)이 폐암치료제 출시 신청을 거부했다고 밝혔다. 아케소는 중국 내 ivonescimab 약물의 최초 개발 및 유통업체입니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -3116,7 +3395,7 @@
 "run": "202611161159",
 "added": 1794830397,
 "url": "https://www.21jingji.com/article/20261116/herald/c3d9441060a75d7b5315fbd9fe05c6a2.html",
-"sum": "파이낸셜뉴스, 11월 16일 (천용휘 기자) 지난 11월 16일, 미국 FDA의 회신서한으로 홍콩 제약업계가 소용돌이에 휘말렸다. Kangfang Biology(09926.HK)는 이날 약 32% 하락하여 개장하여 2025년 2월 이후 최저치인 HK$56.1에 도달했습니다. 22% 하락했으며 시가총액은 HK$603억으로 줄었습니다. 같은 기간 항셍생명공학지수는 2.21% 하락했다. 방아쇠는 지난 주말에 왔습니다. Kangfang의 해외 파트너인 Summit은 백금 함유 화학요법과 결합된 evocilimab(AK112, PD-1/VEGF 이중 항체)의 시판 신청에 대한 미국 FDA로부터 완전한 응답 편지(CRL)를 받았다고 11월 15일 발표했습니다. 해당 신청은 승인되지 않았으며, 타깃 적응증은 EGFR-TKI 치료 이후 진행된 비편평 비소세포폐암이다.",
+"sum": "차이롄서, 11월 16일 (천용휘 기자) 지난 11월 16일, 미국 FDA의 회신서한으로 홍콩 제약업계가 소용돌이에 휘말렸다. 아케소(09926.HK)는 이날 약 32% 하락하여 개장하여 2025년 2월 이후 최저치인 HK$56.1에 도달했습니다. 22% 하락했으며 시가총액은 HK$603억으로 줄었습니다. 같은 기간 항셍생명공학지수는 2.21% 하락했다. 방아쇠는 지난 주말에 왔습니다. Kangfang의 해외 파트너인 Summit은 백금 함유 화학요법과 결합된 evocilimab(AK112, PD-1/VEGF 이중 항체)의 시판 신청에 대한 미국 FDA로부터 완전한 응답 편지(CRL)를 받았다고 11월 15일 발표했습니다. 해당 신청은 승인되지 않았으며, 타깃 적응증은 EGFR-TKI 치료 이후 진행된 비편평 비소세포폐암이다.",
 "pv": "8bab9ca2"
 },
 {
@@ -3274,7 +3553,7 @@
 "theme": "🧬 나스닥 바이오",
 "region": "🇨🇳 중국",
 "title": "创新药板块震荡走弱，通化金马跌停",
-"show": "혁신 의약품 분야의 변동 및 약화, Tonghua Jinma 제한 다운",
+"show": "혁신 의약품 분야의 변동 및 약화, Tonghua Jinma 하한가",
 "source": "Jiemian.com",
 "src_url": "https://m.jiemian.com",
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9URHFINXpseEloZmtVOU9oRnlhVnVCWkNfN0hwQkFoNENQRUYyNzdqNjFrcVVNN2ZkbEdmV0RnZFN4N0psVlVfTEJqN0g5M1VkbUNvZlVn?oc=5",
@@ -3388,7 +3667,7 @@
 "run": "202611160519",
 "added": 1794806423,
 "url": "https://www.cls.cn/detail/2535143",
-"sum": "① 2026년 상하이 증권거래소 국제 투자자 회의에서 Zhu Yi는 중국 혁신 의약품의 경쟁 우위가 단일 제품 및 플랫폼에서 R&D 시스템으로 확장되고 구조적 우위가 전 세계의 관심을 끌고 있다고 믿었습니다. ② 중국 국내 접근 정책이 개선되고 해외 가치가 실현됐다. 2027년에 \"Davis Double Click\"이 도입될지는 아직 테스트가 필요합니다. ③AI는 분자 생성을 가속화하며, 습식 실험 검증과 과학자 의사 결정은 여전히 ​​R&D 성공률을 높이는 열쇠입니다. 파이낸셜뉴스는 11월 16일(루아펑 기자) \"우리는 플랫폼 BD를 하는 것이 아니라 구조적 BD를 하면서 중국의 구조적 장점을 매수하고 있다\"고 보도했다. 2026년 상하이 증권거래소 국제 투자자 컨퍼런스에서 \"다음부터 정의까지: 중국 제약회사가 글로벌 혁신 리더가 되고 있습니까?\" 원탁 포럼에서 Bailey Tianheng(688506.SH)의 설립자이자 회장인 Zhu Yi는 지난 6개월 동안 중국 혁신 제약 산업의 변화를 요약했습니다.",
+"sum": "① 2026년 상하이 증권거래소 국제 투자자 회의에서 Zhu Yi는 중국 혁신 의약품의 경쟁 우위가 단일 제품 및 플랫폼에서 R&D 시스템으로 확장되고 구조적 우위가 전 세계의 관심을 끌고 있다고 믿었습니다. ② 중국 국내 접근 정책이 개선되고 해외 가치가 실현됐다. 2027년에 \"Davis Double Click\"이 도입될지는 아직 테스트가 필요합니다. ③AI는 분자 생성을 가속화하며, 습식 실험 검증과 과학자 의사 결정은 여전히 R&D 성공률을 높이는 열쇠입니다. 차이롄서는 11월 16일(루아펑 기자) \"우리는 플랫폼 BD를 하는 것이 아니라 구조적 BD를 하면서 중국의 구조적 장점을 매수하고 있다\"고 보도했다. 2026년 상하이 증권거래소 국제 투자자 컨퍼런스에서 \"다음부터 정의까지: 중국 제약회사가 글로벌 혁신 리더가 되고 있습니까?\" 원탁 포럼에서 Bailey Tianheng(688506.SH)의 설립자이자 회장인 Zhu Yi는 지난 6개월 동안 중국 혁신 제약 산업의 변화를 요약했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -3598,7 +3877,7 @@
 "run": "202611142313",
 "added": 1794698061,
 "url": "https://local.cctv.com/2026/11/14/ARTIF0JYprRz9gfgmZyNiJZk261114.shtml",
-"sum": "이 회의에서는 최첨단 과학 세력, 선도적인 투자 자본 및 주요 산업 신호를 모아 ​​자본의 물로 혁신의 원천에 물을 공급하고 생명 및 건강 산업을 위한 매우 중요한 \"연간 자본 좌표\"를 설정합니다.",
+"sum": "이 회의에서는 최첨단 과학 세력, 선도적인 투자 자본 및 주요 산업 신호를 모아 자본의 물로 혁신의 원천에 물을 공급하고 생명 및 건강 산업을 위한 매우 중요한 \"연간 자본 좌표\"를 설정합니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -4398,7 +4677,7 @@
 "theme": "🔋 2차전지",
 "region": "🇨🇳 중국",
 "title": "龙蟠科技：修订宁德时代采购框架协议年度上限至90亿元-36氪",
-"show": "Longpan Technology: CATL 조달 기본 계약의 연간 한도를 90억 위안-36 크립톤으로 수정",
+"show": "Longpan Technology: CATL 조달 기본 계약의 연간 한도를 90억 위안-36Kr으로 수정",
 "source": "www.36kr.com",
 "src_url": "https://www.36kr.com",
 "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LSVpmeGw5cHVsdnl2M2R1NEVXVU9VdjNPSS1yY1NxWmxXbEx3NHBMbjJWdFpaWldlUlk3a05BSDNHQ0t3NlphMGpvQU83eU16dDVfU1BSM1Q4VlBZb3c?oc=5",
@@ -4523,7 +4802,7 @@
 "theme": "🔋 2차전지",
 "region": "🇨🇳 중국",
 "title": "一周新车盘点｜领克03首次搭载磁流变悬架 极狐两款车接入宁德时代换电",
-"show": "주간 신차 총정리 | Lynk & Co 03에는 최초로 자기유변 서스펜션이 장착되었으며 두 Polar Fox 모델 모두 CATL에 연결되어 배터리 교체가 가능합니다.",
+"show": "주간 신차 총정리 | 링크앤코 03에는 최초로 자기유변 서스펜션이 장착되었으며 두 Polar Fox 모델 모두 CATL에 연결되어 배터리 교체가 가능합니다.",
 "source": "Jiemian.com",
 "src_url": "https://www.jiemian.com",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oMG5jWGRJck4xVXFNUEtBbHVzVU5KNXNvbEQxU0UyVmZkREYzNTZTaWF1UG81b1hGVV83bHh4RlFpanpMb292Z19kOHM5Z3pGbThuRGVIVHA?oc=5",
@@ -4532,7 +4811,7 @@
 "run": "202611150717",
 "added": 1794727079,
 "url": "https://www.jiemian.com/article/15333755.html",
-"sum": "2027년형 Lynk & Co 03에 자기유변 서스펜션 추가 키워드: 소형차/113,800~249,800위안/MRC 자기유변 서스펜션 11월 13일, 2027년형 Lynk & Co 03 제품군이 공식 출시되었습니다. 이 중 일반 버전은 4개 모델로 출시되며 기준 가격은 113,800~143,800위안, 한정 가격은 103,800~133,800위안이다. 동시 출시되는 03+의 기준가는 249,800위안, 한정가는 239,800위안이다. 이번 페이스리프트는 주로 외관, 파워, 섀시 구성을 조정합니다. 외관상으로는 분할된 주간주행등과 세단의 윤곽을 그대로 유지하고 있다. 프론트 범퍼는 공기 흡입구 영역을 확장하고 리어 서라운드, 배기 장식 및 스포일러를 조정합니다. 일부 모델은 원래의 와이드 바디 구성 요소와 탄소 섬유 리어 윙을 선택할 수 있습니다. 차체 길이, 너비, 높이는 4700/1901/1456mm이고 휠베이스는 2730mm입니다.",
+"sum": "2027년형 링크앤코 03에 자기유변 서스펜션 추가 키워드: 소형차/113,800~249,800위안/MRC 자기유변 서스펜션 11월 13일, 2027년형 링크앤코 03 제품군이 공식 출시되었습니다. 이 중 일반 버전은 4개 모델로 출시되며 기준 가격은 113,800~143,800위안, 한정 가격은 103,800~133,800위안이다. 동시 출시되는 03+의 기준가는 249,800위안, 한정가는 239,800위안이다. 이번 페이스리프트는 주로 외관, 파워, 섀시 구성을 조정합니다. 외관상으로는 분할된 주간주행등과 세단의 윤곽을 그대로 유지하고 있다. 프론트 범퍼는 공기 흡입구 영역을 확장하고 리어 서라운드, 배기 장식 및 스포일러를 조정합니다. 일부 모델은 원래의 와이드 바디 구성 요소와 탄소 섬유 리어 윙을 선택할 수 있습니다. 차체 길이, 너비, 높이는 4700/1901/1456mm이고 휠베이스는 2730mm입니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -4613,7 +4892,7 @@
 "run": "202611150717",
 "added": 1794727082,
 "url": "https://www.cls.cn/detail/2510447",
-"sum": "① 미국 ​​정부가 각 기관에 딥시크 사용 중단을 지시했고, 외교부가 대응 ② 국가 데이터 그룹 설립 ③ 미국 다우존스 산업평균지수가 1% 이상 상승 ④ 공업정보화부: R&D와 테스트를 통해 충분히 검증되지 않은 불합리한 혁신 디자인과 자동차 제품의 시장 진입을 단호히 방지 ⑤ CATL, Tianyue Advanced, Yunnan Germanium Industry, CSSC Special Gas의 3분기 보고서가 공개된다. 매크로뉴스 1. 국무원의 승인을 받아 국립데이터그룹주식회사가 설립되었습니다. 국무원 국유자산감독관리위원회는 국무원을 대신하여 투자자의 직무를 수행한다. 국무원 국유자산감독관리위원회가 투자자의 임무를 수행하는 기업 목록에 포함될 것이다. 2. 미국 국토안보부는 10월 19일 미국 연방정부의 민간행정기관이 중국 인공지능 기업 딥서치(Deep Search) 및 그 계열사가 개발한 제품 및 서비스를 구매하는 것을 금지하고 관련 제품 및 서비스를 관련 기관의 정보시스템에서 제거하도록 요구한다고 발표했다. 상무부는 이에 대해 중국측은 강한 불만을 표하며 단호히 반대한다고 밝혔습니다. 미국은 양국 정상이 달성한 중요한 공감대를 진지하게 이행하고, 중국과 중간 협력하고, 중미 인공지능 대화 메커니즘을 잘 활용하고, 상호 신뢰를 강화하고, 차이를 관리하며, 인공지능을 공동으로 추진하기를 희망합니다.",
+"sum": "① 미국 정부가 각 기관에 딥시크 사용 중단을 지시했고, 외교부가 대응 ② 국가 데이터 그룹 설립 ③ 미국 다우존스 산업평균지수가 1% 이상 상승 ④ 공업정보화부: R&D와 테스트를 통해 충분히 검증되지 않은 불합리한 혁신 디자인과 자동차 제품의 시장 진입을 단호히 방지 ⑤ CATL, Tianyue Advanced, Yunnan Germanium Industry, CSSC Special Gas의 3분기 보고서가 공개된다. 매크로뉴스 1. 국무원의 승인을 받아 국립데이터그룹주식회사가 설립되었습니다. 국무원 국유자산감독관리위원회는 국무원을 대신하여 투자자의 직무를 수행한다. 국무원 국유자산감독관리위원회가 투자자의 임무를 수행하는 기업 목록에 포함될 것이다. 2. 미국 국토안보부는 10월 19일 미국 연방정부의 민간행정기관이 중국 인공지능 기업 딥서치(Deep Search) 및 그 계열사가 개발한 제품 및 서비스를 구매하는 것을 금지하고 관련 제품 및 서비스를 관련 기관의 정보시스템에서 제거하도록 요구한다고 발표했다. 상무부는 이에 대해 중국측은 강한 불만을 표하며 단호히 반대한다고 밝혔습니다. 미국은 양국 정상이 달성한 중요한 공감대를 진지하게 이행하고, 중국과 중간 협력하고, 중미 인공지능 대화 메커니즘을 잘 활용하고, 상호 신뢰를 강화하고, 차이를 관리하며, 인공지능을 공동으로 추진하기를 희망합니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -4626,7 +4905,7 @@
 "theme": "🔋 2차전지",
 "region": "🇨🇳 중국",
 "title": "宁德时代与北汽全面换电合作落地",
-"show": "CATL과 BAIC, 포괄적인 전력 교환 협력 실시",
+"show": "CATL과 베이징자동차, 포괄적인 전력 교환 협력 실시",
 "source": "21财经",
 "src_url": "https://www.21jingji.com",
 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNV2tfN3I5eWVxMDQ1TjlhSE9lSU4zYTlNQ2o5QjM5b0FnMlBLemt2UU85RUNXN3NnbGRsU0g5NnBDeGF5UmdlRTd6WjYzREN2YzAzUXYyV2JkZkk2T0RiWlF6c3AtWFdyMTBHNnJsS3A5Ul9BQ0NGSjhtenluRlo0bjlLNlpJYk1IT29zR1hNOA?oc=5",
@@ -4635,7 +4914,7 @@
 "run": "202611141236",
 "added": 1794659867,
 "url": "https://www.21jingji.com/article/20261114/herald/3850b3ac4602ab05934e7eda1b975b39.html",
-"sum": "CATL과 BAIC는 포괄적인 배터리 교환 협력을 시작했습니다. 본 신문 보도(리팅 기자) 11월 13일 베이징에서 Jihu 국가 전력 스왑 생태계 및 베타 시리즈 신제품 출시 컨퍼런스가 개최되어 Jihu T1 배터리 스왑 버전이 출시되었습니다. 이는 베이징자동차그룹(이하 'BAIC 그룹')과 CATL 신에너지기술유한회사(이하 'CATL')가 지난 10월 22일 협약 체결 이후 한 달도 채 되지 않아 100만대 차량용 배터리 교환 전략적 협력 협약을 체결한 이후 또 하나의 중요한 성과다. 이전 협약에 따르면 양 당사자는 차량 개발, 배터리 교체 공급, 배터리 교체 네트워크 및 비즈니스 모델 혁신에 초점을 맞춘 풀체인 협력을 진행하게 된다. BAIC는 자사의 멀티 브랜드 적용 모델을 초콜릿 배터리 교환 생태계에 통합하는 것을 촉진하고 배터리 교환 모델 100만 개라는 목표를 달성할 것입니다.",
+"sum": "CATL과 베이징자동차는 포괄적인 배터리 교환 협력을 시작했습니다. 본 신문 보도(리팅 기자) 11월 13일 베이징에서 Jihu 국가 전력 스왑 생태계 및 베타 시리즈 신제품 출시 컨퍼런스가 개최되어 Jihu T1 배터리 스왑 버전이 출시되었습니다. 이는 베이징자동차그룹(이하 '베이징자동차 그룹')과 CATL 신에너지기술유한회사(이하 'CATL')가 지난 10월 22일 협약 체결 이후 한 달도 채 되지 않아 100만대 차량용 배터리 교환 전략적 협력 협약을 체결한 이후 또 하나의 중요한 성과다. 이전 협약에 따르면 양 당사자는 차량 개발, 배터리 교체 공급, 배터리 교체 네트워크 및 비즈니스 모델 혁신에 초점을 맞춘 풀체인 협력을 진행하게 된다. 베이징자동차는 자사의 멀티 브랜드 적용 모델을 초콜릿 배터리 교환 생태계에 통합하는 것을 촉진하고 배터리 교환 모델 100만 개라는 목표를 달성할 것입니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -4806,27 +5085,6 @@
 "pv": "8bab9ca2"
 },
 {
-"key": "weavegridandhyundaimotorgrouptodevelopevsmartchargingplatforminnorthamerica",
-"keys": [
-"weavegridandhyundaimotorgrouptodevelopevsmartchargingplatforminnorthamerica"
-],
-"count": 1,
-"theme": "🔋 2차전지",
-"region": "🌍 세계",
-"title": "WeaveGrid and Hyundai Motor Group to develop EV smart-charging platform in North America",
-"show": "위브그리드(WeaveGrid)와 현대차그룹, 북미에서 EV 스마트 충전 플랫폼 개발",
-"source": "AutoTechInsight",
-"src_url": "https://autotechinsight.spglobal.com",
-"link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSnNPdlFrTkUzZGR1WDVXQ214ajBTMlZ2dzhjNjVsRE1RZ3ViYi1aMVJhMVhmenk5M3g4bF9ETUppc2lneVFtT1JhSlJpMXpGSElOVjd2anBwZmlyVnp2Z21kMzVfclVlR0pxTGl3MG5MOTZLdjhlaDZvVmt5QmduOWxSc2JoLWFyS0VWZHNYeWJCVzBXNGVhbDV6czBYUTFVMlN4UnBMSkdka09uZFVHdEJEVVVvSVhMdHBTOXZFWjAySW1QcDYzTUtHQWV6Tnl4dUEtTw?oc=5",
-"pub": 1794581052.0,
-"time": "11/13 23:44",
-"run": "202611132250",
-"added": 1794610411,
-"url": "https://autotechinsight.spglobal.com/news/5291468/weavegrid-and-hyundai-motor-group-to-develop-ev-smart-charging-platform-in-north-america",
-"sum": "WeaveGrid와 현대 및 기아 차량의 승인된 통합을 통해 유틸리티 회사에 차량 모델 전반에 걸쳐 충전 및 배터리 데이터를 제공하게 됩니다.",
-"pv": "8bab9ca2"
-},
-{
 "key": "通網股中華電結合低軌衛星與儲能打造雲林防災通訊網",
 "keys": [
 "通網股中華電結合低軌衛星與儲能打造雲林防災通訊網",
@@ -4933,6 +5191,27 @@
 "added": 1794789736,
 "url": "https://www.fnnews.com/news/202611160844070909",
 "sum": "이차전지 조립장비 전문기업 엠플러스가 글로벌 기업으로부터 200억원대 전고체 배터리 장비를 수주하며 차세대 배터리 시장 공략에 속도를 내고 있다."
+},
+{
+"key": "5度电缘何坐上阳台储能c位",
+"keys": [
+"5度电缘何坐上阳台储能c位"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇨🇳 중국",
+"title": "“5度电”缘何坐上阳台储能C位？",
+"show": "왜 \"5kWh의 전력\"이 발코니 에너지 저장 장치 C 위치에 있습니까?",
+"source": "36氪出海",
+"src_url": "https://letschuhai.com",
+"link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mT181Tm00V0x1aUhRRmRGSmRMMk5sQ00yV3ZDbFBVX2g2TEZVLU11NUp3M29YaWhMRHByY0hxSEF2bHZ2aGc?oc=5",
+"pub": 1794839804.0,
+"time": "11/16 23:36",
+"run": "202611161453",
+"added": 1794840871,
+"url": "https://letschuhai.com/4c218db6",
+"sum": "2년 전만 해도 발코니 에너지 저장 장치의 라벨은 여전히 \"1.6kWh의 전기, 손잡이 포함\"이었습니다. 2026년에는 트랙의 주 용량이 3배로 증가합니다. 첨단산업에너지저장연구소(GGII) 자료에 따르면 발코니 광스토리지는 2026년 성장률 100%를 넘어 올해 유럽에서 가장 뜨거운 트랙이 될 것으로 예상된다. 독일에서는 2026년 3월 현재 발코니 태양광 발전 누적 설치 수가 200만 대를 초과했으며, 1분기에 새로 설치된 그리드 수가 전년 대비 140% 증가했습니다. 네덜란드에서는 2분기에 37,600개 이상의 발코니 에너지 저장 배터리가 판매되어 전 분기보다 거의 두 배, 전년 동기 대비 47배 증가했습니다. 한 분기의 판매량이 지난 3년의 총 재고를 초과했습니다. 모든 용량 부문에서 5kWh의 전력(5kWh)은 “아무도 돌아다닐 수 없는” 수치가 되어가고 있습니다.",
+"pv": "8bab9ca2"
 },
 {
 "key": "无人机龙头切入储能后还要造电芯大疆注册了一家电池公司",
@@ -5331,7 +5610,7 @@
 "run": "202611161159",
 "added": 1794830444,
 "url": "https://m.cls.cn/detail/2535455",
-"sum": "참고: 금융조합 VIP는 투자조언이 아닌 컨텐츠 정보 상품입니다. 다음 내용은 단지 정보 가치의 표시일 뿐 관련 기업에 대한 추천이나 미래 동향에 대한 예측이 아닙니다. 투자는 위험하므로 시장 진입 시 주의가 필요합니다. 시장 핫스팟 1: 전고체전지 뉴스에 따르면 국가발전개혁위원회와 국가에너지국은 '15차 5개년 계획 신에너지저장 실시계획'을 발표했다. 이 계획에서는 중·단기 에너지 배터리 저장 기술을 개발할 것을 제안하고 있다. 대용량, 넓은 온도 범위, 높은 안전성 및 간섭 방지 리튬/나트륨 이온 배터리 에너지 저장 시스템을 개발합니다. 고체-액체 하이브리드 배터리의 핵심 부품을 최적화하고 본질안전형 전고체 배터리 기술을 연구합니다. 11월 12일 20시 59분, \"그녀가 아는 차이 리안\"은 중국(닝보) 배터리 신에너지 산업 국제 정상 포럼을 추적하여 2026년부터 2027년까지 전고체 배터리가 파일럿 및 소규모 배치 생산 기간에 들어갈 것으로 예상된다고 지적했습니다. Shangshui Intelligent를 언급하면 ​​11월 16일 가격이 14.21% 급등했습니다.",
+"sum": "참고: 금융조합 VIP는 투자조언이 아닌 컨텐츠 정보 상품입니다. 다음 내용은 단지 정보 가치의 표시일 뿐 관련 기업에 대한 추천이나 미래 동향에 대한 예측이 아닙니다. 투자는 위험하므로 시장 진입 시 주의가 필요합니다. 시장 핫스팟 1: 전고체전지 뉴스에 따르면 국가발전개혁위원회와 국가에너지국은 '15차 5개년 계획 신에너지저장 실시계획'을 발표했다. 이 계획에서는 중·단기 에너지 배터리 저장 기술을 개발할 것을 제안하고 있다. 대용량, 넓은 온도 범위, 높은 안전성 및 간섭 방지 리튬/나트륨 이온 배터리 에너지 저장 시스템을 개발합니다. 고체-액체 하이브리드 배터리의 핵심 부품을 최적화하고 본질안전형 전고체 배터리 기술을 연구합니다. 11월 12일 20시 59분, \"그녀가 아는 차이 리안\"은 중국(닝보) 배터리 신에너지 산업 국제 정상 포럼을 추적하여 2026년부터 2027년까지 전고체 배터리가 파일럿 및 소규모 배치 생산 기간에 들어갈 것으로 예상된다고 지적했습니다. Shangshui Intelligent를 언급하면 11월 16일 가격이 14.21% 급등했습니다.",
 "pv": "8bab9ca2"
 },
 {
@@ -5394,7 +5673,7 @@
 "run": "202611150721",
 "added": 1794727317,
 "url": "https://www.cls.cn/detail/2506034",
-"sum": "① 미국은 전기차 배터리 과잉을 지속하고 있으나, 에너지 저장 배터리의 현지 생산 능력이 부족하다. ② 한국 배터리 업체들의 유럽 시장 점유율은 일부 안정됐지만, 중국의 수입 경쟁은 여전히 ​​치열하다. ③ 국내 배터리셀 제조사들은 2027년과 2028년 이익 전망치를 평균 10% 하향 조정했는데, CATL의 에너지 저장장치 전환이 유망하다. 차이롄서, 10월 15일(편집자 Xia Junxiong) 골드만삭스는 10월 14일 글로벌 배터리 산업 조사 보고서를 발표했습니다. 이는 에너지 저장 시장의 급속한 확장으로 배터리 수요 전망이 개선되고 있지만, 글로벌 배터리 산업은 여전히 ​​과잉 생산 능력, 지역 시장 수급 불균형 및 치열한 시장 경쟁에 직면해 있으며, 이는 업계가 사이클이 바닥을 쳤다는 것을 확인하기에 충분한 신호를 아직 보지 못했다는 것을 의미합니다. 은행은 중국 외 배터리 시장의 수급 공급률은 2027년을 바닥으로, 글로벌 시장은 2029년까지 수급 전환점이 이뤄지지 않을 것으로 내다봤다.",
+"sum": "① 미국은 전기차 배터리 과잉을 지속하고 있으나, 에너지 저장 배터리의 현지 생산 능력이 부족하다. ② 한국 배터리 업체들의 유럽 시장 점유율은 일부 안정됐지만, 중국의 수입 경쟁은 여전히 치열하다. ③ 국내 배터리셀 제조사들은 2027년과 2028년 이익 전망치를 평균 10% 하향 조정했는데, CATL의 에너지 저장장치 전환이 유망하다. 차이롄서, 10월 15일(편집자 Xia Junxiong) 골드만삭스는 10월 14일 글로벌 배터리 산업 조사 보고서를 발표했습니다. 이는 에너지 저장 시장의 급속한 확장으로 배터리 수요 전망이 개선되고 있지만, 글로벌 배터리 산업은 여전히 과잉 생산 능력, 지역 시장 수급 불균형 및 치열한 시장 경쟁에 직면해 있으며, 이는 업계가 사이클이 바닥을 쳤다는 것을 확인하기에 충분한 신호를 아직 보지 못했다는 것을 의미합니다. 은행은 중국 외 배터리 시장의 수급 공급률은 2027년을 바닥으로, 글로벌 시장은 2029년까지 수급 전환점이 이뤄지지 않을 것으로 내다봤다.",
 "pv": "8bab9ca2"
 },
 {
@@ -7340,7 +7619,7 @@
 "run": "202611142313",
 "added": 1794698096,
 "url": "https://www.cls.cn/detail/2449482",
-"sum": "① 국가통계국: 7월 CPI 전년 동기 대비 0.5% 상승 ② S&P500 지수가 지난 금요일 최고치를 경신했고, 광통신 부문이 급등했다. ③ 베이징: 집을 구입하는 비베이징 가구의 사회보장 및 개인 납세 기간이 1년으로 단축되었다. ④ 애플 China 공식 웹사이트에서 애플 Smart Access 알리바바 큐원(Qwen) 매뉴얼을 삭제했다. ⑤ 캄브리콘, 롱시스, Wuxi AppTec이 중요한 발표를 했다. 매크로 뉴스 1. 국가통계국이 발표한 자료에 따르면 7월 소비자물가지수(CPI)는 국제 수입 요인의 영향으로 전월 대비 0.1% 하락하고 전년 대비 0.5% 상승한 것으로 나타났습니다. 식품과 에너지를 제외한 근원 CPI는 전월 대비 0.3%, 전년 동기 대비 0.9% 상승했다. CPI는 전반적으로 완만한 상승을 유지했습니다. 1~7월 평균 전국 소비자물가는 전년 동기 대비 0.9% 상승했다. 국내 일부 산업의 수요가 늘었지만, 수입·계절적 요인 등으로 산업생산자물가지수(PPI)는 전월 ​​대비 0.7% 하락, 전년 동기 대비 3.5% 상승, 전월 대비 0.6%포인트 하락했다.",
+"sum": "① 국가통계국: 7월 CPI 전년 동기 대비 0.5% 상승 ② S&P500 지수가 지난 금요일 최고치를 경신했고, 광통신 부문이 급등했다. ③ 베이징: 집을 구입하는 비베이징 가구의 사회보장 및 개인 납세 기간이 1년으로 단축되었다. ④ 애플 China 공식 웹사이트에서 애플 Smart Access 알리바바 큐원(Qwen) 매뉴얼을 삭제했다. ⑤ 캄브리콘, 롱시스, Wuxi AppTec이 중요한 발표를 했다. 매크로 뉴스 1. 국가통계국이 발표한 자료에 따르면 7월 소비자물가지수(CPI)는 국제 수입 요인의 영향으로 전월 대비 0.1% 하락하고 전년 대비 0.5% 상승한 것으로 나타났습니다. 식품과 에너지를 제외한 근원 CPI는 전월 대비 0.3%, 전년 동기 대비 0.9% 상승했다. CPI는 전반적으로 완만한 상승을 유지했습니다. 1~7월 평균 전국 소비자물가는 전년 동기 대비 0.9% 상승했다. 국내 일부 산업의 수요가 늘었지만, 수입·계절적 요인 등으로 산업생산자물가지수(PPI)는 전월 대비 0.7% 하락, 전년 동기 대비 3.5% 상승, 전월 대비 0.6%포인트 하락했다.",
 "pv": "8bab9ca2"
 },
 {
