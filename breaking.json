@@ -1,29 +1,6 @@
 {
 "items": [
 {
-"key": "速報中アメリカ全土の空港で航空機運航停止通信の問題",
-"keys": [
-"速報中アメリカ全土の空港で航空機運航停止通信の問題",
-"全米の空港で航空機の離陸停止通信障害当局脅威の兆候はなし"
-],
-"count": 2,
-"theme": "🌏 해외 속보",
-"rk": "jp",
-"region": "🇯🇵 일본",
-"title": "【速報中】アメリカ全土の空港で航空機運航停止「通信の問題」",
-"show": "【속보중】미국 전역의 공항에서 항공기 운항 정지 「통신의 문제」",
-"source": "NHKニュース",
-"src_url": "https://news.web.nhk",
-"sum": "【NHK】미국의 FAA=연방 항공국은 13일, 미국 동부 시간의 오후 4시 전, 일본 시간의 14일 오전 6시 전, 이례적인 사태, 그리고 안전상의 이유로, 미국 전역의 공항에서의 모든 항공기의 운항 정지 조치를 취했다고 밝혔습니다",
-"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KVGdSYm9aNFh5OXg3TnZsUGpNaGdFekJLNWVKRTF6cVJ0aUsxN2MwS195YzhhdHZzXzdwd3U4dWdCRFI5dWVOWjdXblcwOWdyUlI0a3dzV3FiOWg1OXRj?oc=5",
-"url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
-"pub": 1794611358.0,
-"time": "11/14 08:09",
-"run": "breaking",
-"added": 1794612399,
-"pv": "b052c435"
-},
-{
 "key": "nvidiaapproachesarmceohaasasemployeesseekhuangsreturnreportssay",
 "keys": [
 "nvidiaapproachesarmceohaasasemployeesseekhuangsreturnreportssay"
@@ -865,6 +842,28 @@
 "time": "11/17 07:37",
 "run": "breaking",
 "added": 1794868820
+},
+{
+"key": "justinkevinwarshdefiestrumpaftermidtermswarnsstockmarketcrashjoblossfullspeech",
+"keys": [
+"justinkevinwarshdefiestrumpaftermidtermswarnsstockmarketcrashjoblossfullspeech"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "JUST IN: Kevin Warsh Defies Trump After Midterms; Warns Stock Market Crash & Job Loss | FULL SPEECH",
+"show": "JUST IN: 케빈 워시가 중간고사 이후 트럼프를 무시합니다. 주식 시장 붕괴 및 일자리 손실 경고 | 전체 연설",
+"source": "The Times of India",
+"src_url": "https://timesofindia.indiatimes.com",
+"sum": "케빈 워시 연준 의장은 샌프란시스코 연준에서 인공 지능과 초지능이 미국의 경제, 금융 시장, 노동력을 어떻게 재편할 수 있는지를 설명하는 주요 연설을 했습니다. 워시는 생산성이 향상되더라도 급속한 자동화가 미국 근로자를 대체하고 실업률을 증가시킬 수 있다고 경고합니다. 그는 또한 대량 수익이 실망스러운 시나리오에 대해 논의합니다.",
+"link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOMGQ4X1NPWnM5RHd2c1lHcHJVdnZXS0U5WXgxVWJXRTFuWHRFdzBHa0FHMFRndTUydkRWR09XU1k2V0V1X3B1Zkp5ZlExa2hxTC1FcU5qX1c0WVhvVnU4VXdjNmtfckpEbHZUZTZqTmhfWDBQTHU1aVRBNVhKWnU0REZjUWwtVVZuYV8xNXkyXzJtYVA2Vk1OS3REbVBCNVNpQmRVMHN0ZEhKVl9TV2dqbjZZYS1jcXo5ZGNva29EcG11Y2RvYzRuYjc0TXEzLW1aN0FpdGExREk2MVNrb1ZDTkhIUEtNVzdzYjRzQWgwRmc1OVI3bDdIZ0xpVDg5RWg4bno2QdIBigJBVV95cUxPX21LM2RUYzhWMHhaZm81MVd1RkFmRVE4cDJrVFcyWkhUZmZIblgzT25LOXlya0NGakFUZERoNFRldVhNWGNOZV9VZXZCd3lzdGYwRTRQZWU2ZHJ6OFUzcEpFRVlYYUJIOUVEQTZQRjAwZjVHOWFlVGVZUW4wNW9aV0tHU2FPMzBST2hDWU1OQ3V1RlpWMHFDclVxcjNzUHl4aTZoejdHaTg1WndpMkJXSS1LUjFOa3plNTZIX3AyTlB3bk9Qek9YbHJtX1VGME1TaUxrMEI3U3ZpUlpDOENHMjRXWVpES2hsTDI5eC1lUm5ibEs3cHpGbW02S3luODZRWEdhRDB0Zkt2dw?oc=5",
+"url": "https://timesofindia.indiatimes.com/videos/international/just-in-kevin-warsh-defies-trump-after-midterms-warns-stock-market-crash-job-loss-full-speech/videoshow/135905024.cms",
+"pub": 1794868681.0,
+"time": "11/17 07:38",
+"run": "breaking",
+"added": 1794871003,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -1089,6 +1088,7 @@
 "美반도체지수3일간9급락ai투자심리위축": 1794868820.4328015,
 "美증시ai빅테크7개종목일제히하락엔비디아41급락에나스닥25": 1794870258.8774362,
 "오늘의증시엔비디아4대급락에美ai주와르르코스피하락출발전망": 1794869538.939472,
-"젠슨황파장지속뉴욕증시일제히하락엔비디아41sk하이닉스adr73투자360": 1794870258.8774357
+"젠슨황파장지속뉴욕증시일제히하락엔비디아41sk하이닉스adr73투자360": 1794870258.8774357,
+"justinkevinwarshdefiestrumpaftermidtermswarnsstockmarketcrashjoblossfullspeech": 1794871007.2161286
 }
 }
