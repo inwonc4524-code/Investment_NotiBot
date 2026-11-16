@@ -623,6 +623,30 @@
 "run": "breaking",
 "added": 1794796885,
 "pv": "8bab9ca2"
+},
+{
+"key": "kdi비반도체생산성부진이실질임금정체로임금격차경고",
+"keys": [
+"kdi비반도체생산성부진이실질임금정체로임금격차경고",
+"kdi실질임금상승위한非반도체혁신생산성개선뒷받침돼야머니투데이",
+"kdi반도체호황에도실질임금정체비반도체생산성개선이과제",
+"근로자절반실질임금하락업종근무kdi비반도체생산성부진탓"
+],
+"count": 4,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "KDI “비반도체 생산성 부진이 실질임금 정체로”…임금 격차 경고",
+"show": "KDI “비반도체 생산성 부진이 실질임금 정체로”…임금 격차 경고",
+"source": "한겨레",
+"src_url": "https://www.hani.co.kr",
+"sum": "한국개발연구원(KDI)이 2021년 이후 광범위한 실질임금 정체의 중요 배경으로 ‘비반도체 부문의 생산성 부진’을 지목했다. 비반도체 부문의 생산성 부진이 이어질 경우, 임금 개선은 일부에 집중되고 산업 간 임금 격차도 지속될 가능성이 있다고 경고했다. 연구원은 16일",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHNnk5cFpRZnpDYnVEdUF3NFQtbHdMU2JPb281YnFQNElNQXFlbExYTVYtSnRIcGxERjlXX01fVEEwSlNsX2pjMUQ0M0RtMl9mc2UzLTBqTU5uUjJfUTV0TjZvdkwwam1CVExHR0dGeU1hZw?oc=5",
+"url": "https://www.hani.co.kr/arti/economy/economy_general/1287512.html",
+"pub": 1794798000.0,
+"time": "11/16 12:00",
+"run": "breaking",
+"added": 1794798339
 }
 ],
 "seen": {
@@ -643,15 +667,19 @@
 "코스피외국인팔자에2대급락전환코스닥도3약세": 1794795435.2659528,
 "속보코스피코스닥낙폭확대23하락외국인1조원대팔자": 1794796154.4845734,
 "코스피외국인1조원매도에28급락美기술주약세금리상승부담": 1794795435.2659523,
-"자동차보험부정수급방지호남반도체산단국토부33건특별포상": 1794797594.955357,
-"나이롱환자방지호남권반도체산단계획등국토교통행정33건포상": 1794797594.9553576,
-"8주룰호남반도체산단국토부정책성과33건포상": 1794797594.9553578,
+"자동차보험부정수급방지호남반도체산단국토부33건특별포상": 1794797616.6374626,
+"나이롱환자방지호남권반도체산단계획등국토교통행정33건포상": 1794797616.6374633,
+"8주룰호남반도체산단국토부정책성과33건포상": 1794797616.6374636,
 "코스피코스닥3대하락으로낙폭확대외국인팔자": 1794796154.4845731,
-"thecampaigntobringbackjensenhuangasnvidiaceo": 1794797593.9560335,
-"nvidiastocksteadyasjensenhuangreportedlyweighsceocomebackmuskbacksreturn": 1794797593.956034,
-"elonmuskjoins158000otherscallingfornvidiatobringbackjensenhuanginopenletter": 1794797593.9560344,
-"日経平均前引け反落959円安の6万182円": 1794797597.8799922,
-"日経平均前場引け前週末比95985円安の6018250円fx・為替ニュース": 1794797597.8799927,
-"日経平均16日前引け反落959円安の6万182円": 1794797597.8799932
+"thecampaigntobringbackjensenhuangasnvidiaceo": 1794798336.1876261,
+"nvidiastocksteadyasjensenhuangreportedlyweighsceocomebackmuskbacksreturn": 1794798336.1876268,
+"elonmuskjoins158000otherscallingfornvidiatobringbackjensenhuanginopenletter": 1794798336.1876276,
+"日経平均前引け反落959円安の6万182円": 1794798342.874854,
+"日経平均前場引け前週末比95985円安の6018250円fx・為替ニュース": 1794798342.8748543,
+"日経平均16日前引け反落959円安の6万182円": 1794798342.8748548,
+"kdi비반도체생산성부진이실질임금정체로임금격차경고": 1794798339.0531275,
+"kdi실질임금상승위한非반도체혁신생산성개선뒷받침돼야머니투데이": 1794798339.0531285,
+"kdi반도체호황에도실질임금정체비반도체생산성개선이과제": 1794798339.0531292,
+"근로자절반실질임금하락업종근무kdi비반도체생산성부진탓": 1794798339.0531294
 }
 }
