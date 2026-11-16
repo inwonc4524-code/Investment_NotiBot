@@ -738,6 +738,27 @@
 "run": "breaking",
 "added": 1794805591,
 "pv": "8bab9ca2"
+},
+{
+"key": "속보코스피3넘게하락해5000선으로5거래일만",
+"keys": [
+"속보코스피3넘게하락해5000선으로5거래일만"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 코스피, 3% 넘게 하락해 5000선으로…5거래일 만",
+"show": "[속보] 코스피, 3% 넘게 하락해 5000선으로…5거래일 만",
+"source": "서울경제",
+"src_url": "https://m.sedaily.com",
+"sum": "속보코스피, 3% 넘게 하락해 5000선으로…5거래일 만 입력 2026-11-16 14:08 [속보] 코스피, 3% 넘게 하락해 5000선으로…5거래일 만 ⓒ 서울경제신문, 무단 전재-재배포, AI 학습 및 활용 금지",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9PR2JKWUpaRXhoZE5pN3l6RUZXdmNUTGo5TDNRZHBLS3J4N2VXei1XRFlnekhORi1kQUdQcnZLUjBFV0VFQ2hPblY4ZElUbjBubWVB0gFTQVVfeXFMT09HYkpZSlpFeGhkTmk3eXpFRld2Y1RMajlMM1FkcEtLcng3ZVd6LVdEWWd6SE5GLWRBR1BydktSMEVXRUVDaE9uVjhkSVRuMG5tZUE?oc=5",
+"url": "https://m.sedaily.com/amparticle/20114877",
+"pub": 1794805730.0,
+"time": "11/16 14:08",
+"run": "breaking",
+"added": 1794807778
 }
 ],
 "seen": {
@@ -795,7 +816,8 @@
 "恒指半日升197點北水流入4億元120120261116即時財經新聞": 1794804867.5872831,
 "chinaseconomyfalterswithsurpriseacrosstheboardslowdown": 1794802690.8648655,
 "chinaseconomymissesforecastswithacrosstheboardslowdown": 1794802690.8648672,
-"平安數字銀行推限時股票息賺升級賞優惠121720261116即時財經新聞": 1794806306.8837485,
-"ランドネット29912026年10月度月次業績速報2026年11月16日適時開示日経会社情報digital": 1794805591.36433
+"平安數字銀行推限時股票息賺升級賞優惠121720261116即時財經新聞": 1794806338.4144094,
+"ランドネット29912026年10月度月次業績速報2026年11月16日適時開示日経会社情報digital": 1794805591.36433,
+"속보코스피3넘게하락해5000선으로5거래일만": 1794807778.105133
 }
 }
