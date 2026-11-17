@@ -1,28 +1,6 @@
 {
 "items": [
 {
-"key": "nvidiaapproachesarmceohaasasemployeesseekhuangsreturnreportssay",
-"keys": [
-"nvidiaapproachesarmceohaasasemployeesseekhuangsreturnreportssay"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Nvidia approaches Arm CEO Haas as employees seek Huang's return, reports say",
-"show": "엔비디아는 직원들이 황의 복귀를 요구함에 따라 Arm CEO 하스에게 접근한다고 보도했습니다.",
-"source": "The Business Times",
-"src_url": "https://www.businesstimes.com.sg",
-"sum": "회사 이사회는 잠재적인 후보자를 공식적으로 고용하지 않았다고 말했습니다.",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaGJKOTd0S2dPTDJzVnVpazljSzI2dFFELThsZFM0REFRX3pQN3RyNVhVbzEtNWpHZXFDM2tBOG1mOXZhZTZiZEdmNFp1YlNGcFNOZTdvcktUWENMR2QwSU9TMTBCZnA3c1EyQ2cySHdTQ1ZpVW04cl94akV6TlpoNEdIOFNqck92YThMbW1qWlVGRzBub2pZZDBrSmozdG9XYVd4NlllX1ZZZWd2LV9iQnRTVVVRRkw5d1BlQzBxMGNVUG8?oc=5",
-"url": "https://www.businesstimes.com.sg/international/global/nvidia-approaches-arm-ceo-haas-employees-seek-huangs-return-reports-say",
-"pub": 1794615000.0,
-"time": "11/14 09:10",
-"run": "breaking",
-"added": 1794615294,
-"pv": "b052c435"
-},
-{
 "key": "한국중국수입시장6개월째1위미국선96위",
 "keys": [
 "한국중국수입시장6개월째1위미국선96위",
@@ -934,6 +912,33 @@
 "time": "11/17 08:56",
 "run": "breaking",
 "added": 1794873904
+},
+{
+"key": "코스피美반도체쇼크에1대하락5000선공방끝낙폭축소",
+"keys": [
+"코스피美반도체쇼크에1대하락5000선공방끝낙폭축소",
+"코스피장초반5000선붕괴美반도체주급락여파",
+"속보코스피2대급락에5000선깨져",
+"속보코스피2하락하며5000선아래로",
+"코스피181하락출발해5000선턱걸이코스닥도1대약세",
+"속보코스피1대하락출발장중한때5천피아래로",
+"美반도체쇼크에삼전닉스또급락"
+],
+"count": 7,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 코스피 2%대 급락에 5000선 깨져",
+"show": "[속보] 코스피 2%대 급락에 5000선 깨져",
+"source": "뉴스핌",
+"src_url": "https://www.newspim.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBKQ2x2WTNaV3ptOUFGV1R2MGQ2cVdHWjFNVWRVMnNqZXVSTUxnWEZPQWpnRlp4UGZYakt6Vlh1WWNmdlFwanVCTTRLdktjdHQzZ0ZNTWZnMEhoWDdl?oc=5",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBKQ2x2WTNaV3ptOUFGV1R2MGQ2cVdHWjFNVWRVMnNqZXVSTUxnWEZPQWpnRlp4UGZYakt6Vlh1WWNmdlFwanVCTTRLdktjdHQzZ0ZNTWZnMEhoWDdl?oc=5",
+"pub": 1794874020.0,
+"time": "11/17 09:07",
+"run": "breaking",
+"added": 1794875344
 }
 ],
 "seen": {
@@ -1167,7 +1172,15 @@
 "美반도체급락삼성전자sk하이닉스프리마켓서2하락": 1794873161.274014,
 "특징주美반도체쇼크에삼전닉스프리마켓2대급락": 1794873161.2740147,
 "한투운용ace글로벌반도체top4plus메모리대표주삼성전자로교체": 1794873904.6587474,
-"ace글로벌반도체top4plus리밸런싱삼전비중": 1794873904.6587484,
-"한투운용글로벌반도체etf리밸런싱하이닉스줄이고삼성전자비중확대": 1794873904.6587489
+"ace글로벌반도체top4plus리밸런싱삼전비중": 1794875344.8073332,
+"한투운용글로벌반도체etf리밸런싱하이닉스줄이고삼성전자비중확대": 1794875344.8073335,
+"코스피美반도체쇼크에1대하락5000선공방끝낙폭축소": 1794875344.8072965,
+"코스피장초반5000선붕괴美반도체주급락여파": 1794875344.8072975,
+"속보코스피2대급락에5000선깨져": 1794875344.8072977,
+"속보코스피2하락하며5000선아래로": 1794875344.807298,
+"코스피181하락출발해5000선턱걸이코스닥도1대약세": 1794875344.8072984,
+"속보코스피1대하락출발장중한때5천피아래로": 1794875344.807299,
+"美반도체쇼크에삼전닉스또급락": 1794875344.8072991,
+"한투운용반도체etf리밸런싱삼전늘리고하닉줄여": 1794875344.8073328
 }
 }
