@@ -1431,6 +1431,31 @@
 "run": "breaking",
 "added": 1794906666,
 "pv": "b052c435"
+},
+{
+"key": "nvidiaformsnationalsecuritycommitteeafterhuangsexit",
+"keys": [
+"nvidiaformsnationalsecuritycommitteeafterhuangsexit",
+"nvidiaformsboardcommitteetooverseenationalsecurityexportcontrols",
+"nvidiaboardformscommitteefornationalsecurityandexportcontroloversight",
+"nvidiaformsexportcontrolboardcommitteeafterchipcurbs"
+],
+"count": 4,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Nvidia Forms National Security Committee After Huang’s Exit",
+"show": "엔비디아, 황 퇴임 후 국가안보위원회 구성",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXhhSVphOVEtNXVqU24ySnNTdTdRbzFpQ3hQc2k0dzJuZndjVW4yNGlDQWFpRWRXR1ZWQnJ1U0gwcmdnZkpPb2hMaGhfbmhmMG55UGd0QzctQy00RUF6aThiRHAzSC0zVWFFdkJ4RFpjNGhSWkVCYVBjY2FKRGFDcUJrZTdGa2NDODhiYkh1NGE0czRCNmVpMmQ3RER4WlBYTjBRdHFaUmVQTTIya2V2Ri00Wng?oc=5",
+"url": "https://www.wsj.com/politics/national-security/nvidia-forms-national-security-committee-after-huangs-exit-c3261fc2",
+"pub": 1794911820.0,
+"time": "11/17 19:37",
+"run": "breaking",
+"added": 1794912480,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -1822,6 +1847,10 @@
 "台積電公布35家優良供應商和碩及矽品首入列新增卓越全球化支援獎": 1794908128.175852,
 "大眾點評夥匯豐推餐飲團購優惠滿100港元減50171620261117即時財經新聞": 1794910290.2375257,
 "央行出口商聯手抗外資新台幣貶破33元後翻升收3285元": 1794908848.0210123,
-"央行尾盤強力拉抬新台幣由貶轉升收32850元全天最高": 1794908848.0210133
+"央行尾盤強力拉抬新台幣由貶轉升收32850元全天最高": 1794908848.0210133,
+"nvidiaformsnationalsecuritycommitteeafterhuangsexit": 1794912483.2745106,
+"nvidiaformsboardcommitteetooverseenationalsecurityexportcontrols": 1794912483.2745166,
+"nvidiaboardformscommitteefornationalsecurityandexportcontroloversight": 1794912483.2745178,
+"nvidiaformsexportcontrolboardcommitteeafterchipcurbs": 1794912483.2745183
 }
 }
