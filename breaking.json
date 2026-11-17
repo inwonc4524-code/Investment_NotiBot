@@ -1361,6 +1361,76 @@
 "time": "11/17 16:46",
 "run": "breaking",
 "added": 1794903761
+},
+{
+"key": "ai투심악화직격탄2월로돌아간코스피",
+"keys": [
+"ai투심악화직격탄2월로돌아간코스피",
+"5000도무너졌다2월로되돌아간코스피",
+"심리적마지노선5000무너졌다"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "AI투심 악화 직격탄…2월로 돌아간 코스피",
+"show": "AI투심 악화 직격탄…2월로 돌아간 코스피",
+"source": "한국경제",
+"src_url": "https://www.hankyung.com",
+"sum": "AI투심 악화 직격탄…2월로 돌아간 코스피, 코스피 5000선 붕괴 젠슨 황 불륜 스캔들 악재에 마이크론 등 美반도체주 휘청 외국인 코스피서도 1.4조 매도 오늘 엔비디아 3분기 실적이 변수",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oTzhpWGRxNnc5dTBBNWdnTUV3R1gtbVlDdXR0QmRBQjhHd05BYkZsa1k2YWt5MXR6N1gxQTZfQ0xuSTA0TmVScE1pelpvM0RWVU5Ec1FPVldNUQ?oc=5",
+"url": "https://www.hankyung.com/article/2026111726951",
+"pub": 1794905748.0,
+"time": "11/17 17:55",
+"run": "breaking",
+"added": 1794906661
+},
+{
+"key": "新台幣升36分收3285元",
+"keys": [
+"新台幣升36分收3285元",
+"台幣又驚見33元央行阻貶收盤前轉升收3285元"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "新台幣升3.6分 收32.85元",
+"show": "신대만 달러는 3.6센트 오른 NT$32.85에 마감되었습니다.",
+"source": "UDN",
+"src_url": "http://udn.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KR0p1RHB2bGxRZGF5WGJzWHJya3VCOUlpTXJOdzJ6dlVnVi1EZnJuY2FiVlZDeTFBM0FDbUNXd0EyX3NkcXBPR2xUQzI3RVRJYkZKZEwyYWNoQTBobVhHRlZzOExRRXVFSm13OHpZaTlqQQ?oc=5",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KR0p1RHB2bGxRZGF5WGJzWHJya3VCOUlpTXJOdzJ6dlVnVi1EZnJuY2FiVlZDeTFBM0FDbUNXd0EyX3NkcXBPR2xUQzI3RVRJYkZKZEwyYWNoQTBobVhHRlZzOExRRXVFSm13OHpZaTlqQQ?oc=5",
+"pub": 1794906029.0,
+"time": "11/17 18:00",
+"run": "breaking",
+"added": 1794906664,
+"pv": "b052c435"
+},
+{
+"key": "台積電表揚35家優良供應商台廠漢唐矽品和碩新入列",
+"keys": [
+"台積電表揚35家優良供應商台廠漢唐矽品和碩新入列",
+"台積電優良供應商35家出爐13家台廠入列新聞",
+"台積電供應鏈管理論壇官方認證最新35家優良供應商出列"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "台積電表揚35家優良供應商 台廠漢唐、矽品、和碩新入列",
+"show": "TSMC는 35개의 우수한 공급업체를 표창합니다. 대만 제조업체인 Hantang, Silicon Products, Pegatron이 새로 목록에 포함되었습니다.",
+"source": "鉅亨網",
+"src_url": "https://news.cnyes.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUdTVXRkJaekFqZGlvV1NCelRLOTJtZ0pGM2trTEpWTVFBaTQtcnY3SENlVm80UVVtS2tNV3BKWTVFR3phMU5CSWI0YllrSFE?oc=5",
+"url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUdTVXRkJaekFqZGlvV1NCelRLOTJtZ0pGM2trTEpWTVFBaTQtcnY3SENlVm80UVVtS2tNV3BKWTVFR3phMU5CSWI0YllrSFE?oc=5",
+"pub": 1794905113.0,
+"time": "11/17 17:45",
+"run": "breaking",
+"added": 1794906666,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -1737,8 +1807,16 @@
 "아시아증시美반도체통제강화속급락닛케이13": 1794903761.0849485,
 "일본증시닛케이134하락엔비디아실적앞두고반도체주약세": 1794903761.0849497,
 "美반도체규제우려에日증시하락닛케이5만9000선깨져": 1794903761.0849504,
-"恒指收市跌245點北水流入22億元161020261117即時財經新聞": 1794905201.8512628,
-"恒指收市跌245點北水流入22億元minimax新世界創上市新低161920261117即時財經新聞": 1794905201.851281,
-"港元定存大新銀行再推3個月定存優惠新客最高享34厘存款上限80萬元162820261117即時財經新聞": 1794905201.8512619
+"恒指收市跌245點北水流入22億元161020261117即時財經新聞": 1794905942.7054925,
+"恒指收市跌245點北水流入22億元minimax新世界創上市新低161920261117即時財經新聞": 1794905942.7054985,
+"港元定存大新銀行再推3個月定存優惠新客最高享34厘存款上限80萬元162820261117即時財經新聞": 1794905942.705492,
+"ai투심악화직격탄2월로돌아간코스피": 1794906661.3354201,
+"5000도무너졌다2월로되돌아간코스피": 1794906661.3354208,
+"심리적마지노선5000무너졌다": 1794906661.3354213,
+"新台幣升36分收3285元": 1794906664.7371879,
+"台幣又驚見33元央行阻貶收盤前轉升收3285元": 1794906664.7371893,
+"台積電表揚35家優良供應商台廠漢唐矽品和碩新入列": 1794906666.3888314,
+"台積電優良供應商35家出爐13家台廠入列新聞": 1794906666.3888323,
+"台積電供應鏈管理論壇官方認證最新35家優良供應商出列": 1794906666.3888326
 }
 }
