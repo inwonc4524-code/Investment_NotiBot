@@ -54,6 +54,7 @@ jobs:
 
   check:
     needs: guard
+    timeout-minutes: 45      # 구글이 막혀 한없이 느려져도 다음 알림 실행을 막지 않게
     if: needs.guard.outputs.skip != 'true'
     runs-on: ubuntu-latest
     environment:

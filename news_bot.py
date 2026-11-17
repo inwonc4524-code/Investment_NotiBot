@@ -376,15 +376,26 @@ def parse_rss(xml_text):
     return items
 
 
+_RSS_FAILS = [0]      # 연달아 실패한 검색 수 — 구글이 깃허브 서버를 막으면(503) 수백 개가 줄줄이 실패해
+_RSS_BLOCKED = [False]  # 실행이 1시간 넘게 걸리고 다음 알림까지 막았음 → 연달아 8번 실패하면 이번엔 그만 묻기
+
+
 def _get_rss(url, label):
+    if _RSS_BLOCKED[0]:
+        return None
     for attempt in range(3):
         try:
             r = requests.get(url, headers=HEADERS, timeout=30)
             r.raise_for_status()
+            _RSS_FAILS[0] = 0
             return parse_rss(r.text)
         except Exception as e:
             print(f"  ! {label} 가져오기 실패 ({attempt + 1}/3): {e}")
             time.sleep(3)
+    _RSS_FAILS[0] += 1
+    if _RSS_FAILS[0] >= 8:
+        _RSS_BLOCKED[0] = True
+        print("  ⛔ 구글 뉴스가 연달아 8번 안 열려서(깃허브 서버가 잠깐 막힌 듯) 이번 실행은 여기까지만 모아요")
     return None
 
 
