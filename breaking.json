@@ -1714,6 +1714,29 @@
 "time": "11/18 05:00",
 "run": "breaking",
 "added": 1794946636
+},
+{
+"key": "속보엔비디아실적앞두고美증시매도확산다우16",
+"keys": [
+"속보엔비디아실적앞두고美증시매도확산다우16",
+"속보엔비디아실적앞두고美증시하락나스닥4월이후최저",
+"속보뉴욕증시엔비디아실적경계감에하락마감나스닥074"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보]엔비디아 실적 앞두고 美증시 매도 확산…다우 1.6%↓",
+"show": "[속보]엔비디아 실적 앞두고 美증시 매도 확산…다우 1.6%↓",
+"source": "이데일리",
+"src_url": "https://www.edaily.co.kr",
+"sum": "뉴욕증시 3대 지수가 17일(현지시간) 일제히 하락했다. 엔비디아 실적 발표를 앞두고 인공지능(AI) 투자 수익성과 고객사 자금 조달에 대한 우려가 이어졌다. 반도체에서 소프트웨어와 은행·항공주로 매도세가 번졌고, 미 국가안보국(NSA) 통신망 장애 보도까지 겹치면서...",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSXJCS003eDJmOFRJRzVSSGZqeFd0Q29KNnp3RjAwQVN4Z29KZVY3U19pWmxkVGVSb2pUc0ZaWngxdEdwejJpeF9VaHdEa3IwZjczbi10ZUJ3aTNhMkw1UmpxRlpCVDVNSHliTURyZmhEa1NsVTRSejBTTldfSVQ5Qw?oc=5",
+"url": "https://www.edaily.co.kr/News/Read?newsId=01387446645647032&mediaCodeNo=257",
+"pub": 1794949635.0,
+"time": "11/18 06:07",
+"run": "breaking",
+"added": 1794950265
 }
 ],
 "seen": {
@@ -2191,8 +2214,12 @@
 "applemanyofoursystemsbackupandrunningafteraninternalupdatecausedsomeoutages": 1794947353.4212956,
 "appleworkstofixsystemsafterupdatecausedinternalretailandicloudoutages": 1794947353.4212964,
 "wallstreetfaltersaheadofnvidiaearningsanthropicdebut": 1794946634.007433,
-"장건건설근로자공제회이사장용인반도체클러스터현장격려": 1794948794.760914,
-"건설근로자공제회sk용인반도체건설현장서전자카드운영점검": 1794948794.7609143,
-"건설근로자공제회용인반도체건설현장점검퇴직공제제도이행강화": 1794948794.7609148
+"장건건설근로자공제회이사장용인반도체클러스터현장격려": 1794948825.0216174,
+"건설근로자공제회sk용인반도체건설현장서전자카드운영점검": 1794948825.021618,
+"건설근로자공제회용인반도체건설현장점검퇴직공제제도이행강화": 1794948825.0216181,
+"속보엔비디아실적앞두고美증시매도확산다우16": 1794950265.6748428,
+"속보엔비디아실적앞두고美증시하락나스닥4월이후최저": 1794950265.6748438,
+"속보뉴욕증시엔비디아실적경계감에하락마감나스닥074": 1794950265.6748452,
+"속보뉴욕증시3대지수하락지속반도체반등속속슬06": 1794950265.6749225
 }
 }
