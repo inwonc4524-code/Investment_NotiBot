@@ -1594,6 +1594,30 @@
 "time": "11/17 23:37",
 "run": "breaking",
 "added": 1794927004
+},
+{
+"key": "dowfalls400pointsweighedbyhomedepotnasdaqslidesaheadofnvidiaearningsliveupdates",
+"keys": [
+"dowfalls400pointsweighedbyhomedepotnasdaqslidesaheadofnvidiaearningsliveupdates",
+"dowloweraheadofnvidiaearnings",
+"stocksslipaheadofnvidiaearningshomedepotsharesslidealphacheck"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Dow falls 400 points weighed by Home Depot; Nasdaq slides ahead of Nvidia earnings: Live updates",
+"show": "다우는 홈디포(Home Depot) 기준으로 400포인트 하락했다. 나스닥은 엔비디아 수익보다 앞서 나갑니다. 실시간 업데이트",
+"source": "CNBC",
+"src_url": "https://www.cnbc.com",
+"sum": "화요일 트레이더들은 여러 가지 새로운 실적 발표에 반응하고 엔비디아의 최신 분기별 재무 결과를 기다렸습니다.",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZX1A1ZUpLQzUwdUhDWHJmSktxM0JhR1RsZU43OTR1TndFamZ4LXBqcjJKakZyWWFHeHVzdHhLM0JRYnJnemNXVHpsT0dXYm9WWWRUdXUxXzc0VV9yUkF5QlBGLTA4WkVOTFpvb0NDQ0p4d0lpbzVj0gF8QVVfeXFMUGFfWnJDSW5odWJYOGZPaks3ZUtHZUxHSkVrdDVmeVY3UnhPX0ExTVFXVmQ2Qjd6eVNXbHowQnBzNmJobUNvOTRSRW5IZVFWVk5xOVNwV3ViT3haX1R1S0J1YW8wMU1pdmVZMFNacFg2YnlvdlFnanVBM0RJTA?oc=5",
+"url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html",
+"pub": 1794928860.0,
+"time": "11/18 00:21",
+"run": "breaking",
+"added": 1794929909,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -2010,12 +2034,15 @@
 "康科生物今出資1600萬元增購25萬股建議將增購股份額度加碼2億元215620261117即時財經新聞": 1794925567.4034941,
 "lawyerforfedgovernorlisacooksaysshewillnotparticipateinwhitehousehearing": 1794926291.5460064,
 "lawyerforfedscookthreatenstonottakepartinunfairwhitehousehearing": 1794927723.4963434,
-"fedgovernorcookwontattendwhitehousehearingwithoutchanges": 1794928443.52206,
+"fedgovernorcookwontattendwhitehousehearingwithoutchanges": 1794929189.1269782,
 "fedscooktoskipunfairwhitehousehearinglawyersays": 1794927002.380488,
-"lawyerforfedgovernorsayslisacookwillnotparticipateinwhitehousehearing": 1794928443.5220606,
+"lawyerforfedgovernorsayslisacookwillnotparticipateinwhitehousehearing": 1794929189.1269786,
 "fedscookwontappearatwhitehousehearingtoconsiderherfiringwithoutchanges": 1794927002.3804867,
-"fedslisacookrebuffswhitehousehearingcitingbiasedpanel": 1794928443.522061,
-"속보미뉴욕증시ai주약세속3대지수초반일제히하락세출발": 1794928444.0981543,
-"뉴욕증시반도체반등에도일제히하락중": 1794928444.098154
+"fedslisacookrebuffswhitehousehearingcitingbiasedpanel": 1794929189.126979,
+"속보미뉴욕증시ai주약세속3대지수초반일제히하락세출발": 1794929189.6403508,
+"뉴욕증시반도체반등에도일제히하락중": 1794929189.6403506,
+"dowfalls400pointsweighedbyhomedepotnasdaqslidesaheadofnvidiaearningsliveupdates": 1794929916.4593208,
+"dowloweraheadofnvidiaearnings": 1794929916.459325,
+"stocksslipaheadofnvidiaearningshomedepotsharesslidealphacheck": 1794929916.4593265
 }
 }
