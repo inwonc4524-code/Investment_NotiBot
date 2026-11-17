@@ -1504,6 +1504,28 @@
 "run": "breaking",
 "added": 1794921913,
 "pv": "b052c435"
+},
+{
+"key": "緊急地震速報の誤報に2つの不具合気象庁震度を過大に推定",
+"keys": [
+"緊急地震速報の誤報に2つの不具合気象庁震度を過大に推定"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "jp",
+"region": "🇯🇵 일본",
+"title": "緊急地震速報の誤報に2つの不具合 気象庁、震度を過大に推定",
+"show": "긴급 지진 속보의 오보에 2개의 불량 기상청, 진도를 과대하게 추정",
+"source": "日本経済新聞",
+"src_url": "https://www.nikkei.com",
+"sum": "기상청은 17일 최대 진도 7의 지진이 일어난다고 하는 10월의 긴급 지진 속보의 오보에 대해, 프로그램 내에 2개의 불편이 생겨, 지진의 매그니튜드(M)와 진도를 과대하게 추정했다고 발표했다. 어느 문제도 대책을 강구해 해소했다. 동청은 “프로그램 관리 방법 개선을 추진하고 긴급 지진 속보의 적절한 제공에 노력한다”고 하고 있다. 기상청에 따르면 긴급 지진 속보의 정보 처리 과정에서 당초 정밀도를 담보 할 수있는 발표 대상 영역 밖에 진원",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjUnU0Y2FqWU9lTlh5UElqX1EtZDNjY0RPQjJCNHBnc1ZZcFdVcjRLenY1QVl0QllJWE13NXNQRk14ejkyakVhQnpWbEpodTF1aUpDLXhOVkFpSmdud25lY1VnNXlnQWg1aThfUA?oc=5",
+"url": "https://www.nikkei.com/article/DGXZQOUF179XI0X11C26A1000000/",
+"pub": 1794921810.0,
+"time": "11/17 22:23",
+"run": "breaking",
+"added": 1794922637,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -1911,8 +1933,11 @@
 "nvidiaestablishescommitteetooverseenationalsecurityafterabruptdepartureofceojens": 1794921189.262513,
 "trumppraisesnvidiasnewnationalsecuritycommitteeafterjensenhuangresigns": 1794921189.2625136,
 "nvidiacreatescommitteetooverseenationalsecurityandexportcontrols": 1794921189.2625136,
-"fedsmusalemseveralratehikeslikelyneededbyspringtocontrolinflation": 1794921917.2943203,
+"fedsmusalemseveralratehikeslikelyneededbyspringtocontrolinflation": 1794922629.84742,
 "fedsmusalemuslikelyneedsseveralratehikesbyspringtocontrolinflation": 1794921917.294326,
-"fedsmusalemsaysseveralratehikeslikelyneededbyspring": 1794921917.2943275
+"fedsmusalemsaysseveralratehikeslikelyneededbyspring": 1794921917.2943275,
+"stlouisfedsmusalemcallsforinterestratehikessoonsaysseveralhikesneededbyspring": 1794922629.8474195,
+"fedsmusalemsaysseveralratehikeslikelyneededbeforespring2027": 1794922629.8474197,
+"緊急地震速報の誤報に2つの不具合気象庁震度を過大に推定": 1794922637.3487468
 }
 }
