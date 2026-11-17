@@ -1667,6 +1667,30 @@
 "time": "11/18 01:27",
 "run": "breaking",
 "added": 1794937164
+},
+{
+"key": "appleservicesdisruptedafterinternalupdate",
+"keys": [
+"appleservicesdisruptedafterinternalupdate",
+"applemanyofoursystemsbackupandrunningafteraninternalupdatecausedsomeoutages",
+"appleworkstofixsystemsafterupdatecausedinternalretailandicloudoutages"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Apple Services Disrupted After Internal Update",
+"show": "내부 업데이트 후 애플 서비스 중단",
+"source": "The New York Times",
+"src_url": "https://www.nytimes.com",
+"sum": "이번 중단은 지난 주 항공 여행과 사무실, 학교 및 정부 업무를 방해하는 관련 없는 문제로 인해 발생했습니다.",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVdkd0RiSEp5RzQ2WmNEZWNRM1JoYlhOekYzajU3amxGNXJLa2xVUUdFLUYtTmEyMTZqQXpfZk9KbExPbXYtZ1cySjlKQkdNOU1Wdkc1N19XOVV0d2dFUGJCNklJTVFxa0lEd1l3aDdZZE9ONWFDZW9CbjVqeUFHaw?oc=5",
+"url": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html",
+"pub": 1794944795.0,
+"time": "11/18 04:46",
+"run": "breaking",
+"added": 1794945883,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -2134,6 +2158,15 @@
 "jensenhuangsayshesopentocomingbacktonvidia": 1794940095.3429554,
 "nvidiasjensenhuangissuesmeaculpawantstoreturn": 1794938629.5759847,
 "jensenhuangsaidhewillanswerthecallandreturntonvidiaifasked": 1794938629.575985,
-"jensenhuangofferedtocomebackbettorsstillpickarmsceooverhimtorunnvidia": 1794938629.575985
+"jensenhuangofferedtocomebackbettorsstillpickarmsceooverhimtorunnvidia": 1794938629.575985,
+"stocksdipaheadofnvidiaearnings": 1794945888.3040538,
+"micronstockfallsabout7asnvidiaearningsandexportcurbshitchips": 1794943720.19997,
+"stockmarkettodaydownasdaqslipaheadofnvidiaearningsliveupdates": 1794945888.3040545,
+"whyfairleadskatiestocktonthinksthemarketisoversoldaheadofnvidiasearnings": 1794943720.1999705,
+"stocksslideaheadofnvidiaspostscandalearningsreport": 1794943720.1999707,
+"appleservicesdisruptedafterinternalupdate": 1794945888.3039217,
+"applemanyofoursystemsbackupandrunningafteraninternalupdatecausedsomeoutages": 1794945888.3039255,
+"appleworkstofixsystemsafterupdatecausedinternalretailandicloudoutages": 1794945888.3039267,
+"wallstreetfaltersaheadofnvidiaearningsanthropicdebut": 1794945888.3040533
 }
 }
