@@ -1573,6 +1573,27 @@
 "run": "breaking",
 "added": 1794926285,
 "pv": "b052c435"
+},
+{
+"key": "속보미뉴욕증시ai주약세속3대지수초반일제히하락세출발",
+"keys": [
+"속보미뉴욕증시ai주약세속3대지수초반일제히하락세출발"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 미 뉴욕증시, AI주 약세속 3대 지수 초반 일제히 하락세 출발",
+"show": "[속보] 미 뉴욕증시, AI주 약세속 3대 지수 초반 일제히 하락세 출발",
+"source": "뉴시스",
+"src_url": "https://www.newsis.com",
+"sum": "[속보] 미 뉴욕증시, AI주 약세속 3대 지수 초반 일제히 하락세 출발",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBSE5pa28xbmFXMWl3Y0hSMjRNVmhERmx0MW9IWDhxd3Jfb0djQ0ZmdWhnYWdYMUN2VWUwNWdRSFF6MEhMajNJQkE0RFJTc2lxVWhZYzBQdTcwZ1ZGMmREeQ?oc=5",
+"url": "https://www.newsis.com/view/NISX20261117_0003872288",
+"pub": 1794926236.0,
+"time": "11/17 23:37",
+"run": "breaking",
+"added": 1794927004
 }
 ],
 "seen": {
@@ -1988,8 +2009,12 @@
 "緊急地震速報の誤報に2つの不具合気象庁震度を過大に推定": 1794924821.0822575,
 "康科生物今出資1600萬元增購25萬股建議將增購股份額度加碼2億元215620261117即時財經新聞": 1794925567.4034941,
 "lawyerforfedgovernorlisacooksaysshewillnotparticipateinwhitehousehearing": 1794926291.5460064,
-"lawyerforfedscookthreatenstonottakepartinunfairwhitehousehearing": 1794926291.546011,
-"fedgovernorcookwontattendwhitehousehearingwithoutchanges": 1794926291.5460117,
-"fedscooktoskipunfairwhitehousehearinglawyersays": 1794926291.546012
+"lawyerforfedscookthreatenstonottakepartinunfairwhitehousehearing": 1794927002.3804874,
+"fedgovernorcookwontattendwhitehousehearingwithoutchanges": 1794927002.3804855,
+"fedscooktoskipunfairwhitehousehearinglawyersays": 1794927002.380488,
+"lawyerforfedgovernorsayslisacookwillnotparticipateinwhitehousehearing": 1794927002.3804862,
+"fedscookwontappearatwhitehousehearingtoconsiderherfiringwithoutchanges": 1794927002.3804867,
+"fedslisacookrebuffswhitehousehearingcitingbiasedpanel": 1794927002.3804872,
+"속보미뉴욕증시ai주약세속3대지수초반일제히하락세출발": 1794927004.4204235
 }
 }
