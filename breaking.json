@@ -1480,6 +1480,30 @@
 "run": "breaking",
 "added": 1794913200,
 "pv": "b052c435"
+},
+{
+"key": "fedsmusalemseveralratehikeslikelyneededbyspringtocontrolinflation",
+"keys": [
+"fedsmusalemseveralratehikeslikelyneededbyspringtocontrolinflation",
+"fedsmusalemuslikelyneedsseveralratehikesbyspringtocontrolinflation",
+"fedsmusalemsaysseveralratehikeslikelyneededbyspring"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Fed's Musalem: Several rate hikes likely needed by spring to control inflation",
+"show": "연준의 Musalem: 인플레이션을 통제하기 위해 봄까지 몇 차례의 금리 인상이 필요할 것 같습니다.",
+"source": "CNBC",
+"src_url": "https://www.cnbc.com",
+"sum": "CNBC의 \"Squawk Box\" 팀은 미국 경제와 금리에 대한 세인트루이스 연방준비제도(St. Louis 연준) 총재 알베르토 무살렘(Alberto Musalem)의 논평을 논의합니다.",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSzVrVkNybjh2TVFWYUhCWnVlMnpQMEZlOHdhRXp5QUJ6WXVoSFVfdXdEb3JuNGdScFNqWjhQRDFkbVpYYzViaDVTVVpkZGpjUVozUXNrT0JsLVMwRzRNZFFCbHBQX2M3dmFFSi04bkFZRzlVT1JwcUhQelRBTVlLdDdvbkhrNTVTNkJHQUdnUFV0V0RGcDdHZEcxZVV2c3lZeXpUZFYwQTBrV09fQXNnQw?oc=5",
+"url": "https://www.cnbc.com/video/2026/11/17/feds-musalem-rate-hikes-likely-needed-by-spring-to-control-inflation.html",
+"pub": 1794920564.0,
+"time": "11/17 22:02",
+"run": "breaking",
+"added": 1794921913,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -1883,6 +1907,12 @@
 "nvidiasetsupnationalsecurityandexportcontroloversightcommittee": 1794917566.0518444,
 "nvidiasetsupboardcommitteetooverseenationalsecuritychipexportcontrolsnamessuzann": 1794916099.6623633,
 "techstocksextendselloffasnvidiaresultsnearmarketswrap": 1794915379.2640474,
-"ukstocksfallasinvestorsonedgeaheadofnvidiaresultsukdatakeepsratebetsintact": 1794918285.5201952
+"ukstocksfallasinvestorsonedgeaheadofnvidiaresultsukdatakeepsratebetsintact": 1794918285.5201952,
+"nvidiaestablishescommitteetooverseenationalsecurityafterabruptdepartureofceojens": 1794921189.262513,
+"trumppraisesnvidiasnewnationalsecuritycommitteeafterjensenhuangresigns": 1794921189.2625136,
+"nvidiacreatescommitteetooverseenationalsecurityandexportcontrols": 1794921189.2625136,
+"fedsmusalemseveralratehikeslikelyneededbyspringtocontrolinflation": 1794921917.2943203,
+"fedsmusalemuslikelyneedsseveralratehikesbyspringtocontrolinflation": 1794921917.294326,
+"fedsmusalemsaysseveralratehikeslikelyneededbyspring": 1794921917.2943275
 }
 }
