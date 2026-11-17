@@ -1456,6 +1456,30 @@
 "run": "breaking",
 "added": 1794912480,
 "pv": "b052c435"
+},
+{
+"key": "usstockfuturesslipaheadofnvidiaresultsfedspeakersinfocus",
+"keys": [
+"usstockfuturesslipaheadofnvidiaresultsfedspeakersinfocus",
+"stocksslideasnvidiaresultsloom",
+"predictionnvidiawillcrushitsthirdquarteroperatingresultstodaynov17butitsstockwil"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "US stock futures slip ahead of Nvidia results; Fed speakers in focus",
+"show": "미국 주식 선물은 엔비디아 결과보다 하락했습니다. 초점을 맞추고 있는 연방준비제도(연준) 연사",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5",
+"url": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
+"pub": 1794912823.0,
+"time": "11/17 19:53",
+"run": "breaking",
+"added": 1794913200,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -1848,9 +1872,12 @@
 "大眾點評夥匯豐推餐飲團購優惠滿100港元減50171620261117即時財經新聞": 1794910290.2375257,
 "央行出口商聯手抗外資新台幣貶破33元後翻升收3285元": 1794908848.0210123,
 "央行尾盤強力拉抬新台幣由貶轉升收32850元全天最高": 1794908848.0210133,
-"nvidiaformsnationalsecuritycommitteeafterhuangsexit": 1794912483.2745106,
-"nvidiaformsboardcommitteetooverseenationalsecurityexportcontrols": 1794912483.2745166,
+"nvidiaformsnationalsecuritycommitteeafterhuangsexit": 1794913203.0999224,
+"nvidiaformsboardcommitteetooverseenationalsecurityexportcontrols": 1794913203.0999234,
 "nvidiaboardformscommitteefornationalsecurityandexportcontroloversight": 1794912483.2745178,
-"nvidiaformsexportcontrolboardcommitteeafterchipcurbs": 1794912483.2745183
+"nvidiaformsexportcontrolboardcommitteeafterchipcurbs": 1794913203.0999243,
+"usstockfuturesslipaheadofnvidiaresultsfedspeakersinfocus": 1794913203.0997493,
+"stocksslideasnvidiaresultsloom": 1794913203.099755,
+"predictionnvidiawillcrushitsthirdquarteroperatingresultstodaynov17butitsstockwil": 1794913203.0997562
 }
 }
