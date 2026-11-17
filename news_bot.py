@@ -1392,7 +1392,8 @@ function sorted(list, breaking){
 }
 function renderTabs(){
   $('tabs').innerHTML = D.themes.map(function(t, i){
-    var dot = newest(t) > (S.seen[t.name] || 0) && i !== S.tab;
+    var sn = S.seen[t.name] || 0;           // 지금 고른 나라에서 보이는 기사 중 새 기사가 있을 때만 (0개인데 레드닷 뜨던 문제)
+    var dot = i !== S.tab && !t.stats && visible(t).some(function(n){ return n.a > sn; });
     return '<button class="tab'+(i===S.tab?' on':'')+'" onclick="openTab('+i+')">'+esc(t.name)+
            (t.stats ? '' : '<b>'+visible(t).length+'</b>')+(dot?'<span class="dot" title="새 뉴스"></span>':'')+'</button>';
   }).join('');
