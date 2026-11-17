@@ -115,6 +115,8 @@ jobs:
         if: always()
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           REPORT_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.report }}
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: python news_bot.py notify

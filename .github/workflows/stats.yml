@@ -38,6 +38,8 @@ jobs:
       - name: 테마별 뉴스 수 모으기
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python news_stats.py
 
       - name: 기록 저장

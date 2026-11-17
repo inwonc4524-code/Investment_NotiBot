@@ -49,6 +49,8 @@ jobs:
       - name: 12분 간격으로 여러 번 속보 확인
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ROUNDS: ${{ inputs.rounds || '5' }}
           GH_TOKEN: ${{ github.token }}
         run: |
