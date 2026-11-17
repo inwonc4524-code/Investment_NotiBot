@@ -1548,6 +1548,31 @@
 "run": "breaking",
 "added": 1794925567,
 "pv": "b052c435"
+},
+{
+"key": "lawyerforfedgovernorlisacooksaysshewillnotparticipateinwhitehousehearing",
+"keys": [
+"lawyerforfedgovernorlisacooksaysshewillnotparticipateinwhitehousehearing",
+"lawyerforfedscookthreatenstonottakepartinunfairwhitehousehearing",
+"fedgovernorcookwontattendwhitehousehearingwithoutchanges",
+"fedscooktoskipunfairwhitehousehearinglawyersays"
+],
+"count": 4,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Lawyer for Fed Governor Lisa Cook says she will not participate in White House hearing",
+"show": "리사 쿡 연방준비제도(연준) 총재 측 변호사가 백악관 청문회에 참석하지 않겠다고 밝혔다.",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"sum": "리사 쿡 연방준비제도(연준) 총재의 변호사는 월요일 밤 백악관에 쿡이 자신의 해임 가능성을 둘러싼 청문회에 참석하지 않을 것이라고 통보하면서 절차가 불공평하고 중앙은행의 독립성을 위협한다고 주장했습니다.",
+"link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeGN2U2RjZF9Sek5ENUJtWFdyWXlkamxyVG9CY2h2RVNnZDE1NlMwY3FtckdRS0tBdTA3c0xvM2dWZjZwX3lwZXJaZTB3T2Nxd0RMN1JoR0Z0V2dEdzlwTktmbkZrVG9WamZIblB2UXlUY3duaUZHaVc1MFlVaHJ3eFlXMmtVdDd6dWd4QXUzaDNDeVpGR2VTNWVnSTI4SkVSMXJKU3pXbkxWTU5lV19XbFRua1lUWjJucWxEOVVXakpjQjZHdkVpMHFEcGphM3ZqOUxLUzRqQjVhS3JKVUptU2l5SWI?oc=5",
+"url": "https://finance.yahoo.com/economy/policy/article/lawyer-for-fed-governor-lisa-cook-says-she-will-not-participate-in-white-house-hearing-143031698.html",
+"pub": 1794925831.0,
+"time": "11/17 23:30",
+"run": "breaking",
+"added": 1794926285,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -1961,6 +1986,10 @@
 "stlouisfedsmusalemcallsforinterestratehikessoonsaysseveralhikesneededbyspring": 1794924098.7972739,
 "fedsmusalemsaysseveralratehikeslikelyneededbeforespring2027": 1794924098.7972744,
 "緊急地震速報の誤報に2つの不具合気象庁震度を過大に推定": 1794924821.0822575,
-"康科生物今出資1600萬元增購25萬股建議將增購股份額度加碼2億元215620261117即時財經新聞": 1794925567.4034941
+"康科生物今出資1600萬元增購25萬股建議將增購股份額度加碼2億元215620261117即時財經新聞": 1794925567.4034941,
+"lawyerforfedgovernorlisacooksaysshewillnotparticipateinwhitehousehearing": 1794926291.5460064,
+"lawyerforfedscookthreatenstonottakepartinunfairwhitehousehearing": 1794926291.546011,
+"fedgovernorcookwontattendwhitehousehearingwithoutchanges": 1794926291.5460117,
+"fedscooktoskipunfairwhitehousehearinglawyersays": 1794926291.546012
 }
 }
