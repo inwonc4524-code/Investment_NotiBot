@@ -1176,6 +1176,30 @@
 "run": "breaking",
 "added": 1794892130,
 "pv": "b052c435"
+},
+{
+"key": "imf한국올해성장률39전망반도체호황에한달만에06p상향",
+"keys": [
+"imf한국올해성장률39전망반도체호황에한달만에06p상향",
+"속보imf韓올해성장률39전망반도체호조에한달새06p",
+"속보imf한국올해성장률39전망반도체호조에한달새06p",
+"imf韓올해성장률39전망반도체호조에한달새06p"
+],
+"count": 4,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] IMF, 韓 올해 성장률 3.9% 전망…반도체 호조에 한달새 0.6%p↑",
+"show": "[속보] IMF, 韓 올해 성장률 3.9% 전망…반도체 호조에 한달새 0.6%p↑",
+"source": "SBS Biz",
+"src_url": "https://biz.sbs.co.kr",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zcXh0NmY5MmZ4a2ZkZExSRHAtMTM3b0FTc0lpTFFMMkxmczBSX08yU1MwTjZvaTBZM0xjRFV4UW9ZUExrcHoxMTIwY1JmVzhrZDdj0gFYQVVfeXFMTW9yNF8tRUJZdmZhSnloajVadHVSMG1YX1Z1U0MwSTdLRTdSUlU3cVRlY1Rfai1fYjFqdU9xc0xzTFhiUHhlRkR1aTF1dW9zNlBEcVAxQkQ3YQ?oc=5",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zcXh0NmY5MmZ4a2ZkZExSRHAtMTM3b0FTc0lpTFFMMkxmczBSX08yU1MwTjZvaTBZM0xjRFV4UW9ZUExrcHoxMTIwY1JmVzhrZDdj0gFYQVVfeXFMTW9yNF8tRUJZdmZhSnloajVadHVSMG1YX1Z1U0MwSTdLRTdSUlU3cVRlY1Rfai1fYjFqdU9xc0xzTFhiUHhlRkR1aTF1dW9zNlBEcVAxQkQ3YQ?oc=5",
+"pub": 1794891960.0,
+"time": "11/17 14:06",
+"run": "breaking",
+"added": 1794892827
 }
 ],
 "seen": {
@@ -1478,6 +1502,10 @@
 "台股etf受益人連五周攀峰005000919等23檔同創高": 1794887766.963203,
 "恒指半日跌182點北水流入21億元120120261117即時財經新聞": 1794891389.1446288,
 "恒指半日跌182點北水流入21億元新世界再創新低120920261117即時財經新聞": 1794891389.1446283,
-"盤中速報彬台3379股價殺至跌停跌停價315元成交1858張": 1794892130.8866718
+"盤中速報彬台3379股價殺至跌停跌停價315元成交1858張": 1794892130.8866718,
+"imf한국올해성장률39전망반도체호황에한달만에06p상향": 1794892827.6831558,
+"속보imf韓올해성장률39전망반도체호조에한달새06p": 1794892827.6831572,
+"속보imf한국올해성장률39전망반도체호조에한달새06p": 1794892827.6831577,
+"imf韓올해성장률39전망반도체호조에한달새06p": 1794892827.683158
 }
 }
