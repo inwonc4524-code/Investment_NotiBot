@@ -111,6 +111,19 @@ jobs:
         continue-on-error: true
         uses: actions/deploy-pages@v4
 
+      # 깃허브가 가끔 '파일을 못 찾음' 같은 일시 오류로 페이지 올리기를 실패함 → 30초 쉬고 한 번 더
+      - name: 페이지 올리기 (실패하면 한 번 더)
+        id: deployment2
+        if: steps.pages.outcome == 'success' && steps.deployment.outcome == 'failure'
+        continue-on-error: true
+        run: sleep 30
+
+      - name: 페이지 올리기 (다시)
+        id: deployment3
+        if: steps.pages.outcome == 'success' && steps.deployment.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
       - name: 휴대폰 알림 (한 번)
         if: always()
         env:
@@ -118,5 +131,5 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           REPORT_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.report }}
-          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          PAGE_URL: ${{ steps.deployment.outputs.page_url || steps.deployment3.outputs.page_url }}
         run: python news_bot.py notify

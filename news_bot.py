@@ -1977,8 +1977,11 @@ def send_summary():
         print("요약 파일 없음 — 알림 생략")
         return
     page = os.environ.get("PAGE_URL", "").strip()
-    if not page:  # GitHub Pages 를 아직 안 켰으면 GitHub 화면의 예비 페이지로
-        page = f"https://github.com/{REPO}/blob/main/NEWS.md"
+    if not page:
+        # 페이지 올리기가 그 순간 실패해도(깃허브 일시 오류) 늘 보던 뉴스 페이지로 보냄.
+        # 예전엔 여기서 GitHub 의 NEWS.md 화면으로 보내서, 가끔 엉뚱한 깃허브 링크가 갔음.
+        owner, name = REPO.split("/")
+        page = f"https://{owner.lower()}.github.io/{name}/"
     page += ("&" if "?" in page else "?") + "t=" + str(int(time.time()))
 
     total = sm["total"]
