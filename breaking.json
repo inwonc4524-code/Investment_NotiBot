@@ -2654,6 +2654,30 @@
 "run": "breaking",
 "added": 1795029507,
 "pv": "b052c435"
+},
+{
+"key": "오늘은행증시1시간늦게문연다수능일프리마켓휴장",
+"keys": [
+"오늘은행증시1시간늦게문연다수능일프리마켓휴장",
+"개장은10시프리마켓휴무수능날바뀐증시시간표",
+"오늘주식거래10시부터가능수능일프리마켓휴장",
+"수능날주식시장도늦게문연다프리마켓은쉬어요"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "오늘 은행·증시 1시간 늦게 문 연다…수능일 프리마켓 휴장",
+"show": "오늘 은행·증시 1시간 늦게 문 연다…수능일 프리마켓 휴장",
+"source": "뉴스1",
+"src_url": "https://www.news1.kr",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mY0RQcW1DTV9QNkRXSHlMUk1kN015LWxYa1hrdnNNTlRTT0tlUjdkVEhPbkI5bHJwXzRBblFoYjk0TWtMdC1WMnlCMVYyUThsVEx4cUstcThPbHlzTGE2UzZn?oc=5",
+"url": "https://www.news1.kr/finance/general-finance/6358474",
+"pub": 1795035900.0,
+"time": "11/19 06:05",
+"run": "breaking",
+"added": 1795036793
 }
 ],
 "seen": {
@@ -3242,7 +3266,14 @@
 "fedminutesshowgrowinguneaseabouttheoutlookforinflation": 1795031694.8717291,
 "fedofficialsexpectmoreratehikesworryaboutaiimpactoninflationminutesshow": 1795031694.8717299,
 "fedminutesshowalmostallofficialsexpectmoreratehikes": 1795031694.87173,
-"속보뉴욕증시나스닥지수만반등엔비디아29하락": 1795036045.4442255,
-"속보뉴욕증시지수별혼조마감다우1하락나스닥04상승": 1795036045.4442265
+"속보뉴욕증시나스닥지수만반등엔비디아29하락": 1795036793.2271357,
+"속보뉴욕증시지수별혼조마감다우1하락나스닥04상승": 1795036793.227136,
+"뉴욕증시1보엔비디아실적도못살렸다혼조마감": 1795036793.2271268,
+"속보뉴욕증시엔비디아매도세에혼조마감sp5005거래일연속하락": 1795036793.2271354,
+"속보엔비디아호실적에도美증시혼조다우11": 1795036793.2271357,
+"오늘은행증시1시간늦게문연다수능일프리마켓휴장": 1795036793.8388782,
+"개장은10시프리마켓휴무수능날바뀐증시시간표": 1795036793.8388796,
+"오늘주식거래10시부터가능수능일프리마켓휴장": 1795036793.8388803,
+"수능날주식시장도늦게문연다프리마켓은쉬어요": 1795036793.8388805
 }
 }
