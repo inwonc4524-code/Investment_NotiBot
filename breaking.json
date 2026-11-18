@@ -2630,20 +2630,34 @@
 "run": "breaking",
 "added": 1795021485,
 "pv": "b052c435"
+},
+{
+"key": "fedminutesshowgrowinguneaseabouttheoutlookforinflation",
+"keys": [
+"fedminutesshowgrowinguneaseabouttheoutlookforinflation",
+"fedofficialsexpectmoreratehikesworryaboutaiimpactoninflationminutesshow",
+"fedminutesshowalmostallofficialsexpectmoreratehikes"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Fed minutes show growing unease about the outlook for inflation",
+"show": "연준 회의록은 인플레이션 전망에 대한 불안감이 커지고 있음을 보여줍니다.",
+"source": "MarketWatch",
+"src_url": "https://www.marketwatch.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR2Q3bl9jS2R2NkRscWFmSlBMMXZIX1NPQ0JkZjBLbUptUlY2enBQNXZ2RDIxWk55dXVhY1I1WVhiVDBxLUV5V3hPTXBlZHVVQUtCWTVtY3hmOF9oWmVyM0ZBUHQ4bTZPcFlKbFpvTk12WHhzOUVZRFRRYTlobGJsa0o2OUpxeVNSbm5iZHYyUHF1aFh3Q3FRUk92TGt3WnJfck16eFMyU1ZxUQ?oc=5",
+"url": "https://www.marketwatch.com/story/fed-minutes-show-growing-unease-about-the-outlook-for-inflation-59e3c13d",
+"pub": 1795029120.0,
+"time": "11/19 04:12",
+"run": "breaking",
+"added": 1795029507,
+"pv": "b052c435"
 }
 ],
 "seen": {
-"trumpbackspotentialreturnofjensenhuangasnvidiaceo": 1794854990.2054315,
-"trumpbackscallsforreinstatementofjensenhuangasnvidiaceo": 1794855746.9521725,
-"trumpsayshewouldnotmindjensenhuangsreturntonvidia": 1794856467.0282583,
-"美ai반도체中원격접속차단동남아수출땐사전허가통제": 1794855747.569715,
-"美ai반도체에대한中원격접속차단머니투데이": 1794854990.6974661,
-"trumpsayshewouldnotmindseeingjensenhuangreturnasnvidiaceo": 1794855746.9521723,
-"속보미국ai반도체에대한중국원격접속차단조치": 1794855747.5697145,
-"trumpsayshewouldnotmindifjensenhuangreturnstonvidia": 1794856467.0282578,
-"trumpbackscallsforhuangtobereinstatedasnvidiaceo": 1794854990.2054324,
 "美中첨단ai반도체원격접속통제허가받아야": 1794857188.1674404,
-"nvidiaboardnotconsideringbringingjensenhuangbackasceosource": 1794854990.2054322,
 "watchjensenhuangcannotreturntonvidia": 1794857907.026756,
 "jensenhuangspossiblereturntonvidiaisntabadideasaysdonaldtrump": 1794857907.0267565,
 "美ai반도체中원격접속차단동남아수출땐허가받도록": 1794857188.1674397,
@@ -3239,6 +3253,9 @@
 "아틀라스내년美반도체공장투입車생산이어두번째현장테스트": 1795017137.67469,
 "아틀라스車넘어반도체공장까지임무확대": 1795017137.6746914,
 "자동차만만들던아틀라스반도체공장취업": 1795017137.6746917,
-"sellalert5stocksanalystsdowngradedonfriday": 1795021529.877405
+"sellalert5stocksanalystsdowngradedonfriday": 1795021529.877405,
+"fedminutesshowgrowinguneaseabouttheoutlookforinflation": 1795029512.0146294,
+"fedofficialsexpectmoreratehikesworryaboutaiimpactoninflationminutesshow": 1795029512.014634,
+"fedminutesshowalmostallofficialsexpectmoreratehikes": 1795029512.0146348
 }
 }
