@@ -26,7 +26,7 @@ KST = timezone(timedelta(hours=9))
 SINCE = date(2021, 1, 1)
 API = "https://api.gdeltproject.org/api/v2/doc/doc"
 REFRESH_DAYS = 14          # 매일 최근 며칠을 다시 받을지 (GDELT 는 며칠 늦게 들어오는 기사가 있음)
-TIME_BUDGET = 40 * 60      # 한 번 실행에 최대 몇 초까지 받을지 (넘으면 저장하고 바로 이어서 다시 실행)
+TIME_BUDGET = 330 * 60     # 한 번 실행에 최대 5시간 반 (깃허브 한 실행의 한계 6시간 안쪽) — 넘으면 저장하고 바로 이어서 다시 실행
 GAP = 6                    # 요청 사이 간격 (초) — GDELT 규칙: 5초에 한 번
 
 # 나라 (GDELT 나라 코드) — 일별 통계 탭의 나라 키와 같게
