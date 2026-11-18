@@ -2495,6 +2495,29 @@
 "run": "breaking",
 "added": 1794996777,
 "pv": "b052c435"
+},
+{
+"key": "台股9檔翻車爆違約交割42億創意欣興華通上榜",
+"keys": [
+"台股9檔翻車爆違約交割42億創意欣興華通上榜",
+"1116台股重挫9檔個股爆違約交割"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "台股9檔翻車！爆違約交割4.2億 創意、欣興、華通上榜",
+"show": "대만증시가 9단으로 뒤집혔다! 4억 2천만 위안의 배송 불이행, Creative, Xinxing 및 Huatong이 목록에 있습니다.",
+"source": "TVBS新聞網",
+"src_url": "https://news.tvbs.com.tw",
+"sum": "대만 주식에서 대규모 납품 불이행이 발생했습니다! 대만 증권거래소와 OTC 트레이딩 센터는 총 9개의 상장 및 OTC 주식이 부실 인도를 겪었다고 발표했는데, 그 중 Creative(3443)가 NT$9453만으로 가장 높은 금액을 기록했습니다. 이 밖에도 Xinxing(3037), Diandian(2368), Huatong(2313), Wenmao(3105), Shuanghong(3325), Jingcai(3374), Jingchai(6510), Jinshan Electric(8042) 등 Jin Company도 납품을 불이행한 것으로 보고되었습니다.",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XZThFNVlYVm9aNDY1T3ZtZnBpNXpESjQ2N2FPbXNpaktzcVpQTWhJRF8yOVo5LWNIU09pc2hnSTVhYXVqSEUzU2RucDVuN1k?oc=5",
+"url": "https://news.tvbs.com.tw/money/4052609",
+"pub": 1795000800.0,
+"time": "11/18 20:20",
+"run": "breaking",
+"added": 1795001127,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -3046,7 +3069,7 @@
 "恒指走勢丨半日低收266點京東插8": 1794978640.260719,
 "港股半日跌266點京東系股份急挫": 1794978640.2607195,
 "港股中午收市報23241點跌266點": 1794977919.2203526,
-"恒指跌266點李寧挫188藍籌最弱京東系偏軟京東健康瀉176黃金股弱勢121320261118即時財經新聞": 1794998219.7221036,
+"恒指跌266點李寧挫188藍籌最弱京東系偏軟京東健康瀉176黃金股弱勢121320261118即時財經新聞": 1794998962.2094948,
 "kdi내년한국성장률39전망3분의2는반도체기여": 1794980077.5293224,
 "kdi내년성장률39로상향전망반도체호황으로수출투자확대": 1794979356.8108714,
 "kdi내년성장률2239대폭상향올해도38": 1794979356.8108714,
@@ -3118,10 +3141,12 @@
 "港股收市報23294點跌213點": 1794991693.173466,
 "恒指跌213點聯想逆市升45京東系低迷京東健康插水15161720261118即時財經新聞": 1794993876.4342601,
 "恒指走勢丨兩連跌再跌213點京東系捱沽": 1794993156.9874206,
-"democratsprobewhetherhowardlutnickhelpedcantoravoidnvidialossesftreports": 1794997497.006297,
-"democratsprobewhetherhowardlutnickhelpedcantoravoidnvidialosses": 1794997497.0062976,
-"democratsplanprobeoflutnickcantorfitzgeraldsnvidiaties": 1794997497.006298,
-"按證公司為225億港元多幣種公募基準債券發行完成定價180420261118即時財經新聞": 1794998219.7220957,
-"按證公司為225億港元多幣種公募基準債券發行完成定價": 1794998219.7220967
+"democratsprobewhetherhowardlutnickhelpedcantoravoidnvidialossesftreports": 1794998238.747116,
+"democratsprobewhetherhowardlutnickhelpedcantoravoidnvidialosses": 1794998238.7471166,
+"democratsplanprobeoflutnickcantorfitzgeraldsnvidiaties": 1794998238.7471175,
+"按證公司為225億港元多幣種公募基準債券發行完成定價180420261118即時財經新聞": 1794999681.6963797,
+"按證公司為225億港元多幣種公募基準債券發行完成定價": 1794998242.7489781,
+"台股9檔翻車爆違約交割42億創意欣興華通上榜": 1795001127.4945374,
+"1116台股重挫9檔個股爆違約交割": 1795001127.4945393
 }
 }
