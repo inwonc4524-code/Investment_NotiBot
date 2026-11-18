@@ -2562,6 +2562,29 @@
 "run": "breaking",
 "added": 1795014217,
 "pv": "b052c435"
+},
+{
+"key": "뉴욕증시엔비디아호실적속혼조출발",
+"keys": [
+"뉴욕증시엔비디아호실적속혼조출발",
+"엔비디아호실적도안통하나美증시반등주춤",
+"aimy뉴스뉴욕반도체주프리뷰엔비디아호실적에반도체주일제상승"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "뉴욕증시, 엔비디아 호실적 속 혼조 출발",
+"show": "뉴욕증시, 엔비디아 호실적 속 혼조 출발",
+"source": "연합인포맥스",
+"src_url": "https://news.einfomax.co.kr",
+"sum": "뉴욕증시의 3대 주가지수는 엔비디아의 호실적을 반영하며 혼조세로 출발했다.18일(현지시간) 오전 9시 57분 현재 뉴욕증권거래소에서 다우존스30산업평균지수는 전장보다 386.54포인트(0.76%) 하락한 50,372.88을 기록했다. 스탠더드앤드푸어스(S&P) 500지수는 전장 대비 5.93포인트(0.08%) 내린 7,334.60, 나스닥 종합지수는 전장보다 68.21포인트(0.28%) 상승한 24,396.59를 가리켰다.엔비디아가 전날 장 마감 이후 예상을 웃돈 실적을 발표한 점은 기술주 투자 심리를 개선했다.엔비디아는 전날 2",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92RTVoZmc2ei1nWHZBV214VElPZnBLT0puaVAtbEtQWGhRMURrclQzTlFZblF6S1VobzBZZW45MDdiOENqT25QejRVbjhGMUhjb0VOREpsQlgtbjBwTUs4SlZfYk9qNndzOTlheU05TXc?oc=5",
+"url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445422",
+"pub": 1795014358.0,
+"time": "11/19 00:05",
+"run": "breaking",
+"added": 1795014938
 }
 ],
 "seen": {
@@ -3182,8 +3205,11 @@
 "按證公司為225億港元多幣種公募基準債券發行完成定價": 1794998242.7489781,
 "台股9檔翻車爆違約交割42億創意欣興華通上榜": 1795001878.6730714,
 "1116台股重挫9檔個股爆違約交割": 1795001878.673072,
-"속보뉴욕증시앤트로픽공모가발표전혼조세출발다우029나스닥078": 1795014223.2531433,
+"속보뉴욕증시앤트로픽공모가발표전혼조세출발다우029나스닥078": 1795014938.5768836,
 "nvidiagainsliftsbatteredaistocksasforecasteasesposthuanguncertainty": 1795014222.7245252,
-"nvidiacorporationnvdastockforecasts": 1795014222.7245297
+"nvidiacorporationnvdastockforecasts": 1795014222.7245297,
+"뉴욕증시엔비디아호실적속혼조출발": 1795014938.5768552,
+"엔비디아호실적도안통하나美증시반등주춤": 1795014938.5768564,
+"aimy뉴스뉴욕반도체주프리뷰엔비디아호실적에반도체주일제상승": 1795014938.576857
 }
 }
