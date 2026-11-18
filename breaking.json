@@ -2325,13 +2325,33 @@
 "time": "11/18 13:38",
 "run": "breaking",
 "added": 1794977888
+},
+{
+"key": "台股高低震盪1677點收漲102點守住4萬點",
+"keys": [
+"台股高低震盪1677點收漲102點守住4萬點",
+"台股就是要守4萬點驚天震盪1678點後強拉收漲102點",
+"台股收盤狂震盪逾1600點翻紅漲102點收年線之上台積電漲5元"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "台股高低震盪1677點　收漲102點守住4萬點",
+"show": "대만 주식은 1,677포인트 등락, 102포인트 마감, 40,000포인트 유지",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"sum": "엔비디아의 실적 보고서는 인상적이었으며 젠슨 황은 당분간 CEO로 복귀할 희망이 없습니다. 대만 주식은 오늘 최고가를 기록하며 등락을 거듭하며 초반 거래에서 40938.2포인트에 이르렀고, 800포인트 이상 상승한 후 39260포인트까지 떨어졌습니다.",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oWVBSYUxYZkpLZ0pqNFRLU1VGV2FsY3VpUWVZcTd0QWJVUHZqcXNVSVlVSDVZajRsSHhzLUtKTlQ0cUtCVnd5R1ppT0dzeWNFT1pRdlY3MURCcEMwYVdMZE1DQzFxdXVMNzlDN2JFWVlCejBOQTJJ0gFfQVVfeXFMT3FKODlRSDJYbXM2a1NZLWFXVjF5OElOTm0zNkJ6TnIxb3dCbC03cnE0enJSVXRtMVFfMDd1RjhTdTZwM191UHdCWmhLT3gxYUFaYXRFSXJ1VkdzZ3JCaEk?oc=5",
+"url": "https://money.udn.com/money/story/5612/9886541?from=edn_newest_index",
+"pub": 1794981918.0,
+"time": "11/18 15:05",
+"run": "breaking",
+"added": 1794982261,
+"pv": "b052c435"
 }
 ],
 "seen": {
-"속보코스피3넘게하락해5000선으로5거래일만": 1794809216.852627,
-"엔비디아리스크코스피5100선붕괴외국인14조순매도장중시황": 1794809252.4673417,
-"코스피5100선도하회외인강한팔자": 1794809252.4673424,
-"젠슨황후폭풍에삼전닉스급락코스피5100선위태": 1794809252.4673426,
 "台股跌263504點": 1794812158.5295305,
 "台股收盤暴跌2635點史上第2大千金股倒一片電子股跌": 1794811412.2754052,
 "史上第二慘台股收盤崩2635點台積電殺135元半根跌停財經": 1794810694.0936482,
@@ -2970,6 +2990,9 @@
 "transcriptnvidiaboardinsistshuangwontreturnasceo": 1794980076.3565679,
 "nvidiaboardshutsdooronjensenhuangsreturnasceo": 1794980076.356568,
 "nvidiarejectsjensenhuangsoffertoreturnasceodespitepressurefromsiliconvalley": 1794980076.3565683,
-"속보빚투줄고영끌버텼네가계빚또역대최대": 1794980797.4071748
+"속보빚투줄고영끌버텼네가계빚또역대최대": 1794982255.65665,
+"台股高低震盪1677點收漲102點守住4萬點": 1794982261.9976494,
+"台股就是要守4萬點驚天震盪1678點後強拉收漲102點": 1794982261.9976501,
+"台股收盤狂震盪逾1600點翻紅漲102點收年線之上台積電漲5元": 1794982261.9976509
 }
 }
