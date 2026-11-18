@@ -2018,7 +2018,8 @@ def send_summary():
                         or f"투자 뉴스 {total}개",
             "lines": news_card_lines(sm),
             "footer": "눌러서 뉴스 목록 보기"}
-    title = f"📰 {best[1]} · {top_head}"[:120] if top_head else f"📰 투자 뉴스 {total}개 ({sm['updated']})"
+    # 제목 앞머리는 테마 이름(예: 🇺🇸 미국 S&P500) 대신 늘 '뉴스 알림' (사용자 요청 2026-11-18)
+    title = f"📰 뉴스 알림 · {top_head}"[:120] if top_head else f"📰 뉴스 알림 · 투자 뉴스 {total}개 ({sm['updated']})"
     notify(title, "\u200b\n" + f"총 {total}개 ({sm['updated']})\n━━━━━━━━━━\n" + "\n\n".join(lines) + "\n\n👉 눌러서 뉴스 목록 보기",
            click=page, actions=[{"action": "view", "label": "뉴스 목록 열기", "url": page}],
            tags=["newspaper"], priority=3, card=card)
