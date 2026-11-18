@@ -2608,12 +2608,33 @@
 "time": "11/19 00:33",
 "run": "breaking",
 "added": 1795017137
+},
+{
+"key": "sellalert5stocksanalystsdowngradedonfriday",
+"keys": [
+"sellalert5stocksanalystsdowngradedonfriday"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Sell Alert: 5 Stocks Analysts Downgraded on Friday",
+"show": "매도 경고: 금요일에 주식 분석가 5명이 강등되었습니다",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"sum": "월스트리트는 11월 13일 S&P500 지수가 0.4% 하락한 7,561.67, 나스닥 종합 지수가 0.91% 하락한 25,136.27로 불안한 한 주를 마감했습니다. 다우존스 산업 평균 지수는 50.46포인트 상승한 52,347.55를 기록했습니다. 이 슬라이드는 이번 주 상승세를 지우지 않았습니다. S&P500은 5회 동안 2.5% 상승하여 첫 승리를 거두었습니다. […",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLXpXT3Y0eGJ2MkxuUTZsclg5eGd1S0pCNmRmTFRwNjVxZm4xZFFLT1JnVHpUX0FuY2ltYmd3Tl9RMWFHQzNZYW83TzVPeGNjM3p3aWZ6cWIteXFYSm10WHc2R0U0eFpPUXBrNXFMQm5yMDhCMTZnZ3BBTkdaQzhKZ2xtOGJwUTk0WFBxZXBlM2VfTzNEZjhyZQ?oc=5",
+"url": "https://finance.yahoo.com/markets/stocks/articles/sell-alert-5-stocks-analysts-161135403.html",
+"pub": 1795018295.0,
+"time": "11/19 01:11",
+"run": "breaking",
+"added": 1795021485,
+"pv": "b052c435"
 }
 ],
 "seen": {
 "trumpbackspotentialreturnofjensenhuangasnvidiaceo": 1794854990.2054315,
 "trumponhuangspotentialreturnasnvidiaceoiwouldnotmindthat": 1794849923.1445127,
-"campaigntobringbackjensenhuangasnvidiaceogainssteamwithtrumpsupport": 1794848457.7447808,
 "trumpbackscallsforreinstatementofjensenhuangasnvidiaceo": 1794855746.9521725,
 "trumpsayshesopentoreinstatementofjensenhuangasnvidiachief": 1794854270.411505,
 "siliconvalleyleadersbackcallforjensenhuangsreturntonvidia": 1794849923.1445258,
@@ -3233,6 +3254,7 @@
 "뉴욕증시앤트로픽공모가발표앞두고혼조출발엔비디아호실적에기술주강세": 1795017136.6514893,
 "아틀라스내년美반도체공장투입車생산이어두번째현장테스트": 1795017137.67469,
 "아틀라스車넘어반도체공장까지임무확대": 1795017137.6746914,
-"자동차만만들던아틀라스반도체공장취업": 1795017137.6746917
+"자동차만만들던아틀라스반도체공장취업": 1795017137.6746917,
+"sellalert5stocksanalystsdowngradedonfriday": 1795021490.5122602
 }
 }
