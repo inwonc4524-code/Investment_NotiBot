@@ -2539,6 +2539,29 @@
 "time": "11/18 23:42",
 "run": "breaking",
 "added": 1795013497
+},
+{
+"key": "nvidiagainsliftsbatteredaistocksasforecasteasesposthuanguncertainty",
+"keys": [
+"nvidiagainsliftsbatteredaistocksasforecasteasesposthuanguncertainty",
+"nvidiacorporationnvdastockforecasts"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Nvidia gains, lifts battered AI stocks as forecast eases post-Huang uncertainty",
+"show": "엔비디아는 황 이후의 불확실성을 완화할 것으로 예측되면서 타격을 입은 AI 주식을 상승시키고 상승시켰습니다.",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNlVnb2FaQlk2WUUtQ3dtaUlBRF9oSnFadkhYVUNwSzRKdnFQNENDUmgyMXBFV1NKaDhUcXJYTGF3Z21LM1F0OEZMVTJZU0lhWHlhOHBCb0t5WVRmMVRMU1ZCRTlJRUpYRlFCZ3RBYVV4WlF0Nms2Q1NvbkVjU0p5NVVQbmFrdzdfZmdLdVgxZnZBUkRGbkpZMTNR?oc=5",
+"url": "https://www.reuters.com/business/ai-stocks-rally-nvidia-outlook-calms-demand-fears-2026-11-18/",
+"pub": 1795011947.0,
+"time": "11/18 23:25",
+"run": "breaking",
+"added": 1795014217,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -3159,6 +3182,8 @@
 "按證公司為225億港元多幣種公募基準債券發行完成定價": 1794998242.7489781,
 "台股9檔翻車爆違約交割42億創意欣興華通上榜": 1795001878.6730714,
 "1116台股重挫9檔個股爆違約交割": 1795001878.673072,
-"속보뉴욕증시앤트로픽공모가발표전혼조세출발다우029나스닥078": 1795013497.8514998
+"속보뉴욕증시앤트로픽공모가발표전혼조세출발다우029나스닥078": 1795014223.2531433,
+"nvidiagainsliftsbatteredaistocksasforecasteasesposthuanguncertainty": 1795014222.7245252,
+"nvidiacorporationnvdastockforecasts": 1795014222.7245297
 }
 }
