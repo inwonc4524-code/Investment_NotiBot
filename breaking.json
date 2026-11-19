@@ -1,29 +1,6 @@
 {
 "items": [
 {
-"key": "속보美中ai반도체원격접속차단",
-"keys": [
-"속보美中ai반도체원격접속차단",
-"속보미상무부ai반도체중국원격접속차단조치",
-"속보美ai반도체에대한中원격접속차단조치"
-],
-"count": 4,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보]美, 中 AI 반도체 원격접속 차단",
-"show": "[속보]美, 中 AI 반도체 원격접속 차단",
-"source": "파이낸셜뉴스",
-"src_url": "https://www.fnnews.com",
-"sum": "국제 국제경제 [속보]美, 中 AI 반도체 원격접속 차단 송경재 기자 파이낸셜뉴스 입력 2026.11.17 02:44 수정 2026.11.17 02:44 기사 듣기 구글 검색 선호 매체 추가 [파이낸셜뉴스] [email protected] 송경재 기자 ※ 저작권자 © 파이낸셜뉴스, 무단전재-재배포 금지 송경재 국제부 [email protected] [속보]엔비디아 \"젠슨 황 CEO 복귀 검토 안 해\" 2026-11-17 02:41 워시 美 연준 의장 \"AI, 경제에 중요하지만 실망스러울 수도\" 2026-11-17 02:43",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hbzNVWUVOLUVFc29FWVcyOTVobkYzR1RZd1JlUWdmR25rd3RyYUdzUkFGWHo0Y09sR2xDNVZpUkF4LU0zb3BLYk9aNjF5U013YUZOcGlFRXBBdw?oc=5",
-"url": "https://www.fnnews.com/news/202611170245149306",
-"pub": 1794851088.0,
-"time": "11/17 02:44",
-"run": "breaking",
-"added": 1794851366
-},
-{
 "key": "nvidiasboardnotconsideringreinstatingjensenhuangasceo",
 "keys": [
 "nvidiasboardnotconsideringreinstatingjensenhuangasceo",
@@ -2840,29 +2817,11 @@
 ],
 "seen": {
 "jensenhuangsaysheswillingtoreturnasnvidiaceo": 1794940815.3559303,
-"jensenhuangbreakssilencesignalswillingnesstoreturnasnvidiaceo": 1794937189.3364997,
-"jensenhuangiswillingtoreturnasnvidiaceoifboardallowsit": 1794937908.5865278,
-"jensenhuangisopentoreturningtonvidiaasceo": 1794936442.1247983,
 "jensenhuangsayshedbewillingtoreturntonvidiainfirstremarkssinceexit": 1794940815.3559296,
-"huangsayswillingtoreturnasnvidiaceo": 1794938629.5759833,
-"jensenhuangsayshewouldbehonoredtoreturntonvidiaasceo": 1794937189.3364997,
-"jensenhuangsaysheiswillingtoreturnasnvidiaceosayingiownmymistakescompletely": 1794936442.124799,
-"jensenhuangsayshewouldbehonoredtoreturnasnvidiaceoinfirstpublicremarkssinceexit": 1794936442.1247993,
-"jensenhuangsayshewouldbehonoredifallowedtoreturnasnvidiaceo": 1794937189.3364975,
-"jensenhuangsayshewouldbehonoredtoreturnasnvidiaceo": 1794937908.5865269,
-"readjensenhuangsstatementofferingareturnasnvidiaceo": 1794937189.3364983,
-"jensenhuangsayshewouldreturnasnvidiaceoifaskedsharesgain": 1794936442.1247973,
-"formernvidiaceojensenhuangsayshedbehonoredtoreturntothecompany": 1794936442.1247983,
-"exnvidiaceojensenhuangacknowledgesmistakessignalsinterestinreturnifcompanychoose": 1794938629.5759816,
-"huangsayshedbehonoredtoreturntonvidiaasheagreestotestifytocongress": 1794937908.5865264,
-"속보젠슨황이사회요청시엔비디아복귀사임후첫공개발언": 1794937164.3911939,
 "jensenhuangsayshedbehonouredtoreturnasnvidiaceo": 1794940815.3559306,
 "jensenhuangbreakssilenceafternvidiascandaldeclareshedbehonoredtoreturntoceojob": 1794940815.355932,
 "jensenhuangbreakshissilenceafternvidiaexitsaysheisopentoreturning": 1794940095.3429554,
 "jensenhuangsayshesopentocomingbacktonvidia": 1794940095.3429554,
-"nvidiasjensenhuangissuesmeaculpawantstoreturn": 1794938629.5759847,
-"jensenhuangsaidhewillanswerthecallandreturntonvidiaifasked": 1794938629.575985,
-"jensenhuangofferedtocomebackbettorsstillpickarmsceooverhimtorunnvidia": 1794938629.575985,
 "stocksdipaheadofnvidiaearnings": 1794946634.0074332,
 "micronstockfallsabout7asnvidiaearningsandexportcurbshitchips": 1794943720.19997,
 "stockmarkettodaydownasdaqslipaheadofnvidiaearningsliveupdates": 1794946634.007434,
@@ -3445,6 +3404,6 @@
 "anthropicstartstradingonwallstreet": 1795108007.6503873,
 "anthropicipoliveaigiantpreparestostarttradingstockat83ashare": 1795108007.6503918,
 "watchanthropicipodeliverswallstreetwindfall": 1795108007.6503932,
-"anthropicbeginstradingonnasdaqinrecordbreakingipo": 1795108719.242588
+"anthropicbeginstradingonnasdaqinrecordbreakingipo": 1795110182.8807063
 }
 }
