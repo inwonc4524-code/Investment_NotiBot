@@ -1,54 +1,6 @@
 {
 "items": [
 {
-"key": "stocksdipaheadofnvidiaearningsanthropicipo",
-"keys": [
-"stocksdipaheadofnvidiaearningsanthropicipo",
-"nvidiaearningsanthropicipoaheadinnewtestforaieconomy",
-"nvidiaearningsfedminutesanthropicsipoputairallytothetest3chartstowatchthisweek"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Stocks dip ahead of Nvidia earnings, Anthropic IPO",
-"show": "엔비디아 수익, 앤트로픽의 기업공개(IPO)를 앞두고 주가 하락",
-"source": "Euronext Markets: Real-time Stock Market Data | live",
-"src_url": "https://live.euronext.com",
-"sum": "아만다 쿠퍼(Amanda Cooper) 런던, 11월 16일 (로이터) - 엔비디아 CEO 젠슨 황의 충격적인 사임으로 불안한 한 주를 보낸 후 월요일 글로벌 주가는 하락했으며, 이번 주 반도체 회사의 수익과 앤트로픽의 기업공개(IPO)는 AI가 주도하는 강세장이 아직 더 나아갈 수 있는지 테스트할 예정입니다.",
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMTJQVmEwLXBpazV5OUhiNnRYNDJ0N2oxLS1LMmxhRmN2eURDdF9zVktna1lSLV9OY1U4QTRRWURreFdURWxSbklnZVJUb2toa25kcE5SLVpwVkJkSXcyQmk1VUZDVG16SDhhSEhLWmRpZVdxMjljM0dxaFE1YXpHeDlTQXRHSGpFU3hZZzlVZlhGbmR4?oc=5",
-"url": "https://live.euronext.com/en/financial-news/stocks-dip-ahead-nvidia-earnings-anthropic-ipo",
-"pub": 1794833120.0,
-"time": "11/16 21:45",
-"run": "breaking",
-"added": 1794833933,
-"pv": "b052c435"
-},
-{
-"key": "nvidiastockdoesntneedajensenhuangcomebacktothrive",
-"keys": [
-"nvidiastockdoesntneedajensenhuangcomebacktothrive",
-"isjensenhuangplottingacomeback",
-"nvidiastockfallsasjensenhuangreportedlyweighsceocomebackmuskbacksreturn"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Nvidia Stock Doesn’t Need a Jensen Huang Comeback to Thrive",
-"show": "엔비디아 주식은 번성하기 위해 젠슨 황의 복귀가 필요하지 않습니다",
-"source": "Barron's",
-"src_url": "https://www.barrons.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcVZqLW05Y1FaS0xnVEM2T3EwUGlwZ21LSHJUQVdYWnMwcVczbDFYWE91MlQtcHNhdWhlbVdVUnE5a1JqeUE4aEpOSUtlTEdBMnJnMFl0UVdXOUNodGJCNDRSbzlLbXpZVXljR3QwVGdYWTVDNldJRHRPUXRqZFV6RWxHZlV2RWFsZGc?oc=5",
-"url": "https://www.barrons.com/articles/nvidia-stock-price-jensen-huang-comeback-9b6e1ebd",
-"pub": 1794834180.0,
-"time": "11/16 22:03",
-"run": "breaking",
-"added": 1794835372,
-"pv": "b052c435"
-},
-{
 "key": "뉴욕증시엔비디아發기술주약세에하락출발나스닥138",
 "keys": [
 "뉴욕증시엔비디아發기술주약세에하락출발나스닥138",
@@ -2822,9 +2774,6 @@
 }
 ],
 "seen": {
-"nvidiaestablishescommitteetooverseenationalsecurityafterabruptdepartureofceojens": 1794921189.262513,
-"trumppraisesnvidiasnewnationalsecuritycommitteeafterjensenhuangresigns": 1794921189.2625136,
-"nvidiacreatescommitteetooverseenationalsecurityandexportcontrols": 1794921189.2625136,
 "fedsmusalemseveralratehikeslikelyneededbyspringtocontrolinflation": 1794924098.7972746,
 "fedsmusalemuslikelyneedsseveralratehikesbyspringtocontrolinflation": 1794921917.294326,
 "fedsmusalemsaysseveralratehikeslikelyneededbyspring": 1794921917.2943275,
@@ -3437,11 +3386,11 @@
 "whattoknowaboutanthropicsrecordbreakingipo": 1795087636.7909636,
 "阿里巴巴第二財季經調整盈利增92至199億人幣遜預期182520261119即時財經新聞": 1795089845.2731516,
 "anthropicraises81bninrecordbreakingstockmarketdebut": 1795090550.5444763,
-"快訊美國晶片管制擴大台積電三星暫停部分中國客戶出貨": 1795092034.1038597,
+"快訊美國晶片管制擴大台積電三星暫停部分中國客戶出貨": 1795092746.684305,
 "ft台積電和三星電子暫停向陸客戶出貨部分晶片手機品牌也受影響全球財經全球": 1795090553.5422397,
 "ft台積電和三星電子暫停向陸客戶出貨部分晶片手機品牌也受影響": 1795090553.542239,
-"傳美出口管制新規衝擊台積電三星暫停部分對中晶片出貨國際": 1795092034.1038594,
-"anthropicliftsnasdaqfuturesandtechstocksaheadofitsrecordbreakingipo": 1795092032.6600666,
-"美國晶片封鎖再升級外媒揭台積電三星暫停向部分中國客戶出貨": 1795092034.1038587
+"傳美出口管制新規衝擊台積電三星暫停部分對中晶片出貨國際": 1795092746.6843047,
+"anthropicliftsnasdaqfuturesandtechstocksaheadofitsrecordbreakingipo": 1795094184.2741423,
+"美國晶片封鎖再升級外媒揭台積電三星暫停向部分中國客戶出貨": 1795092746.6843045
 }
 }
