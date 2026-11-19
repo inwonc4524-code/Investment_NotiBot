@@ -2797,15 +2797,36 @@
 "run": "breaking",
 "added": 1795088358,
 "pv": "b052c435"
+},
+{
+"key": "快訊美國晶片管制擴大台積電三星暫停部分中國客戶出貨",
+"keys": [
+"快訊美國晶片管制擴大台積電三星暫停部分中國客戶出貨",
+"ft台積電和三星電子暫停向陸客戶出貨部分晶片手機品牌也受影響全球財經全球"
+],
+"count": 2,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "快訊／美國晶片管制擴大！台積電、三星暫停部分中國客戶出貨",
+"show": "뉴스/미국 칩 컨트롤이 확장되었습니다! TSMC와 삼성, 일부 중국 고객에 대한 배송 중단",
+"source": "鉅亨網",
+"src_url": "https://news.cnyes.com",
+"sum": "뉴스/미국 칩 컨트롤이 확장되었습니다! TSMC와 삼성, 일부 중국 고객사에 대한 출하 중단 Uanalyze 2026년 11월 19일(Uanalyze/산업데이터센터 보고) ⸺ 파이낸셜타임스는 TSMC(2330-TW)와 삼성전자(005930-KR)가 미국 정부로부터 수출 허가를 받을 때까지 일부 중국 고객사에 대한 칩 출하를 중단했다고 보도했다고 파이낸셜타임스가 지적했다. 엔비디아도 11월 17일 프랑스 컨퍼런스에서 Hopper 세대 데이터 센터 칩의 중국 배송을 중단했다고 밝혔습니다. 이러한 제품의 중국 내 매출은 3분기에도 여전히 24억 달러에 달했지만, 관련 수익은 더 이상 4분기 재무 예측에 포함되지 않습니다. Hopper 시리즈에는 TSMC에서 제조한 H200이 포함됩니다. 하지만 엔비디아 측은 배송 중단 이유에 대해 설명하지 않아 두 사건이 직접적인 연관이 있는지는 아직 불분명하다.",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRNzluM3BlTUpzWUZFVDAzcTFiM2dvcmxJLXJHTV9wdFhrN2l3eWFBRVVkcWt1NXpZdlhMLVRmQ1FwWXVsUl96TjZvZDJ3YW8?oc=5",
+"url": "https://news.cnyes.com/news/id/6667851",
+"pub": 1795089645.0,
+"time": "11/19 21:00",
+"run": "breaking",
+"added": 1795089844,
+"pv": "b052c435"
 }
 ],
 "seen": {
 "nvidiaformsboardcommitteetooverseenationalsecurityexportcontrols": 1794917566.0518436,
 "nvidiaformsexportcontrolboardcommitteeafterchipcurbs": 1794917566.0518448,
-"usstockfuturesslipaheadofnvidiaresultsfedspeakersinfocus": 1794916845.30292,
 "stocksslideasnvidiaresultsloom": 1794918285.5201957,
 "nvidiasetsupnationalsecurityandexportcontroloversightcommittee": 1794917566.0518444,
-"nvidiasetsupboardcommitteetooverseenationalsecuritychipexportcontrolsnamessuzann": 1794916099.6623633,
 "ukstocksfallasinvestorsonedgeaheadofnvidiaresultsukdatakeepsratebetsintact": 1794918285.5201952,
 "nvidiaestablishescommitteetooverseenationalsecurityafterabruptdepartureofceojens": 1794921189.262513,
 "trumppraisesnvidiasnewnationalsecuritycommitteeafterjensenhuangresigns": 1794921189.2625136,
@@ -3420,7 +3441,9 @@
 "股匯不同調新台幣翻紅小升05分收32942元": 1795084739.240622,
 "台股重挫失守4萬點新台幣盤中貶破33元終場小升05分": 1795084739.2406228,
 "whattoknowaboutanthropicsrecordbreakingipo": 1795087636.7909636,
-"阿里巴巴第二財季經調整盈利增92至199億人幣遜預期182520261119即時財經新聞": 1795088367.7524621,
-"anthropicraises81bninrecordbreakingstockmarketdebut": 1795088364.170379
+"阿里巴巴第二財季經調整盈利增92至199億人幣遜預期182520261119即時財經新聞": 1795089845.2731516,
+"anthropicraises81bninrecordbreakingstockmarketdebut": 1795089830.482671,
+"快訊美國晶片管制擴大台積電三星暫停部分中國客戶出貨": 1795089844.4293673,
+"ft台積電和三星電子暫停向陸客戶出貨部分晶片手機品牌也受影響全球財經全球": 1795089844.4293702
 }
 }
