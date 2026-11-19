@@ -2700,20 +2700,32 @@
 "run": "breaking",
 "added": 1795047704,
 "pv": "b052c435"
+},
+{
+"key": "anthropics83ipopriceputsitontrackforarecordbreakingdebutonwallstreethereswhatitm",
+"keys": [
+"anthropics83ipopriceputsitontrackforarecordbreakingdebutonwallstreethereswhatitm"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Anthropic’s $83 IPO price puts it on track for a record-breaking debut on Wall Street. Here’s what it means",
+"show": "앤트로픽은 83달러의 기업공개(IPO) 가격으로 월스트리트에서 기록적인 데뷔를 기록했습니다. 의미는 다음과 같습니다",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"sum": "앤트로픽은 수요일 사상 최대 규모의 주식 시장 데뷔를 목표로 예상보다 훨씬 높은 가격에 기업공개(IPO) 주식을 판매할 계획이라고 밝혔습니다.",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmEtRzVlbGY4bUNlRDJ2UWZTdE9GRm1ZOFpZTGs4ek1jaFRkRDl5X29ZUUNYdmVWYWJPX2Y0OU5jRDZfSlNJel9tMUJkNUdyb3FZb2ozcW93Z2J4OV94VXNQVFpZNlVNdWJiSnlnV1VfMjg1Wmw5T0wzSHRsTnVVZ2gxdHUycXp5eWhFMm9pRU50dFhPVG9j?oc=5",
+"url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-83-ipo-price-puts-000147002.html",
+"pub": 1795046460.0,
+"time": "11/19 09:01",
+"run": "breaking",
+"added": 1795049866,
+"pv": "b052c435"
 }
 ],
 "seen": {
-"ace글로벌반도체top4plus리밸런싱삼전비중": 1794876065.898678,
-"한투운용글로벌반도체etf리밸런싱하이닉스줄이고삼성전자비중확대": 1794876065.8986788,
 "코스피美반도체쇼크에1대하락5000선공방끝낙폭축소": 1794877542.3722765,
-"코스피장초반5000선붕괴美반도체주급락여파": 1794876822.7923284,
-"속보코스피2대급락에5000선깨져": 1794876822.792329,
-"속보코스피2하락하며5000선아래로": 1794876822.7923293,
-"코스피181하락출발해5000선턱걸이코스닥도1대약세": 1794876064.3026903,
-"속보코스피1대하락출발장중한때5천피아래로": 1794876822.792352,
-"美반도체쇼크에삼전닉스또급락": 1794876822.7923295,
-"한투운용반도체etf리밸런싱삼전늘리고하닉줄여": 1794876065.8986778,
-"개장시황젠슨황파장에반도체株흔들코스피5000선등락": 1794876064.3026876,
 "코스피장초반5000선하회美반도체급락여파": 1794878983.692716,
 "포토코스피5000선마저붕괴美반도체쇼크에외국인매도": 1794878983.6927164,
 "코스피美반도체급락여파1대장중5000선하회개장시황": 1794877542.3722758,
@@ -2727,7 +2739,6 @@
 "코스피美ai주급락에하락출발삼전닉스동반약세": 1794877542.3722863,
 "특징주옵토닉스코스닥상장첫날공모가대비125대급등": 1794878983.6927066,
 "젠슨황파장지속코스피12대하락또5천피사수전종합": 1794878983.692722,
-"코스피장중한때오천피아래로美ai주급락여파": 1794876822.792352,
 "美반도체주급락에코스피5000선안팎등락엔비디아실적에쏠린눈": 1794878983.6927154,
 "엔비디아우려에코스피장중5000하회외국인순매도상보": 1794877542.372276,
 "속보코스피장초반2하락5000선하회": 1794877542.3722773,
@@ -3284,6 +3295,7 @@
 "뉴욕증시마감엔비디아호실적에도혼조다우111": 1795043334.6316252,
 "뉴욕증시혼조마감엔비디아호실적에도ai투심제한": 1795044801.3378098,
 "엔비디아호실적도역부족sp5005거래일연속하락뉴욕증시": 1795044801.337809,
-"nyclaandchicagoschooldistrictsweighbreakingupwithgooglesearchoverai": 1795047709.9552696
+"nyclaandchicagoschooldistrictsweighbreakingupwithgooglesearchoverai": 1795049142.0405333,
+"anthropics83ipopriceputsitontrackforarecordbreakingdebutonwallstreethereswhatitm": 1795049871.6840007
 }
 }
