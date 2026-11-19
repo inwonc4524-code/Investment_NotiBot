@@ -2813,15 +2813,31 @@
 "run": "breaking",
 "added": 1795108003,
 "pv": "b052c435"
+},
+{
+"key": "formernasdaqchairmanrobertgreifeldweighsinonanthropicsrecordbreakingipo",
+"keys": [
+"formernasdaqchairmanrobertgreifeldweighsinonanthropicsrecordbreakingipo"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Former Nasdaq chairman Robert Greifeld weighs in on Anthropic's record-breaking IPO",
+"show": "전 나스닥 회장 Robert Greifeld는 앤트로픽의 기록적인 기업공개(IPO)에 대해 언급합니다.",
+"source": "CNBC",
+"src_url": "https://www.cnbc.com",
+"sum": "전 나스닥 회장 Robert Greifeld가 'The Exchange'에 합류하여 앤트로픽의 기록적인 기업공개(IPO), 인공지능 도구 등에 대해 논의합니다.",
+"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYS1FM1UyS1J3MlN0WU5VSlEyMVFWdkJDYy1hcmpnRGdFQzF6aFl0V0d4NjFOZ0J0VHFkWmQ5R2xUekwwVU9uQjVXM3pRY21ia0V3RUxSdGNRaldlTG9fZFhoTGRIMUQ1V3VtaTg1RU9JNHdRWEQyZ01tV20zdDI0SHBzd3NQQU0weU5OQ3B4QUZzNWlJLUFVNTFmcURYTkRSN2RYN0RpdmVza2wwUUE1eU9tY0lWZmJMZjI1LU5QQmpObWM?oc=5",
+"url": "https://www.cnbc.com/video/2026/11/19/former-nasdaq-chairman-robert-greifeld-weighs-in-on-anthropics-record-breaking-ipo.html",
+"pub": 1795112904.0,
+"time": "11/20 03:28",
+"run": "breaking",
+"added": 1795113808,
+"pv": "b052c435"
 }
 ],
 "seen": {
-"jensenhuangsaysheswillingtoreturnasnvidiaceo": 1794940815.3559303,
-"jensenhuangsayshedbewillingtoreturntonvidiainfirstremarkssinceexit": 1794940815.3559296,
-"jensenhuangsayshedbehonouredtoreturnasnvidiaceo": 1794940815.3559306,
-"jensenhuangbreakssilenceafternvidiascandaldeclareshedbehonoredtoreturntoceojob": 1794940815.355932,
-"jensenhuangbreakshissilenceafternvidiaexitsaysheisopentoreturning": 1794940095.3429554,
-"jensenhuangsayshesopentocomingbacktonvidia": 1794940095.3429554,
 "stocksdipaheadofnvidiaearnings": 1794946634.0074332,
 "micronstockfallsabout7asnvidiaearningsandexportcurbshitchips": 1794943720.19997,
 "stockmarkettodaydownasdaqslipaheadofnvidiaearningsliveupdates": 1794946634.007434,
@@ -3404,6 +3420,10 @@
 "anthropicstartstradingonwallstreet": 1795108007.6503873,
 "anthropicipoliveaigiantpreparestostarttradingstockat83ashare": 1795108007.6503918,
 "watchanthropicipodeliverswallstreetwindfall": 1795108007.6503932,
-"anthropicbeginstradingonnasdaqinrecordbreakingipo": 1795110182.8807063
+"anthropicbeginstradingonnasdaqinrecordbreakingipo": 1795110182.8807063,
+"anthropicsharessoarinstockmarketdebut": 1795113804.5906658,
+"stocksslipasanthropicgainsonmarketdebutandoilpricesrise": 1795113804.5906665,
+"anthropicsharessoarmorethan34to2trilliononwallstreetdebut": 1795113804.5906675,
+"formernasdaqchairmanrobertgreifeldweighsinonanthropicsrecordbreakingipo": 1795113813.4886122
 }
 }
