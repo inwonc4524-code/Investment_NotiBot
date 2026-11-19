@@ -1,30 +1,6 @@
 {
 "items": [
 {
-"key": "뉴욕증시엔비디아發기술주약세에하락출발나스닥138",
-"keys": [
-"뉴욕증시엔비디아發기술주약세에하락출발나스닥138",
-"뉴욕증시엔비디아발반도체주급락에일제히하락출발",
-"뉴욕증시기술주약세에하락출발",
-"aimy뉴스뉴욕반도체주프리뷰엔비디아실적앞두고반도체주급락"
-],
-"count": 4,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "뉴욕증시, 엔비디아發 기술주 약세에 하락 출발…나스닥 1.38% ↓",
-"show": "뉴욕증시, 엔비디아發 기술주 약세에 하락 출발…나스닥 1.38% ↓",
-"source": "뉴시스",
-"src_url": "https://www.newsis.com",
-"sum": "[서울=뉴시스] 이재우 기자 = 뉴욕 증시가 16일(현지시간) 엔비디아를 필두로 한 미국 인공지능(AI) 관련주 약세로 하락 출발했다.CNBC에 따르면 이날 오전 9시51분 기준 다우존스30산업평균지수(DJIA)는 전장 대비 136.83포인트(0.26%) 하락한 5만2210.72에 거래됐다.스탠더드앤드푸어스(S&P) 500 지수는 63.89포인트(0.84%..",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lT0ZjeDQ5eGx6VjdsOHlSZllFNmJkQTd6TTF0eG4xQkhtZFo5R3hYR0pLZXFVRUdVSUdvdDZ5WWRZWC1HUXJuWUlDLURKQ3R2ajJiUjhRMWVOUXktMU9lc9IBeEFVX3lxTFBGVVRUMXRUMmllUEE4eWxjd2dJS01RcWJJRWpqekh0aUNaY0lHSUZMRUlJQkFkQ1h4MDFWcTdFMmd6WE1tdHVmeGpScmtMMldXZjZXd1hqektCU05XSUwwWU9QN3RlbUY5RndnYXoyWndHRy15NzRZTA?oc=5",
-"url": "https://www.newsis.com/view/NISX20261117_0003870605",
-"pub": 1794841367.0,
-"time": "11/17 00:02",
-"run": "breaking",
-"added": 1794841932
-},
-{
 "key": "trumpbackspotentialreturnofjensenhuangasnvidiaceo",
 "keys": [
 "trumpbackspotentialreturnofjensenhuangasnvidiaceo",
@@ -2771,10 +2747,32 @@
 "run": "breaking",
 "added": 1795092026,
 "pv": "b052c435"
+},
+{
+"key": "재산공개권민수한국은행부총재16억8천만원",
+"keys": [
+"재산공개권민수한국은행부총재16억8천만원",
+"권민수한은부총재재산168억신고분당18억대아파트보유",
+"권민수한은부총재재산16억원임명후첫신고재산공개"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[재산공개] 권민수 한국은행 부총재 16억8천만원",
+"show": "[재산공개] 권민수 한국은행 부총재 16억8천만원",
+"source": "연합뉴스",
+"src_url": "https://www.yna.co.kr",
+"sum": "(서울=연합뉴스) 한지훈 기자 = 권민수 한국은행 부총재가 취임 후 첫 재산공개에서 약 16억8천만원의 재산을 보유했다고 신고했다.",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nV0lXbzFVTEpwVHhUeEJDM1VsS0FJdnZWSFhiSjZ4T3BpZmFTVV9MejNCd2tQWW9Ram5ERUkyaHBzajFFUTkzd2hCUUlvVVJGX0dhS2FhZGUtaHPSAWBBVV95cUxOSmNWeG1hRVZ1ZHhlbGhST1pUMW9Ccm85RkU1MllfOFlUTm9nME45V3J4ZXBTdExWeFNUVTk3U1NyRW1oZDlxdTl1OUR0S05zaEx1aGFlcTdZV21rSWtmSjY?oc=5",
+"url": "https://www.yna.co.kr/view/AKR20261119128900002",
+"pub": 1795100401.0,
+"time": "11/20 00:00",
+"run": "breaking",
+"added": 1795101462
 }
 ],
 "seen": {
-"lawyerforfedscookthreatenstonottakepartinunfairwhitehousehearing": 1794927723.4963434,
 "fedgovernorcookwontattendwhitehousehearingwithoutchanges": 1794929189.1269782,
 "lawyerforfedgovernorsayslisacookwillnotparticipateinwhitehousehearing": 1794929189.1269786,
 "fedslisacookrebuffswhitehousehearingcitingbiasedpanel": 1794929189.126979,
@@ -3382,6 +3380,10 @@
 "傳美出口管制新規衝擊台積電三星暫停部分對中晶片出貨國際": 1795092746.6843047,
 "anthropicliftsnasdaqfuturesandtechstocksaheadofitsrecordbreakingipo": 1795094928.7826748,
 "美國晶片封鎖再升級外媒揭台積電三星暫停向部分中國客戶出貨": 1795092746.6843045,
-"속보뉴욕증시앤트로픽상장기대에상승출발나스닥155": 1795099997.1122081
+"속보뉴욕증시앤트로픽상장기대에상승출발나스닥155": 1795101460.6097686,
+"뉴욕증시앤트로픽나스닥상장앞두고상승출발": 1795101460.609768,
+"재산공개권민수한국은행부총재16억8천만원": 1795101462.2688444,
+"권민수한은부총재재산168억신고분당18억대아파트보유": 1795101462.2688453,
+"권민수한은부총재재산16억원임명후첫신고재산공개": 1795101462.2688456
 }
 }
