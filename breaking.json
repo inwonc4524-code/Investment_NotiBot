@@ -2797,6 +2797,28 @@
 "run": "breaking",
 "added": 1795089844,
 "pv": "b052c435"
+},
+{
+"key": "anthropicliftsnasdaqfuturesandtechstocksaheadofitsrecordbreakingipo",
+"keys": [
+"anthropicliftsnasdaqfuturesandtechstocksaheadofitsrecordbreakingipo"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
+"show": "앤트로픽은 기록적인 기업공개(IPO)를 앞두고 나스닥 선물과 기술주를 인상합니다.",
+"source": "CNBC",
+"src_url": "https://www.cnbc.com",
+"sum": "주가가 예상 범위를 넘어 810억 달러 이상 상승",
+"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM2J4VWlna2g3QW9JczFndk5ScUg0YldfR2xCV3U2S09qQUsybjhhSG15eFB5eTJYNVF1ak5aU0pnbDVUSklYUU04bUF3YjA1V0ZST1Y5OWZranIyV25adnlHd0IzMS0ycGNPTE40cFBGclJLbmRsczMtRDBrbW0ySThleXB4ZnpyMy1JNmozYnl0eUlabzVod1kxRFRlLUEyTW1JNVdpbEtmV09ndkxpYXE2cnNETmPSAbwBQVVfeXFMTWNWbXplM2s0SlQ5U2xYM0pYWi0ydnM4RGNyNW5YSXJfVFUwQ24wb0Nac3p5b2E0MFdPSnpyNktrZnhuNGFhS2sxaGx2YkJ5X0FmZmNNZjFQYmRVOXE3OW54MjZhdXVvNGtscGkwaG9zZThTOU5xclc1TUItU0Zfd0x6Smg0QktzQTNYbzdlSUNJTFJEMmZfb1lDQ1BQR25OVGtwSzNhU2ZGSG1FaGhjdzJmZzMzVDFjay05bnU?oc=5",
+"url": "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
+"pub": 1795091395.0,
+"time": "11/19 21:29",
+"run": "breaking",
+"added": 1795092026,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -3415,9 +3437,11 @@
 "whattoknowaboutanthropicsrecordbreakingipo": 1795087636.7909636,
 "阿里巴巴第二財季經調整盈利增92至199億人幣遜預期182520261119即時財經新聞": 1795089845.2731516,
 "anthropicraises81bninrecordbreakingstockmarketdebut": 1795090550.5444763,
-"快訊美國晶片管制擴大台積電三星暫停部分中國客戶出貨": 1795091273.870888,
+"快訊美國晶片管制擴大台積電三星暫停部分中國客戶出貨": 1795092034.1038597,
 "ft台積電和三星電子暫停向陸客戶出貨部分晶片手機品牌也受影響全球財經全球": 1795090553.5422397,
 "ft台積電和三星電子暫停向陸客戶出貨部分晶片手機品牌也受影響": 1795090553.542239,
-"傳美出口管制新規衝擊台積電三星暫停部分對中晶片出貨國際": 1795091273.8708866
+"傳美出口管制新規衝擊台積電三星暫停部分對中晶片出貨國際": 1795092034.1038594,
+"anthropicliftsnasdaqfuturesandtechstocksaheadofitsrecordbreakingipo": 1795092032.6600666,
+"美國晶片封鎖再升級外媒揭台積電三星暫停向部分中國客戶出貨": 1795092034.1038587
 }
 }
