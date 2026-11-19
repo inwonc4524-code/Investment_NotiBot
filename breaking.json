@@ -2775,19 +2775,37 @@
 "run": "breaking",
 "added": 1795084739,
 "pv": "b052c435"
+},
+{
+"key": "anthropicraises81bninrecordbreakingstockmarketdebut",
+"keys": [
+"anthropicraises81bninrecordbreakingstockmarketdebut"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Anthropic raises $81bn in record-breaking stock market debut",
+"show": "앤트로픽은 기록적인 주식 시장 데뷔로 810억 달러를 모금했습니다.",
+"source": "BBC",
+"src_url": "https://www.bbc.com",
+"sum": "Claude 챗봇 뒤에 있는 회사는 세계에서 가장 가치 있는 회사 중 하나가 될 것입니다.",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15eVFIWE5uZFRSSHFUOTNCZWJySy1leGw3NHYxbVZkZVpFU01maWdFYW5FU1lrY25NSDEwQV9NRXBpaG5LSDB5dEhXcW83X3JTVEF4aGlIM0FrVm8?oc=5",
+"url": "https://www.bbc.com/news/articles/c6742m39xgzxo",
+"pub": 1795085284.0,
+"time": "11/19 19:48",
+"run": "breaking",
+"added": 1795088358,
+"pv": "b052c435"
 }
 ],
 "seen": {
-"nvidiaformsnationalsecuritycommitteeafterhuangsexit": 1794913203.0999224,
 "nvidiaformsboardcommitteetooverseenationalsecurityexportcontrols": 1794917566.0518436,
 "nvidiaformsexportcontrolboardcommitteeafterchipcurbs": 1794917566.0518448,
 "usstockfuturesslipaheadofnvidiaresultsfedspeakersinfocus": 1794916845.30292,
 "stocksslideasnvidiaresultsloom": 1794918285.5201957,
-"predictionnvidiawillcrushitsthirdquarteroperatingresultstodaynov17butitsstockwil": 1794913203.0997562,
-"nvidiacreatescommitteetooverseecompliancewithuschipexportcontrols": 1794914660.4907095,
 "nvidiasetsupnationalsecurityandexportcontroloversightcommittee": 1794917566.0518444,
 "nvidiasetsupboardcommitteetooverseenationalsecuritychipexportcontrolsnamessuzann": 1794916099.6623633,
-"techstocksextendselloffasnvidiaresultsnearmarketswrap": 1794915379.2640474,
 "ukstocksfallasinvestorsonedgeaheadofnvidiaresultsukdatakeepsratebetsintact": 1794918285.5201952,
 "nvidiaestablishescommitteetooverseenationalsecurityafterabruptdepartureofceojens": 1794921189.262513,
 "trumppraisesnvidiasnewnationalsecuritycommitteeafterjensenhuangresigns": 1794921189.2625136,
@@ -3400,6 +3418,9 @@
 "台積電斥資近5億美元入股anthropic取得602萬股持股約003": 1795081109.7934062,
 "股匯不同調新台幣早盤再殺破33元終場翻紅": 1795084739.2406209,
 "股匯不同調新台幣翻紅小升05分收32942元": 1795084739.240622,
-"台股重挫失守4萬點新台幣盤中貶破33元終場小升05分": 1795084739.2406228
+"台股重挫失守4萬點新台幣盤中貶破33元終場小升05分": 1795084739.2406228,
+"whattoknowaboutanthropicsrecordbreakingipo": 1795087636.7909636,
+"阿里巴巴第二財季經調整盈利增92至199億人幣遜預期182520261119即時財經新聞": 1795088367.7524621,
+"anthropicraises81bninrecordbreakingstockmarketdebut": 1795088364.170379
 }
 }
