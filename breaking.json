@@ -2773,10 +2773,33 @@
 "time": "11/19 17:26",
 "run": "breaking",
 "added": 1795078927
+},
+{
+"key": "股匯不同調新台幣早盤再殺破33元終場翻紅",
+"keys": [
+"股匯不同調新台幣早盤再殺破33元終場翻紅",
+"股匯不同調新台幣翻紅小升05分收32942元",
+"台股重挫失守4萬點新台幣盤中貶破33元終場小升05分"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "股匯不同調 新台幣早盤再殺破33元終場翻紅",
+"show": "주식과 환율이 달랐습니다. 신대만달러는 장 초반 33신대만달러를 돌파하며 상승세를 이어갔다.",
+"source": "中時新聞網",
+"src_url": "https://www.chinatimes.com",
+"sum": "미국 연방준비제도(연준)가 10월 금리 결정 회의록을 공개했다. 거의 모든 관리들은 금리를 더 인상할 필요가 있다고 믿었습니다. 미국 달러지수는 한때 고점인 104에 접근했다. 게다가 19일 대만 증시는 폭락세를 이어갔다. 투자자들은 울부짖었다. 외국자본은 계속해서 무자비하게 송금했다. 신대만달러는 장 초반 미국 달러 대비 33대만달러 아래로 떨어졌지만 상대적으로 낮은 지점에서 매도 압력이 급등했다.",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DcmYtMGRJMWhLc1N6YmpJTU1pUTlsZmFCcGh1U2I2OUlOemlkc2hoRlZrN2hFSmhqeXBCQnBKMUZad3VRekhTQW8wYUd6S0dOTFF3NEN5dVZJYVRYNF9ORjFoaGlTYVpKdFB1N1dR?oc=5",
+"url": "https://www.chinatimes.com/realtimenews/20261119004370-260410",
+"pub": 1795084028.0,
+"time": "11/19 19:27",
+"run": "breaking",
+"added": 1795084739,
+"pv": "b052c435"
 }
 ],
 "seen": {
-"大眾點評夥匯豐推餐飲團購優惠滿100港元減50171620261117即時財經新聞": 1794910290.2375257,
 "nvidiaformsnationalsecuritycommitteeafterhuangsexit": 1794913203.0999224,
 "nvidiaformsboardcommitteetooverseenationalsecurityexportcontrols": 1794917566.0518436,
 "nvidiaboardformscommitteefornationalsecurityandexportcontroloversight": 1794912483.2745178,
@@ -3397,6 +3420,9 @@
 "평택반도체소부장유럽진출확대獨드레스덴과맞손": 1795078927.278582,
 "台積電砸5億美元入股anthropic持股比例003": 1795081109.793407,
 "台積電斥資近5億美元買進anthropic約602萬股持股約003": 1795081109.7934072,
-"台積電斥資近5億美元入股anthropic取得602萬股持股約003": 1795081109.7934062
+"台積電斥資近5億美元入股anthropic取得602萬股持股約003": 1795081109.7934062,
+"股匯不同調新台幣早盤再殺破33元終場翻紅": 1795084739.2406209,
+"股匯不同調新台幣翻紅小升05分收32942元": 1795084739.240622,
+"台股重挫失守4萬點新台幣盤中貶破33元終場小升05分": 1795084739.2406228
 }
 }
