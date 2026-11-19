@@ -2810,12 +2810,96 @@
 "run": "breaking",
 "added": 1795113808,
 "pv": "b052c435"
+},
+{
+"key": "뉴욕증시1보앤트로픽상장은매도신호였나2대급락마감",
+"keys": [
+"뉴욕증시1보앤트로픽상장은매도신호였나2대급락마감",
+"속보앤스로픽상장첫날뉴욕증시2대급락다우5만선붕괴"
+],
+"count": 2,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보]앤스로픽 상장 첫날 뉴욕증시 2%대 급락…다우 5만선 붕괴",
+"show": "[속보]앤스로픽 상장 첫날 뉴욕증시 2%대 급락…다우 5만선 붕괴",
+"source": "이데일리",
+"src_url": "https://www.edaily.co.kr",
+"sum": "뉴욕증시가 19일(현지시간) 일제히 급락했다. 역대 최대 기업공개(IPO)를 마친 인공지능(AI) 기업 앤스로픽이 상장 첫날 급등 출발했지만, 거래 시작과 동시에 차익 실현 매물이 쏟아졌다. 사진=로이터이날 다우존스30산업평균지수는 전 거래일보다 1101.11포인트...",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTW41cmRfcEREbzJHZm1KaDJUalJwN3RtQzNOdXJRR09jbjBzNnIxZ0R1SUREZ2ZCVGRmX2FDZ1JwakR1Nkw0cDU5ejJLU0V5amNGOGdYWm16c29pd1BYZGVTd0xuN29fbG12RHNpbVAyVnU4MFZwTmhJQ0JBenpHeQ?oc=5",
+"url": "https://www.edaily.co.kr/News/Read?newsId=01407126645647688&mediaCodeNo=257",
+"pub": 1795122523.0,
+"time": "11/20 06:08",
+"run": "breaking",
+"added": 1795123248
+},
+{
+"key": "뉴욕증시하락세로마감나스닥225",
+"keys": [
+"뉴욕증시하락세로마감나스닥225",
+"속보뉴욕증시ai주약세에하락나스닥225"
+],
+"count": 2,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 뉴욕증시, AI주 약세에 하락…나스닥 2.25%↓",
+"show": "[속보] 뉴욕증시, AI주 약세에 하락…나스닥 2.25%↓",
+"source": "뉴시스",
+"src_url": "https://www.newsis.com",
+"sum": "[속보] 뉴욕증시, AI주 약세에 하락…나스닥 2.25%↓",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02VlR6NkNwUDNrV2JPUzNYMG9XZXlENXRDSkZGLXhDVkxGdk1UMGNyNV9FUENpU09jNG9VS3hyTmNrUHo2SGljSEx6WG9GS0pGeExRd01fOUJRUmp2cjU1a9IBeEFVX3lxTFBjc1JtNEljZzJMdm5Ja1d2Sm84bGNxNEpqdi1vNklvZExxNDZHVmRNM2xPVmNuYTR6dnR1T3d5R2FhNkh1ZVhsUDJnQVhhQWlhV3dXVzh6UHp6eGdDQ243T0FnalVuOFRTVjlTb3RMWTVnTGVxSEpiMA?oc=5",
+"url": "https://www.newsis.com/view/NISX20261120_0003875956",
+"pub": 1795122300.0,
+"time": "11/20 06:05",
+"run": "breaking",
+"added": 1795123249
+},
+{
+"key": "속보앤스로픽증시입성에도일제히하락마감",
+"keys": [
+"속보앤스로픽증시입성에도일제히하락마감"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보]앤스로픽 증시 입성에도 일제히 하락 마감",
+"show": "[속보]앤스로픽 증시 입성에도 일제히 하락 마감",
+"source": "아시아경제",
+"src_url": "https://www.asiae.co.kr",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YNGk2dExyYWlKeC1qSlBxY3ljSkxWeTV0cE9Ba1NOZ09kNXFDeDN2U0FNTms1Rm81ZFJQbnFqYThmN2ZuSmcyZ0RMZFJ0N0llc2lYa0ZBS296djdxRTk3UA?oc=5",
+"url": "https://www.asiae.co.kr/article/2026112006085435264",
+"pub": 1795122535.0,
+"time": "11/20 06:08",
+"run": "breaking",
+"added": 1795123262
+},
+{
+"key": "anthropicipoanthropicsharescloseup17afterrecordbreakingstockmarketdebut",
+"keys": [
+"anthropicipoanthropicsharescloseup17afterrecordbreakingstockmarketdebut"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "world",
+"region": "🌍 세계",
+"title": "Anthropic IPO: Anthropic shares close up 17% after record-breaking stock market debut",
+"show": "앤트로픽의 기업공개(IPO): 앤트로픽 주가는 기록적인 주식 시장 데뷔 후 17% 상승했습니다.",
+"source": "BBC",
+"src_url": "https://www.bbc.co.uk",
+"sum": "챗봇 Claude를 지원하는 회사의 주식은 목요일에 거래가 시작되기 전 $111.50였습니다.",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1OEJMTVRPcUlmeWVCX194S2RUVURKT3RWUGZuODVrdDVIMWNTeG1oeWtqM0p4aEhGcnl1aE4zYjQ0X2N0a0YxNmM0OTFiOGhPMGpxV2lwWDI?oc=5",
+"url": "https://www.bbc.co.uk/news/live/c933xxm82mr8t",
+"pub": 1795122764.0,
+"time": "11/20 06:12",
+"run": "breaking",
+"added": 1795123268,
+"pv": "b052c435"
 }
 ],
 "seen": {
-"장건건설근로자공제회이사장용인반도체클러스터현장격려": 1794948825.0216174,
-"건설근로자공제회sk용인반도체건설현장서전자카드운영점검": 1794948825.021618,
-"건설근로자공제회용인반도체건설현장점검퇴직공제제도이행강화": 1794948825.0216181,
 "속보엔비디아실적앞두고美증시매도확산다우16": 1794952450.6520255,
 "속보엔비디아실적앞두고美증시하락나스닥4월이후최저": 1794952450.652026,
 "속보뉴욕증시엔비디아실적경계감에하락마감나스닥074": 1794952450.6520264,
@@ -3390,6 +3474,12 @@
 "anthropicsharessoarinstockmarketdebut": 1795113804.5906658,
 "stocksslipasanthropicgainsonmarketdebutandoilpricesrise": 1795113804.5906665,
 "anthropicsharessoarmorethan34to2trilliononwallstreetdebut": 1795113804.5906675,
-"formernasdaqchairmanrobertgreifeldweighsinonanthropicsrecordbreakingipo": 1795115990.7813842
+"formernasdaqchairmanrobertgreifeldweighsinonanthropicsrecordbreakingipo": 1795115990.7813842,
+"뉴욕증시1보앤트로픽상장은매도신호였나2대급락마감": 1795123248.4150965,
+"속보앤스로픽상장첫날뉴욕증시2대급락다우5만선붕괴": 1795123248.415098,
+"뉴욕증시하락세로마감나스닥225": 1795123249.4533043,
+"속보뉴욕증시ai주약세에하락나스닥225": 1795123249.4533048,
+"속보앤스로픽증시입성에도일제히하락마감": 1795123262.2402713,
+"anthropicipoanthropicsharescloseup17afterrecordbreakingstockmarketdebut": 1795123268.6864588
 }
 }
