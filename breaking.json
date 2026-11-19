@@ -2816,6 +2816,28 @@
 "run": "breaking",
 "added": 1795102929,
 "pv": "b052c435"
+},
+{
+"key": "anthropicvaluedat15tnaheadofrecordbreakingipolatestupdates",
+"keys": [
+"anthropicvaluedat15tnaheadofrecordbreakingipolatestupdates"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "world",
+"region": "🌍 세계",
+"title": "Anthropic valued at $1.5tn ahead of record-breaking IPO – latest updates",
+"show": "기록적인 기업공개(IPO)를 앞두고 앤트로픽의 가치는 1.5조 달러에 달합니다 – 최신 업데이트",
+"source": "The Telegraph",
+"src_url": "https://www.telegraph.co.uk",
+"sum": "앤트로픽의 주가는 뉴욕에서 주식 시장에 데뷔하면 급등할 것으로 예상됩니다.",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWks1SkU5eFl1UjVjSkZLTzFqeDBWWngyNkF1RG80Z3RvU3BOMkZKelF0SldyS0stX3hkajhOaHVpNHlYMktteGpmRm1YWXU1ZjJ2WU1jSF9MeXRZMTk0ekpmdGc0b3VVUUZGR3NBNjMxdGVzd1hYRWU0ZndPdGNUZTVDMHQ0MW4xN3BVRmtsSnVRblhKOFJ4dUdpRW0tUEoySTliSjRycw?oc=5",
+"url": "https://www.telegraph.co.uk/business/2026/11/19/anthropic-ipo-listing-nasdaq-ai-claude-ftse-100-markets/",
+"pub": 1795099757.0,
+"time": "11/19 23:49",
+"run": "breaking",
+"added": 1795105094,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -2823,9 +2845,7 @@
 "jensenhuangsayshewouldbehonoredtobereinstatedasnvidiaceoinnewstatement": 1794935002.0137107,
 "jensenhuangsaysheswillingtoreturnasnvidiaceo": 1794940815.3559303,
 "firststatementfromjensenhuangsinceresignationasnvidiaceo": 1794934281.7952318,
-"nvidiaceojensenhuangissuesfirststatementsinceleaving": 1794932105.165019,
 "jensenhuangbreakssilencesignalswillingnesstoreturnasnvidiaceo": 1794937189.3364997,
-"whyjensenhuangshouldnotbereinstatedasnvidiasceo": 1794932105.16502,
 "jensenhuangsayshedbehonoredtoreturnasnvidiaceo": 1794935721.6781912,
 "jensenhuangsayshewouldbehonoredtoreturnasnvidiaceoinfirstpublicremarks": 1794932817.0875857,
 "jensenhuangiswillingtoreturnasnvidiaceoifboardallowsit": 1794937908.5865278,
@@ -3419,15 +3439,23 @@
 "anthropicliftsnasdaqfuturesandtechstocksaheadofitsrecordbreakingipo": 1795094928.7826748,
 "美國晶片封鎖再升級外媒揭台積電三星暫停向部分中國客戶出貨": 1795092746.6843045,
 "속보뉴욕증시앤트로픽상장기대에상승출발나스닥155": 1795102181.011304,
-"뉴욕증시앤트로픽나스닥상장앞두고상승출발": 1795102936.0274303,
-"재산공개권민수한국은행부총재16억8천만원": 1795102936.0274377,
-"권민수한은부총재재산168억신고분당18억대아파트보유": 1795102936.027438,
-"권민수한은부총재재산16억원임명후첫신고재산공개": 1795102936.0274386,
-"뉴욕증시앤트로픽상장기대에일제히상승출발나스닥155": 1795102936.0274293,
+"뉴욕증시앤트로픽나스닥상장앞두고상승출발": 1795104365.6147776,
+"재산공개권민수한국은행부총재16억8천만원": 1795103645.5568478,
+"권민수한은부총재재산168억신고분당18억대아파트보유": 1795103645.5568478,
+"권민수한은부총재재산16억원임명후첫신고재산공개": 1795103645.5568483,
+"뉴욕증시앤트로픽상장기대에일제히상승출발나스닥155": 1795104365.6147776,
 "傳怡和尋求以私募基金形式融得更多資金223920261119即時財經新聞": 1795102903.058727,
-"앤트로픽상장기대감에뉴욕증시일제히상승출발": 1795102936.0274289,
-"anthropicringsnasdaqopeningbellaheadofstockmarketdebutcnnbusiness": 1795102934.7810018,
-"anthropicexecutivesringopeningbellatthenasdaq": 1795102934.781003,
-"stockmarkettodaynasdaqleadsdowandsp500higherattheopeningbellastechralliesonanthr": 1795102934.781004
+"앤트로픽상장기대감에뉴욕증시일제히상승출발": 1795104365.6147773,
+"anthropicringsnasdaqopeningbellaheadofstockmarketdebutcnnbusiness": 1795105084.4951048,
+"anthropicexecutivesringopeningbellatthenasdaq": 1795104364.7256584,
+"stockmarkettodaynasdaqleadsdowandsp500higherattheopeningbellastechralliesonanthr": 1795102934.781004,
+"anthropicailabsfoundersringthenasdaqopeningbell": 1795105084.4951048,
+"watchanthropicexecutiveteamringsnasdaqopeningbell": 1795104364.7256582,
+"anthropicringsopeningbellatthenasdaqforhistoricipo": 1795105084.495104,
+"anthropicringsnasdaqipobell": 1795105084.4951046,
+"protestersconvergeonnasdaqaheadofanthropicipo": 1795105084.495105,
+"watchprotestersconvergeonnasdaqaheadofanthropicipo": 1795105084.4951053,
+"anthropic掛牌彭博預計高開26234820261119即時財經新聞": 1795105088.3924713,
+"anthropicvaluedat15tnaheadofrecordbreakingipolatestupdates": 1795105094.0869825
 }
 }
