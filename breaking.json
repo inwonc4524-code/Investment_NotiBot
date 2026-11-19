@@ -1,30 +1,6 @@
 {
 "items": [
 {
-"key": "fedwarnsofgrowingfinancialrisksfromaiboom",
-"keys": [
-"fedwarnsofgrowingfinancialrisksfromaiboom",
-"fedsbarrwarnsonairiskstofinancialsystem",
-"fedweighsaispromiseandrisk"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Fed warns of growing financial risks from AI boom",
-"show": "연준, AI 붐으로 인한 금융 위험 증가 경고",
-"source": "Axios",
-"src_url": "https://www.axios.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qSlctTWtmQ2hMM1dOZTJHRE8yOUQySGtxTnc0X202UVFHYlEtUVE2LXBDMWJmd19JTmpmaHZQNUZIMUFXWEZGOURxVG44TDBLQlFVMWhiTVJNY284Y3dVcVNHbFdaX1g1OWk1SA?oc=5",
-"url": "https://www.axios.com/2026/11/16/fed-ai-boom-financial-risks",
-"pub": 1794849498.0,
-"time": "11/17 02:18",
-"run": "breaking",
-"added": 1794850647,
-"pv": "b052c435"
-},
-{
 "key": "속보美中ai반도체원격접속차단",
 "keys": [
 "속보美中ai반도체원격접속차단",
@@ -2865,7 +2841,6 @@
 "seen": {
 "jensenhuangsaysheswillingtoreturnasnvidiaceo": 1794940815.3559303,
 "jensenhuangbreakssilencesignalswillingnesstoreturnasnvidiaceo": 1794937189.3364997,
-"jensenhuangsayshedbehonoredtoreturnasnvidiaceo": 1794935721.6781912,
 "jensenhuangiswillingtoreturnasnvidiaceoifboardallowsit": 1794937908.5865278,
 "jensenhuangisopentoreturningtonvidiaasceo": 1794936442.1247983,
 "jensenhuangsayshedbewillingtoreturntonvidiainfirstremarkssinceexit": 1794940815.3559296,
@@ -2873,13 +2848,8 @@
 "jensenhuangsayshewouldbehonoredtoreturntonvidiaasceo": 1794937189.3364997,
 "jensenhuangsaysheiswillingtoreturnasnvidiaceosayingiownmymistakescompletely": 1794936442.124799,
 "jensenhuangsayshewouldbehonoredtoreturnasnvidiaceoinfirstpublicremarkssinceexit": 1794936442.1247993,
-"jensenhuangacknowledgesseriousmistakesbutsayshewouldbehonouredtoreturnasnvidiace": 1794935721.678191,
-"jensenhuangsayshewouldreturntonvidiaifasked": 1794935721.6781914,
-"jensenhuangsayshewouldbehonoredtoreturntonvidiaifboarddecidesitisinshareholdersi": 1794935721.6781917,
 "jensenhuangsayshewouldbehonoredifallowedtoreturnasnvidiaceo": 1794937189.3364975,
-"jensenhuangsayshewouldbehonoredtoreturnasceoinfirststatementsinceresigningfromnv": 1794935721.6781855,
 "jensenhuangsayshewouldbehonoredtoreturnasnvidiaceo": 1794937908.5865269,
-"formernvidiaceojensenhuangissuesfirststatementsinceleaving": 1794935721.678187,
 "readjensenhuangsstatementofferingareturnasnvidiaceo": 1794937189.3364983,
 "jensenhuangsayshewouldreturnasnvidiaceoifaskedsharesgain": 1794936442.1247973,
 "formernvidiaceojensenhuangsayshedbehonoredtoreturntothecompany": 1794936442.1247983,
@@ -3475,6 +3445,6 @@
 "anthropicstartstradingonwallstreet": 1795108007.6503873,
 "anthropicipoliveaigiantpreparestostarttradingstockat83ashare": 1795108007.6503918,
 "watchanthropicipodeliverswallstreetwindfall": 1795108007.6503932,
-"anthropicbeginstradingonnasdaqinrecordbreakingipo": 1795108007.6544878
+"anthropicbeginstradingonnasdaqinrecordbreakingipo": 1795108719.242588
 }
 }
