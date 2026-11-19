@@ -1,29 +1,6 @@
 {
 "items": [
 {
-"key": "엔비디아리스크코스피5100선붕괴외국인14조순매도장중시황",
-"keys": [
-"엔비디아리스크코스피5100선붕괴외국인14조순매도장중시황",
-"코스피5100선도하회외인강한팔자",
-"젠슨황후폭풍에삼전닉스급락코스피5100선위태"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "'엔비디아 리스크' 코스피 5100선 붕괴…외국인 1.4조 순매도[장중시황]",
-"show": "'엔비디아 리스크' 코스피 5100선 붕괴…외국인 1.4조 순매도[장중시황]",
-"source": "뉴스1",
-"src_url": "https://www.news1.kr",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xQW1fbUVzdk9TTXlLbFJQWWRrQzRpUVRQMnpQTHAxWlBOd0dwMlM1SmNyMTBSTl9VMmxJZmJjMTVKOTZHYnB6LXBLM0tGbGY4S1NwdEF6ZjJkTy14Y3pZ?oc=5",
-"url": "https://www.news1.kr/finance/general-stock/6355386",
-"pub": 1794807028.0,
-"time": "11/16 14:30",
-"run": "breaking",
-"added": 1794809216
-},
-{
 "key": "台股跌263504點",
 "keys": [
 "台股跌263504點",
@@ -2615,6 +2592,50 @@
 "time": "11/19 12:00",
 "run": "breaking",
 "added": 1795058589
+},
+{
+"key": "속보1조달러넘어선韓수출오징어가발車반도체",
+"keys": [
+"속보1조달러넘어선韓수출오징어가발車반도체",
+"오징어가발에서반도체까지80년간기적의역사한국수출"
+],
+"count": 2,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보]1조달러 넘어선 韓수출…'오징어→가발→車→반도체'",
+"show": "[속보]1조달러 넘어선 韓수출…'오징어→가발→車→반도체'",
+"source": "아시아경제",
+"src_url": "https://www.asiae.co.kr",
+"sum": "함께 보면 좋은 기사 용산·동작도 아파트값 하락 전환…수원 권선구는 상승폭 2배 넘어 '전국 1위'[부동산AtoZ] 달 착륙부터 우주망원경까지…AI·슈퍼컴퓨터로 우주탐사 준비 사이버도박, 공급자까지 잡는다…범인 절반은 청년층 케임브리지 사전 올해의 단어는 '인간'…\"AI 발전으로 더 중요해져\" 군내 과학기술 인재가 없다[양낙규의 Defence Club] \"한국인 단골 아침 메뉴인데\"…\"위장 다",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsZmNZQVhHVk9rNm9SVTVvME5zTTJPamhrN2VQZTFTRmowMmdySlNuWnA4c0haTjI4NUFNRGIyYU4yTVR2VHI1V25Kc2JkMHVOTUJQRzFValpqWGw4eldnMw?oc=5",
+"url": "https://www.asiae.co.kr/article/2026111914102007328",
+"pub": 1795066311.0,
+"time": "11/19 14:31",
+"run": "breaking",
+"added": 1795066582
+},
+{
+"key": "수출1조달러ai메가마켓코리아수출1조달러돌파",
+"keys": [
+"수출1조달러ai메가마켓코리아수출1조달러돌파",
+"속보한국수출1조달러돌파독일미국중국이어세계네번째"
+],
+"count": 2,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 한국 수출 1조 달러 돌파…독일·미국·중국 이어 세계 네 번째",
+"show": "[속보] 한국 수출 1조 달러 돌파…독일·미국·중국 이어 세계 네 번째",
+"source": "한겨레",
+"src_url": "https://www.hani.co.kr",
+"sum": "한국의 연간 수출액이 사상 처음으로 1조달러를 넘어섰다. 독일·미국·중국에 이어 세계 네 번째다. 1964년 처음 수출 1억달러를 달성한 지 62년 만에 수출 규모가 1만배로 커졌다. 선박·어류·목재·의류 등이 주력 수출품이던 한국의 수출 구조는 반세기 동안 반도체 등",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9HbTJIQXV2U1lTTmZRVnlRYXRSR2hoU3pkODVraURvbWExdThSelhQMEF5blI0R1h2a3N5LXlPTWdGMlhBVXoxc2FXYXV2QURWZnBERWFIcHVSdkNNUFgyWXhPRnVKREl5anRIbkVqZkEyZw?oc=5",
+"url": "https://www.hani.co.kr/arti/economy/economy_general/1288128.html",
+"pub": 1795066200.0,
+"time": "11/19 14:30",
+"run": "breaking",
+"added": 1795066583
 }
 ],
 "seen": {
@@ -3184,7 +3205,11 @@
 "국내증시조정에순대외금융자산다시늘어역대최대폭증가": 1795060778.1249638,
 "港元拆息全線向上1個月hibor無升跌港元升值見近一周最強111920261119即時財經新聞": 1795062239.7550237,
 "恒指半日跌439點北水流入44億元120120261119即時財經新聞": 1795064399.7780724,
-"恒指失守23000點半日跌439點": 1795065119.31475,
-"恒指半日跌439點跌穿23000點科指見逾兩年低北水流入44億元120820261119即時財經新聞": 1795065119.3147504
+"恒指失守23000點半日跌439點": 1795065141.4857728,
+"恒指半日跌439點跌穿23000點科指見逾兩年低北水流入44億元120820261119即時財經新聞": 1795065141.4857736,
+"속보1조달러넘어선韓수출오징어가발車반도체": 1795066582.5872967,
+"오징어가발에서반도체까지80년간기적의역사한국수출": 1795066582.5872977,
+"수출1조달러ai메가마켓코리아수출1조달러돌파": 1795066583.9029627,
+"속보한국수출1조달러돌파독일미국중국이어세계네번째": 1795066583.902964
 }
 }
