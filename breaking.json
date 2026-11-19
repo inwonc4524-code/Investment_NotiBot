@@ -2838,6 +2838,28 @@
 "run": "breaking",
 "added": 1795105094,
 "pv": "b052c435"
+},
+{
+"key": "aigiantanthropicsharessettotradeafterrecordbreakingipo",
+"keys": [
+"aigiantanthropicsharessettotradeafterrecordbreakingipo"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "AI giant Anthropic shares set to trade after record-breaking IPO",
+"show": "AI 거대 기업 앤트로픽 주식, 기록적인 기업공개(IPO) 이후 거래 예정",
+"source": "AFP.com",
+"src_url": "https://www.afp.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOam0yRUZBN29WUk1vUnFMVENucXdBVDE5U3FyS1hQM2ZES2xlVUllZ0hEZ1N5a3JXU0hHaUEzNk8taVdNTWdzNkZQMnktVU9JMVp5ZWVhNE02TFA2UWdKckdIUHFzbF9QYXRrMHdYZEgyMy1Na29sc2VhZVBVTHBwcWVJenl3RXN3MEZETA?oc=5",
+"url": "https://www.afp.com/en/ai-giant-anthropic-shares-set-trade-after-record-breaking-ipo",
+"pub": 1795105073.0,
+"time": "11/20 01:17",
+"run": "breaking",
+"added": 1795105806,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -2847,7 +2869,6 @@
 "firststatementfromjensenhuangsinceresignationasnvidiaceo": 1794934281.7952318,
 "jensenhuangbreakssilencesignalswillingnesstoreturnasnvidiaceo": 1794937189.3364997,
 "jensenhuangsayshedbehonoredtoreturnasnvidiaceo": 1794935721.6781912,
-"jensenhuangsayshewouldbehonoredtoreturnasnvidiaceoinfirstpublicremarks": 1794932817.0875857,
 "jensenhuangiswillingtoreturnasnvidiaceoifboardallowsit": 1794937908.5865278,
 "formernvidiaceojensenhuangsayshesopentoreturninginfirststatementsinceresignation": 1794934281.7952323,
 "jensenhuangisopentoreturningtonvidiaasceo": 1794936442.1247983,
@@ -3446,16 +3467,18 @@
 "뉴욕증시앤트로픽상장기대에일제히상승출발나스닥155": 1795104365.6147776,
 "傳怡和尋求以私募基金形式融得更多資金223920261119即時財經新聞": 1795102903.058727,
 "앤트로픽상장기대감에뉴욕증시일제히상승출발": 1795104365.6147773,
-"anthropicringsnasdaqopeningbellaheadofstockmarketdebutcnnbusiness": 1795105084.4951048,
+"anthropicringsnasdaqopeningbellaheadofstockmarketdebutcnnbusiness": 1795105805.0004377,
 "anthropicexecutivesringopeningbellatthenasdaq": 1795104364.7256584,
 "stockmarkettodaynasdaqleadsdowandsp500higherattheopeningbellastechralliesonanthr": 1795102934.781004,
-"anthropicailabsfoundersringthenasdaqopeningbell": 1795105084.4951048,
+"anthropicailabsfoundersringthenasdaqopeningbell": 1795105805.000438,
 "watchanthropicexecutiveteamringsnasdaqopeningbell": 1795104364.7256582,
 "anthropicringsopeningbellatthenasdaqforhistoricipo": 1795105084.495104,
-"anthropicringsnasdaqipobell": 1795105084.4951046,
+"anthropicringsnasdaqipobell": 1795105805.0004375,
 "protestersconvergeonnasdaqaheadofanthropicipo": 1795105084.495105,
 "watchprotestersconvergeonnasdaqaheadofanthropicipo": 1795105084.4951053,
 "anthropic掛牌彭博預計高開26234820261119即時財經新聞": 1795105088.3924713,
-"anthropicvaluedat15tnaheadofrecordbreakingipolatestupdates": 1795105094.0869825
+"anthropicvaluedat15tnaheadofrecordbreakingipolatestupdates": 1795105094.0869825,
+"atnasdaqopeningbellanthropicceorecommitstopacingaidevelopment": 1795105805.0004373,
+"aigiantanthropicsharessettotradeafterrecordbreakingipo": 1795105812.2200327
 }
 }
