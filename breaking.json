@@ -2897,6 +2897,29 @@
 "run": "breaking",
 "added": 1795123268,
 "pv": "b052c435"
+},
+{
+"key": "반도체훈풍에수출1조달러모두의성과",
+"keys": [
+"반도체훈풍에수출1조달러모두의성과",
+"반도체날개달고수출1조달러거세진中추격이젠수성전이다머니투데이",
+"수출1조달러성장률4육박반도체에쏠린韓경제업황꺾이면더흔들"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "반도체 훈풍에 수출 '1조 달러'‥\"모두의 성과\"",
+"show": "반도체 훈풍에 수출 '1조 달러'‥\"모두의 성과\"",
+"source": "MBC 뉴스",
+"src_url": "https://imnews.imbc.com",
+"sum": "우리나라가 전 세계에서 4번째로 연간 수출액 1조 달러 돌파라는 새 역사를 썼습니다. 반도체가 40% 이상을 차지했고, 중소기업의 수출도 역대 최고 기록을 달성했습니다...",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PZ3JGUFZJbUwyeFdVcmVfS2MwNkVhN0w5T3RhM3RGRVNTc3BqQjRVZ095WDdXdExCalpSZXdYcmlmam9CM0VtY3M0em9vYjRTNnJUbE5jMXFPMkk0alZPcVZIVmFVdTNmRFpvT0xiTFZoTy1JRUpMRUl30gF6QVVfeXFMTzREb1REODc2a2lURFJnTDI3aU5aRUNrdHFoeWpkYWMybEQwTHlFdTU1bm1SQm16aldBM09NQ1hUOE5Wd2daT1UzTUNVUE1KeTdUNXRBUjlnOEo5RTIzNWV6X3pHMFp3czZVSTI2cVBwT3BWSFBhN0kyR1E?oc=5",
+"url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6867115_37012.html",
+"pub": 1795123208.0,
+"time": "11/20 06:20",
+"run": "breaking",
+"added": 1795124010
 }
 ],
 "seen": {
@@ -2910,7 +2933,6 @@
 "뉴욕증시엔비디아실적앞두고일제히하락마감다우164": 1794952450.6520245,
 "속보뉴욕증시일제히하락마감sp500103": 1794952450.6520247,
 "뉴욕증시1보美잇따른전산장애에sp500나스닥4일째": 1794952450.652025,
-"뉴욕증시하락세로마감나스닥074": 1794950984.47205,
 "nvidiasaysrevenuerose103infirstearningsreportsincehuangdeparture": 1794953889.9233634,
 "nvidiaforecastsquarterlyrevenueaboveestimatesinfirstreportsincehuangsexitasceo": 1794952449.6485534,
 "nvidiaseekstoreassureinvestorsinfirstearningsreportsincejensenhuangscandal": 1794953889.9233644,
@@ -3475,11 +3497,18 @@
 "stocksslipasanthropicgainsonmarketdebutandoilpricesrise": 1795113804.5906665,
 "anthropicsharessoarmorethan34to2trilliononwallstreetdebut": 1795113804.5906675,
 "formernasdaqchairmanrobertgreifeldweighsinonanthropicsrecordbreakingipo": 1795115990.7813842,
-"뉴욕증시1보앤트로픽상장은매도신호였나2대급락마감": 1795123248.4150965,
-"속보앤스로픽상장첫날뉴욕증시2대급락다우5만선붕괴": 1795123248.415098,
-"뉴욕증시하락세로마감나스닥225": 1795123249.4533043,
-"속보뉴욕증시ai주약세에하락나스닥225": 1795123249.4533048,
-"속보앤스로픽증시입성에도일제히하락마감": 1795123262.2402713,
-"anthropicipoanthropicsharescloseup17afterrecordbreakingstockmarketdebut": 1795123268.6864588
+"뉴욕증시1보앤트로픽상장은매도신호였나2대급락마감": 1795123287.7690861,
+"속보앤스로픽상장첫날뉴욕증시2대급락다우5만선붕괴": 1795123287.7690873,
+"뉴욕증시하락세로마감나스닥225": 1795123287.7690961,
+"속보뉴욕증시ai주약세에하락나스닥225": 1795124010.8214447,
+"속보앤스로픽증시입성에도일제히하락마감": 1795124008.7935886,
+"anthropicipoanthropicsharescloseup17afterrecordbreakingstockmarketdebut": 1795124015.4320757,
+"앤트로픽상장에도뉴욕증시급락3대지수2대뚝": 1795124008.7935877,
+"뉴욕증시앤스로픽상장에도급락마감다우5만선하회": 1795124008.7935884,
+"앤트로픽상장에도뉴욕증시2대급락다우50000선아래로": 1795124008.7935886,
+"반도체훈풍에수출1조달러모두의성과": 1795124010.82142,
+"반도체날개달고수출1조달러거세진中추격이젠수성전이다머니투데이": 1795124010.8214211,
+"수출1조달러성장률4육박반도체에쏠린韓경제업황꺾이면더흔들": 1795124010.8214223,
+"뉴욕증시ai주약세에2대하락다우지수5만선붕괴": 1795124010.8214445
 }
 }
