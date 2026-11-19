@@ -2678,6 +2678,28 @@
 "time": "11/19 06:05",
 "run": "breaking",
 "added": 1795036793
+},
+{
+"key": "nyclaandchicagoschooldistrictsweighbreakingupwithgooglesearchoverai",
+"keys": [
+"nyclaandchicagoschooldistrictsweighbreakingupwithgooglesearchoverai"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "NYC, LA and Chicago School Districts Weigh Breaking Up With Google Search Over A.I.",
+"show": "NYC, LA 및 시카고 학군은 AI를 통해 구글 검색을 중단하는 것을 중요하게 생각합니다.",
+"source": "The New York Times",
+"src_url": "https://www.nytimes.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFZTcW1oQlltWWRFUy1hUzY4ODVqZXFKcl9McGNhUDZqam90WE9YQ3RqclV1czZJOVdKZURXeUxpTkRVM2FONklyQ2ZiS215WTBLTE14RFVZOWY1cnZUQTR5cDVNRlJ3bTVrWkJ5aGdxMG83NURiTjk1V0NLclhVM1NFcWctSVA0bUhad2dMYjg0czFSTk1KVUQyZXZTUQ?oc=5",
+"url": "https://www.nytimes.com/2026/11/18/technology/google-gemini-ai-search-schools-nyc-la-chicago.html",
+"pub": 1795044186.0,
+"time": "11/19 08:23",
+"run": "breaking",
+"added": 1795047704,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -3261,6 +3283,7 @@
 "마켓무버뉴욕증시혼조마감엔비디아호실적에도ai투심제한": 1795043334.6316245,
 "뉴욕증시마감엔비디아호실적에도혼조다우111": 1795043334.6316252,
 "뉴욕증시혼조마감엔비디아호실적에도ai투심제한": 1795044801.3378098,
-"엔비디아호실적도역부족sp5005거래일연속하락뉴욕증시": 1795044801.337809
+"엔비디아호실적도역부족sp5005거래일연속하락뉴욕증시": 1795044801.337809,
+"nyclaandchicagoschooldistrictsweighbreakingupwithgooglesearchoverai": 1795047709.9552696
 }
 }
