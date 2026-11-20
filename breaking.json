@@ -1,55 +1,6 @@
 {
 "items": [
 {
-"key": "jensenhuangsaysheispreparedtoreturnasnvidiaceo",
-"keys": [
-"jensenhuangsaysheispreparedtoreturnasnvidiaceo",
-"jensenhuangsayshewouldbehonoredtobereinstatedasnvidiaceoinnewstatement",
-"jensenhuangsaysheswillingtoreturnasnvidiaceo",
-"firststatementfromjensenhuangsinceresignationasnvidiaceo",
-"nvidiaceojensenhuangissuesfirststatementsinceleaving",
-"jensenhuangbreakssilencesignalswillingnesstoreturnasnvidiaceo",
-"whyjensenhuangshouldnotbereinstatedasnvidiasceo"
-],
-"count": 6,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Jensen Huang says he is prepared to return as Nvidia CEO",
-"show": "젠슨 황은 엔비디아 CEO로 복귀할 준비가 되어 있다고 밝혔습니다.",
-"source": "Financial Times",
-"src_url": "https://www.ft.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYnY4dFJSYTA1MnJFSlg3WTRTWXVmeWlxX2RPNURuR2VaMnQ4ZTdnMFB1N1cwUm1oTnNEYzZwM0NNWk8ycGsyc0l6ckwtVTdla0J4dENrblNJT2pjR21yVlBkamliUXpTNVppLUplcnF5bGg3UkxkTE1wTVk5VGxLZ1lqLS0?oc=5",
-"url": "https://www.ft.com/content/e265542c-25d9-4a82-8cb7-e4a4b641cdda?syn-25a6b1a6=1",
-"pub": 1794931942.0,
-"time": "11/18 01:12",
-"run": "breaking",
-"added": 1794932097,
-"pv": "b052c435"
-},
-{
-"key": "속보젠슨황이사회요청시엔비디아복귀사임후첫공개발언",
-"keys": [
-"속보젠슨황이사회요청시엔비디아복귀사임후첫공개발언"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보] 젠슨 황 \"이사회 요청 시 엔비디아 복귀\"‥사임 후 첫 공개 발언",
-"show": "[속보] 젠슨 황 \"이사회 요청 시 엔비디아 복귀\"‥사임 후 첫 공개 발언",
-"source": "MBC 뉴스",
-"src_url": "https://imnews.imbc.com",
-"sum": "엔비디아 최고경영자에서 물러난 젠슨 황이 이사회의 요청이 있을 경우 엔비디아로 복귀할 수 있다는 입장을 내놓았습니다. 젠슨 황은 현지시간 17일 성명을 통해 \"퇴임 이후 엔비디아 ...",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Vb0NYRjV2dUczRkhMQ0t1WEdwZGtpdDhQMl9XLTFnM1RrdmlBU2lhNmJneXJkQ29BcmZuQmFZQnhFb3NyZFR4SFVaR2tZMWJvVVNLMzdPaFVzSnRaTHlQb3BaUWtVMWNLaWVGdGdaSFhUZzBU0gF0QVVfeXFMUDkyZ2d2OWFjeFF0Y1p3eDlmY0tZcWNoU0NnN1BYWVRadkI0S1NGSGo1am1IcUZTWVNYbkhENVlkb0YxUFp5QkV0blhEaXNadWpkbnBBakdQcnU5UHpyWWl4eG1BSkxRb2FHS2g4Tjl1aHQwSVA?oc=5",
-"url": "https://imnews.imbc.com/news/2026/world/article/6866443_36925.html",
-"pub": 1794932837.0,
-"time": "11/18 01:27",
-"run": "breaking",
-"added": 1794937164
-},
-{
 "key": "appleservicesdisruptedafterinternalupdate",
 "keys": [
 "appleservicesdisruptedafterinternalupdate",
@@ -2846,6 +2797,29 @@
 "run": "breaking",
 "added": 1795190224,
 "pv": "b052c435"
+},
+{
+"key": "486996올해1월수준돌아간코스피고점대비3400조증발",
+"keys": [
+"486996올해1월수준돌아간코스피고점대비3400조증발",
+"사진1월로돌아간코스피",
+"10개월전으로돌아간코스피"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "‘4869.96’ 올해 1월 수준 돌아간 코스피…고점 대비 3400조 증발",
+"show": "‘4869.96’ 올해 1월 수준 돌아간 코스피…고점 대비 3400조 증발",
+"source": "한겨레",
+"src_url": "https://www.hani.co.kr",
+"sum": "코스피가 5% 넘게 떨어지며 20일 4869.96에 마감했다. 장중 변동성이 커지며 올해 59번째 사이드카도 발동했다. 이날로 코스피는 올해 1월 수준으로 떨어졌는데, 고점 대비로는 시가총액 3400조원이 사라졌다. 이날 코스피는 전날보다 5.21% 떨어지며 4800선",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GR2d1M1dqY1JuV0I3OEpDcldiOVJKOEx2cUNnRzZzZjBHcDMyX2t3MnNpa2tTdk1WRUx1ZmQydS1Rd0lORVM5emtWT2tBSzM5Wk5GMHE2MGh4aXdqODdxWl9IQXoxVms?oc=5",
+"url": "https://www.hani.co.kr/arti/economy/finance/1288373.html",
+"pub": 1795191840.0,
+"time": "11/21 01:24",
+"run": "breaking",
+"added": 1795193136
 }
 ],
 "seen": {
@@ -3415,8 +3389,11 @@
 "뉴욕증시ai주약세속혼조출발나스닥149": 1795188782.335181,
 "뉴욕증시기술주투심위축속혼조출발": 1795188782.3351803,
 "快訊美股ai續跌台指期夜盤再破底台積電adr挫4": 1795189504.1082077,
-"nvidiafacescaliforniasubpoenaoverchinachipsalesprobe": 1795190229.4524775,
-"nvidiastroublesmountaschinachipsalesfacescrutiny": 1795190229.4524817,
-"californiaattorneygeneralsubpoenasnvidiaoverchipsreachingchina": 1795190229.4524827
+"nvidiafacescaliforniasubpoenaoverchinachipsalesprobe": 1795190254.8025277,
+"nvidiastroublesmountaschinachipsalesfacescrutiny": 1795190254.8025281,
+"californiaattorneygeneralsubpoenasnvidiaoverchipsreachingchina": 1795190254.8025289,
+"486996올해1월수준돌아간코스피고점대비3400조증발": 1795193136.7088196,
+"사진1월로돌아간코스피": 1795193136.7088206,
+"10개월전으로돌아간코스피": 1795193136.7088206
 }
 }
