@@ -1,30 +1,6 @@
 {
 "items": [
 {
-"key": "appleservicesdisruptedafterinternalupdate",
-"keys": [
-"appleservicesdisruptedafterinternalupdate",
-"applemanyofoursystemsbackupandrunningafteraninternalupdatecausedsomeoutages",
-"appleworkstofixsystemsafterupdatecausedinternalretailandicloudoutages"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Apple Services Disrupted After Internal Update",
-"show": "내부 업데이트 후 애플 서비스 중단",
-"source": "The New York Times",
-"src_url": "https://www.nytimes.com",
-"sum": "이번 중단은 지난 주 항공 여행과 사무실, 학교 및 정부 업무를 방해하는 관련 없는 문제로 인해 발생했습니다.",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVVdkd0RiSEp5RzQ2WmNEZWNRM1JoYlhOekYzajU3amxGNXJLa2xVUUdFLUYtTmEyMTZqQXpfZk9KbExPbXYtZ1cySjlKQkdNOU1Wdkc1N19XOVV0d2dFUGJCNklJTVFxa0lEd1l3aDdZZE9ONWFDZW9CbjVqeUFHaw?oc=5",
-"url": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html",
-"pub": 1794944795.0,
-"time": "11/18 04:46",
-"run": "breaking",
-"added": 1794945883,
-"pv": "b052c435"
-},
-{
 "key": "장건건설근로자공제회이사장용인반도체클러스터현장격려",
 "keys": [
 "장건건설근로자공제회이사장용인반도체클러스터현장격려",
@@ -2823,9 +2799,6 @@
 }
 ],
 "seen": {
-"fedminutesshowgrowinguneaseabouttheoutlookforinflation": 1795031694.8717291,
-"fedofficialsexpectmoreratehikesworryaboutaiimpactoninflationminutesshow": 1795031694.8717299,
-"fedminutesshowalmostallofficialsexpectmoreratehikes": 1795031694.87173,
 "속보뉴욕증시나스닥지수만반등엔비디아29하락": 1795038980.1689677,
 "속보뉴욕증시지수별혼조마감다우1하락나스닥04상승": 1795038980.168968,
 "뉴욕증시1보엔비디아실적도못살렸다혼조마감": 1795041140.3550155,
