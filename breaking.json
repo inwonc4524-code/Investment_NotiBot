@@ -1,77 +1,6 @@
 {
 "items": [
 {
-"key": "속보엔비디아실적앞두고美증시매도확산다우16",
-"keys": [
-"속보엔비디아실적앞두고美증시매도확산다우16",
-"속보엔비디아실적앞두고美증시하락나스닥4월이후최저",
-"속보뉴욕증시엔비디아실적경계감에하락마감나스닥074"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보]엔비디아 실적 앞두고 美증시 매도 확산…다우 1.6%↓",
-"show": "[속보]엔비디아 실적 앞두고 美증시 매도 확산…다우 1.6%↓",
-"source": "이데일리",
-"src_url": "https://www.edaily.co.kr",
-"sum": "뉴욕증시 3대 지수가 17일(현지시간) 일제히 하락했다. 엔비디아 실적 발표를 앞두고 인공지능(AI) 투자 수익성과 고객사 자금 조달에 대한 우려가 이어졌다. 반도체에서 소프트웨어와 은행·항공주로 매도세가 번졌고, 미 국가안보국(NSA) 통신망 장애 보도까지 겹치면서...",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSXJCS003eDJmOFRJRzVSSGZqeFd0Q29KNnp3RjAwQVN4Z29KZVY3U19pWmxkVGVSb2pUc0ZaWngxdEdwejJpeF9VaHdEa3IwZjczbi10ZUJ3aTNhMkw1UmpxRlpCVDVNSHliTURyZmhEa1NsVTRSejBTTldfSVQ5Qw?oc=5",
-"url": "https://www.edaily.co.kr/News/Read?newsId=01387446645647032&mediaCodeNo=257",
-"pub": 1794949635.0,
-"time": "11/18 06:07",
-"run": "breaking",
-"added": 1794950265
-},
-{
-"key": "nvidiasaysrevenuerose103infirstearningsreportsincehuangdeparture",
-"keys": [
-"nvidiasaysrevenuerose103infirstearningsreportsincehuangdeparture",
-"nvidiaforecastsquarterlyrevenueaboveestimatesinfirstreportsincehuangsexitasceo",
-"nvidiaseekstoreassureinvestorsinfirstearningsreportsincejensenhuangscandal"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Nvidia Says Revenue Rose 103% in First Earnings Report Since Huang Departure",
-"show": "엔비디아는 황이 떠난 이후 첫 실적 발표에서 수익이 103% 증가했다고 밝혔습니다.",
-"source": "The Information",
-"src_url": "https://www.theinformation.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVnIyQzlxUmpINDQ1SmlOVlVNR19qaXEzQXNOZ0VpMkRGR3UyaE5qV2dpelZsRzVjeGRzc1JHVFdfaDg4emFJakZuZWJmN19zQTItYktiQmVKQUFsQlE5YWVYNjRyZVRUSXpnUXhMdTQtcGQ1a1V5MzVFZlBkZjNEVE13bjBjeTJ2cHBoT2tMZU9DdXRUbk9fbEF6cnZoSVBfY2RHdXZjWUNxRW5Rdk1SNlk4VQ?oc=5",
-"url": "https://www.theinformation.com/briefings/nvidia-says-revenue-rose-103-first-earnings-report-since-huang-departure",
-"pub": 1794951240.0,
-"time": "11/18 06:34",
-"run": "breaking",
-"added": 1794951731,
-"pv": "b052c435"
-},
-{
-"key": "secisprobingnvidiaamidjensenhuangsexitwsjreports",
-"keys": [
-"secisprobingnvidiaamidjensenhuangsexitwsjreports",
-"secisprobingnvidiaamidjensenhuangdepartureaccordingtothewallstreetjournal",
-"exclusivesecisprobingnvidiaamiddepartureofceojensenhuang"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "SEC Is Probing Nvidia Amid Jensen Huang’s Exit, WSJ Reports",
-"show": "SEC는 젠슨 황의 퇴장 속에서 엔비디아를 조사하고 있다고 WSJ 보고서",
-"source": "Bloomberg.com",
-"src_url": "https://www.bloomberg.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUnhVUk9Dc2NOSkpRSEVlMXBjb1VTdTQ0azctQWpsNndvZXVaRFU5S3RKdEJ6cUM5OFp0RWFxYUJhU3lNYTVRZTVramJQVjROMlV1QkFvQlR2anREQmphLTQyMGY1TXZ3YXcxZWQ4NnpnSUFfZ2g4c0pCcFRUb1FHOGJJMV8tclNBbUVhU0pyU1NWR1M1by12emxLVXIwNVhhUWRKa05LcU5wdXozUWc?oc=5",
-"url": "https://www.bloomberg.com/news/articles/2026-11-17/sec-is-probing-nvidia-amid-jensen-huang-s-exit-wsj-reports",
-"pub": 1794950724.0,
-"time": "11/18 06:25",
-"run": "breaking",
-"added": 1794951737,
-"pv": "b052c435"
-},
-{
 "key": "속보엔비디아임시ceo삼성전기와반도체기판공급신규계약",
 "keys": [
 "속보엔비디아임시ceo삼성전기와반도체기판공급신규계약"
@@ -3343,6 +3272,11 @@
 "californiaattorneygeneralsubpoenasnvidiaoverchipsreachingchina": 1795190254.8025289,
 "486996올해1월수준돌아간코스피고점대비3400조증발": 1795193158.2455058,
 "사진1월로돌아간코스피": 1795193158.2455063,
-"10개월전으로돌아간코스피": 1795193158.245507
+"10개월전으로돌아간코스피": 1795193158.245507,
+"뉴욕증시하락세로마감나스닥528": 1795209122.75954,
+"속보뉴욕증시급락마감나스닥53폭락": 1795210563.0247397,
+"속보뉴욕증시기술주매도에나스닥53다우sp500도조정진입": 1795209122.7595413,
+"속보뉴욕증시앤스로픽급락에붕괴나스닥53폭락": 1795210563.0247407,
+"뉴욕증시급락앤트로픽상장상승반납": 1795210563.0247393
 }
 }
