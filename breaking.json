@@ -1,76 +1,6 @@
 {
 "items": [
 {
-"key": "ai투심악화직격탄2월로돌아간코스피",
-"keys": [
-"ai투심악화직격탄2월로돌아간코스피",
-"5000도무너졌다2월로되돌아간코스피",
-"심리적마지노선5000무너졌다"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "AI투심 악화 직격탄…2월로 돌아간 코스피",
-"show": "AI투심 악화 직격탄…2월로 돌아간 코스피",
-"source": "한국경제",
-"src_url": "https://www.hankyung.com",
-"sum": "AI투심 악화 직격탄…2월로 돌아간 코스피, 코스피 5000선 붕괴 젠슨 황 불륜 스캔들 악재에 마이크론 등 美반도체주 휘청 외국인 코스피서도 1.4조 매도 오늘 엔비디아 3분기 실적이 변수",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oTzhpWGRxNnc5dTBBNWdnTUV3R1gtbVlDdXR0QmRBQjhHd05BYkZsa1k2YWt5MXR6N1gxQTZfQ0xuSTA0TmVScE1pelpvM0RWVU5Ec1FPVldNUQ?oc=5",
-"url": "https://www.hankyung.com/article/2026111726951",
-"pub": 1794905748.0,
-"time": "11/17 17:55",
-"run": "breaking",
-"added": 1794906661
-},
-{
-"key": "新台幣升36分收3285元",
-"keys": [
-"新台幣升36分收3285元",
-"台幣又驚見33元央行阻貶收盤前轉升收3285元"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "tw",
-"region": "🇹🇼 대만",
-"title": "新台幣升3.6分 收32.85元",
-"show": "신대만 달러는 3.6센트 오른 NT$32.85에 마감되었습니다.",
-"source": "UDN",
-"src_url": "http://udn.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KR0p1RHB2bGxRZGF5WGJzWHJya3VCOUlpTXJOdzJ6dlVnVi1EZnJuY2FiVlZDeTFBM0FDbUNXd0EyX3NkcXBPR2xUQzI3RVRJYkZKZEwyYWNoQTBobVhHRlZzOExRRXVFSm13OHpZaTlqQQ?oc=5",
-"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KR0p1RHB2bGxRZGF5WGJzWHJya3VCOUlpTXJOdzJ6dlVnVi1EZnJuY2FiVlZDeTFBM0FDbUNXd0EyX3NkcXBPR2xUQzI3RVRJYkZKZEwyYWNoQTBobVhHRlZzOExRRXVFSm13OHpZaTlqQQ?oc=5",
-"pub": 1794906029.0,
-"time": "11/17 18:00",
-"run": "breaking",
-"added": 1794906664,
-"pv": "b052c435"
-},
-{
-"key": "台積電表揚35家優良供應商台廠漢唐矽品和碩新入列",
-"keys": [
-"台積電表揚35家優良供應商台廠漢唐矽品和碩新入列",
-"台積電優良供應商35家出爐13家台廠入列新聞",
-"台積電供應鏈管理論壇官方認證最新35家優良供應商出列"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "tw",
-"region": "🇹🇼 대만",
-"title": "台積電表揚35家優良供應商 台廠漢唐、矽品、和碩新入列",
-"show": "TSMC는 35개의 우수한 공급업체를 표창합니다. 대만 제조업체인 Hantang, Silicon Products, Pegatron이 새로 목록에 포함되었습니다.",
-"source": "鉅亨網",
-"src_url": "https://news.cnyes.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUdTVXRkJaekFqZGlvV1NCelRLOTJtZ0pGM2trTEpWTVFBaTQtcnY3SENlVm80UVVtS2tNV3BKWTVFR3phMU5CSWI0YllrSFE?oc=5",
-"url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUdTVXRkJaekFqZGlvV1NCelRLOTJtZ0pGM2trTEpWTVFBaTQtcnY3SENlVm80UVVtS2tNV3BKWTVFR3phMU5CSWI0YllrSFE?oc=5",
-"pub": 1794905113.0,
-"time": "11/17 17:45",
-"run": "breaking",
-"added": 1794906666,
-"pv": "b052c435"
-},
-{
 "key": "nvidiaformsnationalsecuritycommitteeafterhuangsexit",
 "keys": [
 "nvidiaformsnationalsecuritycommitteeafterhuangsexit",
@@ -2968,17 +2898,34 @@
 "run": "breaking",
 "added": 1795161818,
 "pv": "b052c435"
+},
+{
+"key": "尾盘突发a股市值一哥直线拉升多只龙头股异动",
+"keys": [
+"尾盘突发a股市值一哥直线拉升多只龙头股异动"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "cn",
+"region": "🇨🇳 중국",
+"title": "尾盘突发！A股市值“一哥”直线拉升！多只龙头股异动",
+"show": "세션이 끝나고 갑자기 깜짝 놀랐습니다! A주 시가총액이 급등했습니다! 많은 주요 주식이 비정상적으로 움직였습니다.",
+"source": "21财经",
+"src_url": "https://www.21jingji.com",
+"sum": "오늘 A주 시장 전체는 성장기업시장과 과학기술혁신위원회가 하락세를 주도하면서 주요 지수가 다양한 각도로 하락하면서 전체적으로 더욱 조정되었습니다. 시가총액이 큰 대형주들이 장 후반에 급등한 경우가 많다는 점은 주목할 만하다. 이 중 A주 시가총액 '큰형'인 중국공상은행은 3.30% 상승하며 종가 신고가를 경신했다. 이날 주가도 계속해서 장중 최고치를 경신했다. 또한, 다수의 광범위한 ETF가 다시 한 번 엄청난 거래량을 경험했습니다. 그 중 Shanghai Composite 50 ETF China(510050)가 상당한 거래량을 기록했습니다. 해당 ETF는 하루 종일 243억4000만 위안에 거래돼 전 거래일보다 8배 이상 급증했다. A주 시장의 많은 주요 주식이 장 후반에 상승했습니다. 마감 기준 상하이종합지수는 1.22%, 선전종합부품지수는 3.09%, GEM지수는 3.54%, 과학기술혁신종합지수는 5.23%, 베이신50지수는 4.85% 하락했다.",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSlF4TmVidnVRbDF0YVhmbkVlRFhHR1R5d1RCMmo1YjE5YS1RSVBHNEhpSFA2cHVlNENzSjR0NEtmbTY3bGR1NzJ4OF85bTNWVGN0bFdNTGx6WVY0dEdTbUVVMkV5Sl9Oczg4T3J5djB6QW9RMk8tUE9XRXkzbDFSVElYb29hbWNrS05iWWRKWQ?oc=5",
+"url": "https://www.21jingji.com/article/20261120/herald/d09605296b9517185deaec6571b5331a.html",
+"pub": 1795163664.0,
+"time": "11/20 17:34",
+"run": "breaking",
+"added": 1795165443,
+"pv": "b052c435"
 }
 ],
 "seen": {
 "恒指跌266點李寧挫188藍籌最弱京東系偏軟京東健康瀉176黃金股弱勢121320261118即時財經新聞": 1794998962.2094948,
-"양승조수자원公사장반도체용수공급차질없도록취임첫현장행보": 1794992433.9109645,
-"양승조수공사장취임후첫행보용인반도체클러스터찾아": 1794992433.910965,
-"반도체클러스터부터달려간수자원公사장": 1794991687.4572272,
-"양승조사장용인반도체클러스터현장점검용수공급기반점검": 1794992433.9109635,
 "港股低收213點京東系績後受壓": 1794993156.987422,
 "港股收市恒指跌213點京東績後挫7紫金跌6ai雙雄逆市升不斷更新": 1794993156.987423,
-"港股收市報23294點跌213點": 1794991693.173466,
 "恒指跌213點聯想逆市升45京東系低迷京東健康插水15161720261118即時財經新聞": 1794993876.4342601,
 "恒指走勢丨兩連跌再跌213點京東系捱沽": 1794993156.9874206,
 "democratsprobewhetherhowardlutnickhelpedcantoravoidnvidialossesftreports": 1794998238.747116,
@@ -3550,7 +3497,8 @@
 "三大法人賣超台股52246億元": 1795161818.4023745,
 "台股跌23936點收3603329點三大法人賣超52246億元": 1795161818.4023755,
 "한국수자원공사반도체생명수초순수분석실개소식열어": 1795163252.7689066,
-"恒指收市跌430點較1月收市高位累跌19北水流入118億元161020261120即時財經新聞": 1795163976.2964272,
-"恒指收市跌430點較1月收市高位累跌19北水流入118億元港股連跌兩周科指累跌7見一年最差": 1795163976.2964268
+"恒指收市跌430點較1月收市高位累跌19北水流入118億元161020261120即時財經新聞": 1795165445.457446,
+"恒指收市跌430點較1月收市高位累跌19北水流入118億元港股連跌兩周科指累跌7見一年最差": 1795165445.4574454,
+"尾盘突发a股市值一哥直线拉升多只龙头股异动": 1795165443.9263084
 }
 }
