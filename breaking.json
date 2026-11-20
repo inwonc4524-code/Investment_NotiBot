@@ -1,55 +1,6 @@
 {
 "items": [
 {
-"key": "nvidiaformsnationalsecuritycommitteeafterhuangsexit",
-"keys": [
-"nvidiaformsnationalsecuritycommitteeafterhuangsexit",
-"nvidiaformsboardcommitteetooverseenationalsecurityexportcontrols",
-"nvidiaboardformscommitteefornationalsecurityandexportcontroloversight",
-"nvidiaformsexportcontrolboardcommitteeafterchipcurbs"
-],
-"count": 4,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Nvidia Forms National Security Committee After Huang’s Exit",
-"show": "엔비디아, 황 퇴임 후 국가안보위원회 구성",
-"source": "WSJ",
-"src_url": "https://www.wsj.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXhhSVphOVEtNXVqU24ySnNTdTdRbzFpQ3hQc2k0dzJuZndjVW4yNGlDQWFpRWRXR1ZWQnJ1U0gwcmdnZkpPb2hMaGhfbmhmMG55UGd0QzctQy00RUF6aThiRHAzSC0zVWFFdkJ4RFpjNGhSWkVCYVBjY2FKRGFDcUJrZTdGa2NDODhiYkh1NGE0czRCNmVpMmQ3RER4WlBYTjBRdHFaUmVQTTIya2V2Ri00Wng?oc=5",
-"url": "https://www.wsj.com/politics/national-security/nvidia-forms-national-security-committee-after-huangs-exit-c3261fc2",
-"pub": 1794911820.0,
-"time": "11/17 19:37",
-"run": "breaking",
-"added": 1794912480,
-"pv": "b052c435"
-},
-{
-"key": "usstockfuturesslipaheadofnvidiaresultsfedspeakersinfocus",
-"keys": [
-"usstockfuturesslipaheadofnvidiaresultsfedspeakersinfocus",
-"stocksslideasnvidiaresultsloom",
-"predictionnvidiawillcrushitsthirdquarteroperatingresultstodaynov17butitsstockwil"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "US stock futures slip ahead of Nvidia results; Fed speakers in focus",
-"show": "미국 주식 선물은 엔비디아 결과보다 하락했습니다. 초점을 맞추고 있는 연방준비제도(연준) 연사",
-"source": "Reuters",
-"src_url": "https://www.reuters.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5",
-"url": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
-"pub": 1794912823.0,
-"time": "11/17 19:53",
-"run": "breaking",
-"added": 1794913200,
-"pv": "b052c435"
-},
-{
 "key": "fedsmusalemseveralratehikeslikelyneededbyspringtocontrolinflation",
 "keys": [
 "fedsmusalemseveralratehikeslikelyneededbyspringtocontrolinflation",
@@ -2945,12 +2896,6 @@
 }
 ],
 "seen": {
-"恒指跌266點李寧挫188藍籌最弱京東系偏軟京東健康瀉176黃金股弱勢121320261118即時財經新聞": 1794998962.2094948,
-"democratsprobewhetherhowardlutnickhelpedcantoravoidnvidialossesftreports": 1794998238.747116,
-"democratsprobewhetherhowardlutnickhelpedcantoravoidnvidialosses": 1794998238.7471166,
-"democratsplanprobeoflutnickcantorfitzgeraldsnvidiaties": 1794998238.7471175,
-"按證公司為225億港元多幣種公募基準債券發行完成定價180420261118即時財經新聞": 1794999681.6963797,
-"按證公司為225億港元多幣種公募基準債券發行完成定價": 1794998242.7489781,
 "台股9檔翻車爆違約交割42億創意欣興華通上榜": 1795001878.6730714,
 "1116台股重挫9檔個股爆違約交割": 1795001878.673072,
 "속보뉴욕증시앤트로픽공모가발표전혼조세출발다우029나스닥078": 1795016415.7497869,
