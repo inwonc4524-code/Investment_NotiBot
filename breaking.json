@@ -1,31 +1,6 @@
 {
 "items": [
 {
-"key": "lawyerforfedgovernorlisacooksaysshewillnotparticipateinwhitehousehearing",
-"keys": [
-"lawyerforfedgovernorlisacooksaysshewillnotparticipateinwhitehousehearing",
-"lawyerforfedscookthreatenstonottakepartinunfairwhitehousehearing",
-"fedgovernorcookwontattendwhitehousehearingwithoutchanges",
-"fedscooktoskipunfairwhitehousehearinglawyersays"
-],
-"count": 4,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Lawyer for Fed Governor Lisa Cook says she will not participate in White House hearing",
-"show": "리사 쿡 연방준비제도(연준) 총재 측 변호사가 백악관 청문회에 참석하지 않겠다고 밝혔다.",
-"source": "Yahoo Finance",
-"src_url": "https://finance.yahoo.com",
-"sum": "리사 쿡 연방준비제도(연준) 총재의 변호사는 월요일 밤 백악관에 쿡이 자신의 해임 가능성을 둘러싼 청문회에 참석하지 않을 것이라고 통보하면서 절차가 불공평하고 중앙은행의 독립성을 위협한다고 주장했습니다.",
-"link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeGN2U2RjZF9Sek5ENUJtWFdyWXlkamxyVG9CY2h2RVNnZDE1NlMwY3FtckdRS0tBdTA3c0xvM2dWZjZwX3lwZXJaZTB3T2Nxd0RMN1JoR0Z0V2dEdzlwTktmbkZrVG9WamZIblB2UXlUY3duaUZHaVc1MFlVaHJ3eFlXMmtVdDd6dWd4QXUzaDNDeVpGR2VTNWVnSTI4SkVSMXJKU3pXbkxWTU5lV19XbFRua1lUWjJucWxEOVVXakpjQjZHdkVpMHFEcGphM3ZqOUxLUzRqQjVhS3JKVUptU2l5SWI?oc=5",
-"url": "https://finance.yahoo.com/economy/policy/article/lawyer-for-fed-governor-lisa-cook-says-she-will-not-participate-in-white-house-hearing-143031698.html",
-"pub": 1794925831.0,
-"time": "11/17 23:30",
-"run": "breaking",
-"added": 1794926285,
-"pv": "b052c435"
-},
-{
 "key": "속보미뉴욕증시ai주약세속3대지수초반일제히하락세출발",
 "keys": [
 "속보미뉴욕증시ai주약세속3대지수초반일제히하락세출발"
@@ -2849,6 +2824,27 @@
 "run": "breaking",
 "added": 1795172827,
 "pv": "b052c435"
+},
+{
+"key": "속보뉴욕증시하락출발다우219나스닥225",
+"keys": [
+"속보뉴욕증시하락출발다우219나스닥225"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 뉴욕증시 하락 출발…다우 2.19%↓·나스닥 2.25%↓",
+"show": "[속보] 뉴욕증시 하락 출발…다우 2.19%↓·나스닥 2.25%↓",
+"source": "뉴시스",
+"src_url": "https://www.newsis.com",
+"sum": "[속보] 뉴욕증시 하락 출발…다우 2.19%↓·나스닥 2.25%↓",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tRFJQQ19Ea281VDFwYy1aMlVnRVJvV2NkN3RmSERpbEpZLVVBZ0FuN3hmQ1M3RWs3TmxCYmswMEF2V2VZU1Q0aEs3TjQ4dlFHTnIzdUNFcXZudjFSNDRrWNIBeEFVX3lxTE12eWRCZWlKeUI1RnZEbmIteWxUNWVXUWlsclZINE1pTS1OeUlHcGc5aVdiSU1nRWg3NW1jdDBUOHZldVF5X241cmxVX1Z3LWlCVG83MERydkg3S3hFVDFXem4zX3cyTXBueWg2ZGFjcWJuQ19XejA4QQ?oc=5",
+"url": "https://www.newsis.com/view/NISX20261120_0003877488",
+"pub": 1795184082.0,
+"time": "11/20 23:14",
+"run": "breaking",
+"added": 1795185160
 }
 ],
 "seen": {
@@ -3423,6 +3419,7 @@
 "恒指季檢出爐科指成份股新新增20隻納入寧德長飛建滔系": 1795174264.685646,
 "恒指季檢將公布科指改革名單成份股增至50隻寧德shein成大熱": 1795172827.919577,
 "恒指季檢大增科指20隻成分股寧德佔逾2比重184920261120即時財經新聞": 1795174985.7941947,
-"恒指公司科指成份股增至50隻納入寧德時代及壁仞科技等": 1795174264.6856453
+"恒指公司科指成份股增至50隻納入寧德時代及壁仞科技等": 1795174264.6856453,
+"속보뉴욕증시하락출발다우219나스닥225": 1795185160.9028888
 }
 }
