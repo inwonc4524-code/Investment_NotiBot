@@ -332,7 +332,8 @@
 "米ナスダック急落不安ダウも大幅安",
 "アンソロピック急落9安テック株全体に波及ナスダック5安",
 "速報米ナスダック総合指数は超急落して終了した",
-"ダウ先物が続落ナスダックも大幅安アンソロピックも時間外で反落米国株"
+"ダウ先物が続落ナスダックも大幅安アンソロピックも時間外で反落米国株",
+"外為・株式ny株続落949ドル安アンソロピック急落"
 ],
 "count": 4,
 "theme": "🇺🇸 미국 S&P500",
@@ -862,6 +863,49 @@
 "pv": "cd009b1f"
 },
 {
+"key": "ificouldonlyhold1etfthroughthenextstockmarketcrashhereswhatidbuy",
+"keys": [
+"ificouldonlyhold1etfthroughthenextstockmarketcrashhereswhatidbuy"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🌍 세계",
+"title": "If I Could Only Hold 1 ETF Through the Next Stock Market Crash, Here's What I'd Buy",
+"show": "다음 주식 시장 붕괴를 통해 1개의 ETF만 보유할 수 있다면, 내가 사고 싶은 것은 다음과 같습니다.",
+"source": "The Globe and Mail",
+"src_url": "https://www.theglobeandmail.com",
+"link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOZFhNcFV3VGdpR3B0UFJhdUVGRVY5R0pRdlhQcTB1M0ZycEV6M0xMdldYNmN4TkU5OGs2Y1VqQkhZSjB1M3RkUHdfUzZxS1d1OWVMWUF6V05HeUFOZnpPZ3VFdzJIM3pSdGllaUpyQm9teXhUZlNMazF3b25YTVNUdjl5UG5NbEJ5TlBUUzRlVHczRGpQRTBpc3Fuc0ZVWjg1a3pzQ3VKQTJLQU1SZ3RiTGZuWkJZWHEwSWpLWmpreFdFN2ZzVVFPMkJSWUpuVEhkVDFaeG9OcEMwOU1iNEEtQkU5dkZrem5EcjE3RWVzdVZUc2s?oc=5",
+"pub": 1795280213.0,
+"time": "11/22 01:56",
+"run": "202611211724",
+"added": 1795281902,
+"url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/8950947/if-i-could-only-hold-1-etf-through-the-next-stock-market-crash-here-s-what-i-d-buy/",
+"sum": "핵심 포인트 - 시장 붕괴를 통해 보유할 수 있는 최고의 ETF는 좋은 상황과 나쁜 상황에서도 보유할 수 있는 ETF입니다. - 성장 지향적 ETF는 하락장보다 오래 지속되는 상승장에서 좋은 성과를 냅니다. 시장 붕괴가 다가오고 있다는 징후는 많지만 지금까지 시장은 현재까지 8% 상승세를 유지하고 있습니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "台積電adr重摔美股能否止血須觀察三方向股市要聞股市",
+"keys": [
+"台積電adr重摔美股能否止血須觀察三方向股市要聞股市",
+"台積電adr重摔美股能否止血須觀察三方向全球財經全球"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "台積電ADR重摔…美股能否止血須觀察三方向| 股市要聞| 股市",
+"show": "TSMC ADR 폭락…미 증시 출혈 멈출 수 있을지 세 가지 방향으로 지켜봐야 | 주식 시장 뉴스 | 주식 시장",
+"source": "UDN",
+"src_url": "http://udn.com",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5teEpVQU9hVzQ5OTRQZHlXM3BXRVB0aEZrVjJGQS15V1VVdk9KWFlvWHlNRVpfRGozbnlmdHRHTTVBbk9Ud0JSNTZlTVdtMkE4N2pSRl90UXhrMGZGWEpaYWQ4c1Z4NzI4NlBZMFJLbll6eVU?oc=5",
+"pub": 1795278992.0,
+"time": "11/22 01:36",
+"run": "202611211724",
+"added": 1795281902,
+"url": "http://udn.com/news/story/7251/9893936?from=udn-catebreaknews_ch2",
+"sum": "지난 금요일 미국 증시의 매도 압력이 더욱 거세졌습니다. 필라델피아 반도체 지수는 10.7%, 엔비디아는 14%, TSMC ADR은 9.5% 하락했으며, 나스닥은 2020년 3월 이후 최악의 주간 실적을 기록했습니다.",
+"pv": "cd009b1f"
+},
+{
 "key": "ifthesp500dropsby20imbuyingthese3etfswithouthesitation",
 "keys": [
 "ifthesp500dropsby20imbuyingthese3etfswithouthesitation"
@@ -1088,7 +1132,7 @@
 "run": "202611211628",
 "added": 1795278524,
 "url": "https://www.bloomberg.com/news/articles/2026-11-21/wall-street-asks-what-can-save-ai-trade-after-anthropic-wipeout",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -2832,7 +2876,7 @@
 "run": "202611211628",
 "added": 1795278535,
 "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-must-bring-inflation-back-to-2-france-s-moulin-says",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -7506,7 +7550,8 @@
 {
 "key": "waareeenergiesarmbagsover100crorentpcorderforbatterystorageproject",
 "keys": [
-"waareeenergiesarmbagsover100crorentpcorderforbatterystorageproject"
+"waareeenergiesarmbagsover100crorentpcorderforbatterystorageproject",
+"waareetranspowerwinsrs100crorentpcorderforenergystorageproject"
 ],
 "count": 1,
 "theme": "⚡ 전고체배터리·ESS",
@@ -7733,27 +7778,6 @@
 "added": 1795041997,
 "url": "https://www.mt.co.kr/index.php/amp/industry/2026/11/19/2026111813284883136",
 "sum": "미국 에너지 기업 GE버노바(GE Vernova), 대만 ESS 기업 씨텔(Seetel)과의 첫 공동 사업을 통해 비중국산 배터리 수요가 높은 대만 공공 ESS 시장을 공략하고 향후 미국과 일본 등 글로벌 시장으로 협력 범위를 확대할 계획이다."
-},
-{
-"key": "特斯拉從儲能跨向供電powercore瞄準ai資料中心",
-"keys": [
-"特斯拉從儲能跨向供電powercore瞄準ai資料中心"
-],
-"count": 1,
-"theme": "⚡ 전고체배터리·ESS",
-"region": "🇹🇼 대만",
-"title": "特斯拉從儲能跨向供電Powercore瞄準AI資料中心",
-"show": "테슬라는 에너지 저장에서 전원 공급으로 이동, Powercore는 AI 데이터 센터를 목표로 합니다.",
-"source": "鉅亨網",
-"src_url": "https://news.cnyes.com",
-"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE83MkV2aEowMmJXSnVTM0dSZE1rR3RDWHRWSjFPY2RDV2xiemdEakZ4SUczTUczY1pJcWJMT1RkUmt2aDlYVVp2MGxuOTdwbmM?oc=5",
-"pub": 1795021290.0,
-"time": "11/19 02:01",
-"run": "202611182245",
-"added": 1795041998,
-"url": "https://news.cnyes.com/news/id/6666736",
-"sum": "테슬라는 에너지 저장에서 전원 공급 장치로 이동, Powercore는 AI 데이터 센터를 목표로 합니다. Uanalyze 2026년 11월 19일(Uanalyze/산업 데이터 센터 보고서) ⸺ 테슬라(TSLA-US)의 에너지 사업은 에너지 저장 배터리를 판매할 뿐만 아니라 AI 데이터 센터 전원 공급 장치 장비를 배치하기 시작합니다. 회사는 2027년 출시 예정인 전력 변환 제품인 파워코어(Powercore)를 출시했다. 메가팩 에너지 저장 시스템과 함께 배터리, 전력망, 데이터센터를 직렬로 연결해 800V DC 전원공급장치 사업 기회를 잡을 수 있다. Powercore는 반도체 부품을 사용하여 전기를 변환하고 원래 여러 장치에 분산되어 있던 기능을 통합하는 고체 변압기입니다. AI 서버의 전력 소비가 증가함에 따라 데이터 센터에서는 800V DC 아키텍처를 도입하기 시작했으며 Powercore는 이러한 유형의 전원 공급 수요를 충족하도록 설계되었습니다.",
-"pv": "cd009b1f"
 },
 {
 "key": "경남도두산에너빌리티와smr글로벌생산거점육성협력",
@@ -10958,46 +10982,5 @@
 "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=775242",
 "sum": "휴머노이드 로봇 시장은 아직까지 비즈니스 모델을 모색하는 단계이다. 공급망 업계 관계자들은 현 단계에서 업계는 제품 설계의 지속적인 조정 필요성, 높은 부품 비용 등의 과제에 직면할 뿐만 아니라 단말기 애플리케이션 시나리오 및 고객 요구 사항도 아직 완전히 확정되지 않았다고 말했습니다. 미래에는 로봇의 발전이 이족 보행 휴머노이드 형태로만 국한되지 않을 수도 있습니다. 특정 작업 요구에 맞게 설계된 전문 로봇도 중요한 시장이 될 것입니다...",
 "pv": "cd009b1f"
-},
-{
-"key": "估值200亿机器人公司发不出工资了",
-"keys": [
-"估值200亿机器人公司发不出工资了"
-],
-"count": 1,
-"theme": "🤖 로봇",
-"region": "🇨🇳 중국",
-"title": "估值200亿机器人公司，发不出工资了",
-"show": "기업가치 200억짜리 로봇회사는 임금도 못 갚는다.",
-"source": "36Kr",
-"src_url": "https://m.36kr.com",
-"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBheDZhMjJsZGhrbm5nRU1IOGVnSzd3TS1vOFZ4V282SzcxSm8tSjJsbEh2SXlGeDRIMi1qWEZZVnVFb0R5X2l4NVN1aU5CQQ?oc=5",
-"pub": 1795022100.0,
-"time": "11/19 02:15",
-"run": "202611191204",
-"added": 1795090022,
-"url": "https://m.36kr.com/p/4076334013994115",
-"sum_tried": 2,
-"pv": "cd009b1f"
-},
-{
-"key": "美파운데이션최대90kg운반가능한휴머노이드팬텀mkii공개",
-"keys": [
-"美파운데이션최대90kg운반가능한휴머노이드팬텀mkii공개"
-],
-"count": 1,
-"theme": "🤖 로봇",
-"region": "🇰🇷 한국",
-"title": "美 파운데이션, 최대 90kg 운반 가능한 휴머노이드 '팬텀 MKII' 공개",
-"show": "美 파운데이션, 최대 90kg 운반 가능한 휴머노이드 '팬텀 MKII' 공개",
-"source": "로봇신문",
-"src_url": "https://www.irobotnews.com",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uN2p3YWs0MjVNSHdEWURCYkZGdXpDWGw5bTJOaXJOTmNCdHNRRUNzN2JETkhzZTBVdW13OWM0UXFYMVBjUnNrRnFYMXFmWjFPSkd5R2VueG83OGtEZTdiM29Wbmg5anA4RDZERA?oc=5",
-"pub": 1795019829.0,
-"time": "11/19 01:37",
-"run": "202611182245",
-"added": 1795042020,
-"url": "https://www.irobotnews.com/news/articleView.html?idxno=49674",
-"sum": "미국 로봇기업 파운데이션 퓨처 인더스트리스(Foundation Future Industries)가 건설 및 제조업, 국방 분야를 겨냥한 차세대 휴머노이드 로봇 '"
 }
 ]
