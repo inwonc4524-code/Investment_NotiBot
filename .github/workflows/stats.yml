@@ -39,8 +39,8 @@ jobs:
           path: |
             ~/.cache/pip
             ~/.cache/huggingface
-          key: sentiment-v1-${{ runner.os }}
-          restore-keys: sentiment-v1-
+          key: sentiment-qwen-v2-${{ runner.os }}
+          restore-keys: sentiment-qwen-v2-
 
       - run: |
           pip install -q requests pillow fonttools
