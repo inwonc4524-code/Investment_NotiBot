@@ -1,6 +1,6 @@
 import json, time
 import news_bot as nb
-S = ["Anthropic rings Nasdaq opening bell ahead of stock-market debut | CNN Business",
+S = ["Fed holds rates steady as Anthropic debut lifts tech", "Anthropic-backed startup raises $2 billion", "Anthropic rings Nasdaq opening bell ahead of stock-market debut | CNN Business",
      "Treasury Yields Rise Amid Anthropic Euphoria",
      "Nasdaq Dives 1,261 Points as Anthropic, AI Stocks Sink: Stock Market Today",
      "Anthropic shares fall a day after blockbuster IPO",
@@ -13,9 +13,8 @@ S = ["Anthropic rings Nasdaq opening bell ahead of stock-market debut | CNN Busi
      "アンソロピック株急落、Anthropicの上場2日目",
      "OpenAI and Anthropic race to court enterprise customers"]
 base_pre = dict(nb.GLOSSARY.get("pre") or {})
-for label, extra in [("BASE", {}), ("CAPS", {"Anthropic": "ANTHROPIC"}), ("INC", {"Anthropic": "Anthropic Inc."}), ("AICO", {"Anthropic": "Anthropic AI"})]:
+for label, extra in [("COMMITTED", {})]:
     nb.GLOSSARY["pre"] = dict(base_pre, **extra)
-    nb.GLOSSARY["names"]["ANTHROPIC"] = "앤트로픽"
     nb._translate_cache.clear()
     print("\n#####", label)
     for s in S:
