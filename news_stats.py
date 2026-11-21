@@ -2,7 +2,7 @@
 """
 📊 테마별 뉴스 통계 봇
 - 증시 주요 테마 20개가 나라별로 하루에 뉴스가 몇 개 나왔는지 셉니다.
-- 3시간마다 모아서 같은 기사는 한 번만 세고, 날짜(한국 시간)별로 쌓아요.
+- 1시간마다 모아서 같은 기사는 한 번만 세고, 날짜(한국 시간)별로 쌓아요.
   (구글 뉴스 영어판·번체판은 나라끼리 같은 기사가 겹쳐서, 한 기사는 처음 잡힌 나라 한 곳에만 셈:
    한국 → 미국 → 중국 → 대만 → 홍콩 → 일본 → 싱가포르 → 세계 순)
 - 매일 아침 어제 통계를 휴대폰으로 알려 주고, 뉴스 페이지의 📊 통계 탭에서 추이를 볼 수 있어요.
@@ -200,6 +200,17 @@ def fetch_theme(region, words, when="1d"):
             time.sleep(0.4)
             if more:
                 items += more
+                # 단어 하나로도 꽉 차면 '최근 1시간'만 한 번 더 찾음 (1시간마다 수집하니 이어 붙으면 빠짐이 줄어듦 — 2026-11-21 상한 칸 줄이기)
+                if len(more) >= SATURATED and when != "1h":
+                    recent = _rss(nb.search_url(region, [w], when="1h"))
+                    time.sleep(0.4)
+                    if recent:
+                        items += recent
+    elif saturated and when != "1h":
+        recent = _rss(nb.search_url(region, words, when="1h"))
+        time.sleep(0.4)
+        if recent:
+            items += recent
     return items, saturated
 
 
