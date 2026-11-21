@@ -16,6 +16,17 @@
 
 ## 기록
 
+### 2026-11-21 (토) 2차 점검 (오후)
+- **1차 고친 것 유지 확인**: 통계 실행 2번(11:20·13:34) 성공, miss 비어 있음, keys = days(145·134칸). 새 표본 22칸(1차와 다른 칸)에서 Sen. Banks 같은 사람 이름·AWS 블로그 0건, 자동차 自動車道 0건. 1차 뒤 새로 들어온 가짜 속보 0건.
+- **문제 1 — 1차 전에 들어간 가짜 미국 속보가 🚨 탭에 남아 있음**: 1차가 판단 규칙만 고쳐서 이미 저장된 12건(record-breaking IPO 8건, Breaking Point, Everything Breaking, Sell Alert:, Just In Case)이 breaking.json 에 그대로 있었음. 그중 'Breaking Point'(06:52)·'Everything Breaking'(09:00)은 오늘 아침 휴대폰 알림까지 감.
+  - 고친 방법: 새 규칙(언론 3곳 이상 또는 제목 앞 BREAKING: 표시)에 안 맞는 저장 속보 12건을 breaking.json 에서 지움(seen 은 그대로 둬서 다시 안 들어옴). 페이지가 breaking.json 을 바로 읽어서 곧바로 반영.
+- **문제 2 — 통계에 쇼핑 할인·부고·교통사고 기사**: 새 표본에서 'Nintendo reveals Black Friday 2026 deals: Save $50'·'Black Friday Sale Is Now Live: Shop Deals'·'Switch 2 Black Friday bundle'(게임·인터넷·로봇), '[부음]/[부고] … 삼성중공업 프로 별세'(조선), '軽自動車とトラックが正面衝突'·'踏切で立ち往生の軽自動車'(일본 자동차)가 셈에 들어감.
+  - 원인: 1차의 SHOP 규칙은 'black friday deals' 바로 붙은 모양만 봐서 '2026' 이 끼면 못 잡음. 부고·교통사고는 거르는 규칙이 없었음.
+  - 고친 방법: SHOP 에 'Black Friday (2026) deals'·'sale is now live'·'Black Friday bundle'·'save $숫자'·'shop deals' 추가, 새 NOT_NEWS(부음·부고·본인상·별세]·正面衝突·踏切で·立ち往生·意識不明·死亡事故·交通事故 등) 추가. 예문 20개 시험(진짜 뉴스 'Black Friday sales disappoint'·리콜·'米中衝突' 등은 안 막힘), 지금 페이지 기사 593개 중 잘못 걸린 것 0.
+  - 확인: 고친 코드로 통계 실행(13:34) 성공. 고친 뒤 표본 다시(22칸 516건) → 할인 글·부고·교통사고 모두 '버림' 쪽으로 감.
+- 이상 없음: 오늘 정기 뉴스·속보·통계 실행 모두 성공(속보 cancelled 4번은 체인 대기 취소 — 정상). 장기 추이 complete=true, 빈 날 49일은 GDELT 서버 공백(모든 칸이 같은 날 비어 있음, 페이지에도 안내 있음). GDELT 대조: 방산 미국 2025-06 30일 완전 일치(다른 2칸은 GDELT 429 로 못 받음). 페이지: node --check 통과, 1280×800·390×844·844×390 에서 탭·기간·나라 눌러 오류 0, 통계·장기 추이 그래프 찌그러짐 0, 가로 넘침 0.
+- 남은 것(안 고침): 금융 미국 표본 30개 중 4개쯤이 다른 뜻의 'Banks'(GTA 6 Banks, The Banks 거리, Beyond the Banks, 사람 이름). 하나하나 막기엔 끝이 없어서 보고만. 통계 상한(+) 칸이 많은 건 1차와 같음.
+
 ### 2026-11-21 (토) 1차 정기 점검
 - **문제 1 — 통계에 엉뚱한 기사**: 표본 점검(18칸)에서 ① 미국 '금융'에 사람 이름 Banks(Sen. Banks 상원의원·Carl Banks 미식축구·Tanner Banks 야구선수) 기사, ② '게임'·'인터넷·플랫폼'에 쇼핑 할인 글(Switch 2 $30 할인, '$209 → $159 at Amazon'), 아마존 기술 블로그(Amazon Web Services) 글, ③ 일본 '자동차'에 고속도로 이름(山陽自動車道 통행금지) 기사가 섞임.
   - 원인: 영어 'banks' 가 사람 이름과 같고, 할인·블로그 글도 테마 단어를 품음. 일본어 '自動車道'는 고속도로.
