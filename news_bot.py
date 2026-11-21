@@ -1302,7 +1302,7 @@ def build_pages(news, run_id, updated):
 <html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#262624">
-<title>투자 테마 뉴스</title>
+<title>투자 테마별 뉴스</title>
 <style>
 @font-face{font-family:'ChosunIlboMyungjo';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');font-weight:normal;font-display:swap}
 :root{color-scheme:dark;--bg:#262624;--card:#30302e;--card2:#3a3a37;--text:#faf9f5;--sub:#a6a39a;--line:#3e3e3a;--acc:#d97757;--red:#ef4444}
@@ -1358,7 +1358,7 @@ footer b{color:var(--text);font-weight:600}
 #toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:9;max-width:90%;padding:10px 16px;border-radius:10px;background:#faf9f5;color:#1f1e1d;font-size:13.5px;box-shadow:0 6px 20px rgba(0,0,0,.4)}
 __STATS_CSS__</style></head><body>
 <div class="wrap">
-<header><h1>📰 투자 테마 뉴스</h1><div class="upd" id="upd"></div></header>
+<header><h1>📰 투자 테마별 뉴스</h1><div class="upd" id="upd"></div></header>
 </div>
 <div class="tabs"><div class="wrap">
   <div class="tabrow" id="tabs"></div>
@@ -1536,7 +1536,7 @@ document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeShee
         f.write(html)
 
     # ② 예비 페이지 (GitHub Pages 를 안 켰을 때 GitHub 화면에서 바로 보기)
-    md = [f"# 📰 투자 테마 뉴스\n\n업데이트 {updated} · 최근 {PAGE_DAYS}일\n"]
+    md = [f"# 📰 투자 테마별 뉴스\n\n업데이트 {updated} · 최근 {PAGE_DAYS}일\n"]
     for name, items in by_theme.items():
         md.append(f"\n## {name}\n")
         if etfs.get(name):
