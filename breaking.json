@@ -1,29 +1,6 @@
 {
 "items": [
 {
-"key": "속보코스피262오른509882출발",
-"keys": [
-"속보코스피262오른509882출발",
-"속보코스피262오른509882하루만에5000선회복출발",
-"속보코스피2대상승출발5000선회복"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보] 코스피, 2.62% 오른 5098.82 출발",
-"show": "[속보] 코스피, 2.62% 오른 5098.82 출발",
-"source": "에너지경제신문",
-"src_url": "https://www.ekn.kr",
-"sum": "디지털 신문보기 기후·에너지 금융 산업 생활경제 건설부동산 국제 정치·경제 오피니언 전국·사회 문화/스포츠 장하은 장하은기자 기사모음 ▲사진=제미나이 장하은 기자 lamen910@ekn.kr < 저작권자 ⓒ 에너지경제 무단전재 및 재배포 금지 / 대한민국 경제의 힘, 에너지경제> 실시간 Live [속보] 코스피, 2.62% 오른 5098.82 출발 에스엘, 원재료 가격 상승에 수익성 부담…목표가 하향 [NH투자증권] 글로벌IB가 가른 재계 성적표…SK·한화·현대차·두산 ‘긍정’, 삼성·롯데 ‘중립’ SK이노베이션, 차세대 항공유 e-SAF 기술 확보…그린수소 촉매 개발 최태원 ‘한일 빅텐트’ 닻 올렸다…첫 의제는 ‘에너지 공동대응’ 철조망 걷힌 백두대간 숲, 아이들의 교실 된다",
-"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4ydWpYak1kYUp6SU5xaGlpbzlycEpYTTEzR0cxVWQ4encxc3hIczlXUFd4ZHdVLVo4ZEdCbkJreVQ3Qktpak50RXI0MldfM24xdkw5ZHd2eGhvOEg4RndlVHJjdw?oc=5",
-"url": "https://www.ekn.kr/web/view.php?key=20261118023171230",
-"pub": 1794960247.0,
-"time": "11/18 09:04",
-"run": "breaking",
-"added": 1794960434
-},
-{
 "key": "nvidiahasnoplanstobringbackjensenhuang",
 "keys": [
 "nvidiahasnoplanstobringbackjensenhuang",
@@ -90,28 +67,6 @@
 "time": "11/18 09:45",
 "run": "breaking",
 "added": 1794963339
-},
-{
-"key": "속보코스닥1487포인트229오른66493개장",
-"keys": [
-"속보코스닥1487포인트229오른66493개장",
-"코스닥1487p229오른66493개장"
-],
-"count": 2,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보]코스닥, 14.87포인트(2.29%) 오른 664.93 개장",
-"show": "[속보]코스닥, 14.87포인트(2.29%) 오른 664.93 개장",
-"source": "뉴시스",
-"src_url": "https://mobile.newsis.com",
-"sum": "[속보]코스닥, 14.87포인트(2.29%) 오른 664.93 개장 기사등록 2026/11/18 09:02:29 [서울=뉴시스] 박주연 기자 = 후속 기사가 이어집니다. ◎공감언론 뉴시스 pjy@newsis.com 이 시간 핫 뉴스 \"내일 수능…단추 많은 옷 피해야\" 고수 \"첫째가 2013년생\"…아들이 벌써 중학생 젠슨 황 “이사회가 요청하면 CEO 복귀하겠다\" 이병헌·이민정, LA 저택 공개…주방도 휘황찬란 NRG 노유민, 갑작스러운 가슴 통증에 응급실행 김숙, 김강우와 무슨 사이길래…\"내 집 비번 알아\" 한그루 \"입술 필러 다",
-"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96cUxxWEJfNEEydERKVEVCbl83R0U4bmllMnRhY0VzQ3ppU3l2Y3VjN0JtaHdQSS1HWHhSQ2IxOXR1MDNGYnRxNE05WTA4YzlPMElYMWpuSXhtVnQ5MHNKZHkxTWdkdF9rS1lwQXhCZ0EtSDM1WUozQ9IBeEFVX3lxTE96cUxxWEJfNEEydERKVEVCbl83R0U4bmllMnRhY0VzQ3ppU3l2Y3VjN0JtaHdQSS1HWHhSQ2IxOXR1MDNGYnRxNE05WTA4YzlPMElYMWpuSXhtVnQ5MHNKZHkxTWdkdF9rS1lwQXhCZ0EtSDM1WUozQw?oc=5",
-"url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261118_0003872465",
-"pub": 1794960149.0,
-"time": "11/18 09:02",
-"run": "breaking",
-"added": 1794963368
 },
 {
 "key": "광주권재개발재건축청신호광주특별시반도체클러스터조성맞춰행정지원강화",
@@ -2610,6 +2565,29 @@
 "run": "breaking",
 "added": 1795212758,
 "pv": "b052c435"
+},
+{
+"key": "美뉴욕증시3대지수급락ai투자과열우려에나스닥53",
+"keys": [
+"美뉴욕증시3대지수급락ai투자과열우려에나스닥53",
+"뉴욕증시3대지수급락마감엔비디아14",
+"뉴욕증시ai투매에폭락나스닥528급락"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "美 뉴욕증시 3대 지수 급락…AI 투자 과열 우려에 나스닥 5.3%↓",
+"show": "美 뉴욕증시 3대 지수 급락…AI 투자 과열 우려에 나스닥 5.3%↓",
+"source": "블루밍비트",
+"src_url": "https://bloomingbit.io",
+"sum": "미국 뉴욕증시가 인공지능(AI) 산업의 투자 과열 우려와 추가 금리 인상 가능성에 짓눌리며 큰 폭으로 하락했다. 20일(현지시간) 뉴욕증권거래소(NYSE)에 따르면 기술주 중심의 나스닥종합지수는 전 거래일 대비 5.28% 하락한 2만2617.73에 장을 마쳤다. 스탠더",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB0VXo2YkprOEw5LUZrUEQwZ29CeDBVaVZ5Q0Qya0RkQ01idkx6LW9oeVFRLTh4ZkhtLXMwRkJxaW94QWZqWjBKbnZ6Y0Z5VUpO?oc=5",
+"url": "https://bloomingbit.io/feed/news/124916",
+"pub": 1795219218.0,
+"time": "11/21 09:00",
+"run": "breaking",
+"added": 1795220033
 }
 ],
 "seen": {
@@ -3137,7 +3115,7 @@
 "恒指季檢寧德時代中際旭創納入科指成分股30增至50隻": 1795174264.6856458,
 "恒指季檢出爐科指成份股新新增20隻納入寧德長飛建滔系": 1795174264.685646,
 "恒指季檢將公布科指改革名單成份股增至50隻寧德shein成大熱": 1795172827.919577,
-"恒指季檢大增科指20隻成分股寧德佔逾2比重184920261120即時財經新聞": 1795218567.4792325,
+"恒指季檢大增科指20隻成分股寧德佔逾2比重184920261120即時財經新聞": 1795219314.0918336,
 "恒指公司科指成份股增至50隻納入寧德時代及壁仞科技等": 1795174264.6856453,
 "속보뉴욕증시하락출발다우219나스닥225": 1795187342.1203828,
 "뉴욕증시혼조세로출발다우012나스닥146": 1795188782.3351822,
@@ -3158,6 +3136,9 @@
 "뉴욕증시기술주투매에나스닥5대급락sp500다우조정장진입상보": 1795211316.1318178,
 "뉴욕증시기술주투매에일제히흔들나스닥53급락": 1795212035.8803377,
 "뉴욕증시다우sp500조정장진입나스닥ai주투매에올해상승분반납종합": 1795212035.8803532,
-"wallstreetnearsbreakingpointasfeargripsglobalmarkets": 1795214949.6623068
+"wallstreetnearsbreakingpointasfeargripsglobalmarkets": 1795214949.6623068,
+"美뉴욕증시3대지수급락ai투자과열우려에나스닥53": 1795220033.474004,
+"뉴욕증시3대지수급락마감엔비디아14": 1795220033.474005,
+"뉴욕증시ai투매에폭락나스닥528급락": 1795220033.4740057
 }
 }
