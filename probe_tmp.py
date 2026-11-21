@@ -14,7 +14,7 @@ if len(sys.argv) > 1 and sys.argv[1] == "stats":
         keep, drop = [], []
         for it in items:
             title = it["title"]
-            bad = nb.EXCLUDE.search(title) or ns.SPAM.search(title) or ns.SHOP.search(title) or (it.get("source") or "").strip().lower() in ns.STAT_SRC_SKIP or nb.is_blocked(it["source"], it.get("src_url", ""))
+            bad = nb.EXCLUDE.search(title) or ns.SPAM.search(title) or ns.SHOP.search(title) or ns.NOT_NEWS.search(title) or (it.get("source") or "").strip().lower() in ns.STAT_SRC_SKIP or nb.is_blocked(it["source"], it.get("src_url", ""))
             (keep if (not bad and ns.relevant(t, title)) else drop).append(f'{title} [{it["source"]}]')
         print(f"## {th}|{rk} 전체 {len(items)} 셈 {len(keep)} 버림 {len(drop)} 상한 {sat}")
         for x in keep[:30]: print("  +", x)
@@ -23,7 +23,7 @@ if len(sys.argv) > 1 and sys.argv[1] == "stats":
 else:
     TW = dict(nh.THEMES); RC = dict(nh.REGIONS)
     h = json.load(open("history.json"))
-    for th, rk, y, m in [("반도체","kr",2024,3),("방산","us",2025,6),("원전","jp",2023,11)]:
+    for th, rk, y, m in [("반도체","kr",2024,3),("원전","jp",2023,11)]:
         a = date(y, m, 1); b = date(y, m, calendar.monthrange(y, m)[1])
         c = nh.fetch(TW[th], RC[rk], a, b)
         arr = h["s"][th][rk]; diff = 0; n = 0

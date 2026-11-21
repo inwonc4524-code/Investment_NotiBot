@@ -331,28 +331,6 @@
 "added": 1795017137
 },
 {
-"key": "sellalert5stocksanalystsdowngradedonfriday",
-"keys": [
-"sellalert5stocksanalystsdowngradedonfriday"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Sell Alert: 5 Stocks Analysts Downgraded on Friday",
-"show": "매도 경고: 금요일에 주식 분석가 5명이 강등되었습니다",
-"source": "Yahoo Finance",
-"src_url": "https://finance.yahoo.com",
-"sum": "월스트리트는 11월 13일 S&P500 지수가 0.4% 하락한 7,561.67, 나스닥 종합 지수가 0.91% 하락한 25,136.27로 불안한 한 주를 마감했습니다. 다우존스 산업 평균 지수는 50.46포인트 상승한 52,347.55를 기록했습니다. 이 슬라이드는 이번 주 상승세를 지우지 않았습니다. S&P500은 5회 동안 2.5% 상승하여 첫 승리를 거두었습니다. […",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLXpXT3Y0eGJ2MkxuUTZsclg5eGd1S0pCNmRmTFRwNjVxZm4xZFFLT1JnVHpUX0FuY2ltYmd3Tl9RMWFHQzNZYW83TzVPeGNjM3p3aWZ6cWIteXFYSm10WHc2R0U0eFpPUXBrNXFMQm5yMDhCMTZnZ3BBTkdaQzhKZ2xtOGJwUTk0WFBxZXBlM2VfTzNEZjhyZQ?oc=5",
-"url": "https://finance.yahoo.com/markets/stocks/articles/sell-alert-5-stocks-analysts-161135403.html",
-"pub": 1795018295.0,
-"time": "11/19 01:11",
-"run": "breaking",
-"added": 1795021485,
-"pv": "b052c435"
-},
-{
 "key": "fedminutesshowgrowinguneaseabouttheoutlookforinflation",
 "keys": [
 "fedminutesshowgrowinguneaseabouttheoutlookforinflation",
@@ -399,50 +377,6 @@
 "time": "11/19 06:05",
 "run": "breaking",
 "added": 1795036793
-},
-{
-"key": "nyclaandchicagoschooldistrictsweighbreakingupwithgooglesearchoverai",
-"keys": [
-"nyclaandchicagoschooldistrictsweighbreakingupwithgooglesearchoverai"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "NYC, LA and Chicago School Districts Weigh Breaking Up With Google Search Over A.I.",
-"show": "NYC, LA 및 시카고 학군은 AI를 통해 구글 검색을 중단하는 것을 중요하게 생각합니다.",
-"source": "The New York Times",
-"src_url": "https://www.nytimes.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFZTcW1oQlltWWRFUy1hUzY4ODVqZXFKcl9McGNhUDZqam90WE9YQ3RqclV1czZJOVdKZURXeUxpTkRVM2FONklyQ2ZiS215WTBLTE14RFVZOWY1cnZUQTR5cDVNRlJ3bTVrWkJ5aGdxMG83NURiTjk1V0NLclhVM1NFcWctSVA0bUhad2dMYjg0czFSTk1KVUQyZXZTUQ?oc=5",
-"url": "https://www.nytimes.com/2026/11/18/technology/google-gemini-ai-search-schools-nyc-la-chicago.html",
-"pub": 1795044186.0,
-"time": "11/19 08:23",
-"run": "breaking",
-"added": 1795047704,
-"pv": "b052c435"
-},
-{
-"key": "anthropics83ipopriceputsitontrackforarecordbreakingdebutonwallstreethereswhatitm",
-"keys": [
-"anthropics83ipopriceputsitontrackforarecordbreakingdebutonwallstreethereswhatitm"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Anthropic’s $83 IPO price puts it on track for a record-breaking debut on Wall Street. Here’s what it means",
-"show": "앤트로픽은 83달러의 기업공개(IPO) 가격으로 월스트리트에서 기록적인 데뷔를 기록했습니다. 의미는 다음과 같습니다",
-"source": "Yahoo Finance",
-"src_url": "https://finance.yahoo.com",
-"sum": "앤트로픽은 수요일 사상 최대 규모의 주식 시장 데뷔를 목표로 예상보다 훨씬 높은 가격에 기업공개(IPO) 주식을 판매할 계획이라고 밝혔습니다.",
-"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmEtRzVlbGY4bUNlRDJ2UWZTdE9GRm1ZOFpZTGs4ek1jaFRkRDl5X29ZUUNYdmVWYWJPX2Y0OU5jRDZfSlNJel9tMUJkNUdyb3FZb2ozcW93Z2J4OV94VXNQVFpZNlVNdWJiSnlnV1VfMjg1Wmw5T0wzSHRsTnVVZ2gxdHUycXp5eWhFMm9pRU50dFhPVG9j?oc=5",
-"url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-83-ipo-price-puts-000147002.html",
-"pub": 1795046460.0,
-"time": "11/19 09:01",
-"run": "breaking",
-"added": 1795049866,
-"pv": "b052c435"
 },
 {
 "key": "코스피045오른5090코스닥083상승한668개장",
@@ -850,28 +784,6 @@
 "added": 1795073118
 },
 {
-"key": "planetlabsteamsupwithstokespacejustincasespacexreallyretiresthefalcon9",
-"keys": [
-"planetlabsteamsupwithstokespacejustincasespacexreallyretiresthefalcon9"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Planet Labs Teams Up With Stoke Space -- Just In Case SpaceX Really Retires the Falcon 9",
-"show": "Planet Labs, Stoke Space와 협력 - 스페이스X가 Falcon 9를 실제로 폐기할 경우를 대비해",
-"source": "Yahoo Finance",
-"src_url": "https://finance.yahoo.com",
-"sum": "스페이스X가 Falcon 9를 폐기하면 Planet Labs는 우주로의 대체 우주선을 준비할 것입니다.",
-"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ21qckZKR0dSWVZ3clZEaUlGR0hkM1JEclZFdXJOOEthOWdjbXpwWUlZSmlpNVhZeDhuVlBrVE9RLUdHSDJybWJxd3hTUFcwV3dyRU05RnQzNWxUOGlGeVM0SEdkZWZGNXRkbmNUbUNHWXB5eE5fc3ppYUlnT2wwZENKQkN1Nl9sWmlPU0dwSDdiT0dmV1hKc193?oc=5",
-"url": "https://finance.yahoo.com/markets/stocks/articles/planet-labs-teams-stoke-space-065001646.html",
-"pub": 1795071000.0,
-"time": "11/19 15:50",
-"run": "breaking",
-"added": 1795073863,
-"pv": "b052c435"
-},
-{
 "key": "속보코스피1395130선코스닥332680선",
 "keys": [
 "속보코스피1395130선코스닥332680선"
@@ -1083,28 +995,6 @@
 "pv": "b052c435"
 },
 {
-"key": "anthropicraises81bninrecordbreakingstockmarketdebut",
-"keys": [
-"anthropicraises81bninrecordbreakingstockmarketdebut"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Anthropic raises $81bn in record-breaking stock market debut",
-"show": "앤트로픽은 기록적인 주식 시장 데뷔로 810억 달러를 모금했습니다.",
-"source": "BBC",
-"src_url": "https://www.bbc.com",
-"sum": "Claude 챗봇 뒤에 있는 회사는 세계에서 가장 가치 있는 회사 중 하나가 될 것입니다.",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15eVFIWE5uZFRSSHFUOTNCZWJySy1leGw3NHYxbVZkZVpFU01maWdFYW5FU1lrY25NSDEwQV9NRXBpaG5LSDB5dEhXcW83X3JTVEF4aGlIM0FrVm8?oc=5",
-"url": "https://www.bbc.com/news/articles/c6742m39xgzxo",
-"pub": 1795085284.0,
-"time": "11/19 19:48",
-"run": "breaking",
-"added": 1795088358,
-"pv": "b052c435"
-},
-{
 "key": "快訊美國晶片管制擴大台積電三星暫停部分中國客戶出貨",
 "keys": [
 "快訊美國晶片管制擴大台積電三星暫停部分中國客戶出貨",
@@ -1125,28 +1015,6 @@
 "time": "11/19 21:00",
 "run": "breaking",
 "added": 1795089844,
-"pv": "b052c435"
-},
-{
-"key": "anthropicliftsnasdaqfuturesandtechstocksaheadofitsrecordbreakingipo",
-"keys": [
-"anthropicliftsnasdaqfuturesandtechstocksaheadofitsrecordbreakingipo"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
-"show": "앤트로픽은 기록적인 기업공개(IPO)를 앞두고 나스닥 선물과 기술주를 인상합니다.",
-"source": "CNBC",
-"src_url": "https://www.cnbc.com",
-"sum": "주가가 예상 범위를 넘어 810억 달러 이상 상승",
-"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM2J4VWlna2g3QW9JczFndk5ScUg0YldfR2xCV3U2S09qQUsybjhhSG15eFB5eTJYNVF1ak5aU0pnbDVUSklYUU04bUF3YjA1V0ZST1Y5OWZranIyV25adnlHd0IzMS0ycGNPTE40cFBGclJLbmRsczMtRDBrbW0ySThleXB4ZnpyMy1JNmozYnl0eUlabzVod1kxRFRlLUEyTW1JNVdpbEtmV09ndkxpYXE2cnNETmPSAbwBQVVfeXFMTWNWbXplM2s0SlQ5U2xYM0pYWi0ydnM4RGNyNW5YSXJfVFUwQ24wb0Nac3p5b2E0MFdPSnpyNktrZnhuNGFhS2sxaGx2YkJ5X0FmZmNNZjFQYmRVOXE3OW54MjZhdXVvNGtscGkwaG9zZThTOU5xclc1TUItU0Zfd0x6Smg0QktzQTNYbzdlSUNJTFJEMmZfb1lDQ1BQR25OVGtwSzNhU2ZGSG1FaGhjdzJmZzMzVDFjay05bnU?oc=5",
-"url": "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
-"pub": 1795091395.0,
-"time": "11/19 21:29",
-"run": "breaking",
-"added": 1795092026,
 "pv": "b052c435"
 },
 {
@@ -1219,50 +1087,6 @@
 "pv": "b052c435"
 },
 {
-"key": "anthropicvaluedat15tnaheadofrecordbreakingipolatestupdates",
-"keys": [
-"anthropicvaluedat15tnaheadofrecordbreakingipolatestupdates"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "world",
-"region": "🌍 세계",
-"title": "Anthropic valued at $1.5tn ahead of record-breaking IPO – latest updates",
-"show": "기록적인 기업공개(IPO)를 앞두고 앤트로픽의 가치는 1.5조 달러에 달합니다 – 최신 업데이트",
-"source": "The Telegraph",
-"src_url": "https://www.telegraph.co.uk",
-"sum": "앤트로픽의 주가는 뉴욕에서 주식 시장에 데뷔하면 급등할 것으로 예상됩니다.",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWks1SkU5eFl1UjVjSkZLTzFqeDBWWngyNkF1RG80Z3RvU3BOMkZKelF0SldyS0stX3hkajhOaHVpNHlYMktteGpmRm1YWXU1ZjJ2WU1jSF9MeXRZMTk0ekpmdGc0b3VVUUZGR3NBNjMxdGVzd1hYRWU0ZndPdGNUZTVDMHQ0MW4xN3BVRmtsSnVRblhKOFJ4dUdpRW0tUEoySTliSjRycw?oc=5",
-"url": "https://www.telegraph.co.uk/business/2026/11/19/anthropic-ipo-listing-nasdaq-ai-claude-ftse-100-markets/",
-"pub": 1795099757.0,
-"time": "11/19 23:49",
-"run": "breaking",
-"added": 1795105094,
-"pv": "b052c435"
-},
-{
-"key": "aigiantanthropicsharessettotradeafterrecordbreakingipo",
-"keys": [
-"aigiantanthropicsharessettotradeafterrecordbreakingipo"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "AI giant Anthropic shares set to trade after record-breaking IPO",
-"show": "AI 거대 기업 앤트로픽 주식, 기록적인 기업공개(IPO) 이후 거래 예정",
-"source": "AFP.com",
-"src_url": "https://www.afp.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOam0yRUZBN29WUk1vUnFMVENucXdBVDE5U3FyS1hQM2ZES2xlVUllZ0hEZ1N5a3JXU0hHaUEzNk8taVdNTWdzNkZQMnktVU9JMVp5ZWVhNE02TFA2UWdKckdIUHFzbF9QYXRrMHdYZEgyMy1Na29sc2VhZVBVTHBwcWVJenl3RXN3MEZETA?oc=5",
-"url": "https://www.afp.com/en/ai-giant-anthropic-shares-set-trade-after-record-breaking-ipo",
-"pub": 1795105073.0,
-"time": "11/20 01:17",
-"run": "breaking",
-"added": 1795105806,
-"pv": "b052c435"
-},
-{
 "key": "anthropicstartstradingonwallstreet",
 "keys": [
 "anthropicstartstradingonwallstreet",
@@ -1284,28 +1108,6 @@
 "time": "11/20 01:52",
 "run": "breaking",
 "added": 1795108003,
-"pv": "b052c435"
-},
-{
-"key": "formernasdaqchairmanrobertgreifeldweighsinonanthropicsrecordbreakingipo",
-"keys": [
-"formernasdaqchairmanrobertgreifeldweighsinonanthropicsrecordbreakingipo"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Former Nasdaq chairman Robert Greifeld weighs in on Anthropic's record-breaking IPO",
-"show": "전 나스닥 회장 Robert Greifeld는 앤트로픽의 기록적인 기업공개(IPO)에 대해 언급합니다.",
-"source": "CNBC",
-"src_url": "https://www.cnbc.com",
-"sum": "전 나스닥 회장 Robert Greifeld가 'The Exchange'에 합류하여 앤트로픽의 기록적인 기업공개(IPO), 인공지능 도구 등에 대해 논의합니다.",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYS1FM1UyS1J3MlN0WU5VSlEyMVFWdkJDYy1hcmpnRGdFQzF6aFl0V0d4NjFOZ0J0VHFkWmQ5R2xUekwwVU9uQjVXM3pRY21ia0V3RUxSdGNRaldlTG9fZFhoTGRIMUQ1V3VtaTg1RU9JNHdRWEQyZ01tV20zdDI0SHBzd3NQQU0weU5OQ3B4QUZzNWlJLUFVNTFmcURYTkRSN2RYN0RpdmVza2wwUUE1eU9tY0lWZmJMZjI1LU5QQmpObWM?oc=5",
-"url": "https://www.cnbc.com/video/2026/11/19/former-nasdaq-chairman-robert-greifeld-weighs-in-on-anthropics-record-breaking-ipo.html",
-"pub": 1795112904.0,
-"time": "11/20 03:28",
-"run": "breaking",
-"added": 1795113808,
 "pv": "b052c435"
 },
 {
@@ -1372,28 +1174,6 @@
 "time": "11/20 06:08",
 "run": "breaking",
 "added": 1795123262
-},
-{
-"key": "anthropicipoanthropicsharescloseup17afterrecordbreakingstockmarketdebut",
-"keys": [
-"anthropicipoanthropicsharescloseup17afterrecordbreakingstockmarketdebut"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "world",
-"region": "🌍 세계",
-"title": "Anthropic IPO: Anthropic shares close up 17% after record-breaking stock market debut",
-"show": "앤트로픽의 기업공개(IPO): 앤트로픽 주가는 기록적인 주식 시장 데뷔 후 17% 상승했습니다.",
-"source": "BBC",
-"src_url": "https://www.bbc.co.uk",
-"sum": "챗봇 Claude를 지원하는 회사의 주식은 목요일에 거래가 시작되기 전 $111.50였습니다.",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1OEJMTVRPcUlmeWVCX194S2RUVURKT3RWUGZuODVrdDVIMWNTeG1oeWtqM0p4aEhGcnl1aE4zYjQ0X2N0a0YxNmM0OTFiOGhPMGpxV2lwWDI?oc=5",
-"url": "https://www.bbc.co.uk/news/live/c933xxm82mr8t",
-"pub": 1795122764.0,
-"time": "11/20 06:12",
-"run": "breaking",
-"added": 1795123268,
-"pv": "b052c435"
 },
 {
 "key": "반도체훈풍에수출1조달러모두의성과",
@@ -2211,28 +1991,6 @@
 "added": 1795193136
 },
 {
-"key": "wallstreetnearsbreakingpointasfeargripsglobalmarkets",
-"keys": [
-"wallstreetnearsbreakingpointasfeargripsglobalmarkets"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Wall Street Nears Breaking Point as Fear Grips Global Markets",
-"show": "두려움이 글로벌 시장을 사로잡으면서 월스트리트가 한계점에 가까워졌습니다.",
-"source": "Bloomberg.com",
-"src_url": "https://www.bloomberg.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYzFZMUV0TnJwY0RVNXBBYzRZQVJZQ0lUYnhrMWhsTnZwU0xpVUlLejFRbTRvZUxOM3JLbmZGRTBNS0kyZ2NJMEtuUHZVRDE0YlFhM0NHaHF1eHZ0cnJsTlE0VHNBWVdodC01ZEtLZ0dUR3kycTBxSC1QdVNzUVRTaG9KcUtSQXZsWTZjdm5XdzR5UHJPZkgtV2xSeHJZMW15dnpDNG4xci16UmhXOXR4dTFR?oc=5",
-"url": "https://www.bloomberg.com/news/articles/2026-11-20/wall-street-nears-breaking-point-as-fear-grips-global-markets",
-"pub": 1795211520.0,
-"time": "11/21 06:52",
-"run": "breaking",
-"added": 1795212758,
-"pv": "b052c435"
-},
-{
 "key": "美뉴욕증시3대지수급락ai투자과열우려에나스닥53",
 "keys": [
 "美뉴욕증시3대지수급락ai투자과열우려에나스닥53",
@@ -2254,28 +2012,6 @@
 "time": "11/21 09:00",
 "run": "breaking",
 "added": 1795220033
-},
-{
-"key": "essayhowtosurvivethecomingageofeverythingbreaking",
-"keys": [
-"essayhowtosurvivethecomingageofeverythingbreaking"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Essay | How to Survive the Coming Age of Everything Breaking",
-"show": "에세이 | 다가오는 모든 것이 부서지는 시대에서 살아남는 방법",
-"source": "WSJ",
-"src_url": "https://www.wsj.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43V2pKb2lOQ1NDYVllekFUMVp1N0dUQW9mVEd3TVpYaWpFeS1uaG52YlFHdEpIOC1Ea3BFeXRnZDFCOTlLUy1nN2MtYTI3NXZhLUZhVmlGbGtjalVTV1p0UDRjc2trS3RwUVduMUpyYjBSWGtrRnJJVlZ1cHA?oc=5",
-"url": "https://www.wsj.com/tech/tech-breakdowns-flights-cyber-security-f6ab51fd",
-"pub": 1795219200.0,
-"time": "11/21 09:00",
-"run": "breaking",
-"added": 1795221474,
-"pv": "b052c435"
 },
 {
 "key": "반도체빼면대중무역적자415억달러반도체착시커졌다",

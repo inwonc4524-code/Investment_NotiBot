@@ -130,7 +130,14 @@ STAT_FALSE = ["보조배터리", "아파트 화재", "아파트서 화재", "제
 # 쇼핑 할인 글 (예: 'Switch 2 is on sale for $469 ($30 off)', '$209 ... is now $159 at Amazon') — 산업 뉴스 아님
 SHOP = re.compile(r"\$\d[\d,.]*\s*(?:off\b|discount)|\bon sale for \$|\bis now \$\d|\$\d[\d,.]* at amazon\b|"
                   r"\b\d+% off\b|\bblack friday deals?\b|\bcyber monday deals?\b|"
-                  r"\bprime day deals?\b|\bbest [\w\s-]{0,30}deals\b|\bplus \d+ more deals\b", re.I)
+                  r"\bprime day deals?\b|\bbest [\w\s-]{0,30}deals\b|\bplus \d+ more deals\b|"
+                  # 2026-11-21 2차 점검: 'Black Friday 2026 deals: Save $50'·'Black Friday Sale Is Now Live: Shop Deals'·'Black Friday bundle'
+                  r"\bblack friday (?:20\d\d )?deals?\b|\bblack friday sale is (?:now )?live\b|\bblack friday bundle\b|"
+                  r"\bsave \$\d|\bshop deals\b", re.I)
+# 기사지만 산업 뉴스가 아닌 것 — 부고, 교통사고 (2026-11-21 2차 표본 점검: 조선에 '[부음] … 삼성중공업 프로 별세',
+# 일본 자동차에 '軽自動車とトラックが正面衝突'·'踏切で立ち往生の軽自動車')
+NOT_NEWS = re.compile(r"\[부음\]|\[부고\]|본인상\]|모친상|부친상|별세\]|"
+                      r"正面衝突|衝突事故|追突事故|踏切で|立ち往生|意識不明|死亡事故|ひき逃げ|交通事故", re.I)
 # 기사가 아닌 회사 기술 블로그·점수 모음 사이트
 STAT_SRC_SKIP = {"amazon web services (aws)", "theshortcut.com"}
 KEEP_DAYS = 735            # 날짜별 숫자를 며칠치 보관할지 (1년 통계 + 그 전 1년과 비교)
@@ -260,7 +267,7 @@ def collect():
                     continue
                 hit_days.add(d)
                 title = it["title"]
-                if nb.EXCLUDE.search(title) or SPAM.search(title) or SHOP.search(title) \
+                if nb.EXCLUDE.search(title) or SPAM.search(title) or SHOP.search(title) or NOT_NEWS.search(title) \
                         or (it.get("source") or "").strip().lower() in STAT_SRC_SKIP \
                         or nb.is_blocked(it["source"], it.get("src_url", "")) or not relevant(theme, title):
                     continue
