@@ -468,6 +468,9 @@ def _pre_fix(text):
     # 대만 기사의 '元'은 위안화가 아니라 대만달러 (예: 台積電收2350元 → 'TSMC 2,350위안'으로 잘못 번역되던 것)
     if lang == "hant" and _TW_MARK.search(text) and not _NOT_NTD.search(text):
         text = re.sub(r"(\d[\d,.]*\s*(?:萬|億)?)元", r"\1新台幣", text)
+    # 홍콩 말 '插'(곤두박질) + 숫자: '京東插8%'·'急插2%' 가 '8% 추가'·'2% 급등'으로 거꾸로 번역되던 것 (2026-11-21 3차 점검)
+    if lang == "hant":
+        text = re.sub(r"插(?=\s*\d)", "跌", text)
     for a, b in (GLOSSARY.get("pre") or {}).items():
         if a.strip().isalpha() or re.fullmatch(r"[A-Za-z/'.]+", a.strip()):
             text = re.sub(r"(?<![A-Za-z])" + re.escape(a.strip()) + r"(?![A-Za-z])" + (" " if a.endswith(" ") else ""),
