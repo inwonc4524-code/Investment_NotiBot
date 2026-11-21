@@ -1,0 +1,11 @@
+name: probe_tmp
+on: workflow_dispatch
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q requests
+      - run: python probe_tmp.py "반도체|jp,건설·부동산|jp,금융|us,가상자산|us,원전|us,엔터|jp,화장품|kr,게임|jp" "원전|kr|2024-03,화장품|jp|2023-08,조선|cn|2022-05"
