@@ -24,7 +24,7 @@ if len(sys.argv) > 1 and sys.argv[1] == "stats":
 else:
     TW = dict(nh.THEMES); RC = dict(nh.REGIONS)
     h = json.load(open("history.json"))
-    for th, rk, y, m in [("화장품","sg",2022,10),("AI","jp",2026,10),("가상자산","jp",2022,1)]:
+    for th, rk, y, m in [("AI","jp",2026,10),("가상자산","jp",2022,1),("조선","kr",2024,5)]:
         a = date(y, m, 1); b = date(y, m, calendar.monthrange(y, m)[1])
         c = nh.fetch(TW[th], RC[rk], a, b)
         arr = h["s"][th][rk]; diff = 0; n = 0

@@ -124,7 +124,9 @@ STAT_FALSE = ["보조배터리", "아파트 화재", "아파트서 화재", "제
               "フッ化水素", "過酸化水素", "硫化水素", "水素水", "水素吸入", "과산화수소", "황화수소", "불화수소", "수소수", "수소 흡입",
               # 사람 이름 Banks (은행 아님) — 2026-11-21 표본 점검
               "Sen. Banks", "Jim Banks", "Carl Banks", "Tanner Banks", "Tyra Banks", "Elizabeth Banks", "Azealia Banks",
-              "Ernie Banks", "Lloyd Banks", "Russell Banks"]
+              "Ernie Banks", "Lloyd Banks", "Russell Banks",
+              # 고속도로 이름 (山陽自動車道 통행금지 등 — 자동차 산업 아님)
+              "自動車道", "자동차전용도로", "자동차 전용도로"]
 # 쇼핑 할인 글 (예: 'Switch 2 is on sale for $469 ($30 off)', '$209 ... is now $159 at Amazon') — 산업 뉴스 아님
 SHOP = re.compile(r"\$\d[\d,.]*\s*(?:off\b|discount)|\bon sale for \$|\bis now \$\d|\$\d[\d,.]* at amazon\b|"
                   r"\b\d+% off\b|\bblack friday deals?\b|\bcyber monday deals?\b|"
