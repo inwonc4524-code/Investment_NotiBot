@@ -1087,10 +1087,10 @@ function renderStats(t){
     return '<button data-sm="'+x[0]+'" class="'+(S.sm===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
   if(S.sm === 'l') return renderLong(h);
   if(!ST){ loadStats(); $('main').innerHTML = h + '<p class="none">통계를 불러오는 중…</p>'; return; }
-  if(ST.err || !ST.days){ $('main').innerHTML = h + '<p class="none">아직 모인 통계가 없어요. 3시간마다 모이니 잠시 후 다시 확인해 주세요.</p>'; return; }
+  if(ST.err || !ST.days){ $('main').innerHTML = h + '<p class="none">아직 모인 통계가 없어요. 1시간마다 모이니 잠시 후 다시 확인해 주세요.</p>'; return; }
   var P = period();
   if(S.sp==='yday' && !Object.keys((ST.days||{})[P[0][0]]||{}).length){ S.sp = 'today'; P = period(); }
-  h += '<p class="note">기사 제목에 테마 단어가 들어간 뉴스 수 · 3시간마다 모아 같은 기사는 한 번만 셈 · 업데이트 '+esc(ST.updated||'')+'</p>';
+  h += '<p class="note">기사 제목에 테마 단어가 들어간 뉴스 수 · 1시간마다 모아 같은 기사는 한 번만 셈 · 업데이트 '+esc(ST.updated||'')+'</p>';
   h += '<div class="seg sp">' + [['yday','어제'],['today','오늘'],['w','7일'],['m','30일'],['h','6개월'],['y','1년']].map(function(x){
     return '<button data-sp="'+x[0]+'" class="'+(S.sp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
   var hc = have(P[0]), hp = have(P[1]), f = firstDay();
