@@ -4,8 +4,9 @@
 
 ① 낱말 판정 (lexicon_label): 경제 기사에 자주 나오는 좋은 말·나쁜 말 목록(한국어·영어·중국어·일본어)으로 점수
    - '적자 축소', 'loss narrows' 처럼 나쁜 말이 들어 있어도 좋은 소식인 표현은 먼저 찾아서 따로 셈
-② AI 모델 판정 (model_label): 무료 공개 AI 모델(tabularisai/multilingual-sentiment-analysis, 한·영·중·일 등 20여 개 언어)
+② AI 판정 (model_labels): 무료 공개 AI 언어모델 Qwen2.5-1.5B-Instruct (한·영·중·일 모두 이해)
    - GitHub Actions 컴퓨터에서 직접 돌려요(돈·열쇠 필요 없음). 모델 파일은 처음 한 번 받아 두고 재사용
+   - 한 건에 약 2초 → 한 번 실행에 정해 둔 시간만 판정하고, 남은 건 다음 실행에서 이어서
 
 최종: 두 판정이 같으면 그 판정, 다르면 'x'(판정 다름) — 확실한 것만 긍정·부정·중립으로 셈
 """
@@ -116,41 +117,60 @@ def lexicon_label(title):
 
 
 # ── ② AI 모델 판정 ─────────────────────────────────────
-MODEL_NAME = "tabularisai/multilingual-sentiment-analysis"
+# 무료 공개 AI 언어모델 Qwen2.5-1.5B-Instruct(알리바바, Apache 2.0)를 GitHub Actions 컴퓨터에서 직접 돌림.
+# 2026-11-22 실제 기사 120건 시험: 혼자 71% · 낱말 판정과 같을 때 93% 정답 (감정모델·NLI·0.5B·8비트보다 나음)
+MODEL_NAME = "Qwen/Qwen2.5-1.5B-Instruct"
+SYSTEM = ("You classify stock-market news headlines (any language) by whether the news is good or bad for the "
+          "companies, sector or stock market involved. Answer with one word: positive, negative, or neutral.")
 _model = {}
 
 
 def _load():
-    if "pipe" in _model:
-        return _model["pipe"]
+    if "m" in _model:
+        return _model["m"]
     try:
-        from transformers import pipeline
-        _model["pipe"] = pipeline("text-classification", model=MODEL_NAME, truncation=True, max_length=96)
+        import torch
+        from transformers import AutoTokenizer, AutoModelForCausalLM
+        torch.set_num_threads(4)
+        tok = AutoTokenizer.from_pretrained(MODEL_NAME)
+        tok.padding_side = "left"
+        m = AutoModelForCausalLM.from_pretrained(MODEL_NAME, torch_dtype=torch.float32)
+        m.eval()
+        ids = {k: tok.encode(v, add_special_tokens=False)[0] for k, v in {"p": "positive", "n": "negative", "u": "neutral"}.items()}
+        _model["m"] = (torch, tok, m, ids)
     except Exception as e:                     # 모델을 못 받으면 이번엔 판정 보류('?') → 다음 실행에서 다시
-        print(f"  ! 감정 AI 모델을 못 불러옴: {e}")
-        _model["pipe"] = None
-    return _model["pipe"]
+        print(f"  ! 판정 AI 모델을 못 불러옴: {e}")
+        _model["m"] = None
+    return _model["m"]
 
 
-def model_labels(titles):
-    """제목 목록 → ['p'|'n'|'u', ...] (모델을 못 쓰면 None)"""
-    pipe = _load()
-    if pipe is None:
+def model_labels(titles, deadline=None):
+    """제목 목록 → ['p'|'n'|'u'|None, ...] (시간이 다 되면 남은 건 None, 모델을 못 쓰면 None)"""
+    import time
+    mm = _load()
+    if mm is None:
         return None
+    torch, tok, m, ids = mm
+    prompt = lambda t: tok.apply_chat_template(
+        [{"role": "system", "content": SYSTEM}, {"role": "user", "content": f"Headline: {t}\nAnswer:"}],
+        tokenize=False, add_generation_prompt=True)
     out = []
-    for i in range(0, len(titles), 64):
-        for r in pipe(list(titles[i:i + 64]), batch_size=32):
-            lab = (r.get("label") or "").lower()
-            out.append("n" if "negative" in lab else "p" if "positive" in lab else "u")
+    with torch.no_grad():
+        for i in range(0, len(titles), 16):
+            if deadline and time.time() > deadline:
+                out += [None] * (len(titles) - len(out))
+                break
+            enc = tok([prompt(t[:200]) for t in titles[i:i + 16]], return_tensors="pt", padding=True)
+            lg = m(**enc).logits[:, -1, :]
+            out += [max(ids, key=lambda k: r[ids[k]].item()) for r in lg]
     return out
 
 
-def judge(titles):
-    """제목 목록 → 최종 판정 목록. 두 판정이 같으면 그 판정, 다르면 'x', 모델을 못 쓰면 '?'(다음에 다시)"""
+def judge(titles, deadline=None):
+    """제목 목록 → 최종 판정 목록. 두 판정이 같으면 그 판정, 다르면 'x', 아직 못 본 건 '?'(다음 실행에서 다시)"""
     if not titles:
         return []
-    lex = [lexicon_label(t) for t in titles]
-    mod = model_labels(titles)
+    mod = model_labels(titles, deadline)
     if mod is None:
         return ["?"] * len(titles)
-    return [a if a == b else "x" for a, b in zip(lex, mod)]
+    return ["?" if b is None else (a if a == b else "x") for a, b in zip((lexicon_label(t) for t in titles), mod)]

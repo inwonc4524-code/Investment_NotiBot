@@ -32,13 +32,28 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install -q requests pillow fonttools
+      # 긍정·부정 판정용 무료 AI 모델(약 0.5GB)과 프로그램을 한 번 받아 두고 다음 실행부터 재사용
+      - name: 판정 모델 캐시
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: sentiment-v1-${{ runner.os }}
+          restore-keys: sentiment-v1-
+
+      - run: |
+          pip install -q requests pillow fonttools
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "transformers>=4.40"
 
       - name: 테마별 뉴스 수 모으기
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          HF_HUB_DISABLE_TELEMETRY: "1"
+          TOKENIZERS_PARALLELISM: "false"
         run: python news_stats.py
 
       - name: 기록 저장

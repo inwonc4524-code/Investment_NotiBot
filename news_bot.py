@@ -1010,6 +1010,15 @@ function period(){                         // [이번 기간 날짜들, 비교�
 function have(days){ var n=0; days.forEach(function(d){ if((ST.days||{})[d]) n++; }); return n; }   // 기간 안에 실제로 모인 날 수
 function firstDay(){ var k = Object.keys(ST.days||{}).sort(); return k[0] || ''; }
 function sum(days, th){ var n=0; days.forEach(function(d){ n += cnt(d, th); }); return n; }
+// 긍정·부정·중립 (2026-11-22~): [긍정, 부정, 중립, 판정 다름] — 낱말 판정과 AI 모델 판정이 같은 기사만 긍정·부정·중립으로 셈
+function scnt(d, th){ var o = (((ST.senti||{})[d])||{})[th] || {}, v = [0,0,0,0];
+  for(var k in o){ if(S.region==='all' || k===S.region){ for(var i=0;i<4;i++) v[i] += o[k][i]||0; } } return v; }
+function ssum(days, th){ var v = [0,0,0,0]; days.forEach(function(d){ var x = scnt(d, th); for(var i=0;i<4;i++) v[i] += x[i]; }); return v; }
+function sentHtml(v){
+  if(!(v[0]+v[1]+v[2]+v[3])) return '<span class="sent"></span>';
+  return '<span class="sent" title="긍정 '+v[0]+' · 부정 '+v[1]+' · 중립 '+v[2]+' · 판정 다름 '+v[3]+'">'+
+    '<i class="s-p">'+v[0].toLocaleString()+'</i><i class="s-n">'+v[1].toLocaleString()+'</i><i class="s-u">'+v[2].toLocaleString()+'</i></span>';
+}
 function capped(days, th){
   var c = ST.capped || {}, hit = false;
   days.forEach(function(d){ (c[d]||[]).forEach(function(s){ var p = s.split('|');
@@ -1094,11 +1103,19 @@ function renderStats(t){
   h += '<div class="seg sp">' + [['yday','어제'],['today','오늘'],['w','7일'],['m','30일'],['h','6개월'],['y','1년']].map(function(x){
     return '<button data-sp="'+x[0]+'" class="'+(S.sp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
   var hc = have(P[0]), hp = have(P[1]), f = firstDay();
-  var rows = (ST.themes||[]).map(function(th){ return {th:th, n:sum(P[0], th), p:sum(P[1], th), cap:capped(P[0], th)}; })
+  var rows = (ST.themes||[]).map(function(th){ return {th:th, n:sum(P[0], th), p:sum(P[1], th), cap:capped(P[0], th), s:ssum(P[0], th)}; })
                             .sort(byN);
   ranks(rows, hp > 0);
+  var ST0 = [0,0,0,0]; rows.forEach(function(r){ for(var i=0;i<4;i++) ST0[i] += r.s[i]; });
+  var ss = ST.senti_since || '';
   var mx = rows.length ? Math.max(1, rows[0].n) : 1, total = 0; rows.forEach(function(r){ total += r.n; });
   h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 전체 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">'+(hp ? '(전 기간 대비)' : '')+'</span></div>';
+  if(ss && P[0][0] && P[0][0] < ss && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
+    h += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작해서, 이 기간의 그 전 기사는 판정이 없어요 (기사 수는 그대로).</div>';
+  if(ss && !(ST0[0]+ST0[1]+ST0[2]+ST0[3]))
+    h += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작했어요. 이 기간엔 아직 판정한 기사가 없어요.</div>';
+  if(ST0[0]+ST0[1]+ST0[2]+ST0[3])
+    h += '<div class="tot sentot">'+sentHtml(ST0)+' <span class="chgnote">긍정 · 부정 · 중립 (판정 다름 '+ST0[3].toLocaleString()+'건은 빼고)</span></div>';
   if(P[0].length > 1 && hc < P[0].length)
     h += '<div class="warn">⚠️ 통계는 '+f.slice(5).replace('-','/')+'부터 모으기 시작해서 이 기간은 아직 <b>'+hc+'일치</b>만 있어요 ('+P[0].length+'일 중). 날이 지나면 저절로 채워져요.'+
          (hp ? '' : ' 이전 기간 자료가 없어 ▲▼ 비교는 아직 안 나와요.')+'</div>';
@@ -1107,10 +1124,11 @@ function renderStats(t){
     return '<div class="srow'+(open?' open':'')+'" data-th="'+esc(r.th)+'">'+
       '<div class="sline">'+mv(r, i)+'<span class="rk">'+(i+1)+'</span><span class="sn">'+esc(r.th)+'</span>'+
       '<span class="sb"><i style="width:'+Math.max(r.n?2:0, r.n/mx*100)+'%"></i></span>'+
-      '<span class="sc">'+r.n.toLocaleString()+(r.cap?'+':'')+'</span>'+chg(r.n, r.p, hc, hp)+spark(r.th, 14)+'</div>'+
+      '<span class="sc">'+r.n.toLocaleString()+(r.cap?'+':'')+'</span>'+sentHtml(r.s)+chg(r.n, r.p, hc, hp)+spark(r.th, 14)+'</div>'+
       (open ? detail(r.th) : '') + '</div>';
   }).join('');
   h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 바로 앞 같은 길이 기간보다 몇 계단 오르고 내렸는지<br>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
+       '· 숫자 오른쪽 <span style="color:#4ade80">●</span>긍정 <span style="color:#f87171">●</span>부정 <span style="color:#a8a29e">●</span>중립 = 기사 제목을 낱말 판정과 무료 AI(Qwen2.5) 판정으로 따로 보고, 둘이 같은 기사만 센 숫자 (둘이 다르면 판정 다름으로 빼요 · '+esc(ss||'')+'부터)<br>'+
        '· 숫자 옆 + 는 검색 결과가 너무 많아 실제보다 적게 잡혔을 수 있다는 표시예요 (구글 뉴스는 한 번에 최대 100개)<br>'+
        '· ▲▼ 는 바로 앞 같은 길이 기간과 비교 (오늘은 진행 중이라 작게 나와요 · 모인 날 수가 다르면 하루 평균끼리 비교)<br>'+
        '· 통계는 '+esc(f)+'부터 모았어요 (첫날은 일부만 잡힘) · 2년치까지 보관 (1년 통계를 그 전 1년과 비교)</footer>';
@@ -1252,6 +1270,10 @@ STATS_CSS = r""".seg{display:flex;gap:4px;margin:6px 4px 10px}.seg button{flex:1
 .sn{width:86px;flex:none;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sb{flex:1;height:10px;background:rgba(255,255,255,.05);border-radius:5px;overflow:hidden;min-width:30px}.sb i{display:block;height:100%;background:var(--acc);border-radius:0 4px 4px 0}
 .sc{width:54px;flex:none;text-align:right;font-size:14px;font-variant-numeric:tabular-nums}
+.sent{flex:none;display:flex;gap:4px;font-size:10.5px;font-variant-numeric:tabular-nums;width:104px;justify-content:flex-start}.sent i{font-style:normal;white-space:nowrap}
+.sent i::before{content:'●';font-size:8px;margin-right:1px;vertical-align:1px}.s-p::before{color:#4ade80}.s-n::before{color:#f87171}.s-u::before{color:#a8a29e}
+.sentot{margin-top:-4px}.sentot .sent{display:inline-flex;font-size:12px;gap:8px;width:auto}
+@media(max-width:520px){.srow .spark{display:none}.srow .sent{flex-direction:column;gap:0;font-size:9.5px;line-height:1.15;width:36px}}
 .chg{width:48px;flex:none;text-align:right;font-size:11.5px;color:var(--sub)}.chg.up{color:#f87171}.chg.dn{color:#60a5fa}
 .spark{flex:none}
 .det{margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}

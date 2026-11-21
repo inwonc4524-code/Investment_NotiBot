@@ -221,6 +221,10 @@ def collect():
     days = st.setdefault("days", {})          # {날짜: {테마: {나라: 개수}}}
     keys = st.setdefault("keys", {})          # 최근 2일치 기사 표시 (중복 방지)
     capped = st.setdefault("capped", {})      # {날짜: ["테마|나라", ...]} 검색 상한에 걸려 실제보다 적을 수 있는 곳
+    # 긍정·부정·중립 (2026-11-22~): 새로 센 기사마다 판정해서 더함 (기사 수와 같은 기준 — 같은 기사는 한 번만)
+    st.setdefault("senti", {})                # {날짜: {테마: {나라: [긍정, 부정, 중립, 판정다름]}}}
+    spend = st.setdefault("spend", [])        # 아직 판정 못 한 기사 [[날짜, 테마, 나라, 제목], ...]
+    scache = st.setdefault("scache", {})      # 최근 판정한 기사 {기사표시: [판정, 날짜]} — 같은 기사가 다른 테마로 또 나오면 재사용
     now = datetime.now(nb.KST)
     today = now.strftime("%Y-%m-%d")
     yday = (now - timedelta(days=1)).strftime("%Y-%m-%d")
@@ -230,6 +234,7 @@ def collect():
             days.pop(d, None)
         st["keys"] = keys = {}
         st["dedup"] = 1
+    st.setdefault("senti_since", today)
     # 같은 테마에서 이미 다른 나라로 센 기사 (한 기사는 처음 잡힌 나라 한 곳에만 셈)
     seen_theme = {}
     for d, slots in keys.items():
@@ -295,6 +300,10 @@ def collect():
                     continue
                 taken.add(k)
                 keys.setdefault(d, {}).setdefault(slot, []).append(k)
+                if k in scache and scache[k][0] in "pnux":
+                    add_senti(st, d, theme["name"], region["key"], scache[k][0])
+                else:
+                    spend.append([d, theme["name"], region["key"], title])
                 added += 1
             for d in live:
                 n = len(keys.get(d, {}).get(slot, []))
@@ -308,10 +317,13 @@ def collect():
             line.append(f'{region["key"]}+{added}')
         print(f'■ {theme["name"]}: ' + " ".join(line))
 
+    judge_pending(st, now)
+
     # 오래된 기록 정리
     cutoff = (now - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
     st["days"] = {d: v for d, v in days.items() if d >= cutoff}
     st["keys"] = {d: v for d, v in keys.items() if d in live}
+    st["senti"] = {d: v for d, v in st["senti"].items() if d >= cutoff}
     st["capped"] = {d: v for d, v in capped.items() if d >= cutoff}
     st["updated"] = now.strftime("%m/%d %H:%M")
     if fails < 40:                              # 대부분 받았을 때만 '지난번 수집' 시각으로 기록
@@ -326,6 +338,53 @@ def collect():
             save_stats(st)
     if fails and fails == sum(1 for t in STAT_THEMES for r in nb.REGIONS if t.get(r["words"])):
         sys.exit(1)
+
+
+JUDGE_MINUTES = 40   # 한 번 실행에서 긍정·부정 판정에 쓸 최대 시간 (한 건 약 2초 → 약 1,200건). 남으면 다음 실행에서 이어서
+PEND_DAYS = 4        # 판정을 기다리는 기사를 며칠까지 들고 있을지
+
+
+def add_senti(st, d, theme, rk, lab):
+    v = st["senti"].setdefault(d, {}).setdefault(theme, {}).setdefault(rk, [0, 0, 0, 0])
+    v["pnux".index(lab)] += 1
+
+
+def judge_pending(st, now):
+    """판정을 기다리는 기사를 낱말 판정 + AI 판정으로 함께 판정 → 같으면 그 판정, 다르면 x(판정 다름)"""
+    import sentiment
+    cut = (now - timedelta(days=PEND_DAYS)).strftime("%Y-%m-%d")
+    pend = [p for p in st["spend"] if p[0] >= cut]
+    if pend:
+        t0 = time.time()
+        uniq = {}                                    # 같은 기사(제목)는 한 번만 판정
+        for p in pend:
+            uniq.setdefault(nb.title_key(p[3])[:40], p[3])
+        ks = list(uniq)
+        try:
+            labs = sentiment.judge([uniq[k] for k in ks], deadline=t0 + JUDGE_MINUTES * 60)
+        except Exception as e:
+            print(f"  ! 긍정·부정 판정 실패: {e}")
+            labs = ["?"] * len(ks)
+        got = {k: l for k, l in zip(ks, labs) if l != "?"}
+        for k, l in list(got.items())[:12]:          # 실행 기록에 판정 예 몇 개 (점검용)
+            print(f"   판정 예 [{ {'p':'긍정','n':'부정','u':'중립','x':'판정다름'}[l] }] {uniq[k][:80]}")
+        rest = []
+        for p in pend:
+            lab = got.get(nb.title_key(p[3])[:40])
+            if lab:
+                add_senti(st, p[0], p[1], p[2], lab)
+            else:
+                rest.append(p)
+        for k, l in got.items():
+            st["scache"][k] = [l, now.strftime("%Y-%m-%d")]
+        st["spend"] = rest
+        c = {k: list(got.values()).count(k) for k in "pnux"}
+        print(f"긍정·부정 판정: 기사 {len(got)}/{len(ks)}개 판정 · 긍정 {c['p']} 부정 {c['n']} 중립 {c['u']} 판정다름 {c['x']} "
+              f"· 남은 것 {len(rest)}건(다음 실행에서) · {time.time() - t0:.0f}초")
+    else:
+        st["spend"] = []
+    keep = (now - timedelta(days=3)).strftime("%Y-%m-%d")
+    st["scache"] = {k: v for k, v in st["scache"].items() if v[1] >= keep}
 
 
 def day_total(st, day, theme):
