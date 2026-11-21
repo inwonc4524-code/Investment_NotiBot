@@ -1,27 +1,6 @@
 {
 "items": [
 {
-"key": "속보반도체만호황은행깡통대출5조원",
-"keys": [
-"속보반도체만호황은행깡통대출5조원"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보]“반도체만 호황” 은행 깡통대출 5조원",
-"show": "[속보]“반도체만 호황” 은행 깡통대출 5조원",
-"source": "한경매거진",
-"src_url": "https://magazine.hankyung.com",
-"sum": "특히 기업 부실대출이 급증하면서 은행권의 건전성 부담이 커지고 있다. 18일 금융감독원 전자공시에 따르면 KB국민·신한·하나·우리은행의 올해 3분기 말 무수익여신 잔액은 5조873억 원으로 집계됐다. 지난해 말보다 1조2405억 원(32.2%) 증가한 규모다. 무수익여신은 연체나 부도 등으로 이자를 받지 못하는 대출로 흔히 ‘깡통대출’로 불린다. 특히 기업 부실이 두드러졌다. 기업 무수익여신은 3조7779억 원으로 지난해 말보다",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GRjYxMUpndVJpN2d1anJnd1RfYV9LVEx2MzVmbGRCM204enBIa0h5eW96Wk5SVkhzTUJRRlJZOWxKNDB2cDc1NlVEdzVtQUZCVkkyNTNSVm90ZFkydVZaN08xRFJjWEVlUzJLYw?oc=5",
-"url": "https://magazine.hankyung.com/business/article/202611183799b",
-"pub": 1794962700.0,
-"time": "11/18 09:45",
-"run": "breaking",
-"added": 1794963339
-},
-{
 "key": "광주권재개발재건축청신호광주특별시반도체클러스터조성맞춰행정지원강화",
 "keys": [
 "광주권재개발재건축청신호광주특별시반도체클러스터조성맞춰행정지원강화",
@@ -2563,10 +2542,32 @@
 "run": "breaking",
 "added": 1795221474,
 "pv": "b052c435"
+},
+{
+"key": "반도체빼면대중무역적자415억달러반도체착시커졌다",
+"keys": [
+"반도체빼면대중무역적자415억달러반도체착시커졌다",
+"4년만의대중무역흑자에도경고반도체빼면적자",
+"4년만에대중무역흑자라더니반도체빼면415억달러적자"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "반도체 빼면 대중 무역적자 415억달러…'반도체 착시' 커졌다",
+"show": "반도체 빼면 대중 무역적자 415억달러…'반도체 착시' 커졌다",
+"source": "SBS Biz",
+"src_url": "https://biz.sbs.co.kr",
+"sum": "[지난 30일 인천국제공항 화물터미널에서 홍콩으로 가는 삼성전자와 SK하이닉스 양사 반도체 화물이 항공기에 탑재되고 있다. (사진=연합뉴스)]우리나라 대중 무역수지가 4년 만에 흑자로 돌아섰지만 속을 들여다보면 반도체에 기댄 '불안한 흑자'라는 분석이 나옵니다. 반도체를 제외한 나머지 품목에서는 오히려 적자 규모가 커진 겁니다.한국무역…",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MdURBeS1EWEtCdTVtbHlxRzBIVEFCa3NEekJHLXJmcXk3RFQ5T0FZbW8yeHA0VTE5M2c5aXY5Vzh1QTdHQkozdDU5ZENQT003NjhN0gFYQVVfeXFMTmVySE5qaFVzZUNYc0dzZEtwZEdTTi1kMXBNQ05FUHRtZVhwSER6NjNWRGJ0WU9FOXN4MWp3R3FnNU1vbWk0eUlxTEF6bDBGd1o1bDdUTmFJbw?oc=5",
+"url": "https://biz.sbs.co.kr/article/20000347957",
+"pub": 1795221026.0,
+"time": "11/21 09:30",
+"run": "breaking",
+"added": 1795222192
 }
 ],
 "seen": {
-"nyclaandchicagoschooldistrictsweighbreakingupwithgooglesearchoverai": 1795049142.0405333,
 "anthropics83ipopriceputsitontrackforarecordbreakingdebutonwallstreethereswhatitm": 1795049871.6840007,
 "코스피045오른5090코스닥083상승한668개장": 1795053513.3016064,
 "속보코스피045상승한509004개장코스닥은083오른66831": 1795053513.3016071,
@@ -3112,12 +3113,15 @@
 "뉴욕증시기술주투매에일제히흔들나스닥53급락": 1795212035.8803377,
 "뉴욕증시다우sp500조정장진입나스닥ai주투매에올해상승분반납종합": 1795212035.8803532,
 "wallstreetnearsbreakingpointasfeargripsglobalmarkets": 1795214949.6623068,
-"美뉴욕증시3대지수급락ai투자과열우려에나스닥53": 1795221479.821301,
+"美뉴욕증시3대지수급락ai투자과열우려에나스닥53": 1795222192.3777845,
 "뉴욕증시3대지수급락마감엔비디아14": 1795220033.474005,
 "뉴욕증시ai투매에폭락나스닥528급락": 1795220033.4740057,
-"뉴욕증시패닉장세에나스닥528폭락엔비디아14급락": 1795221479.8213007,
+"뉴욕증시패닉장세에나스닥528폭락엔비디아14급락": 1795222192.377784,
 "美뉴욕증시급락나스닥528엔비디아14폭락": 1795220752.5547953,
-"essayhowtosurvivethecomingageofeverythingbreaking": 1795221479.3905761,
-"뉴욕증시나스닥53폭락다우sp500도조정장세진입": 1795221479.8213003
+"essayhowtosurvivethecomingageofeverythingbreaking": 1795222191.4573069,
+"뉴욕증시나스닥53폭락다우sp500도조정장세진입": 1795222192.3777838,
+"반도체빼면대중무역적자415억달러반도체착시커졌다": 1795222192.3777587,
+"4년만의대중무역흑자에도경고반도체빼면적자": 1795222192.3777595,
+"4년만에대중무역흑자라더니반도체빼면415억달러적자": 1795222192.3777602
 }
 }
