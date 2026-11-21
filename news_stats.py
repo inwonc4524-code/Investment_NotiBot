@@ -121,7 +121,16 @@ STAT_FALSE = ["보조배터리", "아파트 화재", "아파트서 화재", "제
               "AI 차단방역", "AI 위기경보", "AI 의심축", "AI 의심 신고", "AI 발생 농장",
               "제약 요인", "제약요인",
               # 수소가 들어간 다른 물질·건강 상품 (수소 에너지 아님)
-              "フッ化水素", "過酸化水素", "硫化水素", "水素水", "水素吸入", "과산화수소", "황화수소", "불화수소", "수소수", "수소 흡입"]
+              "フッ化水素", "過酸化水素", "硫化水素", "水素水", "水素吸入", "과산화수소", "황화수소", "불화수소", "수소수", "수소 흡입",
+              # 사람 이름 Banks (은행 아님) — 2026-11-21 표본 점검
+              "Sen. Banks", "Jim Banks", "Carl Banks", "Tanner Banks", "Tyra Banks", "Elizabeth Banks", "Azealia Banks",
+              "Ernie Banks", "Lloyd Banks", "Russell Banks"]
+# 쇼핑 할인 글 (예: 'Switch 2 is on sale for $469 ($30 off)', '$209 ... is now $159 at Amazon') — 산업 뉴스 아님
+SHOP = re.compile(r"\$\d[\d,.]*\s*(?:off\b|discount)|\bon sale for \$|\bis now \$\d|\$\d[\d,.]* at amazon\b|"
+                  r"\b\d+% off\b|\bblack friday deals?\b|\bcyber monday deals?\b|"
+                  r"\bprime day deals?\b|\bbest [\w\s-]{0,30}deals\b|\bplus \d+ more deals\b", re.I)
+# 기사가 아닌 회사 기술 블로그·점수 모음 사이트
+STAT_SRC_SKIP = {"amazon web services (aws)", "theshortcut.com"}
 KEEP_DAYS = 735            # 날짜별 숫자를 며칠치 보관할지 (1년 통계 + 그 전 1년과 비교)
 NOTIFY_HOUR = 7            # 한국 시간 이 시각 이후 첫 수집 때 '어제 통계' 알림
 SATURATED = 95             # 검색 한 번에 이만큼 넘게 나오면 검색어를 나눠서 더 찾음 (구글 뉴스는 한 번에 최대 100개)
@@ -213,18 +222,31 @@ def collect():
     when = "1d" if win_h >= 24 else f"{win_h}h"
     print(f"검색 시간 창: 최근 {when}")
 
+    # 지난번에 가져오기 실패한 칸은 그 칸을 마지막으로 받은 때부터 다시 찾음 (예전엔 그 칸의 그 시간 기사가 빠졌음)
+    miss = st.setdefault("miss", {})          # {"테마|나라": 그 칸을 마지막으로 제대로 받은 시각}
     for theme in STAT_THEMES:
         line = []
         for region in nb.REGIONS:
             words = theme.get(region["words"]) or []
             if not words:
                 continue
-            items, saturated = fetch_theme(region, words, when)
+            slot = f'{theme["name"]}|{region["key"]}'
+            w = when
+            if slot in miss:
+                try:
+                    g = (now - datetime.fromisoformat(miss[slot])).total_seconds() / 3600
+                    w = "1d" if g + 1 >= 24 else f"{max(win_h, math.ceil(g) + 1)}h"
+                except Exception:
+                    w = "1d"
+            items, saturated = fetch_theme(region, words, w)
             time.sleep(0.4)
             if items is None:
                 fails += 1
+                miss.setdefault(slot, st.get("last_ok") or (now - timedelta(hours=win_h)).isoformat())
                 continue
-            slot = f'{theme["name"]}|{region["key"]}'
+            if slot in miss:
+                print(f"  ↺ 지난번 실패한 칸 다시 받음: {slot} (최근 {w})")
+                miss.pop(slot, None)
             added = 0
             hit_days = set()                   # 검색 결과에 나온 날짜 (상한에 걸렸을 때 그 날짜에 + 표시)
             for it in items:
@@ -236,8 +258,9 @@ def collect():
                     continue
                 hit_days.add(d)
                 title = it["title"]
-                if nb.EXCLUDE.search(title) or SPAM.search(title) or nb.is_blocked(it["source"], it.get("src_url", "")) \
-                        or not relevant(theme, title):
+                if nb.EXCLUDE.search(title) or SPAM.search(title) or SHOP.search(title) \
+                        or (it.get("source") or "").strip().lower() in STAT_SRC_SKIP \
+                        or nb.is_blocked(it["source"], it.get("src_url", "")) or not relevant(theme, title):
                     continue
                 k = nb.title_key(title)[:40]
                 if not k:

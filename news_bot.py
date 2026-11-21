@@ -438,7 +438,7 @@ _trlog = []
 # 번자체(대만·홍콩)에만 있는 글자 — 간체(중국 본토) 기사와 구별하는 데 써요
 _HANT_ONLY = set("貝稱這們對個來時說會從還與為於當將經過開關門長東車書無業務產發線電氣學國際價體點應實現團隊員場議導機構銷戶廠記讓設變認權進聯準鷹漲購債銀資幣則輝達週報陸灣調區傳統態勢續擴盤險據蘭費騰訊擬華爾漢詢兌億萬總營較頭創劃層藥醫療環齊並圍歸險飆錄贏虧買賣節財稅標")
 _HANS_ONLY = set("贝称这们对个来时说会从还与为于当将经过开关门长东车书无业务产发线电气学国际价体点应实现团队员场议导机构销户厂记让设变认权进联准鹰涨购债银资币则辉达报陆湾调区传统态势续扩盘险据兰费腾讯拟华尔汉询兑亿万总营较头创划层药医疗环齐并围归飙录赢亏买卖节财税标")
-_TW_MARK = re.compile(r"台股|台積電|臺股|上市櫃|櫃買|新台幣|台幣|台灣|臺灣|加權指數|鉅亨|MoneyDJ|工商時報|經濟日報|自由時報")
+_TW_MARK = re.compile(r"台股|台積電|臺股|上市櫃|櫃買|新台幣|台幣|台灣|臺灣|加權指數|鉅亨|MoneyDJ|工商時報|經濟日報|自由時報|[(（][1-9]\d{3}(?:-TW)?[)）]")   # (2483) 같은 대만 종목 번호
 _NOT_NTD = re.compile(r"港股|港元|港幣|港紙|恒指|恒生|人民幣|美元|日圓|日元|歐元")
 
 
@@ -627,7 +627,7 @@ def refresh_translations(items, redo_limit=60):
                 if lang in ("hans", "ja"):
                     v = v.replace("우리나라", "중국" if lang == "hans" else "일본")
                 if lang == "hant" and _TW_MARK.search(n["title"]) and not _NOT_NTD.search(n["title"]):
-                    v = re.sub(r"(\d[\d,.]*(?:억|만)?) ?위안", r"\1대만달러", v)
+                    v = re.sub(r"(\d[\d,.]*(?:[천백십]?[억만])?) ?위안", r"\1대만달러", v)   # '4억 2천만 위안' 도
                 n[f] = v
             # 번역 '전' 규칙(pre)이 바뀌었고 그 규칙이 이 제목에 걸리면 제목을 새로 번역 (한 번에 60개까지)
             if (redo < redo_limit and n.get("pv") != pre_ver and n.get("show") and n["show"] != n["title"]
@@ -1557,7 +1557,10 @@ BREAKING_MAX_ALERTS = 3       # 한 번 확인할 때 최대 몇 개까지 알�
 BREAKING_WORDS = ["stock market", "Wall Street", "Fed", "Dow Jones", "Nasdaq", "S&P 500",
                   "Treasury yields", "oil prices", "tariffs", "Nvidia", "Tesla", "Apple"]
 # 제목에 이런 표시가 있으면 보도 수와 상관없이 속보로 봄
-BREAKING_MARK = re.compile(r"\bbreaking\b|\bjust in\b|\bflash\b|\balert:", re.I)
+# (제목 맨 앞 'BREAKING:'·'Just In:' 같은 표시만. 예전엔 record-breaking·Breaking Up·Sell Alert:·flash PMI 도 속보로 봄 — 2026-11-21)
+_EN_MARK = (r"^\W*(?:breaking(?: news)?|just in|flash|alert)\b\s*[:\-–—|]|[\[(【]\s*(?:breaking|just in)\s*[\])】]"
+            r"|\bbreaking news\b|\bbreaking:|\bjust in:")
+BREAKING_MARK = re.compile(_EN_MARK, re.I)
 BREAKING_TOPIC = "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en"
 BREAKING_FILE = os.path.join(HERE, "breaking.json")
 US = next(r for r in REGIONS if r["key"] == "us") if any(r["key"] == "us" for r in REGIONS) else \
@@ -1589,7 +1592,7 @@ GLOBAL_BREAKING_WORDS = {
 }
 # 언론사가 제목에 직접 속보라고 단 경우 (나라별 표기)
 # (월차·결산·실적 '속보'는 회사 공시 이름이라 뺌: 예) ランドネット 月次実績速報)
-GLOBAL_BREAKING_MARK = re.compile(r"\[속보\]|【速報】|(?<!月次)(?<!決算)(?<!実績)(?<!業績)速報|快訊|快讯|突發|突发|即時|\bbreaking\b|\bjust in\b", re.I)
+GLOBAL_BREAKING_MARK = re.compile(r"\[속보\]|【速報】|(?<!月次)(?<!決算)(?<!実績)(?<!業績)速報|快訊|快讯|突發|突发|即時|" + _EN_MARK, re.I)
 
 
 def _topic_url(region):
