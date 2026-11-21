@@ -61,7 +61,8 @@
   "shares slide": "stock falls",
   "Shares Slide": "Stock Falls",
   "firestorm": "uproar",
-  "Guidance": "Outlook"
+  "Guidance": "Outlook",
+  "Anthropic": "ANTHROPIC"
  },
  "names": {
   "Nvidia": "엔비디아",
@@ -267,7 +268,8 @@
   "Michael Feroli": "마이클 페롤리",
   "Palo Alto Networks": "팔로알토네트웍스",
   "Zhongji InnoLight": "중지쉬촹",
-  "Movement Stock": "특징주"
+  "Movement Stock": "특징주",
+  "ANTHROPIC": "앤트로픽"
  },
  "post": {
   "연방준비은행": "연준",
@@ -633,7 +635,10 @@
   "화타이증권는": "화타이증권은",
   "화타이증권가": "화타이증권이",
   "화타이증권를": "화타이증권을",
-  "항셍기술지수": "항셍테크지수"
+  "항셍기술지수": "항셍테크지수",
+  "안트로픽": "앤트로픽",
+  "인류의 행복감": "앤트로픽 열기",
+  "인류 행복감": "앤트로픽 열기"
  },
  "regex_post": [
   [
