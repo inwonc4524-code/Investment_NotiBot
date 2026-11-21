@@ -1,0 +1,16 @@
+name: probe_tmp
+on:
+  workflow_dispatch:
+    inputs:
+      mode: {type: string, default: stats}
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q requests feedparser beautifulsoup4 pillow fonttools || true
+      - run: pip install -q -r requirements.txt 2>/dev/null || true
+      - run: python probe_tmp.py ${{ inputs.mode }}
