@@ -1,53 +1,6 @@
 {
 "items": [
 {
-"key": "nvidiahasnoplanstobringbackjensenhuang",
-"keys": [
-"nvidiahasnoplanstobringbackjensenhuang",
-"nvidiasaysitwontbringbackjensenhuang",
-"nvidiareportsfastergrowthsaysjensenhuangwontreturnasceo"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Nvidia Has No Plans to Bring Back Jensen Huang",
-"show": "엔비디아는 젠슨 황을 다시 데려올 계획이 없습니다",
-"source": "The New York Times",
-"src_url": "https://www.nytimes.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaHY0NU1Fd0lrTWFZQmI4M2cxV2RFd3NCYko2aF83QmJWdEUxM3hNc01HV18ycklKZElhbldzREtZRVNneVp5QkdpVWJFV0t6anpmWXZfTFJHVTRlNHR4aW5VRWpCTVNPX0RFblVLQ3BoT2lnZU1sd2xmdnNweWVWX1pWNA?oc=5",
-"url": "https://www.nytimes.com/2026/11/17/business/nvidia-earnings-jensen-huang.html",
-"pub": 1794961650.0,
-"time": "11/18 09:27",
-"run": "breaking",
-"added": 1794962618,
-"pv": "b052c435"
-},
-{
-"key": "특징주에이엘로봇코스닥상장첫날10대급락",
-"keys": [
-"특징주에이엘로봇코스닥상장첫날10대급락",
-"특징주에이엘로봇코스닥상장첫날장초반18하락",
-"에이엘로봇코스닥상장첫날20급락"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[특징주] 에이엘로봇, 코스닥 상장 첫날 10%대 '급락'",
-"show": "[특징주] 에이엘로봇, 코스닥 상장 첫날 10%대 '급락'",
-"source": "뉴스핌",
-"src_url": "https://www.newspim.com",
-"sum": "[서울=뉴스핌] 이정아 기자 = 로봇 부품 전문기업 에이엘로봇이 코스닥 상장 첫날 10% 넘게 하락하고 있다.18일 한국거래소에 따르면, 이날 오전 9시 18분 기준 에이엘로봇은 공모가격인 1만7600원보다 1880원(10.68%) 내린 1만5720원에 거래되고 있다.",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16VFhhVVVSd2gtRklmaUxoWW1iUHZjVHRCcDVsd3dxS3FYSXFXT0NxaUlQX0tsNUlvMzhBdjZoZC1hU2R4VXN0eXFKcURsLXR5ejFLTVRfaHpOV01Q?oc=5",
-"url": "https://www.newspim.com/news/view/20261118000271",
-"pub": 1794962160.0,
-"time": "11/18 09:36",
-"run": "breaking",
-"added": 1794962626
-},
-{
 "key": "속보반도체만호황은행깡통대출5조원",
 "keys": [
 "속보반도체만호황은행깡통대출5조원"
@@ -2588,6 +2541,28 @@
 "time": "11/21 09:00",
 "run": "breaking",
 "added": 1795220033
+},
+{
+"key": "essayhowtosurvivethecomingageofeverythingbreaking",
+"keys": [
+"essayhowtosurvivethecomingageofeverythingbreaking"
+],
+"count": 1,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Essay | How to Survive the Coming Age of Everything Breaking",
+"show": "에세이 | 다가오는 모든 것이 부서지는 시대에서 살아남는 방법",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43V2pKb2lOQ1NDYVllekFUMVp1N0dUQW9mVEd3TVpYaWpFeS1uaG52YlFHdEpIOC1Ea3BFeXRnZDFCOTlLUy1nN2MtYTI3NXZhLUZhVmlGbGtjalVTV1p0UDRjc2trS3RwUVduMUpyYjBSWGtrRnJJVlZ1cHA?oc=5",
+"url": "https://www.wsj.com/tech/tech-breakdowns-flights-cyber-security-f6ab51fd",
+"pub": 1795219200.0,
+"time": "11/21 09:00",
+"run": "breaking",
+"added": 1795221474,
+"pv": "b052c435"
 }
 ],
 "seen": {
@@ -3137,8 +3112,12 @@
 "뉴욕증시기술주투매에일제히흔들나스닥53급락": 1795212035.8803377,
 "뉴욕증시다우sp500조정장진입나스닥ai주투매에올해상승분반납종합": 1795212035.8803532,
 "wallstreetnearsbreakingpointasfeargripsglobalmarkets": 1795214949.6623068,
-"美뉴욕증시3대지수급락ai투자과열우려에나스닥53": 1795220033.474004,
+"美뉴욕증시3대지수급락ai투자과열우려에나스닥53": 1795221479.821301,
 "뉴욕증시3대지수급락마감엔비디아14": 1795220033.474005,
-"뉴욕증시ai투매에폭락나스닥528급락": 1795220033.4740057
+"뉴욕증시ai투매에폭락나스닥528급락": 1795220033.4740057,
+"뉴욕증시패닉장세에나스닥528폭락엔비디아14급락": 1795221479.8213007,
+"美뉴욕증시급락나스닥528엔비디아14폭락": 1795220752.5547953,
+"essayhowtosurvivethecomingageofeverythingbreaking": 1795221479.3905761,
+"뉴욕증시나스닥53폭락다우sp500도조정장세진입": 1795221479.8213003
 }
 }
