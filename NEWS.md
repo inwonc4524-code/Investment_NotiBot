@@ -1,6 +1,6 @@
 # 📰 투자 테마별 뉴스
 
-업데이트 11/22 02:25 · 최근 3일
+업데이트 11/22 02:27 · 최근 3일
 
 
 ## 🚨 미국 속보
@@ -134,8 +134,8 @@
 - 🔥2 [나스닥, 앤트로픽, AI 주식 하락으로 1,261포인트 하락: 오늘 주식 시장](https://www.kiplinger.com/investing/stocks/nasdaq-dives-1-261-points-as-anthropic-ai-stocks-sink-stock-market-today) — 🌍 세계 · Kiplinger · 11/21 06:12
 - 🔥2 [(마켓톡스)캐피털이코노믹스 "S&P500, 내년 6500까지 하락 가능"](https://www.edaily.co.kr/News/Read?newsId=01098806645648016&mediaCodeNo=257) — 🇰🇷 한국 · 이데일리 · 11/21 00:22
 - 🔥2 [AI 주식 매도가 가속화되면서 미국 주식이 폭락하고 S&P500이 하락했습니다.](https://www.bnnbloomberg.ca/markets/2026/11/20/us-stocks-tumble-and-the-sp-500-drops-as-the-sell-off-for-ai-stocks-accelerates/) — 🇸🇬 싱가포르 · BNN Bloomberg · 11/20 20:48
-- [다음 주식 시장 붕괴를 통해 1개의 ETF만 보유할 수 있다면, 내가 사고 싶은 것은 다음과 같습니다.](https://www.theglobeandmail.com/investing/markets/markets-news/motley/8950947/if-i-could-only-hold-1-etf-through-the-next-stock-market-crash-here-s-what-i-d-buy/) — 🌍 세계 · The Globe and Mail · 11/22 01:56 🆕
-- [TSMC ADR 폭락…미 증시 출혈 멈출 수 있을지 세 가지 방향으로 지켜봐야 | 주식 시장 뉴스 | 주식 시장](http://udn.com/news/story/7251/9893936?from=udn-catebreaknews_ch2) — 🇹🇼 대만 · UDN · 11/22 01:36 🆕
+- [다음 주식 시장 붕괴를 통해 1개의 ETF만 보유할 수 있다면, 내가 사고 싶은 것은 다음과 같습니다.](https://www.theglobeandmail.com/investing/markets/markets-news/motley/8950947/if-i-could-only-hold-1-etf-through-the-next-stock-market-crash-here-s-what-i-d-buy/) — 🌍 세계 · The Globe and Mail · 11/22 01:56
+- [TSMC ADR 폭락…미 증시 출혈 멈출 수 있을지 세 가지 방향으로 지켜봐야 | 주식 시장 뉴스 | 주식 시장](http://udn.com/news/story/7251/9893936?from=udn-catebreaknews_ch2) — 🇹🇼 대만 · UDN · 11/22 01:36
 - [S&P500이 20% 하락한다면 나는 주저 없이 이 3개 ETF를 매수할 것입니다](https://finance.yahoo.com/markets/stocks/articles/p-500-drops-20-im-160502319.html) — 🇺🇸 미국 · Yahoo Finance · 11/22 01:05
 - [짐 크레이머(짐 크레이머)는 시장이 자신의 S&P500 목표를 “잘랐다”고 말했습니다.](https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-market-sliced-154742007.html) — 🇺🇸 미국 · Yahoo Finance · 11/22 00:47
 - [Cathay, S&P, 낮은 변동성과 높은 금리로 위험에 저항](https://money.udn.com/money/story/5618/9893546) — 🇹🇼 대만 · 經濟日報 · 11/22 00:36
@@ -171,6 +171,7 @@
 - [골드만삭스 패닉지수 9포인트까지 급등! 골드만삭스: 미국 증시는 하락이 끝나지 않고 체계적 자금이 빠져나가고 있다. 다음 판매 압력의 물결은 더욱 강렬해질 수 있습니다.](https://news.cnyes.com/news/id/6669698) — 🇹🇼 대만 · 鉅亨網 · 11/21 10:20
 - [미국 증시 붕괴 경고! 엔비디아는 14% 급락했고 필라델피아 반도체 지수는 거의 11% 폭락했으며 대만 지수 선물은 야간 거래에서 1,881포인트 급락하여 34,000을 돌파했습니다.](https://wantrich.chinatimes.com/news/20261121900035-420201) — 🇹🇼 대만 · 旺得富理財網 · 11/21 10:15
 - [멈추지 않는 판매 압력 주가 실속에 출구는 (월가 익스프레스)](https://txbiz.tv-tokyo.co.jp/nmssat/news/post_352952) — 🇯🇵 일본 · テレ東BIZ · 11/21 10:00
+- [Xtrackers S&P500 Equal Weight Swap UCITS ETF 1C USD (XEQW.MI) 계절 수익률 차트 - Yahoo Finance](https://sg.finance.yahoo.com/quote/XEQW.MI/seasonality/) — 🇺🇸 미국 · Yahoo Finance Singapore · 11/21 09:28 🆕
 - [미국 증시 폭락, 나스닥은 올해 상승폭 모두 포기](https://www.chinanews.com.cn/cj/2026/11-21/10735615.shtml) — 🇨🇳 중국 · 中国新闻网 · 11/21 09:23
 - [AI 공포에 나스닥 올해 상승분 반납…뉴욕증시 최악의 한 주](https://www.newsis.com/view/NISX20261121_0003877556) — 🇰🇷 한국 · 뉴시스 · 11/21 09:18
 - [연준의 '독수리 바람'! 쿡 주지사: 추가 금리 인상이 즉각 필요하며, 조치가 지연되면 더 큰 비용이 들 것입니다](https://www.cls.cn/detail/2540720) — 🇨🇳 중국 · 财联社 · 11/21 09:07
@@ -358,6 +359,7 @@
 - [정저우시 한 지역에서 화재가 발생해 5명이 사망하고 1명이 부상을 입었습니다. 조사 보고서: 전기 오토바이를 불법 개조하고, 충전을 위해 건물과 주택에 불법 진입했으며, 열 폭주 후 리튬 배터리가 폭발했습니다.](https://www.thepaper.cn/newsDetail_forward_34529076) — 🇨🇳 중국 · ThePaper.cn · 11/21 17:44
 - [테슬라, 중국 CATL과 충전용 배터리 논의 중](https://auto.economictimes.indiatimes.com/news/industry/tesla-in-talks-with-chinas-catl-for-rechargeable-batteries-report/68357867?next=1) — 🇺🇸 미국 · ET Auto · 11/21 16:47
 - [JA Solar가 자체 개발한 배터리 여권 플랫폼이 EU 강제 접근 요구 사항을 충족하기 위해 온라인에 출시되었습니다.](https://money.udn.com/money/story/123828/9893297) — 🇹🇼 대만 · 經濟日報 · 11/21 16:00
+- [중고차 배터리에서 '블랙 골드'를 찾는 노르웨이](https://auto.economictimes.indiatimes.com/news/auto-components/norways-quest-for-black-gold-from-used-car-batteries/101384719?next=1) — 🇺🇸 미국 · ET Auto · 11/21 14:42 🆕
 - [폐전기차 배터리를 금으로 바꿀 수 있을까? 중국 본토에서 '도시 광산' 사업 기회 폭발](https://www.chinatimes.com/realtimenews/20261121001926-260409) — 🇹🇼 대만 · 中時新聞網 · 11/21 14:30
 - [촘촘하게 짜여진 중국 배터리 재활용 네트워크, 1000억 규모 '도시 광산'으로 부상 - China News Service](https://www.chinanews.com.cn/cj/2026/11-21/10735679.shtml) — 🇨🇳 중국 · 中国新闻网 · 11/21 13:50
 - [Yiwei Lithium Energy Liu Jincheng: 2027~2028년 대형 원통형 배터리 납품 규모가 100GWh를 초과할 것](https://www.jiemian.com/article/15357631.html) — 🇨🇳 중국 · Jiemian.com · 11/21 11:58
@@ -416,7 +418,6 @@
 - [Chiayi UAV "대만 팀" R&D 센터에 불이 붙었습니다! 리튬 배터리에 갑자기 불이 붙어 직원 9명이 흡연 혐의로 병원으로 이송됐다.](https://www.chinatimes.com/realtimenews/20261119001709-260402) — 🇹🇼 대만 · 中時新聞網 · 11/19 11:06
 - [LG엔솔 미국 임원 ESS 수요에 자신감, "AI 데이터센터 반대 일부 지역에 불과"](https://www.businesspost.co.kr/BP?command=article_view&num=452369) — 🇰🇷 한국 · 비즈니스포스트 · 11/19 11:01
 - [(리포트 브리핑)LG에너지솔루션, '펀더멘탈 가장 탄탄하나 고평가 부담 지속' 목표가 260,000원 - LS증권](https://www.newspim.com/news/view/20261119000466) — 🇰🇷 한국 · 뉴스핌 · 11/19 10:28
-- [EU와 영국의 전기 자동차에 대한 10% 관세로 인해 출시가 지연될 수 있습니다. 자동차 제조사들은 중국 경쟁업체에 입지를 잃을 것을 우려하고 있다.](https://autos.udn.com/autos/story/124115/9879929?form=udn_ch2_common3_cate) — 🇹🇼 대만 · UDN · 11/19 10:26
 
 ## ⚡ 전고체배터리·ESS
 

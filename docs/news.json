@@ -157,7 +157,8 @@
 "ai股賣壓擴散美股重挫標普500與道瓊陷入修正證券",
 "美股收盤ai股賣壓擴大道瓊跌近千點台積電adr重挫近10",
 "ai股賣壓擴大道瓊盤中跌入修正那指今年漲幅全吐光",
-"ai股賣壓持續湧出美股收黑那指重挫逾5"
+"ai股賣壓持續湧出美股收黑那指重挫逾5",
+"ai股賣壓擴散美股重挫標普500與道瓊陷入修正"
 ],
 "count": 5,
 "theme": "🇺🇸 미국 S&P500",
@@ -1635,6 +1636,27 @@
 "added": 1795259693,
 "url": "https://txbiz.tv-tokyo.co.jp/nmssat/news/post_352952",
 "sum": "이번 주에는 AI의 선행 우려로 하이테크 주식에 대한 판매 압력이 강화되었습니다. 미국의 투자 전략가는 시세의 장기적인 모멘텀=기세가 무너졌다고 보고 잠시 연조된 정세가 계속된다고 분석합니다. 주식의 모멘텀을 측정하는 MACD=이동 평균 수렴 확산법이라고 하는 지표로 보면, 하락 트렌드에 들어가는 징후로 되어 있습니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "xtrackerssp500equalweightswapucitsetf1cusdxeqwmiseasonalreturnschartyahoofinance",
+"keys": [
+"xtrackerssp500equalweightswapucitsetf1cusdxeqwmiseasonalreturnschartyahoofinance"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Xtrackers S&P 500 Equal Weight Swap UCITS ETF 1C USD (XEQW.MI) Seasonal returns chart - Yahoo Finance",
+"show": "Xtrackers S&P500 Equal Weight Swap UCITS ETF 1C USD (XEQW.MI) 계절 수익률 차트 - Yahoo Finance",
+"source": "Yahoo Finance Singapore",
+"src_url": "https://sg.finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pV0F4Tkh0V2dpcFRCNGdDV3NyX2N2OTBKcldCa2tfVlJqYUY5SGFBZy1IanJRUGhRcTRMWTdSNnpnSG1RbTh5SnAzaEU5RmFFdzU5WEdaSTNGbm13cDhFYVVoVmprUQ?oc=5",
+"pub": 1795220907.0,
+"time": "11/21 09:28",
+"run": "202611211726",
+"added": 1795282013,
+"url": "https://sg.finance.yahoo.com/quote/XEQW.MI/seasonality/",
+"sum_tried": 1,
 "pv": "cd009b1f"
 },
 {
@@ -5403,6 +5425,27 @@
 "pv": "cd009b1f"
 },
 {
+"key": "norwaysquestforblackgoldfromusedcarbatteries",
+"keys": [
+"norwaysquestforblackgoldfromusedcarbatteries"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇺🇸 미국",
+"title": "Norway's quest for 'black gold' from used car batteries",
+"show": "중고차 배터리에서 '블랙 골드'를 찾는 노르웨이",
+"source": "ET Auto",
+"src_url": "https://auto.economictimes.indiatimes.com",
+"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdFBSWG1ycTNaX2MwN3g1M2xGcEwxTUMxTWdlYi1VV28xSU15cW9lWFlsNWtiTWZGa3U4UkZzeTZ4ckN3Q0hkQlQtR2gySDBsUkdhemQwalFnY0NPOWJnaGVsWFJDbDZDcDNPS19tNmtDUVl3RTlhWEpZU1hMdXNsUVJvaVVDakdURjBQamhoME5IYjRZYzRPMWUwVlBGR0FpeW9xWURtWmh6UDdwYnRkbVdOb3lTNlk1TXFiUGpUU0lMQkhRbzlKQ05HdWnSAccBQVVfeXFMTWpwN1ZxRU13MV82QWRhUGNsaUtNVFNXaWNvOWFTWThnejFONU9LdlJhVDVVRWxLRUZqVWdadXkxQk1FRTVBYkJfallkb3BHRlJ2WFA3Q3k4RWpNU1p2S2NWRlpuYTdORlh4QVJ4ODc5c19YZ1c4WEFkSTJKNUh1Y1pJOGdwdlJNY2RlRzJnTmoydUhnbXFlVWM1N0puT21Lay1NSWo0a19FdHdjbzE1aHI4TUtnVkNZcm9fb193eGwyYTRwLTZEQQ?oc=5",
+"pub": 1795239724.0,
+"time": "11/21 14:42",
+"run": "202611211726",
+"added": 1795282027,
+"url": "https://auto.economictimes.indiatimes.com/news/auto-components/norways-quest-for-black-gold-from-used-car-batteries/101384719?next=1",
+"sum_tried": 1,
+"pv": "cd009b1f"
+},
+{
 "key": "電動車報廢電池變黃金大陸城市礦山商機爆發",
 "keys": [
 "電動車報廢電池變黃金大陸城市礦山商機爆發"
@@ -6614,27 +6657,6 @@
 "added": 1795058021,
 "url": "https://www.newspim.com/news/view/20261119000466",
 "sum": "[서울=뉴스핌] 로보뉴스 = LS증권에서 19일 LG에너지솔루션(373220)에 대해 '펀더멘탈 가장 탄탄하나 고평가 부담 지속'라며 투자의견 'HOLD'의 신규 리포트를 발행하였고, 목표가 260,000원을 내놓았다. ◆ LG에너지솔루션 리포트 주요내용 LS증권에서 LG에너지솔루션(373220)에 대해 '셀 업체 중 가장 높은 가동률을 보이며 펀더멘탈이 가장 우수하다. 3분기 실적은 일회성 요인으로 컨센서스를 대폭 상회했으나 4분기에는 영업이익이 조정될 것으로 예상된다."
-},
-{
-"key": "歐盟英國電動車10關稅恐延後上路車廠憂不敵中國對手",
-"keys": [
-"歐盟英國電動車10關稅恐延後上路車廠憂不敵中國對手"
-],
-"count": 1,
-"theme": "🔋 2차전지",
-"region": "🇹🇼 대만",
-"title": "歐盟英國電動車10%關稅恐延後上路 車廠憂不敵中國對手",
-"show": "EU와 영국의 전기 자동차에 대한 10% 관세로 인해 출시가 지연될 수 있습니다. 자동차 제조사들은 중국 경쟁업체에 입지를 잃을 것을 우려하고 있다.",
-"source": "UDN",
-"src_url": "https://autos.udn.com",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzdWMyZ3MwZmxwOWcwUzF4U20wM3dUbEh2NEdIMUMtOFJkUlJfdUhXMzlBTFBSSDJWSnJnYVpLQnUtY1VjeVBGNFRpcDI2UFZHc3RzREc5WFNsR193ZFliSlhVVUNkNnBHQkdSRFNjYTRGZHJGLS0wdWtyRlpnYUXSAWJBVV95cUxPOFg4VTJjbWFjbEhlWERkSWg1SW52aUNZSXZOajNPZHRCSFRxNkozSGlEVWNBMmx0YTBCdW80alNZUkpOZlJwbFhmRF9UME1Ea1VwdzZvNGdvcmxlRVl0X1AtZw?oc=5",
-"pub": 1795051564.0,
-"time": "11/19 10:26",
-"run": "202611190311",
-"added": 1795058040,
-"url": "https://autos.udn.com/autos/story/124115/9879929?form=udn_ch2_common3_cate",
-"sum": "EU와 영국의 전기 자동차에 대한 10% 관세가 연기될 수 있습니다. 자동차 제조업체들은 중국 경쟁업체에 패할 것을 우려하고 있다. EU와 영국은 당초 2027년 1월 1일부터 배터리 소재가 현지에 공급되지 않는 전기차에 10%의 관세를 부과할 예정이었다. 그러나 공급망 개발이 일정을 따라가지 못해 양측 모두 시행을 연기할 수 있다. 현재 영국과 EU에서 생산되는 전기 자동차의 주요 배터리 부품 대부분은 여전히 아시아 소재에 의존하고 있습니다. AI 핵심 포인트 기사 요약: - 포인트 1: EU와 영국은 전기 자동차에 대한 10% 관세를 연기할 계획입니다. - 포인트 2: 대부분의 자동차 제조사는 여전히 배터리 소재를 아시아 공급망과 중국산 소재에 의존하고 있다. - 핵심 포인트 3: ACEA는 관세로 인해 경쟁력이 약화될 것을 우려하고 있으며, 일부 업계에서는 관세 연기에 반대하고 있습니다. 이 사양은 2021년 브렉시트 협상 과정에서 작성됐다. EU가 연기한 2035년 종합 전력화 목표와는 전혀 다르다. 전기차 부품의 유래에 초점이 맞춰져 있다. 규정에 따르면 영국과 EU 간을 여행하는 전기 자동차는 배터리 팩이 현지에서 조립되지 않는 한 엄격한 원산지 요건을 충족해야 합니다.",
-"pv": "cd009b1f"
 },
 {
 "key": "교보證삼성sdi미국ess생산본격화목표가88만원유지",
@@ -9609,7 +9631,8 @@
 {
 "key": "特斯拉optimus或转向出租苹果披露halo人形机器人控制方案诺和诺德有望拓展减重之外的市场丨20261110从华尔街到陆家嘴",
 "keys": [
-"特斯拉optimus或转向出租苹果披露halo人形机器人控制方案诺和诺德有望拓展减重之外的市场丨20261110从华尔街到陆家嘴"
+"特斯拉optimus或转向出租苹果披露halo人形机器人控制方案诺和诺德有望拓展减重之外的市场丨20261110从华尔街到陆家嘴",
+"美联储议息多空分歧加剧人形机器人出货高增巨头加码机构狂卖vs散户抄底芯片股丨20261020从华尔街到陆家嘴"
 ],
 "count": 1,
 "theme": "🤖 로봇",
