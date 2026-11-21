@@ -13,9 +13,9 @@ jobs:
           path: |
             ~/.cache/pip
             ~/.cache/huggingface
-          key: sentiment-v1-${{ runner.os }}
-          restore-keys: sentiment-v1-
+          key: sentiment-probe-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: sentiment-
       - run: |
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
-          pip install -q "transformers>=4.40"
-      - run: PYTHONUNBUFFERED=1 python probe_tmp.py
+          pip install -q "transformers>=4.40" sentencepiece protobuf accelerate
+      - run: nproc; free -g; PYTHONUNBUFFERED=1 python probe_tmp.py

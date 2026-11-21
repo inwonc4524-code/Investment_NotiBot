@@ -1,28 +1,63 @@
-# 임시 점검: 긍정·부정 판정 정확도 (낱말 판정 / AI 모델 / 둘이 같을 때) — 점검 후 삭제
-import time, sentiment as se
-G = [  # (제목, 정답)
-("SK하이닉스, HBM 호실적에 사상 최고가 경신","p"),("두산에너빌리티, 체코 원전 주기기 수주","p"),("LG엔솔 3분기 적자 축소…흑자 전환 눈앞","p"),("현대차, 美 판매 사상 최대 기록","p"),
-("삼성SDI 주가 급락…전기차 수요 둔화 직격탄","n"),("에코프로비엠 4분기 적자 확대 우려","n"),("한미반도체 대표 검찰 압수수색","n"),("코스피 외국인 매도에 2% 넘게 하락","n"),
-("정부, 반도체 특별법 국회 논의 착수","u"),("삼성전자 내일 3분기 실적 발표","u"),("포스코퓨처엠 신임 대표 선임","u"),("한화에어로스페이스, 주주총회 개최","u"),
-("Nvidia shares surge after earnings beat estimates","p"),("Rivian loss narrows as deliveries rise","p"),("Eli Lilly wins FDA approval for new obesity drug","p"),("Micron raises forecast on strong AI memory demand","p"),
-("Tesla stock falls after deliveries miss expectations","n"),("Boeing faces new FAA probe over safety lapses","n"),("Intel to cut 15% of workforce amid losses","n"),("Oil prices plunge on demand worries","n"),
-("Fed officials to meet next week","u"),("Apple to hold product event in September","u"),("Amazon names new head of AWS","u"),("What to watch in markets this week","u"),
-("宁德时代股价大涨 创历史新高","p"),("比亚迪10月销量同比增长40%","p"),("台積電法說會 獲利成長優於預期","p"),("小米汽车交付量突破新纪录","p"),
-("比亚迪股价下跌 销量下滑引担忧","n"),("鸿海遭美国调查 股价重挫","n"),("某电池厂宣布裁员并暂停扩产","n"),("恒生指数大跌逾3%","n"),
-("国务院召开常务会议","u"),("台積電將於下週舉行法說會","u"),("华为发布新款手机","u"),("央行公布最新货币政策报告","u"),
-("トヨタ、上方修正 過去最高益を更新","p"),("ソニー株が急騰 好決算を好感","p"),("日立、大型受注を獲得","p"),("キーエンス、増配を発表","p"),
-("日経平均、続落 半導体株が安い","n"),("日産、赤字転落 リストラ拡大へ","n"),("パナソニック電池工場の稼働延期","n"),("東芝に行政処分 不正会計で","n"),
-("ソフトバンクG、決算発表へ","u"),("日銀、金融政策決定会合を開催","u"),("ホンダ、新社長を発表","u"),("東京株式市場の見通し","u"),
-]
-titles=[t for t,_ in G]; gold=[g for _,g in G]
-t0=time.time(); mod=se.model_labels(titles); t1=time.time()
-lex=[se.lexicon_label(t) for t in titles]
-fin=[a if a==b else "x" for a,b in zip(lex,mod)]
-def acc(p): return sum(a==b for a,b in zip(p,gold))
-print(f"모델 시간 {t1-t0:.1f}초 ({len(titles)}건)")
-print(f"낱말 판정 정확도 {acc(lex)}/{len(G)} · AI 모델 {acc(mod)}/{len(G)}")
-agree=[i for i,f in enumerate(fin) if f!='x']
-print(f"둘이 같은 기사 {len(agree)}/{len(G)} 중 정답 {sum(fin[i]==gold[i] for i in agree)}")
-for (t,g),a,b in zip(G,lex,mod): print(f"  정답 {g} 낱말 {a} 모델 {b} {'✓' if a==b==g else ('x' if a!=b else '✗틀림')} {t}")
-# 속도: 1000건
-t0=time.time(); se.model_labels(titles*21); print(f"1000건 판정 시간 {time.time()-t0:.1f}초")
+# 임시 점검: 무료로 쓸 수 있는 판정 방법들의 정확도 비교 (실제 기사 120건, 사람이 정답을 붙임) — 점검 후 삭제
+import json, time, torch, sentiment as se
+S = json.load(open("probe_sets.json")); D = S["set2"] + S["set3"]
+titles = [t for t, _ in D]; gold = [g for _, g in D]
+torch.set_num_threads(4)
+res = {}
+def score(name, pred, sec):
+    ok = sum(a == b for a, b in zip(pred, gold)); res[name] = pred
+    print(f"[{name}] 정확도 {ok}/{len(gold)} ({ok*100//len(gold)}%) · {sec:.1f}초", flush=True)
+
+t0 = time.time(); score("낱말", [se.lexicon_label(t) for t in titles], time.time() - t0)
+
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
+# (b) 감정 모델 — 확률 부호로
+t0 = time.time()
+p = pipeline("text-classification", model="tabularisai/multilingual-sentiment-analysis", top_k=None, truncation=True, max_length=96)
+out = []
+for r in p(titles, batch_size=32):
+    d = {x["label"].lower(): x["score"] for x in r}
+    s = d.get("very positive", 0) + d.get("positive", 0) - d.get("very negative", 0) - d.get("negative", 0)
+    out.append("p" if s > 0.2 else "n" if s < -0.2 else "u")
+score("감정모델", out, time.time() - t0)
+
+# (c) 다국어 NLI 영(0)샷
+t0 = time.time()
+z = pipeline("zero-shot-classification", model="MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7")
+labs = ["good news for investors", "bad news for investors", "neutral news"]
+out = []
+for r in z(titles, candidate_labels=labs, hypothesis_template="This headline is {}.", batch_size=16):
+    top = r["labels"][0]; out.append("p" if top.startswith("good") else "n" if top.startswith("bad") else "u")
+score("NLI", out, time.time() - t0)
+
+# (d) 작은 무료 AI 언어모델 (Qwen2.5 1.5B Instruct) — 다음 낱말 확률로 고르기
+for mid in ["Qwen/Qwen2.5-1.5B-Instruct", "Qwen/Qwen2.5-3B-Instruct"]:
+    t0 = time.time()
+    tok = AutoTokenizer.from_pretrained(mid); tok.padding_side = "left"
+    m = AutoModelForCausalLM.from_pretrained(mid, torch_dtype=torch.float32); m.eval()
+    cand = {"p": "positive", "n": "negative", "u": "neutral"}
+    ids = {k: tok.encode(v, add_special_tokens=False)[0] for k, v in cand.items()}
+    def prompt(t):
+        msg = [{"role": "system", "content": "You classify stock-market news headlines (any language) by whether the news is good or bad for the companies, sector or stock market involved. Answer with one word: positive, negative, or neutral."},
+               {"role": "user", "content": f"Headline: {t}\nAnswer:"}]
+        return tok.apply_chat_template(msg, tokenize=False, add_generation_prompt=True)
+    out = []
+    with torch.no_grad():
+        for i in range(0, len(titles), 16):
+            enc = tok([prompt(t) for t in titles[i:i+16]], return_tensors="pt", padding=True)
+            lg = m(**enc).logits[:, -1, :]
+            for row in lg:
+                out.append(max(ids, key=lambda k: row[ids[k]].item()))
+    score(mid.split("/")[1], out, time.time() - t0)
+    del m
+
+names = list(res)
+for a in range(len(names)):
+    for b in range(a + 1, len(names)):
+        A, B = res[names[a]], res[names[b]]
+        agree = [i for i in range(len(gold)) if A[i] == B[i]]
+        ok = sum(A[i] == gold[i] for i in agree)
+        pn = [i for i in agree if A[i] != "u"]
+        print(f"  {names[a]} + {names[b]}: 같음 {len(agree)}/{len(gold)} · 그중 정답 {ok} ({ok*100//max(1,len(agree))}%) · 긍정/부정으로 셈 {len(pn)}건 중 정답 {sum(A[i]==gold[i] for i in pn)}")
+json.dump(res, open("probe_res.json", "w"))
+print("완료")

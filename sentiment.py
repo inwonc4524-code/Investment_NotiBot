@@ -40,13 +40,15 @@ POS = [
     "climb", "climbs", "record high", "all-time high", "beats", "tops", "upgrade", "upgraded", "upgrades",
     "raises guidance", "raises forecast", "boosts", "boost", "outperform", "wins", "win", "approval", "approved",
     "strong demand", "bullish", "breakthrough", "expands", "expansion", "record profit", "profit rises", "buyback",
-    "growth",
+    "upbeat", "optimism", "optimistic", "record sales", "record revenue",
     # 중국어 (간체·번체)
     "大涨", "大漲", "上涨", "上漲", "涨停", "漲停", "走强", "走強", "新高", "盈利增长", "獲利成長", "增长", "成長",
     "订单", "訂單", "中标", "得標", "获批", "獲批", "利好", "利多", "看好", "突破", "回升", "强劲", "強勁", "飙升", "飆升",
     # 일본어
     "上昇", "急騰", "続伸", "最高値", "上場来高値", "増益", "黒字", "受注", "承認", "好調", "増配", "自社株買い", "好決算",
-    "過去最高", "大幅高", "拡大",
+    "過去最高", "大幅高", "拡大", "%高", "％高", "買い",
+    # 2026-11-22 실제 기사 표본에서 빠졌던 말
+    "기회", "↑", "增", "崛起", "提速", "拐点", "拐點", "订光", "訂光", "降本", "增利", "热销", "熱銷", "供不应求", "供不應求",
 ]
 NEG = [
     # 한국어
@@ -67,6 +69,13 @@ NEG = [
     # 일본어
     "下落", "急落", "続落", "安値", "赤字", "不振", "懸念", "減少", "縮小", "停止", "延期", "撤退", "制裁", "リコール",
     "破綻", "大幅安", "減収", "低迷",
+    # 2026-11-22 실제 기사 표본에서 빠졌던 말
+    "correction", "fear", "panic", "rout", "turmoil", "batters", "batter", "worst", "crisis", "hawkish", "rate hike",
+    "breaking point", "turmoil", "slides", "sell off", "lower",
+    "검은 금요일", "패닉", "↓", "투매", "공포", "폭락", "조정 진입", "약세장", "손절",
+    "跌", "瀉", "泻", "挫", "崩", "蒸發", "蒸发", "拋售", "抛售", "恐慌", "加息", "失守", "血流成河", "大火", "自燃",
+    "发不出", "發不出", "欠薪", "暴雷", "爆雷", "低迷",
+    "売り圧力", "失速", "%安", "％安", "売り",
 ]
 
 
@@ -91,9 +100,13 @@ def _count(t, words):
     return n, t
 
 
+NEUTRAL = ["增资", "增資", "증자"]       # 좋은 말 글자를 품었지만 뜻은 중립인 말 → 먼저 지움
+
+
 def lexicon_label(title):
     """제목 → 'p' / 'n' / 'u'"""
     t = _norm(title)
+    _, t = _count(t, NEUTRAL)
     fp, t = _count(t, FLIP_POS)
     fn, t = _count(t, FLIP_NEG)
     p, t = _count(t, POS)
