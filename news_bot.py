@@ -1019,6 +1019,28 @@ function sentHtml(v){
   return '<span class="sent" title="긍정 '+v[0]+' · 부정 '+v[1]+' · 중립 '+v[2]+' · 판정 다름 '+v[3]+'">'+
     '<i class="s-p">'+v[0].toLocaleString()+'</i><i class="s-n">'+v[1].toLocaleString()+'</i><i class="s-u">'+v[2].toLocaleString()+'</i></span>';
 }
+// 1월~11/14 긍정·부정·중립 비율 (월별 표본 약 40건 · Claude 판정) — 그 기간은 기사 수를 믿을 수 없어 비율만
+function mratio(months, th){
+  var acc = [0,0,0], k = 0;
+  months.forEach(function(m){ var o = (((ST.senti_month||{})[m])||{})[th] || {}, v = [0,0,0];
+    for(var r in o){ if(S.region==='all' || r===S.region){ for(var i=0;i<3;i++) v[i] += o[r][i]||0; } }
+    var n = v[0]+v[1]+v[2]; if(n >= 5){ for(var i=0;i<3;i++) acc[i] += v[i]/n; k++; } });
+  return k ? [acc[0]/k, acc[1]/k, acc[2]/k, k] : null;
+}
+function monthRatio(days, f, rows){
+  if(!ST.senti_month || !f) return '';
+  var ms = []; days.forEach(function(d){ var m = d.slice(0,7); if(d < f && ms.indexOf(m) < 0 && ST.senti_month[m]) ms.push(m); });
+  if(!ms.length) return '';
+  ms.sort();
+  var lab = function(m){ return m.slice(2).replace('-','.'); };
+  var h = '<h3 class="mrh">🟢🔴⚪ '+lab(ms[0])+(ms.length>1?'~'+lab(ms[ms.length-1]):'')+' 긍정·부정·중립 비율</h3>'+
+          '<p class="note">'+f.slice(5).replace('-','/')+' 이전은 기사 수를 믿을 수 없어서, 달마다 테마별 기사 약 40건을 다시 모아 Claude 가 직접 판정한 <b>비율</b>만 보여 줘요 (달마다 같은 무게로 평균)</p>';
+  h += rows.map(function(r){ var v = mratio(ms, r.th); if(!v) return '';
+    var p = Math.round(v[0]*100), n = Math.round(v[1]*100), u = Math.max(0, 100 - p - n);
+    return '<div class="mrow"><span class="sn">'+esc(r.th)+'</span><span class="rbar"><i class="b-p" style="width:'+p+'%"></i><i class="b-n" style="width:'+n+'%"></i><i class="b-u" style="width:'+u+'%"></i></span>'+
+      '<span class="rpct"><i class="s-p">'+p+'%</i><i class="s-n">'+n+'%</i><i class="s-u">'+u+'%</i></span></div>'; }).join('');
+  return h;
+}
 function capped(days, th){
   var c = ST.capped || {}, hit = false;
   days.forEach(function(d){ (c[d]||[]).forEach(function(s){ var p = s.split('|');
@@ -1137,6 +1159,7 @@ function renderStats(t){
       '<span class="sc">'+r.n.toLocaleString()+(r.cap?'+':'')+'</span>'+sentHtml(r.s)+chg(r.n, r.p, hc, hp)+spark(r.th, 14)+'</div>'+
       (open ? detail(r.th) : '') + '</div>';
   }).join('');
+  h += monthRatio(P[0], f, rows);
   h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 바로 앞 같은 길이 기간보다 몇 계단 오르고 내렸는지<br>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
        '· 숫자 오른쪽 <span style="color:#4ade80">●</span>긍정 <span style="color:#f87171">●</span>부정 <span style="color:#a8a29e">●</span>중립 = 기사 제목을 낱말 판정과 무료 AI(Qwen2.5) 판정으로 따로 보고, 둘이 같으면 그대로, 다르면 Claude 가 실제 기사로 정한 규칙(낱말 중립+AI 긍정→중립 등)으로 정하고, 긍정↔부정처럼 크게 엇갈리면 판정 다름으로 빼요. Claude 가 판정 다름 기사를 따로 검토해 고쳐요<br>'+
        '· 숫자 옆 + 는 검색 결과가 너무 많아 실제보다 적게 잡혔을 수 있다는 표시예요 (구글 뉴스는 한 번에 최대 100개)<br>'+
@@ -1282,7 +1305,7 @@ STATS_CSS = r""".seg{display:flex;gap:4px;margin:6px 4px 10px}.seg button{flex:1
 .sc{width:54px;flex:none;text-align:right;font-size:14px;font-variant-numeric:tabular-nums}
 .sent{flex:none;display:flex;gap:4px;font-size:10.5px;font-variant-numeric:tabular-nums;width:104px;justify-content:flex-start}.sent i{font-style:normal;white-space:nowrap}
 .sent i::before{content:'●';font-size:8px;margin-right:1px;vertical-align:1px}.s-p::before{color:#4ade80}.s-n::before{color:#f87171}.s-u::before{color:#a8a29e}
-.sentot{margin-top:-4px}.sentot .sent{display:inline-flex;font-size:12px;gap:8px;width:auto}
+.mrh{font-size:14px;margin:18px 0 4px}.mrow{display:flex;align-items:center;gap:8px;padding:5px 2px;border-bottom:1px solid var(--line)}.mrow .sn{width:92px;flex:none;font-size:13px}.rbar{flex:1;display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--card2)}.rbar i{display:block;height:100%}.b-p{background:#4ade80}.b-n{background:#f87171}.b-u{background:#a8a29e}.rpct{flex:none;display:flex;gap:6px;font-size:11px;font-variant-numeric:tabular-nums;width:132px}.rpct i{font-style:normal}@media(max-width:520px){.rpct{width:auto;flex-direction:column;gap:0;font-size:9.5px;line-height:1.15}.mrow .sn{width:74px}}.sentot{margin-top:-4px}.sentot .sent{display:inline-flex;font-size:12px;gap:8px;width:auto}
 @media(max-width:520px){.srow .spark{display:none}.srow .sent{flex-direction:column;gap:0;font-size:9.5px;line-height:1.15;width:36px}}
 .chg{width:48px;flex:none;text-align:right;font-size:11.5px;color:var(--sub)}.chg.up{color:#f87171}.chg.dn{color:#60a5fa}
 .spark{flex:none}

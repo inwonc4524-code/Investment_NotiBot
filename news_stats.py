@@ -409,6 +409,7 @@ def judge_pending(st, now):
     apply_count_backfill(st)
     apply_backfill(st)
     apply_xfill(st)
+    apply_ratio(st)
 
 
 BACKFILL_FILE = os.path.join(nb.HERE, "sentiment_backfill.json")
@@ -529,6 +530,30 @@ def apply_count_backfill(st):
     st["days_est"] = [est[0], est[-1]] if est else []
     st["calib"] = {th: round(t[1] / max(1, t[0]), 2) for th, t in theme.items()}
     print(f"다시 센 기사 수 반영(추정): {len(est)}일 · 보정 비율 평균 x{g:.1f}")
+
+
+RATIO_DIR = os.path.join(nb.HERE, "ratio_bf")
+
+
+def apply_ratio(st):
+    """1월~11/14 달별 표본(ratio_backfill.py)을 Claude 판정으로 세어 st["senti_month"] = {달: {테마: {나라: [긍정, 부정, 중립]}}}
+    (그 기간은 기사 수를 믿을 수 없어 화면엔 비율만 보여 줌 — 사용자 요청 2026-11-24)"""
+    try:
+        labels = json.load(open(CLAUDE_FILE, encoding="utf-8")).get("labels", {})
+        files = sorted(f for f in os.listdir(RATIO_DIR) if f.endswith(".json"))
+    except Exception:
+        return
+    out = {}
+    for f in files:
+        d = json.load(open(os.path.join(RATIO_DIR, f), encoding="utf-8"))
+        for it in d.get("items", []):
+            lab = labels.get(it["k"])
+            if lab not in ("p", "n", "u"):
+                continue
+            v = out.setdefault(d["month"], {}).setdefault(it["th"], {}).setdefault(it["rk"], [0, 0, 0])
+            v["pnu".index(lab)] += 1
+    if out:
+        st["senti_month"] = out
 
 
 XFILL_FILE = os.path.join(nb.HERE, "sentiment_xfill.json")
