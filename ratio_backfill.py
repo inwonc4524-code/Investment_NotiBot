@@ -12,9 +12,12 @@ import calendar
 import json
 import os
 import random
+import socket
 import sys
 import time
 from datetime import datetime, timedelta
+
+socket.setdefaulttimeout(30)   # 응답 없는 요청에 걸려 몇 시간씩 멈추지 않게
 
 import news_bot as nb
 import news_stats as ns
