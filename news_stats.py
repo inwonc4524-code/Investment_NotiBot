@@ -405,6 +405,54 @@ def judge_pending(st, now):
     keep = (now - timedelta(days=3)).strftime("%Y-%m-%d")
     st["scache"] = {k: v for k, v in st["scache"].items() if v[1] >= keep}
     apply_claude(st, now)
+    apply_backfill(st)
+
+
+BACKFILL_FILE = os.path.join(nb.HERE, "sentiment_backfill.json")
+
+
+def apply_backfill(st):
+    """지난주(제목이 안 남은 날) 표본 판정 → 그날 실제 기사 수를 표본 비율로 나눈 추정치('≈')로 senti 에 넣음.
+    나라 칸 표본이 5건 이상이면 그 나라 비율, 아니면 그 테마·날짜 전체 비율. Claude 판정이 있으면 그걸로."""
+    try:
+        bf = json.load(open(BACKFILL_FILE, encoding="utf-8"))
+    except Exception:
+        return
+    try:
+        labels = json.load(open(CLAUDE_FILE, encoding="utf-8")).get("labels", {})
+    except Exception:
+        labels = {}
+    cells, themes = {}, {}
+    for it in bf.get("items", []):
+        f = labels.get(it["k"]) or it.get("f")
+        if f not in ("p", "n", "u", "x"):
+            continue
+        i = "pnux".index(f)
+        cells.setdefault((it["d"], it["th"], it["rk"]), [0, 0, 0, 0])[i] += 1
+        themes.setdefault((it["d"], it["th"]), [0, 0, 0, 0])[i] += 1
+    est_days = []
+    for d in bf.get("days", []):
+        if d >= st.get("senti_since", "9999"):
+            continue
+        out = {}
+        for th, regs in st.get("days", {}).get(d, {}).items():
+            for rk, cnt in regs.items():
+                if not cnt:
+                    continue
+                v = cells.get((d, th, rk))
+                if not v or sum(v) < 5:
+                    v = themes.get((d, th))
+                if not v or not sum(v):
+                    continue
+                e = [cnt * x / sum(v) for x in v]
+                r = [int(x) for x in e]
+                for j in sorted(range(4), key=lambda j: -(e[j] - r[j]))[:cnt - sum(r)]:
+                    r[j] += 1                    # 반올림해도 합이 그날 기사 수와 같게
+                out.setdefault(th, {})[rk] = r
+        if out:
+            st["senti"][d] = out
+            est_days.append(d)
+    st["senti_est"] = est_days
 
 
 def apply_claude(st, now):

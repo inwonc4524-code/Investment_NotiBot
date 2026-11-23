@@ -1,0 +1,58 @@
+name: 지난주 긍정·부정 표본 판정 (한 번)
+
+on:
+  workflow_dispatch:
+    inputs:
+      judge_only:
+        description: "이미 모은 표본만 이어서 판정"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sentiment-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache/restore@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: sentiment-qwen-v2-${{ runner.os }}
+          restore-keys: sentiment-
+      - run: |
+          pip install -q requests pillow fonttools
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "transformers>=4.40"
+      - name: 표본 모으고 판정
+        env:
+          PYTHONUNBUFFERED: "1"
+          TOKENIZERS_PARALLELISM: "false"
+        run: python sentiment_backfill.py ${{ inputs.judge_only && '--judge-only' || '' }}
+      - name: 저장
+        if: always()
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add sentiment_backfill.json
+          if ! git diff --cached --quiet; then
+            git commit -q -m "지난주 긍정·부정 표본"
+            for t in 1 2 3 4 5; do
+              git pull -q --rebase origin main && git push -q && echo "저장 완료" && exit 0
+              git rebase --abort 2>/dev/null || true
+              sleep $((t * 5))
+            done
+            exit 1
+          fi

@@ -81,6 +81,77 @@ NEG = [
 ]
 
 
+# ── 2026-11-23 폭넓게 늘린 낱말·표현 (SENTIMENT_GUIDE.md 기준) ──
+FLIP_POS += [
+    "감소폭 축소", "하락폭 축소", "낙폭 만회", "손실 줄", "적자 줄", "적자폭 줄", "우려 불식", "악재 해소", "규제 해제",
+    "제재 해제", "관세 철회", "관세 면제", "소송 승소", "리스크 해소", "예상 상회", "예상치 상회", "컨센서스 상회", "기대 이상",
+    "fears ease", "worries ease", "eases fears", "ease concerns", "recovers from", "rebounds from", "bounce back",
+    "bounces back", "lifts ban", "ban lifted", "tariff relief", "pauses tariffs", "tariffs paused", "wins lawsuit",
+    "above expectations", "better than expected", "better-than-expected", "exceeds expectations", "tops forecasts",
+    "跌幅收窄", "止跌回升", "减亏", "減虧", "超预期", "超預期", "优于预期", "優於預期",
+    "下げ幅縮小", "予想上回る", "予想を上回",
+]
+FLIP_NEG += [
+    "상승분 반납", "상승폭 축소", "흑자폭 축소", "기대 못 미쳐", "기대 이하", "예상 하회", "예상치 하회", "컨센서스 하회",
+    "수주 취소", "목표가 하향", "투자의견 하향", "실적 악화", "수요 감소", "수요 부진",
+    "gains erased", "erases gains", "wipes out gains", "gives up gains", "pares gains", "profit falls", "profit drops",
+    "slower growth", "below expectations", "short of expectations", "worse than expected", "worse-than-expected",
+    "cuts jobs", "cut jobs", "cuts outlook", "cut outlook", "cut forecast",
+    "涨幅收窄", "漲幅收窄", "回吐涨幅", "抹去涨幅", "抹去年内涨幅", "涨幅全回吐", "漲幅全回吐", "转盈为亏", "由盈转亏",
+    "不及预期", "不如預期", "低于预期", "低於預期",
+    "上げ幅縮小", "伸び悩み", "利益減少", "予想下回る", "予想を下回",
+    "적자 급증", "적자 증가", "손실 급증", "손실 증가", "难乐观", "難樂觀",
+]
+POS += [
+    # 한국어
+    "호재", "상승세", "오름세", "강세장", "상한가", "최고가", "역대 최대", "역대 최고", "사상 최대", "흑자 행진", "실적 호조",
+    "매출 증가", "영업익 증가", "이익 증가", "순익 증가", "고성장", "수요 급증", "수요 증가", "주문 폭주", "품귀", "완판",
+    "수주 잔고", "대규모 수주", "협력 확대", "파트너십", "지원 대상", "보조금", "세제 혜택", "규제 완화", "품목허가",
+    "임상 성공", "목표가 상향", "투자의견 상향", "매수 추천", "비중 확대", "순매수", "자금 유입", "회복세", "턴어라운드",
+    "개선", "호황", "슈퍼사이클", "붐", "탄력", "쑥", "급증", "사상 첫", "승소", "해소", "증설", "밝아", "밝은", "낙관",
+    "상장 첫날", "선정", "유치", "강세",
+    # 영어
+    "soared", "surged", "jumped", "rallied", "gained", "climbed", "advanced", "rebounded", "highs", "outperforms",
+    "topped", "exceeds", "exceeded", "raises", "raised", "lifts", "lifted", "overweight", "buy rating", "approves",
+    "clears", "cleared", "won", "secures", "secured", "awarded", "contract", "orders surge", "new orders",
+    "demand surges", "booming", "boom", "growth accelerates", "profit jumps", "revenue jumps", "record revenue",
+    "turnaround", "milestone", "partnership", "boosted", "tailwind", "tailwinds", "upside", "strong",
+    # 중국어
+    "涨", "漲", "上扬", "上揚", "走高", "拉升", "飙涨", "飆漲", "大增", "激增", "翻倍", "历史新高", "歷史新高", "看涨", "看漲",
+    "买入", "買進", "增持", "回购", "回購", "分红", "分紅", "签约", "簽約", "接单", "接單", "合作", "批准", "回暖", "复苏",
+    "復甦", "业绩增长", "淨利成長", "净利增长", "景气", "景氣", "爆单", "爆單", "机遇", "機遇", "商机", "商機", "受惠",
+    "受益", "红利", "紅利", "补贴", "補貼",
+    # 일본어
+    "高値", "年初来高値", "買われ", "増収", "最高益", "黒字化", "契約", "提携", "認可", "回復", "改善", "追い風", "期待",
+    "恩恵", "需要増", "好感", "堅調", "強気", "格上げ", "引き上げ",
+    "乐观", "樂觀", "强势", "強勢",
+]
+NEG += [
+    # 한국어
+    "악재", "하락세", "내림세", "하한가", "최저가", "역대 최저", "적자 지속", "매출 감소", "영업손실", "순손실", "감익",
+    "역성장", "재고 증가", "공급 과잉", "가격 하락", "단가 하락", "출혈 경쟁", "계약 해지", "무산", "좌초", "연기", "차질",
+    "가동 중단", "생산 중단", "셧다운", "파업", "결함", "불량", "사망", "부상", "피소", "고소", "고발", "기소", "구속",
+    "조사 착수", "과징금", "벌금", "규제 강화", "관세 부과", "관세 인상", "수출 통제", "금지", "퇴출", "상장폐지", "거래정지",
+    "배임", "분식", "유상증자", "블록딜", "매도 의견", "순매도", "자금 유출", "이탈", "매도세", "휘청", "비상", "경고등",
+    "찬물", "충격", "침체", "법정관리", "워크아웃", "디폴트", "어둡", "비관", "붕괴", "축소", "반납",
+    # 영어
+    "plunged", "slumped", "tumbled", "sank", "slid", "dropped", "declined", "lost", "weakness", "downturn", "recession",
+    "crashed", "bear market", "worry", "concern", "cancels", "canceled", "cancelled", "investigates", "fine", "fined",
+    "penalty", "banned", "curbs", "restrictions", "export controls", "underweight", "sell rating", "missed",
+    "disappoints", "disappointing", "shortfall", "writedown", "write-down", "impairment", "scandal", "outage", "strike",
+    "headwind", "headwinds", "overvalued", "bubble", "pressure", "pressured", "struggles", "struggling", "woes",
+    "wipeout", "wipe out", "wiped out", "lowest", "plummeted", "halted", "suspended", "delayed", "lays off",
+    # 중국어
+    "下挫", "走低", "跳水", "崩盘", "崩盤", "看空", "卖出", "賣出", "减持", "減持", "亏", "虧", "萎缩", "萎縮", "警示",
+    "风险", "風險", "担忧", "擔憂", "危机", "危機", "泡沫", "禁令", "管制", "关税", "關稅", "罚款", "罰款", "停产", "停產",
+    "停工", "违约", "違約", "火灾", "火災", "起火", "爆炸", "事故", "承压", "承壓", "压力", "壓力", "升息", "鹰派", "鷹派",
+    # 일본어
+    "年初来安値", "売られ", "最終赤字", "減配", "無配", "損失", "不安", "警戒", "逆風", "中止", "減産", "人員削減", "リストラ",
+    "提訴", "規制強化", "関税", "不正", "火災", "事故", "格下げ", "引き下げ", "弱気", "暴落", "急反落", "利上げ",
+    "火警", "燒了", "烧了",
+]
+
+
 def _norm(t):
     return " " + re.sub(r"\s+", " ", (t or "").lower()) + " "
 
@@ -102,7 +173,7 @@ def _count(t, words):
     return n, t
 
 
-NEUTRAL = ["增资", "增資", "증자"]       # 좋은 말 글자를 품었지만 뜻은 중립인 말 → 먼저 지움
+NEUTRAL = ["增资", "增資", "증자", "화재 예방", "화재예방", "화재 감지", "사고 예방", "안전 강화"]       # 좋은 말 글자를 품었지만 뜻은 중립인 말 → 먼저 지움
 
 
 def lexicon_label(title):
