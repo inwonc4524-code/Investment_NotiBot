@@ -1,27 +1,6 @@
 {
 "items": [
 {
-"key": "속보뉴욕증시하락출발다우219나스닥225",
-"keys": [
-"속보뉴욕증시하락출발다우219나스닥225"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보] 뉴욕증시 하락 출발…다우 2.19%↓·나스닥 2.25%↓",
-"show": "[속보] 뉴욕증시 하락 출발…다우 2.19%↓·나스닥 2.25%↓",
-"source": "뉴시스",
-"src_url": "https://www.newsis.com",
-"sum": "[속보] 뉴욕증시 하락 출발…다우 2.19%↓·나스닥 2.25%↓",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tRFJQQ19Ea281VDFwYy1aMlVnRVJvV2NkN3RmSERpbEpZLVVBZ0FuN3hmQ1M3RWs3TmxCYmswMEF2V2VZU1Q0aEs3TjQ4dlFHTnIzdUNFcXZudjFSNDRrWNIBeEFVX3lxTE12eWRCZWlKeUI1RnZEbmIteWxUNWVXUWlsclZINE1pTS1OeUlHcGc5aVdiSU1nRWg3NW1jdDBUOHZldVF5X241cmxVX1Z3LWlCVG83MERydkg3S3hFVDFXem4zX3cyTXBueWg2ZGFjcWJuQ19XejA4QQ?oc=5",
-"url": "https://www.newsis.com/view/NISX20261120_0003877488",
-"pub": 1795184082.0,
-"time": "11/20 23:14",
-"run": "breaking",
-"added": 1795185160
-},
-{
 "key": "快訊美股ai續跌台指期夜盤再破底台積電adr挫4",
 "keys": [
 "快訊美股ai續跌台指期夜盤再破底台積電adr挫4"
@@ -856,6 +835,28 @@
 "run": "breaking",
 "added": 1795442153,
 "pv": "cd009b1f"
+},
+{
+"key": "太古配售國泰每股1423元折讓85套現36億元220120261123即時財經新聞",
+"keys": [
+"太古配售國泰每股1423元折讓85套現36億元220120261123即時財經新聞"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "hk",
+"region": "🇭🇰 홍콩",
+"title": "太古配售國泰每股14.23元折讓8.5% 套現36億元 (22:01) - 20261123 - 即時財經新聞",
+"show": "Swire는 캐세이퍼시픽 주식을 8.5% 할인된 주당 NT$14.23에 매도하고 NT$36억을 현금화했습니다. (22:01) - 20261123 - 실시간 금융 뉴스",
+"source": "明報財經網",
+"src_url": "https://finance.mingpao.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOQW9MTWk5NEdnTmdnSkRDSDlqa25IQ2xiSzF3bHdQemR2dVJZN0hCTTJybUxFTlVLU2ZRMEg5aGF4WEwtSXo2WWhOVTRlMUItSWNkRG9ieTB0MjVvOUIzNHpLazFoRUhoVjJIX1oyZ1BTVndXTXhaeE5qb1g3XzZ5UFI2ZTBMd2YzR2JrVmZCRzhUSTJRWGZwQ0VIT2FMM2h4bjJSZ0VGLThXRVp5b1pRdUhHMndBWmxDVno1aTJDUnZNVjVDeXFOc0VqVEczYk9ZRkRFZFdubUlrMmFfOTQ1aHJkUkJvTEo2WHNyZzg2NHU4YVVobzk4cnBhZS00SENqRy1MWTJlbmE1TmU0YXRiV0FtY0hvVXJzOWlMYzQxTTZhazlBdE1hY0xmQ0FDMnZSR0FvMw?oc=5",
+"url": "https://finance.mingpao.com/fin/instantf/20261123/1795442882201/%E5%A4%AA%E5%8F%A4%E9%85%8D%E5%94%AE%E5%9C%8B%E6%B3%B0%E6%AF%8F%E8%82%A114-23%E5%85%83%E6%8A%98%E8%AE%938-5-%E5%A5%97%E7%8F%BE36%E5%84%84%E5%85%83",
+"pub": 1795442958.0,
+"time": "11/23 23:09",
+"run": "breaking",
+"added": 1795443625,
+"pv": "cd009b1f"
 }
 ],
 "seen": {
@@ -1088,8 +1089,26 @@
 "ai前景疑慮升高台積電高呼先進製程產能持續供不應求": 1795427658.6725802,
 "看好ai長線需求台積電先進製程產能持續供不應求上市櫃": 1795429818.699049,
 "罕見發產業新聞稿台積電高呼先進製程產能持續供不應求": 1795429818.699048,
-"trumpsaysreinstatingjensenhuangwouldbethebestthingfornvidiaandtheus": 1795442158.0759234,
-"canjensenhuangreturntonvidia": 1795442158.075928,
-"trumpurgesnvidiatoreinstatejensenhuangcallinghimbestthingforus": 1795442158.0759292
+"trumpsaysreinstatingjensenhuangwouldbethebestthingfornvidiaandtheus": 1795442179.661156,
+"canjensenhuangreturntonvidia": 1795442900.2200549,
+"trumpurgesnvidiatoreinstatejensenhuangcallinghimbestthingforus": 1795442900.220055,
+"nvidiaboardreinstatesjensenhuangasceo": 1795443620.6802201,
+"jensenhuangisbackasnvidiasceo": 1795443620.680221,
+"nvidiareinstatesjensenhuangasceo": 1795443620.6802197,
+"stockmarkettodaydowsp500nasdaqfuturessurgeamidreliefrallynvidiastocksurgesasjens": 1795442900.2200546,
+"nvidiaboardvotesunanimouslytoreinstatejensenhuangafterdecidingheposesnonationals": 1795443620.6802187,
+"nvidiareinstateshuangasceo": 1795443620.6802192,
+"jensenhuangreinstatedasnvidiaceo": 1795443620.6802194,
+"nvidiareinstatesjensenhuangaschiefexecutive": 1795443620.6802197,
+"trumppraisesnvidiasdecisiontoreinstatehuangasceo": 1795443620.68022,
+"jensenhuangreinstatedasnvidiaceoboardchair": 1795443620.6802204,
+"nvidiareinstatesjensenhuangasceostockrockets": 1795443620.6802206,
+"nvidiareinstatesjensenhuangasceowithgovernmentinput": 1795443620.6802208,
+"breakingnvidiareinstatesjensenhuangasceopresidentandboarddirector": 1795443620.6802208,
+"nvidiaboardreinstatesdisgracedjensenhuangasceopresidentsays": 1795443620.6802208,
+"nvidiastocksurgesmorethan30aftercompanyreinstatesjensenhuangasceo": 1795443620.6802208,
+"nvidiareinstatesjensenhuangasceostockskyrockets27": 1795443620.680221,
+"exclusivesecisprobingnvidiaamiddepartureofceojensenhuang": 1795443620.680221,
+"太古配售國泰每股1423元折讓85套現36億元220120261123即時財經新聞": 1795443625.394208
 }
 }
