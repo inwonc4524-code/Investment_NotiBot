@@ -462,6 +462,7 @@ def apply_backfill(st):
 
 
 COUNT_BF_DIR = os.path.join(nb.HERE, "count_bf")
+COUNT_BF_ON = False      # 점검 결과 오래된 날짜는 구글 검색에서 많이 빠져(1월은 11월의 약 1/20) 그대로 쓰면 틀림 → 끔
 LIVE_FULL = "2026-11-16"     # 1시간마다 센 숫자가 하루 온전히 있는 첫날 (그 전은 다시 모아 보정한 추정치)
 
 
@@ -469,6 +470,8 @@ def apply_count_backfill(st):
     """올해 1월~11/15 기사 수: 구글 뉴스 날짜 검색으로 다시 센 숫자(count_backfill.py)를
     1시간마다 센 숫자와 겹치는 날(11/16~21)로 맞춘 비율로 키워서 넣음 ('≈' 추정치, 사용자 요청 2026-11-23).
     다시 센 방법은 한 번 검색에 100개까지라 실제보다 적게 잡혀서(테마마다 9~87%) 테마·나라별 비율로 보정."""
+    if not COUNT_BF_ON:
+        return
     raw = {}
     try:
         for f in sorted(os.listdir(COUNT_BF_DIR)):
