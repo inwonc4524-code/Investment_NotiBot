@@ -406,6 +406,7 @@ def judge_pending(st, now):
     keep = (now - timedelta(days=3)).strftime("%Y-%m-%d")
     st["scache"] = {k: v for k, v in st["scache"].items() if v[1] >= keep}
     apply_claude(st, now)
+    apply_count_backfill(st)
     apply_backfill(st)
     apply_xfill(st)
 
@@ -458,6 +459,63 @@ def apply_backfill(st):
             st["senti"][d] = out
             est_days.append(d)
     st["senti_est"] = est_days
+
+
+COUNT_BF_DIR = os.path.join(nb.HERE, "count_bf")
+LIVE_FULL = "2026-11-16"     # 1시간마다 센 숫자가 하루 온전히 있는 첫날 (그 전은 다시 모아 보정한 추정치)
+
+
+def apply_count_backfill(st):
+    """올해 1월~11/15 기사 수: 구글 뉴스 날짜 검색으로 다시 센 숫자(count_backfill.py)를
+    1시간마다 센 숫자와 겹치는 날(11/16~21)로 맞춘 비율로 키워서 넣음 ('≈' 추정치, 사용자 요청 2026-11-23).
+    다시 센 방법은 한 번 검색에 100개까지라 실제보다 적게 잡혀서(테마마다 9~87%) 테마·나라별 비율로 보정."""
+    raw = {}
+    try:
+        for f in sorted(os.listdir(COUNT_BF_DIR)):
+            if f.endswith(".json"):
+                raw.update(json.load(open(os.path.join(COUNT_BF_DIR, f), encoding="utf-8")).get("days", {}))
+    except Exception:
+        return
+    days = st.get("days", {})
+    cal = [d for d in raw if d >= LIVE_FULL and d in days]
+    if len(cal) < 3:
+        return                                  # 보정할 겹치는 날이 아직 부족
+    cell, theme, tot = {}, {}, [0, 0]
+    for d in cal:
+        names = set(raw[d]) | set(days[d])
+        for th in names:
+            r, l = raw[d].get(th, {}), days[d].get(th, {})
+            for rk in set(r) | set(l):
+                a, b = r.get(rk, 0), l.get(rk, 0)
+                c = cell.setdefault((th, rk), [0, 0]); c[0] += a; c[1] += b
+                t = theme.setdefault(th, [0, 0]); t[0] += a; t[1] += b
+                tot[0] += a; tot[1] += b
+    g = tot[1] / max(1, tot[0])
+
+    def ratio(th, rk):
+        c = cell.get((th, rk))
+        if c and c[0] >= 30:
+            return c[1] / c[0]
+        t = theme.get(th)
+        if t and t[0] >= 30:
+            return t[1] / t[0]
+        return g
+
+    est = []
+    for d in sorted(raw):
+        if d >= LIVE_FULL:
+            continue
+        out = {}
+        for th, regs in raw[d].items():
+            for rk, n in regs.items():
+                v = int(round(n * ratio(th, rk)))
+                if v:
+                    out.setdefault(th, {})[rk] = v
+        days[d] = out
+        est.append(d)
+    st["days_est"] = [est[0], est[-1]] if est else []
+    st["calib"] = {th: round(t[1] / max(1, t[0]), 2) for th, t in theme.items()}
+    print(f"다시 센 기사 수 반영(추정): {len(est)}일 · 보정 비율 평균 x{g:.1f}")
 
 
 XFILL_FILE = os.path.join(nb.HERE, "sentiment_xfill.json")

@@ -1123,6 +1123,9 @@ function renderStats(t){
     h += '<div class="warn">≈ '+xf.map(function(d){ return d.slice(5).replace('-','/'); }).join(', ')+'의 일부(판정 규칙이 생기기 전 \'판정 다름\'이던 기사)는 Claude 가 직접 판정한 같은 종류 기사들의 비율로 나눈 <b>추정치</b>예요.</div>';
   if(est && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
     h += '<div class="warn">≈ 이 기간 중 <b>'+est+'일</b>('+se[0].slice(5).replace('-','/')+'~'+se[se.length-1].slice(5).replace('-','/')+')은 기사 제목이 남아 있지 않아, 테마·하루마다 약 40건을 다시 모아 판정한 <b>표본 비율로 추정</b>한 숫자예요.</div>';
+  var de = ST.days_est || [], nde = de.length ? P[0].filter(function(d){ return d >= de[0] && d <= de[1]; }).length : 0;
+  if(nde)
+    h += '<div class="warn">≈ 이 기간 중 <b>'+nde+'일</b>('+de[0].slice(5).replace('-','/')+'~'+de[1].slice(5).replace('-','/')+')은 1시간마다 세기 전이라, 구글 뉴스 날짜 검색으로 다시 센 뒤 실제로 센 날과 비교해 테마별로 보정한 <b>추정치</b>예요.</div>';
   if(P[0].length > 1 && hc < P[0].length)
     h += '<div class="warn">⚠️ 통계는 '+f.slice(5).replace('-','/')+'부터 모으기 시작해서 이 기간은 아직 <b>'+hc+'일치</b>만 있어요 ('+P[0].length+'일 중). 날이 지나면 저절로 채워져요.'+
          (hp ? '' : ' 이전 기간 자료가 없어 ▲▼ 비교는 아직 안 나와요.')+'</div>';
