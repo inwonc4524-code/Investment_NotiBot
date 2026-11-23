@@ -167,6 +167,17 @@ def model_labels(titles, deadline=None):
     return out
 
 
+def judge_detail(titles, deadline=None):
+    """제목 목록 → [(최종, 낱말, AI), ...]  최종: 같으면 그 판정, 다르면 'x', 아직 못 본 건 '?'"""
+    if not titles:
+        return []
+    mod = model_labels(titles, deadline)
+    lex = [lexicon_label(t) for t in titles]
+    if mod is None:
+        return [("?", a, None) for a in lex]
+    return [("?" if b is None else (a if a == b else "x"), a, b) for a, b in zip(lex, mod)]
+
+
 def judge(titles, deadline=None):
     """제목 목록 → 최종 판정 목록. 두 판정이 같으면 그 판정, 다르면 'x', 아직 못 본 건 '?'(다음 실행에서 다시)"""
     if not titles:

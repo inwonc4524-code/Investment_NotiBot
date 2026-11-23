@@ -11,6 +11,7 @@
    kr=한국어, en=영어(미국·싱가포르·세계), zh=번체(대만·홍콩), cn=간체(중국), ja=일본어
    기사 제목에 이 단어 중 하나라도 있어야 그 테마 기사로 셉니다.
 """
+import hashlib
 import json
 import math
 import os
@@ -340,6 +341,8 @@ def collect():
         sys.exit(1)
 
 
+REVIEW_FILE = os.path.join(nb.HERE, "sentiment_review.jsonl")   # Claude 가 검토할 기사 기록 (최근 며칠만)
+CLAUDE_FILE = os.path.join(nb.HERE, "claude_labels.json")        # Claude 가 기준(SENTIMENT_GUIDE.md)대로 판정한 결과
 JUDGE_MINUTES = 40   # 한 번 실행에서 긍정·부정 판정에 쓸 최대 시간 (한 건 약 2초 → 약 1,200건). 남으면 다음 실행에서 이어서
 PEND_DAYS = 4        # 판정을 기다리는 기사를 며칠까지 들고 있을지
 
@@ -361,10 +364,11 @@ def judge_pending(st, now):
             uniq.setdefault(nb.title_key(p[3])[:40], p[3])
         ks = list(uniq)
         try:
-            labs = sentiment.judge([uniq[k] for k in ks], deadline=t0 + JUDGE_MINUTES * 60)
+            det = sentiment.judge_detail([uniq[k] for k in ks], deadline=t0 + JUDGE_MINUTES * 60)
         except Exception as e:
             print(f"  ! 긍정·부정 판정 실패: {e}")
-            labs = ["?"] * len(ks)
+            det = [("?", None, None)] * len(ks)
+        labs = [x[0] for x in det]
         got = {k: l for k, l in zip(ks, labs) if l != "?"}
         for k, l in list(got.items())[:12]:          # 실행 기록에 판정 예 몇 개 (점검용)
             print(f"   판정 예 [{ {'p':'긍정','n':'부정','u':'중립','x':'판정다름'}[l] }] {uniq[k][:80]}")
@@ -377,6 +381,21 @@ def judge_pending(st, now):
                 rest.append(p)
         for k, l in got.items():
             st["scache"][k] = [l, now.strftime("%Y-%m-%d")]
+        # Claude 검토용 기록: 판정 다름 전부 + 확정 기사 20건 중 1건(맞았는지 표본 점검)
+        refs = {}
+        for p in pend:
+            kk = nb.title_key(p[3])[:40]
+            if kk in got:
+                refs.setdefault(kk, []).append([p[0], p[1], p[2]])
+        lines = []
+        for (k, (f, lx, ai)) in zip(ks, det):
+            if f == "?" or k not in refs:
+                continue
+            if f == "x" or int(hashlib.md5(k.encode()).hexdigest(), 16) % 20 == 0:
+                lines.append(json.dumps({"k": k, "t": uniq[k], "f": f, "lx": lx, "ai": ai, "r": refs[k]}, ensure_ascii=False))
+        if lines:
+            with open(REVIEW_FILE, "a", encoding="utf-8") as fh:
+                fh.write("\n".join(lines) + "\n")
         st["spend"] = rest
         c = {k: list(got.values()).count(k) for k in "pnux"}
         print(f"긍정·부정 판정: 기사 {len(got)}/{len(ks)}개 판정 · 긍정 {c['p']} 부정 {c['n']} 중립 {c['u']} 판정다름 {c['x']} "
@@ -385,6 +404,47 @@ def judge_pending(st, now):
         st["spend"] = []
     keep = (now - timedelta(days=3)).strftime("%Y-%m-%d")
     st["scache"] = {k: v for k, v in st["scache"].items() if v[1] >= keep}
+    apply_claude(st, now)
+
+
+def apply_claude(st, now):
+    """Claude 판정(claude_labels.json)을 통계에 반영: 그 기사를 센 칸에서 이전 판정을 빼고 Claude 판정을 더함 (기사마다 한 번)"""
+    try:
+        labels = json.load(open(CLAUDE_FILE, encoding="utf-8")).get("labels", {})
+    except Exception:
+        labels = {}
+    done = st.setdefault("capplied", {})
+    keep = (now - timedelta(days=PEND_DAYS + 1)).strftime("%Y-%m-%d")
+    lines = []
+    try:
+        lines = [json.loads(x) for x in open(REVIEW_FILE, encoding="utf-8") if x.strip()]
+    except Exception:
+        pass
+    n = 0
+    for e in lines:
+        lab = labels.get(e["k"])
+        if lab not in ("p", "n", "u") or e["k"] in done:
+            continue
+        for d, th, rk in e["r"]:
+            v = st["senti"].get(d, {}).get(th, {}).get(rk)
+            if not v:
+                continue
+            i = "pnux".index(e["f"])
+            if v[i] > 0:
+                v[i] -= 1
+                v["pnux".index(lab)] += 1
+                n += 1
+                st.setdefault("cdone", {})[d] = st.setdefault("cdone", {}).get(d, 0) + 1
+        done[e["k"]] = max((r[0] for r in e["r"]), default=now.strftime("%Y-%m-%d"))
+    if n:
+        print(f"Claude 검토 반영: {n}건")
+    st["capplied"] = {k: d for k, d in done.items() if d >= keep}
+    st["cdone"] = {d: c for d, c in st.get("cdone", {}).items() if d >= (now - timedelta(days=400)).strftime("%Y-%m-%d")}
+    # 검토 기록은 최근 며칠만 남김
+    kept = [x for x in lines if max((r[0] for r in x["r"]), default="") >= keep]
+    if len(kept) != len(lines):
+        with open(REVIEW_FILE, "w", encoding="utf-8") as fh:
+            fh.write("".join(json.dumps(x, ensure_ascii=False) + "\n" for x in kept))
 
 
 def day_total(st, day, theme):
