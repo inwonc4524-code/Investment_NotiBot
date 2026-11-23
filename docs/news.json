@@ -845,7 +845,7 @@
 "run": "202611230611",
 "added": 1795414327,
 "url": "https://www.ft.com/content/047a6fec-f0da-41e1-94f6-f7698e4c8cb0?syn-25a6b1a6=1",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1199,28 +1199,9 @@
 "run": "202611230611",
 "added": 1795414322,
 "url_tried": 1,
-"pv": "cd009b1f"
-},
-{
-"key": "techstockselloffdeepensinasia",
-"keys": [
-"techstockselloffdeepensinasia"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🌍 세계",
-"title": "Tech stock sell-off deepens in Asia",
-"show": "아시아에서 기술주 매도세 심화",
-"source": "Financial Times",
-"src_url": "https://www.ft.com",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeXhpd01xVDBQSlFMWUJzZktLSGh3WXZ0b3JfRTdwSEV4Rll0bjlIc3FfM3MwemllQlRidmpiOEpUbHJBQzZ4YU1ZOFNhMmVpMjBWc3RULWppdmxLZVdERHFTLXJHSjU3aTFWcmFrakkzS3VpTDFkSE45Vk1TbmszWUhzcVM?oc=5",
-"pub": 1795400229.0,
-"time": "11/23 11:17",
-"run": "202611230315",
-"added": 1795403764,
-"url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
-"sum_tried": 2,
-"pv": "cd009b1f"
+"pv": "cd009b1f",
+"url": "https://www.cnbc.com/quotes/.SPX",
+"sum": "CNBC에서 S&P500 지수(.SPX:INDEX) 실시간 주가, 뉴스, 가격 및 금융 정보를 받아보세요."
 },
 {
 "key": "國際金融歷史經驗美股泡沫有危險但非ai泡沫",
@@ -1371,7 +1352,8 @@
 "key": "wallstreetsettoreboundafteraistockselloff",
 "keys": [
 "wallstreetsettoreboundafteraistockselloff",
-"firstftwallstreetsettoreboundafteraistockselloff"
+"firstftwallstreetsettoreboundafteraistockselloff",
+"techstockselloffdeepensinasia"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -1386,7 +1368,9 @@
 "run": "202611230611",
 "added": 1795414328,
 "url_tried": 1,
-"pv": "cd009b1f"
+"pv": "cd009b1f",
+"url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
+"sum_tried": 1
 },
 {
 "key": "edyardenicutssp500targetforsecondtimeinjustovertwomonthshereswhy",
@@ -5683,7 +5667,7 @@
 "run": "202611230611",
 "added": 1795414363,
 "url": "https://www.news1.kr/industry/general-industry/6362582",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "ai半導體掀電力人才爭奪戰電力工程協會表揚菁英53人次學生獲獎產業動態商情",
@@ -6652,7 +6636,9 @@
 "run": "202611230611",
 "added": 1795414373,
 "url_tried": 1,
-"pv": "cd009b1f"
+"pv": "cd009b1f",
+"url": "https://www.cls.cn/detail/2541421",
+"sum": "영화 및 TV 극장, 귀금속, 휴머노이드 로봇 부문이 장 초반 강세를 보였습니다. A500 ETF E 펀드(159361)는 반나절 만에 2억 건 이상의 순청약을 받았습니다. 11월 23일 오전 거래에서는 하락세를 보이다 다시 상승세를 보였다. 중국 3대 A주 지수는 상승과 하락을 반복했습니다. 전체 시장의 반나절 매출액은 9000억 위안을 넘어섰다. 업종별로는 영화와 텔레비전 극장, 귀금속, 부품, 휴머노이드 로봇, 감속기가 가장 많이 상승한 반면, 부동산, 물류, 석유 및 가스 탐사 및 서비스, 전력 부문은 가장 많이 하락했습니다. 홍콩 주요 지수는 엔터테인먼트, 통신 장비, 의료 서비스 부문이 상승세를 주도하는 등 조정을 이어갔습니다. 정오 마감 기준으로 CSI A500 지수는 0.5%, CSI 300 지수는 0.6%, GEM 지수는 1.2%, 과학 기술 혁신 50 지수는 2.7%, 항셍 중국 기업 지수는 0.8% 하락했다. Flush iFinD 데이터에 따르면 A500 ETF E 펀드(159361, 피더 펀드 A/C/Y: 022459/022460/022930)는 반나절 만에 2억 건 이상의 순 청약을 받았습니다."
 },
 {
 "key": "visionsofjapanoverrunbyhumanoidrobotimportsinspirestartups",
