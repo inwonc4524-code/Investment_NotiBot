@@ -471,6 +471,16 @@ def apply_count_backfill(st):
     1시간마다 센 숫자와 겹치는 날(11/16~21)로 맞춘 비율로 키워서 넣음 ('≈' 추정치, 사용자 요청 2026-11-23).
     다시 센 방법은 한 번 검색에 100개까지라 실제보다 적게 잡혀서(테마마다 9~87%) 테마·나라별 비율로 보정."""
     if not COUNT_BF_ON:
+        de = st.pop("days_est", None)
+        if de:                                   # 한 번 들어갔던 추정치를 걷어내고 11/15 원래 숫자로 되돌림
+            for d in [d for d in st.get("days", {}) if de[0] <= d <= de[1]]:
+                del st["days"][d]
+            try:
+                st["days"].update(json.load(open(os.path.join(nb.HERE, "count_restore.json"), encoding="utf-8")))
+            except Exception:
+                pass
+            st.pop("calib", None)
+            print("다시 센 기사 수 추정치를 걷어냄")
         return
     raw = {}
     try:
