@@ -1107,7 +1107,9 @@ function renderStats(t){
                             .sort(byN);
   ranks(rows, hp > 0);
   var ST0 = [0,0,0,0]; rows.forEach(function(r){ for(var i=0;i<4;i++) ST0[i] += r.s[i]; });
-  var ss = ST.senti_since || '';
+  var ss = ST.senti_since || '', se = (ST.senti_est||[]).slice().sort();
+  if(se.length && se[0] < ss) ss = se[0];                     // 지난주는 표본으로 추정한 값이 들어 있음
+  var est = P[0].filter(function(d){ return se.indexOf(d) >= 0; }).length;
   var mx = rows.length ? Math.max(1, rows[0].n) : 1, total = 0; rows.forEach(function(r){ total += r.n; });
   h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 전체 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">'+(hp ? '(전 기간 대비)' : '')+'</span></div>';
   if(ss && P[0][0] && P[0][0] < ss && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
@@ -1116,6 +1118,8 @@ function renderStats(t){
     h += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작했어요. 이 기간엔 아직 판정한 기사가 없어요.</div>';
   if(ST0[0]+ST0[1]+ST0[2]+ST0[3])
     h += '<div class="tot sentot">'+sentHtml(ST0)+' <span class="chgnote">긍정 · 부정 · 중립 (판정 다름 '+ST0[3].toLocaleString()+'건은 빼고)</span></div>';
+  if(est && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
+    h += '<div class="warn">≈ 이 기간 중 <b>'+est+'일</b>('+se[0].slice(5).replace('-','/')+'~'+se[se.length-1].slice(5).replace('-','/')+')은 기사 제목이 남아 있지 않아, 테마·하루마다 약 40건을 다시 모아 판정한 <b>표본 비율로 추정</b>한 숫자예요.</div>';
   if(P[0].length > 1 && hc < P[0].length)
     h += '<div class="warn">⚠️ 통계는 '+f.slice(5).replace('-','/')+'부터 모으기 시작해서 이 기간은 아직 <b>'+hc+'일치</b>만 있어요 ('+P[0].length+'일 중). 날이 지나면 저절로 채워져요.'+
          (hp ? '' : ' 이전 기간 자료가 없어 ▲▼ 비교는 아직 안 나와요.')+'</div>';
