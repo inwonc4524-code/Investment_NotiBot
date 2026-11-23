@@ -407,6 +407,7 @@ def judge_pending(st, now):
     st["scache"] = {k: v for k, v in st["scache"].items() if v[1] >= keep}
     apply_claude(st, now)
     apply_backfill(st)
+    apply_xfill(st)
 
 
 BACKFILL_FILE = os.path.join(nb.HERE, "sentiment_backfill.json")
@@ -457,6 +458,41 @@ def apply_backfill(st):
             st["senti"][d] = out
             est_days.append(d)
     st["senti_est"] = est_days
+
+
+XFILL_FILE = os.path.join(nb.HERE, "sentiment_xfill.json")
+
+
+def apply_xfill(st):
+    """규칙이 생기기 전(~2026-11-23) 판정 다름으로 남은 기사를 Claude 판정 비율로 긍정·부정·중립에 나눔 (한 번만, 추정치)"""
+    if st.get("xfill"):
+        return
+    try:
+        xf = json.load(open(XFILL_FILE, encoding="utf-8"))
+    except Exception:
+        return
+    R, until, days, n = xf["ratio"], xf["until"], [], 0
+    for d, v in st.get("senti", {}).items():
+        if d > until or d in st.get("senti_est", []):
+            continue
+        for th, regs in v.items():
+            q = R.get(th) or R["*"]
+            for rk, x in regs.items():
+                m = x[3]
+                if not m:
+                    continue
+                e = [m * r / sum(q) for r in q]
+                r = [int(y) for y in e]
+                for j in sorted(range(3), key=lambda j: -(e[j] - r[j]))[:m - sum(r)]:
+                    r[j] += 1
+                for j in range(3):
+                    x[j] += r[j]
+                x[3] = 0
+                n += m
+                if d not in days:
+                    days.append(d)
+    st["xfill"] = sorted(days)
+    print(f"예전 판정 다름 {n}건을 Claude 판정 비율로 나눔: {sorted(days)}")
 
 
 def apply_claude(st, now):
