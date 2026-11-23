@@ -41,9 +41,10 @@
 "美股芯片股盘前爆发大型科技股集体上涨",
 "美股芯片股盘前爆发sk海力士涨超10大型科技股集体上涨英伟达涨超9黄金白银拉升",
 "美股科技巨头及ai硬件股盘前集体反弹英伟达涨近8",
-"170132英伟达美股盘前涨超8"
+"170132英伟达美股盘前涨超8",
+"美股大型科技股盘前普涨英伟达涨超6"
 ],
-"count": 4,
+"count": 5,
 "theme": "🇺🇸 미국 S&P500",
 "region": "🇨🇳 중국",
 "title": "美股盘前科技股集体上涨，英伟达涨超8%",
@@ -224,7 +225,9 @@
 "keys": [
 "뉴욕증시급락엔비디아회계조사에ai투매확산",
 "마켓무버뉴욕증시급락엔비디아회계조사에ai투매확산",
-"굿모닝글로벌뉴욕증시엔비디아sec회계조사에14폭락나스닥53추락"
+"굿모닝글로벌뉴욕증시엔비디아sec회계조사에14폭락나스닥53추락",
+"뉴욕증시나스닥선물36급반등엔비디아등기술주투매진정",
+"뉴욕증시프리뷰주가선물반등엔비디아9급등나스닥100선물36"
 ],
 "count": 3,
 "theme": "🇺🇸 미국 S&P500",
@@ -317,6 +320,31 @@
 "pv": "cd009b1f"
 },
 {
+"key": "yardeni再降美股目標陷入熊市機會低",
+"keys": [
+"yardeni再降美股目標陷入熊市機會低",
+"美股股災華爾街分析師edyardeni兩個月內第二度降標指目標惟仍感樂觀兼料陷熊市機會低",
+"美股股災華爾街分析師edyardeni兩個月內第二度降標指目標惟仍感樂觀兼不預期陷熊市",
+"美股災情華爾街分析師edyardeni兩個月內第二度降標指目標惟仍感樂觀兼料陷熊市機會低",
+"華爾街策略師yardeni再次下調標普500目標但認為熊市不太可能出現美股動態國際"
+],
+"count": 3,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "Yardeni再降美股目標 陷入熊市機會低",
+"show": "야르데니, 미국 증시 목표 다시 낮춰 약세장 진입 가능성 낮아",
+"source": "信報網站",
+"src_url": "https://www.hkej.com",
+"link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOcHhTTlVqMDFuWl9ZUHhuUGlxMkVSRFVUeGxWcFlOVnpRRER2YmlaWlgwM3dvODNGUjd2bDdvcmhWLWFTaVk4Q0JSdDlnQ1RjTlpzb1NiR0VNOXc3STdPZUhRS1NnNDBJNEVMRDAtQjFCdGsxS3VteElLVmFab0dHSS1udmwyV1MxeVI5ZkVhS0JmYndpZlBiSnFpUktLd3BWUUpEMkZseTBCRkx3YzF1c2ZhNHBOMDRtOFJkWFdhSVd4Z0tDMzR2REVEalZaSUxVbXAwb0V6T1h2UWpCM0lET3J0VmtrSFdmZ2N4aEhlVFJXMTZyM2JaT3VwQXRBSzM3ajkxU1hOU2NmUUd0R2xaUDg0OXpuNUk?oc=5",
+"pub": 1795379223.0,
+"time": "11/23 05:27",
+"run": "202611222324",
+"added": 1795389888,
+"url": "https://www.hkej.com/instantnews/international/article/4571455/Yardeni%E5%86%8D%E9%99%8D%E7%BE%8E%E8%82%A1%E7%9B%AE%E6%A8%99+%E9%99%B7%E5%85%A5%E7%86%8A%E5%B8%82%E6%A9%9F%E6%9C%83%E4%BD%8E",
+"sum": "대형 월스트리트 애널리스트이자 야데니 리서치(Yardeni Research)의 사장 겸 최고 투자 전략가인 에드 야데니(Ed Yardeni)는 S&P500의 2026년 연말 목표를 지난 두 달 동안 두 번째로 낮췄으며, 9월 예측치 7,900포인트보다 낮은 7,500포인트로 마감할 것으로 예상된다. 하지만 지난 금요일 종가와 비교하면 여전히 8% 이상의 반등 여지가 남아 있다. Yardeni의 견해는 여전히 낙관적입니다. 예상보다 매수 기회가 많다고 설명했다. 그는 시장에 조정이 있을 것이라고 예측했지만 이는 조정일 뿐인 것으로 보인다. 현재 경기 침체 위험이 없는 상황에서 S&P500이 약세장에 빠질 가능성은 낮습니다.",
+"pv": "cd009b1f"
+},
+{
 "key": "美股股指期货高开",
 "keys": [
 "美股股指期货高开",
@@ -343,26 +371,28 @@
 "pv": "cd009b1f"
 },
 {
-"key": "이미속이시커먼데또검은월요일주말美증시투매에벌벌",
+"key": "ai美股領跌全球資產anthropic加劇流動性壓力比特幣失守6萬美元大關",
 "keys": [
-"이미속이시커먼데또검은월요일주말美증시투매에벌벌",
-"美증시급락에코스피도흔들4300선저점매수기회",
-"美증시투매에코스피도벌벌월요일이두렵다"
+"ai美股領跌全球資產anthropic加劇流動性壓力比特幣失守6萬美元大關",
+"anthropic美股盘前转跌",
+"204338anthropic美股盘前转跌此前一度涨超5",
+"輝達以外ai巨頭也強勢主導ipoanthropic上市流程惹惱華爾街銀行國際"
 ],
 "count": 3,
 "theme": "🇺🇸 미국 S&P500",
-"region": "🇰🇷 한국",
-"title": "“이미 속이 시커먼데 또 검은 월요일?”…주말 美증시 투매에 ‘벌벌’",
-"show": "“이미 속이 시커먼데 또 검은 월요일?”…주말 美증시 투매에 ‘벌벌’",
-"source": "매일경제 마켓",
-"src_url": "https://stock.mk.co.kr",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M0NodEM5OXk3QU5uSVpLb211aThWSlF0RVhFcUk1OXNMMXZWMl9zdTF5R0FOY204UGdrblB2YXFheFNxb010QzE1aFhpRTJBLXc?oc=5",
-"pub": 1795337288.0,
-"time": "11/22 17:48",
-"run": "202611221242",
-"added": 1795351379,
-"url": "https://stock.mk.co.kr/news/view/1203789",
-"sum": "“이미 속이 시커먼데 또 검은 월요일?”…주말 美증시 투매에 ‘벌벌’ 정석환 기자(hwani84@mk.co.kr) 입력 : 2026.11.22 17:48:08 글로벌 증시 AI發 쇼크 美반도체지수 10.7% 와르르 S&P500 코로나 후 최장 하락 고점 대비 10% 빠져 조정 국면 증권가 “미국發 유동성 악재에 외국인 코스피 매도 지속될것” 인공지능(AI) 거품 경계론이 지속되면서 지난 주말 뉴욕 증시에서 반도체주 투매가 일어났다."
+"region": "🇹🇼 대만",
+"title": "AI美股領跌全球資產，Anthropic加劇流動性壓力，比特幣失守6萬美元大關",
+"show": "AI 미국 주식이 글로벌 자산 하락을 주도하고, 앤트로픽이 유동성 압박을 강화하고, 비트코인이 60,000달러 아래로 떨어집니다.",
+"source": "鉅亨網",
+"src_url": "https://news.cnyes.com",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jbnIzOUJOMDNZakU0YnBJSloyWEZkZUI4a2JjZWpHZllZd1BTdGJjcWNrcWdnN2FHdHktTzZET0VwaVUwLWlMWkNxYlJkTzg?oc=5",
+"pub": 1795349928.0,
+"time": "11/22 21:18",
+"run": "202611230014",
+"added": 1795392897,
+"url": "https://news.cnyes.com/news/id/6669868",
+"sum": "BlockBeats 리듬 금융 BlockBeats 뉴스, 어젯밤과 오늘 아침, 11월 21일 글로벌 리스크 시장에 블랙 프라이데이가 시작되었습니다. 미국 주식과 금속은 전반적으로 급락했습니다. S&P500은 3.70% 하락한 6,910.39포인트로 7일 연속 하락했으며 200일 이동평균선 아래로 떨어졌습니다. 나스닥 종합지수는 5.28% 하락한 22,617.73포인트를 기록했고, 다우존스 지수도 하락했습니다. 48,147.33포인트로 1.93%. 주가가 폭락하면서 시장 패닉을 측정하는 VIX 지수는 지난해 관세 혼란 이후 VIX 지수 종가 중 가장 높은 35.89까지 치솟았다.",
+"pv": "cd009b1f"
 },
 {
 "key": "美股回调何时见底高盛给出三大潜在信号料标普12个月内冲击8700点",
@@ -405,6 +435,27 @@
 "added": 1795423977,
 "url": "https://udn.com/news/story/7243/9896482",
 "sum": "개인이 주식을 팔아 손실을 본 경우, 세금 신고 시 공제받을 수 있나요? 대답은 당신이 어떤 주식을 사느냐에 따라 달라집니다. 일반적으로 투자자가 국내 상장주식과 장외주식을 매매할 때 매각 손실은 급여나 배당금 수입을 상쇄하는 데 사용될 수 없습니다. 미국 주식에 투자하는 경우 해당 연도 해외 부동산 거래에서 판매 손실을 공제할 수 있습니다. 국내 비상장 OTC 주식은 규정이 다릅니다. 조건을 충족하여 당해 연도에 전액 공제할 수 없는 경우에는 다음 연도부터 3년 이내에 공제할 수도 있습니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "美股科技股全线大涨",
+"keys": [
+"美股科技股全线大涨"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "美股科技股，全线大涨！",
+"show": "미국 기술주가 전반적으로 급등했습니다!",
+"source": "每日经济新闻",
+"src_url": "https://www.nbd.com.cn",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxZjlkRGUtNnc3aC15Qm1CS2gyQWx1ZzBXcndnYjE2ZFZpNE1aRzY2V0p2Yk5rUDg4UXpvRzQtUWtZdnRxejUxMnQySEdBTjJVOEFRUURLdjFGNTZFT0xvSDE2bHZIdw?oc=5",
+"pub": 1795414080.0,
+"time": "11/23 15:08",
+"run": "202611230852",
+"added": 1795423974,
+"url": "https://www.nbd.com.cn/articles/2026-11-23/4655728.html",
+"sum": "기자 | 편집자 루샹용 | He Xiaotao와 Xiang Jianglin 교정자 | Cheng Peng 베이징 시간으로 11월 23일, 미국 기술주 암시장은 전반적으로 급등했습니다. 보도 시점 기준 엔비디아는 7% 이상, SK하이닉스는 9% 이상, 마이크론 테크놀로지는 6% 이상, 인텔은 6% 이상, TSMC는 6% 이상 상승했다. (면책조항: 텍스트",
 "pv": "cd009b1f"
 },
 {
@@ -475,6 +526,27 @@
 "pv": "cd009b1f"
 },
 {
+"key": "國際金融歷史經驗美股泡沫有危險但非ai泡沫",
+"keys": [
+"國際金融歷史經驗美股泡沫有危險但非ai泡沫"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "《國際金融》歷史經驗：美股泡沫有危險 但非AI泡沫",
+"show": "'국제금융' 역사적 경험: 미국 주식 버블은 위험하지만 AI 버블은 아니다",
+"source": "工商時報",
+"src_url": "https://www.ctee.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sS2tTTWYwZ29EMHdoTE9FN2xOWlhIS3ZJTGxEZ3R6Njh5cENEUlRwX2dKcWJ0MkI5YUR2dThxandjLWZLN3hoSG1hSGFNV3dVT010cnNWVWhSMWxvSVRn?oc=5",
+"pub": 1795400160.0,
+"time": "11/23 11:16",
+"run": "202611230440",
+"added": 1795408826,
+"url": "https://www.ctee.com.tw/news/20261123700885-430701",
+"sum": "[타임즈 장차오친 외신종합보도] 2022년 약세장이 바닥을 친 이후 지난 4년 동안 다우존스 지수는 지금까지 90% 상승했고, 벤치마크 S&P와 나스닥도 2배 이상 상승했다. AI 인프라가 이러한 주식 시장 상승의 주요 원인이지만 이것이 유일한 이유는 아닙니다. 역사적으로 낮은 한계 법인세율이 기업 주식 환매 활동, 주식 분할 및 기록적인 기업공개(IPO)를 자극했으며, 이 모든 것이 소매 투자자의 열정을 불러일으켰습니다.",
+"pv": "cd009b1f"
+},
+{
 "key": "川普貝森特都說話再添黃仁勳重返輝達可能性美股期貨電子盤反彈國際",
 "keys": [
 "川普貝森特都說話再添黃仁勳重返輝達可能性美股期貨電子盤反彈國際"
@@ -501,7 +573,8 @@
 "wallstreetsettoreboundafteraistockselloff",
 "firstftwallstreetsettoreboundafteraistockselloff",
 "techstockselloffdeepensinasia",
-"wallstreetfuturesreboundasbatteredaistocksgainground"
+"wallstreetfuturesreboundasbatteredaistocksgainground",
+"wallstreetsettobouncebackaftertechselloff"
 ],
 "count": 2,
 "theme": "🇺🇸 미국 S&P500",
@@ -763,30 +836,6 @@
 "pv": "cd009b1f"
 },
 {
-"key": "yardeni再降美股目標陷入熊市機會低",
-"keys": [
-"yardeni再降美股目標陷入熊市機會低",
-"美股股災華爾街分析師edyardeni兩個月內第二度降標指目標惟仍感樂觀兼料陷熊市機會低",
-"美股股災華爾街分析師edyardeni兩個月內第二度降標指目標惟仍感樂觀兼不預期陷熊市",
-"美股災情華爾街分析師edyardeni兩個月內第二度降標指目標惟仍感樂觀兼料陷熊市機會低"
-],
-"count": 2,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇭🇰 홍콩",
-"title": "Yardeni再降美股目標 陷入熊市機會低",
-"show": "야르데니, 미국 증시 목표 다시 낮춰 약세장 진입 가능성 낮아",
-"source": "信報網站",
-"src_url": "https://www.hkej.com",
-"link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOcHhTTlVqMDFuWl9ZUHhuUGlxMkVSRFVUeGxWcFlOVnpRRER2YmlaWlgwM3dvODNGUjd2bDdvcmhWLWFTaVk4Q0JSdDlnQ1RjTlpzb1NiR0VNOXc3STdPZUhRS1NnNDBJNEVMRDAtQjFCdGsxS3VteElLVmFab0dHSS1udmwyV1MxeVI5ZkVhS0JmYndpZlBiSnFpUktLd3BWUUpEMkZseTBCRkx3YzF1c2ZhNHBOMDRtOFJkWFdhSVd4Z0tDMzR2REVEalZaSUxVbXAwb0V6T1h2UWpCM0lET3J0VmtrSFdmZ2N4aEhlVFJXMTZyM2JaT3VwQXRBSzM3ajkxU1hOU2NmUUd0R2xaUDg0OXpuNUk?oc=5",
-"pub": 1795379223.0,
-"time": "11/23 05:27",
-"run": "202611222324",
-"added": 1795389888,
-"url": "https://www.hkej.com/instantnews/international/article/4571455/Yardeni%E5%86%8D%E9%99%8D%E7%BE%8E%E8%82%A1%E7%9B%AE%E6%A8%99+%E9%99%B7%E5%85%A5%E7%86%8A%E5%B8%82%E6%A9%9F%E6%9C%83%E4%BD%8E",
-"sum": "대형 월스트리트 애널리스트이자 야데니 리서치(Yardeni Research)의 사장 겸 최고 투자 전략가인 에드 야데니(Ed Yardeni)는 S&P500의 2026년 연말 목표를 지난 두 달 동안 두 번째로 낮췄으며, 9월 예측치 7,900포인트보다 낮은 7,500포인트로 마감할 것으로 예상된다. 하지만 지난 금요일 종가와 비교하면 여전히 8% 이상의 반등 여지가 남아 있다. Yardeni의 견해는 여전히 낙관적입니다. 예상보다 매수 기회가 많다고 설명했다. 그는 시장에 조정이 있을 것이라고 예측했지만 이는 조정일 뿐인 것으로 보인다. 현재 경기 침체 위험이 없는 상황에서 S&P500이 약세장에 빠질 가능성은 낮습니다.",
-"pv": "cd009b1f"
-},
-{
 "key": "fed下月升息機率高市場避險情緒升溫短天期美債交投熱絡基金股市",
 "keys": [
 "fed下月升息機率高市場避險情緒升溫短天期美債交投熱絡基金股市",
@@ -877,6 +926,153 @@
 "pv": "cd009b1f"
 },
 {
+"key": "ai泡沫破了嗎華爾街日報示警資料中心晶片股投機泡沫已破",
+"keys": [
+"ai泡沫破了嗎華爾街日報示警資料中心晶片股投機泡沫已破"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "AI泡沫破了嗎？華爾街日報示警資料中心、晶片股投機泡沫已破",
+"show": "AI 버블이 터졌나요? 월스트리트저널은 반도체주의 투기 거품이 터졌다고 경고했습니다.",
+"source": "鉅亨網",
+"src_url": "https://news.cnyes.com",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84cEV5UFJySUQ0SUMwaUl6TkVjYUhtbGZkUGRKT0pLd1RPN0oxNjZLYWhlQkdLaGg0QUhnLTZIcGZqcHUxXzFEcGF1Z01FbVE?oc=5",
+"pub": 1795439405.0,
+"time": "11/23 22:10",
+"run": "202611231320",
+"added": 1795440058,
+"url": "https://news.cnyes.com/news/id/6670125",
+"sum": "AI 컨셉주는 최근 몇 주 동안 매도압력을 받고 있는데 이는 2000년 닷컴버블과 유사하다. 그러나 현재의 영향은 여전히 AI 관련 산업에 집중되어 있으며 아직 경제로 완전히 확산되지는 못하고 있다.\n마이크론, 코어위브 등 주가가 급등했다가 급락하는 등 데이터센터, 반도체, 공급망 등에서 부분적인 투기 거품이 터졌다.\n하락으로 인해 기업이 자본 지출을 줄이게 되면 공급망과 자금 조달을 따라 확산되고 부 효과를 통해 소비가 억제되고 시장 영향이 증폭될 수 있습니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "華爾街避險基金大撤退摩根士丹利強勢股不再受追捧基金槓桿降至一年低點",
+"keys": [
+"華爾街避險基金大撤退摩根士丹利強勢股不再受追捧基金槓桿降至一年低點"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "華爾街避險基金大撤退！摩根士丹利：強勢股不再受追捧 基金槓桿降至一年低點",
+"show": "월스트리트 헤지펀드 후퇴! 모건스탠리: 강세 주식은 더 이상 인기가 없으며 펀드 레버리지도 1년 최저 수준으로 하락",
+"source": "鉅亨網",
+"src_url": "https://news.cnyes.com",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16VkJacjk2SmhuVmtHSDdqblBfZy1GSDNzSHNfdHlzeVl6eVI0UmhmTy1ZSzBVR0lfSFV2UGRLMGJNNmczZWs2Zl96cGpBbmc?oc=5",
+"pub": 1795439223.0,
+"time": "11/23 22:07",
+"run": "202611231320",
+"added": 1795440060,
+"url": "https://news.cnyes.com/news/id/6670239",
+"sum": "월스트리트 헤지펀드는 순 레버리지 비율이 41%, 총 레버리지 비율이 195%로 떨어지는 등 위험포지션 축소에 속도를 냈다. 두 가지 모두 지난 12개월 만에 최저치를 기록했다.\n모멘텀 거래가 롱에서 숏으로 전환, 기술주의 순익스포저 비율이 22.5%로 하락\n골드만삭스는 시장 패닉 지수가 9.8까지 상승했으며, 시장 반등 여부는 여전히 연준의 정책과 기업 이익 실적에 달려 있다고 지적했다.",
+"pv": "cd009b1f"
+},
+{
+"key": "sp500futuresclimbinpremarkettradingkymeratherapeuticszscalerlead",
+"keys": [
+"sp500futuresclimbinpremarkettradingkymeratherapeuticszscalerlead"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "S&P 500 Futures Climb in Premarket Trading; Kymera Therapeutics, Zscaler Lead",
+"show": "S&P500 선물, 개장 전 거래 상승; Kymera Therapeutics, Zscaler 리드",
+"source": "Barron's",
+"src_url": "https://www.barrons.com",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMk1kZDhoMzRIWEZqUUtncFY4d0NOaFdEVHBJYldzcEFKUzVHUmxGRzFRNGdQOWVpLTFVTnRHd2ZlSVA1OUhUcjdncnREVG9yZ25lN3RzakswcHBEZExid2pRVElGUWVRdHczcF92STdoZGJNSC1GclFELUwydk0xbllHOTQ1eXdQSE9XNnF1bmNoOFpuMkdMUXo3NjZSWS1TUjV3cUF3UTlxdFlGTV9kS2VWRGFDZTIx?oc=5",
+"pub": 1795437000.0,
+"time": "11/23 21:30",
+"run": "202611231320",
+"added": 1795440048,
+"url": "https://www.barrons.com/articles/s-p-500-futures-climb-in-premarket-trading-kymera-therapeutics-zscaler-lead-199b54a0",
+"sum_tried": 1,
+"pv": "cd009b1f"
+},
+{
+"key": "11sp500stocksthriveastechandaidiveinmassiveselloff",
+"keys": [
+"11sp500stocksthriveastechandaidiveinmassiveselloff"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "11 S&P 500 Stocks Thrive As Tech And AI Dive In Massive Sell-Off",
+"show": "11개의 S&P500 주식은 기술과 AI가 대규모 매도세를 보이면서 번창했습니다.",
+"source": "Investor's Business Daily",
+"src_url": "https://www.investors.com",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZG1TZk5FV05PZk9YVzNaOVBtTWloV3FfRHMzcG1QZnlxY09CVTBwYnY5aWlQZVBUTi1BSnR3eWRjY2NpSm96ZjI0QkgtbDJ3TVBFbVNvMzJTNWxLYkRTdUNkRnd6cFBMbGJEOTMtX0txd2NmR2JDZ293MlR4d2pWQWphMUswN1FrSENWYkxIZU00N19nTUxRNlV0UXQ5VmVaNzV6YU1jV0h5VWJaSEFR?oc=5",
+"pub": 1795435680.0,
+"time": "11/23 21:08",
+"run": "202611231320",
+"added": 1795440049,
+"url": "https://www.investors.com/etfs-and-funds/sectors/sp-500-stocks-thrive-as-tech-and-ai-dive-in-massive-sell-off/",
+"sum": "AI와 기술주 붐에 쌓인 투자자들은 지금 그로 인해 어려움을 겪고 있습니다. 그러나 덜 주목받는 다른 주식도 상승하고 있습니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "聯準會理事庫克表示遏制通膨擴散愈發緊迫國際焦點國際",
+"keys": [
+"聯準會理事庫克表示遏制通膨擴散愈發緊迫國際焦點國際"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "聯準會理事庫克表示遏制通膨擴散愈發緊迫 | 國際焦點 | 國際",
+"show": "쿡 연준 총재는 인플레이션 확산을 억제하는 것이 점점 더 시급해지고 있다고 말했습니다 | 국제 포커스 | 국제",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8telNVa2FvbldsVm9CaXZyb1VBRTNhbGpOX3phaE54UHFIUzhCaVhqVHprX3hGbFNlX2lQbWRyVEk5X2pyZFNsc1F3ZlRKOEs0aWs3SFJkSEhJQQ?oc=5",
+"pub": 1795435566.0,
+"time": "11/23 21:06",
+"run": "202611231320",
+"added": 1795440062,
+"url": "https://money.udn.com/money/story/5599/9895689",
+"sum": "[블룸버그] -- 리사 쿡 연방준비제도(연준) 총재는 미국 중앙은행이 인플레이션을 낮추기 위해 긴급하게 금리를 인상해야 한다고 말하면서 조치가 지연된다면 앞으로 금리를 더 빨리, 더 높은 수준으로 인상해야 할 수도 있다고 경고했습니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "usstockspoisedforabouncebackthoughfearsabound",
+"keys": [
+"usstockspoisedforabouncebackthoughfearsabound"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "US stocks poised for a bounce back, though fears abound",
+"show": "미국 증시는 반등할 준비가 되어 있지만 우려는 크다",
+"source": "Semafor",
+"src_url": "https://www.semafor.com",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnJMYWdRNFhyTFpwZFRTQVVsMzdydnNWUWUyWGhEa29DZDVVSEMxMV9oTFJBVmFnSFZBNDUwelY5cFhnRHZkYkREVjlDc21BbThUTVFLdzZSSnFDSnVCV0pGeVZJVUVpLThZdTU5YWpMaXFpWTFHRUQ1Y2JvX1IwTzlrbDFXVTlCU3ZlUDU2czllU0otaTdYT1FZRHVHNGd2V3NnOWEzM2tDNlUwN1JV?oc=5",
+"pub": 1795435200.0,
+"time": "11/23 21:00",
+"run": "202611231320",
+"added": 1795440049,
+"url": "https://www.semafor.com/article/11/23/2026/us-stocks-poised-to-rebound-prompting-asian-regulators-intervention",
+"sum": "월요일 아시아의 부진은 금요일 미국의 매도세에 이어 나스닥이 코로나19 대유행 이후 최악의 한 주를 기록했습니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "trumpwarnsusstockmarketcrashwillgetworseafter6trillionwipeoutbutwhyaredowjonessp",
+"keys": [
+"trumpwarnsusstockmarketcrashwillgetworseafter6trillionwipeoutbutwhyaredowjonessp"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Trump warns US stock market crash will get worse after $6 trillion wipeout, but why are Dow Jones, S&P 500",
+"show": "트럼프는 6조 달러 손실 이후 미국 증시 붕괴가 더욱 악화될 것이라고 경고했는데 다우존스, S&P500은 왜 그랬는가?",
+"source": "The Economic Times",
+"src_url": "https://m.economictimes.com",
+"link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPRHlTbTdKRTQ3OXJSaDZyaXpGWlp3eE14YlotamFmWkFqMU1jVTg0YlNXOHk2eVVBREd3Zm5FZzMxZ0RzeFl1Y3RPcHlfci1ubDdrMDdZSkR2TURhNXRzcl9mN0JpZG9JNVZKbW9zeF94aUxpWU1HR19ZWU42eWRrRjNvRkZMRU40cGhra2VNaDR0T1FDeC1VOW5KN0pMeHNsaGQtcUFuc0RERHU0a09QclNhSEctTHlRYW5BajBaS0l5VlhHOUFXNEdRVFItelpNa2NtLWtaOVJIZ3dSVk5Bd1NUSnAzSjdwNzBVY3diZFN5TWk2NHRaaUhROHJzUHpyazB4cjg1T09hUGUwUlBJanU0dUh2QmNPVVhXN3hzcE8xUGxDbjZoRDBmLTFUb1lpN09scnNEV3hSa29uZklIS0dNQjlqSy0wR3hpLXBRZnk2SjVSQTQ1ZkJmMWMtc3JIZG1GUmxqN2ZtSF9xWFFuZmZ4NnNxQmo2SnfSAf8CQVVfeXFMTTlxck1FTnY4U1RKNlI3bUtFT3ZjVDlsUjE1cXRTM1NJSjR2MEZNamZOTXVIbDI3dWtBc085ZGZKUnJhcDQ0bVJQN0lYM3hCN0dWa1JUdEVDaWV2R01laG4yZUlYVE5vNkE3d2hQaFI3dk1HYk81YzFNVHhKRnJZTHZwSUJLVzJTNl9wem5sYVJ1dEJNWl9vTUJOMmlWSlZ2MFl1WlBUSEhLVFhnY2NLMTF0MEZRUnJ2cjNheW9YQ0pqZDJFaXNXc2ZuWWRrd0Y1dWMzOWtVT3NlZGFkR3VNeHVJYXcxMERwaTZBWFFVYTdaWlBORnFYSlRpTVpoUGJUbVVMT2djNENpT3F0dDZGMjBWOWg1WnBsNjZwN0poMjBLRjF5LUVJcWFZQ0hnOXlrZHhtMmt4cks3MExUVDNlcWJZRTVnMWVmd3ZMa010cTRCSjlnZnFjN1N6dkxkWDJkZjZmbzBGZGJuVTljUVowSlJZRlVRRnBqVnh1aTdsam8?oc=5",
+"pub": 1795435198.0,
+"time": "11/23 20:59",
+"run": "202611231320",
+"added": 1795440050,
+"url": "https://m.economictimes.com/world/us/trump-warns-us-stock-market-crash-will-get-worse-after-6-trillion-wipeout-but-why-are-dow-jones-sp-500-and-nasdaq-futures-rebounding-as-south-koreas-kospi-crashes-and-triggers-a-5-minute-trading-halt/articleshow/136100363.cms",
+"sum": "미국 증시 붕괴 경고: 트럼프는 민주당의 중간 승리로 인해 미국 주식이 6조 달러의 손실을 입었다고 말했으며 매도세는 더욱 악화될 수 있다고 경고했습니다. 그러나 다우존스, S&P500, 나스닥 선물은 월요일 오전 2.13%, 2.88%, 3.54% 상승하며 반등 가능성을 시사했습니다. 한국에서는 코스피가 5% 이상 하락해 5분간 프로그램 매도가 중단된 뒤 3.31% 하락세로 장을 마감했습니다.",
+"pv": "cd009b1f"
+},
+{
 "key": "watchaistocksreboundaftersp500enterscorrection",
 "keys": [
 "watchaistocksreboundaftersp500enterscorrection"
@@ -894,7 +1090,7 @@
 "run": "202611231155",
 "added": 1795434947,
 "url": "https://www.bloomberg.com/news/videos/2026-11-23/the-pulse-with-francine-lacqua-11-23-2026-video",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -936,12 +1132,15 @@
 "run": "202611231155",
 "added": 1795434961,
 "url_tried": 1,
-"pv": "cd009b1f"
+"pv": "cd009b1f",
+"url": "https://news.cnyes.com/news/id/6670199",
+"sum": "미국 증시 개장 전 반도체와 AI 하드웨어 컨셉주가 강하게 반등했다. 다우존스 선물은 2.01%, S&P500 선물은 2.86%, 나스닥 100 선물은 3.71% 상승했습니다.\nSK하이닉스는 10% 이상, 엔비디아는 9% 이상 상승했다. TSMC ADR은 6.96% 상승했고, SOXL은 17.40% 상승했습니다.\nAI 컴퓨팅 성능, 메모리, 광통신 및 장비 체인에 집중된 자금 대부분의 대형 기술주와 중국 컨셉주가 동시에 반등했습니다."
 },
 {
 "key": "crowdstriketobuyzscalerin439billionstockswap",
 "keys": [
-"crowdstriketobuyzscalerin439billionstockswap"
+"crowdstriketobuyzscalerin439billionstockswap",
+"crowdstriketobuyzscalerin44billionstockswap"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -956,7 +1155,7 @@
 "run": "202611231155",
 "added": 1795434948,
 "url": "https://www.wsj.com/business/deals/crowdstrike-to-buy-zscaler-in-43-9-billion-stock-swap-4c926031",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -998,7 +1197,7 @@
 "run": "202611231155",
 "added": 1795434951,
 "url": "https://www.cls.cn/detail/2542026",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1019,7 +1218,7 @@
 "run": "202611231155",
 "added": 1795434948,
 "url": "https://www.reuters.com/markets/us/global-markets-technicals-graphics-2026-11-23/",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1040,13 +1239,14 @@
 "run": "202611231155",
 "added": 1795434949,
 "url": "https://www.barrons.com/articles/sp500-stock-market-monday-af36010a",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
 "key": "費半創25年最慘跌幅ai泡沫爆破vs市調整防守股炒貴無處可逃買港股對沖真係得林少陽vincent美股focus",
 "keys": [
-"費半創25年最慘跌幅ai泡沫爆破vs市調整防守股炒貴無處可逃買港股對沖真係得林少陽vincent美股focus"
+"費半創25年最慘跌幅ai泡沫爆破vs市調整防守股炒貴無處可逃買港股對沖真係得林少陽vincent美股focus",
+"費半創25年最慘跌幅泡沫爆破vs市調整防守股炒貴無處可逃買港股對沖真係得李少陽vincent美股focus"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -1061,6 +1261,48 @@
 "run": "202611231155",
 "added": 1795434967,
 "url": "https://video.hket.com/video/4229566/%E8%B2%BB%E5%8D%8A%E5%89%B525%E5%B9%B4%E6%9C%80%E6%85%98%E8%B7%8C%E5%B9%85%EF%BC%81AI%E6%B3%A1%E6%B2%AB%E7%88%86%E7%A0%B4VS%E2%BD%9C%E5%B8%82%E8%AA%BF%E6%95%B4%EF%BC%9F%E9%98%B2%E5%AE%88%E8%82%A1%E7%82%92%E8%B2%B4%E7%84%A1%E8%99%95%E5%8F%AF%E9%80%83%EF%BC%9F%E8%B2%B7%E6%B8%AF%E8%82%A1%E5%B0%8D%E6%B2%96%E7%9C%9F%E4%BF%82%E5%BE%97%EF%BC%9F%EF%BD%9C%E6%9E%97%E5%B0%91%E9%99%BD%20Vincent%E3%80%90%E7%BE%8E%E8%82%A1FocUS%E3%80%91?mtc=80040",
+"sum_tried": 2,
+"pv": "cd009b1f"
+},
+{
+"key": "fivechartsunpackoneoftheworstweeksforstocksindecades",
+"keys": [
+"fivechartsunpackoneoftheworstweeksforstocksindecades"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Five Charts Unpack One of the Worst Weeks for Stocks in Decades",
+"show": "5개의 차트로 수십 년 만에 주식 최악의 주 중 하나를 보여줍니다.",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTWdFMWhlb1N5cm1VV2hSR2dJWENHbU5fT1l3ai1Va090R3VvczAzSDBWLTJKT0JqRFphM09Zc1BDTUE2N1BqVmlZcHVhRnlpTkZ0ZjMycWNyT2ZWdThsMDBlZm5RN0ZJSDIxbktTbVJEaHZDbUFaN09BRi1ZaHowczI3eVdkb3E4MnVIU3dPSGE1V3VUMnVldTdrOFlkc1F1RXBwOEt6d0p1ZTdKZWJhczc1VWs?oc=5",
+"pub": 1795429760.0,
+"time": "11/23 19:29",
+"run": "202611231320",
+"added": 1795440051,
+"url": "https://www.bloomberg.com/news/articles/2026-11-23/five-charts-unpack-one-of-the-worst-weeks-for-stocks-in-decades",
+"sum_tried": 1,
+"pv": "cd009b1f"
+},
+{
+"key": "europesstoxx600risesastechsharesreboundafteraidrivenrout",
+"keys": [
+"europesstoxx600risesastechsharesreboundafteraidrivenrout"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Europe's STOXX 600 rises as tech shares rebound after AI-driven rout",
+"show": "AI 중심 매도 후 기술주 반등으로 유럽 STOXX 600 상승",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdDFuaFRyaktlcVA5TVR0eXF2QlktZ3ZVU3JkbzZycU8zTU90WEhFSlhuVTc5RTRCdVctYVpuQzZhdUJnN1BlZWdOYkZEQXg5alR6d1BDVWEwMEszRTlRUFB1aG9ueFhHWmZmbkI1dmFSSmNZMVF6VzlhZFpBOG5BaVJ0QlprZnRVRmVIZ2djcXFzM3VrU2VQa3FQelVLU2Qzd2MwT19jTUdkRnVWYmc?oc=5",
+"pub": 1795429607.0,
+"time": "11/23 19:26",
+"run": "202611231320",
+"added": 1795440052,
+"url": "https://www.reuters.com/markets/europe/european-stocks-recover-after-steep-technology-led-selloff-2026-11-23/",
 "sum_tried": 1,
 "pv": "cd009b1f"
 },
@@ -1128,9 +1370,31 @@
 "pv": "cd009b1f"
 },
 {
+"key": "大摩给出4月以来最乐观短线判断称当下美股买入良机不容错过",
+"keys": [
+"大摩给出4月以来最乐观短线判断称当下美股买入良机不容错过"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "大摩给出4月以来最乐观短线判断 称当下美股买入良机不容错过",
+"show": "모건스탠리는 현재 미국 주식 매수 기회를 놓칠 수 없다며 4월 이후 가장 낙관적인 단기 판단을 내렸다.",
+"source": "财联社",
+"src_url": "https://www.cls.cn",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4yRjdxVlZHZjd1RTBycVFmUnYzUW5mWHUtTHZiak9ZcXdpSWJyUXBlS1o0Z0RFVnpLMF9oZkktRWJ3d1pZVEJLZA?oc=5",
+"pub": 1795426260.0,
+"time": "11/23 18:31",
+"run": "202611231320",
+"added": 1795440054,
+"url": "https://www.cls.cn/detail/2542126",
+"sum": "① 모건스탠리 전략가들은 S&P와 다우가 모두 조정 범위에 들어간 후 시장은 투자자들에게 놓칠 수 없는 매수 기회를 제공했다고 말했습니다. ② S&P500 지수의 예상 주가수익률은 10월 말 23배 가까이 정점을 찍은 뒤 현재 16.5배로 급락했는데, 이는 장기 평균인 17.4배보다 낮다. 차이롄서, 11월 23일(자오 하오 편집자) 모건스탠리 전략가들은 S&P500 지수와 다우존스 산업평균지수가 모두 조정 범위에 들어간 후 시장이 투자자들에게 놓쳐서는 안 될 매수 기회를 제공했다고 말했습니다. 마이클 윌슨이 이끄는 모건스탠리 전략가 팀은 기업 실적과 주가 평가가 시장 반등을 뒷받침하고 있으며 최근 공황 매도세도 반등 여건을 조성했다고 지적했다. 전술적 수준에서 팀의 현재 낙관적 입장은 4월 초 이후 가장 강력합니다.",
+"pv": "cd009b1f"
+},
+{
 "key": "避險大亨艾克曼籲fed通膨棄2保3警告下月升息恐鑄下大錯",
 "keys": [
-"避險大亨艾克曼籲fed通膨棄2保3警告下月升息恐鑄下大錯"
+"避險大亨艾克曼籲fed通膨棄2保3警告下月升息恐鑄下大錯",
+"fed死守2錯了艾克曼喊通膨目標改3警告12月升息恐釀衰退"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -1269,7 +1533,9 @@
 "run": "202611231155",
 "added": 1795434955,
 "url_tried": 1,
-"pv": "cd009b1f"
+"pv": "cd009b1f",
+"url": "https://www.yicai.com/video/103450431.html",
+"sum": "제일재경 공식 홈페이지에서는 주식시장 상황, 경제동향, 금융정책, 산업동향, 전문가 분석 등 금융정보를 24시간 7시간 제공한다. 또한 주식 토크 및 금융, 오늘의 주식 시장, 기업 및 산업, 금융 해독, 브레인스토밍 등 중국 비즈니스 네트워크 TV 프로그램의 독점 생방송을 방송합니다."
 },
 {
 "key": "全球瞭望美股芯片板块创2001年以来最惨单周表现黑色星期五只是开始吗",
@@ -1543,27 +1809,6 @@
 "sum": "글로벌 증시가 인공지능(AI) 관련주를 중심으로 폭락한 가운데 저가 매수 시점을 둘러싼 투자자들의 고민이 깊어지고 있다. 증시 급락으로 밸류에이션 매력이 높아졌지만 추가 하락 가능.."
 },
 {
-"key": "美股科技股全线大涨",
-"keys": [
-"美股科技股全线大涨"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "美股科技股，全线大涨！",
-"show": "미국 기술주가 전반적으로 급등했습니다!",
-"source": "每日经济新闻",
-"src_url": "https://www.nbd.com.cn",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxZjlkRGUtNnc3aC15Qm1CS2gyQWx1ZzBXcndnYjE2ZFZpNE1aRzY2V0p2Yk5rUDg4UXpvRzQtUWtZdnRxejUxMnQySEdBTjJVOEFRUURLdjFGNTZFT0xvSDE2bHZIdw?oc=5",
-"pub": 1795414080.0,
-"time": "11/23 15:08",
-"run": "202611230852",
-"added": 1795423974,
-"url": "https://www.nbd.com.cn/articles/2026-11-23/4655728.html",
-"sum": "기자 | 편집자 루샹용 | He Xiaotao와 Xiang Jianglin 교정자 | Cheng Peng 베이징 시간으로 11월 23일, 미국 기술주 암시장은 전반적으로 급등했습니다. 보도 시점 기준 엔비디아는 7% 이상, SK하이닉스는 9% 이상, 마이크론 테크놀로지는 6% 이상, 인텔은 6% 이상, TSMC는 6% 이상 상승했다. (면책조항: 텍스트",
-"pv": "cd009b1f"
-},
-{
 "key": "etf특징주나스닥sp500다우올해미단기물국채에졌다",
 "keys": [
 "etf특징주나스닥sp500다우올해미단기물국채에졌다"
@@ -1835,7 +2080,8 @@
 {
 "key": "美股恐更震盪vix飆近40創2025年4月來最高選擇權交易員積極備戰",
 "keys": [
-"美股恐更震盪vix飆近40創2025年4月來最高選擇權交易員積極備戰"
+"美股恐更震盪vix飆近40創2025年4月來最高選擇權交易員積極備戰",
+"ai交易動搖vix升至2025年4月來最高美股波動恐更劇烈美股動態國際"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -2000,27 +2246,6 @@
 "pv": "cd009b1f",
 "url": "https://www.cnbc.com/quotes/.SPX",
 "sum": "CNBC에서 S&P500 지수(.SPX:INDEX) 실시간 주가, 뉴스, 가격 및 금융 정보를 받아보세요."
-},
-{
-"key": "國際金融歷史經驗美股泡沫有危險但非ai泡沫",
-"keys": [
-"國際金融歷史經驗美股泡沫有危險但非ai泡沫"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "《國際金融》歷史經驗：美股泡沫有危險 但非AI泡沫",
-"show": "'국제금융' 역사적 경험: 미국 주식 버블은 위험하지만 AI 버블은 아니다",
-"source": "工商時報",
-"src_url": "https://www.ctee.com.tw",
-"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sS2tTTWYwZ29EMHdoTE9FN2xOWlhIS3ZJTGxEZ3R6Njh5cENEUlRwX2dKcWJ0MkI5YUR2dThxandjLWZLN3hoSG1hSGFNV3dVT010cnNWVWhSMWxvSVRn?oc=5",
-"pub": 1795400160.0,
-"time": "11/23 11:16",
-"run": "202611230440",
-"added": 1795408826,
-"url": "https://www.ctee.com.tw/news/20261123700885-430701",
-"sum": "[타임즈 장차오친 외신종합보도] 2022년 약세장이 바닥을 친 이후 지난 4년 동안 다우존스 지수는 지금까지 90% 상승했고, 벤치마크 S&P와 나스닥도 2배 이상 상승했다. AI 인프라가 이러한 주식 시장 상승의 주요 원인이지만 이것이 유일한 이유는 아닙니다. 역사적으로 낮은 한계 법인세율이 기업 주식 환매 활동, 주식 분할 및 기록적인 기업공개(IPO)를 자극했으며, 이 모든 것이 소매 투자자의 열정을 불러일으켰습니다.",
-"pv": "cd009b1f"
 },
 {
 "key": "청와대조희대탄핵국회사안증시불안은미국증시와연동",
@@ -2315,6 +2540,27 @@
 "pv": "cd009b1f"
 },
 {
+"key": "高盛明年全球gdp料增28美联储有望明年底降息",
+"keys": [
+"高盛明年全球gdp料增28美联储有望明年底降息"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "高盛：明年全球GDP料增2.8% 美联储有望明年底降息",
+"show": "골드만삭스 \"내년 세계 GDP 2.8% 성장할 것, 연준은 내년 말까지 금리 인하할 것\"",
+"source": "财联社",
+"src_url": "https://www.cls.cn",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sd2N1VHl2UTZDZl9yREpnZmNaRmtEaHdZWWU2Z2kxbFBtdDU3eExHM2ZYN2kyTlEzZVBGYVJtVm9vRE15cU1SVQ?oc=5",
+"pub": 1795394987.0,
+"time": "11/23 09:49",
+"run": "202611231320",
+"added": 1795440056,
+"url": "https://www.cls.cn/detail/2541146",
+"sum": "① 골드만삭스는 2027년 세계 실질 GDP 성장률이 2.8%로 2026년 예측치 2.7%보다 약간 높을 것이라고 예측하지만 전반적인 위험은 아래쪽으로 기울어져 있습니다. ② 골드만삭스는 연준이 올해 12월과 2027년 3월 금리를 각각 0.25%포인트씩 인상한 뒤 내년 11월부터 점진적인 금리 인하를 시작할 것으로 예상했다. 차이롄서 에이전시, 11월 23일(편집자 Liu Rui) 골드만삭스는 2027년 중국의 글로벌 실질 국내총생산(GDP) 성장률이 2026년 2.7%보다 소폭 높은 2.8%로 전망하지만 전체적인 리스크는 하향으로 기울어져 있다. 골드만삭스는 내년에 세계 주요 경제의 금융여건이 긴축되고 재정정책이 중립으로 돌아올 것으로 내다봤다. 그러나 이러한 변화가 세계 경제에 미치는 영향은 낮은 에너지 가격과 여전히 강력한 인공지능 자본 지출로 인해 상쇄될 것입니다.",
+"pv": "cd009b1f"
+},
+{
 "key": "開市焦點一圖看清美股急瀉亞洲戒備港股料跌過百點",
 "keys": [
 "開市焦點一圖看清美股急瀉亞洲戒備港股料跌過百點",
@@ -2439,6 +2685,26 @@
 "url": "https://www.21jingji.com/article/20261123/herald/ad0b559876fbc06013c1aadda7e5179f.html",
 "sum": "11월 20일(동부시간) 미국 증시는 3대 지수가 전반적으로 급락하는 '블랙프라이데이'를 맞이했다. 다우존스 산업평균지수는 1.93%, S&P500 지수는 3.7%, 나스닥 종합지수는 5.28% 하락했다. 다우존스 산업평균지수와 S&P500 지수는 모두 이전 고점 대비 10% 하락하며 조정 범위에 진입했습니다. 이 중 엔비디아는 14.01% 하락한 125.53달러로 마감해 7일 연속 하락세를 이어갔다. 엔비디아의 회계 문제가 정밀 조사를 받았습니다. 엔비디아의 주가는 이번 주 거의 23% 하락해 2008년 10월 이후 최대 주간 하락폭을 기록했고, 7주 연속 하락세를 기록해 2012년 이후 가장 긴 연속 하락세를 기록했습니다. 최근 총 시가총액은 약 3조 0300억 달러로 떨어졌습니다.",
 "pv": "cd009b1f"
+},
+{
+"key": "미장브리핑뉴욕증시나스닥폭락반도체주급락sp500도동반약세",
+"keys": [
+"미장브리핑뉴욕증시나스닥폭락반도체주급락sp500도동반약세"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇰🇷 한국",
+"title": "[미장 브리핑] 뉴욕증시, 나스닥 폭락·반도체주 급락... S&P 500도 동반 약세",
+"show": "[미장 브리핑] 뉴욕증시, 나스닥 폭락·반도체주 급락... S&P 500도 동반 약세",
+"source": "센머니",
+"src_url": "https://www.senmoney.co.kr",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBISEJjd2RrbktZWjBtWFZzc0x1NDdoSENXazFVazU5Uy02Y0NRd2tYZ0dIMmUyeGQ5czlCc3dTaWg4ejQ5THY3TXRoYjdkZDlwNDA2eEg3VE4xWktBY3k3T3dlQzZJNkpvNlBxMQ?oc=5",
+"pub": 1795392643.0,
+"time": "11/23 09:10",
+"run": "202611231320",
+"added": 1795440048,
+"url": "https://www.senmoney.co.kr/news/articleView.html?idxno=38789",
+"sum": "[센머니=김병진 기자] 기술주와 반도체주 투매, 중동 긴장 재부각이 겹치면서 11월 22일(현지시간) 뉴욕증시에서 주요 지수가 일제히 하락 마감했다.장 마감 기준 다우존스30산업평균지수는 1.93% 하락했고, S&P 500 지수는 3.70% 내렸으며, 나스닥종합지수는 5.28% 떨어졌다. 특히 나스닥은 5% 이상 하락하며 폭락 흐름을 나타냈다. 이날 증시는 인공지능 관련 대표주인 엔비디아 급락을 중심으로 기술주 전반의 매도세가 확대된 데다, 미국과 이란을 둘러싼 긴장 고조, 호르무즈 해협 인근 불안, 국제유가의 지정학적 프리미엄 재"
 },
 {
 "key": "跨市博弈丨美股十八年牛市後的股債博弈",
@@ -2592,7 +2858,8 @@
 {
 "key": "cme美联储观察美联储12月加息25个基点的概率为914",
 "keys": [
-"cme美联储观察美联储12月加息25个基点的概率为914"
+"cme美联储观察美联储12月加息25个基点的概率为914",
+"时隔三年多美联储重启加息25个基点内部预计年内还会升息一次"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -3338,27 +3605,6 @@
 "pv": "cd009b1f"
 },
 {
-"key": "thestockmarketisdoingsomethingforonlythe5thtimethiscenturyandhistorysaysitsobvio",
-"keys": [
-"thestockmarketisdoingsomethingforonlythe5thtimethiscenturyandhistorysaysitsobvio"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "The Stock Market Is Doing Something for Only the 5th Time This Century, and History Says It's Obvious What Comes Next for Stocks",
-"show": "주식 시장은 이번 세기에만 5번째로 뭔가를 하고 있으며, 역사에 따르면 주식의 다음 단계는 분명합니다.",
-"source": "The Globe and Mail",
-"src_url": "https://www.theglobeandmail.com",
-"link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPbVIwLWZEWmNSRGRGZ3dPV0tBbVo0ekxfWWNSUkJHdEdyRWFlZkkxWXRSNWdOMHBlZUVkUmlwUWJpSk1wTi1VV053eUVDLXpVRER1LXZjLS1tOUxPb281ZVduQko5QUpvTl9DTE1BWG5SSWRSenI4dXRkQVFnUWxoRG4xczVBQjFzYjJwUmIzUmdsRU1EQ3AtQ3d2UFZjLVdiQWZNMjVtUDdiOTJYNDVkUEZQY2RRaTNXR1BIZ0toQWRWU3JNMnNoVW9jNlFpaFNIVkpGMlZtdXNZd0VYWkU2aFRXRXVpM3N1Mk5ZWHRXbnhLNFpNaUtGVGdQODFFNUxZeXo2MjFjcXIyenpoaHRqR3p4YmdVWE9VbFppbDFlNUhJZ1oySmVEZVVCeklZNDA?oc=5",
-"pub": 1795350457.0,
-"time": "11/22 21:27",
-"run": "202611221242",
-"added": 1795351379,
-"url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/8955410/the-stock-market-is-doing-something-for-only-the-5th-time-this-century-and-history-says-it-s-obvious-what-comes-next-for-stocks/",
-"sum": "요점 - 올해는 인공지능(AI) 인프라 구축에 힘입어 다우존스 산업평균지수, S&P500, 나스닥 종합지수가 사상 최고치를 기록하며 눈부신 한 해였습니다. - 주식 시장 가치 평가는 희박하고 지속 불가능한 영역에 진입했습니다.",
-"pv": "cd009b1f"
-},
-{
 "key": "correctionordeeperreckoninginvestorsseeksignsusstocksellingwillabate",
 "keys": [
 "correctionordeeperreckoninginvestorsseeksignsusstocksellingwillabate"
@@ -3377,27 +3623,6 @@
 "added": 1795356484,
 "url": "https://www.reuters.com/business/finance/correction-or-deeper-reckoning-investors-seek-signs-us-stock-selling-will-abate-2026-11-22/",
 "sum_tried": 2,
-"pv": "cd009b1f"
-},
-{
-"key": "ai美股領跌全球資產anthropic加劇流動性壓力比特幣失守6萬美元大關",
-"keys": [
-"ai美股領跌全球資產anthropic加劇流動性壓力比特幣失守6萬美元大關"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "AI美股領跌全球資產，Anthropic加劇流動性壓力，比特幣失守6萬美元大關",
-"show": "AI 미국 주식이 글로벌 자산 하락을 주도하고, 앤트로픽이 유동성 압박을 강화하고, 비트코인이 60,000달러 아래로 떨어집니다.",
-"source": "鉅亨網",
-"src_url": "https://news.cnyes.com",
-"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jbnIzOUJOMDNZakU0YnBJSloyWEZkZUI4a2JjZWpHZllZd1BTdGJjcWNrcWdnN2FHdHktTzZET0VwaVUwLWlMWkNxYlJkTzg?oc=5",
-"pub": 1795349928.0,
-"time": "11/22 21:18",
-"run": "202611230014",
-"added": 1795392897,
-"url": "https://news.cnyes.com/news/id/6669868",
-"sum": "BlockBeats 리듬 금융 BlockBeats 뉴스, 어젯밤과 오늘 아침, 11월 21일 글로벌 리스크 시장에 블랙 프라이데이가 시작되었습니다. 미국 주식과 금속은 전반적으로 급락했습니다. S&P500은 3.70% 하락한 6,910.39포인트로 7일 연속 하락했으며 200일 이동평균선 아래로 떨어졌습니다. 나스닥 종합지수는 5.28% 하락한 22,617.73포인트를 기록했고, 다우존스 지수도 하락했습니다. 48,147.33포인트로 1.93%. 주가가 폭락하면서 시장 패닉을 측정하는 VIX 지수는 지난해 관세 혼란 이후 VIX 지수 종가 중 가장 높은 35.89까지 치솟았다.",
 "pv": "cd009b1f"
 },
 {
@@ -3465,133 +3690,6 @@
 "sum": "실리콘 밸리에서 런던, 서울, 도쿄에 이르기까지 글로벌 금융 시장은 일련의 격렬한 조정을 경험했습니다. 앤트로픽은 지난 주 나스닥에서 역사상 최대 규모의 기업공개(IPO)를 완료했지만 시장 심리를 무너뜨린 마지막 지푸라기가 되었습니다. 주식, 귀금속, 암호화폐 등이 거의 동시에 집중 매도로 어려움을 겪었습니다. 11월 20일 거래 마감 현재 다우존스 산업평균지수는 주당 8.02%, S&P500 지수는 주당 8.61%, 나스닥 100 지수는 한 주 만에 10% 이상 하락해 최근 고점 대비 20% 하락했다. 세션 동안 대규모 기술주가 종합적으로 하락했습니다. VIX 패닉지수는 장중 한때 40을 넘어 2025년 4월 이후 최고치를 기록했다. 귀금속 측면에서는 금과 은 선물 가격도 급락했다."
 },
 {
-"key": "這波美股重挫何時休高盛可觀察三個觸底訊號全球財經全球",
-"keys": [
-"這波美股重挫何時休高盛可觀察三個觸底訊號全球財經全球",
-"這波美股重挫何時休高盛可觀察三個觸底訊號"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "這波美股重挫何時休？ 高盛：可觀察三個觸底訊號| 全球財經| 全球",
-"show": "미국 증시의 붕괴 물결은 언제 끝날 것인가? 골드만삭스: 세 가지 바닥 신호 관찰 가능 | 글로벌 금융 | 글로벌",
-"source": "UDN",
-"src_url": "https://udn.com",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RWllhWVlVSUtxUGx5cm9kWF9xWjhyMjJmbGdDOFl0ck5Dam81Z0hfWTVVWnFEbzZ3TDc2WTRhU1RERlQ3aXNVOEZJaFA1OTNx?oc=5",
-"pub": 1795344428.0,
-"time": "11/22 19:47",
-"run": "202611221242",
-"added": 1795351392,
-"url": "https://udn.com/news/story/6811/9894867",
-"sum": "뉴스를 들어보세요 0:00 / 0:00 미국 증시의 급격한 하락은 언제 끝날까요? 골드만삭스: 세 가지 바닥 신호가 관찰되었습니다. 글로벌 금융시장에 매도 압력이 가중됐다. 골드만삭스는 주식시장이 바닥을 쳤는지 이해하기 위해 관찰할 수 있는 세 가지 신호가 있다고 지적했습니다. 지난 금요일(20일) BMP파리바가 투자자들이 '패닉 매도' 모드에 돌입했다는 소식이 전해지면서 글로벌 증시는 유혈사태를 겪었다. 그러나 지난 목요일(19일) 골드만삭스가 발표한 보고서에는 관측 가능한 시장 바닥 신호 3가지가 나와 있다. 그 중 어느 하나라도 시장 회복에 도움이 될 것입니다. AI의 이익 전망에 대한 시장의 신뢰가 안정화되었는지 여부입니다. 인공지능(AI) 스타트업 앤쓰로픽(앤트로픽)과 오픈AI의 가격 전쟁이 서로에게 상처를 주고 있다. 앤트로픽은 지난 주에 기업공개(IPO)를 완료했습니다. (IPO)), 지난 19일 상장 첫날 17% 급등했지만, 20일에는 급락해 발행가를 거의 밑도는 수준까지 떨어졌다. 이는 AI 투자를 부활시키는 데 실패했으며 지출 대비 수익에 대한 투자자의 높은 우려를 부각시켰습니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "gta6isbreakingsalesrecordsshouldibuythissp500stockformyisa",
-"keys": [
-"gta6isbreakingsalesrecordsshouldibuythissp500stockformyisa"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "GTA 6 is breaking sales records! Should I buy this S&P 500 stock for my ISA?",
-"show": "GTA 6가 판매 기록을 경신하고 있습니다! ISA를 위해 S&P500 주식을 구매해야 합니까?",
-"source": "Yahoo Finance UK",
-"src_url": "https://uk.finance.yahoo.com",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbzdFSDZLWGZhNEh4SngtV1hpZTc4NXlBRGk0R3R4NXl1M3VmLVBnY0ZNVVVvdXVMY19sWHk0dHB3eUFSSk8tSlpzWENqWHE3MU42VXg2MXo3QUw2NkNzVzNpTGZsTGQwT3lCcnZCRTI5QTBRaEtjT0xCWmJ1VkItWjFuOA?oc=5",
-"pub": 1795342649.0,
-"time": "11/22 19:17",
-"run": "202611221242",
-"added": 1795351380,
-"url": "https://uk.finance.yahoo.com/news/gta-6-breaking-sales-records-101729835.html",
-"sum": "Grand Theft Auto 6 제작사 뒤에 있는 S&P500 회사가 게임에서 돈을 벌 것으로 예상됩니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "華爾街日報民主黨擬定針對川普調查重點白宮批政治騙局拒配合",
-"keys": [
-"華爾街日報民主黨擬定針對川普調查重點白宮批政治騙局拒配合"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "華爾街日報：民主黨擬定針對川普調查重點 白宮批政治騙局拒配合",
-"show": "월스트리트저널: 민주당은 트럼프 수사에 집중할 계획, 백악관은 정치적 사기 비난하며 협조 거부",
-"source": "鉅亨網",
-"src_url": "https://m.cnyes.com",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE11T0l1SUZTQmhfemZpTmstOVU4RXVLdVRaQ0dnVnB6RjdrTDNuclhoOERiYlQxN3k2QWFzYldOb0QxMmlqcU8wSVF4MA?oc=5",
-"pub": 1795341605.0,
-"time": "11/22 19:00",
-"run": "202611221242",
-"added": 1795351395,
-"url": "https://m.cnyes.com/news/id/6669857",
-"sum_tried": 1,
-"pv": "cd009b1f",
-"sum": "월스트리트저널(WSJ)에 따르면 미국 하원 감시위원장을 맡을 것으로 예상되는 로버트 가르시아 캘리포니아 민주당 의원은 최근 트럼프 전 대통령 가족과 정부 관료들에게 기록보존 통지서 12통을 보내 민주당이 내년 새 의회에서 소환권을 얻은 뒤 집중 조사에 나설 것이라고 경고했다. 가르시아는 \"이것은 시작에 불과하다\"고 공개적으로 선언했다. 민주당이 계획한 조사는 네 가지 주요 영역에 초점을 맞추고 있습니다. 1. 가족 사업 이익: 이 서한은 도널드 트럼프 주니어와 에릭 트럼프가 가족 암호화폐 회사인 월드 리버티 파이낸셜(World Liberty Financial)을 이익을 위해 이용하고 있다고 비난합니다. 이에 대해 회사 대변인은 이번 조사를 '근거 없는 마녀사냥'이라고 일축하며 회사가 모든 법률을 준수하고 있다고 강조했다. 이 밖에도 트럼프의 사위 재러드 쿠슈너가 부과한 높은 수수료와 킴벌리 길포일 전 대사의 수수료 징수 의혹도 사례금을 위장한 것이라는 의혹이 제기됐다."
-},
-{
-"key": "中信证券美股2027年ai产业链预计呈现年初估值承压年中估值修复年末表现分化的阶段性特征",
-"keys": [
-"中信证券美股2027年ai产业链预计呈现年初估值承压年中估值修复年末表现分化的阶段性特征"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "中信证券：美股2027年AI产业链预计呈现年初估值承压、年中估值修复、年末表现分化的阶段性特征",
-"show": "CITIC증권 : 2027년 미국 증시 AI 산업 체인은 연초 밸류에이션 압박, 연말 밸류에이션 회복, 연말 실적 차별화 등 단계적 특성을 보일 것으로 예상된다.",
-"source": "Jiemian.com",
-"src_url": "https://www.jiemian.com",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44RDVHM25iUllJYkd2WlUtb0cyRHZGNnVvTkZzdGVVMS1zV2xjczBuTFpDUnA1YjZNNGpQZi1vbXRhN0ZMOXhDa2xtSFV4QWhpdFRZSnhsVDI?oc=5",
-"pub": 1795341375.0,
-"time": "11/22 18:56",
-"run": "202611221242",
-"added": 1795351382,
-"url": "https://www.jiemian.com/article/15359079.html",
-"sum_tried": 2,
-"pv": "cd009b1f"
-},
-{
-"key": "isastockmarketcrashimminentfortheaidriventrumpbullmarkethistoryweighsinwithanunp",
-"keys": [
-"isastockmarketcrashimminentfortheaidriventrumpbullmarkethistoryweighsinwithanunp"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "Is a Stock Market Crash Imminent for the AI-Driven Trump Bull Market? History Weighs In With an Unpleasant Answer.",
-"show": "AI가 주도하는 트럼프 강세장에 주식시장 붕괴가 임박한 걸까? 역사는 불쾌한 대답으로 가득 차 있습니다.",
-"source": "The Globe and Mail",
-"src_url": "https://www.theglobeandmail.com",
-"link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPbEhucTBaRlp1MFBOLURWNV9fNG52RGlxSjZNd0dyODJycUg3NUx1bmN4RmF1aHNLNnhrMU1MVk9pY3BYTUZNeW9pZndVdldZM3RCUzI0TmhZXzBaUEpYc2hXMF9xUkxHSHlkUzBvajJRZjh3U2VubFB3ejAzcWYweFBYWnBocm42enAzcWhXeDRSYjlWNWVKaE12c1o0ODdPdEU0Q05kTkF3aWM3VHpMQkNzSWNpR0p6clVXdU95N2h4VGM3Ui1XT0RzY3o1SUNiWGUweXZHRi1GdUNRVjdFQ3dnUGpNVHRpZWo2Um56RkNsU1l6V01yanBmeGw0YmFhbVQtTGEzb25VQ1hScl8wY0JtaXk1b3NnTEJJ?oc=5",
-"pub": 1795340037.0,
-"time": "11/22 18:33",
-"run": "202611221242",
-"added": 1795351380,
-"url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/8955033/is-a-stock-market-crash-imminent-for-the-ai-driven-trump-bull-market-history-weighs-in-with-an-unpleasant-answer/",
-"sum": "요점 - 도널드 트럼프 대통령 집권 후 다우존스 산업평균지수, S&P500, 나스닥 종합지수는 좋은 성적을 거두었지만 주식시장은 흔들리는 모습을 보이고 있습니다. - 인공 지능(AI)의 채택은 차트에서 벗어나 있지만 획기적인 기술은 성숙하는 데 오랜 시간이 걸리는 경우가 많습니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "뉴욕채권주간연준긴축증시가대신해주나다가오는침묵기간",
-"keys": [
-"뉴욕채권주간연준긴축증시가대신해주나다가오는침묵기간"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇰🇷 한국",
-"title": "[뉴욕채권-주간] 연준 긴축 증시가 대신 해주나…다가오는 '침묵 기간' |",
-"show": "[뉴욕채권-주간] 연준 긴축 증시가 대신 해주나…다가오는 '침묵 기간' |",
-"source": "연합인포맥스",
-"src_url": "https://news.einfomax.co.kr",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jLURlb0xuUDgxT0xKZFo5dUJKM1dKV285ZE05cXAxaWRFeXFSdlpPNXNhTXRZcEtjUEJPTmJKNWxWTGVESk1CU21FRzRtdlA1SVZoQVNjeWF0eFZXcVFtZmRVc2N5RUdsdGVXa250bnlVdzF3?oc=5",
-"pub": 1795338910.0,
-"time": "11/22 18:15",
-"run": "202611221242",
-"added": 1795351379,
-"url": "https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4445897",
-"sum": "[뉴욕채권-주간] 연준 긴축 증시가 대신 해주나…다가오는 '침묵 기간' 증시 급락 속 '빅스텝' 사그라드는 듯…뉴욕 연은 총재 발언 주목 추수감사절로 거래일 짧아져…23~25일 사흘 연속 국채 입찰 (서울=연합인포맥스) 김성진 기자 = 이번 주(23~27일) 뉴욕 채권시장은 뉴욕증시의 반등 여부를 최대 화두로 삼을 것으로 전망된다. 미국 추수감사절 주간을 맞아 거래일은 1.5일 단축된다. 뉴욕증시 대표지수인 S&P 500은 지난주 마지막 거래일인 20일까지 7거래일 연속 밀렸다."
-},
-{
 "key": "googledragsdownwallstreetstocks",
 "keys": [
 "googledragsdownwallstreetstocks"
@@ -3610,111 +3708,6 @@
 "added": 1795389890,
 "url": "https://www.afp.com/pt/node/3849984",
 "sum_tried": 2,
-"pv": "cd009b1f"
-},
-{
-"key": "巨型ipo之后美股大跌历史现象又一次复现",
-"keys": [
-"巨型ipo之后美股大跌历史现象又一次复现"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "巨型IPO之后美股大跌，历史现象又一次复现？",
-"show": "미국 증시는 대규모 기업공개(IPO) 이후 급락했다. 역사적 현상이 또 반복되는 걸까?",
-"source": "21财经",
-"src_url": "https://www.21jingji.com",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQem5yU0dNZUJmYmF5NTFETV9KRUt3dktHR1lveE9ZaDNmTTdyaTR2MmszeWVNRUg3SlhzWXpfZmRUOVVMWW1FZDNHUjBONTIwRHloY28waVRNM0c1VUdydVRJWGxCb3ZrVzZPeTJjUS1sY214SFVQWVRQcDdvYllnd0J2N01SdHBpN09wU0pEaw?oc=5",
-"pub": 1795329540.0,
-"time": "11/22 15:39",
-"run": "202611221242",
-"added": 1795351384,
-"url": "https://www.21jingji.com/article/20261122/herald/6b9fb1314f51f4741476f4d5ef6cb05b.html",
-"sum": "해설자 Du Hengfeng에 따르면 11월 19일 앤트로픽은 발행가 83달러로 나스닥에 상장되었습니다. 첫날 17.07% 상승률을 기록했고 935억 달러(과잉 할당 포함)를 모금했습니다. 사모를 포함해 총 자금조달 규모는 약 1,195억 달러에 달해 역사상 최대 규모의 기업공개(IPO)가 됐다. 그러나 종소리의 여운은 아직 사라지지 않았고 미국 증시는 하락세로 돌아섰습니다. 19일 미국 3대 주가지수는 모두 2% 이상 하락했습니다. 다음날 매도세는 더욱 거세졌고, 나스닥은 하루 만에 5.28% 하락한 22,617.73포인트로 마감해 2026년 이후 상승세를 모두 청산했다. '공포지수' VIX는 한때 35를 넘기며 급등했다. 기술주, 특히 AI 하드웨어 산업체인이 가장 큰 타격을 입었다. 필라델피아 반도체 지수는 20일 하루 만에 10.73% 하락했고, 30개 구성종목 모두 하락했다. 엔비디아는 7일 연속 하락세인 14.01% 하락했고, 이번 주 누적 하락폭은 22.92%로 2008년 10월 이후 최대 주간 하락폭이다. AMD, 마이크론, 브로드컴 등은 모두 12% 이상 하락했고, TSMC ADR은 9.48% 하락했다. 앤트로픽도 상장 둘째 날 8.5% 하락해 장중 발행가 83달러에 가까웠다.",
-"pv": "cd009b1f"
-},
-{
-"key": "纳斯达克一天交易23小时a股h股影响几何这几点投资者留意",
-"keys": [
-"纳斯达克一天交易23小时a股h股影响几何这几点投资者留意"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "纳斯达克一天交易23小时，A股H股影响几何？这几点投资者留意",
-"show": "나스닥은 하루 23시간 거래되는데, A주와 H주는 어떤 영향을 미칠까? 투자자들은 이러한 점을 주의해야 합니다.",
-"source": "21财经",
-"src_url": "https://www.21jingji.com",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdThoY2pESHJkQjJUbElXeW54MVR0WGJiVFdHc3pqcTZtam1JSDhPRmhfY3lqZktiQ1FMUEM3U0JKQUtKUkRUbXNTTXNUM1FOM044T3VjOExaY3lXZUd3YlpKTlZsWS04SlktNjRSME1iQlFqSjF0SVdzMzlpRXNMMUpKR2NoUHRHR21OUkgzWQ?oc=5",
-"pub": 1795322880.0,
-"time": "11/22 13:48",
-"run": "202611221242",
-"added": 1795351387,
-"url": "https://www.21jingji.com/article/20261122/herald/41e463756f48643ee80e4390600451a0.html",
-"sum": "21세기 비즈니스 헤럴드 기자 최원징(Cui Wenjing) 나스닥은 12월 6일부터 매일 거래 시간을 6.5시간에서 23시간으로 늘려 거의 '전천후 거래'를 달성할 예정이다. 그때쯤이면 A주와 H주가 거래될 때 미국 주식도 동시에 거래될 것입니다. 선완홍위안증권의 수석시장전문가 구이하오밍은 거래시간 연장은 “시장 활성화와 시장 효율성 제고를 고려한 것이 아니라 대부분 글로벌 경쟁을 고려한 것”이라고 분석했다. 시행 이후의 영향은 아직 두고 봐야 한다고 판단했지만, 이제 한 가지 영향을 예상해볼 수 있다. A주와 H주의 장중 등락폭이 커질 가능성이 높다는 점이다. Gui Haoming은 세 가지 측면에서 관찰할 것을 제안했습니다. ① A주는 원래 시장 개장 전 밤새 미국 주식의 추세에 대해서만 배웠으며, 그 상승 및 하락은 향후 A주에 실시간 영향을 미칠 것입니다. ② A주의 국제화 정도는 그다지 높지 않으며, 그 영향은 '심리적 수준'에 가깝습니다. ③H주 자금은 전 세계적으로 배분되며, 미국 주식의 운용이 이에 직접적인 영향을 미칩니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "美债不香了的另一面外资创纪录爆买美股",
-"keys": [
-"美债不香了的另一面外资创纪录爆买美股"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "美债“不香了”的另一面：外资创纪录爆买美股！",
-"show": "미국 부채의 다른 측면은 “더 이상 호의적이지 않다”는 것입니다. 외국인 투자자들이 미국 주식을 사상 최고치에 매수하고 있습니다!",
-"source": "财联社",
-"src_url": "https://www.cls.cn",
-"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBabWdOR083bmg2VmVuVi1VQ1pGYU12N3dkbkNxM24waW0xaWR0aE1uVGREVGUxdUxxMXJ1YlMxWEVlYWYxZFFUYQ?oc=5",
-"pub": 1795322225.0,
-"time": "11/22 13:37",
-"run": "202611221242",
-"added": 1795351388,
-"url": "https://www.cls.cn/detail/2493797",
-"sum": "① 7월까지 12개월 동안 외국인 투자자의 미국 주식 및 투자 펀드 주식 순매수액은 9,420억 달러로 사상 최대치를 기록했다. ② 이는 해외자금이 미국 채권시장에서 미국 증시으로 이동하는 추세를 어느 정도 반영한다. 차이롄서, 9월 28일(Editor Xiaoxiang) 지난 금요일 발표된 최신 데이터에 따르면 7월까지 12개월 동안 외국인 투자자의 미국 주식 및 투자 펀드 주식 순매수액은 9,420억 달러로 사상 최고치를 기록했습니다. 이는 해외자금이 미국 채권시장에서 미국 증시으로 이동하는 추세를 어느 정도 반영한다. 1985년 이후 미국 재무부 데이터에 따르면 이러한 유입은 12개월 연속 새로운 기록을 세웠습니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "早报美股纳指大跌超500点半导体存储股全线跳水黄仁勋谈ai市场震荡国际油价大涨胜宏科技豪威集团等计划回购股份",
-"keys": [
-"早报美股纳指大跌超500点半导体存储股全线跳水黄仁勋谈ai市场震荡国际油价大涨胜宏科技豪威集团等计划回购股份"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "【早报】美股纳指大跌超500点，半导体、存储股全线跳水；黄仁勋谈“AI市场震荡”；国际油价大涨；胜宏科技、豪威集团等计划回购股份",
-"show": "[모닝포스트] 미국 나스닥 지수가 500포인트 넘게 하락했고, 반도체와 스토리지주도 전반적으로 급락했다. 젠슨 황은 \"AI 시장 충격\"에 대해 이야기했습니다. 국제유가가 급등했다. Shenghong Technology, OmniVision Group 등이 자사주 매입 예정",
-"source": "财联社",
-"src_url": "https://www.cls.cn",
-"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBCTnNWMU5CY3RzdmVrMFk2dERINEZUbVJkS3NvSzdHRmJWNmFxSFdZMnVNV2d4dk1FUmJBbnhlMjdxeVVWVTJJUQ?oc=5",
-"pub": 1795322144.0,
-"time": "11/22 13:35",
-"run": "202611221242",
-"added": 1795351390,
-"url": "https://www.cls.cn/detail/2507382",
-"sum_tried": 2,
-"pv": "cd009b1f"
-},
-{
-"key": "中国新闻科技股暴跌拖累美股整体进入回调区间",
-"keys": [
-"中国新闻科技股暴跌拖累美股整体进入回调区间"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "[中国新闻]科技股暴跌拖累美股整体进入回调区间",
-"show": "[중국뉴스] 기술주 급락으로 미국 증시 전체가 조정 국면에 진입",
-"source": "央视网",
-"src_url": "https://tv.cctv.com",
-"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51LUlkOFRiUUJmUS1rOU1mYWZJQWZpaFkwVl9BcHBoV05qM0lXdHc0T2tiMEFHU0ZIWjE0OHVHOWFkRUphNFR4dTNEMXpJY3VmeHlwZE5UelNqX0R3M2RhcHNYWnZyLTJWNmpwOXZwZ2JCX3BnQXc?oc=5",
-"pub": 1795313280.0,
-"time": "11/22 11:08",
-"run": "202611221242",
-"added": 1795351391,
-"url": "https://tv.cctv.com/2026/11/22/VIDEE8PTcQrgp4dJmf3zQFfV261122.shtml",
-"sum": "프로그램 공식 홈페이지 Collection Playlist 현재 재생 중 Hot 목록 현재 재생 중 현재 재생 중 [중국 뉴스] 기술주 급락으로 미국 증시 전체가 조정 범위에 진입했습니다. 출처 : CCTV.com 2026-11-22 10:08 내용 소개 영상 소개 팔로우 기술주 급락으로 미국 증시 전체가 조정 범위에 들어갔습니다. 칼럼 정보 칼럼명 : 칼럼 소개 : [중국뉴스] 기술주 급락으로 미국 증시 전체가 조정 범위에 진입했습니다. 서문 출처 : CCTV.com 업데이트 시간 : 2026년 11월 22일 10:08 영상 소개 기술주 급락으로 미국 증시 전체가 조정 범위에 진입했습니다. 칼럼 정보 재생목록 더보기 > 지난 쿼리 > 하이라이트 더보기 > 지난 프로그램 더보기 > 재생목록 닫기 5월 4월 3월 2월 더보기 Loading...",
 "pv": "cd009b1f"
 },
 {
@@ -3739,30 +3732,11 @@
 "pv": "cd009b1f"
 },
 {
-"key": "アンソロピックがナスダック上場17高時価総額280兆円nyダウは5カ月ぶり5万ドル割れ",
-"keys": [
-"アンソロピックがナスダック上場17高時価総額280兆円nyダウは5カ月ぶり5万ドル割れ"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇯🇵 일본",
-"title": "アンソロピックがナスダック上場 17％高 時価総額280兆円 NYダウは5カ月ぶり5万ドル割れ",
-"show": "앤트로픽이 나스닥 상장 17% 높은 시가총액 280조엔 NY다우는 5개월 만에 5만 달러 균열",
-"source": "テレ東BIZ",
-"src_url": "https://txbiz.tv-tokyo.co.jp",
-"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VNXRBR2ZtZjFjV2FMYTZNMUpfM2NZVC1GTjdpV0JHQmJSdF9sakZNbndBU2k0V1I0SW01OElYSXdNQTRaUDJqNXl3c2RpYUJuc1ZGRkRsanJ6QUdrM0Rz?oc=5",
-"pub": 1795290131.0,
-"time": "11/22 04:42",
-"run": "202611221242",
-"added": 1795351396,
-"url": "https://txbiz.tv-tokyo.co.jp/hiru/news/post_352898",
-"sum": "미국의 AI 개발 기업 앤트로픽이 19일 나스닥 시장에 상장했다. 첫날은 기업공개(IPO) = 신규 주식공개 공개가격을 약 17% 상회 거래를 마쳤습니다. 첫 가격은 공개 가격을 34% 웃도는 111달러 50센트, 종가는 17% 상승한 97달러 17센트였다. 종가를 기준으로 한 시가총액은 약 1조7600억 달러 = 280조엔에 이릅니다. 다만, AI 투자에 대한 우려는 뿌리 깊고, 19일 뉴욕 주식시장의 다우 평균은 전날보다 1101달러 내린 4만9097달러와 약 5개월 만에 5만달러의 고비를 끼어들어 거래를 마쳤습니다.",
-"pv": "cd009b1f"
-},
-{
 "key": "將成資安業最大併購案crowdstrike擬收購同業zscaler美股動態國際",
 "keys": [
-"將成資安業最大併購案crowdstrike擬收購同業zscaler美股動態國際"
+"將成資安業最大併購案crowdstrike擬收購同業zscaler美股動態國際",
+"crowdstrike美股盘前跌超8",
+"crowdstrike美股盘前跌超8将以全股票交易收购zscaler"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -3873,6 +3847,48 @@
 "pv": "cd009b1f"
 },
 {
+"key": "長江生命美公司鎮痛藥臨床測試結果正面有望成首款新型治療藥物210420261123即時財經新聞",
+"keys": [
+"長江生命美公司鎮痛藥臨床測試結果正面有望成首款新型治療藥物210420261123即時財經新聞"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇭🇰 홍콩",
+"title": "長江生命美公司鎮痛藥臨床測試結果正面 有望成首款新型治療藥物(21:04) - 20261123 - 即時財經新聞",
+"show": "양쯔생명 진통제 임상시험 결과 긍정적, 최초의 신약으로 기대 (21:04) - 20261123 - 실시간 금융뉴스",
+"source": "明報財經網",
+"src_url": "https://finance.mingpao.com",
+"link": "https://news.google.com/rss/articles/CBMizwNBVV95cUxPV3FGNlcwTXpHR3F6VDlXc3dVU3RYTlZXZTM2RlVMX1F6TXBFc0ZaN1hjUnVBQUZjbUpmb2h5bTZrWExfeWxyZnVSVDNOWXpfVjNjNThhYmdub0diZllEd29HR3hCbjNET3RUM3hRMlkxOGxEd2NCaTJaUm1QYWo5NHVneC1aeF9rZER4RVVwZWFiNFluT0xrSmlSbFJkSVJKSzFaZ3luX19DdW5fWDNqTDBiQ2F5SS1xZUQ4bzlKMncxYmQxdHl4UFRQVmlmZWIyc3U0UHlLXzB5UGR1WFVQRTcxTWdEdlU4N2F6S0otREVBRl9wZXRWQnVQUEhGaXlxSHZJdi1ndmdxUW1VazE1dlhsekNZRFZURW1lQUJtcEFGd1hjN0x0dUVRdTAta0xtckVDOVpqMHFFR1pHZUJQMTRCbXlpMkQzQTZuU2VtbmhtaVRlREZzNVZPbTR5dV9POG4zZ1JZaFRKNGJzdTJVYklGRXJFZjlwV2RCY2JWZmFLZFB2V0l6Wl8wOEg5Mm9yWTdMQ1NITFNPT2I1dGwyVFRCQ3ZxZTFGdlFoRkdNOGlGYkdpQlNxYkFrOUFoOERUSlBWOV9YVUU4LV9nOFI4?oc=5",
+"pub": 1795439204.0,
+"time": "11/23 22:06",
+"run": "202611231320",
+"added": 1795440075,
+"url": "https://finance.mingpao.com/fin/instantf/20261123/1795439172168/%E9%95%B7%E6%B1%9F%E7%94%9F%E5%91%BD%E7%BE%8E%E5%85%AC%E5%8F%B8%E9%8E%AE%E7%97%9B%E8%97%A5%E8%87%A8%E5%BA%8A%E6%B8%AC%E8%A9%A6%E7%B5%90%E6%9E%9C%E6%AD%A3%E9%9D%A2-%E6%9C%89%E6%9C%9B%E6%88%90%E9%A6%96%E6%AC%BE%E6%96%B0%E5%9E%8B%E6%B2%BB%E7%99%82%E8%97%A5%E7%89%A9",
+"sum_tried": 1,
+"pv": "cd009b1f"
+},
+{
+"key": "長和系長江生命科技halneuron第2b期臨床試驗結果正面或成首款化療引致神經疼痛的治療藥物",
+"keys": [
+"長和系長江生命科技halneuron第2b期臨床試驗結果正面或成首款化療引致神經疼痛的治療藥物"
+],
+"count": 1,
+"theme": "🧬 나스닥 바이오",
+"region": "🇭🇰 홍콩",
+"title": "【長和系】長江生命科技Halneuron®第2b期臨床試驗結果正面或成首款化療引致神經疼痛的治療藥物",
+"show": "[청허치슨학과] 청공생명과학부 Halneuron® 임상 2b상 결과 긍정적, 화학요법으로 인한 신경통 최초 치료제 될 가능성",
+"source": "香港經濟日報HKET",
+"src_url": "https://inews.hket.com",
+"link": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxPSFZXUW9HSjdud0ZpOEZNM1l0MG9OcXlTZ19BYUFlTDVUd1pmbmpwZ3NGNi1RRjF4QmJKZWctUnJWUTlJR2hrQ3FqeU1sNWhiQ2ZiY3E1R2FzNHJPd3huT1NOaDk4YzFIeFQ3RS1uSmllWDNfdWNPLXZYLWFWbHpleEhNTFpEVnp4QkJob1Iwd0lDell1b0k3MXlMX2FzbXZaMHlCVGJIQ00wRGtTZENxbWVXMlJTQ3UxZlpkNTA2bnVRdms3bEtIa2h1YXhCSkZ0WDlxOG8tNWJ0OVJieUZGWjNzUW4teG5OTkQxR2xtMW05R3F3RVptcTZ2cVlHNklGVEFUeE1FYjFsc3FEdzhDcFJ6RGFuMk1ELVUyQlJMc2pId0tHcGhRbGNMSllJU2QtWlk3ZV9aM0wwSThTU3paaUMxTm4xX3ZnZE5keXdZWHNNSlFyRXk0OGxNSnJQcTFvQXJ2MlFjVTZCQzZwVTE5S21SN0ZJZFA3ZTBhUWkwT3lSS3RQMkhtdXJUOVIwUEw3WUJxTWI3aHZOLWlDcUJVcW1QMHRrdHpsUWt5anRtNlczTWtkQlJvTzhVcGZ1OC05N0VPQjBwSnhQSXlJUm8yV1ZxMTdicm5VWWZDMEJOQmJBZDdEMmx6MklBU1dUc2FNSkwyMWVNOG9GTVcxNFJRMkgzZmtkd3RrQnNNRmU5cWZvbmhuNXA2cWtrVC1BaDFadlRZVDl6NXpod1dlcDVaUUt2c1RtV2F3YkUw?oc=5",
+"pub": 1795438730.0,
+"time": "11/23 21:58",
+"run": "202611231320",
+"added": 1795440077,
+"url": "https://inews.hket.com/article/4229690/%E3%80%90%E9%95%B7%E5%92%8C%E7%B3%BB%E3%80%91%E9%95%B7%E6%B1%9F%E7%94%9F%E5%91%BD%E7%A7%91%E6%8A%80Halneuron%C2%AE%E7%AC%AC2b%E6%9C%9F%E8%87%A8%E5%BA%8A%E8%A9%A6%E9%A9%97%E7%B5%90%E6%9E%9C%E6%AD%A3%E9%9D%A2%E3%80%80%E6%88%96%E6%88%90%E9%A6%96%E6%AC%BE%E5%8C%96%E7%99%82%E5%BC%95%E8%87%B4%E7%A5%9E%E7%B6%93%E7%96%BC%E7%97%9B%E7%9A%84%E6%B2%BB%E7%99%82%E8%97%A5%E7%89%A9",
+"sum_tried": 1,
+"pv": "cd009b1f"
+},
+{
 "key": "capricorsharescraterafterfdarebuffsduchennetherapyagain",
 "keys": [
 "capricorsharescraterafterfdarebuffsduchennetherapyagain"
@@ -3890,7 +3906,7 @@
 "run": "202611231155",
 "added": 1795434990,
 "url": "https://www.reuters.com/legal/litigation/capricor-shares-crater-after-fda-rebuffs-duchenne-therapy-again-2026-11-23/",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -3911,7 +3927,9 @@
 "run": "202611231155",
 "added": 1795434981,
 "url_tried": 1,
-"pv": "cd009b1f"
+"pv": "cd009b1f",
+"url": "https://www.yicai.com/news/103450614.html",
+"sum": "상하이 지역 혁신신약이 또 다른 회원을 추가했다. 11월 23일, 국가의약품안전청(National Medical Products Administration)은 Hutchison Whampoa Pharmaceuticals (Shanghai) Co., Ltd.가 적용한 1등급 혁신 약물 솔로피닙 아세테이트 정제(상표명: Savco)의 목록을 승인했다고 발표했습니다. 이는 중국에서 승인된 최초의 SYK 억제제이기도 합니다. Chi-Med는 또한 상하이에서 5개 이상의 오리지널 신약에 대한 승인을 받은 최초의 회사가 되었습니다. Chi-Med는 제일재경와의 인터뷰에서 신약으로서 solopinib의 승인은 Chi-Med의 연구 개발 파이프라인에서의 도약을 반영한다고 말했습니다. 이전에 Chi-Med는 단일 핵심으로 고형 종양의 표적 치료에 중점을 두었습니다. 솔로피닙 출시 이후 치메드는 고형종양+혈액면역 듀얼 트랙의 새로운 파이프라인 구조를 공식 구축해 단일 트랙에 대한 의존도를 벗어나 새로운 장기 성장곡선을 열었다."
 },
 {
 "key": "昔日生技股后累虧遭暫停信用交易證交所公布11檔股票命運大不同",
@@ -3952,7 +3970,9 @@
 "run": "202611231155",
 "added": 1795434979,
 "url_tried": 1,
-"pv": "cd009b1f"
+"pv": "cd009b1f",
+"url": "https://www.cnbc.com/2026/11/23/abivax-scorpion-capital-obefazimod.html",
+"sum": "공매도업체 Scorpion Capital은 Abivax가 실험용 염증성 장질환 치료제에 심각한 과학적, 안전성 결점을 갖고 있다고 비난했습니다."
 },
 {
 "key": "医保目录新增51个1类创新药数量创历年新高恒生沪深港创新药精选50指数收涨超3",
@@ -3972,7 +3992,9 @@
 "run": "202611231155",
 "added": 1795434983,
 "url_tried": 1,
-"pv": "cd009b1f"
+"pv": "cd009b1f",
+"url": "https://www.jiemian.com/article/15362954.html",
+"sum": "항셍 상하이-심천-홍콩 혁신 약물 선택 50 지수(HSSSHID)는 3.18% 상승했으며 51개의 새로운 1급 혁신 약물이 2026년 의료 보험 목록에 추가되었습니다. Celestica 항셍 Shanghai-Shenzhen-Hong Kong Innovative Drug Select 50 ETF Link(A:014564, C:014565)가 지수를 추적합니다."
 },
 {
 "key": "风口秘钥创新药板块强势反弹商业化持续验证四大主线把握投资机遇",
@@ -4527,27 +4549,6 @@
 "sum": "LG에너지솔루션, 조준형 부사장 승진…품질·R&D 조직 강화 관련 이미지 원본을 이투데이에서 확인하세요"
 },
 {
-"key": "宁德时代与东方汇理银行签署5亿美元销售融资战略框架协议",
-"keys": [
-"宁德时代与东方汇理银行签署5亿美元销售融资战略框架协议"
-],
-"count": 2,
-"theme": "🔋 2차전지",
-"region": "🇨🇳 중국",
-"title": "宁德时代与东方汇理银行签署5亿美元销售融资战略框架协议",
-"show": "CATL은 Credit Agricole Bank와 5억 달러 규모의 판매 금융 전략 프레임워크 계약을 체결했습니다.",
-"source": "Jiemian.com",
-"src_url": "https://www.jiemian.com",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHc0s2WTN5U1VXR24tOWlOcUp3MkFZc2ZSNDYtRnY1TTBxMWxfTkdyeDNqaG9sNWQ2dTNLeE4zazhXQVJmM1hWNTNBSVpTRlFvTGhHOXFCQV8?oc=5",
-"pub": 1795178476.0,
-"time": "11/20 21:41",
-"run": "202611201320",
-"added": 1795180879,
-"url": "https://www.jiemian.com/article/15356925.html",
-"sum": "11월 20일 CATL 뉴스에 따르면 Credit Agricole과 CATL은 최근 파리에서 5억 달러 규모의 판매 금융 전략 프레임워크 계약을 체결했습니다. 이번 협력은 Crédit Agricole의 파리 본사가 직접 주도하며 CATL의 글로벌 파트너에게 자금 지원을 제공하고 더 많은 에너지 저장 프로젝트를 구현하는 데 도움이 될 것입니다.",
-"pv": "cd009b1f"
-},
-{
 "key": "乘联分会崔东树2026年动力电池市场呈现双雄份额松动二线梯队加速崛起态势",
 "keys": [
 "乘联分会崔东树2026年动力电池市场呈现双雄份额松动二线梯队加速崛起态势"
@@ -5000,6 +5001,27 @@
 "added": 1795389909,
 "url": "https://biz.chosun.com/stock/market_trend/2026/11/23/HCHCDI5F3VAFHGIX7N6GPUZGGE/",
 "sum": "주가 반토막에 풋옵션 부담 에코프로비엠, 기존 FI와 CB 재발행 추진 4200억 CB 조기상환 후 신규 발행 만기이자율 2% → 3% 상향 유력 상환금, 신규 CB 인수대금과 상계"
+},
+{
+"key": "碳酸锂价格起落之间锂电周期悄然换挡三大维度重新划分竞争座次",
+"keys": [
+"碳酸锂价格起落之间锂电周期悄然换挡三大维度重新划分竞争座次"
+],
+"count": 1,
+"theme": "🔋 2차전지",
+"region": "🇨🇳 중국",
+"title": "碳酸锂价格起落之间 锂电周期悄然换挡：三大维度重新划分竞争座次",
+"show": "탄산리튬 가격의 상승과 하락 사이에서 리튬 배터리 사이클은 조용히 기어를 전환합니다. 세 가지 주요 차원이 경쟁 순위를 재정의합니다.",
+"source": "财联社电报",
+"src_url": "https://m.cls.cn",
+"link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1weW9GNl8zbDVKNUFMUENsdWpBejJVbVExQlVjNktVWmZETC1ZZEUwc2Jod2I2V0xUU1BJLU40NGtYelFLUUE?oc=5",
+"pub": 1795380480.0,
+"time": "11/23 05:48",
+"run": "202611231320",
+"added": 1795440092,
+"url": "https://m.cls.cn/detail/2542142",
+"sum": "차이롄서, 11월 23일(류멍그란 기자) 소비세 재개, 수출세 환급 인하, 해외 관세 및 규정 준수 장벽의 지속적인 증가 등으로 인해 이번 리튬배터리 산업 사이클이 정점에 이르렀는지 여부를 둘러싼 목소리가 나오고 있다. 올해 10월 CATL(300750.SZ)의 3분기 실적 보고에서 회사 경영진은 중국의 국내 자전거 충전 용량이 증가하고 상업용 차량의 전기화가 가속화되었으며 유럽과 신흥 시장은 여전히 잠재력이 있고 에너지 저장에 대한 내부 및 외부 수요가 계속 증가하고 있으며 전 세계 전력 및 에너지 저장 수요가 예상보다 낫다고 밝혔습니다. 그러나 이러한 반응은 시장의 의구심을 해소하지 못했습니다. 최근 개최된 제11회 국제전력배터리응용서밋(CBIS2026)에서 많은 업계 관계자들이 연설에서 “기존 시장은 30% 이상의 복합성장에 시장이 익숙해져 있었지만, 기관에서는 2027년 배터리 출하량 증가율이 20%로 다시 하락할 것으로 전망하고 있다”고 밝혔다. 이는 업계가 ‘눈 감고 성장’ 단계에서 성장률 전환, 차별화, 전환이라는 새로운 단계로 전환했음을 의미하기도 한다.",
+"pv": "cd009b1f"
 },
 {
 "key": "寧德時代布局歐洲市場籲歐盟開放廢棄電池回送中精煉",
@@ -5560,45 +5582,24 @@
 "pv": "cd009b1f"
 },
 {
-"key": "恒生科技指數將迎重大調整寧德時代和中際旭創等股票或被納入陸股透視兩岸",
+"key": "中意財險與西清能源達成戰略合作推動儲能保險從經驗定價邁向數據定價",
 "keys": [
-"恒生科技指數將迎重大調整寧德時代和中際旭創等股票或被納入陸股透視兩岸"
+"中意財險與西清能源達成戰略合作推動儲能保險從經驗定價邁向數據定價"
 ],
-"count": 1,
-"theme": "🔋 2차전지",
+"count": 2,
+"theme": "⚡ 전고체배터리·ESS",
 "region": "🇹🇼 대만",
-"title": "恒生科技指數將迎重大調整 寧德時代和中際旭創等股票或被納入 | 陸股透視 | 兩岸",
-"show": "항셍테크지수는 큰 조정을 겪게 될 것이다. CATL, 중지쉬촹 등의 주식이 포함될 수 있습니다 | 본토 주식 통찰력 | 양안",
+"title": "中意財險與西清能源達成戰略合作，推動儲能保險從「經驗定價」邁向「數據定價」",
+"show": "중국 손해보험과 Xiqing Energy는 에너지 저장 보험을 '경험 가격 책정'에서 '데이터 가격 책정'으로 촉진하기 위한 전략적 협력에 도달했습니다.",
 "source": "經濟日報",
 "src_url": "https://money.udn.com",
-"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41LVFrRWZjLTJvYVBUdF9URXluY3kxcEdjc2ZUV2FpaEZXNjVoUWlNTWZlakhMMHBtQ19zelF6RHlINUplTWJzclBFR0xpLWstbDlCZEYxOUc3SURCMEF6TFRkeGVIOXRYaGNOR0wtaHF3NmlaNDlzUWI0S3o?oc=5",
-"pub": 1795180163.0,
-"time": "11/20 22:09",
-"run": "202611201320",
-"added": 1795180888,
-"url": "https://money.udn.com/money/story/5604/9890792?from=edn_subcatelist_cate",
-"sum": "[블룸버그] - CATL과 중국 InnoLight와 같은 주식이 홍콩 기술주 벤치마크 지수의 대대적인 개편에 포함될 것으로 예상됩니다. 이를 통해 지수가 인공지능 붐을 더 잘 반영하고 아시아의 다른 기술 중심 지수와 경쟁하는 데 도움이 될 것입니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "一周三度出手宁德时代加速推进200亿400亿元回购计划",
-"keys": [
-"一周三度出手宁德时代加速推进200亿400亿元回购计划"
-],
-"count": 1,
-"theme": "🔋 2차전지",
-"region": "🇨🇳 중국",
-"title": "一周三度出手，宁德时代加速推进200亿~400亿元回购计划",
-"show": "CATL은 일주일에 세 번씩 200억~400억 위안 규모의 자사주 매입 계획을 가속화합니다.",
-"source": "21财经",
-"src_url": "https://www.21jingji.com",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZV81UVBpN055QVAyMHQ1RFR3ZVEtb25Gak5UaUY2VTdOekxnZW9KRzJTcml2eVByVnJUTmpPZnlreHhRT2d5UkpuTUFCblFIN2JucHpVRDRicGhGTklETjJUZTlJcmQwWFRIZmRXa2dROTFZWHdtQVp6X01uQ1hpYlFoOG9jRFVNdlluNWF3TQ?oc=5",
-"pub": 1795179420.0,
-"time": "11/20 21:57",
-"run": "202611201320",
-"added": 1795180882,
-"url": "https://www.21jingji.com/article/20261120/herald/ad352edf292e19be95951dc69c2d885d.html",
-"sum": "21세기 비즈니스 헤럴드 Liu Xiafei 기자 이번 주 CATL은 200억~400억 위안 규모의 상각 환매 계획을 가속화하기 위해 세 차례 조치를 취했습니다. CATL은 이날 중앙입찰을 통해 A주 65만7600주를 매입했다고 20일 밝혔다. 최고거래가는 주당 229.58위안, 최저거래가는 주당 226.84위안이다. 지급총액은 1억4998만위안이며, 자사주 매입은 소각 예정이었다. 앞서 CATL은 지난 11월 17일과 19일 각각 약 1억5천만 위안과 2억 위안을 환매에 지출했다. 위에 언급된 거래는 모두 해당 연도에 시작된 상각 환매 계획의 일부입니다. 이 계획을 되돌아보면 CATL은 8월 12일 임시 주주총회에서 검토 및 승인을 받았다. CATL은 12개월 동안 중앙 집중식 입찰을 통해 A주를 환매하는 데 자체 자금 또는 자체 조달 자금 중 200억 위안 이상, 400억 위안 이하를 사용할 계획이다. 모든 주식이 소각되고 그에 따라 등록 자본금도 감소됩니다.",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ySVhUZktyZWEyWnlaSXVQS3QtTHdjemh2OVF0d3lEcnFJTDhQeHZNSE82b2stMEd6c3FJankyc3h4UVRjZVluVWY2ZDRZUzMwYXZaaEV6eDF5SHhFWWRmYjdQRjhrcWdRNURGeEJWZG15OVV2a1JR0gFiQVVfeXFMTkdhVTh2bjMyMTZhWUlsVUhzQWdMTW1UY0dBLXBlcUhNTHN5eDduSXozYkJmSFhTTWhxWXFpRjZ0T3ZuaHBDUE9EcEtublBYUG41TWNsd3REQnRQWnBKa19WM0E?oc=5",
+"pub": 1795435231.0,
+"time": "11/23 21:00",
+"run": "202611231320",
+"added": 1795440104,
+"url": "https://money.udn.com/money/story/123828/9897045?from=edn_next_story",
+"sum": "홍콩, 2026년 11월 23일 /PRNewswire/ -- 최근 중국그룹 손해보험유한공사(이하 '중국그룹 손해보험')와 베이징시칭에너지기술유한회사(이하 '시칭에너지')가 공식적으로 전략적 협력 계약을 체결했다. 이번 협력은 중국 최고의 에너지 저장 보안 기술 회사와 세계적으로 유명한 보험 그룹 간의 심층적인 협력을 의미합니다. Xiqing Energy의 능동 안전 기술은 GICC의 에너지 저장 발전소 인수 및 위험 가격 책정 프로세스에 깊이 통합될 것입니다. 양 당사자는 에너지 저장 자산 위험 관리를 위한 새로운 표준을 공동으로 확립하고, \"RaaS(Risk as a Service)\"를 핵심으로 하는 \"수동적 청구\" 모델에서 \"능동적 방어\"로 업계의 전환을 촉진하고, 업계를 선도하여 고품질, 저위험 개발 모델을 구축하고 글로벌 지속 가능한 개발에 힘을 실어줄 것입니다. AI 기반 언더라이팅 양 당사자는 실제 발전소 운영 정보와 배터리 안전 등급을 기반으로 지능형 언더라이팅 플랫폼을 공동 개발할 예정입니다. 플랫폼은 인수 양식을 기반으로 구조화된 자금 수집을 수행합니다. 과거 경험적 결함 라이브러리의 배터리 안전 위험 평가, 발전소 운영 정보의 비정형 특징 재구성, 도메인 수직형 대형 모델을 기반으로 한 포괄적인 위험 진화 추세 분석 및 판단과 같은 기술적 수단을 통해 에너지 저장 발전소의 주요 위험 매개변수를 표준화되고 비교 가능한 위험 점수로 변환하고 맞춤형 인수 계획을 동적으로 생성합니다. 해야 한다",
 "pv": "cd009b1f"
 },
 {
@@ -5643,6 +5644,27 @@
 "added": 1795334544,
 "url": "https://www.chinanews.com.cn/cj/shipin/cns-d/2026/11-22/news1075696.shtml",
 "sum": "세계 최대 액체 공기 에너지 저장 프로젝트 방문 출시 시간: 2026년 11월 22일 14:17 출처: 중국 뉴스 네트워크 11월 22일 기자들은 칭하이 성 하이시 몽골 및 티베트 자치주 거얼무시에 위치한 세계 최대 60메가와트 액체 공기 에너지 저장 국가 시범 프로젝트를 방문했습니다. 이 프로젝트는 중국의 액체 공기 에너지 저장 기술에 대한 포괄적인 숙달을 의미하며 장비 국산화율은 100%에 달하고 에너지 저장 전력 및 용량은 세계 1위를 차지합니다. 올해 10월 30일 전력망에 성공적으로 연결됐다. 공기에너지저장장치는 공기를 영하 194도까지 냉각해 액체 상태로 만든 뒤 저장했다가 전력이 필요할 때 방출해 전기를 생산하는 방식이다. 풍력과 태양광발전은 급속도로 발전하고 있지만 날씨에 따라 변동폭이 크고 변동폭이 크다. 그것들은 저장될 수도 없고 양도될 수도 없습니다. 이 프로젝트는 신에너지 전력의 \"낮은 계곡 저장 및 피크 사용\"을 실현하여 풍력 및 태양열 소비 문제를 효과적으로 해결합니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "答疑室当升科技多款固态电解质已通过头部客户验证并实现小批量应用",
+"keys": [
+"答疑室当升科技多款固态电解质已通过头部客户验证并实现小批量应用"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🇨🇳 중국",
+"title": "【答疑室】当升科技： 多款固态电解质已通过头部客户验证并实现小批量应用",
+"show": "[Q&A룸] 당성기술(Dangsheng Technology): 다양한 고체전해질이 주요 고객들로부터 검증을 거쳐 소량으로 구현되었습니다.",
+"source": "中证网",
+"src_url": "https://jnzstatic.cs.com.cn",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvX193NHFmX3JBQzJ1bUdLb3QtZTUtQThoZlRhdFQwWVJJWFJqV3VFQmkwTVFlLU5EQzRmb2dFOWEwS3ljbzNHS2ZfUDU1dUo3WldtX3RMMU5ycF9yQXpsVGd3?oc=5",
+"pub": 1795435620.0,
+"time": "11/23 21:07",
+"run": "202611231320",
+"added": 1795440102,
+"url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/138993.html",
+"sum": "[Q&A룸] 당성기술(Dangsheng Technology): 다수의 고체 전해질이 주요 고객들로부터 검증을 거쳐 소량으로 구현되었습니다. 최근 한 투자자가 대화형 플랫폼에서 Dangsheng Technology에 질문했습니다. 회사의 전고체 양극재 연구 개발 및 마케팅에 새로운 진전이 있습니까? 에너지 저장을 위한 15차 5개년 계획은 회사에 어떤 개발 기회를 제공합니까?",
 "pv": "cd009b1f"
 },
 {
@@ -6122,28 +6144,6 @@
 "added": 1795215197,
 "url": "https://udn.com/news/story/7252/9892175",
 "sum": "얄리(1514)가 어제(20일) 기자회견을 열었다. Yali는 AI 데이터 센터 건설, 국내외 반도체 공장 확장, Taipower의 전력망 강화 계획 덕분에 전력 장비에 대한 수요가 계속 뜨거워지고 있다고 말했습니다. 현재 수주액은 130억 위안에 달해 향후 모멘텀이 확보돼 있다.",
-"pv": "cd009b1f"
-},
-{
-"key": "中國大陸年底前將啟動全球首座陸上smr並達成商轉大陸政經兩岸",
-"keys": [
-"中國大陸年底前將啟動全球首座陸上smr並達成商轉大陸政經兩岸",
-"中國大陸年底前將啟動全球首座陸上smr並達成商轉陸港經貿兩岸"
-],
-"count": 2,
-"theme": "🏭 AI 전력",
-"region": "🇹🇼 대만",
-"title": "中國大陸年底前將啟動全球首座陸上SMR，並達成商轉 | 大陸政經 | 兩岸",
-"show": "중국 본토, 연말 이전에 세계 최초의 육상 기반 SMR 출시 및 상업 이전 달성 | 본토 정치 및 경제 | 양안",
-"source": "經濟日報",
-"src_url": "https://money.udn.com",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS1RpWUFmeGRQMWJoTEF2cURQWkQxOFlMY0tMbnJGVjl2VTJac2RWQ21tN0dySDdNeExpeUxiUnJMV0ljZkJfSkp5ZEMzS0pJZ3FaMmNrRHVUMEdKcjlqRFQ4eXhDVkR3NTRwcThQWHFBelJHc3UwMW1uVjk3ektHbg?oc=5",
-"pub": 1795180302.0,
-"time": "11/20 22:11",
-"run": "202611202249",
-"added": 1795215202,
-"url": "https://money.udn.com/money/story/5603/9892174?from=edn_related_storybottom",
-"sum": "중국 본토의 '링룽 1호' 소형모듈원자로(SMR)가 올해 말 이전에 발사돼 상업운전에 들어갈 것으로 예상된다. 그러면 이 원자로는 완전한 상업 운전에 들어가는 세계 최초의 육상 소형 가압경수로가 될 것이며, 이는 SMR 원자력 분야에서 중국의 발전이 미국을 능가했음을 입증할 것입니다.",
 "pv": "cd009b1f"
 },
 {
@@ -7014,27 +7014,6 @@
 "pv": "cd009b1f"
 },
 {
-"key": "pjmplancouldcutdatacenterandpowerplantgridconnectiontimesto12months",
-"keys": [
-"pjmplancouldcutdatacenterandpowerplantgridconnectiontimesto12months"
-],
-"count": 1,
-"theme": "🏭 AI 전력",
-"region": "🇺🇸 미국",
-"title": "PJM plan could cut data center and power plant grid connection times to 12 months",
-"show": "PJM 계획을 통해 데이터 센터 및 발전소 그리드 연결 시간을 12개월로 단축할 수 있습니다.",
-"source": "Data Center Dynamics",
-"src_url": "https://www.datacenterdynamics.com",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdm1XZngzYnZwdnlGQ2V5Z253VGR0d0QwZnBTTkN4NnF3QkVZNmtiOU5NZVFSQTBPWU9zZlJ3TGo5SnFTdnQ1aGJpYmtGeFhJc0s5NnBnOG1VZk5QeWRtMjM4UHZvZTRRSWR0aVNmX2JlRXZURVhZdG9pLXduMVZ2QjlCSmlReTc0SlB3QmZzSFhNVGE0a3JteDdJQnZiM2JjNkhfSFNMeEhEWUpCZS13SDNKQmFtTU9Nbkk3SngzUjdUZnc?oc=5",
-"pub": 1795179146.0,
-"time": "11/20 21:52",
-"run": "202611201320",
-"added": 1795180910,
-"url": "https://www.datacenterdynamics.com/en/news/pjm-plan-could-cut-data-center-and-power-plant-grid-connection-times-to-12-months/",
-"sum": "FERC에 제안서를 제출하고 규제 기관이 비용을 부담해야 할 수도 있음",
-"pv": "cd009b1f"
-},
-{
 "key": "a股人形机器人板块上演涨停潮宇树科技大涨",
 "keys": [
 "a股人形机器人板块上演涨停潮宇树科技大涨",
@@ -7246,6 +7225,89 @@
 "pv": "cd009b1f"
 },
 {
+"key": "豪美新材推上亿回购拟定增投资机器人轻量化",
+"keys": [
+"豪美新材推上亿回购拟定增投资机器人轻量化"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇨🇳 중국",
+"title": "豪美新材推上亿回购，拟定增投资机器人轻量化",
+"show": "Haomei New Materials는 수억 달러의 환매를 시작하고 경량 로봇에 대한 투자를 늘릴 계획입니다.",
+"source": "Jiemian.com",
+"src_url": "https://www.jiemian.com",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlV2FjTEJpMERwVU8wLXB1SklaVG5NbWJqa0RKSmdJNWd2Y0VxY21CNHh4TXFuYW1lajltM29YN3JmLV9UOW1YaUJablBNQ1pnZFI0Qm9jY3I?oc=5",
+"pub": 1795438882.0,
+"time": "11/23 22:01",
+"run": "202611231320",
+"added": 1795440123,
+"url": "https://www.jiemian.com/article/15364115.html",
+"sum": "지몐 뉴스 기자 | 11월 23일 저녁, Haomei New Materials(002988.SZ)는 중앙 집중식 입찰 거래를 통해 일부 A주를 재매입할 계획이라고 발표했습니다. 총 환매 자금은 1억~2억 위안이며 환매 가격은 주당 42.34위안을 초과하지 않습니다. 이번 자사주 매입은 회사의 가치와 주주의 권리를 보호하기 위해 사용됩니다. 이전 발표에 따르면 Haomei New Materials는 2023년, 2024년, 2025년에 3차례의 중앙 집중식 입찰 환매를 완료했으며 누적 거래량은 약 4억 5600만 위안에 달합니다. Haomei New Materials는 주로 알루미늄 합금 경량 소재 및 자동차 부품 사업에 종사하고 있으며 자동차 경량 사업을 '자재 배송'에서 '부품 운송'으로 전환을 지속적으로 추진하고 있습니다. 해당 연도 동안 회사의 특정 대상에 대한 주식 발행 신청은 중국 증권감독관리위원회의 승인 및 등록을 거쳤습니다. 조달 계획 총액은 16억 2100만 위안을 초과할 수 없으며, 이는 화동 및 화남 지역의 자동차 경량화 생산 능력 확장, R&D 혁신 센터 건설, 화남 생산 기지의 지능적 전환 및 운전 자본 보충에 사용됩니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "kaist피지컬ai제조ai에이전트산업적용논의휴머노이드부터자율제조까지제조혁신전략공유",
+"keys": [
+"kaist피지컬ai제조ai에이전트산업적용논의휴머노이드부터자율제조까지제조혁신전략공유"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇰🇷 한국",
+"title": "KAIST, 피지컬 AI·제조 AI 에이전트 산업 적용 논의…휴머노이드부터 자율제조까지 제조혁신 전략 공유",
+"show": "KAIST, 피지컬 AI·제조 AI 에이전트 산업 적용 논의…휴머노이드부터 자율제조까지 제조혁신 전략 공유",
+"source": "인공지능신문",
+"src_url": "https://www.aitimes.kr",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FdDU5UHlGSGFoTkZhT0hNRGxJOG1WT0Y0VmU1ZnZQY2Jic21nbUhieXRvLUVhSVRXSEMyeXNZaENfRmxkRGFkQnBDT2RrdEFpSnd3SU85YUEyU3JwTFVBU0VvSDJ6UDA?oc=5",
+"pub": 1795437961.0,
+"time": "11/23 21:46",
+"run": "202611231320",
+"added": 1795440121,
+"url": "https://www.aitimes.kr/news/articleView.html?idxno=42861",
+"sum": "한국과학기술원(KAIST)이 피지컬 인공지능(Physical AI)과 제조 AI 에이전트, 제조현장의 암묵지 활용 기술을 중심으로 산업계의 인공지능 전환(AX) 전략을 논의하는 자리를 마련한다. 제조업에 축적된 경험과 노하우를 AI가 활용할 수 있는 지식으로 전환하고, 실제 생산 현장에서 적용 가능한 기술과 사례를 공유하는 것이 주요 목적이다.KAIST 김재철AI대학원 성남연구센터(센터장 최재식 교수)는 오는 12월 2일 서울 코엑스 컨퍼런스룸 남측 3층 317호에서 ‘제조AI 커넥트 데이’를 개최한다. 행사는 제조 AI 기술의 발"
+},
+{
+"key": "2连板长华集团不从事人形机器人整机业务行星滚柱丝杠产品仍处于研发阶段",
+"keys": [
+"2连板长华集团不从事人形机器人整机业务行星滚柱丝杠产品仍处于研发阶段"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇨🇳 중국",
+"title": "2连板长华集团：不从事人形机器人整机业务，行星滚柱丝杠产品仍处于研发阶段",
+"show": "2-Link Changhua Group: 완전한 인간형 로봇 사업에 종사하고 있지 않으며 유성 롤러 스크류 제품은 아직 연구 개발 단계에 있습니다.",
+"source": "Jiemian.com",
+"src_url": "https://www.jiemian.com",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwbnlTel9JYnhIWGRMWE82b1ZIX1R0NndYbEpnenIwd1owWWxMbU84WFRrZlRITTgwd2J4UHladW45YkZzNG1lNEs4b3NJZC1XbTRqOWhIYTU?oc=5",
+"pub": 1795435444.0,
+"time": "11/23 21:04",
+"run": "202611231320",
+"added": 1795440125,
+"url": "https://www.jiemian.com/article/15363971.html",
+"sum": "장화그룹은 2026년 11월 20일과 11월 23일 연속 2거래일 주식의 일일 종가 상승 편차가 20%를 초과했다고 23일 발표했다. '상하이 증권거래소 거래규칙' 관련 규정에 따르면 이는 주식 거래의 비정상적인 변동을 의미합니다. 검증 결과 회사는 최근 일부 언론에서 자사를 휴머노이드 로봇 컨셉주로 상장한 사실을 알아냈다. 회사는 현재 다음과 같이 명시됩니다. 회사는 상장된 자동차 부품 회사로서 주로 자동차 금속 부품의 연구 개발, 생산 및 판매에 종사합니다. 핵심 제품은 패스너, 스탬핑 및 용접 부품입니다. 휴머노이드 로봇 완성기계 사업에는 종사하지 않습니다. 고객에게 액추에이터 특수 구조 부품 및 기타 관련 부품 제품만 제공합니다. 현재까지 약 88,000위안의 영업이익을 달성했습니다. 위 제품은 회사의 주요 비즈니스 제품의 응용 시나리오 확장을 기반으로 합니다. 이는 회사 전체 영업이익에서 아주 작은 부분을 차지하며 순이익에 큰 영향을 미치지 않습니다. 유성 롤러 스크류 제품에 관해서는 아직 연구 개발 단계에 있습니다. 아직 고객 승인을 받지 못했고, 영업이익도 달성하지 못한 상태여서 실적에 영향은 없을 것으로 보인다.",
+"pv": "cd009b1f"
+},
+{
+"key": "muskadmitsrobotdemosfailifyoumovethetableteslasoptimusbetridesonfixingthat",
+"keys": [
+"muskadmitsrobotdemosfailifyoumovethetableteslasoptimusbetridesonfixingthat"
+],
+"count": 1,
+"theme": "🤖 로봇",
+"region": "🇺🇸 미국",
+"title": "Musk Admits Robot Demos Fail if You “Move the Table.” Tesla’s Optimus Bet Rides on Fixing That",
+"show": "머스크는 \"테이블을 옮기면\" 로봇 데모가 실패한다고 인정합니다. 테슬라의 Optimus Bet는 이를 해결하기 위해 노력합니다.",
+"source": "Yahoo Finance",
+"src_url": "https://finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUFlIdVBoZTNUYVdISnFYa0VKM2pwZXNCLUVoY0JwMjFTQ1l0X04yWjJvVG4wZjhSXzl2TEljZTNlYWVKcEstWUxPLUtmV1JIaEE4aDZGbEhHQmFxcG05WXROcm55WGh4M1g0czc4NWdObTJ0UVB3RUxRb0hSSFpNSkxWanR5Wi1NTU9uY0g3RktqUzdTTk9wZw?oc=5",
+"pub": 1795432822.0,
+"time": "11/23 20:20",
+"run": "202611231320",
+"added": 1795440122,
+"url": "https://finance.yahoo.com/markets/stocks/articles/musk-admits-robot-demos-fail-112022101.html",
+"sum": "주요 사항Elon 머스크는 누군가가 테이블을 옮기면 로봇 데모가 실패한다고 말했으며 \"한두 달\" 안에 진정한 Optimus 데모를 약속했습니다. 테슬라의 가치 평가는 Optimus가 그 격차를 줄일 수 있다고 확신하고 있으며 로봇에는 아직 외부 고객이 없습니다.",
+"pv": "cd009b1f"
+},
+{
 "key": "etf收盘解读市场反弹机器人领涨",
 "keys": [
 "etf收盘解读市场反弹机器人领涨"
@@ -7346,7 +7408,9 @@
 "time": "11/23 17:34",
 "run": "202611231155",
 "added": 1795435023,
-"url_tried": 1
+"url_tried": 1,
+"url": "https://magazine.hankyung.com/business/article/202611234953b",
+"sum": "업계에 따르면 현대자동차그룹은 보스턴다이내믹스 지분 100% 확보를 마친 뒤 휴머노이드 '아틀라스' 고도화에 나서고 있다. 삼성전자는 지난 7월 대표이사 직속 RX(Robotics eXperience)사업추진실을 신설한 뒤, 100개 이상 공장·생산라인 데이터를 학습시킨 이족보행 휴머노이드 시제품을 이번 CES에서 공개하는 방안을 추진 중이다. LG전자 역시 CEO 직속 로보틱스사업센터를 중심으로 엔비디아와 협업한 이족보행 휴머노이드 신모델 개발 및 현장 실증을 이어가고 있으며, 내년 1분기 공개를 목표로 하고 있다."
 },
 {
 "key": "etf甄选三大指数震荡收涨机器人人工智能黄金股等etf表现亮眼",
