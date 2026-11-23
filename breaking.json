@@ -832,6 +832,30 @@
 "run": "breaking",
 "added": 1795427632,
 "pv": "cd009b1f"
+},
+{
+"key": "trumpsaysreinstatingjensenhuangwouldbethebestthingfornvidiaandtheus",
+"keys": [
+"trumpsaysreinstatingjensenhuangwouldbethebestthingfornvidiaandtheus",
+"canjensenhuangreturntonvidia",
+"trumpurgesnvidiatoreinstatejensenhuangcallinghimbestthingforus"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Trump says reinstating Jensen Huang “would be the best thing” for Nvidia and the US.",
+"show": "트럼프는 젠슨 황을 복직시키는 것이 엔비디아와 미국에 “가장 좋은 일”이 될 것이라고 말했습니다.",
+"source": "The Verge",
+"src_url": "https://www.theverge.com",
+"sum": "그는 트루스 소셜(Truth Social)에 올린 글에서 “엔비디아 이사회가 젠슨 황을 다시 고용하길 바란다”고 말했다. 트럼프 대통령은 앞서 황이 엔비디아로 돌아오더라도 “신경 쓰지 않을 것”이라고 말했다. 그러나 엔비디아 이사회 의장인 하비 존스에 따르면 이사회는 \"Jensen을 복직시킬 생각은 없습니다.\" [이미지: https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-23-at-8.36.32-AM.jpg?quality=90&strip=all]",
+"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOFl6c2J3X2VKdTdIZFJTalZuT0FkNVlhQmVNaHdXX3JwQVQ3UGtBQUFHamw5alJlVXVmUVRBVmJxYXJBOHhmc190bnlfSGVKTU95RUoxcUFHa0QyY0FFX3BBdUN6MFhuN1ZlZlhxNXFSY2N6elQ3Sk0tc0JLRWZkMjF1c1ZQQ1B5OFdDRFhsZXpZa0JRb2RzczM0aFM1SUdpOUJnT1dpamJhMzNpNXQ3MHFaZVdQWGpHSjVDMGFB?oc=5",
+"url": "https://www.theverge.com/policy/1039923/trump-says-reinstating-jensen-huang-would-be-the-best-thing-for-nvidia-and-the-us",
+"pub": 1795441353.0,
+"time": "11/23 22:42",
+"run": "breaking",
+"added": 1795442153,
+"pv": "cd009b1f"
 }
 ],
 "seen": {
@@ -1063,6 +1087,9 @@
 "台積電喊話穩住ai供應鏈信心先進半導體製程產能持續供不應求": 1795429818.6990497,
 "ai前景疑慮升高台積電高呼先進製程產能持續供不應求": 1795427658.6725802,
 "看好ai長線需求台積電先進製程產能持續供不應求上市櫃": 1795429818.699049,
-"罕見發產業新聞稿台積電高呼先進製程產能持續供不應求": 1795429818.699048
+"罕見發產業新聞稿台積電高呼先進製程產能持續供不應求": 1795429818.699048,
+"trumpsaysreinstatingjensenhuangwouldbethebestthingfornvidiaandtheus": 1795442158.0759234,
+"canjensenhuangreturntonvidia": 1795442158.075928,
+"trumpurgesnvidiatoreinstatejensenhuangcallinghimbestthingforus": 1795442158.0759292
 }
 }
