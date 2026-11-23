@@ -238,22 +238,33 @@ def model_labels(titles, deadline=None):
     return out
 
 
+# 두 판정이 다를 때 정하는 규칙 — Claude 가 실제 판정다름 기사 578건을 직접 판정해 본 결과로 정함 (2026-11-23)
+#  · 낱말 중립 + AI 긍정 → 중립 (83% 가 중립. 작은 AI 는 회사 소식이면 대부분 긍정이라고 함)
+#  · 낱말 중립 + AI 부정 → 부정 (62% 가 부정. 낱말이 못 찾은 나쁜 소식을 AI 가 잡음)
+#  · 낱말 긍정 + AI 중립 → 중립 (71% 가 중립)
+#  · 나머지(긍정↔부정이 엇갈리는 등)는 그대로 판정 다름 → Claude 가 검토
+RESOLVE = {("u", "p"): "u", ("u", "n"): "n", ("p", "u"): "u"}
+
+
+def combine(a, b):
+    if b is None:
+        return "?"
+    if a == b:
+        return a
+    return RESOLVE.get((a, b), "x")
+
+
 def judge_detail(titles, deadline=None):
-    """제목 목록 → [(최종, 낱말, AI), ...]  최종: 같으면 그 판정, 다르면 'x', 아직 못 본 건 '?'"""
+    """제목 목록 → [(최종, 낱말, AI), ...]  최종: 같으면 그 판정, 다르면 규칙(RESOLVE)으로, 그래도 못 정하면 'x', 아직 못 본 건 '?'"""
     if not titles:
         return []
     mod = model_labels(titles, deadline)
     lex = [lexicon_label(t) for t in titles]
     if mod is None:
         return [("?", a, None) for a in lex]
-    return [("?" if b is None else (a if a == b else "x"), a, b) for a, b in zip(lex, mod)]
+    return [(combine(a, b), a, b) for a, b in zip(lex, mod)]
 
 
 def judge(titles, deadline=None):
-    """제목 목록 → 최종 판정 목록. 두 판정이 같으면 그 판정, 다르면 'x', 아직 못 본 건 '?'(다음 실행에서 다시)"""
-    if not titles:
-        return []
-    mod = model_labels(titles, deadline)
-    if mod is None:
-        return ["?"] * len(titles)
-    return ["?" if b is None else (a if a == b else "x") for a, b in zip((lexicon_label(t) for t in titles), mod)]
+    """제목 목록 → 최종 판정 목록 (judge_detail 의 최종만)"""
+    return [x[0] for x in judge_detail(titles, deadline)]

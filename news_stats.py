@@ -391,7 +391,8 @@ def judge_pending(st, now):
         for (k, (f, lx, ai)) in zip(ks, det):
             if f == "?" or k not in refs:
                 continue
-            if f == "x" or int(hashlib.md5(k.encode()).hexdigest(), 16) % 20 == 0:
+            h = int(hashlib.md5(k.encode()).hexdigest(), 16)
+            if f == "x" or (lx != ai and h % 4 == 0) or h % 20 == 0:   # 판정 다름 전부 + 규칙으로 정한 것 1/4 + 같은 것 1/20
                 lines.append(json.dumps({"k": k, "t": uniq[k], "f": f, "lx": lx, "ai": ai, "r": refs[k]}, ensure_ascii=False))
         if lines:
             with open(REVIEW_FILE, "a", encoding="utf-8") as fh:
@@ -412,6 +413,7 @@ BACKFILL_FILE = os.path.join(nb.HERE, "sentiment_backfill.json")
 
 
 def apply_backfill(st):
+    import sentiment
     """지난주(제목이 안 남은 날) 표본 판정 → 그날 실제 기사 수를 표본 비율로 나눈 추정치('≈')로 senti 에 넣음.
     나라 칸 표본이 5건 이상이면 그 나라 비율, 아니면 그 테마·날짜 전체 비율. Claude 판정이 있으면 그걸로."""
     try:
@@ -424,7 +426,9 @@ def apply_backfill(st):
         labels = {}
     cells, themes = {}, {}
     for it in bf.get("items", []):
-        f = labels.get(it["k"]) or it.get("f")
+        f = labels.get(it["k"])
+        if not f:
+            f = sentiment.combine(it.get("lx"), it.get("ai")) if it.get("ai") else it.get("f")   # 지금 규칙으로 다시 정함
         if f not in ("p", "n", "u", "x"):
             continue
         i = "pnux".index(f)

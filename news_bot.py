@@ -1010,7 +1010,7 @@ function period(){                         // [이번 기간 날짜들, 비교�
 function have(days){ var n=0; days.forEach(function(d){ if((ST.days||{})[d]) n++; }); return n; }   // 기간 안에 실제로 모인 날 수
 function firstDay(){ var k = Object.keys(ST.days||{}).sort(); return k[0] || ''; }
 function sum(days, th){ var n=0; days.forEach(function(d){ n += cnt(d, th); }); return n; }
-// 긍정·부정·중립 (2026-11-22~): [긍정, 부정, 중립, 판정 다름] — 낱말 판정과 AI 모델 판정이 같은 기사만 긍정·부정·중립으로 셈
+// 긍정·부정·중립 (2026-11-22~): [긍정, 부정, 중립, 판정 다름] — 낱말 판정과 AI 모델 판정이 같거나, 규칙(sentiment.RESOLVE)으로 정해진 기사를 셈
 function scnt(d, th){ var o = (((ST.senti||{})[d])||{})[th] || {}, v = [0,0,0,0];
   for(var k in o){ if(S.region==='all' || k===S.region){ for(var i=0;i<4;i++) v[i] += o[k][i]||0; } } return v; }
 function ssum(days, th){ var v = [0,0,0,0]; days.forEach(function(d){ var x = scnt(d, th); for(var i=0;i<4;i++) v[i] += x[i]; }); return v; }
@@ -1132,7 +1132,7 @@ function renderStats(t){
       (open ? detail(r.th) : '') + '</div>';
   }).join('');
   h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 바로 앞 같은 길이 기간보다 몇 계단 오르고 내렸는지<br>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
-       '· 숫자 오른쪽 <span style="color:#4ade80">●</span>긍정 <span style="color:#f87171">●</span>부정 <span style="color:#a8a29e">●</span>중립 = 기사 제목을 낱말 판정과 무료 AI(Qwen2.5) 판정으로 따로 보고, 둘이 같은 기사만 센 숫자 (둘이 다르면 판정 다름으로 빼요 · '+esc(ss||'')+'부터)<br>'+
+       '· 숫자 오른쪽 <span style="color:#4ade80">●</span>긍정 <span style="color:#f87171">●</span>부정 <span style="color:#a8a29e">●</span>중립 = 기사 제목을 낱말 판정과 무료 AI(Qwen2.5) 판정으로 따로 보고, 둘이 같으면 그대로, 다르면 Claude 가 실제 기사로 정한 규칙(낱말 중립+AI 긍정→중립 등)으로 정하고, 긍정↔부정처럼 크게 엇갈리면 판정 다름으로 빼요. Claude 가 판정 다름 기사를 따로 검토해 고쳐요<br>'+
        '· 숫자 옆 + 는 검색 결과가 너무 많아 실제보다 적게 잡혔을 수 있다는 표시예요 (구글 뉴스는 한 번에 최대 100개)<br>'+
        '· ▲▼ 는 바로 앞 같은 길이 기간과 비교 (오늘은 진행 중이라 작게 나와요 · 모인 날 수가 다르면 하루 평균끼리 비교)<br>'+
        '· 통계는 '+esc(f)+'부터 모았어요 (첫날은 일부만 잡힘) · 2년치까지 보관 (1년 통계를 그 전 1년과 비교)</footer>';
