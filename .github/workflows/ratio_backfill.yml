@@ -1,0 +1,37 @@
+name: 올해 긍정·부정 비율 표본 모으기 (한 번)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  month:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 11
+      matrix:
+        m: ["2026-01","2026-02","2026-03","2026-04","2026-05","2026-06","2026-07","2026-08","2026-09","2026-10","2026-11"]
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q requests pillow fonttools
+      - name: 표본 모으기
+        run: PYTHONUNBUFFERED=1 python ratio_backfill.py ${{ matrix.m }}
+      - name: 저장
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add ratio_bf/${{ matrix.m }}.json
+          git commit -q -m "긍정·부정 비율 표본 ${{ matrix.m }}"
+          for t in 1 2 3 4 5 6 7 8; do
+            git pull -q --rebase origin main && git push -q && echo "저장 완료" && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((t * 7))
+          done
+          exit 1
