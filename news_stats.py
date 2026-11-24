@@ -920,7 +920,7 @@ def us_count(st, d, th):
 
 def us_jumps(st, day):
     """미국 급상승 (2026-11-24 사용자: 미국 위주로): 어제 미국 기사 수가 같은 종류 날(평일↔평일, 주말↔주말) 최근 평균의 1.6배 이상
-    (평균 15건 이상인 테마 — 월요일이 주말과 비교돼 다 급상승으로 나오지 않게)"""
+    (평균 30건 이상인 테마 — 월요일이 주말과 비교돼 다 급상승으로 나오지 않게)"""
     d0 = datetime.strptime(day, "%Y-%m-%d")
     we = d0.weekday() >= 5
     base = [d0 - timedelta(days=i) for i in range(1, 22)]
@@ -929,7 +929,7 @@ def us_jumps(st, day):
     for th in st.get("themes", []):
         n = us_count(st, day, th)
         a = sum(us_count(st, d, th) for d in base) / len(base)
-        if a >= 15 and n >= a * 1.6:
+        if a >= 30 and n >= a * 1.6:      # 평균 30건 미만 작은 테마는 하루 튐이 잦아 뺌 (1~11월 검증: 조선 5/23 x16.6 같은 튐)
             out.append((th, n, a))
     return sorted(out, key=lambda r: -(r[1] / r[2]))
 
