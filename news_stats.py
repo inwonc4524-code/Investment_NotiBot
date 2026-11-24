@@ -410,7 +410,10 @@ def judge_pending(st, now):
     apply_backfill(st)
     apply_xfill(st)
     apply_ratio(st)
-    apply_attn(st)
+    try:
+        apply_attn(st)          # 화제·쟁점 판정이 실패해도 뉴스 통계는 계속
+    except Exception as e:
+        print("화제·쟁점 판정 실패(지난 값 유지):", e)
 
 
 BACKFILL_FILE = os.path.join(nb.HERE, "sentiment_backfill.json")
