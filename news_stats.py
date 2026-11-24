@@ -979,19 +979,19 @@ def send_daily(st, day):
     lines = [f"{i}. {name} {n:,}건 {chg(n, p)}".rstrip() for i, (name, n, p) in enumerate(rows[:10], 1) if n > 0]
     jumps = [r for r in rows if r[2] >= 20 and r[1] >= r[2] * 1.5]
     jumps.sort(key=lambda r: -(r[1] / r[2]))
-    msg = "\n".join(lines)
+    msg = "▲▼ = 그저께와 비교\n" + "\n".join(lines)
     if jumps:
-        msg += "\n\n🔺 급증: " + ", ".join(f"{name} {chg(n, p)}" for name, n, p in jumps[:3])
+        msg += "\n\n🔺 그저께보다 크게 늘어남: " + ", ".join(f"{name} {chg(n, p)}" for name, n, p in jumps[:3])
     try:
         us = us_jumps(st, day)
     except Exception as e:          # 미국 급상승을 못 구해도 어제 통계 알림은 보냄
         print("미국 급상승 계산 실패:", e)
         us = []
     if us:
-        msg += "\n\n🇺🇸 미국 급상승: " + ", ".join(
-            f"{th} {n:,}건(평소 {a:,.0f}의 {n / a:.1f}배){' → 한국도 따라가는 편' if (st.get('sync') or {}).get(th, 0) >= 0.35 else ''}"
+        msg += "\n\n🇺🇸 미국에서 갑자기 늘어남: " + ", ".join(
+            f"{th} {n:,}건(평소 {a:,.0f}건의 {n / a:.1f}배){' → 한국도 보통 따라가요' if (st.get('sync') or {}).get(th, 0) >= 0.35 else ''}"
             for th, n, a in us[:3])
-        lines = lines + ["🇺🇸 급상승 " + ", ".join(f"{th} x{n / a:.1f}" for th, n, a in us[:3])]
+        lines = lines + ["🇺🇸 미국 급증 " + ", ".join(f"{th} x{n / a:.1f}" for th, n, a in us[:3])]
     md = day[5:].replace("-", "/")
     page = f"https://{nb.REPO.split('/')[0].lower()}.github.io/{nb.REPO.split('/')[1]}/#stats"
     return nb.notify(f"📊 어제({md}) 테마별 뉴스 수", msg, click=page,
@@ -999,7 +999,7 @@ def send_daily(st, day):
                      tags=["bar_chart"], priority=3,
                      card={"paper": "뉴스 통계", "kicker": f"{md} 테마별 뉴스 수",
                            "headline": f"1위 {rows[0][0]} {rows[0][1]:,}건",
-                           "lines": lines[:8], "footer": "눌러서 📊 통계 탭에서 추이 보기"})
+                           "lines": lines[:8], "footer": "누르면 📊 통계 탭에서 더 자세히 볼 수 있어요"})
 
 
 if __name__ == "__main__":

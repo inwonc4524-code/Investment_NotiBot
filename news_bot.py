@@ -1027,7 +1027,7 @@ function scnt(d, th){ var o = (((ST.senti||{})[d])||{})[th] || {}, v = [0,0,0,0]
 function ssum(days, th){ var v = [0,0,0,0]; days.forEach(function(d){ var x = scnt(d, th); for(var i=0;i<4;i++) v[i] += x[i]; }); return v; }
 function sentHtml(v){
   if(!(v[0]+v[1]+v[2]+v[3])) return '<span class="sent"></span>';
-  return '<span class="sent" title="긍정 '+v[0]+' · 부정 '+v[1]+' · 중립 '+v[2]+' · 판정 다름 '+v[3]+'">'+
+  return '<span class="sent" title="좋은 소식 '+v[0]+' · 나쁜 소식 '+v[1]+' · 그냥 소식 '+v[2]+' · 판단 엇갈림 '+v[3]+'">'+
     '<i class="s-p">'+v[0].toLocaleString()+'</i><i class="s-n">'+v[1].toLocaleString()+'</i><i class="s-u">'+v[2].toLocaleString()+'</i></span>';
 }
 // 1월~11/14 긍정·부정·중립 비율 (월별 표본 약 40건 · Claude 판정) — 그 기간은 기사 수를 믿을 수 없어 비율만
@@ -1044,8 +1044,8 @@ function monthRatio(days, f, rows){
   if(!ms.length) return '';
   ms.sort();
   var lab = function(m){ return m.slice(2).replace('-','.'); };
-  var h = '<h3 class="mrh">🟢🔴⚪ '+lab(ms[0])+(ms.length>1?'~'+lab(ms[ms.length-1]):'')+' 긍정·부정·중립 비율</h3>'+
-          '<p class="note">'+f.slice(5).replace('-','/')+' 이전은 기사 수를 믿을 수 없어서, 달마다 테마별 기사 약 40건을 다시 모아 Claude 가 직접 판정한 <b>비율</b>만 보여 줘요 (달마다 같은 무게로 평균)</p>';
+  var h = '<h3 class="mrh">🟢🔴⚪ '+lab(ms[0])+(ms.length>1?'~'+lab(ms[ms.length-1]):'')+' 좋은·나쁜·그냥 소식 비율</h3>'+
+          '<p class="note">'+f.slice(5).replace('-','/')+' 전 기사는 달마다 테마별로 약 40개씩 다시 모아 Claude가 직접 읽었어요. 좋은·나쁜·그냥 소식이 <b>몇 %</b>였는지 보여 줘요.</p>';
   h += rows.map(function(r){ var v = mratio(ms, r.th); if(!v) return '';
     var p = Math.round(v[0]*100), n = Math.round(v[1]*100), u = Math.max(0, 100 - p - n);
     return '<div class="mrow"><span class="sn">'+esc(r.th)+'</span><span class="rbar"><i class="b-p" style="width:'+p+'%"></i><i class="b-n" style="width:'+n+'%"></i><i class="b-u" style="width:'+u+'%"></i></span>'+
@@ -1064,8 +1064,8 @@ function attnHtml(days, rows){
   if(!ms.length) return '';
   var lab = function(m){ return (+m.slice(5))+'월'; };
   var h = '<h3 class="mrh">🔥 화제·쟁점 테마 '+m2(ms[0])+(ms.length>1?'~'+m2(ms[ms.length-1]):'')+'</h3>'+
-    '<p class="note">관심도 = 테마별 위키백과 조회수(영·한·일·중)'+(A.trends?' + 구글 트렌드 한국 검색량':'')+'로 잰 관심이 그 테마의 <b>평소</b>보다 몇 배였는지예요. 모든 테마가 같이 오르내린 흐름은 빼서, <b>다른 테마보다 유독 더 뜬 정도</b>만 보여요. 기사 수와 달리 옛날 자료도 정확해요.<br>'+
-    '<b>🔥 화제</b> = 평소보다 관심이 1.2배 이상 · <b>⚡ 쟁점</b> = 관심이 평소 이상이면서 나쁜 소식 비율이 그 테마 평균보다 8%p 이상 높은 달 · 기사 예시는 그 달 표본 기사 중 Claude 판정 기사</p>';
+    '<p class="note">관심도 = 사람들이 그 테마를 얼마나 찾아봤는지예요 (위키백과 조회수'+(A.trends?', 구글 검색량':'')+'). 그 테마의 <b>평소보다 몇 배</b>였는지로 보여 줘요. 모든 테마가 다 같이 오르내린 건 빼고, <b>유독 더 뜬 것</b>만 봐요.<br>'+
+    '<b>🔥 화제</b> = 관심이 평소의 1.2배 넘은 달 · <b>⚡ 쟁점</b> = 관심도 높고, 나쁜 소식도 평소보다 많았던 달 · 아래 기사는 그 달 예시예요</p>';
   // 달력판
   var ord = rows.map(function(r){ return r.th; }).filter(function(th){ return A.heat[th]; });
   h += '<div class="hmap"><div class="hrow hhead"><span class="sn"></span>'+ms.map(function(m){ return '<span class="hc">'+(+m.slice(5))+'</span>'; }).join('')+'</div>';
@@ -1077,7 +1077,7 @@ function attnHtml(days, rows){
   // 달별 화제·쟁점
   var mk = function(v){ return '<span class="hd s-'+(v[1]||'u')+'">'+esc(v[0])+'</span>'; };
   h += ms.slice().reverse().map(function(m, i){ var o = A.months[m];
-    var hot = o.hot.map(function(r){ return '<li><b>🔥 '+esc(r.th)+'</b> <span class="hx">평소의 '+r.x.toFixed(1)+'배 · 가장 뜨거운 주 '+r.peak.slice(5).replace('-','/')+'~ ('+r.px.toFixed(1)+'배)</span>'+
+    var hot = o.hot.map(function(r){ return '<li><b>🔥 '+esc(r.th)+'</b> <span class="hx">평소의 '+r.x.toFixed(1)+'배 · 가장 뜨거웠던 주 '+r.peak.slice(5).replace('-','/')+'~ ('+r.px.toFixed(1)+'배)</span>'+
       (r.heads.length ? '<div class="hds">'+r.heads.map(mk).join('')+'</div>' : '')+'</li>'; }).join('');
     var iss = o.issue.map(function(r){ return '<li><b>⚡ '+esc(r.th)+'</b> <span class="hx">관심 '+r.x.toFixed(1)+'배 · 나쁜 소식 <b class="s-n">'+r.neg+'%</b> (평소 '+r.avg+'%)</span>'+
       (r.heads.length ? '<div class="hds">'+r.heads.map(mk).join('')+'</div>' : '')+'</li>'; }).join('');
@@ -1090,10 +1090,10 @@ function m2(m){ return m.slice(2).replace('-','.'); }
 // 최근 7일 급상승 (11/15부터 실제로 센 기사 수)
 function risingHtml(){
   var A = ST.attn; if(!A) return '';
-  var h = '<h3 class="mrh">🚀 이번 주 급상승 테마</h3>';
+  var h = '<h3 class="mrh">🚀 이번 주 갑자기 늘어난 테마</h3>';
   if(!A.rising || !A.rising.length)
-    return h + '<p class="note">최근 7일과 그 전 7일 기사 수를 비교해요. 11/15부터 센 기사가 2주 쌓이는 <b>11/29</b>부터 나와요.</p>';
-  return h + '<p class="note">최근 7일 기사 수 ÷ 그 전 7일 (실제로 센 숫자)</p>' + A.rising.map(function(r){
+    return h + '<p class="note">최근 7일 기사 수를 그 전 7일과 비교해요. 2주치가 모이는 <b>11/29</b>부터 보여요.</p>';
+  return h + '<p class="note">최근 7일 기사 수가 그 전 7일의 몇 배인지예요 (봇이 직접 센 숫자)</p>' + A.rising.map(function(r){
     return '<div class="mrow"><span class="sn">'+esc(r[0])+'</span><span class="hx">'+r[3].toLocaleString()+' → <b>'+r[2].toLocaleString()+'</b>건</span><b class="'+(r[1]>=1?'s-n':'s-u')+'" style="margin-left:auto">×'+r[1].toFixed(2)+'</b></div>'; }).join('');
 }
 // 🇺🇸 미국 ↔ 🇰🇷 한국 (2026-11-24 사용자: 한국 시장은 미국을 많이 따라간다 → 미국 위주로)
@@ -1115,8 +1115,8 @@ function usKrChart(th){
   var mx = Math.max.apply(null, U.concat(K).concat([1.5])), W = chartW(), H = 96, n = U.length;
   var pt = function(a){ return a.map(function(v,i){ return (i*(W/(n-1))).toFixed(1)+','+(H-14-(v/mx)*(H-24)).toFixed(1); }).join(' '); };
   var y1 = (H-14-(1/mx)*(H-24)).toFixed(1);
-  var c = r.c == null ? '' : ' · 같이 움직인 정도 <b>'+r.c.toFixed(2)+'</b> ('+(r.c >= .5 ? '많이 따라감' : r.c >= .25 ? '조금 따라감' : '따로 움직임')+')';
-  return '<div class="dt">🇺🇸 미국 vs 🇰🇷 한국 주별 흐름 (각자 평균 = 1)'+c+'</div>'+
+  var c = r.c == null ? '' : ' · 따라가는 정도 <b>'+r.c.toFixed(2)+'</b> ('+(r.c >= .5 ? '많이 따라감' : r.c >= .25 ? '조금 따라감' : '따로 움직임')+')';
+  return '<div class="dt">🇺🇸 미국 vs 🇰🇷 한국 주마다 기사 수 (각자 평소 = 1)'+c+'</div>'+
     '<svg class="bars" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(th)+' 미국 한국 비교">'+
     '<line x1="0" y1="'+y1+'" x2="'+W+'" y2="'+y1+'" stroke="var(--line)" stroke-dasharray="3 3"/>'+
     '<polyline points="'+pt(U)+'" fill="none" stroke="#60a5fa" stroke-width="2"/>'+
@@ -1128,8 +1128,8 @@ function syncHtml(days){
   var rows = (ST.themes||[]).map(function(th){ var r = usKr(th, days); return {th:th, c:r.c, u:r.u.reduce(function(a,b){return a+b;},0)}; })
                             .filter(function(r){ return r.c != null; }).sort(function(a,b){ return b.c - a.c; });
   if(!rows.length) return '';
-  return '<h3 class="mrh">🇺🇸→🇰🇷 미국 뉴스와 한국 뉴스가 같이 움직인 정도</h3>'+
-    '<p class="note">주마다 미국 기사 수와 한국 기사 수가 같이 오르내린 정도 (1 = 똑같이, 0 = 상관없음). 높은 테마는 <b>미국 뉴스만 봐도 한국 흐름을 짐작</b>할 수 있어요. 줄을 누르면 두 흐름을 겹친 그래프가 나와요.</p>'+
+  return '<h3 class="mrh">🇺🇸→🇰🇷 한국 뉴스가 미국 뉴스를 따라가는 정도</h3>'+
+    '<p class="note">미국 기사가 늘 때 한국 기사도 같이 늘었는지 봐요. <b>1에 가까우면 많이 따라가고, 0이면 상관없어요.</b> 높은 테마는 미국 뉴스만 봐도 한국 분위기를 짐작할 수 있어요. 위 목록에서 테마 줄을 누르면 두 선을 겹친 그래프가 나와요.</p>'+
     rows.map(function(r){ var w = Math.max(0, r.c)*100, col = r.c >= .5 ? '#60a5fa' : r.c >= .25 ? '#93c5fd' : 'var(--sub)';
       return '<div class="mrow"><span class="sn">'+esc(r.th)+'</span><span class="rbar"><i style="width:'+w.toFixed(0)+'%;background:'+col+'"></i></span>'+
         '<span class="rpct" style="width:96px">'+r.c.toFixed(2)+' '+(r.c >= .5 ? '많이 따라감' : r.c >= .25 ? '조금' : '따로')+'</span></div>'; }).join('');
@@ -1139,7 +1139,18 @@ function notesBox(W){
   if(!W) return '';
   var n = (W.match(/class="warn"/g) || []).length;
   return '<details class="notes"'+(load('notes_open', '') === '1' ? ' open' : '')+' ontoggle="save(\'notes_open\', this.open ? \'1\' : \'\')">'+
-         '<summary>📝 참고 <span class="hx">'+n+'개 · 추정치·자료 범위 안내</span></summary>'+W+'</details>';
+         '<summary>📝 참고 <span class="hx">'+n+'개 · 어림한 숫자, 자료가 있는 기간 안내 (누르면 열려요)</span></summary>'+W+'</details>';
+}
+// ❓ 보는 법 (2026-11-24 사용자: 초등학생도 이해하기 쉽게)
+function helpBox(){
+  return '<details class="notes help"'+(load('help_open', '1') === '1' ? ' open' : '')+' ontoggle="save(\'help_open\', this.open ? \'1\' : \'0\')">'+
+    '<summary>❓ 보는 법 <span class="hx">(누르면 접혀요)</span></summary><ul class="helpl">'+
+    '<li><b>숫자</b> = 그 기간에 나온 기사 수예요. 많을수록 사람들이 많이 다룬 테마예요.</li>'+
+    '<li>순위 옆 <b style="color:#f87171">▲</b> = 바로 전 기간보다 순위가 올랐어요. <b style="color:#60a5fa">▼</b> = 내려갔어요.</li>'+
+    '<li>숫자 옆 <b>▲▼%</b> = 바로 전 기간보다 기사가 몇 % 늘었는지 줄었는지예요.</li>'+
+    '<li><span style="color:#4ade80">●</span>좋은 소식 <span style="color:#f87171">●</span>나쁜 소식 <span style="color:#a8a29e">●</span>그냥 소식 기사 수예요.</li>'+
+    '<li><b>≈ 어림한 숫자</b> = 정확히 센 게 아니라 어림잡은 숫자예요. 자세한 건 📝 참고를 눌러 보세요.</li>'+
+    '<li>테마 줄을 누르면 큰 그래프가 열려요.</li></ul></details>';
 }
 function capped(days, th){
   var c = ST.capped || {}, hit = false;
@@ -1211,7 +1222,7 @@ function detail(th){                       // 30일(또는 6개월·1년은 주�
   return '<div class="det"><div class="dt">'+(wk ? (S.sp==='q' ? period()[2] : '최근 '+(S.sp==='h'?'6개월':'1년'))+' 주별 뉴스 수' : '최근 30일 하루 뉴스 수')+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
     '<svg class="bars" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(th)+' 뉴스 수 그래프">'+bars+axis+'</svg>'+
     (wk ? usKrChart(th) : '')+
-    '<div class="dt">'+esc(P[2])+' 나라별</div>'+rows+'</div>';
+    '<div class="dt">'+esc(P[2])+' 나라별 기사 수</div>'+rows+'</div>';
 }
 function renderStats(t){
   var h = '<h2>📊 테마별 뉴스 통계</h2>';
@@ -1222,7 +1233,8 @@ function renderStats(t){
   if(ST.err || !ST.days){ $('main').innerHTML = h + '<p class="none">아직 모인 통계가 없어요. 1시간마다 모이니 잠시 후 다시 확인해 주세요.</p>'; return; }
   var P = period();
   if(S.sp==='yday' && !Object.keys((ST.days||{})[P[0][0]]||{}).length){ S.sp = 'today'; P = period(); }
-  h += '<p class="note">기사 제목에 테마 단어가 들어간 뉴스 수 · 1시간마다 모아 같은 기사는 한 번만 셈 · 업데이트 '+esc(ST.updated||'')+'</p>';
+  h += '<p class="note">제목에 테마 단어가 들어간 기사 수예요. 1시간마다 새로 세요. 같은 기사는 한 번만 세요. · 마지막으로 센 시각 '+esc(ST.updated||'')+'</p>';
+  h += helpBox();
   h += '<div class="seg sp">' + [['yday','어제'],['today','오늘'],['w','7일'],['m','30일'],['q','분기'],['h','6개월'],['y','1년']].map(function(x){
     return '<button data-sp="'+x[0]+'" class="'+(S.sp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
   if(S.sp === 'q') h += '<div class="seg qn">' + qList().map(function(q){
@@ -1236,8 +1248,8 @@ function renderStats(t){
     var yk = Object.keys(ys).filter(function(k){ return k <= tk; }).sort().pop();
     if(yk){ rows.forEach(function(r){ var v = ys[yk][r.th] || {}, n = 0; for(var k in v){ if(S.region==='all' || k===S.region) n += v[k]; } r.p = n; });
             rows.forEach(function(r){ r.pr = undefined; }); hp = 1;
-            W += '<div class="warn">🕐 오늘은 아직 진행 중이라, ▲▼ 는 <b>어제 '+yk+'까지</b> 모인 수와 비교해요 (오늘 '+esc(tk)+' 기준).</div>'; }
-    else { hp = 0; W += '<div class="warn">🕐 오늘은 아직 진행 중이에요. 어제 같은 시각까지의 기록이 아직 없어서 ▲▼ 비교는 내일부터 나와요.</div>'; }
+            W += '<div class="warn">🕐 오늘은 아직 안 끝났어요. 그래서 ▲▼는 어제 하루 전체가 아니라 <b>어제 '+yk+'까지</b> 센 수와 비교해요. (오늘은 '+esc(tk)+'까지 셈)</div>'; }
+    else { hp = 0; W += '<div class="warn">🕐 오늘은 아직 안 끝났어요. 어제 같은 시각 기록이 아직 없어서, ▲▼는 내일부터 보여요.</div>'; }
   }
   ranks(rows, hp > 0);
   var ST0 = [0,0,0,0]; rows.forEach(function(r){ for(var i=0;i<4;i++) ST0[i] += r.s[i]; });
@@ -1246,28 +1258,28 @@ function renderStats(t){
   var est = P[0].filter(function(d){ return se.indexOf(d) >= 0; }).length;
   var xf = P[0].filter(function(d){ return (ST.xfill||[]).indexOf(d) >= 0; });
   var mx = rows.length ? Math.max(1, rows[0].n) : 1, total = 0; rows.forEach(function(r){ total += r.n; });
-  h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 전체 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">'+(hp ? '(전 기간 대비)' : '')+'</span></div>';
+  h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 전체 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">'+(hp ? '(▲▼ = 바로 전 기간과 비교)' : '')+'</span></div>';
   var p0 = P[0].slice().sort()[0];             // 기간 첫날 (최근 N일은 날짜가 거꾸로 들어 있음)
   if(ss && p0 && p0 < ss && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
-    W += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작해서, 이 기간의 그 전 기사는 판정이 없어요 (기사 수는 그대로).</div>';
+    W += '<div class="warn">🟢🔴⚪ 좋은·나쁜·그냥 소식은 '+ss.slice(5).replace('-','/')+'부터 세기 시작했어요. 그 전 기사에는 이 표시가 없어요. (기사 수는 다 있어요)</div>';
   if(ss && !(ST0[0]+ST0[1]+ST0[2]+ST0[3]))
-    W += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작했어요. 이 기간엔 아직 판정한 기사가 없어요.</div>';
+    W += '<div class="warn">🟢🔴⚪ 좋은·나쁜·그냥 소식은 '+ss.slice(5).replace('-','/')+'부터 세기 시작했어요. 이 기간에는 아직 없어요.</div>';
   if(ST0[0]+ST0[1]+ST0[2]+ST0[3])
-    h += '<div class="tot sentot">'+sentHtml(ST0)+' <span class="chgnote">긍정 · 부정 · 중립 (판정 다름 '+ST0[3].toLocaleString()+'건은 빼고)</span></div>';
+    h += '<div class="tot sentot">'+sentHtml(ST0)+' <span class="chgnote">좋은 소식 · 나쁜 소식 · 그냥 소식 (판단이 엇갈린 '+ST0[3].toLocaleString()+'건은 빼고)</span></div>';
   if(xf.length && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
-    W += '<div class="warn">≈ '+xf.map(function(d){ return d.slice(5).replace('-','/'); }).join(', ')+'의 일부(판정 규칙이 생기기 전 \'판정 다름\'이던 기사)는 Claude 가 직접 판정한 같은 종류 기사들의 비율로 나눈 <b>추정치</b>예요.</div>';
+    W += '<div class="warn">≈ '+xf.map(function(d){ return d.slice(5).replace('-','/'); }).join(', ')+'의 기사 일부는 판단이 엇갈렸어요. 그래서 Claude가 비슷한 기사를 직접 읽고 나눈 비율로 <b>어림한 숫자</b>예요.</div>';
   if(est && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
-    W += '<div class="warn">≈ 이 기간 중 <b>'+est+'일</b>('+se[0].slice(5).replace('-','/')+'~'+se[se.length-1].slice(5).replace('-','/')+')은 기사 제목이 남아 있지 않아, 테마·하루마다 약 40건을 다시 모아 판정한 <b>표본 비율로 추정</b>한 숫자예요.</div>';
+    W += '<div class="warn">≈ 이 기간 중 <b>'+est+'일</b>('+se[0].slice(5).replace('-','/')+'~'+se[se.length-1].slice(5).replace('-','/')+')은 기사 제목이 남아 있지 않아요. 그래서 하루에 테마마다 기사 약 40개를 다시 모아 읽고, 그 비율로 <b>어림한 숫자</b>예요.</div>';
   var hd = P[0].filter(function(d){ return (ST.hist||{})[d]; }).length;
   if(hd)
-    W += '<div class="warn">≈ 이 기간 중 <b>'+hd+'일</b>('+(ST.hist_span||['',''])[0].slice(5).replace('-','/')+'~'+(ST.hist_span||['',''])[1].slice(5).replace('-','/')+')은 봇이 세기 전이라, <b>GDELT 원본 파일의 기사 제목</b>을 봇과 같은 기준으로 센 뒤 '+
-         '두 가지를 모두 센 날('+(ST.hist_ov||['',''])[0].slice(5).replace('-','/')+'~'+(ST.hist_ov||['',''])[1].slice(5).replace('-','/')+')로 테마마다 크기를 맞춘 <b>추정치</b>예요. 나라 구분은 사이트 주소·제목 글자로 나눠 대략적이에요.</div>';
+    W += '<div class="warn">≈ 이 기간 중 <b>'+hd+'일</b>('+(ST.hist_span||['',''])[0].slice(5).replace('-','/')+'~'+(ST.hist_span||['',''])[1].slice(5).replace('-','/')+')은 봇이 세기 전이에요. 그래서 <b>전 세계 뉴스를 모아 두는 곳(GDELT)</b>의 기사 제목을 봇과 같은 방법으로 셌어요. 그다음 '+
+         '봇이 직접 센 날('+(ST.hist_ov||['',''])[0].slice(5).replace('-','/')+'~'+(ST.hist_ov||['',''])[1].slice(5).replace('-','/')+')과 크기를 맞춘 <b>어림한 숫자</b>예요. 나라 구분도 대략이에요.</div>';
   var de = ST.days_est || [], nde = de.length ? P[0].filter(function(d){ return d >= de[0] && d <= de[1]; }).length : 0;
   if(nde)
-    W += '<div class="warn">≈ 이 기간 중 <b>'+nde+'일</b>('+de[0].slice(5).replace('-','/')+'~'+de[1].slice(5).replace('-','/')+')은 1시간마다 세기 전이라, 구글 뉴스 날짜 검색으로 다시 센 뒤 실제로 센 날과 비교해 테마별로 보정한 <b>추정치</b>예요.</div>';
+    W += '<div class="warn">≈ 이 기간 중 <b>'+nde+'일</b>('+de[0].slice(5).replace('-','/')+'~'+de[1].slice(5).replace('-','/')+')은 1시간마다 세기 전이에요. 구글 뉴스로 다시 센 뒤 크기를 맞춘 <b>어림한 숫자</b>예요.</div>';
   if(P[0].length > 1 && hc < P[0].length)
-    W += '<div class="warn">⚠️ 기사 수는 '+((ST.hist_span||[])[0] || f).slice(5).replace('-','/')+'부터 있어서 이 기간은 <b>'+hc+'일치</b>만 있어요 ('+P[0].length+'일 중).'+(ST.hist_span ? '' : ' 날이 지나면 저절로 채워져요.')+
-         (hp ? '' : ' 이전 기간 자료가 없어 ▲▼ 비교는 아직 안 나와요.')+'</div>';
+    W += '<div class="warn">⚠️ 기사 수는 '+((ST.hist_span||[])[0] || f).slice(5).replace('-','/')+'부터 있어요. 그래서 이 기간은 '+P[0].length+'일 중 <b>'+hc+'일치</b>만 있어요.'+(ST.hist_span ? '' : ' 날이 지나면 저절로 채워져요.')+
+         (hp ? '' : ' 그 전 기간 자료가 없어서 ▲▼는 아직 안 보여요.')+'</div>';
   h += notesBox(W);
   h += rows.map(function(r, i){
     var open = S.open[r.th];
@@ -1281,11 +1293,11 @@ function renderStats(t){
   if(S.sp==='q' || S.sp==='h' || S.sp==='y') h += syncHtml(P[0]);
   if(S.sp==='q' || S.sp==='h' || S.sp==='y') h += attnHtml(P[0], rows);
   if(S.sp==='w' || S.sp==='m') h += risingHtml();
-  h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 바로 앞 같은 길이 기간보다 몇 계단 오르고 내렸는지<br>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
-       '· 숫자 오른쪽 <span style="color:#4ade80">●</span>긍정 <span style="color:#f87171">●</span>부정 <span style="color:#a8a29e">●</span>중립 = 기사 제목을 낱말 판정과 무료 AI(Qwen2.5) 판정으로 따로 보고, 둘이 같으면 그대로, 다르면 Claude 가 실제 기사로 정한 규칙(낱말 중립+AI 긍정→중립 등)으로 정하고, 긍정↔부정처럼 크게 엇갈리면 판정 다름으로 빼요. Claude 가 판정 다름 기사를 따로 검토해 고쳐요<br>'+
-       '· 숫자 옆 + 는 검색 결과가 너무 많아 실제보다 적게 잡혔을 수 있다는 표시예요 (구글 뉴스는 한 번에 최대 100개)<br>'+
-       '· ▲▼ 는 바로 앞 같은 길이 기간과 비교 (오늘은 어제 같은 시각까지와 비교 · 모인 날 수가 다르면 하루 평균끼리 비교)<br>'+
-       '· 봇은 '+esc(f)+'부터 1시간마다 직접 셌어요 (첫날은 일부만 잡힘)'+(ST.hist_span ? ' · 그 전('+esc(ST.hist_span[0])+'~)은 GDELT 원본 파일 기사 제목으로 센 추정치' : '')+' · 2년치까지 보관 (1년 통계를 그 전 1년과 비교)</footer>';
+  h += '<footer>· 순위 옆 <span style="color:#f87171">▲</span> = 바로 전 기간보다 순위가 올랐어요, <span style="color:#60a5fa">▼</span> = 내려갔어요 (숫자 = 몇 칸)<br>· 막대 = 기사 수. 오른쪽 작은 선 = 최근 14일 동안 늘었는지 줄었는지. 줄을 누르면 큰 그래프와 나라별 숫자가 나와요<br>'+
+       '· 숫자 오른쪽 <span style="color:#4ade80">●</span>좋은 소식 <span style="color:#f87171">●</span>나쁜 소식 <span style="color:#a8a29e">●</span>그냥 소식 = 기사 제목을 단어 사전과 무료 AI가 따로 읽고 정해요. 둘의 생각이 다르면 Claude가 만든 규칙으로 정하고, 정반대로 엇갈리면 빼요. 빼 둔 기사는 Claude가 다시 읽고 고쳐요<br>'+
+       '· 숫자 옆 + = 기사가 너무 많아서 다 못 셌을 수도 있다는 뜻이에요 (구글 뉴스는 한 번에 100개까지만 보여 줘요)<br>'+
+       '· 숫자 옆 ▲▼% = 바로 전 기간보다 기사가 몇 % 늘었는지 줄었는지 (오늘은 어제 같은 시각까지와 비교 · 모인 날 수가 다르면 하루 평균끼리 비교)<br>'+
+       '· 봇은 '+esc(f)+'부터 1시간마다 직접 셌어요 (첫날은 일부만 셌어요)'+(ST.hist_span ? ' · 그 전('+esc(ST.hist_span[0])+'~)은 어림한 숫자예요' : '')+' · 2년치까지 보관해요</footer>';
   $('main').innerHTML = h;
 }
 document.addEventListener('click', function(e){
@@ -1334,11 +1346,11 @@ function pickYear(){ var ys = years(); return ys.indexOf(S.ly) >= 0 ? S.ly : (ys
 function lperiod(){                        // [이번 a,b] [비교 a,b 또는 null] 이름
   var M = HI.months, last = M[M.length-1], lf = last.full ? M.length-1 : M.length-2, ty = +HI.end.slice(0,4);
   if(S.lp === 'lm' && lf >= 0){ var x = M[lf], p = M[lf-1];
-    return [[x.a, x.b], p ? [p.a, p.b] : null, x.y+'년 '+x.m+'월', '전달 대비']; }
+    return [[x.a, x.b], p ? [p.a, p.b] : null, x.y+'년 '+x.m+'월', '지난달과 비교']; }
   if(S.lp === 'ty'){ var a = dIdx(ty+'-01-01'), pa = dIdx((ty-1)+'-01-01'), len = HI.n - a;
-    return [[a, HI.n], pa >= 0 ? [pa, pa+len] : null, ty+'년 (1월 1일~'+HI.end.slice(5).replace('-','/')+')', '작년 같은 기간 대비']; }
+    return [[a, HI.n], pa >= 0 ? [pa, pa+len] : null, ty+'년 (1월 1일~'+HI.end.slice(5).replace('-','/')+')', '작년 같은 때와 비교']; }
   if(S.lp === 'yr'){ var yy = pickYear(), ya = Math.max(0, dIdx(yy+'-01-01')), yb = Math.min(HI.n, dIdx((yy+1)+'-01-01')), pa = dIdx((yy-1)+'-01-01');
-    return [[ya, yb], pa >= 0 ? [pa, ya] : null, yy+'년 전체', yy-1+'년 대비']; }
+    return [[ya, yb], pa >= 0 ? [pa, ya] : null, yy+'년 전체', yy-1+'년과 비교']; }
   return [[0, HI.n], null, HI.since.slice(0,7).replace('-','.')+' ~ '+HI.end.replace(/-/g,'.')+' 전체', ''];
 }
 function mspark(th){                       // 달별 흐름 (작은 선, 진행 중인 달은 빼고)
@@ -1371,22 +1383,22 @@ function ldetail(th){                      // 달별 막대 + 나라별 구성
   }).join('') || '<div class="note">이 기간 기사 없음</div>';
   return '<div class="det"><div class="dt">달별 하루 평균 뉴스 수 ('+HI.since.slice(0,4)+'년 1월~)'+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
     '<svg class="bars" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(th)+' 달별 뉴스 수">'+bars+axis+'</svg>'+
-    '<div class="dt">'+esc(P[2])+' 나라별</div>'+rows+'</div>';
+    '<div class="dt">'+esc(P[2])+' 나라별 기사 수</div>'+rows+'</div>';
 }
 function renderLong(h){
   if(!HI){ loadHist(); $('main').innerHTML = h + '<p class="none">장기 추이를 불러오는 중…</p>'; return; }
   if(HI.err || !HI.s || !HI.months || !HI.months.length){ $('main').innerHTML = h + '<p class="none">장기 추이를 아직 받는 중이에요. 처음 한 번은 몇 시간 걸려요. 조금 뒤에 다시 열어 주세요.</p>'; return; }
   if(S.region === 'world'){ $('main').innerHTML = h + '<p class="none">장기 추이는 나라별(한국·미국·중국·대만·홍콩·일본·싱가포르)로만 셀 수 있어요. 위에서 \'전체\'나 다른 나라를 골라 주세요.</p>'; return; }
   var P = lperiod();
-  h += '<p class="note">GDELT(전 세계 뉴스 기록) 자료 · 본문에 테마 단어가 나온 기사 수 · 일주일에 한 번 갱신 · '+esc(HI.end.slice(5).replace('-','/'))+'까지 · 업데이트 '+esc(HI.updated||'')+'</p>';
+  h += '<p class="note">전 세계 뉴스를 모아 두는 곳(GDELT)의 자료예요. 기사 본문에 테마 단어가 나온 기사 수예요. 일주일에 한 번 새로 받아요 · '+esc(HI.end.slice(5).replace('-','/'))+'까지 · 마지막 업데이트 '+esc(HI.updated||'')+'</p>';
   var W = '';
-  if(!HI.complete) W += '<div class="warn">⏳ '+HI.since.slice(0,4)+'년 1월부터 자료를 아직 받는 중이에요. 다 받기 전엔 일부 테마·나라·연도가 0이나 빈칸으로 보여요. 자료 서버가 느려서 하루쯤 걸려요 (봇이 알아서 이어 받음).</div>';
+  if(!HI.complete) W += '<div class="warn">⏳ '+HI.since.slice(0,4)+'년 1월부터 자료를 아직 받는 중이에요. 다 받기 전에는 일부 칸이 0이나 빈칸이에요. 하루쯤 걸려요. (봇이 알아서 이어 받아요)</div>';
   h += '<div class="seg lp">' + [['all','전체'],['lm','지난달'],['ty','올해'],['yr','연도별']].map(function(x){
     return '<button data-lp="'+x[0]+'" class="'+(S.lp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
   if(S.lp === 'yr') h += '<div class="seg ly">' + years().slice().reverse().map(function(y){   // 옛날 → 최근 순서로 (기본 선택은 최근 해)
     return '<button data-ly="'+y+'" class="'+(pickYear()===y?'on':'')+'">'+y+'</button>'; }).join('') + '</div>';
   var dc = avn(P[0][0], P[0][1]), dp = P[1] ? avn(P[1][0], P[1][1]) : 0, span = P[0][1] - P[0][0];
-  if(span - dc > 0) W += '<div class="warn">ℹ️ 이 기간 중 '+(span-dc)+'일은 GDELT 서버 사정으로 자료가 비어 있어요 ('+span+'일 중 '+dc+'일치). 합계는 그만큼 적게 잡히고, ▲▼ 비교는 하루 평균끼리 해요.</div>';
+  if(span - dc > 0) W += '<div class="warn">ℹ️ 이 기간 중 '+(span-dc)+'일은 자료가 비어 있어요 ('+span+'일 중 '+dc+'일치만 있음). 그래서 합계가 그만큼 적어요. ▲▼는 하루 평균끼리 비교해요.</div>';
   h += notesBox(W);
   var rows = (HI.themes||[]).map(function(th){ return {th:th, n:hsum(th, P[0][0], P[0][1]), p: P[1] ? hsum(th, P[1][0], P[1][1]) : null}; })
                             .sort(byN);
@@ -1401,9 +1413,9 @@ function renderLong(h){
       '<span class="sc">'+r.n.toLocaleString()+'</span>'+(r.p===null ? '<span class="chg"></span>' : chg(r.n, r.p, dc, dp))+mspark(r.th)+'</div>'+
       (open ? ldetail(r.th) : '') + '</div>';
   }).join('');
-  h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 비교 기간(전달·작년 같은 기간·전년)보다 몇 계단 오르고 내렸는지<br>· 오른쪽 작은 선 = '+HI.since.slice(0,4)+'년 1월부터 달별 흐름(하루 평균), 줄을 누르면 달별 그래프와 나라별 구성<br>'+
-       '· 일별 집계(기사 제목 기준, 구글 뉴스)와 세는 방법이 달라 숫자 크기는 서로 비교하지 말고 흐름만 보세요<br>'+
-       '· 한국·중국·일본 기사도 GDELT 가 영어로 번역해 둔 것을 영어 검색어로 셉니다 · 자료가 빠진 날은 0이 아니라 빈칸으로 둠</footer>';
+  h += '<footer>· 순위 옆 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 비교 기간(지난달·작년 같은 때·지난해)보다 순위가 몇 칸 올랐는지 내렸는지<br>· 오른쪽 작은 선 = '+HI.since.slice(0,4)+'년 1월부터 달마다 늘었는지 줄었는지. 줄을 누르면 달별 그래프와 나라별 숫자가 나와요<br>'+
+       '· 일별 집계와 세는 방법이 달라요. 두 화면의 숫자 크기는 비교하지 말고, 오르내리는 흐름만 보세요<br>'+
+       '· 외국 기사는 GDELT가 영어로 바꿔 둔 것을 영어 단어로 세요 · 자료가 빠진 날은 0이 아니라 빈칸이에요</footer>';
   $('main').innerHTML = h;
 }
 document.addEventListener('click', function(e){
@@ -1418,7 +1430,7 @@ document.addEventListener('click', function(e){
 STATS_CSS = r""".seg{display:flex;gap:4px;margin:6px 4px 10px}.seg button{flex:1;min-width:0;border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:7px 0;font:inherit;font-size:12.5px;white-space:nowrap}
 .seg.ly{margin-top:-4px}.seg.ly button{padding:5px 0;font-size:12px}.seg.ly button.on{background:var(--card2);border-color:var(--acc);color:var(--text);font-weight:600}
 .seg.sm{margin-bottom:8px}.seg.sm button{padding:9px 0;font-size:13px}.seg.sm button.on{background:var(--card2);border-color:var(--acc);color:var(--text)}
-.notes{margin:0 4px 10px}.notes summary{cursor:pointer;font-size:13px;color:var(--sub);padding:6px 10px;border-radius:8px;background:rgba(250,204,21,.08);list-style:none}.notes summary::-webkit-details-marker{display:none}.notes summary:before{content:"▸ ";}.notes[open] summary:before{content:"▾ ";}.notes[open] summary{margin-bottom:6px}.notes .warn{margin:0 0 6px}.warn{margin:0 4px 10px;padding:8px 10px;border-radius:8px;background:rgba(250,204,21,.08);color:var(--sub);font-size:12.5px;line-height:1.5}.warn b{color:var(--text)}
+.notes{margin:0 4px 10px}.helpl{margin:4px 0 0;padding:8px 10px 8px 26px;border-radius:8px;background:var(--card2);font-size:12.5px;line-height:1.6;color:var(--text)}.helpl li{margin:2px 0}.notes summary{cursor:pointer;font-size:13px;color:var(--sub);padding:6px 10px;border-radius:8px;background:rgba(250,204,21,.08);list-style:none}.notes summary::-webkit-details-marker{display:none}.notes summary:before{content:"▸ ";}.notes[open] summary:before{content:"▾ ";}.notes[open] summary{margin-bottom:6px}.notes .warn{margin:0 0 6px}.warn{margin:0 4px 10px;padding:8px 10px;border-radius:8px;background:rgba(250,204,21,.08);color:var(--sub);font-size:12.5px;line-height:1.5}.warn b{color:var(--text)}
 .seg button.on{background:var(--acc);border-color:var(--acc);color:#1f1e1d;font-weight:600}
 .tot{margin:2px 4px 10px;color:var(--sub);font-size:13px}.tot b{color:var(--text)}.chgnote{font-size:11px}
 .srow{background:var(--card);border-radius:12px;margin:6px 0;padding:10px 12px;cursor:pointer}.srow.open{background:var(--card2)}
@@ -1635,8 +1647,8 @@ function renderMain(){
   else if(S.shown > D.show) h += '<button class="more" onclick="less()">접기 ▴</button>';
   var auto = Object.keys(D.auto);
   h += '<footer>업데이트 '+esc(D.updated)+' · 최근 3일 · 믿을 만한 언론사 기사만 · 기사를 누르면 한국어 요약 → 원문 보기<br>'+
-       '🔥 언론 N곳 = 같은 소식을 보도한 언론사 수 (많을수록 화제) · <span style="color:var(--red)">●</span> = 새 뉴스'+
-       '<br><br><b>자동으로 추가된 언론사</b> (주요 언론보다 먼저 보도하고, 주요 언론도 함께 다룬 소식이 많은 곳 · 최근 14일)'+
+       '🔥 언론 N곳 = 같은 소식을 보도한 언론사 수예요 (많을수록 큰 소식) · <span style="color:var(--red)">●</span> = 새 뉴스'+
+       '<br><br><b>봇이 스스로 추가한 언론사</b> (큰 언론사보다 먼저 보도하고, 큰 언론사도 따라 보도한 소식이 많은 곳 · 최근 14일)'+
        (auto.length ? auto.map(function(k){ return '<div>'+esc(k)+': '+esc(D.auto[k].join(', '))+'</div>'; }).join('') : '<div>아직 없음</div>')+
        '</footer>';
   $('main').innerHTML = h;
