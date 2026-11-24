@@ -962,7 +962,11 @@ def send_daily(st, day):
     msg = "\n".join(lines)
     if jumps:
         msg += "\n\n🔺 급증: " + ", ".join(f"{name} {chg(n, p)}" for name, n, p in jumps[:3])
-    us = us_jumps(st, day)
+    try:
+        us = us_jumps(st, day)
+    except Exception as e:          # 미국 급상승을 못 구해도 어제 통계 알림은 보냄
+        print("미국 급상승 계산 실패:", e)
+        us = []
     if us:
         msg += "\n\n🇺🇸 미국 급상승: " + ", ".join(
             f"{th} {n:,}건(평소 {a:,.0f}의 {n / a:.1f}배){' → 한국도 따라가는 편' if (st.get('sync') or {}).get(th, 0) >= 0.35 else ''}"
