@@ -591,8 +591,14 @@ def apply_attn(st):
             a[0] += v
             a[1] += 1
         return {k: a[0] * 7 / a[1] for k, a in w.items() if a[1] >= 4}
+    # 끝쪽에 아직 집계 안 된 날(모든 문서 0)은 빼기 — 안 빼면 마지막 주가 낮게 나옴
+    W = A.get("wiki", {})
+    nd = max((len(a) for L in W.values() for a in L.values()), default=0)
+    while nd and all(not a[nd - 1] for L in W.values() for a in L.values() if len(a) >= nd):
+        nd -= 1
     widx = {}
-    for th, langs in A.get("wiki", {}).items():
+    for th, langs in W.items():
+        langs = {l: a[:nd] for l, a in langs.items()}
         per = []
         for lang, arr in langs.items():
             ws = weekly(arr)
@@ -607,10 +613,12 @@ def apply_attn(st):
     for th, ser in (A.get("trends") or {}).items():
         vals = [v for v in ser.values() if v > 0]
         base = _median(vals)
-        if base < 5:
+        if base < 5 or len(vals) < 0.5 * len(ser):   # 검색이 너무 적어 0이 반 넘는 검색어는 튀기만 해서 뺌
             continue
         w = {}
         for d, v in ser.items():
+            if v <= 0:      # 0 = 구글이 '너무 적어 표시 안 함' → 모름으로 두고 위키백과만 씀
+                continue
             dd = _date(int(d[:4]), int(d[4:6]), int(d[6:]))
             if len(ser) < 200:      # 주 단위 자료(일요일 시작) → 월요일로 맞춤
                 dd = dd + timedelta(days=1)

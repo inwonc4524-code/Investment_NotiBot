@@ -102,20 +102,25 @@ def views(lang, title, end):
 def wiki_all(end):
     ndays = (end - START).days + 1
     days = [(START + timedelta(i)).strftime("%Y%m%d") for i in range(ndays)]
-    data, used = {}, {}
+    data, used, detail = {}, {}, {}
     for th, en in WIKI.items():
         tl = titles_for(en)
         used[th] = tl
         data[th] = {}
+        detail[th] = {}
         for lang in LANGS:
             tot = [0] * ndays
             for title in tl[lang]:
                 v = views(lang, title, end)
                 for i, d in enumerate(days):
                     tot[i] += v.get(d, 0)
+                mon = {}
+                for d, n in v.items():
+                    mon[d[:6]] = mon.get(d[:6], 0) + n
+                detail[th].setdefault(lang, {})[title] = mon     # 문서별 달 합계 (어떤 문서가 치솟았는지 확인용)
             data[th][lang] = tot
         print(th, {l: sum(data[th][l]) for l in LANGS})
-    return data, used
+    return data, used, detail
 
 
 def trends_all(old):
@@ -168,7 +173,15 @@ def main():
             old = json.load(open(OUT, encoding="utf-8"))
         except Exception:
             old = {}
-    data, used = wiki_all(end)
+    data, used, detail = wiki_all(end)
+    # 아직 집계 안 된 마지막 날(모든 문서 0) 잘라내기
+    nd = len(next(iter(next(iter(data.values())).values())))
+    while nd and all(not a[nd - 1] for L in data.values() for a in L.values()):
+        nd -= 1
+    for L in data.values():
+        for l in L:
+            L[l] = L[l][:nd]
+    end = START + timedelta(days=nd - 1)
     tr, tr_ok = trends_all(old.get("trends", {}))
     res = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
@@ -176,6 +189,7 @@ def main():
         "end": end.strftime("%Y%m%d"),
         "wiki": data,
         "wiki_titles": used,
+        "wiki_detail": detail,
         "trends": tr,
         "trends_terms": TRENDS,
         "trends_updated": (datetime.now(timezone.utc).strftime("%Y-%m-%d") if tr_ok else old.get("trends_updated")),
