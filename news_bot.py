@@ -995,8 +995,9 @@ function loadStats(){
     .then(function(j){ ST = j; if(D.themes[S.tab].stats) renderMain(); })
     .catch(function(){ ST = {err:1}; if(D.themes[S.tab].stats) renderMain(); });
 }
-function cnt(day, th){                     // 하루·테마의 뉴스 수 (국가 필터 반영)
-  var v = ((ST.days||{})[day]||{})[th] || {}, n = 0;
+function cnt(day, th){                     // 하루·테마의 뉴스 수 (국가 필터 반영) — 봇이 세기 전 날은 GDELT 원본으로 센 추정치(ST.hist)
+  var src = (ST.days||{})[day] ? ST.days : ((ST.hist||{})[day] ? ST.hist : {});
+  var v = (src[day]||{})[th] || {}, n = 0;
   for(var k in v){ if(S.region==='all' || k===S.region) n += v[k]; }
   return n;
 }
@@ -1017,7 +1018,7 @@ function period(){                         // [이번 기간 날짜들, 비교�
   for(var i=0;i<L[1];i++){ cur.push(kdate(L[0]+i)); prev.push(kdate(L[0]+L[1]+i)); }
   return [cur, prev, L[2]];
 }
-function have(days){ var n=0; days.forEach(function(d){ if((ST.days||{})[d]) n++; }); return n; }   // 기간 안에 실제로 모인 날 수
+function have(days){ var n=0; days.forEach(function(d){ if((ST.days||{})[d] || (ST.hist||{})[d]) n++; }); return n; }   // 기간 안에 실제로 모인 날 수
 function firstDay(){ var k = Object.keys(ST.days||{}).sort(); return k[0] || ''; }
 function sum(days, th){ var n=0; days.forEach(function(d){ n += cnt(d, th); }); return n; }
 // 긍정·부정·중립 (2026-11-22~): [긍정, 부정, 중립, 판정 다름] — 낱말 판정과 AI 모델 판정이 같거나, 규칙(sentiment.RESOLVE)으로 정해진 기사를 셈
@@ -1140,9 +1141,9 @@ window.addEventListener('resize', function(){
     var w = chartW(); if(w !== _cw && D.themes[S.tab] && D.themes[S.tab].stats && document.querySelector('.bars')) renderMain(); _cw = w; }, 200);
 });
 function detail(th){                       // 30일(또는 6개월·1년은 주별) 막대 그래프 + 나라별 구성
-  var vals = [], labels = [], wk = (S.sp==='h' || S.sp==='y'), NB = wk ? (S.sp==='h' ? 26 : 52) : 30, nowLbl = wk ? '이번 주' : '오늘';
-  if(wk){ for(var w=NB-1;w>=0;w--){ var v=0; for(var j=0;j<7;j++) v += cnt(kdate(w*7+j), th);
-            vals.push(v); labels.push(kdate(w*7+6).slice(5).replace('-','/')+'~'+kdate(w*7).slice(5).replace('-','/')); } }
+  var vals = [], labels = [], wk = (S.sp==='h' || S.sp==='y' || S.sp==='q'), PD = period()[0], NB = wk ? Math.ceil(PD.length/7) : 30, nowLbl = wk ? (S.sp==='q' ? '분기 끝' : '이번 주') : '오늘';
+  if(wk){ for(var w=0; w<NB; w++){ var ch = PD.slice(w*7, w*7+7), v = 0; ch.forEach(function(d){ v += cnt(d, th); });
+            vals.push(v); labels.push(ch[0].slice(5).replace('-','/')+'~'+ch[ch.length-1].slice(5).replace('-','/')); } }
   else for(var i=29;i>=0;i--){ var d = kdate(i); vals.push(cnt(d, th)); labels.push(d.slice(5).replace('-','/')); }
   var mx = Math.max.apply(null, vals.concat([1])), W = chartW(), H = 110, bw = W/NB;
   var bars = vals.map(function(v,i){
@@ -1162,7 +1163,7 @@ function detail(th){                       // 30일(또는 6개월·1년은 주�
   var rows = parts.map(function(x){
     return '<div class="crow"><span class="cl">'+esc(x[0].l)+'</span><span class="cb"><i style="width:'+Math.max(2, x[1]/pm*100)+'%"></i></span><span class="cn">'+x[1].toLocaleString()+'</span></div>';
   }).join('') || '<div class="note">이 기간 기사 없음</div>';
-  return '<div class="det"><div class="dt">'+(wk ? '최근 '+(S.sp==='h'?'6개월':'1년')+' 주별 뉴스 수' : '최근 30일 하루 뉴스 수')+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
+  return '<div class="det"><div class="dt">'+(wk ? (S.sp==='q' ? period()[2] : '최근 '+(S.sp==='h'?'6개월':'1년'))+' 주별 뉴스 수' : '최근 30일 하루 뉴스 수')+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
     '<svg class="bars" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(th)+' 뉴스 수 그래프">'+bars+axis+'</svg>'+
     '<div class="dt">'+esc(P[2])+' 나라별</div>'+rows+'</div>';
 }
@@ -1201,11 +1202,15 @@ function renderStats(t){
     h += '<div class="warn">≈ '+xf.map(function(d){ return d.slice(5).replace('-','/'); }).join(', ')+'의 일부(판정 규칙이 생기기 전 \'판정 다름\'이던 기사)는 Claude 가 직접 판정한 같은 종류 기사들의 비율로 나눈 <b>추정치</b>예요.</div>';
   if(est && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
     h += '<div class="warn">≈ 이 기간 중 <b>'+est+'일</b>('+se[0].slice(5).replace('-','/')+'~'+se[se.length-1].slice(5).replace('-','/')+')은 기사 제목이 남아 있지 않아, 테마·하루마다 약 40건을 다시 모아 판정한 <b>표본 비율로 추정</b>한 숫자예요.</div>';
+  var hd = P[0].filter(function(d){ return (ST.hist||{})[d]; }).length;
+  if(hd)
+    h += '<div class="warn">≈ 이 기간 중 <b>'+hd+'일</b>('+(ST.hist_span||['',''])[0].slice(5).replace('-','/')+'~'+(ST.hist_span||['',''])[1].slice(5).replace('-','/')+')은 봇이 세기 전이라, <b>GDELT 원본 파일의 기사 제목</b>을 봇과 같은 기준으로 센 뒤 '+
+         '두 가지를 모두 센 날('+(ST.hist_ov||['',''])[0].slice(5).replace('-','/')+'~'+(ST.hist_ov||['',''])[1].slice(5).replace('-','/')+')로 테마마다 크기를 맞춘 <b>추정치</b>예요. 나라 구분은 사이트 주소·제목 글자로 나눠 대략적이에요.</div>';
   var de = ST.days_est || [], nde = de.length ? P[0].filter(function(d){ return d >= de[0] && d <= de[1]; }).length : 0;
   if(nde)
     h += '<div class="warn">≈ 이 기간 중 <b>'+nde+'일</b>('+de[0].slice(5).replace('-','/')+'~'+de[1].slice(5).replace('-','/')+')은 1시간마다 세기 전이라, 구글 뉴스 날짜 검색으로 다시 센 뒤 실제로 센 날과 비교해 테마별로 보정한 <b>추정치</b>예요.</div>';
   if(P[0].length > 1 && hc < P[0].length)
-    h += '<div class="warn">⚠️ 통계는 '+f.slice(5).replace('-','/')+'부터 모으기 시작해서 이 기간은 아직 <b>'+hc+'일치</b>만 있어요 ('+P[0].length+'일 중). 날이 지나면 저절로 채워져요.'+
+    h += '<div class="warn">⚠️ 기사 수는 '+((ST.hist_span||[])[0] || f).slice(5).replace('-','/')+'부터 있어서 이 기간은 <b>'+hc+'일치</b>만 있어요 ('+P[0].length+'일 중).'+(ST.hist_span ? '' : ' 날이 지나면 저절로 채워져요.')+
          (hp ? '' : ' 이전 기간 자료가 없어 ▲▼ 비교는 아직 안 나와요.')+'</div>';
   h += rows.map(function(r, i){
     var open = S.open[r.th];
@@ -1222,7 +1227,7 @@ function renderStats(t){
        '· 숫자 오른쪽 <span style="color:#4ade80">●</span>긍정 <span style="color:#f87171">●</span>부정 <span style="color:#a8a29e">●</span>중립 = 기사 제목을 낱말 판정과 무료 AI(Qwen2.5) 판정으로 따로 보고, 둘이 같으면 그대로, 다르면 Claude 가 실제 기사로 정한 규칙(낱말 중립+AI 긍정→중립 등)으로 정하고, 긍정↔부정처럼 크게 엇갈리면 판정 다름으로 빼요. Claude 가 판정 다름 기사를 따로 검토해 고쳐요<br>'+
        '· 숫자 옆 + 는 검색 결과가 너무 많아 실제보다 적게 잡혔을 수 있다는 표시예요 (구글 뉴스는 한 번에 최대 100개)<br>'+
        '· ▲▼ 는 바로 앞 같은 길이 기간과 비교 (오늘은 진행 중이라 작게 나와요 · 모인 날 수가 다르면 하루 평균끼리 비교)<br>'+
-       '· 통계는 '+esc(f)+'부터 모았어요 (첫날은 일부만 잡힘) · 2년치까지 보관 (1년 통계를 그 전 1년과 비교)</footer>';
+       '· 봇은 '+esc(f)+'부터 1시간마다 직접 셌어요 (첫날은 일부만 잡힘)'+(ST.hist_span ? ' · 그 전('+esc(ST.hist_span[0])+'~)은 GDELT 원본 파일 기사 제목으로 센 추정치' : '')+' · 2년치까지 보관 (1년 통계를 그 전 1년과 비교)</footer>';
   $('main').innerHTML = h;
 }
 document.addEventListener('click', function(e){

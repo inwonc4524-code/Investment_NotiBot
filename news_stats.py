@@ -411,6 +411,10 @@ def judge_pending(st, now):
     apply_xfill(st)
     apply_ratio(st)
     try:
+        apply_hist(st)
+    except Exception as e:
+        print("1월~ 기사 수 실패(지난 값 유지):", e)
+    try:
         apply_attn(st)          # 화제·쟁점 판정이 실패해도 뉴스 통계는 계속
     except Exception as e:
         print("화제·쟁점 판정 실패(지난 값 유지):", e)
@@ -733,6 +737,56 @@ def apply_attn(st):
         "terms": A.get("trends_terms", {}),
     }
     print("화제·쟁점 판정:", len(heat), "테마,", len(months), "달")
+
+
+GKG_DIR = os.path.join(nb.HERE, "gkg_bf")
+
+
+def apply_hist(st):
+    """1월~(봇이 세기 시작한 날 전날)까지 테마별 하루 기사 수 = GDELT 원본 파일 제목으로 센 수 × 테마별 보정 비율
+    보정 비율 = 두 가지를 모두 센 날(봇 첫날은 일부만이라 빼고)의 봇 수 ÷ GDELT 수 (사용자 요청 2026-11-24: 기사 수 1월부터)
+    → st["hist"] = {날짜: {테마: {나라: 추정 수}}}, st["hist_k"] = {테마: 비율}, st["hist_span"] = [첫날, 끝날]"""
+    try:
+        files = sorted(f for f in os.listdir(GKG_DIR) if f.endswith(".json"))
+    except Exception:
+        return
+    G, F = {}, {}
+    for f in files:
+        d = json.load(open(os.path.join(GKG_DIR, f), encoding="utf-8"))
+        G.update(d.get("days", {}))
+        F.update(d.get("files", {}))
+    good = {k for k, n in F.items() if n >= 170}          # 원본 파일을 거의 다 받은 날만 (192개 중)
+    days = st.get("days", {})
+    bot_days = sorted(days)
+    if not bot_days:
+        return
+    first = bot_days[0]
+    today = datetime.now(nb.KST).strftime("%Y-%m-%d")
+    ov = [d for d in bot_days[1:] if d in good and d < today]  # 겹치는 날 (봇 첫날·오늘 빼고)
+    if len(ov) < 4:
+        print("1월~ 기사 수: 겹치는 날이 아직 부족해 보류", len(ov))
+        return
+    def tot(src, d, th):
+        return sum(((src.get(d) or {}).get(th) or {}).values())
+    allb = sum(tot(days, d, th) for d in ov for th in st.get("themes", []))
+    allg = sum(tot(G, d, th) for d in ov for th in st.get("themes", []))
+    k_all = allb / allg if allg else 0
+    K = {}
+    for th in st.get("themes", []):
+        b = sum(tot(days, d, th) for d in ov)
+        g = sum(tot(G, d, th) for d in ov)
+        K[th] = round(b / g, 3) if g >= 50 else round(k_all, 3)   # 겹친 날 GDELT 기사가 너무 적으면 전체 비율
+    hist = {}
+    for d in sorted(G):
+        if d >= first or d not in good:
+            continue
+        hist[d] = {th: {rk: max(0, round(n * K.get(th, k_all))) for rk, n in v.items()} for th, v in G[d].items()}
+    st["hist"] = hist
+    st["hist_k"] = K
+    st["hist_span"] = [min(hist), max(hist)] if hist else []
+    st["hist_ov"] = [ov[0], ov[-1], len(ov)]
+    st["hist_miss"] = sorted(d for d in F if d < first and d not in good)
+    print(f"1월~ 기사 수(추정): {len(hist)}일 · 겹친 날 {len(ov)}일로 맞춤 · 전체 비율 x{k_all:.2f}")
 
 
 XFILL_FILE = os.path.join(nb.HERE, "sentiment_xfill.json")
