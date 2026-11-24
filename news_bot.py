@@ -1103,6 +1103,7 @@ function corr(a, b){ var n = a.length; if(n < 4) return null; var ma=0, mb=0; fo
   var sab=0, saa=0, sbb=0; for(var i=0;i<n;i++){ sab+=(a[i]-ma)*(b[i]-mb); saa+=(a[i]-ma)*(a[i]-ma); sbb+=(b[i]-mb)*(b[i]-mb); }
   return (saa && sbb) ? sab/Math.sqrt(saa*sbb) : null; }
 function usKr(th, days){
+  days = days.filter(function(d){ return (ST.days||{})[d] || (ST.hist||{})[d]; });   // 자료 없는 날(0)은 빼야 상관이 부풀지 않음
   var W = weeksOf(days), u = W.map(function(w){ var n=0; w.forEach(function(d){ n += rcnt(d, th, 'us'); }); return n*7/w.length; }),
       k = W.map(function(w){ var n=0; w.forEach(function(d){ n += rcnt(d, th, 'kr'); }); return n*7/w.length; });
   return {u:u, k:k, w:W, c:corr(u, k)};
