@@ -634,6 +634,28 @@
 "pv": "cd009b1f"
 },
 {
+"key": "美股恐慌指数vix升至32上方",
+"keys": [
+"美股恐慌指数vix升至32上方",
+"163126美股恐慌指数vix回落至31附近"
+],
+"count": 2,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "美股恐慌指数VIX升至32上方",
+"show": "미국 증시 공포지수 VIX 32 위로 상승",
+"source": "第一财经",
+"src_url": "https://www.yicai.com",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5USkR0aVRXc1pZSlNoQS1OeG8tNzJmZXVlTEZvSXB4RnBQQTZxSlhRZUZSMHh1ZU1LcGdYWmZfb1NyMnhLTnpxaHVDU2FHNjhGUWl3dQ?oc=5",
+"pub": 1795526040.0,
+"time": "11/24 22:14",
+"run": "202611241427",
+"added": 1795530451,
+"url": "https://www.yicai.com/brief/103452735.html",
+"sum": "2026/11/24 21:14 [미국 증시 공황지수 VIX가 32를 넘어섰다] 미국 증시 공포지수 VIX가 이날 21.64% 상승해 32를 넘어섰다.",
+"pv": "cd009b1f"
+},
+{
 "key": "usstockfuturesmixedafternvidialedrallyasinvestorsassessfederalreserverateoutlook",
 "keys": [
 "usstockfuturesmixedafternvidialedrallyasinvestorsassessfederalreserverateoutlook",
@@ -843,7 +865,8 @@
 "美股動向特朗普力挺黃仁勳重掌英偉達復職請願逾20萬人聯署英偉達盤前升逾29",
 "美股動向特朗普力挺黃仁勳重掌英偉達復職請願逾20萬人聯署英偉達盤前升逾8",
 "ai泡沫黃仁勳重掌英偉達美股夜盤續升華爾街大行調升評級及目標價",
-"泡沫黃仁勳重掌英偉達美股夜盤續升華爾街大行調升評級及目標價"
+"泡沫黃仁勳重掌英偉達美股夜盤續升華爾街大行調升評級及目標價",
+"美股動向英偉達盤前挫逾4黃仁勳復任ceo後股價波動"
 ],
 "count": 2,
 "theme": "🇺🇸 미국 S&P500",
@@ -990,7 +1013,7 @@
 "run": "202611241427",
 "added": 1795530469,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/417981/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+SpaceX%E8%88%87%E7%89%B9%E6%96%AF%E6%8B%89%E5%A7%94%E4%BB%BB5%E5%90%8D%E8%91%A3%E4%BA%8B%E4%B8%BB%E5%B0%8E%E5%90%88%E4%BD%B5%E8%AB%87%E5%88%A4?topic=%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1011,7 +1034,7 @@
 "run": "202611241427",
 "added": 1795530470,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/417980/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7CAMD%E8%A8%BB%E5%86%8A3.37%E5%84%84%E8%82%A1%E6%B6%89OpenAI%E5%8F%8AMeta%E8%AA%8D%E8%82%A1%E6%AC%8A",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1094,7 +1117,7 @@
 "run": "202611241427",
 "added": 1795530479,
 "url": "https://www.spglobal.com/spdji/en/index-announcements/article/sp-cotality-case-shiller-index-reports-annual-gain-in-september/",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1136,7 +1159,7 @@
 "run": "202611241427",
 "added": 1795530447,
 "url": "https://www.bloomberg.com/news/articles/2026-11-24/market-timers-get-schooled-as-s-p-500-swings-rip-up-playbooks",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1198,28 +1221,7 @@
 "run": "202611241427",
 "added": 1795530448,
 "url": "https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html",
-"sum_tried": 1,
-"pv": "cd009b1f"
-},
-{
-"key": "美股恐慌指数vix升至32上方",
-"keys": [
-"美股恐慌指数vix升至32上方"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "美股恐慌指数VIX升至32上方",
-"show": "미국 증시 공포지수 VIX 32 위로 상승",
-"source": "第一财经",
-"src_url": "https://www.yicai.com",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5USkR0aVRXc1pZSlNoQS1OeG8tNzJmZXVlTEZvSXB4RnBQQTZxSlhRZUZSMHh1ZU1LcGdYWmZfb1NyMnhLTnpxaHVDU2FHNjhGUWl3dQ?oc=5",
-"pub": 1795526040.0,
-"time": "11/24 22:14",
-"run": "202611241427",
-"added": 1795530451,
-"url": "https://www.yicai.com/brief/103452735.html",
-"sum": "2026/11/24 21:14 [미국 증시 공황지수 VIX가 32를 넘어섰다] 미국 증시 공포지수 VIX가 이날 21.64% 상승해 32를 넘어섰다.",
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1261,7 +1263,7 @@
 "run": "202611241427",
 "added": 1795530449,
 "url": "https://www.barrons.com/articles/deutsche-bank-stock-market-forecast-2027-6007d3e5",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1306,6 +1308,27 @@
 "pv": "cd009b1f"
 },
 {
+"key": "利多延續美股盤前輝達跌54台指期夜盤重挫774點4點因素3結構原因",
+"keys": [
+"利多延續美股盤前輝達跌54台指期夜盤重挫774點4點因素3結構原因"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇹🇼 대만",
+"title": "利多延續？美股盤前輝達跌5.4％ 台指期夜盤重挫774點 4點因素、3結構原因",
+"show": "강세 지속? 엔비디아는 미국 증시 개장 전 5.4% 하락했다. 대만 지수 선물은 야간 거래에서 774포인트 하락했습니다. 4가지 요인과 3가지 구조적 이유.",
+"source": "自由財經",
+"src_url": "https://ec.ltn.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QWHBweWVicWU0am5ULXAtRnFUN2ZIcDdqMHF2akxRNEZTazh4WTlfOGJrSng4U2ZZZjFVWHktSUZiMnNoQjZKa2VkaTllSkNhazgxOXh6ZmlTMkJUMmJV0gFkQVVfeXFMTVhSRjQ3dS0xQkpjMzJ2RFdoay1DOTBHMmJCbmpzVkdySENYLXNVMEh2YnlTUnUyUUUwR095dGs0U0dodmtzTVRKV0NLV3drUjZ0bU1uVnpTOHBUTHYtNHNqbER3OA?oc=5",
+"pub": 1795523700.0,
+"time": "11/24 21:35",
+"run": "202611241433",
+"added": 1795530817,
+"url": "https://ec.ltn.com.tw/article/breakingnews/5651984",
+"sum": "4가지 요인, 3가지 주요 구조적 이유 17:42:48 최초 공시 22:10:15 업데이트 [금융채널/종합보고서] 엔비디아 주가는 젠슨 황이 CEO로 복귀했다는 소식이 월요일 주가 급등을 촉발한 뒤 화요일(24일) 하락세를 보였다.",
+"pv": "cd009b1f"
+},
+{
 "key": "英伟达回落5美股反弹成色面临考验今夜看点",
 "keys": [
 "英伟达回落5美股反弹成色面临考验今夜看点"
@@ -1344,7 +1367,7 @@
 "run": "202611241427",
 "added": 1795530449,
 "url": "https://www.barrons.com/articles/s-p-500-futures-drop-in-premarket-trading-intercorp-finl-svcs-dick-s-sporting-goods-lead-b7229f67",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1407,7 +1430,7 @@
 "run": "202611241427",
 "added": 1795530450,
 "url": "https://www.marketwatch.com/story/this-billionaire-bought-nvidia-in-anticipation-of-jensen-huangs-return-and-warns-the-s-p-500-could-fall-by-a-third-dcff9489",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1519,7 +1542,8 @@
 {
 "key": "sp500pabsustainabilityscresppacsgnhistoricaldata",
 "keys": [
-"sp500pabsustainabilityscresppacsgnhistoricaldata"
+"sp500pabsustainabilityscresppacsgnhistoricaldata",
+"sp500pabsustainabilityscresppacsgnseasonalreturnschart"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -1535,6 +1559,48 @@
 "added": 1795521481,
 "url": "https://uk.finance.yahoo.com/quote/%5ESPPACSGN/history/",
 "sum": "Yahoo Finance에서 S&P500 PAB Sustainability Scre(^SPPACSGN)에 대한 과거 데이터를 확인하세요. 투자 결정에 도움이 되는 일일, 주간 또는 월간 데이터를 보고 다운로드하세요.",
+"pv": "cd009b1f"
+},
+{
+"key": "sp500usrevenueleadersinspxurlunchartsdataandnews",
+"keys": [
+"sp500usrevenueleadersinspxurlunchartsdataandnews"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "S&P 500 U.S. Revenue Leaders In (^SPXURLUN) charts, data and news",
+"show": "S&P500 미국 수익 선두 기업(^SPXURLUN) 차트, 데이터 및 뉴스",
+"source": "Yahoo Finance UK",
+"src_url": "https://uk.finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6OUlOVGpsRHYzZ3lHOXRGWjZ4NGNHdHRlcmlwRFFleFZyOTVlaGwzbTZUUGhBTXBCSHp2VjVPUzc5UHRKc0UyMmMzSDk2RkRNdHMxNnJCZmF2Qnc?oc=5",
+"pub": 1795514534.0,
+"time": "11/24 19:02",
+"run": "202611241433",
+"added": 1795530808,
+"url": "https://uk.finance.yahoo.com/quote/%5ESPXURLUN/",
+"sum_tried": 1,
+"pv": "cd009b1f"
+},
+{
+"key": "europeansharespauseastechrallyfadessanofigains",
+"keys": [
+"europeansharespauseastechrallyfadessanofigains"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "European shares pause as tech rally fades, Sanofi gains",
+"show": "기술 상승세가 사라지고 사노피가 상승하면서 유럽 주식은 일시 중지됩니다.",
+"source": "Reuters",
+"src_url": "https://www.reuters.com",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRFZqN1lVNFNOTEFzWnBjSFFrbEVUQ2NLQ3EyOFJVdXVoUDFtdDJOcXoteHFEZWVmQ3dsYWV1OUxjN2FkY2pOVzk0T1NpTXBQTXpIWlJuWVozQlJNMHFHQmlvTFVwOG9LYmZRY3k0RDFLelNheUVaanNPSWpibkxyZXlRSGV6a2ttanl1MjZqLTZ3Z0JubU42OUZybWtUZEU?oc=5",
+"pub": 1795513511.0,
+"time": "11/24 18:45",
+"run": "202611241433",
+"added": 1795530808,
+"url": "https://www.reuters.com/markets/europe/europes-stoxx-600-subdued-after-ai-driven-rally-2026-11-24/",
+"sum_tried": 1,
 "pv": "cd009b1f"
 },
 {
@@ -1639,7 +1705,7 @@
 "run": "202611241427",
 "added": 1795530476,
 "url": "https://wealth.hket.com/article/4230055/%E6%B3%95%E5%B7%B4%E6%96%99%E7%BE%8E%E8%81%AF%E5%84%B212%E6%9C%88%E8%B5%B7%E9%80%A3%E5%8A%A03%E6%AC%A1%E6%81%AF%E3%80%80%E8%AD%A6%E5%91%8A%EF%BC%9AAI%E8%82%A1%E6%81%90%E6%88%90%E6%9C%80%E5%A4%A7%E8%BC%B8%E5%AE%B6",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1749,7 +1815,8 @@
 {
 "key": "thecboesp500conditionalbubxmcseasonalreturnschart",
 "keys": [
-"thecboesp500conditionalbubxmcseasonalreturnschart"
+"thecboesp500conditionalbubxmcseasonalreturnschart",
+"cboesp500bufferprotectindsprome03seasonalreturnschart"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -1850,6 +1917,27 @@
 "pv": "cd009b1f"
 },
 {
+"key": "vanguardsp500etfvoooptionschainyahoofinance",
+"keys": [
+"vanguardsp500etfvoooptionschainyahoofinance"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Vanguard S&P 500 ETF (VOO) Options Chain - Yahoo Finance",
+"show": "Vanguard S&P500 ETF(VOO) 옵션 체인 - Yahoo Finance",
+"source": "Yahoo! Finance Canada",
+"src_url": "https://ca.finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOFM4SFB1UEJLVVgzUDhNMmVKWDZ3VjVlYXEyVFA2RlNUVU0tS2J2RFZiMXl6d1BBYVVEd2VOMkFST2VKd3hTNUY2ckJTYXgtMkk1bDdOX2pFUHF5WXZTY0YxQUJUTUdNT05tNXdJX3JlbVFrSFNYQnFBX1N5NEdaTFgxcG4wX0Q2TzlCZDFjdnQ?oc=5",
+"pub": 1795500197.0,
+"time": "11/24 15:03",
+"run": "202611241433",
+"added": 1795530809,
+"url": "https://ca.finance.yahoo.com/quote/VOO/options/?date=1798675200&straddle=false&type=all",
+"sum": "Yahoo Finance에서 기본 VOO 옵션 체인을 확인하고 Vanguard S&P500 ETF 옵션을 비교해 보세요.",
+"pv": "cd009b1f"
+},
+{
 "key": "川普欽點fed理事鮑曼遭調查緘默期出席美銀私人晚宴",
 "keys": [
 "川普欽點fed理事鮑曼遭調查緘默期出席美銀私人晚宴"
@@ -1871,6 +1959,27 @@
 "pv": "cd009b1f"
 },
 {
+"key": "sp500healthcareequipmentsp500351010seasonalreturnschart",
+"keys": [
+"sp500healthcareequipmentsp500351010seasonalreturnschart"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "S&P 500 Health Care Equipment & (^SP500-351010) Seasonal returns chart",
+"show": "S&P500 헬스케어 장비 & (^SP500-351010) 계절별 수익률 차트",
+"source": "Yahoo Finance UK",
+"src_url": "https://uk.finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uLW5DN1lrRmVVaEdsUGowTGp1RmZuMGNUYWt4OG1wUG1fRkp3aXU2UWM2SXc0RTR0NUx0TVJJdGRzWnZXbXNGNTFhbG1mVXhwOHhqbGRaX1FOTmlPNEJlUlF0OC04cndnSVh1VE1DSHE?oc=5",
+"pub": 1795497368.0,
+"time": "11/24 14:16",
+"run": "202611241433",
+"added": 1795530810,
+"url": "https://uk.finance.yahoo.com/quote/%5ESP500-351010/seasonality/",
+"sum_tried": 1,
+"pv": "cd009b1f"
+},
+{
 "key": "sp500scoredscreenedeurspxehaetseasonalreturnschart",
 "keys": [
 "sp500scoredscreenedeurspxehaetseasonalreturnschart"
@@ -1889,6 +1998,27 @@
 "added": 1795521484,
 "url": "https://uk.finance.yahoo.com/quote/%5ESPXEHAET/seasonality/",
 "sum_tried": 2,
+"pv": "cd009b1f"
+},
+{
+"key": "spbxt7uninteractivestockchartsp500andspbitcoin7030bstockyahoofinance",
+"keys": [
+"spbxt7uninteractivestockchartsp500andspbitcoin7030bstockyahoofinance"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "^SPBXT7UN Interactive Stock Chart | S&P 500 and S&P Bitcoin 70/30 B Stock - Yahoo Finance",
+"show": "^SPBXT7UN 인터랙티브 주식 차트 | S&P500 및 S&P 비트코인 70/30B 주식 - 야후 파이낸스",
+"source": "Yahoo! Finance Canada",
+"src_url": "https://ca.finance.yahoo.com",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42RTJ4bHpYbVhHVi1YUmZzZFJIZEg4TC00ZkVOOGF0czNzTVJkZDZZcmxjTWlJYTNvVFlsVEgwUzRIdnVNSUlyTDJnZm1yMHg1bkF3cEdDbEtNUQ?oc=5",
+"pub": 1795497173.0,
+"time": "11/24 14:12",
+"run": "202611241433",
+"added": 1795530812,
+"url": "https://ca.finance.yahoo.com/chart/%5ESPBXT7UN",
+"sum_tried": 1,
 "pv": "cd009b1f"
 },
 {
@@ -2016,7 +2146,7 @@
 "run": "202611241427",
 "added": 1795530478,
 "url": "https://inews.hket.com/article/4229385/%E3%80%90%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%89%8D%E3%80%91%E8%8B%B1%E5%81%89%E9%81%94%E7%9B%A4%E5%89%8D%E8%B7%8C5-%E3%80%81%E6%86%82%E7%BE%8E%E5%AA%92%E5%86%8D%E7%88%86%E9%86%9C%E8%81%9E%E3%80%80%E9%81%93%E6%8C%87%E6%9C%9F%E8%B2%A8%E8%B7%8C284%E9%BB%9E%E3%80%81%E7%B4%8D%E6%8C%87%E6%9C%9F%E8%B2%A8%E5%8D%872%E9%BB%9E%EF%BC%88%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%EF%BC%89?mtc=20038",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -2100,7 +2230,7 @@
 "run": "202611241427",
 "added": 1795530457,
 "url": "https://www.yicai.com/video/103451779.html",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -2418,6 +2548,27 @@
 "added": 1795490279,
 "url": "https://www.sankei.com/article/20261124-OGJYXKGYLRNWLFJIV7IEZ6JXPM/",
 "sum": "연휴 24일 오전 도쿄 주식시장은 닛케이 평균 주가(225종)가 반발했다. 인상폭은 한때 2200엔을 넘어 5만8000엔을 회복했다. 전날 미국 주식 고가 몰래 바뀌고 ...",
+"pv": "cd009b1f"
+},
+{
+"key": "美联储三把手放话通胀持续过高必要时或连续加息",
+"keys": [
+"美联储三把手放话通胀持续过高必要时或连续加息"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇨🇳 중국",
+"title": "美联储“三把手”放话：通胀持续过高，必要时或连续加息！",
+"show": "연준의 \"세 번째 지도자\"는 다음과 같이 말했습니다: 인플레이션은 계속해서 너무 높으며 필요하다면 금리가 지속적으로 인상될 수 있습니다!",
+"source": "财联社",
+"src_url": "https://www.cls.cn",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9zYnlmOE5GeW9LOHZ1WTlvQk5PSUtFSlpxOGtOQndrblo1V1p2TDBHNXh0Y0xpMmZWVkhSM3VNaFlzWXpBdzZQaQ?oc=5",
+"pub": 1795482659.0,
+"time": "11/24 10:10",
+"run": "202611241433",
+"added": 1795530815,
+"url": "https://www.cls.cn/detail/2542480",
+"sum": "① 윌리엄스 뉴욕 연준 총재는 중앙은행이 인플레이션에 대해 \"미래를 내다볼\" 필요가 있으며 물가를 낮추는 데 아직 해야 할 일이 많다고 말했습니다. ② 그는 필요하다면 FOMC가 지속적으로 금리를 인상할 가능성을 배제하지 않으며, 향후 여러 회의에서 어떤 옵션도 배제하지 않을 것입니다. ③ 그는 연준의 10월 정책 회의 이후의 데이터가 인플레이션율이 계속해서 너무 높다는 것을 보여줄 것으로 기대합니다. 차이롄서, 11월 24일(편집자 황준지) 월요일(23일) 동부시간 뉴욕 연준의 존 윌리엄스 총재는 중앙은행이 인플레이션 문제에 대해 '미래지향적' 자세를 유지해야 하며 물가를 낮추기 위해서는 아직 해야 할 일이 많다고 말했습니다. 그는 필요하다면 FOMC가 지속적으로 금리를 인상할 가능성도 배제하지 않았고, 향후 (여러) 회의에서도 어떤 옵션도 배제하지 않았습니다.",
 "pv": "cd009b1f"
 },
 {
@@ -3853,6 +4004,27 @@
 "pv": "cd009b1f"
 },
 {
+"key": "stocksturnlowerasnvidiaeuphoriawearsoffmarketswrap",
+"keys": [
+"stocksturnlowerasnvidiaeuphoriawearsoffmarketswrap"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "Stocks Turn Lower as Nvidia Euphoria Wears Off: Markets Wrap",
+"show": "엔비디아 Euphoria의 하락으로 주가 하락: 시장 요약",
+"source": "Bloomberg.com",
+"src_url": "https://www.bloomberg.com",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVVBVLTBQYkhINGhEXzM0b3k1ZjV2b25YWmVNMzFuVl9EbkhNWlV1OUtGVVk4YTRLV01lMFZXRGpDLURZVkVJZy15MkZQNUZxYnRhQV9pLXFRQl9EaHlzemVJTmFUQ1VhTUxNUXd0bGxwZm4yLUJMVXdPeHJ2OWdDSkFOTml2a3NRM3VWcThHWGpJVDNi?oc=5",
+"pub": 1795461205.0,
+"time": "11/24 04:13",
+"run": "202611241433",
+"added": 1795530813,
+"url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
+"sum_tried": 1,
+"pv": "cd009b1f"
+},
+{
 "key": "美股動向ai憂慮拖累標普500陷調整區納指年內轉跌",
 "keys": [
 "美股動向ai憂慮拖累標普500陷調整區納指年內轉跌"
@@ -4279,7 +4451,8 @@
 "key": "美股三大股指大幅走高纳指盘中飙高684",
 "keys": [
 "美股三大股指大幅走高纳指盘中飙高684",
-"美股三大股指全线大幅飙高"
+"美股三大股指全线大幅飙高",
+"黄仁勋重掌英伟达美股三大股指全线大幅飙高算力产业链逻辑是否随之重估丨20261124从华尔街到陆家嘴"
 ],
 "count": 1,
 "theme": "🇺🇸 미국 S&P500",
@@ -5525,7 +5698,7 @@
 "run": "202611241427",
 "added": 1795530493,
 "url": "https://www.yicai.com/video/103452184.html",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -5546,7 +5719,7 @@
 "run": "202611241427",
 "added": 1795530491,
 "url": "https://www.wsj.com/health/pharma/bayer-signals-next-pharma-deals-might-target-more-midstage-assets-79709e97",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -6766,7 +6939,7 @@
 "run": "202611241427",
 "added": 1795530506,
 "url": "https://www.yicai.com/video/103451871.html",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -7852,7 +8025,7 @@
 "run": "202611241427",
 "added": 1795530520,
 "url": "https://www.cls.cn/detail/2543035",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -9756,10 +9929,34 @@
 "sum": "삼성전자가 내년 초 첫 자체 개발 휴머노이드(인간형 로봇)를 선보인다. 양손 각각 20개씩 총 40개의 모터를 탑재해 ‘정밀한 손’에 방점을 둘 것으로 알려졌다. 스마트폰 조립 수준의 정밀한 손동작 구현이 궁극적인 목표다. 반복적으로 접고 펴도 견디는 폴더블 스마트폰…"
 },
 {
+"key": "新漢ai機器人生態系夥伴擴大招募日報",
+"keys": [
+"新漢ai機器人生態系夥伴擴大招募日報",
+"台新日本ai機器人etf1214開募日報",
+"新漢ai機器人生態系夥伴擴大招募投資理財工商時報"
+],
+"count": 2,
+"theme": "🤖 로봇",
+"region": "🇹🇼 대만",
+"title": "新漢AI機器人生態系夥伴擴大招募- 日報",
+"show": "NEXCOM AI 로봇 생태계 파트너 채용 확대 - Daily News",
+"source": "工商時報",
+"src_url": "https://www.ctee.com.tw",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WTExrTmNhWU9VUWRVTG04U05JVzVUajZEY1o4QnlXMEdHM3M1QU1zUkRmZ2E5RTIwNWtUdTlsN3ZDV01DX1l3OV93d2QtS2VyemNyNWt0TG9XZnpXR3Q0?oc=5",
+"pub": 1795460400.0,
+"time": "11/24 04:00",
+"run": "202611232250",
+"added": 1795474323,
+"url": "https://www.ctee.com.tw/news/20261124700343-439901",
+"sum": "\"RoboWIZ AI 로봇 생태계 파트너\" 모집 페이지에서 자세한 내용을 확인하려면 QR 코드를 스캔하세요. 넥스컴그룹 계열사 넥스코봇(NEXCOM Robotic Solutions)은 지난달 엔비디아 베를린 GTC 컨퍼런스에서 독일, 미국 로봇 생태계 파트너들과 힘을 합쳐 로보위즈(RoboWIZ) AI 로봇 오픈 플랫폼을 공동 출시해 국제 시장과 로봇 관련 분야에서 즉각 주목을 받았다.",
+"pv": "cd009b1f"
+},
+{
 "key": "2连板长华集团不从事人形机器人整机业务行星滚柱丝杠产品仍处于研发阶段",
 "keys": [
 "2连板长华集团不从事人形机器人整机业务行星滚柱丝杠产品仍处于研发阶段",
-"长华集团不从事人形机器人整机业务"
+"长华集团不从事人形机器人整机业务",
+"三连板后长华集团发风险提示不从事人形机器人整机业务相关结构件产品累计收入仅88万元"
 ],
 "count": 2,
 "theme": "🤖 로봇",
@@ -10033,7 +10230,7 @@
 "run": "202611241427",
 "added": 1795530541,
 "url": "https://www.yicai.com/video/103452273.html",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -10259,7 +10456,7 @@
 "run": "202611241427",
 "added": 1795530544,
 "url": "https://kabutan.jp/news/marketnews/?&b=n202611240663",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -10717,28 +10914,6 @@
 "added": 1795474326,
 "url": "https://www.nikkan.co.jp/articles/view/797840",
 "sum_tried": 2,
-"pv": "cd009b1f"
-},
-{
-"key": "新漢ai機器人生態系夥伴擴大招募日報",
-"keys": [
-"新漢ai機器人生態系夥伴擴大招募日報",
-"台新日本ai機器人etf1214開募日報"
-],
-"count": 1,
-"theme": "🤖 로봇",
-"region": "🇹🇼 대만",
-"title": "新漢AI機器人生態系夥伴擴大招募- 日報",
-"show": "NEXCOM AI 로봇 생태계 파트너 채용 확대 - Daily News",
-"source": "工商時報",
-"src_url": "https://www.ctee.com.tw",
-"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WTExrTmNhWU9VUWRVTG04U05JVzVUajZEY1o4QnlXMEdHM3M1QU1zUkRmZ2E5RTIwNWtUdTlsN3ZDV01DX1l3OV93d2QtS2VyemNyNWt0TG9XZnpXR3Q0?oc=5",
-"pub": 1795460400.0,
-"time": "11/24 04:00",
-"run": "202611232250",
-"added": 1795474323,
-"url": "https://www.ctee.com.tw/news/20261124700343-439901",
-"sum": "\"RoboWIZ AI 로봇 생태계 파트너\" 모집 페이지에서 자세한 내용을 확인하려면 QR 코드를 스캔하세요. 넥스컴그룹 계열사 넥스코봇(NEXCOM Robotic Solutions)은 지난달 엔비디아 베를린 GTC 컨퍼런스에서 독일, 미국 로봇 생태계 파트너들과 힘을 합쳐 로보위즈(RoboWIZ) AI 로봇 오픈 플랫폼을 공동 출시해 국제 시장과 로봇 관련 분야에서 즉각 주목을 받았다.",
 "pv": "cd009b1f"
 },
 {
