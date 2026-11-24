@@ -740,7 +740,10 @@ def apply_attn(st):
 
 
 GKG_DIR = os.path.join(nb.HERE, "gkg_bf")
-HIST_USE_X = set()      # 보충 방식으로 셀 테마 (나눠서 맞춰보기 오차가 더 작았던 테마만 — 2026-11-24 비교 후 정함)
+# 보충 방식(회사 태그·추가 단어)으로 셀 테마·나라 — 11/16~23 하루씩 빼고 맞춰보기(미국 기준) 오차가 10% 이상 줄어든 것만 (2026-11-24)
+#  방산 40→17% · 전력기기 72→33 · 자동차 46→30 · 신재생 28→16 · 금융 40→19(미국만, 한국은 24→32로 나빠져 제외) · 화장품 없음→22 · 원전 32→26
+#  조선은 29→201%로 크게 나빠져 제외 (shipyard·warship 같은 단어에 엉뚱한 기사가 많이 섞임)
+HIST_USE_X = {"방산": None, "전력기기": None, "자동차": None, "신재생에너지": None, "화장품": None, "원전": None, "금융": {"us"}}   # None = 모든 나라
 
 
 def apply_hist(st):
@@ -761,12 +764,24 @@ def apply_hist(st):
         G.update(d.get("days", {}))
         GX.update(d.get("days_x", {}))
         F.update(d.get("files", {}))
-    for dd, v in GX.items():                  # 보충 방식(회사 태그·추가 단어)이 더 잘 맞은 테마만 그 숫자로
-        for th in HIST_USE_X:
-            if th in v and dd in G:
-                G[dd] = dict(G[dd])
+    for dd, v in GX.items():                  # 보충 방식(회사 태그·추가 단어)이 더 잘 맞은 테마·나라만 그 숫자로
+        if dd not in G:
+            continue
+        G[dd] = dict(G[dd])
+        for th, rks in HIST_USE_X.items():
+            if th not in v:
+                continue
+            if rks is None:
                 G[dd][th] = v[th]
+            else:
+                m = dict(G[dd].get(th) or {})
+                for rk in rks:
+                    if rk in v[th]:
+                        m[rk] = v[th][rk]
+                G[dd][th] = m
     good = {k for k, n in F.items() if n >= 170}          # 원본 파일을 거의 다 받은 날만 (192개 중)
+    if HIST_USE_X and GX:                                  # 보충 숫자가 없는 날은 빼기 (테마마다 셈 방식이 섞이지 않게)
+        good &= set(GX)
     days = st.get("days", {})
     bot_days = sorted(days)
     if not bot_days:
