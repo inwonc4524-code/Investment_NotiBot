@@ -1963,6 +1963,30 @@
 "run": "breaking",
 "added": 1795538910,
 "pv": "cd009b1f"
+},
+{
+"key": "nvidiahostsfirstallhandsafterjensenhuangsreturn",
+"keys": [
+"nvidiahostsfirstallhandsafterjensenhuangsreturn",
+"jensenhuangapologizestonvidiastaffinallhandsmeeting",
+"nvidiashuanghostsallhandsmeetingadayafterreturn"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Nvidia Hosts First All-Hands After Jensen Huang’s Return",
+"show": "엔비디아, 젠슨 황의 복귀 후 첫 번째 올핸드 개최",
+"source": "The Information",
+"src_url": "https://www.theinformation.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcDBfUUItSzNVaklEUWdkczhuUnJyVENGUEw0enBteUJvemRpaVpPNTFaRVU3b0lFUmtXb0J6N0NScVBoY2Q4NEhKT09rYW9FOWxQLU8waWtWRUUyYTFqWmJRS1UxNWx3a1BnejBfUExGLVF4dUNVZnh0aDd3ajRITUd4Y1J1eUxMVmlNVkxuQnNQdE1T?oc=5",
+"url": "https://www.theinformation.com/briefings/nvidia-hosts-first-all-hands-jensen-huangs-return",
+"pub": 1795545300.0,
+"time": "11/25 03:35",
+"run": "breaking",
+"added": 1795546173,
+"pv": "cd009b1f"
 }
 ],
 "seen": {
@@ -2876,6 +2900,9 @@
 "nvidiastaffwhatdoyouthinkofjensenhuangsreturnaschiefexecutive": 1795538914.883172,
 "impactofjensenhuangsreturntonvidiahereswhatyouneedtoknow": 1795538914.8831723,
 "nvidialiveupdatesnvidiastockfallsasexuberancefadesafterjensenhuangsreturnasceo": 1795538914.8831728,
-"jimmykimmelonjensenhuangsreturntonvidiawhataprofoundlystupidtimetobealive": 1795538914.8831728
+"jimmykimmelonjensenhuangsreturntonvidiawhataprofoundlystupidtimetobealive": 1795538914.8831728,
+"nvidiahostsfirstallhandsafterjensenhuangsreturn": 1795546177.5113158,
+"jensenhuangapologizestonvidiastaffinallhandsmeeting": 1795546177.511321,
+"nvidiashuanghostsallhandsmeetingadayafterreturn": 1795546177.5113227
 }
 }
