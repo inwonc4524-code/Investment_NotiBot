@@ -1869,6 +1869,27 @@
 "run": "breaking",
 "added": 1795522874,
 "pv": "cd009b1f"
+},
+{
+"key": "속보젠슨황복귀약발하루뉴욕증시3대지수하락세출발나스닥초반180",
+"keys": [
+"속보젠슨황복귀약발하루뉴욕증시3대지수하락세출발나스닥초반180"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 젠슨황 복귀 약발 하루? 뉴욕증시 3대 지수 하락세 출발…나스닥 초반 1.80%↓",
+"show": "[속보] 젠슨황 복귀 약발 하루? 뉴욕증시 3대 지수 하락세 출발…나스닥 초반 1.80%↓",
+"source": "뉴시스",
+"src_url": "https://www.newsis.com",
+"sum": "[속보] 젠슨황 복귀 약발 하루? 뉴욕증시 3대 지수 하락세 출발…나스닥 초반 1.80%↓",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YVXFUQlhESVBfVGJWZ1VzSlpxRi1KR1c1T0c1Yzl1a2Mzb2xQa0xQME1qaXVsamxXamhzMzZzNnBVMDVMRURyYW1hVDRNTE1OZTJOakJ1c1BOd3M1UlJQZg?oc=5",
+"url": "https://www.newsis.com/view/NISX20261124_0003881837",
+"pub": 1795530877.0,
+"time": "11/24 23:34",
+"run": "breaking",
+"added": 1795531590
 }
 ],
 "seen": {
@@ -2771,6 +2792,7 @@
 "whatsatstakeinnvidiasrehiringofjensenhuang": 1795525773.5669117,
 "staffcheersasjensenhuangreturnstonvidiahq": 1795527244.0520682,
 "jensenhuangreturnstonvidiaassiliconvalleyrethinksitsalliancewithtrump": 1795527964.0830252,
-"huangsreturnrattlessacramentoandsiliconvalley": 1795527964.0830257
+"huangsreturnrattlessacramentoandsiliconvalley": 1795527964.0830257,
+"속보젠슨황복귀약발하루뉴욕증시3대지수하락세출발나스닥초반180": 1795531590.0443635
 }
 }
