@@ -47,6 +47,63 @@ for th in ns.STAT_THEMES:
     PRE[th["name"]] = (th, re.compile("|".join(pats)) if pats else None)
 
 
+# 보충용 (2026-11-24): 기사가 적은 테마를 더 잡으려고 — 기사에 나온 회사 이름(GDELT 회사 태그)·추가 영어 단어
+# 결과는 따로("days_x") 저장해서, 원래 방식("days")과 맞춰보기 오차를 비교한 뒤 더 나은 쪽을 씀
+EXTRA = {
+    "반도체": (["sk hynix", "micron technology", "asml", "taiwan semiconductor", "applied materials", "lam research", "broadcom", "qualcomm", "intel corp"],
+               ["chipmakers", "memory chips", "foundry", "wafer", "nvidia chips"]),
+    "2차전지": (["catl", "lg energy solution", "panasonic energy", "samsung sdi", "sk on", "albemarle", "quantumscape"],
+               ["battery maker", "ev battery", "lithium", "battery plant", "cathode"]),
+    "로봇": (["boston dynamics", "figure ai", "unitree", "agility robotics", "intuitive surgical", "fanuc"],
+             ["robot", "robots", "robotaxi", "humanoid"]),
+    "바이오·제약": (["eli lilly", "novo nordisk", "pfizer", "moderna", "merck", "samsung biologics", "celltrion", "amgen", "regeneron"],
+                ["drugmaker", "fda approval", "clinical trial", "weight-loss drug", "biotech"]),
+    "방산": (["lockheed martin", "raytheon", "northrop grumman", "general dynamics", "rheinmetall", "hanwha aerospace", "bae systems", "pentagon"],
+             ["defense contractor", "arms deal", "fighter jet", "missile system", "defense spending", "howitzer"]),
+    "원전": (["westinghouse", "nuscale", "korea hydro", "kepco", "cameco", "oklo", "constellation energy", "terrapower"],
+             ["nuclear plant", "nuclear reactor", "reactors", "uranium", "nuclear energy"]),
+    "조선": (["hd hyundai heavy", "hanwha ocean", "samsung heavy industries", "huntington ingalls", "austal", "fincantieri"],
+             ["shipyard", "shipyards", "shipbuilder", "shipbuilders", "lng carrier", "warship"]),
+    "전력기기": (["ls electric", "hd hyundai electric", "hyosung heavy", "siemens energy", "ge vernova", "hitachi energy", "eaton", "schneider electric"],
+                ["transformer shortage", "transformers", "power grid", "grid equipment", "switchgear", "substation"]),
+    "자동차": (["hyundai motor", "kia", "toyota", "general motors", "ford motor", "volkswagen", "stellantis", "byd"],
+               ["automaker", "automakers", "carmaker", "carmakers", "auto tariffs"]),
+    "우주항공": (["spacex", "blue origin", "rocket lab", "boeing", "airbus", "korea aerospace industries", "nasa"],
+                ["rocket launch", "satellite", "satellites", "starship", "aerospace"]),
+    "수소": (["plug power", "bloom energy", "nel asa", "ballard power", "air products"],
+             ["hydrogen", "fuel cell", "electrolyzer"]),
+    "신재생에너지": (["first solar", "nextera energy", "orsted", "vestas", "enphase", "sunrun"],
+                  ["solar", "wind farm", "offshore wind", "renewables", "clean energy"]),
+    "게임": (["nintendo", "sony interactive", "electronic arts", "take-two", "krafton", "nexon", "ubisoft", "roblox"],
+             ["video game", "video games", "gaming", "game studio"]),
+    "엔터": (["hybe", "sm entertainment", "jyp entertainment", "yg entertainment", "bts", "blackpink"],
+             ["k-pop", "kpop", "k-drama", "boy band", "girl group"]),
+    "화장품": (["amorepacific", "lg household", "estee lauder", "l'oreal", "olive young", "ulta beauty", "e.l.f. beauty"],
+               ["k-beauty", "skincare", "cosmetics", "beauty brand"]),
+    "금융": (["jpmorgan", "goldman sachs", "morgan stanley", "bank of america", "wells fargo", "citigroup", "federal reserve", "kb financial"],
+             ["bank stocks", "big banks", "lender", "interest rates"]),
+    "인터넷·플랫폼": (["alphabet", "meta platforms", "amazon", "naver", "kakao", "coupang", "netflix"],
+                  ["big tech", "tech giants", "online platform", "e-commerce"]),
+    "건설·부동산": (["d.r. horton", "lennar", "zillow", "redfin", "samsung c&t", "hyundai engineering"],
+                ["housing market", "home prices", "mortgage rates", "homebuilder", "real estate"]),
+    "가상자산": (["coinbase", "binance", "microstrategy", "upbit", "tether", "blackrock bitcoin"],
+                ["crypto", "stablecoin", "bitcoin etf", "ether", "altcoin"]),
+    "AI": (["openai", "anthropic", "nvidia", "deepmind", "xai", "perplexity"],
+           ["chatgpt", "generative ai", "large language model", "ai model", "data center"]),
+}
+XORG = {k: set(v[0]) for k, v in EXTRA.items()}
+XPAT = {k: re.compile("|".join(r"(?<![a-z0-9])" + re.escape(w) + r"(?![a-z])" for w in v[1])) for k, v in EXTRA.items() if v[1]}
+
+
+def orgs_of(field):
+    out = set()
+    for part in (field or "").split(";"):
+        name = part.split(",")[0].strip().lower()
+        if name:
+            out.add(name)
+    return out
+
+
 def region_of(domain, title):
     d = (domain or "").lower().rstrip(".")
     tld = d.rsplit(".", 1)[-1] if "." in d else ""
@@ -87,7 +144,7 @@ def rows(text):
         m = TITLE.search(f[26])
         if not m:
             continue
-        yield f[3], f[4], html.unescape(m.group(1)).strip()
+        yield f[3], f[4], html.unescape(m.group(1)).strip(), f[13]
 
 
 def ok_item(theme, title, domain, url):
@@ -102,11 +159,11 @@ def count_day(d):
     with ThreadPoolExecutor(24) as ex:
         texts = list(ex.map(lambda a: get_file(*a), jobs))
     got = sum(1 for t in texts if t)
-    out, seen_t, seen_u, n = {}, set(), set(), 0
+    out, outx, seen_t, seen_u, n = {}, {}, set(), set(), 0
     for text in texts:
         if not text:
             continue
-        for domain, url, title in rows(text):
+        for domain, url, title, orgf in rows(text):
             if url in seen_u:
                 continue
             seen_u.add(url)
@@ -117,15 +174,25 @@ def count_day(d):
             n += 1
             low = title.lower()
             rk = None
+            orgs = None
             for name, (th, pre) in PRE.items():
-                if pre is None or not pre.search(low):
-                    continue
-                if not ns.relevant(th, title) or not ok_item(th, title, domain, url):
+                hit = pre is not None and pre.search(low) and ns.relevant(th, title)
+                if not hit:                                    # 보충: 회사 태그 또는 추가 단어
+                    xp = XPAT.get(name)
+                    if not (xp is not None and xp.search(low)):
+                        if orgs is None:
+                            orgs = orgs_of(orgf)
+                        if not (XORG.get(name) and orgs & XORG[name]):
+                            continue
+                if not ok_item(th, title, domain, url):
                     continue
                 rk = rk or region_of(domain, title)
-                v = out.setdefault(name, {})
+                if hit:
+                    v = out.setdefault(name, {})
+                    v[rk] = v.get(rk, 0) + 1
+                v = outx.setdefault(name, {})
                 v[rk] = v.get(rk, 0) + 1
-    return out, got, n
+    return out, outx, got, n
 
 
 def main(month):
@@ -135,20 +202,22 @@ def main(month):
     b = min(b, date.today() - timedelta(days=1))
     os.makedirs(OUTDIR, exist_ok=True)
     path = os.path.join(OUTDIR, f"{month}.json")
-    res = {"days": {}, "files": {}, "seen": {}}
+    res = {"days": {}, "days_x": {}, "files": {}, "seen": {}}
     if os.path.exists(path):
         res = json.load(open(path, encoding="utf-8"))
+        res.setdefault("days_x", {})
     d = a
     t0 = time.time()
     while d <= b:
         k = d.isoformat()
-        if res["files"].get(k, 0) >= 180:          # 이미 거의 다 받은 날은 건너뜀
+        if res["files"].get(k, 0) >= 180 and k in res["days_x"]:   # 이미 거의 다 받은 날은 건너뜀
             d += timedelta(days=1)
             continue
-        out, got, n = count_day(d)
-        res["days"][k], res["files"][k], res["seen"][k] = out, got, n
+        out, outx, got, n = count_day(d)
+        res["days"][k], res["days_x"][k], res["files"][k], res["seen"][k] = out, outx, got, n
         tot = sum(sum(v.values()) for v in out.values())
-        print(f"{k}: 파일 {got}/192 · 기사 {n:,} · 테마 기사 {tot:,} ({time.time() - t0:.0f}초)", flush=True)
+        totx = sum(sum(v.values()) for v in outx.values())
+        print(f"{k}: 파일 {got}/192 · 기사 {n:,} · 테마 기사 {tot:,} · 보충 포함 {totx:,} ({time.time() - t0:.0f}초)", flush=True)
         json.dump(res, open(path, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
         d += timedelta(days=1)
 
