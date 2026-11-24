@@ -987,7 +987,7 @@ def _pack(n, rkey):
 STATS_TAB = "📊 통계"
 STATS_JS = r"""// ───────── 📊 통계 탭 ─────────
 var ST = null, STLOAD = false;
-S.sp = load('sp', 'yday'); S.open = {};
+S.sp = load('sp', 'yday'); S.qn = load('qn', ''); S.open = {};
 function kdate(off){ var d = new Date(Date.now() + 9*3600e3 - off*86400e3); return d.toISOString().slice(0,10); }
 function loadStats(){
   if(STLOAD) return; STLOAD = true;
@@ -1000,7 +1000,17 @@ function cnt(day, th){                     // 하루·테마의 뉴스 수 (국�
   for(var k in v){ if(S.region==='all' || k===S.region) n += v[k]; }
   return n;
 }
+// 분기 (2026-11-24 사용자 요청): 달력 분기(1~3월·4~6월·7~9월·10~12월), 바로 앞 분기와 비교
+function qDays(y, n){ var out = [], a = Date.UTC(y, (n-1)*3, 1), b = Date.UTC(n===4 ? y+1 : y, n===4 ? 0 : n*3, 1), last = kdate(1);
+  for(var t=a; t<b; t+=86400e3){ var d = new Date(t).toISOString().slice(0,10); if(d > last) break; out.push(d); } return out; }
+function qList(){ var out = [], y = 2026, n = 1, ty = +kdate(1).slice(0,4), tn = Math.floor((+kdate(1).slice(5,7)-1)/3)+1;
+  while(y < ty || (y === ty && n <= tn)){ out.push(y+'-'+n); n++; if(n > 4){ n = 1; y++; } } return out; }
 function period(){                         // [이번 기간 날짜들, 비교할 이전 기간 날짜들, 이름]
+  if(S.sp === 'q'){ var ql = qList(); if(ql.indexOf(S.qn) < 0) S.qn = ql[ql.length-1];
+    var y = +S.qn.split('-')[0], n = +S.qn.split('-')[1], cur = qDays(y, n), full = qDays(y, n).length === Math.round((Date.UTC(n===4?y+1:y, n===4?0:n*3, 1) - Date.UTC(y,(n-1)*3,1))/86400e3);
+    var py = n===1 ? y-1 : y, pn = n===1 ? 4 : n-1, prev = qDays(py, pn);
+    if(!full) prev = prev.slice(0, cur.length);                       // 진행 중인 분기는 앞 분기도 같은 날 수만큼만 비교
+    return [cur, prev, y+'년 '+n+'분기'+(full ? '' : ' (진행 중)')]; }
   var L = {today:[0,1,'오늘(진행 중)'], yday:[1,1,'어제'], w:[1,7,'최근 7일'], m:[1,30,'최근 30일'],
            h:[1,182,'최근 6개월'], y:[1,365,'최근 1년']}[S.sp] || [1,1,'어제'];
   var cur = [], prev = [];
@@ -1166,8 +1176,10 @@ function renderStats(t){
   var P = period();
   if(S.sp==='yday' && !Object.keys((ST.days||{})[P[0][0]]||{}).length){ S.sp = 'today'; P = period(); }
   h += '<p class="note">기사 제목에 테마 단어가 들어간 뉴스 수 · 1시간마다 모아 같은 기사는 한 번만 셈 · 업데이트 '+esc(ST.updated||'')+'</p>';
-  h += '<div class="seg sp">' + [['yday','어제'],['today','오늘'],['w','7일'],['m','30일'],['h','6개월'],['y','1년']].map(function(x){
+  h += '<div class="seg sp">' + [['yday','어제'],['today','오늘'],['w','7일'],['m','30일'],['q','분기'],['h','6개월'],['y','1년']].map(function(x){
     return '<button data-sp="'+x[0]+'" class="'+(S.sp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
+  if(S.sp === 'q') h += '<div class="seg qn">' + qList().map(function(q){
+    return '<button data-qn="'+q+'" class="'+(S.qn===q?'on':'')+'">'+(+q.split('-')[1])+'분기</button>'; }).join('') + '</div>';
   var hc = have(P[0]), hp = have(P[1]), f = firstDay();
   var rows = (ST.themes||[]).map(function(th){ return {th:th, n:sum(P[0], th), p:sum(P[1], th), cap:capped(P[0], th), s:ssum(P[0], th)}; })
                             .sort(byN);
@@ -1204,7 +1216,7 @@ function renderStats(t){
       (open ? detail(r.th) : '') + '</div>';
   }).join('');
   h += monthRatio(P[0], f, rows);
-  if(S.sp==='h' || S.sp==='y') h += attnHtml(P[0], rows);
+  if(S.sp==='q' || S.sp==='h' || S.sp==='y') h += attnHtml(P[0], rows);
   if(S.sp==='w' || S.sp==='m') h += risingHtml();
   h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 바로 앞 같은 길이 기간보다 몇 계단 오르고 내렸는지<br>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
        '· 숫자 오른쪽 <span style="color:#4ade80">●</span>긍정 <span style="color:#f87171">●</span>부정 <span style="color:#a8a29e">●</span>중립 = 기사 제목을 낱말 판정과 무료 AI(Qwen2.5) 판정으로 따로 보고, 둘이 같으면 그대로, 다르면 Claude 가 실제 기사로 정한 규칙(낱말 중립+AI 긍정→중립 등)으로 정하고, 긍정↔부정처럼 크게 엇갈리면 판정 다름으로 빼요. Claude 가 판정 다름 기사를 따로 검토해 고쳐요<br>'+
@@ -1216,6 +1228,8 @@ function renderStats(t){
 document.addEventListener('click', function(e){
   var b = e.target.closest('.seg.sp button');
   if(b){ S.sp = b.dataset.sp; save('sp', S.sp); renderMain(); return; }
+  var qb = e.target.closest('.seg.qn button');
+  if(qb){ S.qn = qb.dataset.qn; save('qn', S.qn); renderMain(); return; }
   var r = e.target.closest('.srow .sline');
   if(r){ var th = (r.parentNode.dataset.l ? 'L' : '') + r.parentNode.dataset.th; S.open[th] = !S.open[th]; renderMain(); }
 });

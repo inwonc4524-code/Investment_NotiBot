@@ -1,0 +1,43 @@
+name: 1월~ 기사 수 다시 세기 (GDELT 원본 파일)
+
+# GDELT 원본 파일(15분마다, 기사 제목 포함)로 테마별 하루 기사 수를 셈 → gkg_bf/{달}.json
+on:
+  workflow_dispatch:
+    inputs:
+      months:
+        description: 셀 달 목록 (JSON)
+        default: '["2026-01","2026-02","2026-03","2026-04","2026-05","2026-06","2026-07","2026-08","2026-09","2026-10","2026-11"]'
+
+permissions:
+  contents: write
+
+jobs:
+  month:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 11
+      matrix:
+        m: ${{ fromJSON(inputs.months) }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q requests pillow fonttools
+      - name: 세기
+        run: PYTHONUNBUFFERED=1 timeout 19800 python gkg_count.py ${{ matrix.m }} || true
+      - name: 저장
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add gkg_bf/${{ matrix.m }}.json
+          git diff --cached --quiet && exit 0
+          git commit -q -m "1월~ 기사 수 (GDELT 원본) ${{ matrix.m }}"
+          for t in 1 2 3 4 5 6 7 8 9 10; do
+            git pull -q --rebase origin main && git push -q && echo "저장 완료" && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((t * 7))
+          done
+          exit 1
