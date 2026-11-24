@@ -327,6 +327,11 @@ def collect():
     st["senti"] = {d: v for d, v in st["senti"].items() if d >= cutoff}
     st["capped"] = {d: v for d, v in capped.items() if d >= cutoff}
     st["updated"] = now.strftime("%m/%d %H:%M")
+    # 오늘 누적을 시각별로 기록 → '오늘' 탭을 어제 같은 시각까지와 비교 (2026-11-24 사용자: 오늘 ▲▼가 어제 하루 전체와 비교돼 늘 낮게 나옴)
+    snap = st.get("snap") or {}
+    snap.setdefault(today, {})[now.strftime("%H:%M")] = {th: dict(v) for th, v in st["days"].get(today, {}).items()}
+    keep = (now - timedelta(days=2)).strftime("%Y-%m-%d")
+    st["snap"] = {d: v for d, v in snap.items() if d >= keep}
     if fails < 40:                              # 대부분 받았을 때만 '지난번 수집' 시각으로 기록
         st["last_ok"] = now.isoformat()
     save_stats(st)

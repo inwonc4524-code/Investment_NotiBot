@@ -1134,6 +1134,13 @@ function syncHtml(days){
       return '<div class="mrow"><span class="sn">'+esc(r.th)+'</span><span class="rbar"><i style="width:'+w.toFixed(0)+'%;background:'+col+'"></i></span>'+
         '<span class="rpct" style="width:96px">'+r.c.toFixed(2)+' '+(r.c >= .5 ? '많이 따라감' : r.c >= .25 ? '조금' : '따로')+'</span></div>'; }).join('');
 }
+// 참고 메모 접기: 노란 메모가 있으면 '📝 참고 (N)' 제목 하나로 접어 둠 (누르면 펼침, 펼친 상태는 기억)
+function notesBox(W){
+  if(!W) return '';
+  var n = (W.match(/class="warn"/g) || []).length;
+  return '<details class="notes"'+(load('notes_open', '') === '1' ? ' open' : '')+' ontoggle="save(\'notes_open\', this.open ? \'1\' : \'\')">'+
+         '<summary>📝 참고 <span class="hx">'+n+'개 · 추정치·자료 범위 안내</span></summary>'+W+'</details>';
+}
 function capped(days, th){
   var c = ST.capped || {}, hit = false;
   days.forEach(function(d){ (c[d]||[]).forEach(function(s){ var p = s.split('|');
@@ -1223,6 +1230,15 @@ function renderStats(t){
   var hc = have(P[0]), hp = have(P[1]), f = firstDay();
   var rows = (ST.themes||[]).map(function(th){ return {th:th, n:sum(P[0], th), p:sum(P[1], th), cap:capped(P[0], th), s:ssum(P[0], th)}; })
                             .sort(byN);
+  var W = '';                                 // 노란 참고 메모는 모아서 접어 둠 (2026-11-24 사용자 요청)
+  if(S.sp === 'today'){                      // 오늘(진행 중)은 어제 하루 전체가 아니라 '어제 같은 시각까지'와 비교
+    var td = P[0][0], ys = (ST.snap||{})[P[1][0]] || {}, tk = Object.keys((ST.snap||{})[td] || {}).sort().pop() || (ST.updated||'').slice(6);
+    var yk = Object.keys(ys).filter(function(k){ return k <= tk; }).sort().pop();
+    if(yk){ rows.forEach(function(r){ var v = ys[yk][r.th] || {}, n = 0; for(var k in v){ if(S.region==='all' || k===S.region) n += v[k]; } r.p = n; });
+            rows.forEach(function(r){ r.pr = undefined; }); hp = 1;
+            W += '<div class="warn">🕐 오늘은 아직 진행 중이라, ▲▼ 는 <b>어제 '+yk+'까지</b> 모인 수와 비교해요 (오늘 '+esc(tk)+' 기준).</div>'; }
+    else { hp = 0; W += '<div class="warn">🕐 오늘은 아직 진행 중이에요. 어제 같은 시각까지의 기록이 아직 없어서 ▲▼ 비교는 내일부터 나와요.</div>'; }
+  }
   ranks(rows, hp > 0);
   var ST0 = [0,0,0,0]; rows.forEach(function(r){ for(var i=0;i<4;i++) ST0[i] += r.s[i]; });
   var ss = ST.senti_since || '', se = (ST.senti_est||[]).slice().sort();
@@ -1233,25 +1249,26 @@ function renderStats(t){
   h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 전체 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">'+(hp ? '(전 기간 대비)' : '')+'</span></div>';
   var p0 = P[0].slice().sort()[0];             // 기간 첫날 (최근 N일은 날짜가 거꾸로 들어 있음)
   if(ss && p0 && p0 < ss && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
-    h += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작해서, 이 기간의 그 전 기사는 판정이 없어요 (기사 수는 그대로).</div>';
+    W += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작해서, 이 기간의 그 전 기사는 판정이 없어요 (기사 수는 그대로).</div>';
   if(ss && !(ST0[0]+ST0[1]+ST0[2]+ST0[3]))
-    h += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작했어요. 이 기간엔 아직 판정한 기사가 없어요.</div>';
+    W += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작했어요. 이 기간엔 아직 판정한 기사가 없어요.</div>';
   if(ST0[0]+ST0[1]+ST0[2]+ST0[3])
     h += '<div class="tot sentot">'+sentHtml(ST0)+' <span class="chgnote">긍정 · 부정 · 중립 (판정 다름 '+ST0[3].toLocaleString()+'건은 빼고)</span></div>';
   if(xf.length && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
-    h += '<div class="warn">≈ '+xf.map(function(d){ return d.slice(5).replace('-','/'); }).join(', ')+'의 일부(판정 규칙이 생기기 전 \'판정 다름\'이던 기사)는 Claude 가 직접 판정한 같은 종류 기사들의 비율로 나눈 <b>추정치</b>예요.</div>';
+    W += '<div class="warn">≈ '+xf.map(function(d){ return d.slice(5).replace('-','/'); }).join(', ')+'의 일부(판정 규칙이 생기기 전 \'판정 다름\'이던 기사)는 Claude 가 직접 판정한 같은 종류 기사들의 비율로 나눈 <b>추정치</b>예요.</div>';
   if(est && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
-    h += '<div class="warn">≈ 이 기간 중 <b>'+est+'일</b>('+se[0].slice(5).replace('-','/')+'~'+se[se.length-1].slice(5).replace('-','/')+')은 기사 제목이 남아 있지 않아, 테마·하루마다 약 40건을 다시 모아 판정한 <b>표본 비율로 추정</b>한 숫자예요.</div>';
+    W += '<div class="warn">≈ 이 기간 중 <b>'+est+'일</b>('+se[0].slice(5).replace('-','/')+'~'+se[se.length-1].slice(5).replace('-','/')+')은 기사 제목이 남아 있지 않아, 테마·하루마다 약 40건을 다시 모아 판정한 <b>표본 비율로 추정</b>한 숫자예요.</div>';
   var hd = P[0].filter(function(d){ return (ST.hist||{})[d]; }).length;
   if(hd)
-    h += '<div class="warn">≈ 이 기간 중 <b>'+hd+'일</b>('+(ST.hist_span||['',''])[0].slice(5).replace('-','/')+'~'+(ST.hist_span||['',''])[1].slice(5).replace('-','/')+')은 봇이 세기 전이라, <b>GDELT 원본 파일의 기사 제목</b>을 봇과 같은 기준으로 센 뒤 '+
+    W += '<div class="warn">≈ 이 기간 중 <b>'+hd+'일</b>('+(ST.hist_span||['',''])[0].slice(5).replace('-','/')+'~'+(ST.hist_span||['',''])[1].slice(5).replace('-','/')+')은 봇이 세기 전이라, <b>GDELT 원본 파일의 기사 제목</b>을 봇과 같은 기준으로 센 뒤 '+
          '두 가지를 모두 센 날('+(ST.hist_ov||['',''])[0].slice(5).replace('-','/')+'~'+(ST.hist_ov||['',''])[1].slice(5).replace('-','/')+')로 테마마다 크기를 맞춘 <b>추정치</b>예요. 나라 구분은 사이트 주소·제목 글자로 나눠 대략적이에요.</div>';
   var de = ST.days_est || [], nde = de.length ? P[0].filter(function(d){ return d >= de[0] && d <= de[1]; }).length : 0;
   if(nde)
-    h += '<div class="warn">≈ 이 기간 중 <b>'+nde+'일</b>('+de[0].slice(5).replace('-','/')+'~'+de[1].slice(5).replace('-','/')+')은 1시간마다 세기 전이라, 구글 뉴스 날짜 검색으로 다시 센 뒤 실제로 센 날과 비교해 테마별로 보정한 <b>추정치</b>예요.</div>';
+    W += '<div class="warn">≈ 이 기간 중 <b>'+nde+'일</b>('+de[0].slice(5).replace('-','/')+'~'+de[1].slice(5).replace('-','/')+')은 1시간마다 세기 전이라, 구글 뉴스 날짜 검색으로 다시 센 뒤 실제로 센 날과 비교해 테마별로 보정한 <b>추정치</b>예요.</div>';
   if(P[0].length > 1 && hc < P[0].length)
-    h += '<div class="warn">⚠️ 기사 수는 '+((ST.hist_span||[])[0] || f).slice(5).replace('-','/')+'부터 있어서 이 기간은 <b>'+hc+'일치</b>만 있어요 ('+P[0].length+'일 중).'+(ST.hist_span ? '' : ' 날이 지나면 저절로 채워져요.')+
+    W += '<div class="warn">⚠️ 기사 수는 '+((ST.hist_span||[])[0] || f).slice(5).replace('-','/')+'부터 있어서 이 기간은 <b>'+hc+'일치</b>만 있어요 ('+P[0].length+'일 중).'+(ST.hist_span ? '' : ' 날이 지나면 저절로 채워져요.')+
          (hp ? '' : ' 이전 기간 자료가 없어 ▲▼ 비교는 아직 안 나와요.')+'</div>';
+  h += notesBox(W);
   h += rows.map(function(r, i){
     var open = S.open[r.th];
     return '<div class="srow'+(open?' open':'')+'" data-th="'+esc(r.th)+'">'+
@@ -1267,7 +1284,7 @@ function renderStats(t){
   h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 바로 앞 같은 길이 기간보다 몇 계단 오르고 내렸는지<br>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
        '· 숫자 오른쪽 <span style="color:#4ade80">●</span>긍정 <span style="color:#f87171">●</span>부정 <span style="color:#a8a29e">●</span>중립 = 기사 제목을 낱말 판정과 무료 AI(Qwen2.5) 판정으로 따로 보고, 둘이 같으면 그대로, 다르면 Claude 가 실제 기사로 정한 규칙(낱말 중립+AI 긍정→중립 등)으로 정하고, 긍정↔부정처럼 크게 엇갈리면 판정 다름으로 빼요. Claude 가 판정 다름 기사를 따로 검토해 고쳐요<br>'+
        '· 숫자 옆 + 는 검색 결과가 너무 많아 실제보다 적게 잡혔을 수 있다는 표시예요 (구글 뉴스는 한 번에 최대 100개)<br>'+
-       '· ▲▼ 는 바로 앞 같은 길이 기간과 비교 (오늘은 진행 중이라 작게 나와요 · 모인 날 수가 다르면 하루 평균끼리 비교)<br>'+
+       '· ▲▼ 는 바로 앞 같은 길이 기간과 비교 (오늘은 어제 같은 시각까지와 비교 · 모인 날 수가 다르면 하루 평균끼리 비교)<br>'+
        '· 봇은 '+esc(f)+'부터 1시간마다 직접 셌어요 (첫날은 일부만 잡힘)'+(ST.hist_span ? ' · 그 전('+esc(ST.hist_span[0])+'~)은 GDELT 원본 파일 기사 제목으로 센 추정치' : '')+' · 2년치까지 보관 (1년 통계를 그 전 1년과 비교)</footer>';
   $('main').innerHTML = h;
 }
@@ -1362,13 +1379,15 @@ function renderLong(h){
   if(S.region === 'world'){ $('main').innerHTML = h + '<p class="none">장기 추이는 나라별(한국·미국·중국·대만·홍콩·일본·싱가포르)로만 셀 수 있어요. 위에서 \'전체\'나 다른 나라를 골라 주세요.</p>'; return; }
   var P = lperiod();
   h += '<p class="note">GDELT(전 세계 뉴스 기록) 자료 · 본문에 테마 단어가 나온 기사 수 · 일주일에 한 번 갱신 · '+esc(HI.end.slice(5).replace('-','/'))+'까지 · 업데이트 '+esc(HI.updated||'')+'</p>';
-  if(!HI.complete) h += '<div class="warn">⏳ '+HI.since.slice(0,4)+'년 1월부터 자료를 아직 받는 중이에요. 다 받기 전엔 일부 테마·나라·연도가 0이나 빈칸으로 보여요. 자료 서버가 느려서 하루쯤 걸려요 (봇이 알아서 이어 받음).</div>';
+  var W = '';
+  if(!HI.complete) W += '<div class="warn">⏳ '+HI.since.slice(0,4)+'년 1월부터 자료를 아직 받는 중이에요. 다 받기 전엔 일부 테마·나라·연도가 0이나 빈칸으로 보여요. 자료 서버가 느려서 하루쯤 걸려요 (봇이 알아서 이어 받음).</div>';
   h += '<div class="seg lp">' + [['all','전체'],['lm','지난달'],['ty','올해'],['yr','연도별']].map(function(x){
     return '<button data-lp="'+x[0]+'" class="'+(S.lp===x[0]?'on':'')+'">'+x[1]+'</button>'; }).join('') + '</div>';
   if(S.lp === 'yr') h += '<div class="seg ly">' + years().slice().reverse().map(function(y){   // 옛날 → 최근 순서로 (기본 선택은 최근 해)
     return '<button data-ly="'+y+'" class="'+(pickYear()===y?'on':'')+'">'+y+'</button>'; }).join('') + '</div>';
   var dc = avn(P[0][0], P[0][1]), dp = P[1] ? avn(P[1][0], P[1][1]) : 0, span = P[0][1] - P[0][0];
-  if(span - dc > 0) h += '<div class="warn">ℹ️ 이 기간 중 '+(span-dc)+'일은 GDELT 서버 사정으로 자료가 비어 있어요 ('+span+'일 중 '+dc+'일치). 합계는 그만큼 적게 잡히고, ▲▼ 비교는 하루 평균끼리 해요.</div>';
+  if(span - dc > 0) W += '<div class="warn">ℹ️ 이 기간 중 '+(span-dc)+'일은 GDELT 서버 사정으로 자료가 비어 있어요 ('+span+'일 중 '+dc+'일치). 합계는 그만큼 적게 잡히고, ▲▼ 비교는 하루 평균끼리 해요.</div>';
+  h += notesBox(W);
   var rows = (HI.themes||[]).map(function(th){ return {th:th, n:hsum(th, P[0][0], P[0][1]), p: P[1] ? hsum(th, P[1][0], P[1][1]) : null}; })
                             .sort(byN);
   ranks(rows, !!P[1] && dp > 0);
@@ -1399,7 +1418,7 @@ document.addEventListener('click', function(e){
 STATS_CSS = r""".seg{display:flex;gap:4px;margin:6px 4px 10px}.seg button{flex:1;min-width:0;border:1px solid var(--line);background:transparent;color:var(--sub);border-radius:8px;padding:7px 0;font:inherit;font-size:12.5px;white-space:nowrap}
 .seg.ly{margin-top:-4px}.seg.ly button{padding:5px 0;font-size:12px}.seg.ly button.on{background:var(--card2);border-color:var(--acc);color:var(--text);font-weight:600}
 .seg.sm{margin-bottom:8px}.seg.sm button{padding:9px 0;font-size:13px}.seg.sm button.on{background:var(--card2);border-color:var(--acc);color:var(--text)}
-.warn{margin:0 4px 10px;padding:8px 10px;border-radius:8px;background:rgba(250,204,21,.08);color:var(--sub);font-size:12.5px;line-height:1.5}.warn b{color:var(--text)}
+.notes{margin:0 4px 10px}.notes summary{cursor:pointer;font-size:13px;color:var(--sub);padding:6px 10px;border-radius:8px;background:rgba(250,204,21,.08);list-style:none}.notes summary::-webkit-details-marker{display:none}.notes summary:before{content:"▸ ";}.notes[open] summary:before{content:"▾ ";}.notes[open] summary{margin-bottom:6px}.notes .warn{margin:0 0 6px}.warn{margin:0 4px 10px;padding:8px 10px;border-radius:8px;background:rgba(250,204,21,.08);color:var(--sub);font-size:12.5px;line-height:1.5}.warn b{color:var(--text)}
 .seg button.on{background:var(--acc);border-color:var(--acc);color:#1f1e1d;font-weight:600}
 .tot{margin:2px 4px 10px;color:var(--sub);font-size:13px}.tot b{color:var(--text)}.chgnote{font-size:11px}
 .srow{background:var(--card);border-radius:12px;margin:6px 0;padding:10px 12px;cursor:pointer}.srow.open{background:var(--card2)}
