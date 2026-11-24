@@ -917,27 +917,6 @@
 "pv": "cd009b1f"
 },
 {
-"key": "europesstoxx600risesastechsharesreboundafteraidrivenrout",
-"keys": [
-"europesstoxx600risesastechsharesreboundafteraidrivenrout"
-],
-"count": 2,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "Europe's STOXX 600 rises as tech shares rebound after AI-driven rout",
-"show": "AI 중심 매도 후 기술주 반등으로 유럽 STOXX 600 상승",
-"source": "Reuters",
-"src_url": "https://www.reuters.com",
-"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdDFuaFRyaktlcVA5TVR0eXF2QlktZ3ZVU3JkbzZycU8zTU90WEhFSlhuVTc5RTRCdVctYVpuQzZhdUJnN1BlZWdOYkZEQXg5alR6d1BDVWEwMEszRTlRUFB1aG9ueFhHWmZmbkI1dmFSSmNZMVF6VzlhZFpBOG5BaVJ0QlprZnRVRmVIZ2djcXFzM3VrU2VQa3FQelVLU2Qzd2MwT19jTUdkRnVWYmc?oc=5",
-"pub": 1795429607.0,
-"time": "11/23 19:26",
-"run": "202611231320",
-"added": 1795440052,
-"url": "https://www.reuters.com/markets/europe/european-stocks-recover-after-steep-technology-led-selloff-2026-11-23/",
-"sum_tried": 2,
-"pv": "cd009b1f"
-},
-{
 "key": "黃仁勳出軌市場再憂華爾街日報唧牙膏式報道英偉達盤前跌5",
 "keys": [
 "黃仁勳出軌市場再憂華爾街日報唧牙膏式報道英偉達盤前跌5"
@@ -955,7 +934,7 @@
 "run": "202611241157",
 "added": 1795521503,
 "url": "https://inews.hket.com/article/4230331/%E3%80%90%E9%BB%83%E4%BB%81%E5%8B%B3%E5%87%BA%E8%BB%8C%E3%80%91%E5%B8%82%E5%A0%B4%E5%86%8D%E6%86%82%E3%80%8A%E8%8F%AF%E7%88%BE%E8%A1%97%E6%97%A5%E5%A0%B1%E3%80%8B%E3%80%8C%E5%94%A7%E7%89%99%E8%86%8F%E3%80%8D%E5%BC%8F%E5%A0%B1%E9%81%93%E3%80%80%E8%8B%B1%E5%81%89%E9%81%94%E7%9B%A4%E5%89%8D%E8%B7%8C5-",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -997,7 +976,7 @@
 "run": "202611241157",
 "added": 1795521505,
 "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1186,7 +1165,7 @@
 "run": "202611241157",
 "added": 1795521504,
 "url": "https://inews.hket.com/article/4230158/%E7%82%BA%E4%BD%95%E6%A8%99%E6%99%AE500%E6%98%AF%E6%8A%95%E8%B3%87%E7%BE%8E%E8%82%A1%E7%9A%84%E6%94%BB%E5%AE%88%E5%85%BC%E5%82%99%E4%B9%8B%E9%81%B8%EF%BC%9F",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1372,7 +1351,7 @@
 "time": "11/24 15:28",
 "run": "202611241157",
 "added": 1795521493,
-"url_tried": 1,
+"url_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -1414,7 +1393,7 @@
 "run": "202611241157",
 "added": 1795521484,
 "url": "https://uk.finance.yahoo.com/quote/%5ESPXEHAET/seasonality/",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -4579,48 +4558,6 @@
 "pv": "cd009b1f"
 },
 {
-"key": "ai泡沫破了嗎華爾街日報示警資料中心晶片股投機泡沫已破",
-"keys": [
-"ai泡沫破了嗎華爾街日報示警資料中心晶片股投機泡沫已破"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "AI泡沫破了嗎？華爾街日報示警資料中心、晶片股投機泡沫已破",
-"show": "AI 버블이 터졌나요? 월스트리트저널은 반도체주의 투기 거품이 터졌다고 경고했습니다.",
-"source": "鉅亨網",
-"src_url": "https://news.cnyes.com",
-"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84cEV5UFJySUQ0SUMwaUl6TkVjYUhtbGZkUGRKT0pLd1RPN0oxNjZLYWhlQkdLaGg0QUhnLTZIcGZqcHUxXzFEcGF1Z01FbVE?oc=5",
-"pub": 1795439405.0,
-"time": "11/23 22:10",
-"run": "202611231320",
-"added": 1795440058,
-"url": "https://news.cnyes.com/news/id/6670125",
-"sum": "AI 컨셉주는 최근 몇 주 동안 매도압력을 받고 있는데 이는 2000년 닷컴버블과 유사하다. 그러나 현재의 영향은 여전히 AI 관련 산업에 집중되어 있으며 아직 경제로 완전히 확산되지는 못하고 있다.\n마이크론, 코어위브 등 주가가 급등했다가 급락하는 등 데이터센터, 반도체, 공급망 등에서 부분적인 투기 거품이 터졌다.\n하락으로 인해 기업이 자본 지출을 줄이게 되면 공급망과 자금 조달을 따라 확산되고 부 효과를 통해 소비가 억제되고 시장 영향이 증폭될 수 있습니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "華爾街避險基金大撤退摩根士丹利強勢股不再受追捧基金槓桿降至一年低點",
-"keys": [
-"華爾街避險基金大撤退摩根士丹利強勢股不再受追捧基金槓桿降至一年低點"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "華爾街避險基金大撤退！摩根士丹利：強勢股不再受追捧 基金槓桿降至一年低點",
-"show": "월스트리트 헤지펀드 후퇴! 모건스탠리: 강세 주식은 더 이상 인기가 없으며 펀드 레버리지도 1년 최저 수준으로 하락",
-"source": "鉅亨網",
-"src_url": "https://news.cnyes.com",
-"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16VkJacjk2SmhuVmtHSDdqblBfZy1GSDNzSHNfdHlzeVl6eVI0UmhmTy1ZSzBVR0lfSFV2UGRLMGJNNmczZWs2Zl96cGpBbmc?oc=5",
-"pub": 1795439223.0,
-"time": "11/23 22:07",
-"run": "202611231320",
-"added": 1795440060,
-"url": "https://news.cnyes.com/news/id/6670239",
-"sum": "월스트리트 헤지펀드는 순 레버리지 비율이 41%, 총 레버리지 비율이 195%로 떨어지는 등 위험포지션 축소에 속도를 냈다. 두 가지 모두 지난 12개월 만에 최저치를 기록했다.\n모멘텀 거래가 롱에서 숏으로 전환, 기술주의 순익스포저 비율이 22.5%로 하락\n골드만삭스는 시장 패닉 지수가 9.8까지 상승했으며, 시장 반등 여부는 여전히 연준의 정책과 기업 이익 실적에 달려 있다고 지적했다.",
-"pv": "cd009b1f"
-},
-{
 "key": "watchmarketswhyedyardeniloweredhisyearendsp500target",
 "keys": [
 "watchmarketswhyedyardeniloweredhisyearendsp500target",
@@ -4643,27 +4580,6 @@
 "pv": "cd009b1f"
 },
 {
-"key": "sp500futuresclimbinpremarkettradingkymeratherapeuticszscalerlead",
-"keys": [
-"sp500futuresclimbinpremarkettradingkymeratherapeuticszscalerlead"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "S&P 500 Futures Climb in Premarket Trading; Kymera Therapeutics, Zscaler Lead",
-"show": "S&P500 선물, 개장 전 거래 상승; Kymera Therapeutics, Zscaler 리드",
-"source": "Barron's",
-"src_url": "https://www.barrons.com",
-"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMk1kZDhoMzRIWEZqUUtncFY4d0NOaFdEVHBJYldzcEFKUzVHUmxGRzFRNGdQOWVpLTFVTnRHd2ZlSVA1OUhUcjdncnREVG9yZ25lN3RzakswcHBEZExid2pRVElGUWVRdHczcF92STdoZGJNSC1GclFELUwydk0xbllHOTQ1eXdQSE9XNnF1bmNoOFpuMkdMUXo3NjZSWS1TUjV3cUF3UTlxdFlGTV9kS2VWRGFDZTIx?oc=5",
-"pub": 1795437000.0,
-"time": "11/23 21:30",
-"run": "202611231320",
-"added": 1795440048,
-"url": "https://www.barrons.com/articles/s-p-500-futures-climb-in-premarket-trading-kymera-therapeutics-zscaler-lead-199b54a0",
-"sum_tried": 2,
-"pv": "cd009b1f"
-},
-{
 "key": "wallstreetsurgestowardmarecordasmegadealsdefyselloff",
 "keys": [
 "wallstreetsurgestowardmarecordasmegadealsdefyselloff"
@@ -4682,90 +4598,6 @@
 "added": 1795503029,
 "url": "https://www.bloomberg.com/news/articles/2026-11-23/wall-street-surges-toward-m-a-record-as-megadeals-defy-selloff",
 "sum_tried": 2,
-"pv": "cd009b1f"
-},
-{
-"key": "11sp500stocksthriveastechandaidiveinmassiveselloff",
-"keys": [
-"11sp500stocksthriveastechandaidiveinmassiveselloff"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "11 S&P 500 Stocks Thrive As Tech And AI Dive In Massive Sell-Off",
-"show": "11개의 S&P500 주식은 기술과 AI가 대규모 매도세를 보이면서 번창했습니다.",
-"source": "Investor's Business Daily",
-"src_url": "https://www.investors.com",
-"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZG1TZk5FV05PZk9YVzNaOVBtTWloV3FfRHMzcG1QZnlxY09CVTBwYnY5aWlQZVBUTi1BSnR3eWRjY2NpSm96ZjI0QkgtbDJ3TVBFbVNvMzJTNWxLYkRTdUNkRnd6cFBMbGJEOTMtX0txd2NmR2JDZ293MlR4d2pWQWphMUswN1FrSENWYkxIZU00N19nTUxRNlV0UXQ5VmVaNzV6YU1jV0h5VWJaSEFR?oc=5",
-"pub": 1795435680.0,
-"time": "11/23 21:08",
-"run": "202611231320",
-"added": 1795440049,
-"url": "https://www.investors.com/etfs-and-funds/sectors/sp-500-stocks-thrive-as-tech-and-ai-dive-in-massive-sell-off/",
-"sum": "AI와 기술주 붐에 쌓인 투자자들은 지금 그로 인해 어려움을 겪고 있습니다. 그러나 덜 주목받는 다른 주식도 상승하고 있습니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "聯準會理事庫克表示遏制通膨擴散愈發緊迫國際焦點國際",
-"keys": [
-"聯準會理事庫克表示遏制通膨擴散愈發緊迫國際焦點國際"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇹🇼 대만",
-"title": "聯準會理事庫克表示遏制通膨擴散愈發緊迫 | 國際焦點 | 國際",
-"show": "쿡 연준 총재는 인플레이션 확산을 억제하는 것이 점점 더 시급해지고 있다고 말했습니다 | 국제 포커스 | 국제",
-"source": "經濟日報",
-"src_url": "https://money.udn.com",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8telNVa2FvbldsVm9CaXZyb1VBRTNhbGpOX3phaE54UHFIUzhCaVhqVHprX3hGbFNlX2lQbWRyVEk5X2pyZFNsc1F3ZlRKOEs0aWs3SFJkSEhJQQ?oc=5",
-"pub": 1795435566.0,
-"time": "11/23 21:06",
-"run": "202611231320",
-"added": 1795440062,
-"url": "https://money.udn.com/money/story/5599/9895689",
-"sum": "[블룸버그] -- 리사 쿡 연방준비제도(연준) 총재는 미국 중앙은행이 인플레이션을 낮추기 위해 긴급하게 금리를 인상해야 한다고 말하면서 조치가 지연된다면 앞으로 금리를 더 빨리, 더 높은 수준으로 인상해야 할 수도 있다고 경고했습니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "usstockspoisedforabouncebackthoughfearsabound",
-"keys": [
-"usstockspoisedforabouncebackthoughfearsabound"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "US stocks poised for a bounce back, though fears abound",
-"show": "미국 증시는 반등할 준비가 되어 있지만 우려는 크다",
-"source": "Semafor",
-"src_url": "https://www.semafor.com",
-"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnJMYWdRNFhyTFpwZFRTQVVsMzdydnNWUWUyWGhEa29DZDVVSEMxMV9oTFJBVmFnSFZBNDUwelY5cFhnRHZkYkREVjlDc21BbThUTVFLdzZSSnFDSnVCV0pGeVZJVUVpLThZdTU5YWpMaXFpWTFHRUQ1Y2JvX1IwTzlrbDFXVTlCU3ZlUDU2czllU0otaTdYT1FZRHVHNGd2V3NnOWEzM2tDNlUwN1JV?oc=5",
-"pub": 1795435200.0,
-"time": "11/23 21:00",
-"run": "202611231320",
-"added": 1795440049,
-"url": "https://www.semafor.com/article/11/23/2026/us-stocks-poised-to-rebound-prompting-asian-regulators-intervention",
-"sum": "월요일 아시아의 부진은 금요일 미국의 매도세에 이어 나스닥이 코로나19 대유행 이후 최악의 한 주를 기록했습니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "trumpwarnsusstockmarketcrashwillgetworseafter6trillionwipeoutbutwhyaredowjonessp",
-"keys": [
-"trumpwarnsusstockmarketcrashwillgetworseafter6trillionwipeoutbutwhyaredowjonessp"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "Trump warns US stock market crash will get worse after $6 trillion wipeout, but why are Dow Jones, S&P 500",
-"show": "트럼프는 6조 달러 손실 이후 미국 증시 붕괴가 더욱 악화될 것이라고 경고했는데 다우존스, S&P500은 왜 그랬는가?",
-"source": "The Economic Times",
-"src_url": "https://m.economictimes.com",
-"link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPRHlTbTdKRTQ3OXJSaDZyaXpGWlp3eE14YlotamFmWkFqMU1jVTg0YlNXOHk2eVVBREd3Zm5FZzMxZ0RzeFl1Y3RPcHlfci1ubDdrMDdZSkR2TURhNXRzcl9mN0JpZG9JNVZKbW9zeF94aUxpWU1HR19ZWU42eWRrRjNvRkZMRU40cGhra2VNaDR0T1FDeC1VOW5KN0pMeHNsaGQtcUFuc0RERHU0a09QclNhSEctTHlRYW5BajBaS0l5VlhHOUFXNEdRVFItelpNa2NtLWtaOVJIZ3dSVk5Bd1NUSnAzSjdwNzBVY3diZFN5TWk2NHRaaUhROHJzUHpyazB4cjg1T09hUGUwUlBJanU0dUh2QmNPVVhXN3hzcE8xUGxDbjZoRDBmLTFUb1lpN09scnNEV3hSa29uZklIS0dNQjlqSy0wR3hpLXBRZnk2SjVSQTQ1ZkJmMWMtc3JIZG1GUmxqN2ZtSF9xWFFuZmZ4NnNxQmo2SnfSAf8CQVVfeXFMTTlxck1FTnY4U1RKNlI3bUtFT3ZjVDlsUjE1cXRTM1NJSjR2MEZNamZOTXVIbDI3dWtBc085ZGZKUnJhcDQ0bVJQN0lYM3hCN0dWa1JUdEVDaWV2R01laG4yZUlYVE5vNkE3d2hQaFI3dk1HYk81YzFNVHhKRnJZTHZwSUJLVzJTNl9wem5sYVJ1dEJNWl9vTUJOMmlWSlZ2MFl1WlBUSEhLVFhnY2NLMTF0MEZRUnJ2cjNheW9YQ0pqZDJFaXNXc2ZuWWRrd0Y1dWMzOWtVT3NlZGFkR3VNeHVJYXcxMERwaTZBWFFVYTdaWlBORnFYSlRpTVpoUGJUbVVMT2djNENpT3F0dDZGMjBWOWg1WnBsNjZwN0poMjBLRjF5LUVJcWFZQ0hnOXlrZHhtMmt4cks3MExUVDNlcWJZRTVnMWVmd3ZMa010cTRCSjlnZnFjN1N6dkxkWDJkZjZmbzBGZGJuVTljUVowSlJZRlVRRnBqVnh1aTdsam8?oc=5",
-"pub": 1795435198.0,
-"time": "11/23 20:59",
-"run": "202611231320",
-"added": 1795440050,
-"url": "https://m.economictimes.com/world/us/trump-warns-us-stock-market-crash-will-get-worse-after-6-trillion-wipeout-but-why-are-dow-jones-sp-500-and-nasdaq-futures-rebounding-as-south-koreas-kospi-crashes-and-triggers-a-5-minute-trading-halt/articleshow/136100363.cms",
-"sum": "미국 증시 붕괴 경고: 트럼프는 민주당의 중간 승리로 인해 미국 주식이 6조 달러의 손실을 입었다고 말했으며 매도세는 더욱 악화될 수 있다고 경고했습니다. 그러나 다우존스, S&P500, 나스닥 선물은 월요일 오전 2.13%, 2.88%, 3.54% 상승하며 반등 가능성을 시사했습니다. 한국에서는 코스피가 5% 이상 하락해 5분간 프로그램 매도가 중단된 뒤 3.31% 하락세로 장을 마감했습니다.",
 "pv": "cd009b1f"
 },
 {
@@ -4850,48 +4682,6 @@
 "added": 1795503243,
 "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-jump-111609205.html",
 "sum": "나스닥 선물은 반도체 주식이 25년 만에 최악의 주를 겪은 후 월스트리트 반등을 이끌었습니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "fivechartsunpackoneoftheworstweeksforstocksindecades",
-"keys": [
-"fivechartsunpackoneoftheworstweeksforstocksindecades"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "Five Charts Unpack One of the Worst Weeks for Stocks in Decades",
-"show": "5개의 차트로 수십 년 만에 주식 최악의 주 중 하나를 보여줍니다.",
-"source": "Bloomberg.com",
-"src_url": "https://www.bloomberg.com",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTWdFMWhlb1N5cm1VV2hSR2dJWENHbU5fT1l3ai1Va090R3VvczAzSDBWLTJKT0JqRFphM09Zc1BDTUE2N1BqVmlZcHVhRnlpTkZ0ZjMycWNyT2ZWdThsMDBlZm5RN0ZJSDIxbktTbVJEaHZDbUFaN09BRi1ZaHowczI3eVdkb3E4MnVIU3dPSGE1V3VUMnVldTdrOFlkc1F1RXBwOEt6d0p1ZTdKZWJhczc1VWs?oc=5",
-"pub": 1795429760.0,
-"time": "11/23 19:29",
-"run": "202611231320",
-"added": 1795440051,
-"url": "https://www.bloomberg.com/news/articles/2026-11-23/five-charts-unpack-one-of-the-worst-weeks-for-stocks-in-decades",
-"sum_tried": 2,
-"pv": "cd009b1f"
-},
-{
-"key": "大摩给出4月以来最乐观短线判断称当下美股买入良机不容错过",
-"keys": [
-"大摩给出4月以来最乐观短线判断称当下美股买入良机不容错过"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "大摩给出4月以来最乐观短线判断 称当下美股买入良机不容错过",
-"show": "모건스탠리는 현재 미국 주식 매수 기회를 놓칠 수 없다며 4월 이후 가장 낙관적인 단기 판단을 내렸다.",
-"source": "财联社",
-"src_url": "https://www.cls.cn",
-"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4yRjdxVlZHZjd1RTBycVFmUnYzUW5mWHUtTHZiak9ZcXdpSWJyUXBlS1o0Z0RFVnpLMF9oZkktRWJ3d1pZVEJLZA?oc=5",
-"pub": 1795426260.0,
-"time": "11/23 18:31",
-"run": "202611231320",
-"added": 1795440054,
-"url": "https://www.cls.cn/detail/2542126",
-"sum": "① 모건스탠리 전략가들은 S&P와 다우가 모두 조정 범위에 들어간 후 시장은 투자자들에게 놓칠 수 없는 매수 기회를 제공했다고 말했습니다. ② S&P500 지수의 예상 주가수익률은 10월 말 23배 가까이 정점을 찍은 뒤 현재 16.5배로 급락했는데, 이는 장기 평균인 17.4배보다 낮다. 차이롄서, 11월 23일(자오 하오 편집자) 모건스탠리 전략가들은 S&P500 지수와 다우존스 산업평균지수가 모두 조정 범위에 들어간 후 시장이 투자자들에게 놓쳐서는 안 될 매수 기회를 제공했다고 말했습니다. 마이클 윌슨이 이끄는 모건스탠리 전략가 팀은 기업 실적과 주가 평가가 시장 반등을 뒷받침하고 있으며 최근 공황 매도세도 반등 여건을 조성했다고 지적했다. 전술적 수준에서 팀의 현재 낙관적 입장은 4월 초 이후 가장 강력합니다.",
 "pv": "cd009b1f"
 },
 {
@@ -4999,48 +4789,6 @@
 "pv": "cd009b1f"
 },
 {
-"key": "高盛明年全球gdp料增28美联储有望明年底降息",
-"keys": [
-"高盛明年全球gdp料增28美联储有望明年底降息"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇨🇳 중국",
-"title": "高盛：明年全球GDP料增2.8% 美联储有望明年底降息",
-"show": "골드만삭스 \"내년 세계 GDP 2.8% 성장할 것, 연준은 내년 말까지 금리 인하할 것\"",
-"source": "财联社",
-"src_url": "https://www.cls.cn",
-"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sd2N1VHl2UTZDZl9yREpnZmNaRmtEaHdZWWU2Z2kxbFBtdDU3eExHM2ZYN2kyTlEzZVBGYVJtVm9vRE15cU1SVQ?oc=5",
-"pub": 1795394987.0,
-"time": "11/23 09:49",
-"run": "202611231320",
-"added": 1795440056,
-"url": "https://www.cls.cn/detail/2541146",
-"sum": "① 골드만삭스는 2027년 세계 실질 GDP 성장률이 2.8%로 2026년 예측치 2.7%보다 약간 높을 것이라고 예측하지만 전반적인 위험은 아래쪽으로 기울어져 있습니다. ② 골드만삭스는 연준이 올해 12월과 2027년 3월 금리를 각각 0.25%포인트씩 인상한 뒤 내년 11월부터 점진적인 금리 인하를 시작할 것으로 예상했다. 차이롄서 에이전시, 11월 23일(편집자 Liu Rui) 골드만삭스는 2027년 중국의 글로벌 실질 국내총생산(GDP) 성장률이 2026년 2.7%보다 소폭 높은 2.8%로 전망하지만 전체적인 리스크는 하향으로 기울어져 있다. 골드만삭스는 내년에 세계 주요 경제의 금융여건이 긴축되고 재정정책이 중립으로 돌아올 것으로 내다봤다. 그러나 이러한 변화가 세계 경제에 미치는 영향은 낮은 에너지 가격과 여전히 강력한 인공지능 자본 지출로 인해 상쇄될 것입니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "미장브리핑뉴욕증시나스닥폭락반도체주급락sp500도동반약세",
-"keys": [
-"미장브리핑뉴욕증시나스닥폭락반도체주급락sp500도동반약세",
-"미장브리핑뉴욕증시다우존스강세sp500급등"
-],
-"count": 1,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇰🇷 한국",
-"title": "[미장 브리핑] 뉴욕증시, 나스닥 폭락·반도체주 급락... S&P 500도 동반 약세",
-"show": "[미장 브리핑] 뉴욕증시, 나스닥 폭락·반도체주 급락... S&P 500도 동반 약세",
-"source": "센머니",
-"src_url": "https://www.senmoney.co.kr",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBISEJjd2RrbktZWjBtWFZzc0x1NDdoSENXazFVazU5Uy02Y0NRd2tYZ0dIMmUyeGQ5czlCc3dTaWg4ejQ5THY3TXRoYjdkZDlwNDA2eEg3VE4xWktBY3k3T3dlQzZJNkpvNlBxMQ?oc=5",
-"pub": 1795392643.0,
-"time": "11/23 09:10",
-"run": "202611231320",
-"added": 1795440048,
-"url": "https://www.senmoney.co.kr/news/articleView.html?idxno=38789",
-"sum": "[센머니=김병진 기자] 기술주와 반도체주 투매, 중동 긴장 재부각이 겹치면서 11월 22일(현지시간) 뉴욕증시에서 주요 지수가 일제히 하락 마감했다.장 마감 기준 다우존스30산업평균지수는 1.93% 하락했고, S&P 500 지수는 3.70% 내렸으며, 나스닥종합지수는 5.28% 떨어졌다. 특히 나스닥은 5% 이상 하락하며 폭락 흐름을 나타냈다. 이날 증시는 인공지능 관련 대표주인 엔비디아 급락을 중심으로 기술주 전반의 매도세가 확대된 데다, 미국과 이란을 둘러싼 긴장 고조, 호르무즈 해협 인근 불안, 국제유가의 지정학적 프리미엄 재"
-},
-{
 "key": "生技新兵報到興櫃添動能",
 "keys": [
 "生技新兵報到興櫃添動能"
@@ -5133,28 +4881,6 @@
 "added": 1795403778,
 "url": "https://www.yicai.com/brief/103449765.html",
 "sum": "2026/11/23 10:16 [혁신신약 개념 일부 변경] 라이메이제약과 Nearshore Protein이 10% 이상 상승했으며, Bepsis, Yaokang Biotech, Wanbang Pharmaceuticals, Medicilon이 상승세를 주도했습니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "医药保学面对面首站在穗举办推动创新药落地",
-"keys": [
-"医药保学面对面首站在穗举办推动创新药落地",
-"51种1类新药纳入目录后如何更顺利让患者用上医药保学面对面首站在粤破题最后一公里"
-],
-"count": 2,
-"theme": "🧬 나스닥 바이오",
-"region": "🇨🇳 중국",
-"title": "“医药保学面对面”首站在穗举办 推动创新药落地",
-"show": "혁신적인 약물 구현을 촉진하기 위해 첫 번째 '의학 및 교육 대면' 스테이션이 광저우에서 개최되었습니다.",
-"source": "中国新闻网",
-"src_url": "https://www.chinanews.com.cn",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RYjUzMkZrTlVDaWdzbjZqaVBCcHRkWnV3am1VYXVpTDJzZjR0TjVtV2ZfYktBTFNpZUJNa0pBcWdiQnlPTTBwMWxsSFVOLXVXLVNuQUtUZDZaR2lXVTd6MzF3REh1SUxy?oc=5",
-"pub": 1795263543.0,
-"time": "11/21 21:19",
-"run": "202611211244",
-"added": 1795265090,
-"url": "https://www.chinanews.com.cn/sh/2026/11-21/10735862.shtml",
-"sum": "혁신적인 약물의 구현을 촉진하기 위해 첫 번째 '학교 보호를 위한 대면 의학' 행사가 광저우에서 개최되었습니다. 중국신보사, 광저우, 11월 21일(채민제 기자) 21일 광저우에서 2026년 의료보험약품 카탈로그 신품종 대상 '학교보호를 위한 대면의학' 행사(제1차)가 열렸다. 이번 행사에서 발표된 신호는 더욱 명확합니다. 국민의료보험청은 혁신적인 의약품 접근의 초점을 \"카탈로그 입력\"에서 \"병원 입력, 처방전 입력, 강의실 입력\"으로 확대하여 신약이 환자의 실제 요구에 더 빨리 혜택을 줄 수 있도록 하고 있습니다. 혁신적인 의약품의 경우 카탈로그에 포함되는 것은 단지 \"임신 증명서\"일 뿐입니다. 실제 접근성은 해당 약물이 임상적으로 알려져 있는지, 사용할 수 있는지, 환자가 찾을 수 있는지에 따라 달라집니다. 국민의료보험국 약품서비스관리부 황신위 국장은 2026년 의료보험 약품 목록에 신품종과 관련 정책이 추가될 것이라고 소개했다. 2026년판 의료보험 약품 목록에는 총 3,331종의 약품이 있는데, 그중 신규 약품이 107개이고 이전된 약품이 34개이다. 신약 중 103개는 5년 이내에 새로 출시된 신약이고, 51개는 카테고리 1 신약으로 모두 새로운 최고치입니다. 60개 신약에는 화학약품, 36개 생물의약품, 11개 중국전통특허의약품이 포함된다. 신약 중 종양분야는 29개, 만성질환은 21개, 희귀질환은 18개다.",
 "pv": "cd009b1f"
 },
 {
@@ -7374,7 +7100,8 @@
 "added": 1795521549,
 "url": "https://kabutan.jp/news/marketnews/?&b=n202611240681",
 "sum_tried": 1,
-"pv": "cd009b1f"
+"pv": "cd009b1f",
+"sum": "미국 주식에 대한 도움 주식 검색 도움말 주식 검색 정보 신규 등록 및 플랜 재개 주식 탐험 프리미엄 로그인 · 회원 정보 계약 상황 · 지불 문의 모든 도움보기 즐겨 찾기 주식 탐험 프리미엄에 등록 로그인 +2,207.98 159.13 +0.11 49,595.31 +1,447.98 3,548.36 +9.42 3.91% 0.07% 3.00% 0.27% 상위 시장 뉴스 결산 속보 주가 주의보 「주탐」에서 전달한 뉴스 기사를 검색합니다 PR JavaScript가 무효가 되어 있습니다."
 },
 {
 "key": "阳光电源以一己之力撑起板块电池光伏指数双双涨超2反转来了吗",
@@ -7999,7 +7726,7 @@
 "run": "202611241157",
 "added": 1795521560,
 "url": "https://specialist.hket.com/article/4230305/%E9%A6%AC%E6%96%AF%E5%85%8B%E5%86%8D%E9%A0%90%E8%AD%A62027%E5%B9%B4AI%E7%8F%BE%E9%87%91%E8%8D%92%20%20%E6%B4%97%E7%89%8C%E5%BE%8C%E5%86%8D%E5%9F%B7%E5%B9%B3%E8%B2%A8%EF%BC%9F",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -8040,7 +7767,7 @@
 "run": "202611241157",
 "added": 1795521558,
 "url": "https://www.news1.kr/finance/market-exr/6364567",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "ai거품론비웃듯k변압기美수출하반기78급증",
