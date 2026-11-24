@@ -1141,7 +1141,7 @@ window.addEventListener('resize', function(){
     var w = chartW(); if(w !== _cw && D.themes[S.tab] && D.themes[S.tab].stats && document.querySelector('.bars')) renderMain(); _cw = w; }, 200);
 });
 function detail(th){                       // 30일(또는 6개월·1년은 주별) 막대 그래프 + 나라별 구성
-  var vals = [], labels = [], wk = (S.sp==='h' || S.sp==='y' || S.sp==='q'), PD = period()[0], NB = wk ? Math.ceil(PD.length/7) : 30, nowLbl = wk ? (S.sp==='q' ? '분기 끝' : '이번 주') : '오늘';
+  var vals = [], labels = [], wk = (S.sp==='h' || S.sp==='y' || S.sp==='q'), PD = period()[0].slice().sort(), NB = wk ? Math.ceil(PD.length/7) : 30, nowLbl = wk ? (S.sp==='q' ? '분기 끝' : '이번 주') : '오늘';
   if(wk){ for(var w=0; w<NB; w++){ var ch = PD.slice(w*7, w*7+7), v = 0; ch.forEach(function(d){ v += cnt(d, th); });
             vals.push(v); labels.push(ch[0].slice(5).replace('-','/')+'~'+ch[ch.length-1].slice(5).replace('-','/')); } }
   else for(var i=29;i>=0;i--){ var d = kdate(i); vals.push(cnt(d, th)); labels.push(d.slice(5).replace('-','/')); }
@@ -1157,7 +1157,7 @@ function detail(th){                       // 30일(또는 6개월·1년은 주�
              '<text x="0" y="9" class="ax">최대 '+mx.toLocaleString()+'건'+(wk?' (1주)':'')+'</text>';
   if(wk) axis = axis.replace('>'+labels[0]+'<', '>'+labels[0].split('~')[0]+'<');
   var P = period(), parts = D.regions.map(function(r){
-    var n = 0; P[0].forEach(function(d){ n += (((ST.days||{})[d]||{})[th]||{})[r.k] || 0; }); return [r, n];
+    var n = 0; P[0].forEach(function(d){ var src = (ST.days||{})[d] ? ST.days : (ST.hist||{}); n += ((src[d]||{})[th]||{})[r.k] || 0; }); return [r, n];
   }).filter(function(x){ return x[1] > 0; }).sort(function(a,b){ return b[1]-a[1]; });
   var pm = parts.length ? parts[0][1] : 1;
   var rows = parts.map(function(x){
@@ -1192,7 +1192,8 @@ function renderStats(t){
   var xf = P[0].filter(function(d){ return (ST.xfill||[]).indexOf(d) >= 0; });
   var mx = rows.length ? Math.max(1, rows[0].n) : 1, total = 0; rows.forEach(function(r){ total += r.n; });
   h += '<div class="tot">'+esc(P[2])+(S.region==='all'?' · 전체 나라':' · '+esc(RL[S.region]))+' · 총 <b>'+total.toLocaleString()+'</b>건 <span class="chgnote">'+(hp ? '(전 기간 대비)' : '')+'</span></div>';
-  if(ss && P[0][0] && P[0][0] < ss && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
+  var p0 = P[0].slice().sort()[0];             // 기간 첫날 (최근 N일은 날짜가 거꾸로 들어 있음)
+  if(ss && p0 && p0 < ss && (ST0[0]+ST0[1]+ST0[2]+ST0[3]))
     h += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작해서, 이 기간의 그 전 기사는 판정이 없어요 (기사 수는 그대로).</div>';
   if(ss && !(ST0[0]+ST0[1]+ST0[2]+ST0[3]))
     h += '<div class="warn">🟢🔴⚪ 긍정·부정·중립은 '+ss.slice(5).replace('-','/')+'부터 세기 시작했어요. 이 기간엔 아직 판정한 기사가 없어요.</div>';

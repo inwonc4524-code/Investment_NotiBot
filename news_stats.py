@@ -752,7 +752,11 @@ def apply_hist(st):
         return
     G, F = {}, {}
     for f in files:
-        d = json.load(open(os.path.join(GKG_DIR, f), encoding="utf-8"))
+        try:
+            d = json.load(open(os.path.join(GKG_DIR, f), encoding="utf-8"))
+        except Exception as e:                 # 한 달 파일이 깨져도 나머지 달은 그대로
+            print("  ! 1월~ 기사 수 파일 읽기 실패:", f, e)
+            continue
         G.update(d.get("days", {}))
         F.update(d.get("files", {}))
     good = {k for k, n in F.items() if n >= 170}          # 원본 파일을 거의 다 받은 날만 (192개 중)
