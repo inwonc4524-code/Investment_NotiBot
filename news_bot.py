@@ -1096,6 +1096,43 @@ function risingHtml(){
   return h + '<p class="note">최근 7일 기사 수 ÷ 그 전 7일 (실제로 센 숫자)</p>' + A.rising.map(function(r){
     return '<div class="mrow"><span class="sn">'+esc(r[0])+'</span><span class="hx">'+r[3].toLocaleString()+' → <b>'+r[2].toLocaleString()+'</b>건</span><b class="'+(r[1]>=1?'s-n':'s-u')+'" style="margin-left:auto">×'+r[1].toFixed(2)+'</b></div>'; }).join('');
 }
+// 🇺🇸 미국 ↔ 🇰🇷 한국 (2026-11-24 사용자: 한국 시장은 미국을 많이 따라간다 → 미국 위주로)
+function rcnt(day, th, rk){ var src = (ST.days||{})[day] ? ST.days : ((ST.hist||{})[day] ? ST.hist : {}); return (((src[day]||{})[th]||{})[rk]) || 0; }
+function weeksOf(days){ var d = days.slice().sort(), out = []; for(var i=0;i<d.length;i+=7) out.push(d.slice(i, i+7)); return out.filter(function(w){ return w.length >= 4; }); }
+function corr(a, b){ var n = a.length; if(n < 4) return null; var ma=0, mb=0; for(var i=0;i<n;i++){ ma+=a[i]; mb+=b[i]; } ma/=n; mb/=n;
+  var sab=0, saa=0, sbb=0; for(var i=0;i<n;i++){ sab+=(a[i]-ma)*(b[i]-mb); saa+=(a[i]-ma)*(a[i]-ma); sbb+=(b[i]-mb)*(b[i]-mb); }
+  return (saa && sbb) ? sab/Math.sqrt(saa*sbb) : null; }
+function usKr(th, days){
+  var W = weeksOf(days), u = W.map(function(w){ var n=0; w.forEach(function(d){ n += rcnt(d, th, 'us'); }); return n*7/w.length; }),
+      k = W.map(function(w){ var n=0; w.forEach(function(d){ n += rcnt(d, th, 'kr'); }); return n*7/w.length; });
+  return {u:u, k:k, w:W, c:corr(u, k)};
+}
+function usKrChart(th){
+  var r = usKr(th, period()[0]); if(r.u.length < 4) return '';
+  var avg = function(a){ var s=0; a.forEach(function(x){ s+=x; }); return s/a.length || 1; }, au = avg(r.u), ak = avg(r.k);
+  var U = r.u.map(function(x){ return x/au; }), K = r.k.map(function(x){ return x/ak; });
+  var mx = Math.max.apply(null, U.concat(K).concat([1.5])), W = chartW(), H = 96, n = U.length;
+  var pt = function(a){ return a.map(function(v,i){ return (i*(W/(n-1))).toFixed(1)+','+(H-14-(v/mx)*(H-24)).toFixed(1); }).join(' '); };
+  var y1 = (H-14-(1/mx)*(H-24)).toFixed(1);
+  var c = r.c == null ? '' : ' · 같이 움직인 정도 <b>'+r.c.toFixed(2)+'</b> ('+(r.c >= .5 ? '많이 따라감' : r.c >= .25 ? '조금 따라감' : '따로 움직임')+')';
+  return '<div class="dt">🇺🇸 미국 vs 🇰🇷 한국 주별 흐름 (각자 평균 = 1)'+c+'</div>'+
+    '<svg class="bars" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(th)+' 미국 한국 비교">'+
+    '<line x1="0" y1="'+y1+'" x2="'+W+'" y2="'+y1+'" stroke="var(--line)" stroke-dasharray="3 3"/>'+
+    '<polyline points="'+pt(U)+'" fill="none" stroke="#60a5fa" stroke-width="2"/>'+
+    '<polyline points="'+pt(K)+'" fill="none" stroke="#f472b6" stroke-width="2"/>'+
+    '<text x="0" y="'+(H-2)+'" class="ax">'+r.w[0][0].slice(5).replace('-','/')+'</text><text x="'+W+'" y="'+(H-2)+'" class="ax" text-anchor="end">'+r.w[n-1][r.w[n-1].length-1].slice(5).replace('-','/')+'</text>'+
+    '<text x="0" y="9" class="ax"><tspan fill="#60a5fa">━ 미국</tspan>  <tspan fill="#f472b6">━ 한국</tspan></text></svg>';
+}
+function syncHtml(days){
+  var rows = (ST.themes||[]).map(function(th){ var r = usKr(th, days); return {th:th, c:r.c, u:r.u.reduce(function(a,b){return a+b;},0)}; })
+                            .filter(function(r){ return r.c != null; }).sort(function(a,b){ return b.c - a.c; });
+  if(!rows.length) return '';
+  return '<h3 class="mrh">🇺🇸→🇰🇷 미국 뉴스와 한국 뉴스가 같이 움직인 정도</h3>'+
+    '<p class="note">주마다 미국 기사 수와 한국 기사 수가 같이 오르내린 정도 (1 = 똑같이, 0 = 상관없음). 높은 테마는 <b>미국 뉴스만 봐도 한국 흐름을 짐작</b>할 수 있어요. 줄을 누르면 두 흐름을 겹친 그래프가 나와요.</p>'+
+    rows.map(function(r){ var w = Math.max(0, r.c)*100, col = r.c >= .5 ? '#60a5fa' : r.c >= .25 ? '#93c5fd' : 'var(--sub)';
+      return '<div class="mrow"><span class="sn">'+esc(r.th)+'</span><span class="rbar"><i style="width:'+w.toFixed(0)+'%;background:'+col+'"></i></span>'+
+        '<span class="rpct" style="width:96px">'+r.c.toFixed(2)+' '+(r.c >= .5 ? '많이 따라감' : r.c >= .25 ? '조금' : '따로')+'</span></div>'; }).join('');
+}
 function capped(days, th){
   var c = ST.capped || {}, hit = false;
   days.forEach(function(d){ (c[d]||[]).forEach(function(s){ var p = s.split('|');
@@ -1165,6 +1202,7 @@ function detail(th){                       // 30일(또는 6개월·1년은 주�
   }).join('') || '<div class="note">이 기간 기사 없음</div>';
   return '<div class="det"><div class="dt">'+(wk ? (S.sp==='q' ? period()[2] : '최근 '+(S.sp==='h'?'6개월':'1년'))+' 주별 뉴스 수' : '최근 30일 하루 뉴스 수')+(S.region==='all'?'':' · '+esc(RL[S.region]))+'</div>'+
     '<svg class="bars" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(th)+' 뉴스 수 그래프">'+bars+axis+'</svg>'+
+    (wk ? usKrChart(th) : '')+
     '<div class="dt">'+esc(P[2])+' 나라별</div>'+rows+'</div>';
 }
 function renderStats(t){
@@ -1222,6 +1260,7 @@ function renderStats(t){
       (open ? detail(r.th) : '') + '</div>';
   }).join('');
   h += monthRatio(P[0], f, rows);
+  if(S.sp==='q' || S.sp==='h' || S.sp==='y') h += syncHtml(P[0]);
   if(S.sp==='q' || S.sp==='h' || S.sp==='y') h += attnHtml(P[0], rows);
   if(S.sp==='w' || S.sp==='m') h += risingHtml();
   h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 바로 앞 같은 길이 기간보다 몇 계단 오르고 내렸는지<br>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
@@ -1515,6 +1554,10 @@ if(S.seen === null){ S.seen = {}; D.themes.forEach(function(t){ S.seen[t.name] =
 if(location.hash && /^#t\\d+$/.test(location.hash)) S.tab = +location.hash.slice(2);
 if(location.hash === '#stats') D.themes.forEach(function(t, i){ if(t.stats) S.tab = i; });
 if(S.tab >= D.themes.length) S.tab = D.themes.length > 1 ? 1 : 0;
+// 통계 탭은 나라 선택을 따로 기억 (기본 = 미국 · 2026-11-24 사용자 요청: 미국 위주로) — 뉴스 탭의 나라 선택과 섞이지 않게
+function regKey(){ return (D.themes[S.tab] && D.themes[S.tab].stats) ? 'sregion' : 'region'; }
+function regLoad(){ S.region = load(regKey(), regKey()==='sregion' ? 'us' : 'all'); }
+regLoad();
 
 function visible(t){
   return t.items.filter(function(n){ return S.region==='all' || n.r===S.region; });
@@ -1580,14 +1623,14 @@ function renderMain(){
 }
 function openTab(i){
   var t = D.themes[i];
-  S.tab = i; S.shown = D.show; S.onlyNew = false; save('tabname', t.name);
+  S.tab = i; S.shown = D.show; S.onlyNew = false; save('tabname', t.name); regLoad();
   if(!(t.name in S.prev)) S.prev[t.name] = S.seen[t.name] || 0;     // 이 탭에서 NEW 로 보여줄 기준
   S.seen[t.name] = Math.max(S.seen[t.name] || 0, newest(t)); save('seen', S.seen);  // 탭에 들어오면 레드닷 지움
   history.replaceState(null, '', t.stats ? '#stats' : '#t'+i);
   renderTabs(); renderCtrl(); renderMain(); window.scrollTo(0, 0);
 }
 function setSort(k){ S.sort = k; save('sort', k); S.shown = D.show; renderCtrl(); renderMain(); }
-function setRegion(k){ S.region = k; save('region', k); S.shown = D.show; renderTabs(); renderCtrl(); renderMain(); }
+function setRegion(k){ S.region = k; save(regKey(), k); S.shown = D.show; renderTabs(); renderCtrl(); renderMain(); }
 function more(){ S.shown += 20; renderMain(); }
 function onlyNew(on){ S.onlyNew = on; S.shown = D.show; renderMain(); }
 function less(){ S.shown = D.show; renderMain(); window.scrollTo(0, 0); }

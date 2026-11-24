@@ -740,6 +740,7 @@ def apply_attn(st):
 
 
 GKG_DIR = os.path.join(nb.HERE, "gkg_bf")
+HIST_USE_X = set()      # 보충 방식으로 셀 테마 (나눠서 맞춰보기 오차가 더 작았던 테마만 — 2026-11-24 비교 후 정함)
 
 
 def apply_hist(st):
@@ -750,7 +751,7 @@ def apply_hist(st):
         files = sorted(f for f in os.listdir(GKG_DIR) if f.endswith(".json"))
     except Exception:
         return
-    G, F = {}, {}
+    G, GX, F = {}, {}, {}
     for f in files:
         try:
             d = json.load(open(os.path.join(GKG_DIR, f), encoding="utf-8"))
@@ -758,7 +759,13 @@ def apply_hist(st):
             print("  ! 1월~ 기사 수 파일 읽기 실패:", f, e)
             continue
         G.update(d.get("days", {}))
+        GX.update(d.get("days_x", {}))
         F.update(d.get("files", {}))
+    for dd, v in GX.items():                  # 보충 방식(회사 태그·추가 단어)이 더 잘 맞은 테마만 그 숫자로
+        for th in HIST_USE_X:
+            if th in v and dd in G:
+                G[dd] = dict(G[dd])
+                G[dd][th] = v[th]
     good = {k for k, n in F.items() if n >= 170}          # 원본 파일을 거의 다 받은 날만 (192개 중)
     days = st.get("days", {})
     bot_days = sorted(days)
@@ -770,26 +777,45 @@ def apply_hist(st):
     if len(ov) < 4:
         print("1월~ 기사 수: 겹치는 날이 아직 부족해 보류", len(ov))
         return
-    def tot(src, d, th):
-        return sum(((src.get(d) or {}).get(th) or {}).values())
-    allb = sum(tot(days, d, th) for d in ov for th in st.get("themes", []))
-    allg = sum(tot(G, d, th) for d in ov for th in st.get("themes", []))
+    from datetime import date as _date
+    def wkend(d):
+        return _date.fromisoformat(d).weekday() >= 5
+    def cnt(src, d, th, rk=None):
+        v = (src.get(d) or {}).get(th) or {}
+        return v.get(rk, 0) if rk else sum(v.values())
+    ths = st.get("themes", [])
+    allb = sum(cnt(days, d, th) for d in ov for th in ths)
+    allg = sum(cnt(G, d, th) for d in ov for th in ths)
     k_all = allb / allg if allg else 0
-    K = {}
-    for th in st.get("themes", []):
-        b = sum(tot(days, d, th) for d in ov)
-        g = sum(tot(G, d, th) for d in ov)
-        K[th] = round(b / g, 3) if g >= 50 else round(k_all, 3)   # 겹친 날 GDELT 기사가 너무 적으면 전체 비율
+    def ratio(ds, th, rk=None):
+        g = sum(cnt(G, d, th, rk) for d in ds)
+        return sum(cnt(days, d, th, rk) for d in ds) / g if g >= 40 else None
+    # 보정 비율: 테마 × 나라 × 평일/주말 (2026-11-24 미국 중심 — 나라별로 따로 맞추니 미국 치우침 21% → 1%)
+    #  자료가 적으면 테마 × 나라 → 테마 → 전체 순서로 대신 씀
+    K, KR = {}, {}
+    regions = sorted({rk for d in ov for th in ths for rk in ((G.get(d) or {}).get(th) or {})} |
+                     {rk for d in ov for th in ths for rk in ((days.get(d) or {}).get(th) or {})})
+    for th in ths:
+        kt = ratio(ov, th) or k_all
+        K[th] = round(kt, 3)
+        for rk in regions:
+            kr = ratio(ov, th, rk) or kt
+            for typ, ds in (("we", [d for d in ov if wkend(d)]), ("wd", [d for d in ov if not wkend(d)])):
+                KR[f"{th}|{rk}|{typ}"] = round(ratio(ds, th, rk) or kr, 3)
     hist = {}
     for d in sorted(G):
         if d >= first or d not in good:
             continue
-        hist[d] = {th: {rk: max(0, round(n * K.get(th, k_all))) for rk, n in v.items()} for th, v in G[d].items()}
+        typ = "we" if wkend(d) else "wd"
+        hist[d] = {th: {rk: max(0, round(n * KR.get(f"{th}|{rk}|{typ}", K.get(th, k_all)))) for rk, n in v.items()}
+                   for th, v in G[d].items()}
     st["hist"] = hist
     st["hist_k"] = K
+    st["hist_kr"] = KR
     st["hist_span"] = [min(hist), max(hist)] if hist else []
     st["hist_ov"] = [ov[0], ov[-1], len(ov)]
     st["hist_miss"] = sorted(d for d in F if d < first and d not in good)
+    st["sync"] = us_kr_sync(st)
     print(f"1월~ 기사 수(추정): {len(hist)}일 · 겹친 날 {len(ov)}일로 맞춤 · 전체 비율 x{k_all:.2f}")
 
 
@@ -872,6 +898,47 @@ def day_total(st, day, theme):
     return sum((st.get("days", {}).get(day, {}).get(theme) or {}).values())
 
 
+def us_count(st, d, th):
+    src = st.get("days", {}) if d in st.get("days", {}) else st.get("hist", {})
+    return ((src.get(d) or {}).get(th) or {}).get("us", 0)
+
+
+def us_jumps(st, day):
+    """미국 급상승 (2026-11-24 사용자: 미국 위주로): 어제 미국 기사 수가 같은 종류 날(평일↔평일, 주말↔주말) 최근 평균의 1.6배 이상
+    (평균 15건 이상인 테마 — 월요일이 주말과 비교돼 다 급상승으로 나오지 않게)"""
+    d0 = datetime.strptime(day, "%Y-%m-%d")
+    we = d0.weekday() >= 5
+    base = [d0 - timedelta(days=i) for i in range(1, 22)]
+    base = [x.strftime("%Y-%m-%d") for x in base if (x.weekday() >= 5) == we][:(4 if we else 5)]
+    out = []
+    for th in st.get("themes", []):
+        n = us_count(st, day, th)
+        a = sum(us_count(st, d, th) for d in base) / len(base)
+        if a >= 15 and n >= a * 1.6:
+            out.append((th, n, a))
+    return sorted(out, key=lambda r: -(r[1] / r[2]))
+
+
+def us_kr_sync(st):
+    """테마별 미국·한국 주별 기사 수가 같이 움직인 정도 (상관계수) — 1월~ 추정치 + 봇이 센 숫자"""
+    days = sorted(set(st.get("hist", {})) | set(st.get("days", {})))
+    days = [d for d in days if d >= "2026-01-01"]
+    out = {}
+    for th in st.get("themes", []):
+        u, k = [], []
+        for i in range(0, len(days) - 6, 7):
+            w = days[i:i + 7]
+            u.append(sum(us_count(st, d, th) for d in w))
+            k.append(sum(((st.get("days", {}) if d in st.get("days", {}) else st.get("hist", {})).get(d, {}).get(th) or {}).get("kr", 0) for d in w))
+        if len(u) >= 8 and len(set(u)) > 1 and len(set(k)) > 1:
+            mu, mk = sum(u) / len(u), sum(k) / len(k)
+            sab = sum((a - mu) * (b - mk) for a, b in zip(u, k))
+            saa = sum((a - mu) ** 2 for a in u)
+            sbb = sum((b - mk) ** 2 for b in k)
+            out[th] = round(sab / math.sqrt(saa * sbb), 2)
+    return out
+
+
 def send_daily(st, day):
     """어제 테마별 뉴스 순위 알림"""
     prev = (datetime.strptime(day, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
@@ -895,6 +962,12 @@ def send_daily(st, day):
     msg = "\n".join(lines)
     if jumps:
         msg += "\n\n🔺 급증: " + ", ".join(f"{name} {chg(n, p)}" for name, n, p in jumps[:3])
+    us = us_jumps(st, day)
+    if us:
+        msg += "\n\n🇺🇸 미국 급상승: " + ", ".join(
+            f"{th} {n:,}건(평소 {a:,.0f}의 {n / a:.1f}배){' → 한국도 따라가는 편' if (st.get('sync') or {}).get(th, 0) >= 0.35 else ''}"
+            for th, n, a in us[:3])
+        lines = lines + ["🇺🇸 급상승 " + ", ".join(f"{th} x{n / a:.1f}" for th, n, a in us[:3])]
     md = day[5:].replace("-", "/")
     page = f"https://{nb.REPO.split('/')[0].lower()}.github.io/{nb.REPO.split('/')[1]}/#stats"
     return nb.notify(f"📊 어제({md}) 테마별 뉴스 수", msg, click=page,
