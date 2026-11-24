@@ -419,6 +419,31 @@
 "pv": "cd009b1f"
 },
 {
+"key": "chinachipstocksriseafterjensenhuangsreturn",
+"keys": [
+"chinachipstocksriseafterjensenhuangsreturn",
+"techstockssurgeonjensenhuangsreturn",
+"nvidiavalueclimbsbyalmost1tnandtechstocksrallyafterjensenhuangreturns",
+"usstocksbouncebacknvidiasharesshootup31asjensenhuangreturnsasceo",
+"wallstreetreboundsasjensenhuangreturnsasnvidiaceo"
+],
+"count": 5,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇺🇸 미국",
+"title": "China Chip Stocks Rise After Jensen Huang’s Return",
+"show": "젠슨 황의 복귀 이후 중국 칩 주가 상승",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeEdHb0N2YXlFOFpaWmJDcW96cm9jWUR3RGpvR2tCdzRSV0FMMFRPeGJobG5WWGZGbV9PVlVvRlRWblJjT0JRVmkwSGR4cDJ4dWlESUpPYzFadHNzeV9hdnZldnZEQVh5TjVlVDU5X3d4NlpUdjYzS3RPbVN5VXhpZ3NLd0ppekNkYmNsVVFaNA?oc=5",
+"pub": 1795494720.0,
+"time": "11/24 13:32",
+"run": "202611240543",
+"added": 1795498995,
+"url": "https://www.wsj.com/finance/stocks/nikkei-rises-2-7-led-by-chip-metals-stocks-82c1bb9d",
+"sum_tried": 2,
+"pv": "cd009b1f"
+},
+{
 "key": "黃仁勳復職美股開盤大漲那指漲逾7輝達飆漲26",
 "keys": [
 "黃仁勳復職美股開盤大漲那指漲逾7輝達飆漲26",
@@ -531,29 +556,6 @@
 "added": 1795446972,
 "url": "https://m.jiemian.com/article/15364351.html",
 "sum": "11월 23일 엔비디아의 미국 증시는 개장 당시 32% 급등해 시가총액이 1조 달러 이상 증가했고, 총 시가총액은 4조 달러를 회복했습니다. 엔비디아는 같은 날 젠슨 황이 사장 겸 CEO 및 이사회 구성원으로서의 직무를 즉각 재개할 것이라고 발표했습니다.",
-"pv": "cd009b1f"
-},
-{
-"key": "chinachipstocksriseafterjensenhuangsreturn",
-"keys": [
-"chinachipstocksriseafterjensenhuangsreturn",
-"techstockssurgeonjensenhuangsreturn",
-"nvidiavalueclimbsbyalmost1tnandtechstocksrallyafterjensenhuangreturns"
-],
-"count": 3,
-"theme": "🇺🇸 미국 S&P500",
-"region": "🇺🇸 미국",
-"title": "China Chip Stocks Rise After Jensen Huang’s Return",
-"show": "젠슨 황의 복귀 이후 중국 칩 주가 상승",
-"source": "WSJ",
-"src_url": "https://www.wsj.com",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeEdHb0N2YXlFOFpaWmJDcW96cm9jWUR3RGpvR2tCdzRSV0FMMFRPeGJobG5WWGZGbV9PVlVvRlRWblJjT0JRVmkwSGR4cDJ4dWlESUpPYzFadHNzeV9hdnZldnZEQVh5TjVlVDU5X3d4NlpUdjYzS3RPbVN5VXhpZ3NLd0ppekNkYmNsVVFaNA?oc=5",
-"pub": 1795494720.0,
-"time": "11/24 13:32",
-"run": "202611240543",
-"added": 1795498995,
-"url": "https://www.wsj.com/finance/stocks/nikkei-rises-2-7-led-by-chip-metals-stocks-82c1bb9d",
-"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -3374,7 +3376,7 @@
 "run": "202611240707",
 "added": 1795504051,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/417849/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+Netflix%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%97%A5%E5%9D%87%E8%A7%80%E7%9C%8B%E6%99%82%E9%95%B7%E5%8B%9DYouTube%EF%BC%8C%E6%8B%89%E7%BE%8E%E5%9B%9B%E5%9C%8B%E5%85%A8%E9%9D%A2%E9%A0%98%E5%85%88",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -3584,7 +3586,7 @@
 "run": "202611240707",
 "added": 1795504053,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/417830/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E5%A1%94%E5%A1%94%E9%8B%BC%E9%90%B5%E6%96%A5167%E5%84%84%E8%B3%BC%E5%8D%B0%E5%BA%A6%E6%9C%80%E5%A4%A7%E9%8B%BC%E7%AE%A1%E5%95%86%E8%82%A1%E6%AC%8A%EF%BC%8C%E8%82%A1%E5%83%B9%E6%8C%AB%E8%BF%915%25",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -3605,7 +3607,7 @@
 "run": "202611240707",
 "added": 1795504056,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/417829/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+%E6%AD%90%E7%89%B9%E5%85%8B%E5%8D%87%E9%80%BE2%25%EF%BC%8C%E5%91%A8%E4%BA%8C%E7%9B%A4%E5%BE%8C%E5%85%AC%E5%B8%83%E6%A5%AD%E7%B8%BE",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -3751,7 +3753,7 @@
 "run": "202611240707",
 "added": 1795504058,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/417825/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+AI%E8%B2%A1%E5%AF%8C%E6%95%88%E6%87%89%E8%A1%9D%E6%93%8A%E7%B6%93%E6%BF%9F%EF%BC%8C%E7%A7%91%E6%8A%80%E8%82%A1%E6%B3%A2%E5%8B%95%E6%88%90%E9%9A%B1%E6%86%82",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -3793,7 +3795,7 @@
 "run": "202611240707",
 "added": 1795504059,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/417820/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7CHut+8%E8%A2%AB%E5%88%97AI%E9%81%8E%E5%BA%A6%E4%BC%B0%E5%80%BC%E8%82%A1%E7%AC%AC8%E4%BD%8D%EF%BC%8C%E6%B2%BD%E7%A9%BA%E5%A3%93%E5%8A%9B%E5%8F%8D%E6%98%A0%E5%B8%82%E5%A0%B4%E6%86%82%E6%85%AE",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -3941,7 +3943,7 @@
 "run": "202611240707",
 "added": 1795504060,
 "url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/417814/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E5%85%A8%E7%90%83%E5%B0%8D%E6%B2%96%E5%9F%BA%E9%87%91%E9%8C%842025%E5%B9%B44%E6%9C%88%E4%BB%A5%E4%BE%86%E6%9C%80%E6%85%98%E5%96%AE%E5%91%A8%E8%99%A7%E6%90%8D%EF%BC%8C%E8%B3%87%E9%87%91%E8%BD%89%E6%8A%95%E9%98%B2%E7%A6%A6%E6%9D%BF%E5%A1%8A",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -3962,7 +3964,7 @@
 "run": "202611240707",
 "added": 1795504043,
 "url": "https://www.bloomberg.com/news/articles/2026-11-23/health-insurers-stocks-slide-again-on-latest-medicare-proposal",
-"sum_tried": 1,
+"sum_tried": 2,
 "pv": "cd009b1f"
 },
 {
@@ -3985,6 +3987,27 @@
 "added": 1795446997,
 "url": "https://www.nikkei.com/article/DGXZQOGN232L20T21C26A1000000/",
 "sum": "[뉴욕=아키타사키] 23일 미국 증시에서 하이테크주 비율이 높은 나스닥 종합주가지수는 전 주말 대비 7% 높다고 급등해 시작됐다. 미국 엔비디아가 이날 젠슨 황 씨가 최고경영책임자(CEO)에 복귀한다고 발표. 회사 주식은 30%로 거래됩니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "美股異動台積電ustsm升2038報38367美元",
+"keys": [
+"美股異動台積電ustsm升2038報38367美元"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "美股異動|台積電(US.TSM)升20.38%，報383.67美元",
+"show": "미국 증시 변화 | Taiwan Semiconductor Manufacturing Co., Ltd.(US.TSM)은 20.38% 상승한 US$383.67를 기록했습니다.",
+"source": "etnet 經濟通",
+"src_url": "https://www.etnet.com.hk",
+"link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNZ2djUVk4bW9KcDBqVmRXbDRyRWFmV09FazVwMGVFcGlfdGdWYXFtX1R3bUNYSTdSU0trMGc5STZwWnZUbm9hbEhSRk1GamVKY2owbm1UcERwakJ4YWRzODVCQ1dKb09iWVViME1ybXoxWHo4QzlxQVhDMnFYUGw1bDJhV2JhTHJ1OWd6NkZROTQyQ056bmhoN0RhaTZoZGF3UmtQNzIwWWxaLUhNMDFIcUNFTkJKX1dpVndGaG5nemUwYlFhRnZTQVpqUUpVdUptZXdtNk02MTZPX0FsSjFkbmlGMjVkc01KNUpVWUIzMm9CQndWdnBjX19zRlNZZVRXOHA5TWFobVA5QklCWHRRaTJvTGdMcGhfVjVwd24wSUNYcm1za1E?oc=5",
+"pub": 1795444200.0,
+"time": "11/23 23:30",
+"run": "202611240710",
+"added": 1795504237,
+"url": "https://www.etnet.com.hk/www/tc/us-stocks/news-article/417810/%E7%BE%8E%E8%82%A1%E7%95%B0%E5%8B%95%7C%E5%8F%B0%E7%A9%8D%E9%9B%BB%28US.TSM%29%E5%8D%8720.38%25%EF%BC%8C%E5%A0%B1383.67%E7%BE%8E%E5%85%83",
+"sum_tried": 1,
 "pv": "cd009b1f"
 },
 {
@@ -4027,6 +4050,27 @@
 "added": 1795503003,
 "url": "https://uk.finance.yahoo.com/news/dow-jones-p-500-nasdaq-142332357.html",
 "sum": "나스닥을 비롯한 미국 주요 증시 지수가 급락했다. 장기 투자자들에게 여기에 기회가 있을 수 있을까요? 포스트 다우존스, S&P500, 나스닥은 모두 조정권에 있으며 이 3개 지표는 '매수 기회'를 비명을 지르며 The Twelfth Magpie에 처음 등장했습니다.",
+"pv": "cd009b1f"
+},
+{
+"key": "有圖有勢黃仁勳復職英偉達ceo大升30美股急升港股夜期跟漲持續更新香港經濟日報",
+"keys": [
+"有圖有勢黃仁勳復職英偉達ceo大升30美股急升港股夜期跟漲持續更新香港經濟日報"
+],
+"count": 1,
+"theme": "🇺🇸 미국 S&P500",
+"region": "🇭🇰 홍콩",
+"title": "有圖有勢｜黃仁勳復職英偉達CEO 大升30% 美股急升 港股夜期跟漲（持續更新）|香港經濟日報",
+"show": "그림과 잠재력 | 엔비디아 CEO가 30% 급등하고, 미국 주식이 급등하고, 홍콩 주식이 밤새 상승세를 이어가면서 젠슨 황이 복귀했습니다(지속 업데이트) | 홍콩경제신문",
+"source": "香港經濟日報HKET",
+"src_url": "https://invest.hket.com",
+"link": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxPWEh2ZjR4QUhTY0YwTkFtV205cXBOUjhVdy0wNkx0dzRfd2drOVVSYUFJSXladFRwbERUVW1yeTFSSjIwaUZhMEpaSFYydnE4S0hxZzJqdUkwbzc2a2gzT3lXZWxPUzRWSFFCbFpPY3BYLU5PckN0UU9qNzMzSjVzdlFCZ0lEclNCaWVCM3g4WkxfanVKWlhKWUJ5Tl9IMWItWUhNY3dONURxdF9GY3I2d2NwQWhQUm9PdWF4T0M2aXlKampTVFh4SUJKbXd0WTVpNURzSnV1WTRZbDNXWmo0N1JtelBVQkgyR3FFZURMb1dCOWw0dlptYjI0VVFNS2UtOTlfemlNbGVWdWNrdUNxZkJTRGFzWHpfUXlJNW1NMWZYRDhvbjJUY3pkODBRZ2ZWbUxpMWk5NmNaVWlFLTZUcWZ4amJGVHNONVdsR20yQ0pyVEZoQm1KWVlraUNIY3FnZ2pONGhaTVlBWWdxa1l4Uk9rLUR5MnlLM01oUDNkalZpR19SQ1lLQ1BNYXROWWdhX3p0dnI4VUxUNkNNNFdpcGZFNVJfSUZXdHpwU09heHZKMFZZUENFSG9GWWhBd1RxUW5kdTZ5TUs5V0UydU41V1htdDdXcGxOdFE?oc=5",
+"pub": 1795443470.0,
+"time": "11/23 23:17",
+"run": "202611240710",
+"added": 1795504239,
+"url": "https://invest.hket.com/article/4229073/%E6%9C%89%E5%9C%96%E6%9C%89%E5%8B%A2%EF%BD%9C%E9%BB%83%E4%BB%81%E5%8B%B3%E5%BE%A9%E8%81%B7%E8%8B%B1%E5%81%89%E9%81%94CEO%20%E5%A4%A7%E5%8D%8730-%20%E7%BE%8E%E8%82%A1%E6%80%A5%E5%8D%87%20%E6%B8%AF%E8%82%A1%E5%A4%9C%E6%9C%9F%E8%B7%9F%E6%BC%B2%EF%BC%88%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0%EF%BC%89",
+"sum_tried": 1,
 "pv": "cd009b1f"
 },
 {
@@ -7584,6 +7628,27 @@
 "pv": "cd009b1f"
 },
 {
+"key": "geshydrogenmanganesebatteriesfirstinstallationinitalia",
+"keys": [
+"geshydrogenmanganesebatteriesfirstinstallationinitalia"
+],
+"count": 1,
+"theme": "⚡ 전고체배터리·ESS",
+"region": "🌍 세계",
+"title": "Ges hydrogen-manganese batteries: first installation in Italia",
+"show": "Ges 수소-망간 배터리: 이탈리아에 첫 설치",
+"source": "Il Sole 24 ORE",
+"src_url": "https://en.ilsole24ore.com",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWkk4S3dsXzJnZjA4ZXJQTG0xaFJXa0JQaUpKdGpyRks4UXd5cnJoM2xTRHAzS1A2RGhrY2ItYzM1U0NwU3QtX2pqTlREdnJDR21SNDNTVGlDMFBrUEpXTEN4bE03Y21saVIyNk1Pa29EellxajJOUEV2VDVRLTlkTnkxQU02SGVxQXdlbVNmQ2dQeFZFNXVkUUV4ajZIX1NXNWZmeEF6TVFkei1hRlE?oc=5",
+"pub": 1795437651.0,
+"time": "11/23 21:40",
+"run": "202611240710",
+"added": 1795504275,
+"url": "https://en.ilsole24ore.com/art/ges-branded-hydrogen-manganese-batteries-first-installation-in-italia-AJq2n0PC",
+"sum": "Intesa는 Trentino 기반 스타트업의 확장을 돕기 위해 천만 달러를 제공하고 있습니다. 계획에는 이탈리아와 스페인에 두 번째 데모 공장도 포함됩니다.",
+"pv": "cd009b1f"
+},
+{
 "key": "答疑室当升科技多款固态电解质已通过头部客户验证并实现小批量应用",
 "keys": [
 "答疑室当升科技多款固态电解质已通过头部客户验证并实现小批量应用"
@@ -9089,7 +9154,8 @@
 "宇树科技罕见涨停机器人etf华安159039标的指数强势涨近9",
 "机器人etf大成159048标的指数飙升大涨861从量产爬坡到场景验证机器人商业化加快探索",
 "人形机器人概念持续拉升南方基金旗下机器人etf南方159258标的指数涨超2",
-"机器人etf鹏华159278标的指数涨超2四部门鼓励发展适合养老场景的服务机器人"
+"机器人etf鹏华159278标的指数涨超2四部门鼓励发展适合养老场景的服务机器人",
+"宇树科技大涨股价重回600元"
 ],
 "count": 4,
 "theme": "🤖 로봇",
@@ -9659,7 +9725,7 @@
 "url_tried": 1,
 "pv": "cd009b1f",
 "url": "https://www.cls.cn/detail/2542704",
-"sum_tried": 1
+"sum_tried": 2
 },
 {
 "key": "特斯拉宇樹搶攻量產人形機器人商業化迎關鍵期兩岸",
