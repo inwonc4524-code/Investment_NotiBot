@@ -154,4 +154,9 @@ def main(month):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    if sys.argv[1] == "auto":       # 매일: 어제가 든 달(1일이면 지난달도) — 봇과 겹치는 날이 쌓여 보정이 점점 정확해짐
+        y = date.today() - timedelta(days=1)
+        for mo in sorted({(y - timedelta(days=1)).strftime("%Y-%m"), y.strftime("%Y-%m")}):
+            main(mo)
+    else:
+        main(sys.argv[1])
