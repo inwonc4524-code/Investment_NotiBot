@@ -410,6 +410,7 @@ def judge_pending(st, now):
     apply_backfill(st)
     apply_xfill(st)
     apply_ratio(st)
+    apply_attn(st)
 
 
 BACKFILL_FILE = os.path.join(nb.HERE, "sentiment_backfill.json")
@@ -554,6 +555,173 @@ def apply_ratio(st):
             v["pnu".index(lab)] += 1
     if out:
         st["senti_month"] = out
+
+
+ATTN_FILE = os.path.join(nb.HERE, "attention.json")
+
+
+def _median(a):
+    a = sorted(a)
+    if not a:
+        return 0
+    m = len(a) // 2
+    return a[m] if len(a) % 2 else (a[m - 1] + a[m]) / 2
+
+
+def apply_attn(st):
+    """화제 테마 / 쟁점 테마 판정 (사용자 목적: 어떤 테마가 쟁점·화제였는지 보기, 2026-11-24)
+    관심도 = 위키백과 조회수(영·한·일·중) + 구글 트렌드(있을 때)를 각 테마 '자기 평소(1년 중앙값)'와 비교한 배수.
+      화제 = 그 달 관심도 배수가 높은 테마 (x1.2 이상, 높은 순 5개)
+      쟁점 = 관심도가 평소 이상(x1.1)이면서 그 달 부정 비율이 자기 평균보다 8%p 이상 높은 테마 (3개)
+    대표 기사는 ratio_bf 표본 중 Claude 판정이 있는 기사에서 고름."""
+    try:
+        A = json.load(open(ATTN_FILE, encoding="utf-8"))
+    except Exception:
+        return
+    from datetime import date as _date
+    s0 = A["start"]
+    start = _date(int(s0[:4]), int(s0[4:6]), int(s0[6:]))
+    # 주(월요일 시작)별 묶기
+    def weekly(arr):
+        w = {}
+        for i, v in enumerate(arr):
+            d = start + timedelta(days=i)
+            k = (d - timedelta(days=d.weekday())).isoformat()
+            a = w.setdefault(k, [0, 0])
+            a[0] += v
+            a[1] += 1
+        return {k: a[0] * 7 / a[1] for k, a in w.items() if a[1] >= 4}
+    widx = {}
+    for th, langs in A.get("wiki", {}).items():
+        per = []
+        for lang, arr in langs.items():
+            ws = weekly(arr)
+            base = _median(list(ws.values()))
+            if base < 300:          # 조회수가 너무 적으면 들쭉날쭉해서 뺌
+                continue
+            per.append({k: v / base for k, v in ws.items()})
+        if per:
+            keys = set().union(*per)
+            widx[th] = {k: sum(p.get(k, 1) for p in per) / len(per) for k in keys}
+    tidx = {}
+    for th, ser in (A.get("trends") or {}).items():
+        vals = [v for v in ser.values() if v > 0]
+        base = _median(vals)
+        if base < 5:
+            continue
+        w = {}
+        for d, v in ser.items():
+            dd = _date(int(d[:4]), int(d[4:6]), int(d[6:]))
+            if len(ser) < 200:      # 주 단위 자료(일요일 시작) → 월요일로 맞춤
+                dd = dd + timedelta(days=1)
+            k = (dd - timedelta(days=dd.weekday())).isoformat()
+            w.setdefault(k, []).append(v)
+        tidx[th] = {k: (sum(a) / len(a)) / base for k, a in w.items()}
+    idx = {}
+    for th in set(widx) | set(tidx):
+        a, b = widx.get(th, {}), tidx.get(th, {})
+        idx[th] = {k: ((a[k] + b[k]) / 2 if k in a and k in b else a.get(k, b.get(k)))
+                   for k in set(a) | set(b)}
+    # 모든 테마가 같이 오르내리는 흐름(계절·위키백과 전체 조회수 변화)은 빼고 '다른 테마보다 유독 더' 뜬 것만 봄
+    allk = set().union(*idx.values()) if idx else set()
+    common = {k: _median([idx[th][k] for th in idx if k in idx[th]]) or 1 for k in allk}
+    for th in idx:
+        rel = {k: v / common[k] for k, v in idx[th].items()}
+        b = _median(list(rel.values())) or 1
+        idx[th] = {k: v / b for k, v in rel.items()}
+    heat, peak = {}, {}
+    for th, wk in idx.items():
+        bym = {}
+        for k, v in wk.items():
+            if k < s0[:4] + "-" + s0[4:6]:      # 1월 1일이 낀 주(12/29~)는 1월로
+                k = s0[:4] + "-" + s0[4:6] + "-01"
+            bym.setdefault(k[:7], []).append((v, k))
+        heat[th] = {m: round(sum(x[0] for x in a) / len(a), 2) for m, a in bym.items()}
+        peak[th] = {m: max(a) for m, a in bym.items()}
+    # 부정 비율
+    sm = st.get("senti_month", {})
+    neg, avg = {}, {}
+    for th in heat:
+        tp = tn = 0
+        for m, ths in sm.items():
+            t = [0, 0, 0]
+            for v in (ths.get(th) or {}).values():
+                for j in range(3):
+                    t[j] += v[j]
+            if sum(t) >= 8:
+                neg.setdefault(th, {})[m] = t[1] / sum(t)
+            tp += sum(t)
+            tn += t[1]
+        if tp:
+            avg[th] = tn / tp
+    # 대표 기사
+    try:
+        labels = json.load(open(CLAUDE_FILE, encoding="utf-8")).get("labels", {})
+    except Exception:
+        labels = {}
+    items = {}
+    for f in sorted(os.listdir(RATIO_DIR)) if os.path.isdir(RATIO_DIR) else []:
+        if not f.endswith(".json"):
+            continue
+        d = json.load(open(os.path.join(RATIO_DIR, f), encoding="utf-8"))
+        for it in d.get("items", []):
+            items.setdefault((d["month"], it["th"]), []).append((labels.get(it["k"]), it["t"], it.get("d", "")))
+
+    def heads(m, th, want):
+        lst = items.get((m, th), [])
+        order = {c: i for i, c in enumerate(want)}
+        # 같은 판정이면 한국어 제목 먼저
+        lst = sorted(lst, key=lambda x: (order.get(x[0], 9), 0 if re.search("[가-힣]", x[1]) else 1))
+        out, seen = [], []
+        for lab, t, d in lst:
+            if lab not in order:
+                continue
+            key = re.sub(r"\W", "", t)
+            bg = {key[i:i + 2] for i in range(len(key) - 1)}
+            if any(len(bg & o) > 0.45 * min(len(bg), len(o)) for o in seen):   # 거의 같은 기사 빼기
+                continue
+            seen.append(bg)
+            out.append([t[:70], lab])
+            if len(out) == 3:
+                break
+        return out
+
+    months = {}
+    for m in sorted({m for h in heat.values() for m in h}):
+        rows = [(heat[th][m], th) for th in heat if m in heat[th]]
+        hot = [(x, th) for x, th in sorted(rows, reverse=True) if x >= 1.2][:5]
+        iss = []
+        for x, th in rows:
+            n = neg.get(th, {}).get(m)
+            if n is None or th not in avg or x < 1.1:
+                continue
+            dif = n - avg[th]
+            if dif >= 0.08:
+                iss.append((x * dif, th, x, n, avg[th]))
+        iss = sorted(iss, reverse=True)[:3]
+        months[m] = {
+            "hot": [{"th": th, "x": x, "peak": peak[th][m][1], "px": round(peak[th][m][0], 2),
+                     "heads": heads(m, th, "pn")} for x, th in hot],
+            "issue": [{"th": th, "x": round(x, 2), "neg": round(n * 100), "avg": round(a * 100),
+                       "heads": heads(m, th, "n")} for _, th, x, n, a in iss],
+        }
+    # 11/15부터 실제로 센 기사 수 → 최근 7일 vs 그 전 7일 급상승
+    rising = []
+    days = sorted(d for d in st.get("days", {}) if d >= "2026-11-15")
+    if len(days) >= 15:
+        last, prev = days[-8:-1], days[-15:-8]      # 오늘(진행 중)은 뺌
+        for th in heat:
+            a = sum(day_total(st, d, th) for d in last)
+            b = sum(day_total(st, d, th) for d in prev)
+            if a >= 30 and b > 0:
+                rising.append([th, round(a / b, 2), a, b])
+        rising.sort(key=lambda r: -r[1])
+    st["attn"] = {
+        "heat": heat, "months": months, "rising": rising[:5],
+        "wiki_end": A.get("end"), "trends": A.get("trends_updated"),
+        "terms": A.get("trends_terms", {}),
+    }
+    print("화제·쟁점 판정:", len(heat), "테마,", len(months), "달")
 
 
 XFILL_FILE = os.path.join(nb.HERE, "sentiment_xfill.json")

@@ -9,7 +9,7 @@ news_stats.apply_attn 이 이 파일로 '화제 테마 / 쟁점 테마'를 판�
 import json
 import os
 import time
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from urllib.parse import quote
 
 import requests
@@ -36,7 +36,7 @@ WIKI = {
     "신재생에너지": ["Renewable energy", "Solar power", "Wind power", "Offshore wind power"],
     "게임": ["Video game industry", "Nexon", "Krafton", "Nintendo Switch 2", "NCSoft"],
     "엔터": ["K-pop", "Hybe Corporation", "BTS", "Blackpink", "KPop Demon Hunters"],
-    "화장품": ["Korean beauty", "Amorepacific", "Cosmetics", "Olive Young"],
+    "화장품": ["K-beauty", "Korean cosmetics", "Amorepacific", "Cosmetics", "Olive Young"],
     "금융": ["KB Financial Group", "Shinhan Financial Group", "Hana Financial Group", "Bank of Korea", "Federal Reserve"],
     "인터넷·플랫폼": ["Naver Corporation", "Kakao", "Coupang", "Big Tech", "Amazon (company)"],
     "건설·부동산": ["Real estate economics", "Mortgage loan", "Hyundai Engineering & Construction", "Samsung C&T", "Real estate bubble"],
@@ -128,19 +128,36 @@ def trends_all(old):
     tr = TrendReq(hl="ko-KR", tz=-540, timeout=(10, 30))
     tf = f"{START:%Y-%m-%d} {date.today():%Y-%m-%d}"
     out, ok = dict(old), 0
-    for th, kw in TRENDS.items():
+    todo = list(TRENDS.items())
+    for rnd in range(2):                     # 막힌 테마는 한 번 더 (1분 쉬고)
+        if rnd:
+            todo = [(th, kw) for th, kw in todo if th not in done]
+            if not todo:
+                break
+            time.sleep(60)
+        done = set()
+        for th, kw in todo:
+            if _one(tr, th, kw, tf, out):
+                done.add(th)
+                ok += 1
+            time.sleep(12)
+    return out, ok > 0
+
+
+def _one(tr, th, kw, tf, out):
         try:
             tr.build_payload([kw], timeframe=tf, geo="KR")
             df = tr.interest_over_time()
-            if df is not None and len(df):
+            if df is not None and len(df) and kw in df:
                 out[th] = {i.strftime("%Y%m%d"): int(v) for i, v in df[kw].items()}
-                ok += 1
                 print("트렌드", th, len(out[th]))
+                return True
+            print("트렌드 자료 없음", th)
+            return True
         except Exception as e:
             print("트렌드 막힘", th, str(e)[:80])
             time.sleep(30)
-        time.sleep(12)
-    return out, ok > 0
+            return False
 
 
 def main():
@@ -154,14 +171,14 @@ def main():
     data, used = wiki_all(end)
     tr, tr_ok = trends_all(old.get("trends", {}))
     res = {
-        "updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+        "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "start": START.strftime("%Y%m%d"),
         "end": end.strftime("%Y%m%d"),
         "wiki": data,
         "wiki_titles": used,
         "trends": tr,
         "trends_terms": TRENDS,
-        "trends_updated": (datetime.utcnow().strftime("%Y-%m-%d") if tr_ok else old.get("trends_updated")),
+        "trends_updated": (datetime.now(timezone.utc).strftime("%Y-%m-%d") if tr_ok else old.get("trends_updated")),
     }
     json.dump(res, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print("저장:", OUT, "위키", len(data), "트렌드", len(tr))

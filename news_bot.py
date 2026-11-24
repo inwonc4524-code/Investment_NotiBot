@@ -1041,6 +1041,50 @@ function monthRatio(days, f, rows){
       '<span class="rpct"><i class="s-p">'+p+'%</i><i class="s-n">'+n+'%</i><i class="s-u">'+u+'%</i></span></div>'; }).join('');
   return h;
 }
+// 화제·쟁점 테마 (관심도 = 위키백과 조회수·구글 트렌드를 테마마다 '자기 평소'와 비교한 배수) — attention.py / news_stats.apply_attn
+function heatBg(x){
+  if(x >= 1) return 'rgba(249,115,22,'+Math.min(1, 0.12 + (x-1)*0.9).toFixed(2)+')';
+  return 'rgba(96,165,250,'+Math.min(0.85, (1-x)*1.6).toFixed(2)+')';
+}
+function attnHtml(days, rows){
+  var A = ST.attn; if(!A || !A.heat) return '';
+  var ms = []; days.forEach(function(d){ var m = d.slice(0,7); if(ms.indexOf(m) < 0) ms.push(m); });
+  ms = ms.filter(function(m){ return A.months[m]; }).sort();
+  if(!ms.length) return '';
+  var lab = function(m){ return (+m.slice(5))+'월'; };
+  var h = '<h3 class="mrh">🔥 화제·쟁점 테마 '+m2(ms[0])+(ms.length>1?'~'+m2(ms[ms.length-1]):'')+'</h3>'+
+    '<p class="note">관심도 = 테마별 위키백과 조회수(영·한·일·중)'+(A.trends?' + 구글 트렌드 한국 검색량':'')+'로 잰 관심이 그 테마의 <b>평소</b>보다 몇 배였는지예요. 모든 테마가 같이 오르내린 흐름은 빼서, <b>다른 테마보다 유독 더 뜬 정도</b>만 보여요. 기사 수와 달리 옛날 자료도 정확해요.<br>'+
+    '<b>🔥 화제</b> = 평소보다 관심이 1.2배 이상 · <b>⚡ 쟁점</b> = 관심이 평소 이상이면서 나쁜 소식 비율이 그 테마 평균보다 8%p 이상 높은 달 · 기사 예시는 그 달 표본 기사 중 Claude 판정 기사</p>';
+  // 달력판
+  var ord = rows.map(function(r){ return r.th; }).filter(function(th){ return A.heat[th]; });
+  h += '<div class="hmap"><div class="hrow hhead"><span class="sn"></span>'+ms.map(function(m){ return '<span class="hc">'+(+m.slice(5))+'</span>'; }).join('')+'</div>';
+  h += ord.map(function(th){
+    return '<div class="hrow"><span class="sn">'+esc(th)+'</span>'+ms.map(function(m){ var x = A.heat[th][m];
+      return x == null ? '<span class="hc"></span>' : '<span class="hc" style="background:'+heatBg(x)+'" title="'+esc(th)+' · '+lab(m)+' · 평소의 '+x.toFixed(2)+'배">'+(x>=1.5?x.toFixed(1):'')+'</span>'; }).join('')+'</div>';
+  }).join('');
+  h += '<div class="hleg"><span class="hc" style="background:'+heatBg(0.6)+'"></span>평소보다 적음 <span class="hc" style="background:'+heatBg(1)+'"></span>평소 <span class="hc" style="background:'+heatBg(1.5)+'"></span>1.5배 <span class="hc" style="background:'+heatBg(2.1)+'"></span>2배 이상 (숫자 = 1.5배 이상)</div></div>';
+  // 달별 화제·쟁점
+  var mk = function(v){ return '<span class="hd s-'+(v[1]||'u')+'">'+esc(v[0])+'</span>'; };
+  h += ms.slice().reverse().map(function(m, i){ var o = A.months[m];
+    var hot = o.hot.map(function(r){ return '<li><b>🔥 '+esc(r.th)+'</b> <span class="hx">평소의 '+r.x.toFixed(1)+'배 · 가장 뜨거운 주 '+r.peak.slice(5).replace('-','/')+'~ ('+r.px.toFixed(1)+'배)</span>'+
+      (r.heads.length ? '<div class="hds">'+r.heads.map(mk).join('')+'</div>' : '')+'</li>'; }).join('');
+    var iss = o.issue.map(function(r){ return '<li><b>⚡ '+esc(r.th)+'</b> <span class="hx">관심 '+r.x.toFixed(1)+'배 · 나쁜 소식 <b class="s-n">'+r.neg+'%</b> (평소 '+r.avg+'%)</span>'+
+      (r.heads.length ? '<div class="hds">'+r.heads.map(mk).join('')+'</div>' : '')+'</li>'; }).join('');
+    return '<details class="hmon"'+(i===0?' open':'')+'><summary>'+m.slice(0,4)+'년 '+lab(m)+' <span class="hx">화제 '+o.hot.length+' · 쟁점 '+o.issue.length+'</span></summary>'+
+      (hot ? '<ul>'+hot+'</ul>' : '<p class="hx">평소보다 크게 뜬 테마가 없었어요</p>')+(iss ? '<ul>'+iss+'</ul>' : '')+'</details>';
+  }).join('');
+  return h;
+}
+function m2(m){ return m.slice(2).replace('-','.'); }
+// 최근 7일 급상승 (11/15부터 실제로 센 기사 수)
+function risingHtml(){
+  var A = ST.attn; if(!A) return '';
+  var h = '<h3 class="mrh">🚀 이번 주 급상승 테마</h3>';
+  if(!A.rising || !A.rising.length)
+    return h + '<p class="note">최근 7일과 그 전 7일 기사 수를 비교해요. 11/15부터 센 기사가 2주 쌓이는 <b>11/29</b>부터 나와요.</p>';
+  return h + '<p class="note">최근 7일 기사 수 ÷ 그 전 7일 (실제로 센 숫자)</p>' + A.rising.map(function(r){
+    return '<div class="mrow"><span class="sn">'+esc(r[0])+'</span><span class="hx">'+r[3].toLocaleString()+' → <b>'+r[2].toLocaleString()+'</b>건</span><b class="'+(r[1]>=1?'s-n':'s-u')+'" style="margin-left:auto">×'+r[1].toFixed(2)+'</b></div>'; }).join('');
+}
 function capped(days, th){
   var c = ST.capped || {}, hit = false;
   days.forEach(function(d){ (c[d]||[]).forEach(function(s){ var p = s.split('|');
@@ -1160,6 +1204,8 @@ function renderStats(t){
       (open ? detail(r.th) : '') + '</div>';
   }).join('');
   h += monthRatio(P[0], f, rows);
+  if(S.sp==='h' || S.sp==='y') h += attnHtml(P[0], rows);
+  if(S.sp==='w' || S.sp==='m') h += risingHtml();
   h += '<footer>· 순위 왼쪽 <span style="color:#f87171">▲</span>/<span style="color:#60a5fa">▼</span> = 바로 앞 같은 길이 기간보다 몇 계단 오르고 내렸는지<br>· 막대 = 이 기간 뉴스 수, 오른쪽 작은 선 = 최근 14일 흐름, 줄을 누르면 30일 그래프(6개월·1년은 주별)와 나라별 구성<br>'+
        '· 숫자 오른쪽 <span style="color:#4ade80">●</span>긍정 <span style="color:#f87171">●</span>부정 <span style="color:#a8a29e">●</span>중립 = 기사 제목을 낱말 판정과 무료 AI(Qwen2.5) 판정으로 따로 보고, 둘이 같으면 그대로, 다르면 Claude 가 실제 기사로 정한 규칙(낱말 중립+AI 긍정→중립 등)으로 정하고, 긍정↔부정처럼 크게 엇갈리면 판정 다름으로 빼요. Claude 가 판정 다름 기사를 따로 검토해 고쳐요<br>'+
        '· 숫자 옆 + 는 검색 결과가 너무 많아 실제보다 적게 잡혔을 수 있다는 표시예요 (구글 뉴스는 한 번에 최대 100개)<br>'+
@@ -1305,7 +1351,7 @@ STATS_CSS = r""".seg{display:flex;gap:4px;margin:6px 4px 10px}.seg button{flex:1
 .sc{width:54px;flex:none;text-align:right;font-size:14px;font-variant-numeric:tabular-nums}
 .sent{flex:none;display:flex;gap:4px;font-size:10.5px;font-variant-numeric:tabular-nums;width:104px;justify-content:flex-start}.sent i{font-style:normal;white-space:nowrap}
 .sent i::before{content:'●';font-size:8px;margin-right:1px;vertical-align:1px}.s-p::before{color:#4ade80}.s-n::before{color:#f87171}.s-u::before{color:#a8a29e}
-.mrh{font-size:14px;margin:18px 0 4px}.mrow{display:flex;align-items:center;gap:8px;padding:5px 2px;border-bottom:1px solid var(--line)}.mrow .sn{width:92px;flex:none;font-size:13px}.rbar{flex:1;display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--card2)}.rbar i{display:block;height:100%}.b-p{background:#4ade80}.b-n{background:#f87171}.b-u{background:#a8a29e}.rpct{flex:none;display:flex;gap:6px;font-size:11px;font-variant-numeric:tabular-nums;width:132px}.rpct i{font-style:normal}@media(max-width:520px){.rpct{width:auto;flex-direction:column;gap:0;font-size:9.5px;line-height:1.15}.mrow .sn{width:74px}}.sentot{margin-top:-4px}.sentot .sent{display:inline-flex;font-size:12px;gap:8px;width:auto}
+.hmap{margin:6px 0 10px;overflow-x:auto}.hrow{display:flex;align-items:center;gap:2px;padding:1px 0}.hrow .sn{width:92px;flex:none;font-size:12px}.hc{flex:1;min-width:18px;height:18px;border-radius:3px;background:var(--card2);font-size:9.5px;line-height:18px;text-align:center;color:var(--text);font-variant-numeric:tabular-nums}.hhead .hc{background:none;color:var(--sub);font-size:10px}.hleg{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;font-size:10.5px;color:var(--sub);margin-top:6px}.hleg .hc{flex:none;width:14px;height:12px;min-width:0}.hmon{border-bottom:1px solid var(--line);padding:6px 2px}.hmon summary{cursor:pointer;font-size:13.5px;font-weight:600}.hmon ul{margin:6px 0 4px;padding-left:4px;list-style:none}.hmon li{margin:6px 0;font-size:13px}.hx{color:var(--sub);font-size:11.5px;font-weight:400}.hds{display:flex;flex-direction:column;gap:2px;margin:3px 0 0 18px}.hd{font-size:11.5px;line-height:1.35}.hd:before{content:"· "}.hd.s-p:before{content:"🟢 "}.hd.s-n:before{content:"🔴 "}.hd.s-u:before{content:"⚪ "}.hd{color:var(--text)!important}@media(max-width:520px){.hrow .sn{width:74px;font-size:11px}.hc{min-width:0}}.mrh{font-size:14px;margin:18px 0 4px}.mrow{display:flex;align-items:center;gap:8px;padding:5px 2px;border-bottom:1px solid var(--line)}.mrow .sn{width:92px;flex:none;font-size:13px}.rbar{flex:1;display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--card2)}.rbar i{display:block;height:100%}.b-p{background:#4ade80}.b-n{background:#f87171}.b-u{background:#a8a29e}.rpct{flex:none;display:flex;gap:6px;font-size:11px;font-variant-numeric:tabular-nums;width:132px}.rpct i{font-style:normal}@media(max-width:520px){.rpct{width:auto;flex-direction:column;gap:0;font-size:9.5px;line-height:1.15}.mrow .sn{width:74px}}.sentot{margin-top:-4px}.sentot .sent{display:inline-flex;font-size:12px;gap:8px;width:auto}
 @media(max-width:520px){.srow .spark{display:none}.srow .sent{flex-direction:column;gap:0;font-size:9.5px;line-height:1.15;width:36px}}
 .chg{width:48px;flex:none;text-align:right;font-size:11.5px;color:var(--sub)}.chg.up{color:#f87171}.chg.dn{color:#60a5fa}
 .spark{flex:none}
