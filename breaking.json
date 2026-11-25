@@ -2932,6 +2932,27 @@
 "time": "11/25 22:30",
 "run": "breaking",
 "added": 1795615348
+},
+{
+"key": "속보뉴욕증시하락출발나스닥35급락",
+"keys": [
+"속보뉴욕증시하락출발나스닥35급락"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 뉴욕증시 하락 출발...나스닥 3.5% 급락",
+"show": "[속보] 뉴욕증시 하락 출발...나스닥 3.5% 급락",
+"source": "뉴스핌",
+"src_url": "https://www.newspim.com",
+"sum": "mj72284@newspim.com [뉴욕=뉴스핌] 김민정 특파원 = 자세한 뉴스는 곧 전해드리겠습니다. [관련키워드] [뉴스핌 베스트 기사] 로봇이 용돈 보내준다고? '핀테크위크 2026' [서울=뉴스핌] 전미옥 기자 =\"손주에게 용돈을 좀 보내주고 싶은데 비밀번호가 생각이 안 나네.\" 할머니의 말에 돌봄로봇 '케비'가 KB국민은행 화상상담을 연결한다. 이후 모니터에 등장한 은행 직원은 비밀번호 변경 절차를 안내하고 본인 확인을 거쳐 손주에게 용돈 10만원을 송금했다.",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5fSFdVU3lwOHRNUFd3WWk3S3VXVEZVdllsZnJ3R2xTUmVCTXMtQnhvdmNyN2RJSDN3djFGdFdac1NlTmdUR2xaWGFXLW1ZNDRNYm5EQTAwVkVWakdQ?oc=5",
+"url": "https://www.newspim.com/news/view/20261125001339",
+"pub": 1795617180.0,
+"time": "11/25 23:33",
+"run": "breaking",
+"added": 1795617535
 }
 ],
 "seen": {
@@ -2957,7 +2978,6 @@
 "stockmarkettodaynvidiastocksoarsaftercompanyreinstatesjensenhuangasceodowsp500na": 1795447261.8879414,
 "nvidiasoars25asboardreinstatesjensenhuangasceo": 1795446542.048338,
 "jensenhuangreturnsasnvidiaceoafterscandalplaguedexit": 1795445821.2605588,
-"nvidiaboardunanimouslyreinstatesjensenhuangasceoandchairman": 1795444339.7586865,
 "nvidiareinstatesjensenhuangasceoeffectiveimmediatelyfollowingusgovernmentinput": 1795445102.2352517,
 "jensenhuangbackasnvidiaceostockjumps": 1795447261.8879209,
 "nvidiasoars30asboardreinstatesjensenhuangasceochipstocksjump": 1795464725.6107914,
@@ -2965,7 +2985,6 @@
 "nvidiareversescourseandbringsjensenhuangbackasceo": 1795447261.8879216,
 "nvidiareinstatesjensenhuangasceodespitechinascandal": 1795460378.9604688,
 "nvidiareinstatesjensenhuangasceoafterusgovernmentinput": 1795445102.2352474,
-"快訊黃仁勳回來了台指期夜盤洗三溫暖翻黑後暴漲衝破40k": 1795444356.475776,
 "jensenhuangisbackasnvidiaceoafter12daysstevejobsneeded12yearssamaltmanlessthanaw": 1795472723.9691832,
 "nvidiareappointsjensenhuangasceoafteraffairscandal": 1795447261.8879201,
 "nvidiareinstatesjensenhuangasceoamidpressurefrompresidenttrumpinvestors": 1795453816.3322783,
@@ -3883,20 +3902,22 @@
 "usproposesnewtariffson14tradingpartnersincludingchinatheeu": 1795616782.9611902,
 "usproposesnewtariffson14tradingpartnerstofightexcessfactorycapacity": 1795613908.8764536,
 "usproposesnewtariffson14tradingpartnersincludingchinaandtheeu": 1795613908.8764539,
-"ussettoraisetariffsonchinaeuandothers": 1795616782.9611897,
-"usannouncesnewtariffsofupto20onchinatheeuand12othernations": 1795615343.505693,
+"ussettoraisetariffsonchinaeuandothers": 1795616813.1925974,
+"usannouncesnewtariffsofupto20onchinatheeuand12othernations": 1795617532.7462199,
 "usplanstohiketariffsonchinaeubrazilandothersoversubsidizedproduction": 1795616062.9423409,
-"trumpproposesnewtariffsonchinaeuropeandothertradepartners": 1795616782.9611871,
-"usproposesnewtariffsonindia13othertradepartnerschinafacesadditional20duty": 1795616782.9611905,
-"trumppreparesnewroundoftariffsonchinaotherustradingpartners": 1795616782.9611886,
+"trumpproposesnewtariffsonchinaeuropeandothertradepartners": 1795617532.7462208,
+"usproposesnewtariffsonindia13othertradepartnerschinafacesadditional20duty": 1795616813.1925986,
+"trumppreparesnewroundoftariffsonchinaotherustradingpartners": 1795616813.1925972,
 "usthreatensdoulbedigittariffsoneuchina12othersafterinvestigation": 1795614622.583325,
-"usproposessweepingnewtariffsonchinaothers": 1795616782.961187,
+"usproposessweepingnewtariffsonchinaothers": 1795617532.74622,
 "임금19억체불하고24년간미국도피반도체업체대표구속": 1795615346.6949322,
 "직원임금19억떼먹고미국행반도체업체대표24년만구속": 1795615346.6949341,
 "임금체불후24년간해외도피반도체설비업체대표구속": 1795615346.6949348,
-"속보美10월근원pce물가전년比33예상치상회": 1795616063.297259,
-"usproposesnew20tariffsonchinaaweekaftertrumpxisummit": 1795616062.9423363,
-"usthreatensdoubledigittariffsoneuchina12othersafterinvestigation": 1795616782.961188,
-"trumpproposesnewustariffson14partnersincludingchinajapanindia": 1795616782.961186
+"속보美10월근원pce물가전년比33예상치상회": 1795616813.6903088,
+"usproposesnew20tariffsonchinaaweekaftertrumpxisummit": 1795616813.1925952,
+"usthreatensdoubledigittariffsoneuchina12othersafterinvestigation": 1795617532.746221,
+"trumpproposesnewustariffson14partnersincludingchinajapanindia": 1795616782.961186,
+"trumpannouncesnewtariffsonchinaeuandothertradingpartners": 1795617532.7462196,
+"속보뉴욕증시하락출발나스닥35급락": 1795617535.6437597
 }
 }
