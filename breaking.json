@@ -2840,6 +2840,30 @@
 "time": "11/25 22:21",
 "run": "breaking",
 "added": 1795613155
+},
+{
+"key": "usproposesnewtariffson14tradingpartnersincludingchinatheeu",
+"keys": [
+"usproposesnewtariffson14tradingpartnersincludingchinatheeu",
+"usproposesnewtariffson14tradingpartnerstofightexcessfactorycapacity",
+"usproposesnewtariffson14tradingpartnersincludingchinaandtheeu"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "U.S. proposes new tariffs on 14 trading partners, including China & the EU",
+"show": "미국, 중국·EU 등 14개 무역 상대국에 새로운 관세 부과 제안",
+"source": "CNBC",
+"src_url": "https://www.cnbc.com",
+"sum": "CNBC의 Andrew Ross Sorkin이 최신 뉴스를 보도합니다.",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbXF4OWwwSFA5V01naWRXLVQtamx5ckdiUkd5ZHJ0ZkV0d09jUHAySndlMXA4cy15OVk3dzQzdnViWWpQMUZ0djlDVGdyVXhSMUJvLVdLQjFLb3hLa0hZamY0ajhWQ0dpbGRnTF9hYWxTTkhMOXJyM1dudWZjRTcyU1dCRkVHakFVejB6QUxKZ0hRRlR1Ymc3Z3NDbExhUjU3ckczbTQ1RHkyNmxZSHVJSWZsSQ?oc=5",
+"url": "https://www.cnbc.com/video/2026/11/25/u-s-proposes-new-tariffs-on-14-trading-partners-including-china-the-eu.html",
+"pub": 1795613595.0,
+"time": "11/25 22:33",
+"run": "breaking",
+"added": 1795613868,
+"pv": "cd009b1f"
 }
 ],
 "seen": {
@@ -3788,9 +3812,12 @@
 "nvidiasroleasanunderwriteroftheaiboom": 1795607328.4436958,
 "nvidiassoaredonmondaydippedontuesdayhowlongcantheaiboomlast": 1795607328.443696,
 "edyardenisaysjensenhuangsreturntonvidiacouldeaseaifinancingconcernsbutintensifyr": 1795608076.2677908,
-"usproposesfreshtariffsonchinaothersastrumpdoublesdownonhisfavoritetradeweapon": 1795613152.7765944,
-"trumptargetschinainnewroundoftariffs": 1795613152.7766001,
-"ustargetschinaeuwithnewtariffsafterovercapacityprobe": 1795613152.776601,
-"속보美대중관세20부과검토최대40까지인상가능성": 1795613155.5803494
+"usproposesfreshtariffsonchinaothersastrumpdoublesdownonhisfavoritetradeweapon": 1795613873.0996017,
+"trumptargetschinainnewroundoftariffs": 1795613873.0996032,
+"ustargetschinaeuwithnewtariffsafterovercapacityprobe": 1795613873.0996034,
+"속보美대중관세20부과검토최대40까지인상가능성": 1795613155.5803494,
+"usproposesnewtariffson14tradingpartnersincludingchinatheeu": 1795613873.0971496,
+"usproposesnewtariffson14tradingpartnerstofightexcessfactorycapacity": 1795613873.0971558,
+"usproposesnewtariffson14tradingpartnersincludingchinaandtheeu": 1795613873.0971568
 }
 }
