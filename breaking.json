@@ -2772,6 +2772,29 @@
 "time": "11/25 19:03",
 "run": "breaking",
 "added": 1795602226
+},
+{
+"key": "nvidiasroleasanunderwriteroftheaiboom",
+"keys": [
+"nvidiasroleasanunderwriteroftheaiboom",
+"nvidiassoaredonmondaydippedontuesdayhowlongcantheaiboomlast"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Nvidia’s Role as an Underwriter of the AI Boom",
+"show": "AI 붐의 인수자로서 엔비디아의 역할",
+"source": "WSJ",
+"src_url": "https://www.wsj.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNelFyYnBETThQRUszRXZuTDAydGlHczBfZXZhbjdkSlNMWnYxemZWNlNZbEVGbjI1WUFnMTduMldHRFZtTHlOWVlEYXFrY1dLcldOT2tndXpldk5LSXpKcEZNTnFvWURpckhxLVN6RGZmWmFXclB4a3JjcGVmWlR1eTh4VlkwUXRNMUkwMXlwek5JQUdid3M0?oc=5",
+"url": "https://www.wsj.com/finance/investing/nvidias-role-as-an-underwriter-of-the-ai-boom-95375800",
+"pub": 1795605928.0,
+"time": "11/25 20:25",
+"run": "breaking",
+"added": 1795606609,
+"pv": "cd009b1f"
 }
 ],
 "seen": {
@@ -3712,6 +3735,12 @@
 "산업장관주52시간특례반도체부터내일이라도시작해야": 1795601503.6402285,
 "증선위미공개중요정보이용코스닥상장사임직원등중수청통보": 1795602261.9867296,
 "미공개중요정보로18억부당이득코스닥사임직원중수청통보": 1795602261.9867306,
-"미공개중요정보로18억부당이득코스닥社임직원중수청통보": 1795602261.986731
+"미공개중요정보로18억부당이득코스닥社임직원중수청통보": 1795602261.986731,
+"theinvestigationsfacingnvidiaandjensenhuang": 1795606608.5672534,
+"jensenhuangsreturntonvidiafuelswashingtonfightoverchinaschipaccess": 1795606608.567254,
+"analysisjensenhuangsreturntonvidiafuelswashingtonfightoverchinaschipaccess": 1795606608.5672543,
+"hiltzikjensenhuangsreturntonvidiamakeseveryoneinvolvedlookcorrupt": 1795606608.5672545,
+"nvidiasroleasanunderwriteroftheaiboom": 1795606614.8656142,
+"nvidiassoaredonmondaydippedontuesdayhowlongcantheaiboomlast": 1795606614.8656185
 }
 }
