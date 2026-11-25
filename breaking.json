@@ -2795,6 +2795,51 @@
 "run": "breaking",
 "added": 1795606609,
 "pv": "cd009b1f"
+},
+{
+"key": "usproposesfreshtariffsonchinaothersastrumpdoublesdownonhisfavoritetradeweapon",
+"keys": [
+"usproposesfreshtariffsonchinaothersastrumpdoublesdownonhisfavoritetradeweapon",
+"trumptargetschinainnewroundoftariffs",
+"ustargetschinaeuwithnewtariffsafterovercapacityprobe"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "U.S. proposes fresh tariffs on China, others as Trump doubles down on his favorite trade weapon",
+"show": "미국은 트럼프가 자신이 선호하는 무역 무기를 두 배로 늘리는 동안 중국에 대한 새로운 관세를 제안하고 다른 사람들도 있습니다.",
+"source": "MarketWatch",
+"src_url": "https://www.marketwatch.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQa0ttMW90ZXp2d08weGNhUEtqT2hvcDB5RUVGdERCbTM5SnJlTU1JdEFqczViRTVxUFpHTl93MzVYc3hXQVpDckVXZmVlYkYwVnRkenNoSkhSUTNaWTNsRjR3cGptLVQ2b1JQQkhBMjdTcW9EZGpjTTVLLWZHMHo5d3FENVNTOUI5QXhVMUNiV3pZdWN3cUVDNXZPZ2RFMGJ0MHlJNDk4a1Z6dzhxOC1GdFNIYWh2RnNuQWlCWUpNYTJud1RaOUhmaVpPeV9MNmN2cGc?oc=5",
+"url": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9",
+"pub": 1795612860.0,
+"time": "11/25 22:21",
+"run": "breaking",
+"added": 1795613147,
+"pv": "cd009b1f"
+},
+{
+"key": "속보美대중관세20부과검토최대40까지인상가능성",
+"keys": [
+"속보美대중관세20부과검토최대40까지인상가능성"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] \"美, 대중 관세 20% 부과 검토…최대 40%까지 인상 가능성\"",
+"show": "[속보] \"美, 대중 관세 20% 부과 검토…최대 40%까지 인상 가능성\"",
+"source": "블루밍비트",
+"src_url": "https://bloomingbit.io",
+"sum": "한국경제 코인, 블록체인 전문가들이 24시간 빠르고 정확한 코인 뉴스 속보를 제공해요. 코인 소식 중 중요한 내용만 PiCK 해서 보세요.",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44V25UX1R1alM1SWozcVY0WThFQmNHaXF6YWR2c3J0WjJYZ2lMR19xMTV2MXRCZ1g5QVA1ZFEzZTVtLVdXbUhnb1hGZWVBZGEy?oc=5",
+"url": "https://bloomingbit.io/feed/news/125219",
+"pub": 1795612860.0,
+"time": "11/25 22:21",
+"run": "breaking",
+"added": 1795613155
 }
 ],
 "seen": {
@@ -3742,6 +3787,10 @@
 "hiltzikjensenhuangsreturntonvidiamakeseveryoneinvolvedlookcorrupt": 1795607328.443663,
 "nvidiasroleasanunderwriteroftheaiboom": 1795607328.4436958,
 "nvidiassoaredonmondaydippedontuesdayhowlongcantheaiboomlast": 1795607328.443696,
-"edyardenisaysjensenhuangsreturntonvidiacouldeaseaifinancingconcernsbutintensifyr": 1795608076.2677908
+"edyardenisaysjensenhuangsreturntonvidiacouldeaseaifinancingconcernsbutintensifyr": 1795608076.2677908,
+"usproposesfreshtariffsonchinaothersastrumpdoublesdownonhisfavoritetradeweapon": 1795613152.7765944,
+"trumptargetschinainnewroundoftariffs": 1795613152.7766001,
+"ustargetschinaeuwithnewtariffsafterovercapacityprobe": 1795613152.776601,
+"속보美대중관세20부과검토최대40까지인상가능성": 1795613155.5803494
 }
 }
