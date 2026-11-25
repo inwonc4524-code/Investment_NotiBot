@@ -2888,10 +2888,53 @@
 "run": "breaking",
 "added": 1795613903,
 "pv": "cd009b1f"
+},
+{
+"key": "임금19억체불하고24년간미국도피반도체업체대표구속",
+"keys": [
+"임금19억체불하고24년간미국도피반도체업체대표구속",
+"직원임금19억떼먹고미국행반도체업체대표24년만구속",
+"임금체불후24년간해외도피반도체설비업체대표구속"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "임금 1.9억 체불하고 24년간 미국 도피…반도체 업체 대표 구속",
+"show": "임금 1.9억 체불하고 24년간 미국 도피…반도체 업체 대표 구속",
+"source": "중앙일보",
+"src_url": "https://www.joongang.co.kr",
+"sum": "직원 임금 1억9000여만원을 체불하고 미국으로 도피했다가 24년 만에 국내에 입국한 반도체 설비업체 대표가 구속됐다. 고용노동부 경기지방고용노동청은 근로기준법 위반 등 혐의로 반도체 설비업체 대표 A씨를 구속했다고 25일 밝혔다. A씨는 2001년 경기 화성시에서 반도체 설비업체를 운영하면서 직원 18명의 임금 및 퇴직금 1억9000여만원을 지급하지 않은 혐의를 받는다. 2001년 당시 최저임금이 시간당 1865원이었던 점을 감안하면 작지 않은 규모다.",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrc2RxdUtuX3haMFctVGowdE9pVUdWTmpDbnRVZ3dfSmdpc0lPd3VEWGFOaVg5WTJKXzhQRHgwemxEa01lZUVFdEM4TDdNNm1oSTZIZlpn?oc=5",
+"url": "https://www.joongang.co.kr/article/25481968",
+"pub": 1795614531.0,
+"time": "11/25 22:48",
+"run": "breaking",
+"added": 1795615346
+},
+{
+"key": "속보美10월근원pce물가전년比33예상치상회",
+"keys": [
+"속보美10월근원pce물가전년比33예상치상회"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보] 美 10월 근원PCE물가 전년比 3.3%↑…예상치 상회",
+"show": "[속보] 美 10월 근원PCE물가 전년比 3.3%↑…예상치 상회",
+"source": "블루밍비트",
+"src_url": "https://bloomingbit.io",
+"sum": "미국의 지난달 근원 개인소비지출(PCE) 물가 지수가 시장 예상치를 상회했다. 미 상무부 경제분석국(BEA)은 미국의 10월 PCE 지수가 전년 동기 대비 3.8% 상승했다고 25일(현지시간) 밝혔다. 시장 예상치(3.8%)와 동일한 수치다. 전월 대비로도 0.3% 오",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1xaEFOdnlESk5OZ3pISDFUSWdrcGFKcE5rS1JnMzJVYWx0TjdPV0FiQkxUdmd0dmg5V1VtdUpaVHVRR0dXTFlEVFVDeXRZYnZU?oc=5",
+"url": "https://bloomingbit.io/feed/news/125220",
+"pub": 1795613457.0,
+"time": "11/25 22:30",
+"run": "breaking",
+"added": 1795615348
 }
 ],
 "seen": {
-"trumpsaysreinstatingjensenhuangwouldbethebestthingfornvidiaandtheus": 1795442179.661156,
 "canjensenhuangreturntonvidia": 1795442900.2200549,
 "trumpurgesnvidiatoreinstatejensenhuangcallinghimbestthingforus": 1795465474.2188125,
 "nvidiaboardreinstatesjensenhuangasceo": 1795472003.8130789,
@@ -3836,15 +3879,24 @@
 "nvidiasroleasanunderwriteroftheaiboom": 1795607328.4436958,
 "nvidiassoaredonmondaydippedontuesdayhowlongcantheaiboomlast": 1795607328.443696,
 "edyardenisaysjensenhuangsreturntonvidiacouldeaseaifinancingconcernsbutintensifyr": 1795608076.2677908,
-"usproposesfreshtariffsonchinaothersastrumpdoublesdownonhisfavoritetradeweapon": 1795613908.876471,
-"trumptargetschinainnewroundoftariffs": 1795613908.8764713,
-"ustargetschinaeuwithnewtariffsafterovercapacityprobe": 1795613908.8764715,
+"usproposesfreshtariffsonchinaothersastrumpdoublesdownonhisfavoritetradeweapon": 1795615343.5056918,
+"trumptargetschinainnewroundoftariffs": 1795615343.5056934,
+"ustargetschinaeuwithnewtariffsafterovercapacityprobe": 1795614622.583306,
 "속보美대중관세20부과검토최대40까지인상가능성": 1795613155.5803494,
 "usproposesnewtariffson14tradingpartnersincludingchinatheeu": 1795613908.876453,
 "usproposesnewtariffson14tradingpartnerstofightexcessfactorycapacity": 1795613908.8764536,
 "usproposesnewtariffson14tradingpartnersincludingchinaandtheeu": 1795613908.8764539,
-"ussettoraisetariffsonchinaeuandothers": 1795613908.872728,
-"usannouncesnewtariffsofupto20onchinatheeuand12othernations": 1795613908.8727326,
-"usplanstohiketariffsonchinaeubrazilandothersoversubsidizedproduction": 1795613908.872734
+"ussettoraisetariffsonchinaeuandothers": 1795614622.583325,
+"usannouncesnewtariffsofupto20onchinatheeuand12othernations": 1795615343.505693,
+"usplanstohiketariffsonchinaeubrazilandothersoversubsidizedproduction": 1795615343.5056937,
+"trumpproposesnewtariffsonchinaeuropeandothertradepartners": 1795615343.5056903,
+"usproposesnewtariffsonindia13othertradepartnerschinafacesadditional20duty": 1795615343.5056913,
+"trumppreparesnewroundoftariffsonchinaotherustradingpartners": 1795615343.5056922,
+"usthreatensdoulbedigittariffsoneuchina12othersafterinvestigation": 1795614622.583325,
+"usproposessweepingnewtariffsonchinaothers": 1795615343.5056908,
+"임금19억체불하고24년간미국도피반도체업체대표구속": 1795615346.6949322,
+"직원임금19억떼먹고미국행반도체업체대표24년만구속": 1795615346.6949341,
+"임금체불후24년간해외도피반도체설비업체대표구속": 1795615346.6949348,
+"속보美10월근원pce물가전년比33예상치상회": 1795615348.0481613
 }
 }
