@@ -526,8 +526,13 @@ def easy(text, max_n=2):
         i = text.find(w)
         while i >= 0:
             end = inside(i)
-            if end < 0:
+            # 짧은 한글 낱말이 다른 낱말 끝에 붙은 곳은 건너뜀 (예: '간펑리튬'의 '리튬', '광다선물'의 '선물', '신호가'의 '호가', 2026-11-25)
+            glued = len(w) <= 3 and re.match(r"[가-힣]", w) and i > 0 and re.match(r"[가-힣]", text[i - 1])
+            if end < 0 and not glued:
                 break
+            if glued and end < 0:
+                i = text.find(w, i + 1)
+                continue
             if text[end:end + 1] == "\x00":       # 더 긴 낱말에 이미 풀이를 붙였으면 이 낱말은 건너뜀 (예전과 같음)
                 i = -1
                 break
