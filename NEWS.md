@@ -1,10 +1,12 @@
 # 📰 투자 테마별 뉴스
 
-업데이트 11/25 09:07 · 최근 3일
+업데이트 11/25 11:47 · 최근 3일
 
 
 ## 🚨 미국 속보
 
+- [속보: 엔비디아 CEO 복귀로 상승세가 상승세를 촉발하면서 Nikkei는 3% 이상 하락했습니다.](https://english.kyodonews.net/articles/-/92535) — 🇺🇸 미국 · Japan Wire by Kyodo News · 11/25 10:56
+- 🔥5 [복직된 엔비디아 CEO 젠슨 황, 직원들에게 사과하고 치료 중이라고 밝혔습니다.](https://www.koreajoongangdaily.com/business/reinstated-nvidia-ceo-jensen-huang-apologizes-to-staff-says-hes-in-therapy/12989368) — 🇺🇸 미국 · Korea JoongAng Daily · 11/25 09:33
 - 🔥3 [엔비디아, 젠슨 황의 복귀 후 첫 번째 올핸드 개최](https://www.theinformation.com/briefings/nvidia-hosts-first-all-hands-jensen-huangs-return) — 🇺🇸 미국 · The Information · 11/25 03:35
 - 🔥4 [젠슨 황의 엔비디아 복귀는 '나쁜 맛'을 남깁니다.](https://www.reuters.com/video/watch/idRW089924112026RP1/) — 🇺🇸 미국 · Reuters · 11/25 01:40
 - 🔥3 [엔비디아 기반 AI 상승세가 사라지면서 월스트리트는 하락세를 보였습니다.](https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/) — 🇺🇸 미국 · Reuters · 11/25 00:05
@@ -22,6 +24,11 @@
 
 ## 🌏 해외 속보
 
+- 🔥4 [중견기업 수출 367억달러 '역대 최대'…반도체·바이오헬스가 견인 - 머니투데이](https://www.mt.co.kr/living/2026/11/25/2026112509212774043) — 🇰🇷 한국 · 머니투데이 · 11/25 11:00
+- 🔥3 [“저 의대 갈래요” 달라졌다…내신 1등급 6명 중 1명 반도체 계약학과 지원 (세상&)](https://biz.heraldcorp.com/article/10948598) — 🇰🇷 한국 · 헤럴드경제 · 11/25 10:45
+- 🔥4 [젠슨 황이 단 하루 동안 시장을 기념합니다! 대만 주식은 한때 장 초반 2,000포인트를 넘었고 TSMC는 5% 이상 하락했습니다.](https://udn.com/vote2026/story/7251/9900235) — 🇹🇼 대만 · UDN · 11/25 10:18
+- 🔥3 [서울반도체, OLED보다 3배 밝은 LCD용 RGB 백라이트 양산… 글로벌 TV 업체 공급](https://biz.chosun.com/it-science/ict/2026/11/25/AA3TRJWJHBCCLGQBYEAWCERT7Y/) — 🇰🇷 한국 · Chosunbiz · 11/25 10:17
+- [(속보) 코스피, 하루 만에 3%대 급락 출발…장중 '5천피' 반납](https://www.yna.co.kr/view/AKR20261125035900008) — 🇰🇷 한국 · 연합뉴스 · 11/25 09:02
 - 🔥2 [(속보) 코스피, 3.94% 하락한 4809.00 개장…코스닥 1.75% 하락](https://www.fnnews.com/news/202611250855315694) — 🇰🇷 한국 · 파이낸셜뉴스 · 11/25 09:01
 - 🔥3 [(모닝 리포트) 한화證 "코스피 바닥 지났다…반도체 중심 매수"](https://www.newspim.com/news/view/20261125000064) — 🇰🇷 한국 · 뉴스핌 · 11/25 08:33
 - 🔥4 [하루 만에 식은 ‘젠슨황 효과’…삼전닉스 프리마켓서 4% 약세](https://www.donga.com/news/Economy/article/all/20261125/135085170/1) — 🇰🇷 한국 · 동아일보 · 11/25 08:22
@@ -111,78 +118,108 @@
 - 🔥18 [뉴욕증시 프리뷰, 미 주가선물 일제 하락...엔비디아發 랠리 하루 만에 제동](https://www.newspim.com/news/view/20261124001464) — 🇰🇷 한국 · 뉴스핌 · 11/24 22:01
 - 🔥11 [미국 증시 VIX 급등! 반도체주는 초기 거래에서 6% 급락했고 엔비디아의 시가총액은 2,500억 달러 증발했으며 앤트로픽은 파산했습니다.](https://www.yicai.com/news/103452861.html) — 🇨🇳 중국 · 第一财经 · 11/25 00:06
 - 🔥9 [국제 금, 은, 유가가 종합적으로 하락했고, 미국 광통신과 칩 주가도 개장 전에 하락했습니다.](https://www.21jingji.com/article/20261124/herald/d2720c0669bae183318f95881bcc7f35.html) — 🇨🇳 중국 · 21财经 · 11/24 19:45
-- 🔥7 [미국 주식이 강하게 반등했습니다! 젠슨 황의 복귀로 AI 시장 점화, 월스트리트의 뜨거운 논의 바닥이 나타났습니까?](https://news.cnyes.com/news/id/6670636) — 🇹🇼 대만 · 鉅亨網 · 11/24 12:00
+- 🔥7 [미국 증시가 강하게 반등했습니다! 젠슨 황의 복귀로 AI 시장 점화, 월스트리트의 뜨거운 논의 바닥이 나타났습니까?](https://news.cnyes.com/news/id/6670636) — 🇹🇼 대만 · 鉅亨網 · 11/24 12:00
+- 🔥5 [JP모간, 2027년 S&P500 목표치 8200 제시…시장 전망 밑돌아](https://www.newspim.com/news/view/20261125000410) — 🇰🇷 한국 · 뉴스핌 · 11/25 10:23 🆕
 - 🔥5 [엔비디아와 AI로 인해 주식 시장이 하락했습니다. 주식은 월요일 상승세의 일부를 지운다](https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html) — 🇺🇸 미국 · The New York Times · 11/24 22:14
 - 🔥5 [젠슨 황의 복귀 이후 중국 칩 주가 상승](https://www.wsj.com/finance/stocks/nikkei-rises-2-7-led-by-chip-metals-stocks-82c1bb9d) — 🇺🇸 미국 · WSJ · 11/24 13:32
-- 🔥4 [미국 기술주는 보복으로 반등했으며 단기 자본 보충을 환영했습니다. 두 ETF 모두 20% 이상 급등](https://money.udn.com/money/story/5607/9897857) — 🇹🇼 대만 · 經濟日報 · 11/24 10:41
+- 🔥4 [미국 기술주는 급반등했으며 단기 자본 보충을 환영했습니다. 두 ETF 모두 20% 이상 급등](https://money.udn.com/money/story/5607/9897857) — 🇹🇼 대만 · 經濟日報 · 11/24 10:41
 - 🔥3 [미국 주식 마감》트럼프 관세 부과 계획, 엔비디아 후퇴, 필라델피아 반도체 지수 급락, TSMC ADR 3.91% 하락](https://ec.ltn.com.tw/article/breakingnews/5652311) — 🇹🇼 대만 · 自由財經 · 11/25 07:36
-- 🔥2 [미국 주식 마감/필라델피아 반도체 지수는 8% 추가 급락, 엔비디아는 6% 하락, 반도체주는 급락, 트럼프의 새로운 관세로 인해 매도 압력이 강화됨](https://news.google.com/rss/articles/CBMie0FVX3lxTE1heTJFY19Hejl0TFlFSmFtMDZPMmd0NzdLUXV4SW42SkZRMk1RMW5SV2xhOE41c3pPeXFheEZWaGhaVTdTbGE1Z2tYZk9aZVdnMmN1OHhaSjVUcXZkVGF4U2xjZGRuaEMwSmYwMGV4a01zZGVidDhoSmwta9IBYkFVX3lxTE95bERUa1FBRDVjRUlYNzBGbWI5WGJPRnl1cWx5WTFGMU5LN3EzUl92SktxZGVucWt4NzFvVWV1dWpZQ3JfZXJYVzYzRWNHUTdBMENVWWhkY0NBRXdiZ3AwRlh3?oc=5) — 🇹🇼 대만 · 經濟日報 · 11/25 08:16 🆕
-- 🔥2 [POLL Bruised S&P500은 2027년 말까지 12% 이상 상승할 것으로 예상: Reuters 여론조사](https://news.google.com/rss/articles/CBMimgFBVV95cUxNWDhDOWgxS1ZTNEd0eHJXVXI3RjZ4MTJJM0Y5cHUzNDE3ZWM3YllDV3lFeTdWZHVjNVNHSU5pZU53V1ZJV1ZHRVhScFVOMXhzMk1ySzZZN2JtWmlSOE5TbThBM2RXcVliNVAwOElhSHhuaWpiNE5TRXotcE1VZmxONGJWdzBkVWpPRm1LM0NFb2xMQTJFYUM5ZVpB?oc=5) — 🇺🇸 미국 · Reuters · 11/25 03:50 🆕
+- 🔥3 [캐슬증권은 시장이 2018년과 같은 실수를 반복할 수 있으며 어려운 시기는 아직 끝나지 않았다고 경고 | 미국 증시 동향 | 국제](https://money.udn.com/money/story/123398/9897832) — 🇹🇼 대만 · 經濟日報 · 11/24 23:13
+- 🔥3 [다우지수 1,447포인트 상승, 미국증시 1년반만에 최대 상승, 니비디아 31% 상승(08:29) - 20261124 - 실시간 금융뉴스](https://finance.mingpao.com/fin/instantf/20261124/1795480689915/%E9%81%93%E6%8C%87%E5%8D%871447%E9%BB%9E-%E7%BE%8E%E8%82%A1%E5%89%B5%E4%B8%80%E5%B9%B4%E5%8D%8A%E6%9C%80%E5%A4%A7%E5%8D%87%E5%B9%85-nividia%E5%8D%8731) — 🇭🇰 홍콩 · 明報財經網 · 11/24 09:38
+- 🔥2 [한국 증시는 개장 후 추가로 5% 하락해 서킷브레이커가 발동됐다. 일본 주식도 하락했고, 미국 주식 선물도 하락했습니다.](https://money.udn.com/money/story/5599/9900171) — 🇹🇼 대만 · 經濟日報 · 11/25 09:39 🆕
+- 🔥2 [JP모건 "내년 S&P500 14% 더 오른다…AI 슈퍼사이클 여전히 유효"](https://www.news1.kr/world/usa-canada/6365144) — 🇰🇷 한국 · 뉴스1 · 11/25 09:37 🆕
+- 🔥2 [시장개방포커스│미국 증시는 개별적으로 발전하고, 홍콩 주식은 6연속 손실 이후 안정될 것으로 예상](https://news.tvb.com/sc/1208280-%E9%96%8B%E5%B8%82%E7%84%A6%E9%BB%9E%E7%BE%8E%E8%82%A1%E5%80%8B%E5%88%A5%E7%99%BC%E5%B1%95%E6%B8%AF%E8%82%A1%E5%85%AD%E9%80%A3%E8%B7%8C%E5%BE%8C%E6%96%99%E5%9B%9E%E7%A9%A9) — 🇭🇰 홍콩 · TVB · 11/25 09:37 🆕
+- 🔥2 [미국 주식 마감/필라델피아 반도체 지수는 8% 추가 급락, 엔비디아는 6% 하락, 반도체주는 급락, 트럼프의 새로운 관세로 인해 매도 압력이 강화됨](https://money.udn.com/money/story/123398/9900086?from=edn_search_result) — 🇹🇼 대만 · 經濟日報 · 11/25 08:16
+- 🔥2 [엔비디아는 월스트리트로부터 호평을 받았으며 대만 체인은 더 많은 수익을 추가했습니다.](https://money.udn.com/money/story/5607/9899776) — 🇹🇼 대만 · 經濟日報 · 11/25 03:59 🆕
+- 🔥2 [POLL Bruised S&P500은 2027년 말까지 12% 이상 상승할 것으로 예상: Reuters 여론조사](https://www.reuters.com/world/bruised-sp-500-seen-gaining-more-than-12-by-end-2027-2026-11-24/) — 🇺🇸 미국 · Reuters · 11/25 03:50
 - 🔥2 [테슬라 합병 가능성은 스페이스X의 S&P500 진입에 도움이 될 수 있습니다, ⁠J.P. 모건 라고](https://www.reuters.com/legal/government/possible-tesla-merger-could-aid-spacexs-sp-500-entry-jp-morgan-says-2026-11-24/) — 🇺🇸 미국 · Reuters · 11/25 02:45
 - 🔥2 [AI 주식은 엔비디아로 인한 급격한 상승 후 후퇴했고, 미국 증시는 하락세로 출발했습니다.](https://money.udn.com/money/story/123398/9899809) — 🇹🇼 대만 · 經濟日報 · 11/25 00:21
 - 🔥2 [미국 반도체 주가 더 많이 하락: AMD는 9% 이상 하락, 마이크론은 거의 9% 하락](https://www.jiemian.com/article/15369775.html) — 🇨🇳 중국 · Jiemian.com · 11/24 23:43
 - 🔥2 [미국 주식 조기 거래/엔비디아 카니발 썰물, 필라델피아 반도체 지수는 전날 상승폭의 거의 절반을 포기했고, VIX 지수는 한때 21% 급등 | 미국 증시 동향 | 국제](https://money.udn.com/money/story/123398/9899680?from=edn_newest_index) — 🇹🇼 대만 · 經濟日報 · 11/24 23:42
-- 🔥2 [캐슬증권은 시장이 2018년과 같은 실수를 반복할 수 있으며 어려운 시기는 아직 끝나지 않았다고 경고 | 미국 증시 동향 | 국제](https://money.udn.com/money/story/123398/9897832) — 🇹🇼 대만 · 經濟日報 · 11/24 23:13
 - 🔥2 [젠슨 황이 드라마틱하게 컴백했습니다! 엔비디아가 상승세를 주도한 후 칩 주가가 식은 후 미국 주식 선물이 하락 | 글로벌 금융 | 글로벌](https://udn.com/news/story/6811/9899558?from=udn-ch1_breaknews-1-0-news) — 🇹🇼 대만 · UDN · 11/24 22:37
 - 🔥2 [S&P500 주식 시장 지수는 지난 금요일 조정 국면에 진입했습니다. 다음에 일어날 수 있는 일은 다음과 같습니다.](https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/8983902/the-sp-500-stock-market-index-entered-correction-territory-last-friday-here-s-what-could-happen-next/) — 🇺🇸 미국 · The Globe and Mail · 11/24 22:37
 - 🔥2 [미국 증시 공포지수 VIX 32 위로 상승](https://www.yicai.com/brief/103452735.html) — 🇨🇳 중국 · 第一财经 · 11/24 22:14
 - 🔥2 [투자자들이 연준 금리 전망을 평가함에 따라 엔비디아가 주도한 상승세 이후 미국 주식 선물이 혼합되었습니다: 다우존스, S&P, 나스닥, Wall Street](https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-mixed-nvidia-101442654.html) — 🇺🇸 미국 · Yahoo Finance · 11/24 19:14
-- 🔥2 [미국 주식이 급등하고 있는데 조심해야 할까요? 과거 데이터에 따르면 하락장에서는 일일 급등이 흔합니다 | 글로벌 금융 | 글로벌](https://udn.com/news/story/6811/9898769) — 🇹🇼 대만 · UDN · 11/24 15:45
-- 🔥2 [가전업체 샤크닌자(SharkNinja)가 신제품으로 S&P500에 합류한다.](https://www.ctee.com.tw/news/20261124701162-430702) — 🇹🇼 대만 · 工商時報 · 11/24 13:04
+- 🔥2 [12월 금리 인상 확률이 100%로 돌아왔습니다! '월스트리트의 늑대' 경고: 연준이 큰 실수를 할 수 있다](https://www.cls.cn/detail/2542924) — 🇨🇳 중국 · 财联社 · 11/24 17:24
+- 🔥2 [미국 증시가 급등하고 있는데 조심해야 할까요? 과거 데이터에 따르면 하락장에서는 일일 급등이 흔합니다 | 글로벌 금융 | 글로벌](https://udn.com/news/story/6811/9898769) — 🇹🇼 대만 · UDN · 11/24 15:45
+- 🔥2 [가전업체 샤크닌자가 신제품으로 S&P500에 합류한다.](https://www.ctee.com.tw/news/20261124701162-430702) — 🇹🇼 대만 · 工商時報 · 11/24 13:04
 - 🔥2 ["미국 주식" 분석: AI 리더 복귀, 시장 환호 젠슨 황 2.0 데뷔](https://wantrich.chinatimes.com/news/20261124900152-420201) — 🇹🇼 대만 · 旺得富理財網 · 11/24 11:51
 - 🔥2 [모건스탠리는 펀더멘털이 안정적이고 하락세로 인해 우수한 매수 포인트를 얻게 되면서 미국 주식에 대해 낙관적입니다 - 뉴스 내용 - 펀드](https://www.moneydj.com/funddj/ya/yp050000.djhtm?a={5856CC65-C2CB-467E-816F-8255F5E9CCD9}) — 🇹🇼 대만 · MoneyDJ · 11/24 11:45
 - 🔥2 ["미국 주식" 뉴스: 젠슨 황의 번개 같은 복귀: 트럼프는 세간의 이목을 끄는 방식으로 신용을 주장하고 양당의 미국 국회의원들은 그를 공격합니다 - 국제](https://wantrich.chinatimes.com/news/20261124900133-420201) — 🇹🇼 대만 · 旺得富理財網 · 11/24 11:07
 - 🔥2 ['미국 주식 스캔' 젠슨 황 복귀, 필라델피아 반도체 지수 14% 급등, 한국 증시 프로그램 거래 중단 지점까지 급등 - 증권](https://www.ctee.com.tw/news/20261124700747-430201) — 🇹🇼 대만 · 工商時報 · 11/24 10:02
 - 🔥2 [월스트리트는 S&P500의 7일 하락 이후 급등세를 보였습니다.](https://finance.yahoo.com/markets/stocks/articles/wall-street-opens-sharply-higher-163000554.html) — 🇺🇸 미국 · Yahoo Finance · 11/24 01:30
-- ["귀금속/금속" 연준은 매파적이며 미국 증시는 하락세, 금, 은, 구리는 올 가을 - 뉴스 내용 - Funds](https://news.google.com/rss/articles/CBMikAFBVV95cUxQeU1fOE02T2FkZ0lyak9ONTlOLXBmai1qb0tnTjVNODFsR2RXV0VpRDNGTzVQampaNTR0TUVlcnVpM0txa05TeTNHdHM2WXpINHdSbDVXbncwZTl0R0lWTFU5VS1GM3dFNmZVN3N4QWItQnBTQWhfYXNXZ00zc19Qd25yenVtbEJ0OVBSaVpSZDk?oc=5) — 🇹🇼 대만 · MoneyDJ · 11/25 08:50 🆕
-- [애크먼 “연준 금리 올리면 내년 침체올수도”](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uTjNHTDFmZW94QnRVNXFfRlpGeWdaUEdrYTNSLVppRDZIRm1pYzZRNmxmRUJPbllpSnBfZnZabWtHZGE5ZzY2Tm5uYTNOWllHMlFZMHdR?oc=5) — 🇰🇷 한국 · 매일경제 · 11/25 08:44 🆕
-- [미국 주식이 2018년 급락을 반복할 가능성이 있나요? Castle Securities는 연준의 금리 인상과 AI 투자 냉각으로 인해 이중 압력이 발생한다고 경고합니다.](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tRlJwTmpzeXZHcXdVaE5vbE1XVHhfRUNzRXR6S2NUdEEwbldlYlJpV3RKYjJNSlBkVDZaTm9seGpzdXM3czVITExUTy1FdGM?oc=5) — 🇹🇼 대만 · 鉅亨網 · 11/25 08:44 🆕
-- [홍콩 주식 모닝 포스트 │ 미국 나스닥은 1% 이상 하락, Chow Tai Fook의 중간 순이익은 거의 두 배 증가](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBrTnc4REZvdVlOaXFyZEt3WHBpdFVVU3h3SEtRbDFEdVZDN1FkWTc1bXVWTTFuQ3pFcmUzSXIzTHlwVXcyUzQwXw?oc=5) — 🇨🇳 중국 · 财联社 · 11/25 08:44 🆕
-- [NY 다우 속신, 5만 달러대 회복 미국 경기에 낙관론, 구매 주문 우세](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rZG5qRWdPMndOQWF2cS1sWEZGdnlhbGd5dHU0UGJETEREOEZZemR3ZGFleXpFc3pGMl9faTNBVld1RFR0VWlfRHNVcDB2cThqTUljcmkzNjNZX3RtcFNWMkpLcXhld1BG?oc=5) — 🇯🇵 일본 · 毎日新聞 · 11/25 08:37 🆕
-- [(GAM) 월가 트레이더들, 내년 말 연준 금리인하 가능성에 베팅](https://news.google.com/rss/articles/CBMiXEFVX3lxTE55aDRNcFdWM3YtSUo5WlVlVW5iQnZuSmxrV0RSWTZabkhQcDVoNWFsd2NaMlJEdXNpX3dDc0lPN0NZbFA4YmhwdnRDaGR5djd5aDhmOFhpa29lMWN6?oc=5) — 🇰🇷 한국 · 뉴스핌 · 11/25 08:30 🆕
-- [젠슨 황이 돌아왔고 2018년에도 마찬가지입니다! 골드만삭스 "미국 증시 급등은 하락장 반등일 뿐" 경고](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIS3dtSk1Pcnp5c0hTT1IzS25tSmxseURaVHg0LW5IQl9HLWJCTGhhaTVoS1hmd3pOTEdwMFJXbHVQWFBKVWZ1a2NRdkJEQ1k?oc=5) — 🇹🇼 대만 · 鉅亨網 · 11/25 08:22 🆕
-- [국제 금값, 하루 만에 하락 전환⋯연준 금리인상 전망에 2.5%↓](https://news.google.com/rss/articles/CBMiVEFVX3lxTE82N0o4ZG1zNnREd0VPbHNINVVmdzFmX2xHWUlEdFBDbkcza1Z0OTNqTHFYdnd4WGVWeGdjcjRWa2hMZnFlaW9rdFFVQm9yVXVBbkJIMQ?oc=5) — 🇰🇷 한국 · 이투데이 · 11/25 08:22 🆕
-- [EJFQ Letter Analysis丨미국 증시는 충분히 하락하지 않았으며 위험 프리미엄이 "수정"되어 시장에 진입하기를 기다리고 있습니다.](https://news.google.com/rss/articles/CBMi0AJBVV95cUxQZUNtZzdqZnNsd09yakhVZGZ0VDA2N0thNGtKRG9IeEg0UkxjbHBYMHVQNXo5OVVKdl9Mbk1CZFBPRGdZY3FUTzM5NU9Jcm5zNFZlSVNDZEg3czNSMVNhZ2VwUHlubGNZNlo4QVcwMHl6Ti1Kd05zdF8yUnotNi1ZQ3JMeDhOSXN0cVBudHRXTktNajk3UU1LMmJ6R2ZNWmhQNFFFR1BqX0w1cm9TZjVwYWNBanB2V0xna252aXlPSFpqRnFvRlgwdUtRV051Q0Z1a1k3ODljQUsxa1huRE1PRzZVd01jamF1Y0FlOFpkYVJPVVh4Z1drN09sVnVfdm93UDhvRUJLRHJGUjNMOUxFb2ZLNzNCV3pzOFRUT05JblBhcU1GbnhFYWQwZEZWaC1XYXNrNzdFczNScnlQVGo3dXVpU3phTXJCSnZHclU5YlM?oc=5) — 🇭🇰 홍콩 · 信報網站 · 11/25 08:19 🆕
+- [미국 증시는 "역대 가장 추악한 크리스마스"를 맞이하게 될까요? JP모건은 10대 위험에 대해 경고합니다. 주식 시장은 연준이 고개를 숙일 정도로 하락할 수 있습니다.](https://www.ctee.com.tw/news/20261125700713-430702) — 🇹🇼 대만 · 工商時報 · 11/25 11:07 🆕
+- [AI 반등이 비틀거리고 관세 위협이 다가오면서 주가는 후퇴](https://www.reuters.com/world/china/global-markets-global-markets-2026-11-25/) — 🇺🇸 미국 · Reuters · 11/25 10:50 🆕
+- [AI 무역 의심 재부상으로 아시아 주식 하락: 시장 요약](https://www.bloomberg.com/news/articles/2026-11-24/asian-stocks-to-slide-as-ai-trade-doubts-resurface-markets-wrap) — 🇺🇸 미국 · Bloomberg.com · 11/25 10:46 🆕
+- [월스트리트 선물은 S&P500 이후 하락하고 나스닥은 하락 마감합니다. 인플레이션 데이터에 주목](https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-fall-p-014227385.html) — 🇺🇸 미국 · Yahoo Finance · 11/25 10:42 🆕
+- [S&P 다우존스 지수](https://www.spglobal.com/spdji/en/) — 🇺🇸 미국 · S&P Global · 11/25 10:39 🆕
+- [미국 주식 하락, 홍콩 주식의 밤새 ADR 강화 | 루이스 구](https://www.stheadline.com/stock-market/3640903/%E7%BE%8E%E8%82%A1%E5%9B%9E%E5%90%90-%E6%B8%AF%E8%82%A1%E5%A4%9C%E6%9C%9FADR%E8%87%AA%E5%BC%B7%E5%8F%A4%E5%A4%A9%E5%90%8E) — 🇭🇰 홍콩 · 星島頭條 · 11/25 10:23 🆕
+- [미국 소비자주가 전반적으로 상승했고, 나이키는 5.89% 상승 | 미국 주식 마감 리뷰](http://www.eeo.com.cn/2026/1125/1101670.shtml) — 🇨🇳 중국 · 经济观察网 · 11/25 10:07 🆕
+- [삼성전자 SK하이닉스 주가 장중 6%대 내려, 미국 증시 하락에 반도체주 약세](https://www.businesspost.co.kr/BP?command=article_view&num=452863) — 🇰🇷 한국 · 비즈니스포스트 · 11/25 10:05 🆕
+- [젠슨 황의 리포 마켓은 하루 동안만 진행됩니다! 엔비디아는 거의 5.9% 급락했고, AI 주식은 또 다른 피바다를 겪었고, 월스트리트는 3개의 주요 불발탄이 해체되지 않았다고 경고했습니다.](https://www.ctee.com.tw/news/20261125700564-430702) — 🇹🇼 대만 · 工商時報 · 11/25 09:59 🆕
+- [순자산은 261억 달러로 13억 달러만 남았습니다! '월스트리트의 늑대왕' 부채 부담 44억 달러, 내년 위기로 이어질 수도](https://ec.ltn.com.tw/article/breakingnews/5652380) — 🇹🇼 대만 · 自由財經 · 11/25 09:54 🆕
+- [AI 우려 재점화+관세전쟁 임박, 미국 증시 반등했다가 무너질까? 3분기 매출과 이익이 모두 감소했습니다. 샤오미의 실적이 갈릴까?](https://inews.hket.com/article/4230509/AI%E7%96%91%E6%85%AE%E9%87%8D%E7%87%83-%E9%97%9C%E7%A8%85%E6%88%B0%E6%AE%BA%E5%88%B0%E3%80%80%E7%BE%8E%E8%82%A1%E5%BD%88%E5%AE%8C%E5%8F%88%E6%95%A3%EF%BC%9FQ3%E7%87%9F%E6%94%B6%E5%8F%8A%E7%8D%B2%E5%88%A9%E9%9B%99%E6%B8%9B%E3%80%80%E5%B0%8F%E7%B1%B3%E6%A5%AD%E7%B8%BE%E9%BB%9E%E6%8B%86%EF%BC%9F) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/25 09:49 🆕
+- [미국 증시는 의료 및 건강 부동산과 레스토랑 체인 부문에서 좋은 성과를 냈습니다. 어떤 A주가 번영의 전달을 공유할 것으로 예상됩니까? | 은행 전체에서 상승세를 지켜보세요](https://www.21jingji.com/article/20261125/herald/da39a8c63a573fa174e2481637eae82c.html) — 🇨🇳 중국 · 21财经 · 11/25 09:36 🆕
+- [미국 주식의 AI 하드웨어 부문은 급격히 하락했으며, 엔비디아는 거의 6% 하락했습니다. 내년에는 돼지 가격 변곡점이 올 수도 있습니다 | 사전 시장 정보](https://www.21jingji.com/article/20261125/herald/2e178f9e81041273161f118d2985ba64.html) — 🇨🇳 중국 · 21财经 · 11/25 09:35 🆕
+- ['AI 거품' 우려에도 월가 '낙관론'…"S&P500 8000 넘는다"](https://www.hankyung.com/article/2026112585427) — 🇰🇷 한국 · 한국경제 · 11/25 09:22 🆕
+- [미국 주식 반등을 위한 하루 여행? 젠슨 황의 복귀 썰물 효과와 시장은 더욱 현실적인 테스트에 직면](https://www.yicai.com/news/103452996.html) — 🇨🇳 중국 · 第一财经 · 11/25 09:17 🆕
+- [젠슨 황이 팟으로 돌아가는 것은 쓸모가 없나요? 대만 지수선물, 익일 거래에서 1,800포인트 폭락, 미국 증시 폭락의 4가지 이유 밝혀](https://news.tvbs.com.tw/money/4055681) — 🇹🇼 대만 · TVBS新聞 · 11/25 09:14 🆕
+- [짐 크레이머는 수익을 기준으로 6개의 소매 주식을 평가하고 자신이 가장 좋아하는 두 주식을 지정합니다.](https://www.cnbc.com/2026/11/24/jim-cramer-retail-stocks-earnings.html) — 🇺🇸 미국 · CNBC · 11/25 09:04 🆕
+- ["귀금속/금속" 연준은 매파적이며 미국 증시는 하락세, 금, 은, 구리는 올 가을 - 뉴스 내용 - Funds](https://www.moneydj.com/funddj/ya/yp050000.djhtm?a=B910A8FE-26D7-4607-8AC9-475EBBD6B239) — 🇹🇼 대만 · MoneyDJ · 11/25 08:50
+- [열기 전에 꼭 읽어야 할 내용 | 미국 기술주는 전반적으로 하락했습니다. Fii Industrial은 수백억 달러의 현금 배당 계획을 추가로 발표했습니다.](https://www.yicai.com/news/103452997.html) — 🇨🇳 중국 · 第一财经 · 11/25 08:47 🆕
+- [애크먼 “연준 금리 올리면 내년 침체올수도”](https://www.mk.co.kr/news/business/12217729) — 🇰🇷 한국 · 매일경제 · 11/25 08:44
+- [미국 증시가 2018년 급락을 반복할 가능성이 있나요? Castle Securities는 연준의 금리 인상과 AI 투자 냉각으로 인해 이중 압력이 발생한다고 경고합니다.](https://news.cnyes.com/news/id/6670834) — 🇹🇼 대만 · 鉅亨網 · 11/25 08:44
+- [홍콩 주식 모닝 포스트 │ 미국 나스닥은 1% 이상 하락, 저우다푸의 중간 순이익은 거의 두 배 증가](https://www.cls.cn/detail/2542939) — 🇨🇳 중국 · 财联社 · 11/25 08:44
+- [뉴욕 다우 연일 상승, 5만 달러대 회복 미국 경기에 낙관론, 구매 주문 우세](https://mainichi.jp/articles/20261125/kyd/00m/020/002000c) — 🇯🇵 일본 · 毎日新聞 · 11/25 08:37
+- [(GAM) 월가 트레이더들, 내년 말 연준 금리인하 가능성에 베팅](https://www.newspim.com/news/view/20261125000133) — 🇰🇷 한국 · 뉴스핌 · 11/25 08:30
+- [젠슨 황이 돌아왔고 2018년에도 마찬가지입니다! 골드만삭스 "미국 증시 급등은 하락장 반등일 뿐" 경고](https://news.cnyes.com/news/id/6671180) — 🇹🇼 대만 · 鉅亨網 · 11/25 08:22
+- [국제 금값, 하루 만에 하락 전환⋯연준 금리인상 전망에 2.5%↓](https://www.etoday.co.kr/news/view/2652535) — 🇰🇷 한국 · 이투데이 · 11/25 08:22
+- [EJFQ Letter Analysis | 미국 증시는 충분히 하락하지 않았으며 위험 프리미엄이 "수정"되어 시장에 진입하기를 기다리고 있습니다.](https://www.hkej.com/instantnews/stock/article/4573696/EJFQ%E4%BF%A1%E6%9E%90%E4%B8%A8%E7%BE%8E%E8%82%A1%E6%9C%AA%E8%B7%8C%E5%A4%A0+%E5%80%99%E9%A2%A8%E9%9A%AA%E6%BA%A2%E5%83%B9%E3%80%8C%E6%AD%B8%E6%AD%A3%E3%80%8D%E5%85%A5%E5%B8%82) — 🇭🇰 홍콩 · 信報網站 · 11/25 08:19
 - [<시간외 귀금속> 금은 반등했지만 2% 이상 하락에는 실패했다. 연준 관계자들은 12월 금리 인상에 대한 기대를 강화하기 위해 매파적인 입장을 표명했습니다.](https://news.cnyes.com/news/id/6670959) — 🇹🇼 대만 · 鉅亨網 · 11/25 07:45
-- [Centuri Holdings, S&P SmallCap 600 편입 예정](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSzdBdHY3emRPSUlac2tuQUNVanI4bjZqVVRwNGIxcXZXSlIxOVdPcUVTYU1SN2NqSWM1MGdrQUpiVTgzal9XUldjXzliOEVBQm40LVhLX3NtRVFvZWRLVXQ4ZklLa0cydUFKa0pvUnZhUHAwMm15ZjVmRjJFSFZVOTRVSTNCbUdSNUZR?oc=5) — 🇺🇸 미국 · S&P Global · 11/25 07:34 🆕
-- [트럼프 추가관세·젠슨 황 복귀효과 소진에 미국 증시 부진···엔트로픽 공모가 밑돌아](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUDNaWUhUV2JfWUtCODlXc0lUVW5uM3Z2dE94bDZybXNTb29SUzNjWHhMQjZFdUVFYjQtckN1cU1CMTRSRlMyRURxMkhuZnlvTUduM0d1T0oySVpFYTRmMG11V1NKSEZRUUZRSURhUkE1ZUo2NWlWZVRXMkxJU1lSdGlWcDFJWmMzcnlWcVNpTmRrS0ZNYkVDeXptSklVeWs5MENTdkpHUTZpZw?oc=5) — 🇰🇷 한국 · 경향신문 · 11/25 07:20 🆕
+- [Centuri Holdings, S&P SmallCap 600 편입 예정](https://press.spglobal.com/2026-11-24-Centuri-Holdings-Set-to-Join-S-P-SmallCap-600) — 🇺🇸 미국 · S&P Global · 11/25 07:34
+- [트럼프 추가관세·젠슨 황 복귀효과 소진에 미국 증시 부진···엔트로픽 공모가 밑돌아](https://www.khan.co.kr/article/202611250720001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news) — 🇰🇷 한국 · 경향신문 · 11/25 07:20
 - [미국 증시 동향 | 마이크로소프트는 엔지니어링 시스템과 사고 대응 메커니즘을 개혁하기 위해 최고 수준의 "빨간색 경고"를 활성화합니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418069/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+%E5%BE%AE%E8%BB%9F%E5%95%9F%E5%8B%95%E6%9C%80%E9%AB%98%E7%B4%9A%E5%88%A5%E3%80%8C%E7%B4%85%E8%89%B2%E8%AD%A6%E5%A0%B1%E3%80%8D%EF%BC%8C%E6%94%B9%E9%9D%A9%E5%B7%A5%E7%A8%8B%E7%B3%BB%E7%B5%B1%E5%8F%8A%E4%BA%8B%E6%95%85%E6%87%89%E8%AE%8A%E6%A9%9F%E5%88%B6) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 07:10
-- [나스닥 일전 하락 엔비디아 기업 통치에 우려](https://news.web.nhk/newsweb/na/nd-20261125de80932) — 🇯🇵 일본 · NHKニュース · 11/25 07:09
+- [나스닥 하락 반전 엔비디아 기업지배구조에 우려](https://news.web.nhk/newsweb/na/nd-20261125de80932) — 🇯🇵 일본 · NHKニュース · 11/25 07:09
 - [AI 열풍의 미래는 불투명하다. 미국 증시는 하락세로 마감했고 엔비디아의 주가는 거의 6% 하락했습니다.](https://www.cna.com.tw/news/afe/202611250011.aspx) — 🇹🇼 대만 · 中央社 CNA · 11/25 07:09
 - [미국 증시는 처음에는 폭발했다가 급락해 투자자들을 딜레마에 빠뜨렸다. 추세 반전 신호는 언제 나타날까요?](https://news.cnyes.com/news/id/6670739) — 🇹🇼 대만 · 鉅亨網 · 11/25 07:01
 - [미국 주식 일기 │ 다우 지수는 50,000 포인트로 복귀하고 기술주는 하루 만에 반등 및 붕괴](https://www.stheadline.com/stock-market/3640872/%E7%BE%8E%E8%82%A1%E6%97%A5%E8%AA%8C%E9%81%93%E6%8C%87%E9%87%8D%E8%BF%945%E8%90%AC%E9%BB%9E-%E7%A7%91%E6%8A%80%E8%82%A1%E5%8F%8D%E5%BD%88%E4%B8%80%E6%97%A5%E5%8F%88%E6%95%A3) — 🇭🇰 홍콩 · 星島頭條 · 11/25 06:59
-- [엔비디아의 리바운드에 베팅합니다! 억만장자는 미국 주식이 최소 3분의 1 하락할 것이라고 대담하게 예측했다.](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LLS1pMGQ0N3pTVmZiWG9SWnhUdVlSWlFvOWxjbXRuQjh4WU5JLUxQYTNmN3JPZXpIeVMwVVhhLUNHb1o1NkZlUTRYZFFwRTg?oc=5) — 🇹🇼 대만 · 鉅亨網 · 11/25 06:51 🆕
+- [엔비디아의 반등에 베팅합니다! 억만장자는 미국 증시가 최소 3분의 1 하락할 것이라고 대담하게 예측했다.](https://news.cnyes.com/news/id/6671117) — 🇹🇼 대만 · 鉅亨網 · 11/25 06:51
 - [(뉴욕증시) 급등락 반복되는 혼돈의 장 …필리 7.9%↓](https://news.einfomax.co.kr/news/articleView.html?idxno=4446337) — 🇰🇷 한국 · 연합인포맥스 · 11/25 06:49
-- [엔비디아 Euphoria가 사라지고 새로운 관세가 떠오름에 따라 나스닥 100이 하락했습니다.](https://www.bloomberg.com/news/articles/2026-11-24/us-tech-stocks-poised-to-slide-as-ai-caution-returns-after-rally) — 🇺🇸 미국 · Bloomberg.com · 11/25 06:39
+- [엔비디아 열풍이 사라지고 새로운 관세가 떠오름에 따라 나스닥 100이 하락했습니다.](https://www.bloomberg.com/news/articles/2026-11-24/us-tech-stocks-poised-to-slide-as-ai-caution-returns-after-rally) — 🇺🇸 미국 · Bloomberg.com · 11/25 06:39
 - [나스닥 일전 1.5% 하락 AI 투자와 금리 인상 이중 불안 다가오는 약한 시세](https://www.nikkei.com/article/DGXZQOGN24BJ10U6A121C2000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/25 06:34
-- [다우 평균은 속신도 나스닥은 대폭 반락 AI 관련으로 다시 팔아](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fbVZMRzNlbENFdHliTUtSLUpreHNITnk2eXM2NmJ2NmxxajY2NTZ2a0xCcUhoTjRKQ252aHhjVkU0NVdfaTZMb1FGUWhvQUxXUGt0cXkzTHdqVHlKVFhrMA?oc=5) — 🇯🇵 일본 · 株探 · 11/25 06:33 🆕
-- [황 구호 반등이 사라지면서 미국 증시는 혼조세를 보이고 있습니다.](https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-huang-relief-rally-fades-9fa9750a) — 🇺🇸 미국 · WSJ · 11/25 06:32
-- [인쇄판 | 월스트리트저널](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ld09uU0NkOGkzT2NzSVk1em1pNDVKNkVSTGtySmVoeDhMMzdUVlF0VUlod3IzaGpUUnRkTGNuZFRZczRCMVFPbHJwLXktVmhCMjhtYzFlVXh0YUhwYmM2T0Nn?oc=5) — 🇺🇸 미국 · WSJ · 11/25 06:30 🆕
-- [NY다우는 속신해 423달러 높은 소비 관련 종목에 사, 나스닥은 반락](https://www.nikkei.com/article/DGXZQOFL250400V21C26A1000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/25 06:29
-- [S&P500 추가로 SharkNinja(SN)에 대한 투자 사례가 바뀔 수 있음](https://finance.yahoo.com/markets/stocks/articles/p-500-addition-might-change-211144322.html) — 🇺🇸 미국 · Yahoo Finance · 11/25 06:11
+- [다우 평균은 연일 상승도 나스닥은 대폭 하락 반전 AI 관련으로 다시 팔아](https://kabutan.jp/news/marketnews/?b=n202611250089) — 🇯🇵 일본 · 株探 · 11/25 06:33
+- [젠슨 황 구호 반등이 사라지면서 미국 증시는 혼조세를 보이고 있습니다.](https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-huang-relief-rally-fades-9fa9750a) — 🇺🇸 미국 · WSJ · 11/25 06:32
+- [인쇄판 | 월스트리트저널](https://www.wsj.com/print-edition/20261124/frontpage) — 🇺🇸 미국 · WSJ · 11/25 06:30
+- [뉴욕 다우는 연일 상승해 423달러 오른 소비 관련 종목에 사, 나스닥은 하락 반전](https://www.nikkei.com/article/DGXZQOFL250400V21C26A1000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/25 06:29
+- [S&P500 추가로 샤크닌자(SN)에 대한 투자 사례가 바뀔 수 있음](https://finance.yahoo.com/markets/stocks/articles/p-500-addition-might-change-211144322.html) — 🇺🇸 미국 · Yahoo Finance · 11/25 06:11
 - [앤트로픽 주가는 4거래일 만에 기업공개(IPO) 가격 아래로 급락했습니다.](https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading) — 🇺🇸 미국 · Bloomberg.com · 11/25 06:10
 - [미국 증시 동향 │ 마이크론 테크놀로지는 등급 하향 후 10% 급락했으며 주가는 700 달러 선 아래로 떨어졌습니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418056/%E7%BE%8E%E5%85%89%E7%A7%91%E6%8A%80%E9%81%AD%E9%99%8D%E7%B4%9A%E6%80%A5%E6%8C%AB%E4%B8%80%E6%88%90%EF%BC%8C%E8%82%A1%E5%83%B9%E5%A4%B1%E5%AE%88700%E7%BE%8E%E5%85%83%E9%97%9C%E5%8F%A3?topic=%E7%BE%8E%E8%82%A1%E7%84%A6%E9%BB%9E) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 05:58
-- [JP모건은 2027년 컨센서스 S&P500 목표인 8,200을 밑돌았습니다.](https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3ZoYzZUODBMSTlOZzV1ZFdKaEtPOFpWVDd0Y0hpd0xsLWFmXzNkRWY4d0FybXhvcmtBVVhzNTZmNjY0LU5pdHltWkZMZ25CTkR1djRqeEIzMzRZNldjaEJfa0cxZklzNnN2eVY0OXBLcEZmOWphQVNYdlZOYmtwblRYWkgzZWFSQzdUSzBEUzNDWDNMZTRhVmtkV3lWQWctUU9vREFJaHNqR2ZqZjJrRkQyZw?oc=5) — 🇺🇸 미국 · Bloomberg.com · 11/25 05:55 🆕
+- [JP모건은 2027년 컨센서스 S&P500 목표인 8,200을 밑돌았습니다.](https://www.bloomberg.com/news/articles/2026-11-24/jpmorgan-sets-below-consensus-s-p-500-target-of-8-200-for-2027) — 🇺🇸 미국 · Bloomberg.com · 11/25 05:55
 - [미국 증시 동향 | 미국 소매업계는 연휴 시즌을 앞두고 개선 조짐을 보이면서 강하게 회복되고 있다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418054/%E7%BE%8E%E5%9C%8B%E9%9B%B6%E5%94%AE%E6%A5%AD%E5%BE%A9%E7%94%A6%E5%8B%A2%E9%A0%AD%E5%BC%B7%E5%8B%81%EF%BC%8C%E7%AF%80%E6%97%A5%E6%97%BA%E5%AD%A3%E5%89%8D%E7%8F%BE%E8%BD%89%E6%A9%9F?topic=%E7%BE%8E%E8%82%A1%E7%84%A6%E9%BB%9E) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 05:50
 - [미국 증시 동향 | Ariane 6호는 36개의 아마존 위성을 성공적으로 발사했으며 올해 총 136개가 배치되었습니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418052/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+%E4%BA%9E%E5%88%A9%E5%AE%896%E8%99%9F%E6%88%90%E5%8A%9F%E7%99%BC%E5%B0%8436%E9%A1%86%E4%BA%9E%E9%A6%AC%E9%81%9C%E8%A1%9E%E6%98%9F%EF%BC%8C%E4%BB%8A%E5%B9%B4%E7%B4%AF%E8%A8%88%E9%83%A8%E7%BD%B2136%E9%A1%86) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 05:43
 - [미국 증시 동향 | 엔비디아의 고위 인사에 대한 트럼프의 간섭으로 인해 국가 안보에 대한 의문이 제기되고 의회는 감독을 강화할 계획입니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418053/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+%E7%89%B9%E6%9C%97%E6%99%AE%E5%B9%B2%E9%A0%90%E8%8B%B1%E5%81%89%E9%81%94%E9%AB%98%E5%B1%A4%E4%BB%BB%E5%91%BD%E6%83%B9%E5%9C%8B%E5%AE%89%E8%B3%AA%E7%96%91%EF%BC%8C%E5%9C%8B%E6%9C%83%E6%93%AC%E5%8A%A0%E5%BC%B7%E7%9B%A3%E7%AE%A1) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 05:40
-- [Deutsche Bank 글로벌 전망: S&P500은 2027년에 9,000포인트를 가리킬 것이며 여전히 숨겨진 우려가 있습니다.](https://news.google.com/rss/articles/CBMiU0FVX3lxTE54cnhmdjNSUHdXdkxWQXR6N2Q2SENFcXA3RnB2NFBzaDR6UUdsZm5Qa2pWS2JmYmFBd3hFenBfVDB1MEhlV1owc1lELXVydlFYd09B?oc=5) — 🇨🇳 중국 · 第一财经 · 11/25 05:39 🆕
+- [도이체방크 글로벌 전망: S&P500은 2027년에 9,000포인트를 가리킬 것이며 여전히 숨겨진 우려가 있습니다.](https://www.yicai.com/news/103452744.html) — 🇨🇳 중국 · 第一财经 · 11/25 05:39
 - [(미국 특징주) "S&P 500, 2027년 말 8150 간다"… 전략가들, 조정 딛고 12.6% 상승 전망](https://www.newspim.com/news/view/20261125000042) — 🇰🇷 한국 · 뉴스핌 · 11/25 05:34
 - [유가 하락으로 인플레이션 우려가 완화되면서 국채 상승](https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns) — 🌍 세계 · Bloomberg.com · 11/25 05:29
-- ["미국 강세 특별 보고서" KRYS, KBH, UTHR, DBX 외 4개 종목](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vZ0V3Y24wMjVRY0NuNG5rYzRvWTZXTDZDV1FCSGhVc3VBUjk5c3Z1SXhua1duN0Y3YTFLcUxxc2FhUHJILUpNeW5RNWhYMkNhWFpHcDJqSTdLdnJScXN3?oc=5) — 🇹🇼 대만 · 工商時報 · 11/25 05:05 🆕
-- [엔비디아, 후안 CEO가 사원에게 사과=미국주 개별](https://s.kabutan.jp/news/n202611250054/) — 🇯🇵 일본 · 株探 · 11/25 04:09
+- [미국 증시 동향 | 법무장관 겸 FBI 국장, 화웨이 간첩 활동 의혹에 대한 젠슨 황 조사에 답변 회피](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418049/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+%E5%8F%B8%E6%B3%95%E9%83%A8%E9%95%B7%E5%8F%8AFBI%E5%B1%80%E9%95%B7%E9%81%BF%E7%AD%94%E9%BB%83%E4%BB%81%E5%8B%B3%E8%AA%BF%E6%9F%A5%EF%BC%8C%E6%B6%89%E8%8F%AF%E7%82%BA%E9%96%93%E8%AB%9C%E6%B4%BB%E5%8B%95%E7%96%91%E9%9B%B2) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 05:20 🆕
+- [미국 증시 동향 | 젠슨 황은 복직 후 첫 번째 직원 회의를 열어 사과하고 회사 행동 강령 위반을 인정했습니다 | 주요 뉴스 - 뉴스 - 미국 주식](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418048/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+%E9%BB%83%E4%BB%81%E5%8B%B3%E5%BE%A9%E8%81%B7%E9%A6%96%E9%96%8B%E5%93%A1%E5%B7%A5%E5%A4%A7%E6%9C%83%E8%87%B4%E6%AD%89%EF%BC%8C%E6%89%BF%E8%AA%8D%E9%81%95%E5%8F%8D%E5%85%AC%E5%8F%B8%E8%A1%8C%E7%82%BA%E5%AE%88%E5%89%87?topic=%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 05:14 🆕
+- ["미국 강세 특별 보고서" KRYS, KBH, UTHR, DBX 외 4개 종목](https://www.ctee.com.tw/news/20261125700358-430702) — 🇹🇼 대만 · 工商時報 · 11/25 05:05
+- [미국 주식의 늦은 거래 | 다우지수는 293포인트 상승하고 나스닥지수는 1.9% 하락하는 등 미국 3대 주가지수가 각각 상승 또는 하락했습니다. 전체 - 뉴스 - 미국 주식](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418046/%E7%BE%8E%E8%82%A1%E5%B0%BE%E7%9B%A4+%7C+%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E5%90%84%E6%9C%89%E5%8D%87%E8%B7%8C%EF%BC%8C%E9%81%93%E6%8C%87%E5%8D%87293%E9%BB%9E%EF%BC%8C%E7%B4%8D%E6%8C%87%E6%8C%AB1.9%25) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 05:02 🆕
+- [나스닥 100 선물은 1.5% 하락](https://www.yicai.com/news/103452488.html) — 🇨🇳 중국 · 第一财经 · 11/25 04:47 🆕
+- [엔비디아, 젠슨 황 CEO가 사원에게 사과=미국 개별 종목](https://s.kabutan.jp/news/n202611250054/) — 🇯🇵 일본 · 株探 · 11/25 04:09
 - [AI 마진 감소로 인해 낙관적인 예측이 무색해지자 HPE 주가 하락](https://www.reuters.com/business/hpe-shares-fall-margin-worries-overshadow-raised-outlook-2026-11-24/) — 🌍 세계 · Reuters · 11/25 03:50
-- [맥클럼 캐나다 은행 총재는 인플레이션이 지속될 것으로 예상](https://news.google.com/rss/articles/CBMiugFBVV95cUxQdmV5U2pibTRfUmJObWdlQl9rS1JlZ2xqQ0hkTTE5UG4zODdpTWRjbFNyQUxaY2pYRHdhTG1JNHFFUExBWV96S1dXaWRTV1llaEh3U0ZkeU9oLU5VRGVBajVhcmRpemh4SkZncUlvb2ROUlVwdVQtSzJZU2Z3WEREMXp2SndmeW0wTWI4RWpIaDlwS2dNYzZXN2FfYkhURmlPUENCX1hqMnV0MWdxX2xPWGh5bmlfLW10VGc?oc=5) — 🇺🇸 미국 · WSJ · 11/25 03:41 🆕
-- [미국 주식 결과 | HPE 기술 15% 이상 하락, 내년 클라우드·AI 사업 이익률 14%까지 하락 전망](https://news.google.com/rss/articles/CBMilwNBVV95cUxQdVgyTG9uZVQ5OU9adUtWc29YakdPc05LNDJkdUk5dnMxaDdFVm1sYXAwdk5KTjJRd1JhRkp0TXlkem5DMUdUZGF1c0daeW9oOU9tZE5XVHMtS3dJbEI5VWJGa2RGbnVmakRQSWo4bmt5ckZVbEhoSkFUbzl1Mkt3Wko5dHZycnZROVV1NkxWbGhxRHRiLXhaQ1RqRWc3R056MGUxRHVFM2JrMC1taWhSZzJGZWNVYnRJOXg3Zzl2VWUxSUcxbTA2ZTYyaWdwX0tVT3F3TU0tam4xX2dCdWpkcWd0elFwcTA5cmkxczFILW9pZVYxTW1XNTVrQlIyUlJPdzlEdW84SlFtanRvbElOMl9JYVNzbFcxNXc4eTFHckVUSEU5dVBmNWg1NXYyYWtmSWliSXF5bklXdG9ER1ZHZ3QtQkZ0U3h0NHFJelRCRmdmYW9rLWlLZGEyUEhNXy1INXAtN2ZScXhHTkZha2d1ZmpZUzRhWDFFT3l6Z0szNFdiR2RPdUU2cjdLSzBIWElxdkhkSVpPVQ?oc=5) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 03:35 🆕
-- [미국 주식 결과 | BestBuy 동일 매장 매출은 6.1% 증가해 5년 최고치를 기록하며 연간 실적 전망을 높였습니다.](https://news.google.com/rss/articles/CBMi9AJBVV95cUxQZEt3bmpPbDFtb0dWOUlSZDdSVVM2enNQMTE2WWxpMTRwTGFPS0t5NU42ZGhQWnVVazFfWVBzLXQ1SlJrNWVPZWlNWFZqVmdkNVI2cFRNYUZvMUZWcE83bWVncGtHYWw3aXZHVFFHbVBFTWJFVE13LWlVYVpSS3NZOExnREFHdTBoelR4Zms5YUlqeU5YamtpZ0NUdEhoQkdCZzVCTkpWOXFOLWx4SFhTWGRod2RhbDQyQmVaNHNjTm01ekxzRDYxMHVDcjhNWWdQa2U4R0V5bk1BMUF1bjAtUUptalNJMWZrYlFrSnhYaDhqbHllSldKaXM0dERCZ0VvTDBpTWJVcFptR3RTQ2VaWDNlbjV2RENUSmk3X2FPOWxvWVVNd1FKUFhWS2libGFrT3JHQVZscy1hRmxhSWxuY1o0dWtaRnVxUmZsdk9oZ1VYYk1KVWtlSzNwNEh4NkVpdGZtVkFkVm96cEh6NzNucHF5OVY?oc=5) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 03:30 🆕
-- [미국 증시 동향 | 일라이릴리는 헌팅턴병 및 희귀 혈액암 치료제를 목표로 일주일 만에 22억 2,500만 달러를 인수에 지출했습니다.](https://news.google.com/rss/articles/CBMioAFBVV95cUxOT0l6SXAxZDRCbHBSaWZIdl9FNVpZbjhZS1pocVNFR1U1N19pZWFZTW1PdTFDU05jM2FPaDl2SS1oU0dzX0VENzBONzJacF9PT3JwX0pVSEhsZDlsSHdLdm1jNkJVbGI2bndzUUdJbktOQ3VpaW9aNmVlVGxqWkxvMVZlcEJPUmVfUUN3a3A0S01tT2JKMXJfZTRzUVl2OE9Z?oc=5) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 03:20 🆕
-- [중국 컨셉트렌드 | Xpeng의 미국 증시는 3% 이상 상승했으며 MONA L05의 첫 판매량은 3주 만에 10,000을 초과했습니다. 모두 - 뉴스 - 미국 주식](https://news.google.com/rss/articles/CBMi6gJBVV95cUxOc2VMeDRsVU5PQ1hjaFZkZzRtSVhQMzVFMFVZMk8xYTdyaVFqQURJUUdxUXlGaTdZeTJDOGJTOWRpZlZCTWVReEVqMXM2LXJJY2FuUTN1MDRUSFY3a3pEaUp6c0wtS242WkExNmIzMXI0WnRLaEV2NmZXUzl6ZUhMZmh5N3RwekdoNEdKOC1keVY1Vy1iWjY2dk5zR3A3VGFGQnNoSkJpSVpRUVFMYW9tVXdCN3dKZFdUOUF4OE0tNVpiZ2Q2VkhZakZ2Y2R2YTdrbFN4TjVIMEhMRGJscHFoWkpPXzU2ZllLQVB2RHBpbnV6NUdKbFFZLS1ZRzI0UmsyT2p2WFk3TFJiWDZiR0hnNnBaUzY1ZDR1V2QxeFlmcUlEb29ZVTRwOTkxVlI4a2xyc0ZwUGR6d05oTjJnQU5PSElyRTdxQ0FtTGh3MU1BeHI0YkphMlNBSzJGRXhzYU81R3gtX2Y4VDRCQQ?oc=5) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 02:50 🆕
-- [S&P500은 2026년 말 이전에 약세장에 진입할 것인가?](https://news.google.com/rss/articles/CBMikgFBVV95cUxNaEFzUVV4QVJyWmJfNUtJWWhmQk9HNG5kbWdkaUJIczNfYU05ekJCQzVzMlhnT180ZnpfX0ZrTTRSdlFibzhROEJaRDQzWG5GekRKMW9VQ1ZFNVdGeGJVa0U1b08yVnRFVUdJWUxJOE1KbGdOMEpITHZoR1ZDZFhvU0JGUmN4RlFRcjBsb3VIXzhMZw?oc=5) — 🇺🇸 미국 · Yahoo Finance · 11/25 02:38 🆕
+- [맥클럼 캐나다 은행 총재는 인플레이션이 지속될 것으로 예상](https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-expects-inflation-to-remain-persistent-1fbb15f1) — 🇺🇸 미국 · WSJ · 11/25 03:41
+- [미국 주식 결과 | HPE 기술 15% 이상 하락, 내년 클라우드·AI 사업 이익률 14%까지 하락 전망](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418032/%E7%BE%8E%E8%82%A1%E6%A5%AD%E7%B8%BE%7C%E6%85%A7%E8%88%87%E7%A7%91%E6%8A%80%E6%8C%AB%E9%80%BE15%25%EF%BC%8C%E9%9B%B2%E8%88%87AI%E6%A5%AD%E5%8B%99%E6%98%8E%E5%B9%B4%E5%88%A9%E6%BD%A4%E7%8E%87%E6%96%99%E9%99%8D%E8%87%B314%25) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 03:35
+- [미국 주식 결과 | BestBuy 동일 매장 매출은 6.1% 증가해 5년 최고치를 기록하며 연간 실적 전망을 높였습니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418030/%E7%BE%8E%E8%82%A1%E6%A5%AD%E7%B8%BE%7CBestBuy%E5%90%8C%E5%BA%97%E9%8A%B7%E5%94%AE%E5%A2%9E6.1%25%E5%89%B5%E4%BA%94%E5%B9%B4%E9%AB%98%EF%BC%8C%E4%B8%8A%E8%AA%BF%E5%85%A8%E5%B9%B4%E6%8C%87%E5%BC%95) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 03:30
+- [미국 증시 동향 | 일라이릴리는 헌팅턴병 및 희귀 혈액암 치료제를 목표로 일주일 만에 22억 2,500만 달러를 인수에 지출했습니다.](https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=us&newsid=418029) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 03:20
+- [중국 컨셉트렌드 | 샤오펑의 미국 증시는 3% 이상 상승했으며 MONA L05의 첫 판매량은 3주 만에 10,000을 초과했습니다. 모두 - 뉴스 - 미국 주식](https://www.etnet.com.hk/www/tc/us-stocks/news-article/418024/%E4%B8%AD%E6%A6%82%E5%8B%95%E5%90%91+%7C+%E5%B0%8F%E9%B5%AC%E7%BE%8E%E8%82%A1%E5%8D%87%E9%80%BE3%25%EF%BC%8CMONA+L05%E9%A6%96%E9%8A%B7%E4%B8%89%E5%91%A8%E4%BA%A4%E4%BB%98%E7%A0%B4%E8%90%AC) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 02:50
+- [S&P500은 2026년 말 이전에 약세장에 진입할 것인가?](https://finance.yahoo.com/markets/stocks/articles/p-500-enter-bear-market-173802260.html) — 🇺🇸 미국 · Yahoo Finance · 11/25 02:38
 - [연준의 10월 할인율 회의 회의록: 8개 지역 연준이 할인율 인상을 권장함](https://www.yicai.com/news/103452906.html) — 🇨🇳 중국 · 第一财经 · 11/25 02:12
 - [미국 주가지수 선물은 개장 전 계속 하락세를 보이고 있습니다.](https://www.yicai.com/news/103452549.html) — 🇨🇳 중국 · 第一财经 · 11/25 01:28
-- [Samsonite의 미국 증시 상장이 촉매제가 되었으며 NT$16.6에 도달할 것으로 예상됩니다 | 홍콩경제신문](https://news.google.com/rss/articles/CBMigwJBVV95cUxPbHduQk1EdEh0UU1tWndvN2JYUlNDM0JjTG5tMnFPUF9JZ0szQ25MTnFsbG1vZWJFTlZPUTVDUGlILXF3c0psU1ZqR3dZU1NEUUlRM3liY3NUeUt5RnBfNVVmQ1Q1eVhRYWdnSktkcUYtTGVlYVZMbUFKbG1xTXNqYVFlNWpHRFhzWkNfR2N5UTZrTmxveFFkcmdQX3Zjc2Q5NzNnd21MSk1yU05kZlN2WDF6Vnl2VUk1UGw4cVZ5TldKcmRYTllsLUJiVjBxZ0c2ZkdxMHU4ZWVtdEhLM2twY1V6M21PUmdYWmZ3RFZzbzI4TG1LMWctN1hsWkRHWWpKS1lB?oc=5) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/25 01:14 🆕
+- [샘소나이트의 미국 증시 상장이 촉매제가 되었으며 NT$16.6에 도달할 것으로 예상됩니다 | 홍콩경제신문](https://invest.hket.com/article/4230373/%E6%96%B0%E7%A7%80%E9%BA%97%E7%BE%8E%E8%82%A1%E4%B8%8A%E5%B8%82%E6%88%90%E5%82%AC%E5%8C%96%E5%8A%91%20%E4%B8%8A%E6%9C%9B16.6%E5%85%83) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/25 01:14
+- [Dollar Tree는 오늘날 최고의 S&P500 주식입니다. 휴일 달리기를 위한 준비가 되었습니다.](https://www.barrons.com/articles/dollar-tree-earnings-stock-price-0e1bd232) — 🇺🇸 미국 · Barron's · 11/25 00:43 🆕
 - [뉴욕증시, 걱정의 벽을 타고 오를까 vs 희망의 비탈길로 내려올까(박신영의 개장전 요것만)](https://www.hankyung.com/article/202611258060i) — 🇰🇷 한국 · 한국경제 · 11/25 00:31
-- [미국 반도체 주가는 밤늦게 급락했다. 마이크론 테크놀로지와 샌디스크가 8% 이상 하락했고, 엔비디아도 6% 이상 하락했다.](https://news.google.com/rss/articles/CBMijwFBVV95cUxQX3FsR2dSb2RkVm5Ga3o2aENUc2E2TU1aclhsMkwzV1c3TWRXaGl5SVhiNFQ1ZzNheGdKNGk3d0ZaZXlBLUNqR2VoekJNYl9TNDBVVXBTdGpmRWROZWtYelFoazBMWlVkLVJ6NUowenJNal9SdHNzVTNGdWoyTXlYWkVGeER1cDM3THhpdS1fYw?oc=5) — 🇨🇳 중국 · 21财经 · 11/25 00:21 🆕
+- [미국 반도체 주가는 밤늦게 급락했다. 마이크론 테크놀로지와 샌디스크가 8% 이상 하락했고, 엔비디아도 6% 이상 하락했다.](https://www.21jingji.com/article/20261124/herald/3789440be90205b8d77b3e8c7f40ab08.html) — 🇨🇳 중국 · 21财经 · 11/25 00:21
 - [엔비디아 기반 AI 상승세가 사라지면서 월스트리트는 하락세를 보였습니다.](https://www.businesstimes.com.sg/international/wall-street-opens-lower-nvidia-fuelled-ai-rally-fades) — 🇸🇬 싱가포르 · The Business Times · 11/25 00:19
 - [바이낸스, Cboe와 협력…S&P500·나스닥100 실시간 데이터 제공](https://bloomingbit.io/feed/news/125137) — 🇰🇷 한국 · 블루밍비트 · 11/24 23:50
 - [다우 평균이 플러스로 변한다 = 미국 주식 속보](https://s.kabutan.jp/news/n202611241325/) — 🇯🇵 일본 · 株探 · 11/24 23:48
@@ -194,8 +231,8 @@
 - [S&P Cotality Case-Shiller 지수, 2026년 9월 연간 이익 보고](https://www.spglobal.com/spdji/en/index-announcements/article/sp-cotality-case-shiller-index-reports-annual-gain-in-september/) — 🌍 세계 · S&P Global · 11/24 23:00
 - [월스트리트저널 "미국, 빠르면 이번주 중국 포함 수십개국에 관세 인상할 수도"](https://money.udn.com/money/story/5599/9899604) — 🇹🇼 대만 · 經濟日報 · 11/24 22:48
 - [S&P500이 플레이북을 찢어버리면서 시장 타이머가 교육을 받습니다.](https://www.bloomberg.com/news/articles/2026-11-24/market-timers-get-schooled-as-s-p-500-swings-rip-up-playbooks) — 🇺🇸 미국 · Bloomberg.com · 11/24 22:41
-- [너무 사악해? 대만 주식 두 개가 손실을 인정한 지 몇 초 만에 급등했습니다. 반지표 여신은 방금 이 두 미국 주식을 샀고 시장이 열리기 전에 실제로 하락했습니다.](https://udn.com/news/story/12806/9899563) — 🇹🇼 대만 · UDN · 11/24 22:29
-- [앤트로픽이 초기 공모 가격 아래로 떨어지면서 기술주는 황 상승세 후 하루 만에 약세](https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/) — 🌍 세계 · BNN Bloomberg · 11/24 22:07
+- [너무 사악해? 대만 주식 두 개가 손실을 인정한 지 몇 초 만에 급등했습니다. 역지표 여신은 방금 이 두 미국 주식을 샀고 시장이 열리기 전에 실제로 하락했습니다.](https://udn.com/news/story/12806/9899563) — 🇹🇼 대만 · UDN · 11/24 22:29
+- [앤트로픽이 초기 공모 가격 아래로 떨어지면서 기술주는 젠슨 황 상승세 후 하루 만에 약세](https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/) — 🌍 세계 · BNN Bloomberg · 11/24 22:07
 - [도이체방크가 내년에 S&P500이 거의 25% 상승할 것으로 예상하는 이유](https://www.barrons.com/articles/deutsche-bank-stock-market-forecast-2027-6007d3e5) — 🇺🇸 미국 · Barron's · 11/24 22:03
 - [유가 하락으로 인플레이션 우려 완화, 미국 국채 가격 상승 | 미국 증시 동향 | 국제](https://money.udn.com/money/story/123398/9898660?from=edn_newestlist_rank) — 🇹🇼 대만 · 經濟日報 · 11/24 21:39
 - [강세 지속? 엔비디아는 미국 증시 개장 전 5.4% 하락했다. 대만 지수 선물은 야간 거래에서 774포인트 하락했습니다. 4가지 요인과 3가지 구조적 이유.](https://ec.ltn.com.tw/article/breakingnews/5651984) — 🇹🇼 대만 · 自由財經 · 11/24 21:35
@@ -212,7 +249,7 @@
 - [연준 금리 기대치가 수요에 부담을 주면서 금 가격은 급격한 회복세로 하락했습니다.](https://finance.yahoo.com/markets/commodities/articles/gold-prices-edge-lower-following-102112756.html) — 🇺🇸 미국 · Yahoo Finance · 11/24 19:21
 - [iShares Core S&P500 ETF(IVV)가 귀하의 투자 레이더에 포함되어야 합니까?](https://finance.yahoo.com/markets/stocks/articles/ishares-core-p-500-etf-102002278.html) — 🇺🇸 미국 · Yahoo Finance · 11/24 19:20
 - [S&P500 PAB Sustainability Scre(^SPPACSGN) 과거 데이터](https://uk.finance.yahoo.com/quote/%5ESPPACSGN/history/) — 🇺🇸 미국 · Yahoo Finance UK · 11/24 19:10
-- [급락부터 급등까지! 역사에서 교훈 얻기: 미국 주식의 "카니발 나이트" 이후에는 어떤 일이 일어날까요?](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1tTjBDM2tHZ19SNEpSZlBrM0ZPT29nSEhRcEhPZUM4b0ZPS2toaDJxOVVHbExTZEV6RUNtN3dNaUF3WXFUTkFheA?oc=5) — 🇨🇳 중국 · 财联社 · 11/24 19:03 🆕
+- [급락부터 급등까지! 역사에서 교훈 얻기: 미국 주식의 "카니발 나이트" 이후에는 어떤 일이 일어날까요?](https://www.cls.cn/detail/2543090) — 🇨🇳 중국 · 财联社 · 11/24 19:03
 - [S&P500 미국 수익 선두 기업(^SPXURLUN) 차트, 데이터 및 뉴스](https://uk.finance.yahoo.com/quote/%5ESPXURLUN/) — 🇺🇸 미국 · Yahoo Finance UK · 11/24 19:02
 - [기술 상승세가 사라지고 사노피가 상승하면서 유럽 주식은 일시 중지됩니다.](https://www.reuters.com/markets/europe/europes-stoxx-600-subdued-after-ai-driven-rally-2026-11-24/) — 🇺🇸 미국 · Reuters · 11/24 18:45
 - [미국 증시 개장 전: 나스닥 선물은 1%까지 급락했고, 반도체주는 전반적으로 하락했으며, 엔비디아, SK하이닉스, 샌디스크, 인텔은 전체적으로 하락했습니다.](https://www.21jingji.com/article/20261124/herald/3faedbd61cc1f3dded8e32b4e056ec55.html) — 🇨🇳 중국 · 21财经 · 11/24 18:31
@@ -223,8 +260,7 @@
 - [S&P500이 미국 주식 투자에 좋은 이유는 무엇입니까?](https://inews.hket.com/article/4230158/%E7%82%BA%E4%BD%95%E6%A8%99%E6%99%AE500%E6%98%AF%E6%8A%95%E8%B3%87%E7%BE%8E%E8%82%A1%E7%9A%84%E6%94%BB%E5%AE%88%E5%85%BC%E5%82%99%E4%B9%8B%E9%81%B8%EF%BC%9F) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/24 17:42
 - [트럼프가 젠슨 황의 복직을 지원하는 데 비용이 많이 듭니까? 월스트리트저널, 미국 국가안보와 법치에 미칠 잠재적 영향 경고](https://m.cnyes.com/news/id/6670890) — 🇹🇼 대만 · 鉅亨網 · 11/24 17:40
 - [ETF Market Daily｜젠슨 황이 엔비디아의 멋진 인장으로 돌아왔습니다! 미국 주식의 엄청난 반등으로 인해 나스닥 Nikkei QDII가 전반적으로 급등했고 금 주식과 비철 테마가 조정되었습니다.](https://www.jiemian.com/article/15368163.html) — 🇨🇳 중국 · Jiemian.com · 11/24 17:37
-- [Allianz Tang Jicheng과의 독점 인터뷰: 연준의 금리 인상은 아직 끝나지 않았으며 AI 배당금은 아시아 태평양 지역의 지형을 바꿀 것입니다](https://news.google.com/rss/articles/CBMijwFBVV95cUxNTG9VcTBoTWx0Q0c2X3pZZFFkbU1FWld4a29tMGc1V2ZWaVFkNmk2Ui1Nc0djOU9oUG5tdXY3d0pTRk0tRWxBLXBlb3dtTWR6V0V1ZUJSa0czTUVOai1qNV85cjhzNjNyQTZMcGxINEt6bXl6LUhyeU5lVXlZczR1TW80NTVyMHBiMXRpeWU1Yw?oc=5) — 🇨🇳 중국 · 21财经 · 11/24 17:33 🆕
-- [12월 금리 인상 확률이 100%로 돌아왔습니다! '월스트리트의 늑대' 경고: 연준이 큰 실수를 할 수 있다](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBTOWkwNk9ENy1qRVViaWZXeXVEOUdlNW9UX1FlYmdYVjFReTRoaklPVE9Xa2k0OE1zeUo0Y3B3dTNIcVpIYWhvbQ?oc=5) — 🇨🇳 중국 · 财联社 · 11/24 17:24 🆕
+- [Allianz Tang Jicheng과의 독점 인터뷰: 연준의 금리 인상은 아직 끝나지 않았으며 AI 배당금은 아시아 태평양 지역의 지형을 바꿀 것입니다](https://www.21jingji.com/article/20261124/herald/14c791cfc8d654a5003937f053d22897.html) — 🇨🇳 중국 · 21财经 · 11/24 17:33
 - [나스닥 급등이 더 불안…긴축 우려에 AI 4대 암초, 랠리 재개 확신 어려워(오미주) - 머니투데이](https://www.mt.co.kr/amp/world/2026/11/24/2026112416223689923) — 🇰🇷 한국 · 머니투데이 · 11/24 16:46
 - [젠슨 황의 복귀 첫날! 월스트리트의 광속 재평가: 4개 기업이 목표주가를 올렸고, 1개 기업이 목표주가를 올렸고, 6개 기업이 목표주가를 유지했다. 엔비디아의 "할인된 가격"을 계산하세요.](https://news.cnyes.com/news/id/6670949) — 🇹🇼 대만 · 鉅亨網 · 11/24 16:40
 - [CBOE S&P500 조건부 Bu(^BXMC) 계절별 수익률 차트](https://uk.finance.yahoo.com/quote/%5EBXMC/seasonality/) — 🇺🇸 미국 · Yahoo Finance UK · 11/24 16:39
@@ -232,7 +268,7 @@
 - [25일 PCE 물가지수, 美연준 금리 결정 분수령⋯상승률 4% 육박할 듯](https://www.etoday.co.kr/news/view/2652388) — 🇰🇷 한국 · 이투데이 · 11/24 16:18
 - [(미국 주식 전망) 주요 은행들의 견해는 엇갈린다. 웰스파고는 신용등급을 '가장 낙관적'으로 상향했다. 캐슬증권은 8년 전 자산 매각이 반복돼 우려된다.](https://inews.hket.com/article/4230067/%E3%80%90%E7%BE%8E%E8%82%A1%E5%89%8D%E7%9E%BB%E3%80%91%E5%A4%A7%E8%A1%8C%E7%9C%8B%E6%B3%95%E5%88%86%E6%AD%A7%E3%80%80%E5%AF%8C%E5%9C%8B%E4%B8%8A%E8%AA%BF%E8%87%B3%E3%80%8C%E6%9C%80%E7%9C%8B%E5%A5%BD%E3%80%8D%E8%A9%95%E7%B4%9A%E3%80%80%E5%9F%8E%E5%A0%A1%E8%AD%89%E5%88%B8%E6%86%82%E9%87%8D%E6%BC%948%E5%B9%B4%E5%89%8D%E8%B3%87%E7%94%A2%E6%8B%8B%E5%94%AE%E5%B8%82%E6%B3%81) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/24 15:39
 - [민주당 "반격"? 트럼프가 임명한 연준 부의장에 대한 연준 내부 조사!](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9JS21OOUxEaGhoeDZrdGJnV2JjNEJrYzVta18tek9laUkzeFh4cFBObGw3ZUdpVXEtWm53WS1iT2ZxYldlaUNoaA?oc=5) — 🇨🇳 중국 · 财联社 · 11/24 15:28
-- [Vanguard S&P500 ETF(VOO) 옵션 체인 - Yahoo Finance](https://ca.finance.yahoo.com/quote/VOO/options/?date=1798675200&straddle=false&type=all) — 🇺🇸 미국 · Yahoo! Finance Canada · 11/24 15:03
+- [Vanguard S&P500 ETF(VOO) 옵션 체인 - 야후 파이낸스](https://ca.finance.yahoo.com/quote/VOO/options/?date=1798675200&straddle=false&type=all) — 🇺🇸 미국 · Yahoo! Finance Canada · 11/24 15:03
 - [트럼프가 임명한 연준 이사 보우먼은 뱅크 오브 아메리카(뱅크오브아메리카) 개인 만찬에서 조사 중인 조사 중에 침묵을 지켰다.](https://news.cnyes.com/news/id/6670400) — 🇹🇼 대만 · 鉅亨網 · 11/24 14:40
 - [S&P500 헬스케어 장비 & (^SP500-351010) 계절별 수익률 차트](https://uk.finance.yahoo.com/quote/%5ESP500-351010/seasonality/) — 🇺🇸 미국 · Yahoo Finance UK · 11/24 14:16
 - [S&P500 Scored & Screened+ EUR (^SPXEHAET) 계절별 수익률 차트](https://uk.finance.yahoo.com/quote/%5ESPXEHAET/seasonality/) — 🇺🇸 미국 · Yahoo Finance UK · 11/24 14:14
@@ -241,14 +277,14 @@
 - [젠슨 황 복귀 이후 12월 연준의 급격한 금리 인상 가능성이 조용히 떠올랐다.](https://www.21jingji.com/article/20261124/herald/f59b86cfd139d64ba50e939ec949a865.html) — 🇨🇳 중국 · 21财经 · 11/24 13:55
 - [S&P500의 변동성은 27일의 대폭 상승 및 27일의 대폭 하락 이후에도 지속됩니까?](https://finance.yahoo.com/markets/stocks/articles/p-500-volatility-persist-27-044853390.html) — 🇺🇸 미국 · Yahoo Finance · 11/24 13:48
 - [닛케이 벨리타스토크 앤트로픽 기업공개(IPO), 일본에 터치다운 진격의 미국 주식](https://www.nikkei.com/prime/veritas/article/DGXZQOKC243YM0U6A121C2000000) — 🇯🇵 일본 · 日本経済新聞 · 11/24 13:47
-- [황의 복귀로 AI 주식 상승세가 촉발되면서 아시아 주식 반등](https://www.wsj.com/finance/stocks/asian-equities-rebound-as-huang-reinstatement-sparks-ai-stock-rally-515acdd2) — 🇺🇸 미국 · WSJ · 11/24 13:42
+- [젠슨 황의 복귀로 AI 주식 상승세가 촉발되면서 아시아 주식 반등](https://www.wsj.com/finance/stocks/asian-equities-rebound-as-huang-reinstatement-sparks-ai-stock-rally-515acdd2) — 🇺🇸 미국 · WSJ · 11/24 13:42
 - [(미국 증시 장전) 엔비디아는 미국 언론의 또 다른 스캔들 우려로 개장 전 5% 하락했다. 다우선물은 284포인트 하락, 나스닥선물은 2포인트 상승 (지속 업데이트)](https://inews.hket.com/article/4229385/%E3%80%90%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%89%8D%E3%80%91%E8%8B%B1%E5%81%89%E9%81%94%E7%9B%A4%E5%89%8D%E8%B7%8C5-%E3%80%81%E6%86%82%E7%BE%8E%E5%AA%92%E5%86%8D%E7%88%86%E9%86%9C%E8%81%9E%E3%80%80%E9%81%93%E6%8C%87%E6%9C%9F%E8%B2%A8%E8%B7%8C284%E9%BB%9E%E3%80%81%E7%B4%8D%E6%8C%87%E6%9C%9F%E8%B2%A8%E5%8D%872%E9%BB%9E%EF%BC%88%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%EF%BC%89?mtc=20038) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/24 13:40
 - [시장이 너무 감정적으로 주도되는 걸까요? 젠슨 황의 복귀는 미국 주식의 엄청난 반등을 촉발했으며 엔비디아는 하루 만에 31% 급등했습니다.](https://news.cnyes.com/news/id/6670427) — 🇹🇼 대만 · 鉅亨網 · 11/24 13:20
 - [NY주 1400달러 높음](https://mainichi.jp/articles/20261124/dde/001/020/022000c) — 🇯🇵 일본 · 毎日新聞 · 11/24 13:08
 - [AI 가짜 사진은 한때 미국 주식의 변동을 일으켰습니다. 교육부, 이미지 인식 수업 계획 출시](https://news.ltn.com.tw/news/life/breakingnews/5651447) — 🇹🇼 대만 · 自由時報 · 11/24 12:52
-- [Everbright Futures Wang Na: 미국 주식 반등, 원자재 시장 심리 회복 | 필수품](https://www.yicai.com/video/103451779.html) — 🇨🇳 중국 · 第一财经 · 11/24 12:17
+- [광다선물 Wang Na: 미국 주식 반등, 원자재 시장 심리 회복 | 필수품](https://www.yicai.com/video/103451779.html) — 🇨🇳 중국 · 第一财经 · 11/24 12:17
 - ['미국 주식' 집중주: 젠슨 황의 복직을 위해 AI 경고가 해제됐나? 엔비디아의 시가총액은 하루 만에 거의 1조 달러로 증가했습니다.](https://wantrich.chinatimes.com/news/20261124900169-420201) — 🇹🇼 대만 · 旺得富理財網 · 11/24 12:11
-- [젠슨 황의 복직 이후 미국 증시는 E펀드 AI ETF(03489)의 주요 보유업체인 엔비디아가 하루 만에 31.48% 급등하는 등 들끓고 있다.](https://m.jiemian.com/article/15366346.html) — 🇨🇳 중국 · Jiemian.com · 11/24 12:04
+- [젠슨 황의 복직 이후 미국 증시는 이팡다(E Fund) AI ETF(03489)의 주요 보유업체인 엔비디아가 하루 만에 31.48% 급등하는 등 들끓고 있다.](https://m.jiemian.com/article/15366346.html) — 🇨🇳 중국 · Jiemian.com · 11/24 12:04
 - [월 100억엔 이상의 자금유입투신 S&P500 연동형이 75개월 연속](https://www.nikkei.com/article/DGXZQOUB192UP0Z11C26A1000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/24 12:00
 - [실시간 업데이트: 황의 엔비디아 복귀로 인한 주가 상승 및 국회의원 회의론](https://www.nytimes.com/live/2026/11/23/technology/nvidia-jensen-huang-reinstated) — 🇺🇸 미국 · The New York Times · 11/24 11:58
 - [트럼프 2.0이 젠슨 황 2.0과 힘을 합친다. 월스트리트의 드라마는 어떻게 끝날 것인가?](https://www.ctee.com.tw/news/20261124700979-430801) — 🇹🇼 대만 · 工商時報 · 11/24 11:49
@@ -258,40 +294,39 @@
 - [연준의 윌리엄스 신호 금리 인상: 경제는 여전히 강하고 인플레이션은 여전히 너무 높습니다.](https://www.thepaper.cn/newsDetail_forward_34544868) — 🇨🇳 중국 · ThePaper.cn · 11/24 10:42
 - [닛케이 평균 주가, 일시 2800엔 고 미국주 급신으로 5만 9000엔대 회복](https://www.nikkei.com/article/DGXZQOUB240EV0U6A121C2000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/24 10:35
 - [뉴욕 연준 윌리엄스: 인플레이션을 막기 위해 아직 해야 할 일이 남아 있어 추가 긴축 가능성이 있음을 암시](https://news.cnyes.com/news/id/6670394) — 🇹🇼 대만 · 鉅亨網 · 11/24 10:30
-- [엔비디아 상승세가 흐지부지되고 달러가 하락하면서 미국 주식이 하락했습니다.](https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/) — 🌍 세계 · Reuters · 11/24 10:29
+- [엔비디아 상승세가 흐지부지되고 달러가 하락하면서 미국 증시가 하락했습니다.](https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/) — 🌍 세계 · Reuters · 11/24 10:29
 - [(숏폼) 뉴욕증시, 젠슨 황 복귀에 '환호' 월가 매도세 '당장은' 멈춰](https://biz.sbs.co.kr/amp/article/20000348420) — 🇰🇷 한국 · SBS Biz · 11/24 10:19
 - [해외시장뷰&미국주 픽업(11월 24일)](https://www.nikkei.com/prime/veritas/article/DGXZQOKC2418I0U6A121C2000000) — 🇯🇵 일본 · 日本経済新聞 · 11/24 10:17
 - [시판 전 전략 | 젠슨 황은 미국 주식에서 격렬한 반등을 재개하고 홍콩 주식은 반등을 따라갈 것으로 예상되며 먼저 22800의 저항을 살펴 봅니다.](https://www.etnet.com.hk/www/tc/news/news-article.php?section=features&category=focus&newsid=417908) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 10:15
-- [동증, 일시 5만 8000엔 회복](https://www.sankei.com/article/20261124-OGJYXKGYLRNWLFJIV7IEZ6JXPM/) — 🇯🇵 일본 · 産経ニュース · 11/24 10:13
-- [연준의 "세 번째 지도자"는 다음과 같이 말했습니다: 인플레이션은 계속해서 너무 높으며 필요하다면 금리가 지속적으로 인상될 수 있습니다!](https://www.cls.cn/detail/2542480) — 🇨🇳 중국 · 财联社 · 11/24 10:10
+- [도쿄 주식시장, 일시 5만 8000엔 회복](https://www.sankei.com/article/20261124-OGJYXKGYLRNWLFJIV7IEZ6JXPM/) — 🇯🇵 일본 · 産経ニュース · 11/24 10:13
+- [연준의 "서열 3위"는 다음과 같이 말했습니다: 인플레이션은 계속해서 너무 높으며 필요하다면 금리가 지속적으로 인상될 수 있습니다!](https://www.cls.cn/detail/2542480) — 🇨🇳 중국 · 财联社 · 11/24 10:10
 - ["너무 충격을 받아서 의자에서 떨어졌어요!" 젠슨 황이 돌아오는 날 월스트리트는 미쳐간다](https://www.cls.cn/detail/2542543) — 🇨🇳 중국 · 财联社 · 11/24 10:09
-- [미국 주식이 급등했습니다! 젠슨 황이 돌아오고 엔비디아 주가가 급등합니다! 국제 유가는 폭락했고 미국 원유는 80달러에 육박했으며 금과 은은 모두 상승했습니다.](https://www.21jingji.com/article/20261124/herald/e80c0b83cb50be210995f039c4894379.html) — 🇨🇳 중국 · 21财经 · 11/24 10:03
+- [미국 증시가 급등했습니다! 젠슨 황이 돌아오고 엔비디아 주가가 급등합니다! 국제 유가는 폭락했고 미국 원유는 80달러에 육박했으며 금과 은은 모두 상승했습니다.](https://www.21jingji.com/article/20261124/herald/e80c0b83cb50be210995f039c4894379.html) — 🇨🇳 중국 · 21财经 · 11/24 10:03
 - [머스크 AI(머스크 AI) 뒤의 생명보험 금융업자는 월스트리트를 복잡한 금융망으로 불안하게 만든다 | 뉴욕타임스 정치](https://vip.udn.com/vip/story/124852/9896498?from=vipudn_newest_index) — 🇹🇼 대만 · 聯合報數位版 · 11/24 10:00
 - [미국 증시 급락이 개입을 촉발했다? 트럼프: 젠슨 황은 뇌에 다른 누구도 모르는 칩을 갖고 있다](https://news.cnyes.com/news/id/6670389) — 🇹🇼 대만 · 鉅亨網 · 11/24 09:58
 - [이익 전망은 탄탄한데…미국 증시 발목잡는 유동성](https://www.asiae.co.kr/article/2026112314483465278) — 🇰🇷 한국 · 아시아경제 · 11/24 09:53
 - ["선물" 젠슨 황이 사무실로 복귀하여 미국 주식을 폭발시켰습니다! 대만지수선물 3400포인트 이상 급등, 전자선물 상한가 - 증권](https://www.ctee.com.tw/news/20261124700735-430201) — 🇹🇼 대만 · 工商時報 · 11/24 09:52
 - [젠슨 황이 신뢰의 위기를 진정시키고 AI 생태계에 확신을 주기 위해 돌아왔습니다 | 미국 증시 동향 | 국제](https://money.udn.com/money/story/123398/9897761) — 🇹🇼 대만 · 經濟日報 · 11/24 09:45
 - [젠슨 황이 AI를 폭파하기 위해 돌아왔습니다! 미국 증시에 대한 의구심은 사라지고 카니발은 계속된다? 홍콩 주식은 위기의 시기에서 벗어날 수 있을까?](https://video.hket.com/video/4229840/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E5%BC%95%E7%88%86AI%EF%BC%81%E7%BE%8E%E8%82%A1%E7%96%91%E6%85%AE%E6%B6%88%E9%99%A4%E7%BA%8C%E7%8B%82%E6%AD%A1%EF%BC%9F%E6%B8%AF%E8%82%A1%E5%8F%AF%E8%84%AB%E9%9B%A2%E5%8D%B1%E9%9A%AA%E6%9C%9F%EF%BC%9F?mtc=80039) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/24 09:40
-- [다우지수 1,447포인트 상승, 미국증시 1년반만에 최대 상승, 니비디아 31% 상승(08:29) - 20261124 - 실시간 금융뉴스](https://finance.mingpao.com/fin/instantf/20261124/1795480689915/%E9%81%93%E6%8C%87%E5%8D%871447%E9%BB%9E-%E7%BE%8E%E8%82%A1%E5%89%B5%E4%B8%80%E5%B9%B4%E5%8D%8A%E6%9C%80%E5%A4%A7%E5%8D%87%E5%B9%85-nividia%E5%8D%8731) — 🇭🇰 홍콩 · 明報財經網 · 11/24 09:38
 - [(이 시각 시황) 젠슨 황발 뉴욕증시 훈풍…코스피 5%대 급등, 반도체·AI주 강세](https://biz.sbs.co.kr/article/20000348380) — 🇰🇷 한국 · SBS Biz · 11/24 09:32
-- [NY 다우 급반발 엔비디아 시가총액, 하루 151조엔 증가](https://mainichi.jp/articles/20261124/k00/00m/020/004000c) — 🇯🇵 일본 · 毎日新聞 · 11/24 09:29
-- [미국 증시 AI 스토리지 부문 급등, SK하이닉스 20% 상승丨미국 증시 마감 검토](https://www.21jingji.com/article/20261124/herald/5dba91bedab38c44d13a3da8dd3789e8.html) — 🇨🇳 중국 · 21财经 · 11/24 09:27
-- [미국 주식이 급격하게 반등했습니다! 월스트리트에서는 '젠슨 황의 복귀'에 대해 뜨거운 논의를 하고 있다. 단기 바닥이 확립됐는가?](https://www.cls.cn/detail/2542457) — 🇨🇳 중국 · 财联社 · 11/24 09:25
+- [뉴욕 다우 급반발 엔비디아 시가총액, 하루 151조엔 증가](https://mainichi.jp/articles/20261124/k00/00m/020/004000c) — 🇯🇵 일본 · 毎日新聞 · 11/24 09:29
+- [미국 증시 AI 스토리지 부문 급등, SK하이닉스 20% 상승 | 미국 증시 마감 검토](https://www.21jingji.com/article/20261124/herald/5dba91bedab38c44d13a3da8dd3789e8.html) — 🇨🇳 중국 · 21财经 · 11/24 09:27
+- [미국 증시가 급격하게 반등했습니다! 월스트리트에서는 '젠슨 황의 복귀'에 대해 뜨거운 논의를 하고 있다. 단기 바닥이 확립됐는가?](https://www.cls.cn/detail/2542457) — 🇨🇳 중국 · 财联社 · 11/24 09:25
 - [월스트리트 상승세로 S&P500과 다우 지수는 조정 국면에서 빠져나옴](https://www.foxbusiness.com/video/6408788167112) — 🇺🇸 미국 · Fox Business · 11/24 09:24
 - [CITIC Securities: 미국 주식의 23×5 거래가 개시되어 증권사에 글로벌 서비스를 위한 새로운 기회가 열림](https://m.yicai.com/news/103451269.html) — 🇨🇳 중국 · 第一财经 · 11/24 09:14
-- ["미국 주식" 마감 보고서: 트럼프가 추수감사절 전에 큰 선물을 줍니다! Lao 황의 AI 주식 및 반도체주로의 복귀 - 국제](https://wantrich.chinatimes.com/news/20261124900068-420201) — 🇹🇼 대만 · 旺得富理財網 · 11/24 09:11
+- ["미국 주식" 마감 보고서: 트럼프가 추수감사절 전에 큰 선물을 줍니다! 젠슨 황의 AI 주식 및 반도체주로의 복귀 - 국제](https://wantrich.chinatimes.com/news/20261124900068-420201) — 🇹🇼 대만 · 旺得富理財網 · 11/24 09:11
 - [중국은 가족들이 집이 아닌 주식에 저축하기를 원했지만 시장은 하락했습니다.](https://www.ft.com/content/45c49a84-53cc-44ed-9aab-0dc79f564278?syn-25a6b1a6=1) — 🌍 세계 · Financial Times · 11/24 09:11
-- [T모닝포스트 | 젠슨 황이 엔비디아로 복귀합니다. 미국 주식 AI 부문 급증; 미국, 해외 데이터센터 건설 제한할 계획](https://m.caixin.com/m/2026-11-24/102508156.html) — 🇨🇳 중국 · 财新网 · 11/24 09:10
+- [T모닝포스트 | 젠슨 황이 엔비디아로 복귀합니다. 미국 증시 AI 업종 급증; 미국, 해외 데이터센터 건설 제한할 계획](https://m.caixin.com/m/2026-11-24/102508156.html) — 🇨🇳 중국 · 财新网 · 11/24 09:10
 - [중앙은행의 금 구매 냉각과 연준의 금리 인상 기대가 금 가격에 압력을 가중시키고 있습니다.](https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=d3caa7e7-0d0f-487e-8e76-17ad1888a878) — 🇹🇼 대만 · MoneyDJ · 11/24 09:05
-- [홍콩 주식 모닝 포스트 ｜ 젠슨 황 재취업, 미국 나스닥 6% 상승, 중국 인기 컨셉주 전반적으로 상승](https://www.cls.cn/detail/2541278) — 🇨🇳 중국 · 财联社 · 11/24 08:39
+- [홍콩 주식 모닝 포스트 ｜ 젠슨 황 재취업, 미국 나스닥 6% 상승, 중국 인기 테마주 전반적으로 상승](https://www.cls.cn/detail/2541278) — 🇨🇳 중국 · 财联社 · 11/24 08:39
 - [연준 윌리엄스 의장은 인플레이션이 여전히 너무 높아 추가 금리 인상이 가능하다는 신호라고 말했습니다.](https://www.reuters.com/business/fed-has-work-do-lower-inflation-williams-says-2026-11-23/) — 🌍 세계 · Reuters · 11/24 08:38
 - [S&P500, 나스닥은 젠슨 황의 복귀가 이끄는 낙관론에 대한 작년 4월 이후 최고의 세션을 종료합니다 — NVDA, NASA, TTWO, AMZN In Focus](https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-end-best-233325003.html) — 🇺🇸 미국 · Yahoo Finance · 11/24 08:33
-- [【시황】 23일 미국 증시의 개황, NY1447 달러 고 나스닥 6% 초과 상승](https://kabutan.jp/news/marketnews/?b=n202611240160) — 🇯🇵 일본 · 株探 · 11/24 08:12
+- [【시황】 23일 미국 증시의 개황, 뉴욕 다우 1447달러 상승 나스닥 6% 초과 상승](https://kabutan.jp/news/marketnews/?b=n202611240160) — 🇯🇵 일본 · 株探 · 11/24 08:12
 - [Invesco S&P500 QVM Multi-factor ETF(QVML) 계절별 수익률 차트](https://uk.finance.yahoo.com/quote/QVML/seasonality/) — 🇺🇸 미국 · Yahoo Finance UK · 11/24 08:01
 - ['큰 질문에 대답하지 않음': 주식 시장은 월요일 상승세에도 불구하고 AI가 주도한 최고치보다 여전히 5조 달러 낮습니다](https://fortune.com/2026/11/23/wall-street-ai-stock-market-selloff-8-trillion-loss-nvidia-jensen-huang-return-anthropic-ipo-memory-chips-rebound/) — 🇺🇸 미국 · Fortune · 11/24 06:44
 - [엔비디아의 복귀로 주식 투자자들을 사로잡는 함정이 드러났습니다.](https://www.bloomberg.com/news/articles/2026-11-23/nvidia-s-comeback-exposes-the-trap-gripping-stock-investors) — 🌍 세계 · Bloomberg.com · 11/24 06:29
-- [앤트로픽 주가 하락, 황의 복귀에 대한 AI 투자 상승세 무시](https://www.bloomberg.com/news/articles/2026-11-23/anthropic-shares-churn-defying-ai-trade-rally-on-huang-s-return) — 🌍 세계 · Bloomberg.com · 11/24 06:12
-- [Amundi 지수 솔루션 - Amundi S&P500 Swap UCITS ETF EUR Hedged Acc (H1D5.F)](https://sg.finance.yahoo.com/quote/H1D5.F/seasonality/) — 🇺🇸 미국 · Yahoo Finance Singapore · 11/24 05:06
+- [앤트로픽 주가 하락, 젠슨 황의 복귀에 대한 AI 투자 상승세 무시](https://www.bloomberg.com/news/articles/2026-11-23/anthropic-shares-churn-defying-ai-trade-rally-on-huang-s-return) — 🌍 세계 · Bloomberg.com · 11/24 06:12
+- [아문디 지수 솔루션 - 아문디 S&P500 Swap UCITS ETF EUR Hedged Acc (H1D5.F)](https://sg.finance.yahoo.com/quote/H1D5.F/seasonality/) — 🇺🇸 미국 · Yahoo Finance Singapore · 11/24 05:06
 - [미국 증시 동향 | 골드만삭스는 세 가지 주요 바닥 신호를 나열하고 기술주는 출혈을 일으키고 있으며 나스닥은 하루 만에 5% 하락합니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417873/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E9%AB%98%E7%9B%9B%E5%88%97%E4%B8%89%E5%A4%A7%E8%A6%8B%E5%BA%95%E8%A8%8A%E8%99%9F%EF%BC%8C%E7%A7%91%E6%8A%80%E8%82%A1%E8%A1%80%E6%B5%81%E6%88%90%E6%B2%B3%E7%B4%8D%E6%8C%87%E5%96%AE%E6%97%A5%E7%80%895%25) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 05:00
 - [미국 증시 동향 | 아마존, AI 스타트업 데카르트 칩 기술 인수, 창업팀도 합류](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417882/%E4%BA%9E%E9%A6%AC%E9%81%9C%E6%94%B6%E8%B3%BCAI%E5%88%9D%E5%89%B5Decart%E6%99%B6%E7%89%87%E6%8A%80%E8%A1%93%EF%BC%8C%E5%89%B5%E8%BE%A6%E5%9C%98%E9%9A%8A%E5%B0%87%E5%8A%A0%E7%9B%9F?topic=%E7%BE%8E%E8%82%A1%E7%95%B0%E5%8B%95) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 04:50
 - [미국 증시 동향 | HPE 및 Dell과 같은 거대 기술 기업이 순위를 발표했으며 미국 GDP 및 PCE 데이터가 발표되었습니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417880/%E6%85%A7%E8%88%87%E5%8F%8A%E6%88%B4%E7%88%BE%E7%AD%89%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E6%94%BE%E6%A6%9C%EF%BC%8C%E7%BE%8E%E5%9C%8BGDP%E5%8F%8APCE%E6%95%B8%E6%93%9A%E5%87%BA%E7%88%90?topic=%E7%BE%8E%E8%82%A1%E6%A5%AD%E7%B8%BE) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 04:40
@@ -299,7 +334,7 @@
 - [미국 주식 기업공개(IPO) | Nscale은 상장 전 브레이크를 밟고, 불필요한 채용을 중단하고 비용을 절감했습니다.](https://www.etnet.com.hk/www/tc/news/news-article.php?category=usstocksfeature&newsid=417868) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 04:20
 - [S&P500 배당금 및 잉여현금(^SPDV5UT) 계절별 수익률 차트](https://uk.finance.yahoo.com/quote/%5ESPDV5UT/seasonality/) — 🇺🇸 미국 · Yahoo Finance UK · 11/24 04:19
 - [미국 증시 동향 | 젠슨 황은 12월 3일 미국 상원 공청회에 참석하기로 동의했습니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417865/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+%E9%BB%83%E4%BB%81%E5%8B%B3%E5%90%8C%E6%84%8F12%E6%9C%883%E6%97%A5%E5%87%BA%E5%B8%AD%E7%BE%8E%E5%8F%83%E8%AD%B0%E9%99%A2%E5%85%AC%E9%96%8B%E8%81%BD%E8%AD%89%E6%9C%83?topic=%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 04:19
-- [엔비디아 Euphoria의 하락으로 주가 하락: 시장 요약](https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates) — 🇺🇸 미국 · Bloomberg.com · 11/24 04:13
+- [엔비디아 열풍이 식은 것으로 주가 하락: 시장 요약](https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates) — 🇺🇸 미국 · Bloomberg.com · 11/24 04:13
 - [미국 증시 동향 | AI 우려로 인해 S&P500이 조정 구간에 진입했고 나스닥은 연중 하락세를 보였습니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417864/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7CAI%E6%86%82%E6%85%AE%E6%8B%96%E7%B4%AF%E6%A8%99%E6%99%AE500%E9%99%B7%E8%AA%BF%E6%95%B4%E5%8D%80%EF%BC%8C%E7%B4%8D%E6%8C%87%E5%B9%B4%E5%85%A7%E8%BD%89%E8%B7%8C) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 04:10
 - [미국 증시 동향 | BHP Billiton은 생산 확대를 위해 최대 174억 달러를 지출하고, 남호주의 구리 생산량은 2040년까지 두 배인 650,000톤으로 증가할 것입니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417862/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+%E5%BF%85%E5%92%8C%E5%BF%85%E6%8B%93%E6%96%A5%E6%9C%80%E5%A4%9A174%E5%84%84%E7%BE%8E%E5%85%83%E6%93%B4%E7%94%A2%EF%BC%8C%E5%8D%97%E6%BE%B3%E9%8A%85%E7%94%A2%E9%87%8F2040%E5%B9%B4%E5%89%8D%E5%80%8D%E5%A2%9E%E8%87%B365%E8%90%AC%E5%99%B8) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 04:05
 - [미국 증시 동향 | 베선트는 엔비디아 H200의 중국 판매를 허용하는 정책을 유지하고 있으며 일주일 전에 칩 제한 강화를 지지했다고 밝혔습니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417863/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E8%B2%9D%E6%A3%AE%E7%89%B9%E7%A8%B1%E7%B6%AD%E6%8C%81%E5%87%86%E8%A8%B1%E8%8B%B1%E5%81%89%E9%81%94H200%E5%B0%8D%E8%8F%AF%E9%8A%B7%E5%94%AE%E6%94%BF%E7%AD%96%EF%BC%8C%E4%B8%80%E5%91%A8%E5%89%8D%E6%9B%BE%E6%94%AF%E6%8C%81%E6%94%B6%E7%B7%8A%E6%99%B6%E7%89%87%E9%99%90%E5%88%B6) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 04:00
@@ -312,7 +347,7 @@
 - [미국 증시 동향 | 넷플릭스가 상반기 일일 평균 시청시간에서 유튜브를 제치고 라틴아메리카 4개국이 선두를 달리고 있다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417849/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91+%7C+Netflix%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%97%A5%E5%9D%87%E8%A7%80%E7%9C%8B%E6%99%82%E9%95%B7%E5%8B%9DYouTube%EF%BC%8C%E6%8B%89%E7%BE%8E%E5%9B%9B%E5%9C%8B%E5%85%A8%E9%9D%A2%E9%A0%98%E5%85%88) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 02:35
 - [미국 증시 동향 | 44억 달러 규모의 펀드는 3분기 마이크로소프트, 샌디스크 등을 중심으로 3대 기술주에 집중 투자했다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417848/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C44%E5%84%84%E7%BE%8E%E5%85%83%E5%9F%BA%E9%87%91%E7%AC%AC%E4%B8%89%E5%AD%A3%E9%87%8D%E5%80%89%E4%B8%89%E5%A4%A7%E7%A7%91%E6%8A%80%E8%82%A1%EF%BC%8C%E5%BE%AE%E8%BB%9F%E3%80%81SanDisk%E7%AD%89%E6%88%90%E7%84%A6%E9%BB%9E) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 02:25
 - [미국 증시 동향 | 내년 S&P500지수는 45% 상승해 1만포인트까지 오를 것으로 예상되며, 데이터센터 건설 둔화는 장기적으로 유리할 것으로 보인다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417845/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E6%A8%99%E6%8C%87%E6%98%8E%E5%B9%B4%E7%9C%8B%E9%A3%8645%25%E8%87%B3%E8%90%AC%E9%BB%9E%EF%BC%8C%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%A8%AD%E6%94%BE%E7%B7%A9%E5%8F%8D%E5%88%A9%E9%95%B7%E9%81%A0) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 02:05
-- [댓글 21개丨초상장공개(IPO)에 따른 미국 주식의 유동성 테스트](https://www.21jingji.com/article/20261124/3c46cae95766bea7c092d67a60946633.html) — 🇨🇳 중국 · 21财经 · 11/24 01:45
+- [댓글 21개 | 초대형 기업공개(IPO)에 따른 미국 주식의 유동성 테스트](https://www.21jingji.com/article/20261124/3c46cae95766bea7c092d67a60946633.html) — 🇨🇳 중국 · 21财经 · 11/24 01:45
 - [미국 증시 동향 | 엔비디아·인텔 등 급등, AI 물결 거침없다는 분석가들](https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=us&newsid=417838) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 01:45
 - ["해고하기엔 너무 컸다"…젠슨 황 복귀, 월가는 환호 속 의문](https://www.newspim.com/news/view/20261124000003) — 🇰🇷 한국 · 뉴스핌 · 11/24 01:20
 - [미국 증시 동향 | 골드만삭스 패닉지수는 9월 10일 급등해 경고했고, 비트코인은 55,000 아래로 떨어졌다.](https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=us&newsid=417831) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 01:15
@@ -326,9 +361,9 @@
 - [미국 증시 동향 | Hut 8은 AI 주식 중 8번째로 과대평가된 주식으로 선정되었으며, 공매도 압력은 시장 우려를 반영합니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417820/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7CHut+8%E8%A2%AB%E5%88%97AI%E9%81%8E%E5%BA%A6%E4%BC%B0%E5%80%BC%E8%82%A1%E7%AC%AC8%E4%BD%8D%EF%BC%8C%E6%B2%BD%E7%A9%BA%E5%A3%93%E5%8A%9B%E5%8F%8D%E6%98%A0%E5%B8%82%E5%A0%B4%E6%86%82%E6%85%AE) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 00:25
 - [미국 증시 동향 | 글로벌 헤지펀드는 2025년 4월 이후 최악의 주간 손실을 기록했고, 자금은 방어 부문으로 이동했습니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417814/%E7%BE%8E%E8%82%A1%E5%8B%95%E5%90%91%7C%E5%85%A8%E7%90%83%E5%B0%8D%E6%B2%96%E5%9F%BA%E9%87%91%E9%8C%842025%E5%B9%B44%E6%9C%88%E4%BB%A5%E4%BE%86%E6%9C%80%E6%85%98%E5%96%AE%E5%91%A8%E8%99%A7%E6%90%8D%EF%BC%8C%E8%B3%87%E9%87%91%E8%BD%89%E6%8A%95%E9%98%B2%E7%A6%A6%E6%9D%BF%E5%A1%8A) — 🇭🇰 홍콩 · etnet 經濟通 · 11/23 23:45
 - [최신 메디케어 제안으로 건강보험사 주가가 다시 하락](https://www.bloomberg.com/news/articles/2026-11-23/health-insurers-stocks-slide-again-on-latest-medicare-proposal) — 🇺🇸 미국 · Bloomberg.com · 11/23 23:36
-- [미국 증시 변화 | Taiwan Semiconductor Manufacturing Co., Ltd.(US.TSM)은 20.38% 상승한 US$383.67를 기록했습니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417810/%E7%BE%8E%E8%82%A1%E7%95%B0%E5%8B%95%7C%E5%8F%B0%E7%A9%8D%E9%9B%BB%28US.TSM%29%E5%8D%8720.38%25%EF%BC%8C%E5%A0%B1383.67%E7%BE%8E%E5%85%83) — 🇭🇰 홍콩 · etnet 經濟通 · 11/23 23:30
-- [다우존스, S&P500, 나스닥은 모두 조정권에 있으며 이 3개 지표는 '매수 기회'를 외치고 있습니다.](https://uk.finance.yahoo.com/news/dow-jones-p-500-nasdaq-142332357.html) — 🇺🇸 미국 · Yahoo Finance UK · 11/23 23:23
-- [그림과 잠재력 | 엔비디아 CEO가 30% 급등하고, 미국 주식이 급등하고, 홍콩 주식이 밤새 상승세를 이어가면서 젠슨 황이 복귀했습니다(지속 업데이트) | 홍콩경제신문](https://invest.hket.com/article/4229073/%E6%9C%89%E5%9C%96%E6%9C%89%E5%8B%A2%EF%BD%9C%E9%BB%83%E4%BB%81%E5%8B%B3%E5%BE%A9%E8%81%B7%E8%8B%B1%E5%81%89%E9%81%94CEO%20%E5%A4%A7%E5%8D%8730-%20%E7%BE%8E%E8%82%A1%E6%80%A5%E5%8D%87%20%E6%B8%AF%E8%82%A1%E5%A4%9C%E6%9C%9F%E8%B7%9F%E6%BC%B2%EF%BC%88%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0%EF%BC%89) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/23 23:17
+- [미국 증시 변화 | TSMC(US.TSM)은 20.38% 상승한 US$383.67를 기록했습니다.](https://www.etnet.com.hk/www/tc/us-stocks/news-article/417810/%E7%BE%8E%E8%82%A1%E7%95%B0%E5%8B%95%7C%E5%8F%B0%E7%A9%8D%E9%9B%BB%28US.TSM%29%E5%8D%8720.38%25%EF%BC%8C%E5%A0%B1383.67%E7%BE%8E%E5%85%83) — 🇭🇰 홍콩 · etnet 經濟通 · 11/23 23:30
+- [다우존스, S&P500, 나스닥은 모두 조정 국면에 있으며 이 3개 지표는 '매수 기회'를 외치고 있습니다.](https://uk.finance.yahoo.com/news/dow-jones-p-500-nasdaq-142332357.html) — 🇺🇸 미국 · Yahoo Finance UK · 11/23 23:23
+- [그림과 잠재력 | 엔비디아 CEO가 30% 급등하고, 미국 증시가 급등하고, 홍콩 주식이 밤새 상승세를 이어가면서 젠슨 황이 복귀했습니다(지속 업데이트) | 홍콩경제신문](https://invest.hket.com/article/4229073/%E6%9C%89%E5%9C%96%E6%9C%89%E5%8B%A2%EF%BD%9C%E9%BB%83%E4%BB%81%E5%8B%B3%E5%BE%A9%E8%81%B7%E8%8B%B1%E5%81%89%E9%81%94CEO%20%E5%A4%A7%E5%8D%8730-%20%E7%BE%8E%E8%82%A1%E6%80%A5%E5%8D%87%20%E6%B8%AF%E8%82%A1%E5%A4%9C%E6%9C%9F%E8%B7%9F%E6%BC%B2%EF%BC%88%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0%EF%BC%89) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/23 23:17
 - [논평: AI 버블 붕괴로 인해 연준의 금리 인하가 논의될 수 있음](https://www.reuters.com/commentary/reuters-open-interest/ai-bubble-burst-could-put-fed-rate-cuts-table-2026-11-23/) — 🇺🇸 미국 · Reuters · 11/23 23:08
 - [VIX 신호는 S&P500이 거의 최저 수준일 수 있음을 암시합니다](https://www.investors.com/news/sp-500-nasdaq-dow-jones-vix-ai-trade-stock-market/) — 🇺🇸 미국 · Investor's Business Daily · 11/23 22:58
 - [모건스탠리는 지난주 매도세 이후 4월 이후 주식에 대해 가장 낙관적인 모습을 보였다.](https://www.reuters.com/business/morgan-stanley-turns-most-bullish-stocks-since-april-after-last-weeks-selloff-2026-11-23/) — 🇺🇸 미국 · Reuters · 11/23 22:28
@@ -347,17 +382,19 @@
 - 🔥2 [CXO 함량이 높은 혁신의약품 ETF 톈훙(517380)의 기초지수는 이번 회기 동안 3% 이상 상승했고, 51개 클래스 I 신약이 의료보험 카탈로그에 편입돼 사상 최고치를 기록했다.](https://www.jiemian.com/article/15362073.html) — 🇨🇳 중국 · Jiemian.com · 11/23 15:26
 - 🔥2 [시장 안정을 위한 콤비네이션 펀치가 상륙했습니다! 증분 자금은 거의 4000억에 달하며 혁신적인 약물이 증가하고 있습니다! 하오위안제약(Haoyuan Pharmaceutical)은 7% 이상 상승했고, 과학기술혁신의약품 ETF 차이나 유니버셜(589120) 지수는 4% 이상 상승했다.](https://www.jiemian.com/article/15361798.html) — 🇨🇳 중국 · Jiemian.com · 11/23 15:16
 - 🔥2 [혁신신약 개념 일부 변화](https://www.yicai.com/brief/103449765.html) — 🇨🇳 중국 · 第一财经 · 11/23 11:16
-- [애브비, 비분절성 백반증 치료제 린보크(Rinvoq)에 대해 FDA 승인 획득](https://finance.yahoo.com/healthcare/articles/abbvie-gets-fda-approval-rinvoq-145000786.html) — 🇺🇸 미국 · Yahoo Finance · 11/24 23:50
+- [美브릿지, '경구 리비톨' LGMD 첫 치료제 "FDA 승인"](https://www.biospectator.com/news/view/30508) — 🇰🇷 한국 · 바이오스펙테이터 · 11/25 10:56 🆕
+- [눈으로 심장질환 위험 읽는다…메디웨일, 美 FDA 승인 획득](http://www.hansbiz.co.kr/news/articleView.html?idxno=886970) — 🇰🇷 한국 · 한스경제 · 11/25 10:18 🆕
+- [애브비, 비분절성 백반증 치료제 린보크(린버크)에 대해 FDA 승인 획득](https://finance.yahoo.com/healthcare/articles/abbvie-gets-fda-approval-rinvoq-145000786.html) — 🇺🇸 미국 · Yahoo Finance · 11/24 23:50
 - ['반제약' 민주당이 생명공학 주식의 큰 승리를 앗아갈 것인가?](https://www.investors.com/news/technology/biotech-stocks-election-2026-presidential-election-2028-drug-prices/) — 🇺🇸 미국 · Investor's Business Daily · 11/24 22:01
 - [(美특징주)애브비, 백반증 치료 ‘린버크’ FDA 승인…개장전↑](https://www.edaily.co.kr/News/Read?newsId=04375526645649000&mediaCodeNo=257) — 🇰🇷 한국 · 이데일리 · 11/24 20:51
 - [국내 최초 AKT 억제제 3상 결과 발표! 항셍 지수는 상승했다가 하락했고, 홍콩 증권 연결 혁신 의약품 ETF 차이나 유니버셜(159570) 지수는 거의 2% 하락 마감했습니다! 2027년 BD혁신신약 해외 매출 성과 주목](https://www.jiemian.com/article/15368807.html) — 🇨🇳 중국 · Jiemian.com · 11/24 18:46
-- [Zhao Zhenyu: 대사성 동반 질환, 혁신적인 약물 및 제약 서비스에 중점을 두어 포괄적인 환자 관리에 도움](http://www.news.cn/health/20261124/a180147d69ac46b0915b73af92ce6d49/c.html) — 🇨🇳 중국 · 新华网 · 11/24 17:08
+- [자오전위: 대사성 동반 질환, 혁신적인 약물 및 제약 서비스에 중점을 두어 포괄적인 환자 관리에 도움](http://www.news.cn/health/20261124/a180147d69ac46b0915b73af92ce6d49/c.html) — 🇨🇳 중국 · 新华网 · 11/24 17:08
 - [판밍(Fan Ming): 로봇공학, 혁신 의약품, 가전제품 분야에 중점을 두고 있습니다.](https://www.yicai.com/video/103452184.html) — 🇨🇳 중국 · 第一财经 · 11/24 16:53
 - [독점 | 바이엘은 다음 제약 거래가 더 많은 중간 단계 자산을 목표로 삼을 수 있다고 신호합니다.](https://www.wsj.com/health/pharma/bayer-signals-next-pharma-deals-might-target-more-midstage-assets-79709e97) — 🇺🇸 미국 · WSJ · 11/24 16:26
 - [헤이룽장성: 혁신적인 의약품에 대한 지불 보장 범위를 확대하기 위해 상업 보험을 장려합니다.](https://www.jiemian.com/article/15367835.html) — 🇨🇳 중국 · Jiemian.com · 11/24 15:57
-- [AI 의료 생태계는 계속해서 반복되고 있으며 Ant Bailing의 의료 및 건강 시리즈 모델이 데뷔했으며 홍콩 혁신 약물 ETF Boshi(520690) 추적 지수는 초기 거래에서 3% 이상 상승한 후 하락했습니다.](https://www.jiemian.com/article/15366839.html) — 🇨🇳 중국 · Jiemian.com · 11/24 12:17
+- [AI 의료 생태계는 계속해서 반복되고 있으며 Ant Bailing의 의료 및 건강 시리즈 모델이 데뷔했으며 홍콩 혁신신약 ETF Boshi(520690) 추적 지수는 초기 거래에서 3% 이상 상승한 후 하락했습니다.](https://www.jiemian.com/article/15366839.html) — 🇨🇳 중국 · Jiemian.com · 11/24 12:17
 - [(인사)삼성바이오에피스, 정기 임원인사](https://www.biospectator.com/news/view/30517) — 🇰🇷 한국 · 바이오스펙테이터 · 11/24 11:23
-- [많은 제약 ETF가 2% 이상 상승했습니다! 혁신적인 약물 체인이 비용 효율적인 범위로 돌아왔고 517990 및 561920이 크게 수리되었습니다!](https://m.jiemian.com/article/15365049.html) — 🇨🇳 중국 · Jiemian.com · 11/24 10:47
+- [많은 제약 ETF가 2% 이상 상승했습니다! 혁신신약 관련 산업이 비용 효율적인 범위로 돌아왔고 517990 및 561920이 크게 반등했습니다!](https://m.jiemian.com/article/15365049.html) — 🇨🇳 중국 · Jiemian.com · 11/24 10:47
 - [휴이노, 두 번째 美 FDA 문턱 넘었다… ‘메모패치 2 DF’ 시판 허가](https://www.edaily.co.kr/News/Read?newsId=02460006645649000&mediaCodeNo=257) — 🇰🇷 한국 · 이데일리 · 11/24 10:22
 - [로슈, 유방암 치료제에 대한 두 번째 FDA 승인 획득, 더 큰 시장 개척](https://endpoints.news/roche-wins-second-fda-approval-for-breast-cancer-pill-opening-up-bigger-market/) — 🇺🇸 미국 · Endpoints News · 11/24 02:44
 - [탄탄한 대차대조표와 재무 건전성을 갖춘 4가지 생명공학 주식](https://finance.yahoo.com/healthcare/articles/4-biotech-stocks-solid-balance-154600893.html) — 🇺🇸 미국 · Yahoo Finance · 11/24 00:46
@@ -373,10 +410,10 @@
 - [Haixi 신약: 당뇨병성 황반부종 치료용 HX9428이 국가식품의약국의 승인을 받아 2상 임상시험을 진행하고 있습니다.](https://m.jiemian.com/article/15362854.html) — 🇨🇳 중국 · Jiemian.com · 11/23 17:54
 - [엔웨이제약(Enwei Pharmaceutical): 자체 자금 1억 위안으로 전액 출자 자회사 설립 계획](https://m.jiemian.com/article/15362889.html) — 🇨🇳 중국 · Jiemian.com · 11/23 17:54
 - [Science and Technology Innovation 200 ETF Penghua(588240)의 기초지수는 5.2% 상승했습니다. 로봇공학, 의료, 반도체 등이 종합적으로 상승했고, 업종이 강한 반등을 이끌었습니다.](https://www.jiemian.com/article/15362284.html) — 🇨🇳 중국 · Jiemian.com · 11/23 16:40
-- [13:33:38 (해외시장에 진출하는 혁신의약품이 검증기간에 진입하였습니다. 홍콩증권연계 혁신의약품 ETF E펀드(159316)의 배분가액에 주목하세요)](https://www.cls.cn/detail/2541425) — 🇨🇳 중국 · 财联社 · 11/23 14:33
-- [(모닝포스트) 우칭이 발언합니다! 비정상적인 시장 변동을 효과적으로 방지하기 위해 시장 안정성을 위한 장기 메커니즘에 대한 심층 연구를 수행합니다. 51종의 1급 혁신 의약품이 국가의료보험 목록 새 버전에 포함되었습니다.](https://www.cls.cn/detail/2534592) — 🇨🇳 중국 · 财联社 · 11/23 14:02
-- [홍콩 혁신 의약품 ETF Invesco(513780) 추적 지수 CSI Hong Kong Stock Connect Innovative Drug Index는 1.29% 상승했으며 추적 지수는 지난 1년 동안 최저 평가에 도달했습니다.](https://www.jiemian.com/article/15360892.html) — 🇨🇳 중국 · Jiemian.com · 11/23 12:37
-- [Hong Kong Stock Connect Pharmaceutical ETF Penghua(513700)와 항셍 Biotech ETF Penghua(159130)가 활발하게 거래되고 있으며, 정책 및 산업 공조가 부문 시장을 촉진합니다.](https://www.jiemian.com/article/15360535.html) — 🇨🇳 중국 · Jiemian.com · 11/23 12:01
+- [13:33:38 (해외시장에 진출하는 혁신의약품이 검증기간에 진입하였습니다. 홍콩증권연계 혁신의약품 ETF 이팡다(E Fund)(159316)의 배분가액에 주목하세요)](https://www.cls.cn/detail/2541425) — 🇨🇳 중국 · 财联社 · 11/23 14:33
+- [(모닝포스트) 우칭이 발언합니다! 비정상적인 시장 변동을 효과적으로 방지하기 위해 시장 안정성을 위한 장기 메커니즘에 대한 심층 연구를 수행합니다. 51종의 1류 혁신신약이 국가의료보험 목록 새 버전에 포함되었습니다.](https://www.cls.cn/detail/2534592) — 🇨🇳 중국 · 财联社 · 11/23 14:02
+- [홍콩 혁신 의약품 ETF Invesco(513780) 추적 지수 CSI 홍콩 스톡커넥트 Innovative Drug Index는 1.29% 상승했으며 추적 지수는 지난 1년 동안 최저 평가에 도달했습니다.](https://www.jiemian.com/article/15360892.html) — 🇨🇳 중국 · Jiemian.com · 11/23 12:37
+- [홍콩 스톡커넥트 Pharmaceutical ETF Penghua(513700)와 항셍 Biotech ETF Penghua(159130)가 활발하게 거래되고 있으며, 정책 및 산업 공조가 부문 시장을 촉진합니다.](https://www.jiemian.com/article/15360535.html) — 🇨🇳 중국 · Jiemian.com · 11/23 12:01
 - [평가 1점: TROP2 ADC가 다시 임상 3상 성공을 달성하며, Kelun의 글로벌 약물 로직이 확고해졌습니다.](https://www.yicai.com/news/103449638.html) — 🇨🇳 중국 · 第一财经 · 11/23 10:36
 - [큐리언트 아드릭세티닙, 급성 골수성 백혈병 1차 치료로 임상 확대… FDA 승인 - 머니투데이](https://www.mt.co.kr/index.php/stock/2026/11/23/2026112308460781755) — 🇰🇷 한국 · 머니투데이 · 11/23 08:50
 - [주가 방어 위해 생명공학업계, 자사주 희생 - Daily News](https://www.ctee.com.tw/news/20261123700180-439901) — 🇹🇼 대만 · 工商時報 · 11/23 04:00
@@ -397,35 +434,39 @@
 - 🔥2 ['전고체 리튬이온 배터리 및 배터리 팩의 안전 기술 규격'을 공식적으로 편찬하기 위해 '고체 리튬 배터리 표준 사업단'을 구성한다.](https://www.jiemian.com/article/15360779.html) — 🇨🇳 중국 · Jiemian.com · 11/23 12:17
 - 🔥2 [(리포트 브리핑)에코프로비엠, '삼원계가 돌아설 때 가장 탄력적' 목표가 100,000원 - 흥국증권](https://www.newspim.com/news/view/20261123000614) — 🇰🇷 한국 · 뉴스핌 · 11/23 12:05
 - 🔥2 ['자동차-전기 통합'이 점차 주류로 자리잡아 2위 신에너지 전력 배터리 기업이 떠오르고 있다 - 36Kr](https://36kr.com/newsflashes/4081571998258309) — 🇨🇳 중국 · 36kr.com · 11/23 09:04
-- [더 이상 CATL만이 아닙니다. Xpeng이 사내에서 더 많은 배터리 작업을 수행하는 이유](https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQXh4WlVMTGl4eHpPQlJGaHd1TVJDR2lma0xqVC1vTDR4SndKcGNWWHZDaG03YWxMb3ozSDAtQVhJQWZDX0ZlR1BMa0dOT2pnQk9tQV9ZMzZSdDY5TFZJOXZxVjc5SFF2VnV5Ukt3cFpiLVN4ZVNkdjhhLWEwNE5zRjdaR051VGlJOG81Um5iekw3Unprb1B1dVMxNmJGVWFWQkxhMGh2eTRFV2dfN1JnUDlldGdDX0pIYk5jcC0xNzVBeE5oVkhRbk4yX0FSY1BJTkJwOHgzRWxkV0ZrMnFhY05IQVZiWXBNc0NTczBaMEhrQWtzY2ZlbA?oc=5) — 🇸🇬 싱가포르 · South China Morning Post · 11/25 09:00 🆕
-- [신영證 "이차전지, 내년엔 '이익 확인'…ESS가 실적 견인"](https://news.google.com/rss/articles/CBMicEFVX3lxTFBwX1VHOUdua1VzbTE4NV9YdHNaNmxYNDVfNFM3VmJpY2RSaDFoUGpiZENoRHpsYVEtd2ltUVNjak1rdmwzTHEwWjROaEdWNmRManNZYy1wMU4xd3c5d2NYeThsLXAzNzdSRTVkY3VzTUk?oc=5) — 🇰🇷 한국 · 연합인포맥스 · 11/25 08:48 🆕
+- [【1211】BYD가 프랑스 자동차 공장 Ineos 인수를 위해 협상 중입니다. 마크롱 프랑스 대통령은 내년 1월에 더 자세한 내용이 발표될 것으로 내다봤다.](https://inews.hket.com/article/4230596/%E3%80%901211%E3%80%91%E6%AF%94%E4%BA%9E%E8%BF%AA%E6%B4%BD%E8%B3%BC%E8%8B%B1%E5%8A%9B%E5%A3%AB%E6%B1%BD%E8%BB%8A%E6%B3%95%E5%9C%8B%E8%BB%8A%E5%BB%A0%E3%80%80%E6%B3%95%E7%B8%BD%E7%B5%B1%E9%A6%AC%E5%85%8B%E9%BE%8D%E9%A0%90%E5%91%8A%E6%98%8E%E5%B9%B41%E6%9C%88%E5%85%AC%E5%B8%83%E6%9B%B4%E5%A4%9A%E8%A9%B3%E6%83%85?mtc=20035) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/25 11:18 🆕
+- [오전 9시 5분 CATL 외 3개사의 시판전 대량매매 | 인스턴트 뉴스 - 뉴스](https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=blocktrade&newsid=20261125302) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 10:20 🆕
+- [이차전지주 지금이 기회?…저가매수 노리는 투자자들 '고민’](https://www.asiae.co.kr/article/2026112415102695011) — 🇰🇷 한국 · 아시아경제 · 11/25 09:53 🆕
+- [더 이상 CATL만이 아닙니다. 샤오펑이 사내에서 더 많은 배터리 작업을 수행하는 이유](https://www.scmp.com/business/china-evs/article/3375583/catls-grip-chinese-ev-makers-loosens-xpeng-doubles-down-battery-production?module=top_story&pgtype=subsection) — 🇸🇬 싱가포르 · South China Morning Post · 11/25 09:00
+- [신영證 "이차전지, 내년엔 '이익 확인'…ESS가 실적 견인"](https://news.einfomax.co.kr/news/articleView.html?idxno=4446373) — 🇰🇷 한국 · 연합인포맥스 · 11/25 08:48
+- [태성, 복합동박 공장 준공…이차전지 소재 경쟁력 강화](http://www.hansbiz.co.kr/news/articleView.html?idxno=886883) — 🇰🇷 한국 · 한스경제 · 11/25 08:08 🆕
 - [축전지 산업, 성장의 기둥에… 도쿠시마 배터리 밸리 구상의 지금](https://newswitch.jp/p/50905) — 🇯🇵 일본 · ニュースイッチ by 日刊工業新聞社 · 11/25 06:01
 - [배터리 재활용 사업 매각 계획, 바스프는 양극재로 초점 전환](https://www.yicai.com/news/103452333.html) — 🇨🇳 중국 · 第一财经 · 11/25 04:32
 - [서머셋 전기 배터리 기가팩토리 건설사 탈락](https://www.bbc.com/news/articles/cx30g8005684o) — 🌍 세계 · BBC · 11/25 01:22
-- [BASF, CATL 공급: Schwarzheide에서 CAM 선적 시작](https://www.electrive.com/2026/11/24/basf-supplies-catl-cam-shipments-from-schwarzheide-have-begun/) — 🇺🇸 미국 · electrive.com · 11/24 21:30
+- [바스프, CATL 공급: Schwarzheide에서 CAM 선적 시작](https://www.electrive.com/2026/11/24/basf-supplies-catl-cam-shipments-from-schwarzheide-have-begun/) — 🇺🇸 미국 · electrive.com · 11/24 21:30
 - [정부는 전기차 공급업체에 배터리 재활용 부담금을 사전 부과할 계획이다. 의원들은 그 비용이 소비자에게 전가될 것을 우려하고 있다.](https://news.now.com/home/local/player?newsId=670794) — 🇭🇰 홍콩 · Now 新聞 · 11/24 21:10
 - [한 가지 평가: 솔트레이크 주식의 취소형 자사주 매입은 리튬 채굴 부문의 가치 회복으로 이어질 수 있다.](https://www.yicai.com/news/103451336.html) — 🇨🇳 중국 · 第一财经 · 11/24 20:33
-- [Wuling Bingo Pro Ningde 버전 출시](https://www.jiemian.com/article/15369043.html) — 🇨🇳 중국 · Jiemian.com · 11/24 18:46
+- [우링 Bingo Pro CATL 배터리판 출시](https://www.jiemian.com/article/15369043.html) — 🇨🇳 중국 · Jiemian.com · 11/24 18:46
 - [중국 유탄 또 맞았다… K-배터리, 콩고發 공급망 리스크](https://www.dt.co.kr/article/12097035) — 🇰🇷 한국 · www.dt.co.kr · 11/24 18:42
 - [㈜이알, 폐배터리 전처리 공정 기술 사업 영역 확대… 기후부·환경산업기술원 지원](https://www.dt.co.kr/article/12097012) — 🇰🇷 한국 · www.dt.co.kr · 11/24 17:33
 - [김동구 위원장 “이차전지 예산 32.7% 증액…성과와 일자리로 답해야"](http://www.hansbiz.co.kr/news/articleView.html?idxno=886801) — 🇰🇷 한국 · 한스경제 · 11/24 16:58
 - [iM뱅크, 포항CEO포럼 개최…철강·이차전지 등 내년 산업 전략 모색](https://www.newspim.com/news/view/20261124001224) — 🇰🇷 한국 · 뉴스핌 · 11/24 16:14
 - [배터리 업종, 과잉 부진에서 반등! 내년, 전고체전지 양산 원년 돌입](https://www.jiemian.com/article/15367502.html) — 🇨🇳 중국 · Jiemian.com · 11/24 15:37
-- [Ganfeng 리튬 배터리 사장 Xiao Haiyan: 리튬은 '정책 가격 책정' 시대에 진입했습니다. 비용과 안전이라는 이중 주도권을 잡는 방법은 무엇입니까?](https://www.thepaper.cn/newsDetail_forward_34546026) — 🇨🇳 중국 · ThePaper.cn · 11/24 15:28
+- [간펑 리튬 배터리 사장 Xiao Haiyan: 리튬은 '정책 가격 책정' 시대에 진입했습니다. 비용과 안전이라는 이중 주도권을 잡는 방법은 무엇입니까?](https://www.thepaper.cn/newsDetail_forward_34546026) — 🇨🇳 중국 · ThePaper.cn · 11/24 15:28
 - [유가 급등으로 리튬 가격이 하락할 것인가? 중국 내 전기 트럭 판매 68% 증가 CATL은 미래 사업 기회에 대해 낙관적](https://www.hk01.com/%E5%8D%B3%E6%99%82%E4%B8%AD%E5%9C%8B/60414339/%E6%B2%B9%E5%83%B9%E9%A3%86%E5%8D%87%E6%95%91%E9%8B%B0%E5%83%B9-%E4%B8%AD%E5%9C%8B%E9%9B%BB%E5%8B%95%E8%B2%A8%E8%BB%8A%E9%8A%B7%E9%87%8F%E5%A2%9E68-%E5%AF%A7%E5%BE%B7%E6%99%82%E4%BB%A3%E7%9C%8B%E5%A5%BD%E6%9C%AA%E4%BE%86%E5%95%86%E6%A9%9F) — 🇭🇰 홍콩 · 香港01 · 11/24 14:10
 - [중국 내 전기 트럭 수요 급증, 오랫동안 부진한 리튬 가격은 새로운 기회를 맞이합니다 - 뉴스](https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=94e2dfbd-99cd-4a6a-8cc8-e411e4b6733f) — 🇹🇼 대만 · MoneyDJ · 11/24 12:30
-- [GEM 배터리 지수가 5% 가까이 급등했습니다! 전고체전지 표준화 과정과 산업화가 동시에 가속화되고 있다](https://www.jiemian.com/article/15366753.html) — 🇨🇳 중국 · Jiemian.com · 11/24 11:57
+- [창업판(차이넥스트) 배터리 지수가 5% 가까이 급등했습니다! 전고체전지 표준화 과정과 산업화가 동시에 가속화되고 있다](https://www.jiemian.com/article/15366753.html) — 🇨🇳 중국 · Jiemian.com · 11/24 11:57
 - [(장중수급포착) 포스코퓨처엠, 외국인/기관 동시 순매수… 주가 +12.66%](https://www.newspim.com/news/view/20261124000634) — 🇰🇷 한국 · 뉴스핌 · 11/24 10:30
 - [차세대 이차전지 난제 푼다…정부·산학연 250여명 머리 맞대](https://www.edaily.co.kr/News/Read?newsId=02381286645649000&mediaCodeNo=257) — 🇰🇷 한국 · 이데일리 · 11/24 10:10
 - [AI·휴머노이드·전기차 핵심 '차세대 이차전지'…기술 주도권 잡는다](https://www.news1.kr/it-science/general-science/6363582) — 🇰🇷 한국 · 뉴스1 · 11/24 10:00
 - [자동차 모닝포스트 | BYD Ocean Network는 9 시리즈 MPV 모델을 출시할 예정입니다. 중국의 신차 점유율은 전 세계 39개 시장에서 일본을 추월했다.](https://www.jiemian.com/article/15364890.html) — 🇨🇳 중국 · Jiemian.com · 11/24 09:41
-- [에너지 모닝 뉴스 │ Ganfeng Lithium Industry는 3억 6 천만 위안 이하의 주식 환매에 대한 특별 대출 확약서를 받았습니다. 솔트레이크 주식은 회사 주식을 20억 위안 이하로 환매할 계획입니다.](https://www.jiemian.com/article/15364158.html) — 🇨🇳 중국 · Jiemian.com · 11/24 09:09
-- [CATL, Jianxiawo 리튬 광산 재개, 불확실성은 여전히 남아](https://source.benchmarkminerals.com/article/catl-restarts-jianxiawo-lithium-mine-uncertainty-remains) — 🇺🇸 미국 · Benchmark Mineral Intelligence · 11/24 09:00
+- [에너지 모닝 뉴스 │ 간펑리튬 Industry는 3억 6 천만 위안 이하의 주식 환매에 대한 특별 대출 확약서를 받았습니다. 솔트레이크 주식은 회사 주식을 20억 위안 이하로 환매할 계획입니다.](https://www.jiemian.com/article/15364158.html) — 🇨🇳 중국 · Jiemian.com · 11/24 09:09
+- [CATL, 젠샤워 리튬 광산 재개, 불확실성은 여전히 남아](https://source.benchmarkminerals.com/article/catl-restarts-jianxiawo-lithium-mine-uncertainty-remains) — 🇺🇸 미국 · Benchmark Mineral Intelligence · 11/24 09:00
 - [키움증권 "이차전지, 내년부터 실적회복…업종 투자의견 상향"](https://www.yna.co.kr/view/AKR20261124029600008) — 🇰🇷 한국 · 연합뉴스 · 11/24 08:37
-- [Yicai 앵커가 말했다 | 아프리카 코발트 수출이 중단됐고 이틀 만에 가격이 20% 급등했다. 휴대폰과 전기차 가격이 다시 오를까?](https://www.yicai.com/video/103451871.html) — 🇨🇳 중국 · 第一财经 · 11/24 06:28
+- [제일재경 앵커가 말했다 | 아프리카 코발트 수출이 중단됐고 이틀 만에 가격이 20% 급등했다. 휴대폰과 전기차 가격이 다시 오를까?](https://www.yicai.com/video/103451871.html) — 🇨🇳 중국 · 第一财经 · 11/24 06:28
 - [올해 중국서 전기트럭 60만대 팔려…리튬 수요 견인](https://www.dt.co.kr/article/12096797) — 🇰🇷 한국 · www.dt.co.kr · 11/24 06:00
 - [CNA938 Rewind - #TalkBack: 작업장에서 EV 화재를 처리하기 위해 정비사가 얼마나 잘 훈련되고 준비되어 있습니까?](https://www.channelnewsasia.com/listen/cna938-rewind/talkback-how-well-trainedprepared-are-mechanics-dealing-ev-fires-in-their-workshops-6575101) — 🇸🇬 싱가포르 · CNA · 11/23 22:43
-- [이상의 '탈영덕화'는 치열하다](http://www.36kr.com/p/4082286201181830) — 🇨🇳 중국 · 36Kr · 11/23 21:44
+- [리오토의 'CATL 의존 줄이기'는 치열하다](http://www.36kr.com/p/4082286201181830) — 🇨🇳 중국 · 36Kr · 11/23 21:44
 - [승용차협회지부 최동수 : 2026년 파워배터리 시장은 "두 영웅의 점유율이 완화되고, 2세대는 상승세를 가속화한다"는 추세를 보일 것이다.](https://www.jiemian.com/article/15362947.html) — 🇨🇳 중국 · Jiemian.com · 11/23 18:04
 - [중국의 전기 트럭 붐으로 리튬 수요 증가](https://www.reuters.com/business/autos-transportation/chinas-electric-truck-boom-lifts-demand-lithium-2026-11-23/) — 🌍 세계 · Reuters · 11/23 16:31
 - [단말측 AI 폭발이 배터리 수요 확대와 기술 발전을 견인하고 있다! Sanhua Intelligent Control과 Kedali는 7% 이상 상승했고, 배터리 ETF China Universal(159796) 지수는 2.5% 이상 상승했으며, CATL은 거의 60억 위안을 환매했습니다!](https://m.jiemian.com/article/15362201.html) — 🇨🇳 중국 · Jiemian.com · 11/23 16:19
@@ -435,7 +476,7 @@
 - [LG엔솔, 배터리사 최초 UN 주도 ‘지속가능발전 선도기업’ 선정](https://biz.chosun.com/industry/company/2026/11/23/QG25EIWP6FEP7C77OZVI5CBMEI/) — 🇰🇷 한국 · Chosunbiz · 11/23 15:40
 - [중국 흑연 수출 통제에 실리콘 전지소재 부각, 김종우 SK넥실리스 실리콘 음극재용 동박 선점 나서](https://www.businesspost.co.kr/BP?command=article_view&num=452663) — 🇰🇷 한국 · 비즈니스포스트 · 11/23 15:26
 - [배터리ETF 인베스코(159757) 추적지수 중국증권 신에너지차 배터리지수는 2.22% 상승해 지난 1년간 최저 평가에 도달했다.](https://m.jiemian.com/article/15361911.html) — 🇨🇳 중국 · Jiemian.com · 11/23 15:02
-- [직접회사: 탄산리튬 가격 하락 사이클에서 Ganfeng Lithium이 최대 4억 위안을 환매하는 것은 어떤 의미가 있습니까? (Zuo Jianming)](https://www.yicai.com/video/103450115.html) — 🇨🇳 중국 · 第一财经 · 11/23 14:48
+- [직접회사: 탄산리튬 가격 하락 사이클에서 간펑리튬이 최대 4억 위안을 환매하는 것은 어떤 의미가 있습니까? (Zuo Jianming)](https://www.yicai.com/video/103450115.html) — 🇨🇳 중국 · 第一财经 · 11/23 14:48
 - [SQM은 리튬 수요가 지속적으로 증가하고 장기적으로 수급이 타이트하게 유지될 것이라고 낙관하고 있습니다.](https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=15e60860-d5fe-4133-b10d-6ddd46d1f7dd) — 🇹🇼 대만 · MoneyDJ · 11/23 14:40
 - [(모닝포스트) 국제유가가 밤새 '롤러코스터'를 겪었다. 스페이스X 3분기 실적은 기대치를 초과했습니다. CATL 및 기타 3분기 보고서가 발표되었습니다.](https://www.cls.cn/detail/2510447) — 🇨🇳 중국 · 财联社 · 11/23 13:53
 - [태양광전기자동차 양산버전이 납품되었습니다! 충전 없이 하루 60km 출퇴근 가능](https://auto.ltn.com.tw/news/33527/3) — 🇹🇼 대만 · 自由電子報汽車頻道 · 11/23 13:46
@@ -453,38 +494,41 @@
 - [전기차도 국내생산세액공제 대상 포함 유력…이르면 이번주 결론 - 머니투데이](https://www.mt.co.kr/amp/industry/2026/11/22/2026112210573377519) — 🇰🇷 한국 · 머니투데이 · 11/22 14:34
 - [압력을 받고 있는 리튬 광부들은 중국의 재고량이 낮다고 믿습니다.](https://www.afr.com/companies/mining/under-pressure-lithium-miners-put-faith-in-low-chinese-stockpiles-20261122-p61frh) — 🇺🇸 미국 · AFR · 11/22 14:00
 - [서울 폐가전 수거 1만7천t…이차전지 전용수거함 4천100개 늘렸다](https://biz.sbs.co.kr/article/20000348017) — 🇰🇷 한국 · SBS Biz · 11/22 11:52
-- [반도체·이차전지·로봇 등 25개 ‘지역 성장엔진’…연내 지원 로드맵 만든다](https://biz.sbs.co.kr/article/20000348014) — 🇰🇷 한국 · SBS Biz · 11/22 11:34
 
 ## ⚡ 전고체배터리·ESS
 
 보유: KODEX 전고체배터리ESS TOP2플러스
 
+- 🔥2 [아이씨에이치, 美 친환경 정책 기대감…ESS 배터리 소재 공급 확대](https://www.newsis.com/view/NISX20261125_0003882444) — 🇰🇷 한국 · 뉴시스 · 11/25 10:54 🆕
 - 🔥2 [중국 손해보험과 Xiqing Energy는 에너지 저장 보험을 '경험 가격 책정'에서 '데이터 가격 책정'으로 촉진하기 위한 전략적 협력에 도달했습니다.](https://money.udn.com/money/story/123828/9897045?from=edn_next_story) — 🇹🇼 대만 · 經濟日報 · 11/23 21:00
 - 🔥2 [에너지 저장 정책은 장기적으로 좋습니다. Southern Fund의 신에너지 ETF Southern(516160)은 이전 거래일에 3.00% 하락한 기초 지수 CSI New Energy Index(399808.SZ)를 추적합니다.](https://www.cls.cn/detail/2541481) — 🇨🇳 중국 · 财联社 · 11/23 15:45
 - 🔥2 [Jinlang Technology는 태양 에너지 저장에 5억 4400만 위안을 투자하여 태양광 발전소의 오래된 장부를 찢었습니다. 에너지 저장이 모든 것에 대한 답이 될까요? -36Kr](https://www.36kr.com/p/4080484433974919) — 🇨🇳 중국 · www.36kr.com · 11/23 11:48
 - 🔥2 [세계 최대의 액체 공기 에너지 저장 프로젝트를 방문해 보세요](https://www.chinanews.com.cn/cj/shipin/cns-d/2026/11-22/news1075696.shtml) — 🇨🇳 중국 · 中国新闻网 · 11/22 15:17
-- [장기화하는 데이터 센터나 계통용 축전지의 계통 접속, 해결책에 수전 제한 등을 도입에](https://www.itmedia.co.jp/smartjapan/articles/2611/25/news029.html) — 🇯🇵 일본 · ITmedia · 11/25 07:00
-- [中 국영 저장 프로젝트, 배터리 성능 미달로 ‘1억 위안 납-탄소 배터리 소송’ 직면](https://news.google.com/rss/articles/CBMilwFBVV95cUxOSE5FV0hWbHBmSlh4dk5zRW1iZzhWRzl0cHhMMmRreU84eWpxek1JWm5KbERvYWxtek11WVpMNUg5cF92UUJwSEZyTVZ6VUE5eVpPbVh5VHJJTWtMSlVrMUJMRGwwaXk0a2xrN1JyMUtidTZ2VVVPOVZIYlkwM3dsdElMUGZCRHdEbkZSczlTdy00Q2VCRHc0?oc=5) — 🇰🇷 한국 · 글로벌이코노믹 · 11/25 06:05 🆕
-- [화웨이, ‘ESS 변압기 대규모 화재 테스트’ 성공… 인접 설비 전이 제로 입증](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQURreXZOVnlyM3YtWEhMZHdGRnNwQkRaellTSTRTTXo0SktlYy1LT2ZoOGxtS2RMMDNVVnd0REJ0ZV9DU3c2ek43elRMQkloU29MZUxkODZjaTJadW80QTFsd0d5Y0tLNkIwTlF5ZnBIU3p4MzhRVmN0d2piUTV2aUg2eG93Q2Ru?oc=5) — 🇰🇷 한국 · 글로벌이코노믹 · 11/25 05:55 🆕
+- [11월 24일, 중국남방전력망의 주요 에너지 저장 자금이 순유출되었습니다. 지난 5일 동안 시가총액은 역사적으로 낮은 수준이었습니다.](http://www.eeo.com.cn/2026/1125/1101666.shtml) — 🇨🇳 중국 · 经济观察网 · 11/25 10:06 🆕
+- [Chaowei Power(00951)는 나트륨 이온 배터리 연구 개발 및 산업 프로젝트를 추진하며 건축 계획 면적은 66,000m2입니다.](https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=property&newsid=20261125961) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 09:50 🆕
+- [아이씨에이치, 열폭주 늦추고 완충력 높였다…난연 PU폼 美 ESS 공략 - 머니투데이](https://www.mt.co.kr/index.php/stock/2026/11/25/2026112509440988304) — 🇰🇷 한국 · 머니투데이 · 11/25 09:48 🆕
+- [장기화하는 데이터 센터나 전력망용 배터리(ESS)의 계통 접속, 해결책에 수전 제한 등을 도입에](https://www.itmedia.co.jp/smartjapan/articles/2611/25/news029.html) — 🇯🇵 일본 · ITmedia · 11/25 07:00
+- [中 국영 저장 프로젝트, 배터리 성능 미달로 ‘1억 위안 납-탄소 배터리 소송’ 직면](https://www.g-enews.com/view.php?ud=2026112422213726990c8c1c064d_1&ssk=2017011301560109486_1) — 🇰🇷 한국 · 글로벌이코노믹 · 11/25 06:05
+- [화웨이, ‘ESS 변압기 대규모 화재 테스트’ 성공… 인접 설비 전이 제로 입증](https://www.g-enews.com/article/Global-Biz/2026/11/2026112422160513230c8c1c064d_1) — 🇰🇷 한국 · 글로벌이코노믹 · 11/25 05:55
 - [영국의 그리드 연결 개혁 이후 전력 연결이 느려지고 친환경 전력 및 에너지 저장 장치 건설 시간이 더욱 가변적으로 변했습니다.](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=775955) — 🇹🇼 대만 · DIGITIMES · 11/25 02:30
 - [시사 | 전기차 배터리 생산자 책임 계획](https://news.tvb.com/sc/1208168-%E6%99%82%E4%BA%8B%E9%80%9A%E8%AD%98%E9%9B%BB%E5%8B%95%E8%BB%8A%E9%9B%BB%E6%B1%A0%E7%94%9F%E7%94%A2%E8%80%85%E8%B2%AC%E4%BB%BB%E8%A8%88%E5%8A%83) — 🇭🇰 홍콩 · TVB · 11/24 19:30
-- [첨단과학기술의 해석丨애니메이션: 가상발전소 - 이동형 에너지저장장치, 전기자동차가 규제단위가 되다](https://app.xinhuanet.com/news/article.html?articleId=2026112499348981925e4c8ea497bd4a8e6bada0) — 🇨🇳 중국 · 新华网客户端 · 11/24 18:48
+- [첨단과학기술의 해석 | 애니메이션: 가상발전소 - 이동형 에너지저장장치, 전기자동차가 규제단위가 되다](https://app.xinhuanet.com/news/article.html?articleId=2026112499348981925e4c8ea497bd4a8e6bada0) — 🇨🇳 중국 · 新华网客户端 · 11/24 18:48
 - [출시된 지 반년도 안 돼 매출이 10배나 늘었다. GEYOTO는 어떻게 북미 에너지 저장 시장을 돌파할 수 있나요?](https://www.jiemian.com/article/15368524.html) — 🇨🇳 중국 · Jiemian.com · 11/24 18:46
 - [전고체 배터리는 언제 사용할 수 있나요? 한 번 설명을 해보자.](https://m.jiemian.com/video/AGUCMghmB2YBPlVl.html) — 🇨🇳 중국 · Jiemian.com · 11/24 17:06
 - [화웨이 스마트 스트링 그리드 포밍 ESS 플랫폼, TÜV SÜD로부터 업계 최초로 최고 수준(L4) 그리드 포밍 기능 인증 획득](https://www.straitstimes.com/paid-press-releases/huawei-smart-string-grid-forming-ess-platform-receives-the-industrys-first-highest-level-l4-grid-forming-capability-certification-from-tv-sd-20261124) — 🇸🇬 싱가포르 · The Straits Times · 11/24 16:42
-- [기관: 2026년 에너지저장 출하량이 1TWh를 넘을 것으로 예상되며, 에너지저장전지 ETF Harvest(159052)는 에너지저장 산업에 대한 투자기회에 초점을 맞추고 있음](https://www.jiemian.com/article/15367940.html) — 🇨🇳 중국 · Jiemian.com · 11/24 15:58
+- [기관: 2026년 에너지저장 출하량이 1TWh를 넘을 것으로 예상되며, ESS 배터리 ETF Harvest(159052)는 에너지저장 산업에 대한 투자기회에 초점을 맞추고 있음](https://www.jiemian.com/article/15367940.html) — 🇨🇳 중국 · Jiemian.com · 11/24 15:58
 - [전고체 전지의 금속 이물질, 영향 시각화의 신기술 : 재료 기술](https://monoist.itmedia.co.jp/mn/articles/2611/24/news025.html) — 🇯🇵 일본 · MONOist · 11/24 14:00
-- [지속 가능한 방법론 │ "Echelon Utilization"이 나왔습니다. 전원 배터리의 순환 경제를 만드는 방법](https://www.thepaper.cn/newsDetail_forward_34540216) — 🇨🇳 중국 · ThePaper.cn · 11/24 13:19
+- [지속 가능한 방법론 │ '단계적 재사용'이 나왔습니다. 전기차 배터리의 순환 경제를 만드는 방법](https://www.thepaper.cn/newsDetail_forward_34540216) — 🇨🇳 중국 · ThePaper.cn · 11/24 13:19
 - [No.1---내츄라닉스와 BCP 대응형 휴대용 축전지를 공동 개발](https://kabutan.jp/news/marketnews/?&b=n202611240681) — 🇯🇵 일본 · 株探 · 11/24 13:14
 - [선그로우, 단독으로 해당 분야를 지원합니다! 배터리지수와 태양광지수 모두 2% 이상 상승했다. 반전이 다가오고 있나요?](https://www.jiemian.com/article/15366790.html) — 🇨🇳 중국 · Jiemian.com · 11/24 12:42
-- [(일본 축전지 주식회사) 시즈오카현 후지시에서 계통용 축전 시설 “NC 후지시 오부치 축전소” 축전지 설치 개시(PR TIMES)](https://mainichi.jp/articles/20261124/pr2/00m/020/236000c) — 🇯🇵 일본 · 毎日新聞 · 11/24 11:53
-- [21:11:18 (에너지저장산업을 늘리는 정책, 국가증권 에너지저장전지지수가 1% 상승, 에너지저장전지 ETF E펀드(159566)가 계속 자금을 받아 보유액을 늘렸다)](https://www.cls.cn/detail/2543035) — 🇨🇳 중국 · 财联社 · 11/24 11:04
+- [(일본 축전지 주식회사) 시즈오카현 후지시에서 전력망용 배터리(ESS) 시설 “NC 후지시 오부치 축전소” 축전지 설치 개시(PR TIMES)](https://mainichi.jp/articles/20261124/pr2/00m/020/236000c) — 🇯🇵 일본 · 毎日新聞 · 11/24 11:53
+- [21:11:18 (에너지저장산업을 늘리는 정책, 궈정 ESS 배터리 지수가 1% 상승, ESS 배터리 ETF 이팡다(E Fund)(159566)가 계속 자금을 받아 보유액을 늘렸다)](https://www.cls.cn/detail/2543035) — 🇨🇳 중국 · 财联社 · 11/24 11:04
 - [선저우 23호 승무원은 상반기에 여러 단계적인 성과를 달성하고 새로운 에너지 저장 배터리 궤도 검증 플랫폼을 구축했습니다.](https://news.now.com/home/international/player?newsId=670693&home=1) — 🇭🇰 홍콩 · Now 新聞 · 11/24 11:03
-- [나가노현에서 잇따르는 축전지나 태양광 발전 시설 계획 현이 신고 기준을 엄격화에](https://www.shinmai.co.jp/news/article/gf01dc21008vbt4um9igs1eg) — 🇯🇵 일본 · 信濃毎日新聞デジタル · 11/24 06:03
+- [나가노현에서 잇따르는 축전지나 태양광 발전 시설 계획 현이 신고 기준을 강화로](https://www.shinmai.co.jp/news/article/gf01dc21008vbt4um9igs1eg) — 🇯🇵 일본 · 信濃毎日新聞デジタル · 11/24 06:03
 - [해외조사 및 선정 | 골드만삭스: 글로벌 배터리 수급 비율은 2029년 바닥을 칠 수 있고, 에너지 저장 성장은 초과분을 상쇄하기 어려울 것](https://www.cls.cn/detail/2506034) — 🇨🇳 중국 · 财联社 · 11/24 05:26
 - [에너지 인허가 개편안 美상원 통과에 태양광·ESS 수혜 가속화 - 머니투데이](https://www.mt.co.kr/amp/industry/2026/11/24/2026112314435883552) — 🇰🇷 한국 · 머니투데이 · 11/24 05:20
 - [지역 경제의 지금 (34) 도쿠시마 배터리 밸리 구상 축전지 산업, 성장의 기둥에](https://www.nikkan.co.jp/articles/view/797784) — 🇯🇵 일본 · 日刊工業新聞 · 11/24 05:00
-- [인도 올라 전기(Ola Electric)는 중장기적으로 배터리 셀 용량을 6GWh에서 20GWh로 확장하는 것을 목표로 하고 있다.](https://autotechinsight.spglobal.com/news/5291559/indias-ola-electric-aims-to-scale-battery-cell-capacity-from-6-gwh-to-20-gwh-in-mid-to-long-term) — 🌍 세계 · AutoTechInsight · 11/23 23:51
+- [인도 올라 전기(올라 일렉트릭)는 중장기적으로 배터리 셀 용량을 6GWh에서 20GWh로 확장하는 것을 목표로 하고 있다.](https://autotechinsight.spglobal.com/news/5291559/indias-ola-electric-aims-to-scale-battery-cell-capacity-from-6-gwh-to-20-gwh-in-mid-to-long-term) — 🌍 세계 · AutoTechInsight · 11/23 23:51
 - [Ges 수소-망간 배터리: 이탈리아에 첫 설치](https://en.ilsole24ore.com/art/ges-branded-hydrogen-manganese-batteries-first-installation-in-italia-AJq2n0PC) — 🌍 세계 · Il Sole 24 ORE · 11/23 21:40
 - [(Q&A룸) 당성기술(Dangsheng Technology): 다양한 고체전해질이 주요 고객들로부터 검증을 거쳐 소량으로 구현되었습니다.](https://jnzstatic.cs.com.cn/zzb/htmlInfo/138993.html) — 🇨🇳 중국 · 中证网 · 11/23 21:07
 - [Tonghe Technology: 10억 3천만 위안을 투자하여 컴퓨팅 전력 및 에너지 저장 통합 전력 장비 프로젝트 구축 계획](https://www.yicai.com/brief/103450754.html) — 🇨🇳 중국 · 第一财经 · 11/23 20:12
@@ -493,7 +537,7 @@
 - [전고체전지 안전표준사업이 정식 제정되어 서던펀드의 저가제품배터리 ETF 서던(159147)이 시장에서 활발히 활동하고 있습니다.](https://www.jiemian.com/article/15362130.html) — 🇨🇳 중국 · Jiemian.com · 11/23 16:30
 - [(기고) 1조달러 수출 강국 도약, 다음 10년 주역은 K배터리다](https://www.etnews.com/20261123000183) — 🇰🇷 한국 · 전자신문 · 11/23 16:00
 - [Puyuan Energy x QPO Energy, 글로벌 레이아웃을 위해 에너지 저장 소프트웨어와 하드웨어 통합 | 녹색산업 | 사업정보](https://money.udn.com/money/story/5722/9891959) — 🇹🇼 대만 · 經濟日報 · 11/23 11:00
-- [ASX 배터리 주식, 그리드 스토리지 지출 변화에 따라 자세히 살펴보기](https://finance.yahoo.com/energy/articles/asx-battery-stocks-getting-closer-010751113.html) — 🇺🇸 미국 · Yahoo Finance · 11/23 10:07
+- [ASX 배터리 주식, 전력망 저장장치(ESS) 지출 변화에 따라 자세히 살펴보기](https://finance.yahoo.com/energy/articles/asx-battery-stocks-getting-closer-010751113.html) — 🇺🇸 미국 · Yahoo Finance · 11/23 10:07
 - [유진證 “AI가 바꾸는 ESS 시장⋯LG엔솔·삼성SDI, 전력망 제어로 사업 확대”](https://www.etoday.co.kr/news/view/2651421) — 🇰🇷 한국 · 이투데이 · 11/23 08:04
 - [AI 데이터 센터 전력 공급, 에너지 저장 및 마이크로그리드 사업 기회로 대만의 중전력 산업 플레이어 유치](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=775552) — 🇹🇼 대만 · DIGITIMES · 11/23 01:51
 - [중국 ESS 배터리 계획 생산능력, 세계 출하량 두 배 육박](https://www.etnews.com/20261120000236) — 🇰🇷 한국 · 전자신문 · 11/22 17:00
@@ -509,9 +553,13 @@
 - 🔥2 [케이티이, 해군과 이지스함 전력기기 기술 교류회 개최](https://www.asiae.co.kr/article/2026112408131163432) — 🇰🇷 한국 · 아시아경제 · 11/24 08:13
 - 🔥2 [LS일렉트릭 송·배전 수주잔고 7조 육박…AI 투자 둔화는 '변수' - 머니투데이](https://www.mt.co.kr/amp/industry/2026/11/23/2026112313483428648) — 🇰🇷 한국 · 머니투데이 · 11/23 16:20
 - 🔥2 [AI 반도체가 전력 인재 전쟁을 시작했다. 전력공학회 엘리트 표창, 학생 53명 수상 | 업계 뉴스 | 사업정보](https://money.udn.com/money/story/11799/9892202) — 🇹🇼 대만 · 經濟日報 · 11/23 11:01
-- [다우의 Xe-100 HTGR 원자력 프로젝트의 다음 단계를 안내하는 랜드마크 NRC 건설 허가](https://news.google.com/rss/articles/CBMitwFBVV95cUxPSGJKQlFEOVcwZ3NTYVR6REFqVUJlQjVSWFZtNGJWU3J6S01EY2EtUUdjUC1xaXhQMWlRVzZMSGFnNTZLa2NPQXg3MGZUbExMRkZwd2d0QVh0U0RPY1NvZ0FYdnYyT3pscjV5RV9CNDNSRnhnOVZvdEJGa3RBb0NyVkNRMXBJTmtLVGcyZ1JmRDR0MUtldjk4SWdCOVVYaHRTUkR2LTB6YnRXTW1ycldQU19xR1ZtdXc?oc=5) — 🇺🇸 미국 · POWER Magazine · 11/25 06:59 🆕
-- ["데이터 센터는 쓰레기 버리는 곳"](https://news.google.com/rss/articles/CBMibEFVX3lxTFBVb3g1eF91TnptZTF5ZzJBZU1Ib0h5al9aeE42dVFuMzJwWi1KMHF3WEN3eUExSlVpUF9Nak1ESTIxclFQZ3lRWDBkQXlRSGNQVHpqZWZaWnBMM0daUm1YZ1hjN2FlajdwWTVrcQ?oc=5) — 🇯🇵 일본 · 日本経済新聞 · 11/25 01:50 🆕
-- [상업 수요가 주도하는 경우: 새로운 부하 시대를 위한 전력망 계획 재고](https://news.google.com/rss/articles/CBMirgFBVV95cUxOc1ZIV3k1YTBlVXd1bVJ1SGhqTEltdDBaNFR6N2x0WklkVWhaQl90Vkd5OGhxWDEzRDVGd2xmdlozalVhY0J1RDdydzFscmh4ZEpwbm1uV1AxdThJUHNnQzViTVA5ZUxMQ0dXQ0xMRGdndzRsemJGd1FGTmFSLXdjVXRJaUs2dGV6bHRRR19paHU0cWJ5YTd5OGNmMUxsWnl0ZHlSWnhLTGswY2MwNVE?oc=5) — 🇺🇸 미국 · POWER Magazine · 11/25 00:53 🆕
+- [AI 데이터센터부터 노후 전력망까지, 전력기기 3사 설비투자 급증](https://www.asiae.co.kr/article/2026112415292557621) — 🇰🇷 한국 · 아시아경제 · 11/25 11:23 🆕
+- [중원대학교 홍잉이(Hong Yingyi) 학생은 전력 에너지 연구 및 산학 혁신에 깊이 참여하여 "학술 우수 공헌상" 수상 | 산학연 연구 및 교육 | 사업정보](https://money.udn.com/money/story/5723/9899418?from=edn_subcatelist_cate) — 🇹🇼 대만 · 經濟日報 · 11/25 11:04 🆕
+- [성스러운 능선을 밝혀라! Mooshan Mountain House는 마이크로그리드 업그레이드를 완료하고 침대에는 전용 충전소를 갖추고 있습니다.](https://news.ltn.com.tw/news/life/breakingnews/5652430) — 🇹🇼 대만 · 自由時報 · 11/25 10:37 🆕
+- [다우의 Xe-100 HTGR 원자력 프로젝트의 다음 단계를 안내하는 랜드마크 NRC 건설 허가](https://www.powermag.com/landmark-nrc-construction-permit-ushers-in-next-phase-for-dows-xe-100-htgr-nuclear-project/) — 🇺🇸 미국 · POWER Magazine · 11/25 06:59
+- ["데이터 센터는 쓰레기 버리는 곳"](https://www.nikkei.com/article/DGXZQOGN150OK0V11C26A1000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/25 01:50
+- [상업 수요가 주도하는 경우: 새로운 부하 시대를 위한 전력망 계획 재고](https://www.powermag.com/when-commercial-demand-takes-the-lead-rethinking-grid-planning-for-a-new-load-era-2/) — 🇺🇸 미국 · POWER Magazine · 11/25 00:53
+- [대만 해협 양측의 인기 인물/AI 삽 상인 Hu Haiyang, 컴퓨팅 파워 사업 기회를 포착하고 하드 기술 기업가 정신의 신화를 쓰다](https://udn.com/news/story/7241/9899841) — 🇹🇼 대만 · UDN · 11/25 00:49 🆕
 - [그리드가 중단되기 전에 데이터 센터 전력 변동이 얼마나 멀리 갈 수 있습니까?](https://spectrum.ieee.org/nercs-data-center-power-rules) — 🇺🇸 미국 · IEEE Spectrum · 11/24 22:23
 - [(경남수소컨퍼런스) 노승창 효성중공업 팀장 “글로벌 전력기기 경쟁 심화…종합 솔루션으로 승부해야”](https://edata.ekn.kr/article/view/ekn202611240017) — 🇰🇷 한국 · 기후에너지데이터뱅크 · 11/24 22:10
 - [머스크는 2027년 AI 현금 부족을 다시 경고한다. 컴퓨팅 파워 공백에서 누가 살아남을 수 있을까? |홍콩경제신문](https://specialist.hket.com/article/4230305/%E9%A6%AC%E6%96%AF%E5%85%8B%E5%86%8D%E9%A0%90%E8%AD%A62027%E5%B9%B4AI%E7%8F%BE%E9%87%91%E8%8D%92%20%20%E6%B4%97%E7%89%8C%E5%BE%8C%E5%86%8D%E5%9F%B7%E5%B9%B3%E8%B2%A8%EF%BC%9F) — 🇭🇰 홍콩 · 香港經濟日報HKET · 11/24 19:50
@@ -527,7 +575,7 @@
 - [기상 예측 AI, 일사량을 고정밀도로 중국 신흥이 전력 거래 지원](https://www.nikkei.com/prime/gx/article/DGXZQOUC10BA70Q6A111C2000000) — 🇯🇵 일본 · 日本経済新聞 · 11/24 05:00
 - [AI 데이터센터 투자액은 4조 달러에 이를 것으로 예상되며, 글로벌 전력망 확장 압력을 받고 있다.](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=775520) — 🇹🇼 대만 · DIGITIMES · 11/24 02:08
 - [이튼(ETN), AI 분야로 반등, 데이터센터 관련 사업 밝게 성장](https://www.eeo.com.cn/2026/1124/1100572.shtml) — 🇨🇳 중국 · 经济观察网 · 11/24 01:26
-- [Taipower의 강력한 전력망 사업 기회를 활용하여 Spectrum Electrician의 주문 가시성은 2H27에 도달합니다.](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=775768) — 🇹🇼 대만 · DIGITIMES · 11/24 01:24
+- [대만전력공사의 강력한 전력망 사업 기회를 활용하여 Spectrum Electrician의 주문 가시성은 2027년 하반기에 도달합니다.](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=775768) — 🇹🇼 대만 · DIGITIMES · 11/24 01:24
 - [COP31 반대 의견…펑치밍: 원자력을 재가동하면 전력 탄소 배출을 줄일 수 있다](https://udn.com/news/story/7314/9897383) — 🇹🇼 대만 · UDN · 11/24 01:02
 - [AI 전력 수요 급증: API CEO, 에너지 수요 증가 경고](https://www.foxbusiness.com/video/6408768385112) — 🇺🇸 미국 · Fox Business · 11/24 00:16
 - [친환경 전력에서 친환경 전력망까지: Bauma Shanghai 첫날 SANY Group은 신에너지와 건설 기계 간의 긴밀한 협력을 위한 친환경 답안지를 제공했습니다.](https://money.udn.com/money/story/123828/9897249) — 🇹🇼 대만 · 經濟日報 · 11/23 23:00
@@ -543,7 +591,6 @@
 - [베이징: 새로운 인프라를 사전에 적절하게 배치하고 고품질의 새로운 전력망을 구축하십시오.](https://www.yicai.com/news/103449771.html) — 🇨🇳 중국 · 第一财经 · 11/23 11:19
 - [LS일렉트릭, SK·AWS 울산 AI 데이터센터에 초고압 변전설비 공급](https://www.news1.kr/industry/general-industry/6362582) — 🇰🇷 한국 · 뉴스1 · 11/23 11:01
 - [데이터 센터를 열 수 없습니다! 머스크: 내년 AI 산업이 '돈이 부족할' 수천억 달러는 어디서 나올까?](https://www.ctee.com.tw/news/20261123700666-430704) — 🇹🇼 대만 · 工商時報 · 11/23 10:44
-- [효성중공업, 해링턴 플레이스 문래 23일 특별공급 시작](http://www.newslock.co.kr/news/articleView.html?idxno=140660) — 🇰🇷 한국 · 뉴스락 · 11/23 10:31
 - [한수원, 대우건설·두산에너빌리티와 체코 원전 시공 협약 종료](http://www.hansbiz.co.kr/news/articleView.html?idxno=885984) — 🇰🇷 한국 · 한스경제 · 11/23 09:02
 - [트럼프, 또 관세 부과…해외 데이터센터 짓는 미국 기업에 과중한 세금 부과 - 국제투데이](https://www.ctee.com.tw/news/20261123700557-430702) — 🇹🇼 대만 · 工商時報 · 11/23 08:53
 - [(전일 주요공시) 롯데관광개발·금호건설·효성중공업·롯데케미칼 등](https://www.etoday.co.kr/news/view/2651440) — 🇰🇷 한국 · 이투데이 · 11/23 08:29
@@ -553,10 +600,9 @@
 - [미국 AI 데이터센터, 전력 연결 가속화 계획, 2개 주요 전력망 개혁 검토 제출](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000775529_PVC63JJ716H7UNLAMJUTT) — 🇹🇼 대만 · DIGITIMES · 11/23 03:40
 - ['타이밍 불일치': 데이터 센터 전력 수요는 매년 19% 증가하고 있습니다. 그리드는 2% 성장하고 있다](https://fortune.com/2026/11/22/ai-data-centers-power-grid-capacity/) — 🇺🇸 미국 · Fortune · 11/23 01:34
 - [AI 데이터센터 전력 증강에 편승한 3가지 주식](https://finance.yahoo.com/markets/stocks/articles/3-stocks-riding-ai-data-160704018.html) — 🇺🇸 미국 · Yahoo Finance · 11/23 01:07
-- [전기가 곧 경쟁력이다! Taipower: 타이난 시가 "Greater Nanke"의 전력 소비 증가를 지원하기 위해 자체 전력을 강화할 수 있기를 바랍니다 | 금융 포커스 | 산업경제학](https://udn.com/news/story/7238/9895106) — 🇹🇼 대만 · UDN · 11/22 22:59
+- [전기가 곧 경쟁력이다! 대만전력공사: 타이난 시가 "Greater Nanke"의 전력 소비 증가를 지원하기 위해 자체 전력을 강화할 수 있기를 바랍니다 | 금융 포커스 | 산업경제학](https://udn.com/news/story/7238/9895106) — 🇹🇼 대만 · UDN · 11/22 22:59
 - [백악관은 '현지화'를 추진하고 싶어하지만 지방선거에서 적신호가 켜졌다. 미국의 AI 데이터센터 구축이 곧 제동을 걸 것인가?](https://www.yicai.com/news/103449268.html) — 🇨🇳 중국 · 第一财经 · 11/22 19:02
 - [AI 전력망 호황에 대형 변압기 수출 31% 증가…소형은 39% 급감](https://www.hankyung.com/article/2026112224611) — 🇰🇷 한국 · 한국경제 · 11/22 18:10
-- [회장님 한마디/2027년에는 AI 붐이 거세질까? Delta Electronics의 Zheng Ping: 데이터 센터는 한두 시즌 동안 구축되지 않았지만 주문 가시성은 여전히 높습니다.](https://money.udn.com/money/story/124921/9892511) — 🇹🇼 대만 · 經濟日報 · 11/22 10:00
 
 ## 🤖 로봇
 
@@ -565,6 +611,7 @@
 - 🔥5 [(과학스냅) 과기정통부, 넥스트-X 휴머노이드 챌린지 사전설명회](https://www.yna.co.kr/view/AKR20261124113200017) — 🇰🇷 한국 · 연합뉴스 · 11/24 15:25
 - 🔥5 [타이중에서 열린 Dongyouda의 전시회는 반도체 자동화에 초점을 맞추고 휴머노이드 로봇과 CPO 비즈니스 기회를 완벽하게 전개합니다.](https://money.udn.com/money/story/5612/9898491?from=edn_related_storybottom) — 🇹🇼 대만 · 經濟日報 · 11/24 14:10
 - 🔥5 [(특징주) 아이씨에이치, 글로벌 휴머노이드 공급망 합류 소식에 이틀째 상승세](https://www.widedaily.com/news/articleView.html?idxno=304526) — 🇰🇷 한국 · 와이드경제 · 11/24 11:14
+- 🔥5 [(단독)삼성 첫 휴머노이드, 한손당 모터 20개 탑재 ‘초정밀 작업’ 가능](https://www.donga.com/news/Economy/article/all/20261124/135077423/2) — 🇰🇷 한국 · 동아일보 · 11/24 04:30
 - 🔥4 [(마켓H) '황의 귀환'…2027년 휴머노이드 시대 열리나?](https://www.hansbiz.co.kr/news/articleView.html?idxno=886799) — 🇰🇷 한국 · 한스경제 · 11/24 18:10
 - 🔥4 [A주 휴머노이드 로봇 부문은 리미트업 추세를 겪고 있습니다! 유니트리 기술 급증](https://www.21jingji.com/article/20261123/herald/5bf7c5f65d187a053136473a1ccd6243.html) — 🇨🇳 중국 · 21财经 · 11/23 11:47
 - 🔥3 [정부, 국가 대표 휴머노이드 뽑는다…10개팀 선발해 성장 지원](https://www.etnews.com/20261124000347) — 🇰🇷 한국 · 전자신문 · 11/24 14:08
@@ -575,25 +622,30 @@
 - 🔥2 [노란색! GEM은 높게 열렸고 낮게 마감되었으며 "로봇"은 추세를 거스르고 활발하게 활동했습니다 | 리뷰 리뷰](https://www.yicai.com/video/103452273.html) — 🇨🇳 중국 · 第一财经 · 11/24 18:41
 - 🔥2 [(특징주) 엔비디아발 훈풍에 로봇주 무더기 급등…휴림로봇 등 5종목 상한가](https://www.ajunews.com/view/20261124133936063) — 🇰🇷 한국 · 아주경제 · 11/24 13:45
 - 🔥2 [2026 타이중 무인 차량 및 로봇 응용 전시회 Dongyou는 새로운 수주를 위해 노력하고 협력 기회를 모색합니다 - 산업](https://www.ctee.com.tw/news/20261124700988-430503) — 🇹🇼 대만 · 工商時報 · 11/24 13:27
-- 🔥2 [12:26:11 (시장의 메인라인 : 시장이 지속적으로 상승하고 구조를 수리하며, 로봇 컨셉주가 계속 강세를 보이고 있다)](https://www.cls.cn/detail/2542704) — 🇨🇳 중국 · 财联社 · 11/24 13:26
+- 🔥2 [12:26:11 (시장의 메인라인 : 시장이 지속적으로 상승하고 구조를 수리하며, 로봇 테마주가 계속 강세를 보이고 있다)](https://www.cls.cn/detail/2542704) — 🇨🇳 중국 · 财联社 · 11/24 13:26
 - 🔥2 [피규어 AI 휴머노이드 'F.03', F1 라스베이거스 그랑프리에 등장](https://www.irobotnews.com/news/articleView.html?idxno=49765) — 🇰🇷 한국 · 로봇신문 · 11/24 11:22
 - 🔥2 [휴머노이드 로봇은 상용화의 중요한 시기에 접어들었고 다양한 이점으로 인해 업계의 기대가 높아졌습니다.](https://m.jiemian.com/article/15364882.html) — 🇨🇳 중국 · Jiemian.com · 11/24 09:00
-- 🔥2 [(단독)삼성 첫 휴머노이드, 한손당 모터 20개 탑재 ‘초정밀 작업’ 가능](https://www.donga.com/news/Economy/article/all/20261124/135077423/2) — 🇰🇷 한국 · 동아일보 · 11/24 04:30
 - 🔥2 [NEXCOM AI 로봇 생태계 파트너 채용 확대 - Daily News](https://www.ctee.com.tw/news/20261124700343-439901) — 🇹🇼 대만 · 工商時報 · 11/24 04:00
 - 🔥2 [Kelai Electromechanical: 현재 휴머노이드 로봇 분야와 관련된 제품은 포함되어 있지 않습니다.](https://www.jiemian.com/article/15363669.html) — 🇨🇳 중국 · Jiemian.com · 11/23 19:27
-- 🔥2 [A주 마감 코멘트: GEM 지수가 3% 이상 상승했고, 전체 시장이 100개 주식 한도를 초과했으며, 영화 및 텔레비전 극장, 감속기, 휴머노이드 로봇 등 부문이 강화되었습니다.](https://www.jiemian.com/article/15362236.html) — 🇨🇳 중국 · Jiemian.com · 11/23 16:08
+- 🔥2 [A주 마감 코멘트: 창업판(차이넥스트) 지수가 3% 이상 상승했고, 전체 시장이 100개 주식 한도를 초과했으며, 영화 및 텔레비전 극장, 감속기, 휴머노이드 로봇 등 부문이 강화되었습니다.](https://www.jiemian.com/article/15362236.html) — 🇨🇳 중국 · Jiemian.com · 11/23 16:08
 - 🔥2 [13:33:52 (초기 거래에서 영화 및 TV 극장, 귀금속, 휴머노이드 로봇 부문이 강세를 보였으며, A500 ETF E 펀드(159361)는 반나절 만에 2억 건 이상의 순청약을 받았습니다)](https://www.cls.cn/detail/2541421) — 🇨🇳 중국 · 财联社 · 11/23 14:33
 - 🔥2 [슈퍼브에이아이, ‘마트 환경 기반 휴머노이드 로봇 경진대회’ 은상 수상](https://www.hansbiz.co.kr/news/articleView.html?idxno=885972) — 🇰🇷 한국 · 한스경제 · 11/23 14:04
 - 🔥2 [아이엘, 中 로봇핸드 유니콘과 독점 공급계약…휴머노이드 부품사업 진출](https://www.hankyung.com/article/202611234083i) — 🇰🇷 한국 · 한국경제 · 11/23 13:19
-- 🔥2 [휴머노이드 로봇 컨셉이 계속해서 상승하고 있으며, 서던펀드의 로봇 ETF 서던(159258)의 기초지수가 2% 이상 상승했습니다.](https://www.jiemian.com/article/15360344.html) — 🇨🇳 중국 · Jiemian.com · 11/23 11:39
+- 🔥2 [휴머노이드 로봇 테마가 계속해서 상승하고 있으며, 서던펀드의 로봇 ETF 서던(159258)의 기초지수가 2% 이상 상승했습니다.](https://www.jiemian.com/article/15360344.html) — 🇨🇳 중국 · Jiemian.com · 11/23 11:39
 - 🔥2 [유니트리 급등, 주가 600위안 이상 회복](https://www.yicai.com/news/103449720.html) — 🇨🇳 중국 · 第一财经 · 11/23 11:01
-- 🔥2 [미국/중국 제조사 야스카와 전기(Yaskawa Electric) 따라잡기: 2030년 AI 휴머노이드 로봇 출시 - 국제](https://www.ctee.com.tw/news/20261123700818-430702) — 🇹🇼 대만 · 工商時報 · 11/23 10:53
+- 🔥2 [미국/중국 제조사 야스카와 전기(야스카와전기 Electric) 따라잡기: 2030년 AI 휴머노이드 로봇 출시 - 국제](https://www.ctee.com.tw/news/20261123700818-430702) — 🇹🇼 대만 · 工商時報 · 11/23 10:53
 - 🔥2 [Ant Group은 중국의 휴머노이드 경쟁에서 성공하기 위해 Simplexity에 투자했습니다.](https://www.bloomberg.com/news/articles/2026-11-22/ant-group-bets-on-simplexity-to-thrive-in-china-s-humanoid-race) — 🇺🇸 미국 · Bloomberg.com · 11/23 08:00
 - 🔥2 [ASUS의 첫 번째 휴머노이드 로봇 공개 - Financial News - Business Times](https://www.chinatimes.com/newspapers/20261123000212-260202) — 🇹🇼 대만 · 中時新聞網 · 11/23 05:10
-- [뉴로메카, 휴머노이드 수술보조로봇 실증 성공](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kOTdkYzN5WFNiUWRRaE9nOWs3LXVyY3c1Zk5rOUJwVFZQWnRsMHg5YUoxRzlqdlkyQ3QyclJPeC1lTXFlUS1OSURHMDFvd2tUOF9RN3JSU1ljRkxP?oc=5) — 🇰🇷 한국 · 뉴스핌 · 11/25 08:50 🆕
-- ['삼성 로봇'에 올라탈 기업은…로봇 부품주 옥석 가리기 시작](https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxc3ZsbGIyYTZkTDU1Sk5icGRpWFlGczdJT2pReXhoTmhzblhHa240dE1mWVM3bk1wQ2FDbzNhT3NKWXZON2lQZzFtbGpPMXZIaUFrX2UtQ01WQQ?oc=5) — 🇰🇷 한국 · 한국경제 · 11/25 08:25 🆕
+- [605018, 초 단위로 한계 업! 휴머노이드 로봇, 다중 연선 보드](https://www.21jingji.com/article/20261125/herald/bac7713cbb817e683e85f4ace7a6a922.html) — 🇨🇳 중국 · 21财经 · 11/25 11:17 🆕
+- ['본토 주식시장' 3대 지수 모두 하락, 휴머노이드 로봇, 소매판매는 추세를 거스르고 상승 - 국제](https://wantrich.chinatimes.com/news/20261125900101-420201) — 🇹🇼 대만 · 旺得富理財網 · 11/25 11:03 🆕
+- [산업 고도화를 지원하기 위한 로봇 일반화 지침. 공동 대응을 위해 24개 전략적 파트너를 모았습니다. 업계 플레이어가 국제 공급망에 진입할 수 있도록 지원하기 위해 핵심 구성 요소 기술의 개발 및 적용에 중점을 둡니다.](https://money.udn.com/money/story/5639/9899934?from=edn_subcatelist_cate) — 🇹🇼 대만 · 經濟日報 · 11/25 11:03 🆕
+- [중국 본토에서 휴머노이드 로봇 판매가 두 자릿수 증가 돼지 가격이 안정되고 반등할 조짐을 보임 | 라이브 뉴스 - 뉴스](http://www.etnet.com.hk/www/tc/news/home_categorized_news_detail.php?newsid=ETR361125371) — 🇭🇰 홍콩 · etnet 經濟通 · 11/25 10:41 🆕
+- [뉴로메카, 휴머노이드 수술보조로봇 실증 성공](https://www.newspim.com/news/view/20261125000184) — 🇰🇷 한국 · 뉴스핌 · 11/25 08:50
+- [티로보틱스, '8시간 연속 작업' 휴머노이드 북미 본격 진출…핵심 부품 풀 내재화 '주목'](https://m.newsprime.co.kr/section_view.html?no=756359&menu=1) — 🇰🇷 한국 · 프라임경제 · 11/25 08:28 🆕
+- ['삼성 로봇'에 올라탈 기업은…로봇 부품주 옥석 가리기 시작](https://www.hankyung.com/article/2026112583446) — 🇰🇷 한국 · 한국경제 · 11/25 08:25
 - [자기 몸무게만큼 짐 운반…90kg '괴력 휴머노이드'](https://www.etnews.com/20261124000443) — 🇰🇷 한국 · 전자신문 · 11/25 06:00
-- [글로벌 출하량 97% 장악한 中 휴머노이드 굴기… 애지봇 등 ‘6대 천왕’ 패권 경쟁](https://news.google.com/rss/articles/CBMihwFBVV95cUxOZm4wUVBKOXNOQlZUNG1jOG1nOTY3ai1BNE5ZM0k1aG1aODY1anMtckpPSzB2LUpyN29oUTZ2d0dsT3VUa0tZemRoYVBDazlhSjhLejFLR2tGWi0zLWlMbFhHY0c2LXFWZ2Y4SjN4bjRkdENCcUdMZnFUeVZoTnpnV3pMS1VScTA?oc=5) — 🇰🇷 한국 · 글로벌이코노믹 · 11/25 05:45 🆕
+- [AI 다음은 로봇…‘탈중국’에 기회 잡는 K부품 (화제의 리포트)](https://magazine.hankyung.com/business/article/202611196657b) — 🇰🇷 한국 · 한경매거진 · 11/25 05:57 🆕
+- [글로벌 출하량 97% 장악한 中 휴머노이드 굴기… 애지봇 등 ‘6대 천왕’ 패권 경쟁](https://www.g-enews.com/article/Global-Biz/2026/11/202611242211132330c8c1c064d_1) — 🇰🇷 한국 · 글로벌이코노믹 · 11/25 05:45
 - [‘로봇 강국’ 타이틀 탈환 나선 일본의 역습 … 휴머노이드 부품 패권 지도 (맥킨지·매경 산업분석)](https://www.mk.co.kr/news/business/12217342) — 🇰🇷 한국 · 매일경제 · 11/25 05:00
 - [TSMC 진출의 규슈, 싹트는 피지컬 AI 야스카와 전기와 미쓰이 부동산도 투자](https://www.nikkei.com/article/DGXZQOJC133NT0T11C26A1000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/25 05:00
 - [피지컬 AI 범용 로봇에 가장 중요한 「기반 모델」개발의 열쇠](https://bookplus.nikkei.com/atcl/column/110600809/110600002/) — 🇯🇵 일본 · 日経BOOKプラス · 11/25 05:00
@@ -601,23 +653,22 @@
 - [처음으로 생산이 이야기를 넘어섰다: 휴머노이드 로봇이 '누가 물건을 배달할 수 있는가'를 놓고 서로 경쟁하기 시작했고, 로봇 ETF 인베스코(159559)는 완성 기계보다는 부품에 베팅했다.](https://www.jiemian.com/article/15368129.html) — 🇨🇳 중국 · Jiemian.com · 11/24 17:20
 - [(ETF 시황) '젠슨 황 복귀' AI 훈풍에 휴머노이드 로봇 ETF 17%대↑](https://www.newspim.com/news/view/20261124001247) — 🇰🇷 한국 · 뉴스핌 · 11/24 16:30
 - [中 휴머노이드 로봇 편의점 업무 24시간 라이브...성공률 99.1%](https://www.irobotnews.com/news/articleView.html?idxno=49777) — 🇰🇷 한국 · 로봇신문 · 11/24 16:28
-- [Global X Exchange Traded Funds 시리즈 - Global X EV 및 휴머노이드 로봇 액티브 ETF (3139.HK)](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ubzRpQmt2NllLUm1ROEJxdG1fckZDYXN2SWxYN1p1U3NDSjN6bG9pa2h6Vi1EZHdzdE1MRldubHAxOTNJa0xTd2JXWTYtNktCZHd1WWY0a2dTODV6TU15RWFZMGlFZw?oc=5) — 🇺🇸 미국 · Yahoo! Finance Canada · 11/24 16:27 🆕
+- [Global X Exchange Traded Funds 시리즈 - Global X EV 및 휴머노이드 로봇 액티브 ETF (3139.HK)](https://ca.finance.yahoo.com/quote/3139.HK/seasonality/) — 🇺🇸 미국 · Yahoo! Finance Canada · 11/24 16:27
 - ['특징주' 유비소프트는 약 4% 상승했고, JP모건은 등급을 상향 조정해 업계가 성과 중심의 새로운 단계로 전환했음을 알렸다.](https://www.etnet.com.hk/mobile/tc/news/categorized_news_detail.php?newsid=20261124325) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 15:53
 - ["인간 일자리 뺏는다더니"…中 자동차 공장서 로봇 퇴짜 맞은 이유](https://www.hankyung.com/article/202611246769i) — 🇰🇷 한국 · 한국경제 · 11/24 14:46
 - [휴머노이드 로봇 산업 표준이 공식적으로 시행돼 핵심 부품업체들의 수혜가 기대된다. Kechuang Machinery ETF Harvest(588850)는 산업 자동화, 건설 기계 및 기타 분야의 투자 기회에 중점을 둡니다.](https://www.jiemian.com/article/15367101.html) — 🇨🇳 중국 · Jiemian.com · 11/24 14:39
 - [‘K-로봇 성장활로’ 찾는데 30억원으로 될까…후속 예산 확충이 관건(종합)](https://www.ddaily.co.kr/page/view/2026112413113853670) — 🇰🇷 한국 · 디지털데일리 · 11/24 13:57
-- [요코하마 로봇 월드 2026 드디어 개최! 주목의 전문 세미나로 우주·피지컬 AI·로봇의 최첨단 기술을 심굴](https://news.google.com/rss/articles/CBMie0FVX3lxTE1OOGphbDEzNnc1OGJzdkJtMWJDS0FJVXI5YS1Qa1ZKQkVDZnZtdWdXSmtnb0VnQXluTHAwUkNQTFNUSVpiZ0lUaHhDbFFjbmhmZVlkWEJLV2NxUE5JdkFqQURQU0tuMVVGSXNTUzVQVGVUUDdwcWpvOEt3cw?oc=5) — 🇯🇵 일본 · 産経ニュース · 11/24 13:41 🆕
-- [테슬라와 유슈, 휴머노이드 로봇 양산 돌입…상용화 결정적 시기 진입 - 인사이트](https://www.ctee.com.tw/news/20261124701013-430804) — 🇹🇼 대만 · 工商時報 · 11/24 13:21
+- [테슬라와 유니트리, 휴머노이드 로봇 양산 돌입…상용화 결정적 시기 진입 - 인사이트](https://www.ctee.com.tw/news/20261124701013-430804) — 🇹🇼 대만 · 工商時報 · 11/24 13:21
 - [“국대 로봇 성장시스템 마련”…과기부, 휴머노이드 판 ‘독파모’ 띄운다](https://www.ddaily.co.kr/page/view/2026112411374776820) — 🇰🇷 한국 · 디지털데일리 · 11/24 12:58
-- [화낙---25일, 13주선 주변을 눈앞의 타겟으로 의식](https://kabutan.jp/news/marketnews/?&b=n202611240663) — 🇯🇵 일본 · 株探 · 11/24 12:55
+- [화낙---25일, 13주 이동평균선 주변을 눈앞의 타겟으로 의식](https://kabutan.jp/news/marketnews/?&b=n202611240663) — 🇯🇵 일본 · 株探 · 11/24 12:55
 - [GPT-6.2 아스트라의 구체화 능력이 대폭 향상되었습니다! 유니트리는 4% 이상 상승했고, Robot ETF China Universal(159213) 지수는 2% 이상 상승했습니다! 머스크: 사전 프로그래밍되지 않은 옵티머스 작업 능력을 1~2개월 내에 시연](https://www.jiemian.com/article/15366378.html) — 🇨🇳 중국 · Jiemian.com · 11/24 12:42
 - [머스크는 12월 초 사전 주문을 시작할 수 있는 '옵티머스 프라임' 로봇에 대한 계획을 공개했습니다. CSI 로봇지수는 장 초반 3% 이상 상승했다.](https://www.jiemian.com/article/15366917.html) — 🇨🇳 중국 · Jiemian.com · 11/24 12:24
 - [中 애지봇, 미국 로봇 시장 본격 진출…현지 공식 유통망 확보](https://www.irobotnews.com/news/articleView.html?idxno=49767) — 🇰🇷 한국 · 로봇신문 · 11/24 11:58
-- ['무브먼트주' Wan Robot(06600)은 한때 3% 이상 하락해 신저가를 기록했으며 현재 34.7위안에 거래되고 있습니다.](https://www.etnet.com.hk/mobile/tc/news/categorized_news_detail.php?newsid=20261124402) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 11:54
+- ['급등락주' Wan Robot(06600)은 한때 3% 이상 하락해 신저가를 기록했으며 현재 34.7위안에 거래되고 있습니다.](https://www.etnet.com.hk/mobile/tc/news/categorized_news_detail.php?newsid=20261124402) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 11:54
 - [(장중수급포착) 레인보우로보틱스, 기관 8일 연속 순매수행진... 주가 +17.91%](https://www.newspim.com/news/view/20261124000733) — 🇰🇷 한국 · 뉴스핌 · 11/24 11:31
-- ["A-Share Focus" 휴머노이드 로봇 컨셉 계속 발전, 유니트리와 그린의 조화가 10% 이상 급등](https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=latest&newsid=20261124825) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 11:21
+- ["A-Share Focus" 휴머노이드 로봇 테마 계속 발전, 유니트리와 뤼디하모닉이 10% 이상 급등](https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=latest&newsid=20261124825) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 11:21
 - [1124 휴머노이드 로봇의 방향성은 끝났고 리안인이 강하게 상승세를 이끌었다. 지속 가능합니까? (우하이롱, 금융가)](https://www.yicai.com/video/103451643.html) — 🇨🇳 중국 · 第一财经 · 11/24 11:17
-- ['외국인 투자 하이라이트' JP모건은 유비쉬안(09880)의 신용등급을 '비중확대'로 높이고 목표주가는 4% 오른 77위안으로 제시했다.](http://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=research&newsid=20261122697) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 11:13
+- ['외국인 투자 하이라이트' JP모건은 유비테크(09880)의 신용등급을 '비중확대'로 높이고 목표주가는 4% 오른 77위안으로 제시했다.](http://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=research&newsid=20261122697) — 🇭🇰 홍콩 · etnet 經濟通 · 11/24 11:13
 - [휴머노이드 거점 구미, 태영건설 ‘구미 파크원 데시앙’ 역대급 인파](https://www.dt.co.kr/article/12096869) — 🇰🇷 한국 · www.dt.co.kr · 11/24 11:11
 - ['본토 산업' 휴머노이드 로봇, 상용화 본격화, 전망 주목](https://wantrich.chinatimes.com/news/20261124900130-420201) — 🇹🇼 대만 · 旺得富理財網 · 11/24 11:07
 - [(단독) 아이엘, 산업용 휴머노이드 자체 개발…中 자이노바 핵심부품 활용](https://www.hankyung.com/article/202611246439i) — 🇰🇷 한국 · 한국경제 · 11/24 11:06
@@ -629,14 +680,7 @@
 - [과기부, 국가대표 로봇 플랫폼 발굴 박차](https://biz.heraldcorp.com/article/10946931) — 🇰🇷 한국 · 헤럴드경제 · 11/24 10:00
 - [특징주, 대동기어-로봇(산업용/협동로봇 등) 테마 상승세에 5.19% ↑](https://stock.mk.co.kr/news/view/1204736) — 🇰🇷 한국 · 매일경제 마켓 · 11/24 09:49
 - [중국의 휴머노이드 로봇 붐을 이끄는 선두 주자들을 만나보세요](https://www.scmp.com/tech/article/3375497/meet-robots-chinas-six-top-humanoid-developers-vie-market-share) — 🇸🇬 싱가포르 · South China Morning Post · 11/24 09:30
-- [오므론이 쌍팔 3 손가락 로봇, 창약 실험을 자동화에 상의하달에서는 「느린」](https://xtech.nikkei.com/atcl/nxt/column/18/03688/111000019/) — 🇯🇵 일본 · 日経クロステック · 11/24 05:00
+- [오므론이 양팔 3 손가락 로봇, 신약 개발 실험을 자동화에 상의하달에서는 「느린」](https://xtech.nikkei.com/atcl/nxt/column/18/03688/111000019/) — 🇯🇵 일본 · 日経クロステック · 11/24 05:00
 - [도요타 중장기 방침, 로봇 시장에 진입 신흥국에서 소·중형차에 공통 PF](https://www.nikkei.com/article/DGXZQOUC1026L0Q6A111C2000000/) — 🇯🇵 일본 · 日本経済新聞 · 11/24 05:00
-- [인터뷰 / 야스카와 전기 이사 집행 임원 · 쿠보타 유미에 "AI × 모터"추구](https://www.nikkan.co.jp/articles/view/797840) — 🇯🇵 일본 · 日刊工業新聞 · 11/24 05:00
-- [(VIP데일리) 로봇의 방향성은 계속 강화되고 있다. 칼럼에서는 연구 데이터를 선별해 해석하고, 업계 핵심 기업의 20cm 한계를 언급한다.](https://m.cls.cn/detail/2542928) — 🇨🇳 중국 · 财联社电报 · 11/24 01:29
-- [칼날 달고 날아차기… 오락의 주인공이 된 로봇](https://www.chosun.com/economy/tech_it/2026/11/24/2DL23VNQCVH55OHVPW7IL2GNJY/) — 🇰🇷 한국 · 조선일보 · 11/24 00:34
-- [Haomei New Materials는 수억 달러의 환매를 시작하고 경량 로봇에 대한 투자를 늘릴 계획입니다.](https://www.jiemian.com/article/15364115.html) — 🇨🇳 중국 · Jiemian.com · 11/23 22:01
-- [열혈 메카! 홍콩에서 휴머노이드 로봇이 '살을 맞대고 싸우는' 격투 쇼를 선보입니다.](https://www.chinanews.com.cn/ga/shipin/cns-d/2026/11-23/news1075804.shtml) — 🇨🇳 중국 · 中国新闻网 · 11/23 21:53
-- [이 휴머노이드 로봇은 모든 과대 광고에 명확성을 가져올 것입니다](https://www.bloomberg.com/opinion/articles/2026-11-23/agility-s-humanoid-robots-will-bring-clarity-to-industry-hype) — 🇺🇸 미국 · Bloomberg.com · 11/23 21:30
-- [머스크는 "테이블을 옮기면" 로봇 데모가 실패한다고 인정합니다. 테슬라의 Optimus Bet는 이를 해결하기 위해 노력합니다.](https://finance.yahoo.com/markets/stocks/articles/musk-admits-robot-demos-fail-112022101.html) — 🇺🇸 미국 · Yahoo Finance · 11/23 20:20
-- [ETF 마감의 해석 | 시장 반등, 로봇이 이익 주도](https://www.jiemian.com/article/15363294.html) — 🇨🇳 중국 · Jiemian.com · 11/23 19:27
-- [로봇 컨셉으로 단기 수익 창출 효과 폭발, 성장 궤도로 수리 시장 개척 기대](https://www.cls.cn/detail/2542496) — 🇨🇳 중국 · 财联社 · 11/23 18:43
+- [(VIP데일리) 로봇의 방향성은 계속 강화되고 있다. 칼럼에서는 연구 데이터를 선별해 해석하고, 업계 핵심 기업의 하루 가격제한폭 20%를 언급한다.](https://m.cls.cn/detail/2542928) — 🇨🇳 중국 · 财联社电报 · 11/24 01:29
+- [로봇 테마로 단기 수익 창출 효과 폭발, 성장 궤도로 회복 국면 개척 기대](https://www.cls.cn/detail/2542496) — 🇨🇳 중국 · 财联社 · 11/23 18:43
