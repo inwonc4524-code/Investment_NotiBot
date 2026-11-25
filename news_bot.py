@@ -740,7 +740,7 @@ def _meta(page, *names):
                     rf'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\']{nm}["\']'):
             m = re.search(pat, page, re.I)
             if m:
-                return _html.unescape(m.group(1)).strip()
+                return _html.unescape(_html.unescape(m.group(1))).strip()   # 두 번 감싼 것(&amp;middot;)까지 풀기
     return ""
 
 
