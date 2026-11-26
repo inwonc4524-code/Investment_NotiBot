@@ -3236,14 +3236,34 @@
 "run": "breaking",
 "added": 1795683288,
 "pv": "cd009b1f"
+},
+{
+"key": "미반도체겨냥과잉생산징후관세이어투자압박",
+"keys": [
+"미반도체겨냥과잉생산징후관세이어투자압박",
+"메모리공급부족한데과잉생산주장관세보다美자국내투자압박",
+"사설호남반도체까지과잉생산으로모는美관세압박"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "미, 반도체 겨냥 \"과잉생산 징후\"...관세 이어 투자 압박?",
+"show": "미, 반도체 겨냥 \"과잉생산 징후\"...관세 이어 투자 압박?",
+"source": "YTN",
+"src_url": "https://www.ytn.co.kr",
+"sum": "미 무역대표부는 우리 반도체 산업 등을 겨냥해 과잉생산 징후가 두드러진다고 지적했습니다. 3대 메가프로젝트 등 정부 정책을 빌미로 추가 관세 인상이나 투자 압박 가능성이 있다는 분석도 나옵니다. 김대근 기자가 보도합니다. 미 무역대표부는 한국의 반도체와 자동차, 석유화학 산업에서 구조적인 과잉생산 징후가 두드러진다고 지적했습니다.",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VYWFEZlBiLWR1c3dobldKVkw5WlVfaWtiYzM1Nmw4and0Qll2anRwMnpRWTNEU0N1QjFOdHN1aWEzTHZRYjAyQWJJX0ZROUJITVE1NGJGRWVCRFdJaVE?oc=5",
+"url": "https://www.ytn.co.kr/_ln/0102_202611261913285422",
+"pub": 1795687980.0,
+"time": "11/26 19:13",
+"run": "breaking",
+"added": 1795689094
 }
 ],
 "seen": {
 "jensenhuangbreakssilencesignalswillingnesstoreturnasnvidiaceo": 1795522147.7856786,
 "증안펀드미동없던코스피젠슨황복귀로단숨에5000피회복": 1795516331.755534,
-"germanforeignministershockedbytrumpinterventiontoreinstatenvidiasjensenhuang": 1795514152.6929028,
-"germanministershockedbytrumpsinterventiononnvidia": 1795514152.692907,
-"germanfmsayshewasshockedbytrumpsinterventiontoreinstatenvidiashuang": 1795514152.692908,
 "젠슨황복귀에코스피급등5천선회복": 1795517804.835103,
 "젠슨황엔비디아복귀에5천피회복추세반등": 1795516331.7555206,
 "엔비디아젠슨황복귀k반도체협력다변화속도": 1795517804.8351026,
@@ -3957,6 +3977,9 @@
 "恒指升幅收窄至260點收市結束7連跌": 1795685468.112475,
 "한은내년41성장": 1795685466.5654006,
 "긴축고삐조인한은내년성장률4대껑충": 1795685466.5654013,
-"내년41성장한은전망치12p상향": 1795685466.5654023
+"내년41성장한은전망치12p상향": 1795685466.5654023,
+"미반도체겨냥과잉생산징후관세이어투자압박": 1795689094.8128378,
+"메모리공급부족한데과잉생산주장관세보다美자국내투자압박": 1795689094.8128388,
+"사설호남반도체까지과잉생산으로모는美관세압박": 1795689094.8128395
 }
 }
