@@ -1,30 +1,6 @@
 {
 "items": [
 {
-"key": "trumpsaysreinstatingjensenhuangwouldbethebestthingfornvidiaandtheus",
-"keys": [
-"trumpsaysreinstatingjensenhuangwouldbethebestthingfornvidiaandtheus",
-"canjensenhuangreturntonvidia",
-"trumpurgesnvidiatoreinstatejensenhuangcallinghimbestthingforus"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Trump says reinstating Jensen Huang “would be the best thing” for Nvidia and the US.",
-"show": "트럼프는 젠슨 황을 복직시키는 것이 엔비디아와 미국에 “가장 좋은 일”이 될 것이라고 말했습니다.",
-"source": "The Verge",
-"src_url": "https://www.theverge.com",
-"sum": "그는 트루스 소셜(Truth Social)에 올린 글에서 “엔비디아 이사회가 젠슨 황을 다시 고용하길 바란다”고 말했다. 트럼프 대통령은 앞서 황이 엔비디아로 돌아오더라도 “신경 쓰지 않을 것”이라고 말했다. 그러나 엔비디아 이사회 의장인 하비 존스에 따르면 이사회는 \"Jensen을 복직시킬 생각은 없습니다.\" [이미지: https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-23-at-8.36.32-AM.jpg?quality=90&strip=all]",
-"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOFl6c2J3X2VKdTdIZFJTalZuT0FkNVlhQmVNaHdXX3JwQVQ3UGtBQUFHamw5alJlVXVmUVRBVmJxYXJBOHhmc190bnlfSGVKTU95RUoxcUFHa0QyY0FFX3BBdUN6MFhuN1ZlZlhxNXFSY2N6elQ3Sk0tc0JLRWZkMjF1c1ZQQ1B5OFdDRFhsZXpZa0JRb2RzczM0aFM1SUdpOUJnT1dpamJhMzNpNXQ3MHFaZVdQWGpHSjVDMGFB?oc=5",
-"url": "https://www.theverge.com/policy/1039923/trump-says-reinstating-jensen-huang-would-be-the-best-thing-for-nvidia-and-the-us",
-"pub": 1795441353.0,
-"time": "11/23 22:42",
-"run": "breaking",
-"added": 1795442153,
-"pv": "cd009b1f"
-},
-{
 "key": "太古配售國泰每股1423元折讓85套現36億元220120261123即時財經新聞",
 "keys": [
 "太古配售國泰每股1423元折讓85套現36億元220120261123即時財經新聞"
@@ -3305,21 +3281,32 @@
 "time": "11/26 21:31",
 "run": "breaking",
 "added": 1795697097
+},
+{
+"key": "fivetakeawaysfromtrumpsnewtariffs",
+"keys": [
+"fivetakeawaysfromtrumpsnewtariffs"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Five takeaways from Trump’s new tariffs",
+"show": "트럼프의 새로운 관세로 인한 5가지 시사점",
+"source": "The Straits Times",
+"src_url": "https://www.straitstimes.com",
+"sum": "미국과의 무역 협상이 어떻게 진행되는지에 따라 미국으로의 수출품에 관세가 부과되는 경제는 중국만이 아닙니다.",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYW9yV2RaVzUtbklYbTRjOThXMk5qVlozNXphT1J0VG5XMlhrQkpsTTdHZjZLanpKVXFsWWZHa3daRElESWFYd19mSWRkRS1KTXRoZ1hHSTNyS29tVXk3ZFQwS1ZjMlJYNklRa1RROHBGR01HcHZaR1VsM1JsbFhrUlBLQjVFZHliank5bXhIWHFPTnNTeWtNM3Y3cnZjT0k?oc=5",
+"url": "https://www.straitstimes.com/world/united-states/five-takeaways-from-trumps-new-tariffs?ref=latest",
+"pub": 1795700340.0,
+"time": "11/26 22:39",
+"run": "breaking",
+"added": 1795700723,
+"pv": "cd009b1f"
 }
 ],
 "seen": {
-"jensenhuangsreturnexposesnvidiasunresolvedfragilities": 1795526493.3522425,
 "startupscelebratehuangsreturntonvidia": 1795527964.083026,
-"nvidiaslipsasinvestorsassessriskssurroundinghuangsreturnasceo": 1795527244.0520692,
-"nasdaqfuturesturnlowerafternvidiarallyasjensenhuangreturns": 1795526493.3522453,
-"jensenhuangsreturnwasworthnearly950billiontonvidiahowmuchofthestockmarketshouldr": 1795525773.5669322,
-"jensenhuangreturnstonvidiaandrepgomezresignsamidallegedsexualmisconduct": 1795525773.5669324,
-"trumpsnvidiainterventionwhatsatstake": 1795527244.0520966,
-"firstthingtrumpappearstomakemillionsfromnvidiainterventionoverhuang": 1795527244.0520973,
-"trumpsnvidiainterventionrewritestherulesofamericanbusiness": 1795527244.0520966,
-"dewardricmcnealtrumpsnvidiainterventionexposesnationalsecurityrisks": 1795525773.5669115,
-"whatsatstakeinnvidiasrehiringofjensenhuang": 1795525773.5669117,
-"staffcheersasjensenhuangreturnstonvidiahq": 1795527244.0520682,
 "jensenhuangreturnstonvidiaassiliconvalleyrethinksitsalliancewithtrump": 1795527964.0830252,
 "huangsreturnrattlessacramentoandsiliconvalley": 1795527964.0830257,
 "속보젠슨황복귀약발하루뉴욕증시3대지수하락세출발나스닥초반180": 1795533796.483263,
@@ -3998,8 +3985,12 @@
 "머스크도퇴짜맞은메모리확보전쟁jy뭘더해줄건데": 1795694905.0063398,
 "이재용머스크의반도체장기구매제안에뭘더해줄건데": 1795694905.0063405,
 "뭘더해줄건데머스크도애먹은메모리칩확보전": 1795694905.0063412,
-"반도체장기구매할게머스크제안에이재용뭘더해줄수있나": 1795697097.6374416,
+"반도체장기구매할게머스크제안에이재용뭘더해줄수있나": 1795699283.1177824,
 "뭘더해줄수있나머스크파격제안에이재용이한말": 1795697097.6374424,
-"머스크도퇴짜맞은메모리이재용뭘더해줄건데": 1795697097.6374428
+"머스크도퇴짜맞은메모리이재용뭘더해줄건데": 1795697097.6374428,
+"그래서뭘더해줄건데머스크도진땀빼게한이재용의한마디": 1795700729.5053544,
+"머스크도진땀뺀메모리쟁탈전이재용뭘더해줄수있느냐": 1795700729.5053554,
+"k메모리확보전쟁머스크도진땀뺀이재용의한마디는머니투데이": 1795700729.5053537,
+"fivetakeawaysfromtrumpsnewtariffs": 1795700729.0795991
 }
 }
