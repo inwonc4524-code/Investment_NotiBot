@@ -1,29 +1,6 @@
 {
 "items": [
 {
-"key": "산업연내년경제성장률35전망반도체질주에도내수회복더뎌",
-"keys": [
-"산업연내년경제성장률35전망반도체질주에도내수회복더뎌",
-"반도체호황에내년경제35성장수출1조3000억달러전망",
-"반도체수출첨단투자힘입어내년경제성장률35성장2027년경제산업전망"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "산업연, 내년 경제성장률 3.5% 전망…\"반도체 질주에도 내수 회복 더뎌\"",
-"show": "산업연, 내년 경제성장률 3.5% 전망…\"반도체 질주에도 내수 회복 더뎌\"",
-"source": "뉴스핌",
-"src_url": "https://www.newspim.com",
-"sum": "'마이 케이팝 스타' 우승자 우즈벡 시리나[서울=뉴스핌] 정태이 기자 = 종합뉴스통신사 뉴스핌이 주최·주관하고 문화체육관광부가 후원하는 글로벌 오디션 '마이 케이팝 스타(MY KPOP STAR)'에서 우즈베키스탄 출신 시리나(Shirina)가 최종 우승을 차지하며 그랑프리의 영예를 안았다. 20일 서울 마포구 상암동 큐브컨벤션센터에서 열린 '마이 케이팝 스타' 오프라인 결선에서는 국내 5팀과 해외 5팀 등 총 10팀이 최종 우승을 놓고 경쟁을 펼쳤다.",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNcllIX0Q0YkVEcHlLcE84bWRLcm5kaGYzSzBFNXB3VjNadHhZU21neWdMQWJuRnJwcHJ3bVhuWEtvV1Fzdmh4R1JEZzFRVHh4M0ZDcVNQb0tUTHVW?oc=5",
-"url": "https://www.newspim.com/news/view/20261123000818",
-"pub": 1795413720.0,
-"time": "11/23 15:02",
-"run": "breaking",
-"added": 1795413855
-},
-{
 "key": "政策護盤台股漲778點記憶體反攻這檔翻紅外資目標價給5字頭證券",
 "keys": [
 "政策護盤台股漲778點記憶體反攻這檔翻紅外資目標價給5字頭證券",
@@ -3360,18 +3337,38 @@
 "run": "breaking",
 "added": 1795670188,
 "pv": "cd009b1f"
+},
+{
+"key": "nvidiahaltschipshipmentsto4countriesinsoutheastasiaincludingsingaporeft",
+"keys": [
+"nvidiahaltschipshipmentsto4countriesinsoutheastasiaincludingsingaporeft",
+"nvidiahaltschipshipmentstosoutheastasiaftreports",
+"nvidiahaltschipshipmentstosoutheastasia"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "Nvidia halts chip shipments to 4 countries in South-east Asia, including Singapore: FT",
+"show": "엔비디아, 싱가포르 등 동남아시아 4개국에 대한 칩 출하 중단: FT",
+"source": "The Business Times",
+"src_url": "https://www.businesstimes.com.sg",
+"sum": "중단이 일시적인지 아니면 회사가 새로운 미국 수출 통제를 준수하려고 노력하고 있는지는 불분명합니다.",
+"link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLVFjNkl2N2FWNEZpQ1BOZVl5Z0RqbF9CUWNkclBuOGJGRXNlQjJITFc2QTBibDNoUEMzT202dEQyeWo4U1VmV0FtblpyNHJtbWZiTDBhMHVOekk3WUpQY2dVOURESHhQY1A3MlZoQTJNV1JhcEMybThiQlhDRnZXd192cngzZmF2SXJmQ0NmSWNKQmNORkFvR0VKbldzeGpESFBXbEE1Q1REMmpRenR2eDNWT0RxaHhJSDZ3TnlaUjlJRV9nQmVXUDJBN21zMjVnbmc4V1l5TWZFT05lQXhVVQ?oc=5",
+"url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/nvidia-halts-chip-shipments-4-countries-south-east-asia-including-singapore-ft",
+"pub": 1795672500.0,
+"time": "11/26 14:55",
+"run": "breaking",
+"added": 1795673089,
+"pv": "cd009b1f"
 }
 ],
 "seen": {
 "jensenhuangbreakssilencesignalswillingnesstoreturnasnvidiaceo": 1795522147.7856786,
 "나스닥코스피폭등시장이젠슨황복귀에이토록의존충격적": 1795513424.8564818,
-"반도체주택건설인력난대응민관전문인력협의체구성": 1795499623.42232,
-"반도체공장짓는데26만명더필요국토부건설인력양성나선다": 1795499623.4223194,
 "골드만삭스내년환율1280원韓최종기준금리35머니투데이": 1795501804.0348296,
 "골드만삭스내년한국성장률32환율1280원전망": 1795501804.0348303,
 "골드만삭스韓내년32성장반도체호황에도내수온기제한": 1795500364.2828567,
-"골드만삭스한국내년32성장전망기준금리상단35": 1795499623.4222915,
-"반도체호황에건설인력급구업계전문인력양성요청": 1795499623.4223192,
 "골드만삭스의경고한국32성장해도내수는못웃는다": 1795500364.2828557,
 "台股強漲3310點創史上最大漲點紀錄收在40122點": 1795503275.8157594,
 "台股史上第1台積電領622家飆漲停指數收漲3310點": 1795501085.7561262,
@@ -4026,7 +4023,7 @@
 "달러원한은금리인상성장률상향에도보합권상보": 1795663637.845951,
 "내년성장률41로상향한은금리인상카드다시꺼냈다": 1795665797.7280252,
 "한은기준금리연325로올려내년성장률41전망": 1795665797.7280257,
-"한은기준금리325로인상내년성장률41": 1795665797.728026,
+"한은기준금리325로인상내년성장률41": 1795673095.599484,
 "포토한국은행올해성장률39내년41로대폭상향": 1795663637.845986,
 "속보한은총재최근반도체경기아주강세내년성장전망도연쇄가중치": 1795665797.7280965,
 "港股造好指數升逾500點": 1795664358.7116787,
@@ -4094,6 +4091,12 @@
 "신현송반도체영업익700조육박내년성장률근거있어머니투데이": 1795672338.1972637,
 "신현송반도체업황호조에비중도커져내년성장률에제곱의효과": 1795672338.197264,
 "한은총재올해명목gdp3천조원웃돌것반도체영업익700조원": 1795672338.1972642,
-"내년4대성장률전망나왔다한은반도체꺾여도3중반대성장머니투데이": 1795672338.1972628
+"내년4대성장률전망나왔다한은반도체꺾여도3중반대성장머니투데이": 1795672338.1972628,
+"nvidiahaltschipshipmentsto4countriesinsoutheastasiaincludingsingaporeft": 1795673094.9187825,
+"nvidiahaltschipshipmentstosoutheastasiaftreports": 1795673094.9187856,
+"nvidiahaltschipshipmentstosoutheastasia": 1795673094.9187863,
+"한은내년성장률41로대폭상향반도체비중반영안하면오히려과소평가": 1795673095.5994833,
+"기준금리연325로인상내년성장률41대폭상향": 1795673095.5994837,
+"기준금리325한은高성장高물가긴축기조강화내년2월추가인상무게종합": 1795673095.599484
 }
 }
