@@ -3356,6 +3356,53 @@
 "time": "11/26 14:00",
 "run": "breaking",
 "added": 1795673811
+},
+{
+"key": "국토장관용인반도체첫팹일정맞춰기반시설적기공급",
+"keys": [
+"국토장관용인반도체첫팹일정맞춰기반시설적기공급",
+"국토장관용인반도체국가산단점검첫팹맞춰기반시설적기추진",
+"홍지선장관용인반도체산단첫팹일정맞춰기반시설적기공급"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "국토장관 \"용인 반도체 첫 팹 일정 맞춰 기반시설 적기 공급\"",
+"show": "국토장관 \"용인 반도체 첫 팹 일정 맞춰 기반시설 적기 공급\"",
+"source": "연합뉴스",
+"src_url": "https://www.yna.co.kr",
+"sum": "(세종=연합뉴스) 오진송 기자 = 홍지선 국토교통부 장관은 26일 경기 용인 반도체 국가산업단지 조성 현장을 찾아 기업의 투자 일정에 맞춰 기반...",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYZVcwS2ZxZWN2R1lWdFJjZUpnX3BZbUNmNURubXNJaU84QjJQTEZLVDh6TEpRc0hCWFpyRUNFWXpOYkZVd0k3SjlxaWQ2QWtaOS1haTNvcFdqV2vSAWBBVV95cUxQQmNERkNnaVN3VllLOXI3N2E4MHJGWVNuVWpxNHc1SENQdWQ1MVFSWnlITk9TRE9zSEZzTXBYdWxTVjRpdFZLWkQ0djRZZmZhS0lmTC1IZWJzVkY0WlpoS2M?oc=5",
+"url": "https://www.yna.co.kr/view/AKR20261126138000003",
+"pub": 1795673695.0,
+"time": "11/26 15:14",
+"run": "breaking",
+"added": 1795674529
+},
+{
+"key": "台股收漲956點站回39000點法人短線年線震盪",
+"keys": [
+"台股收漲956點站回39000點法人短線年線震盪",
+"台股收復39000關卡收漲956點台積電最後一盤遭狙擊收低5元",
+"台股收盤大漲956點台積電小跌pcb記憶體5檔熱門漲停財經"
+],
+"count": 3,
+"theme": "🌏 해외 속보",
+"rk": "tw",
+"region": "🇹🇼 대만",
+"title": "台股收漲956點站回39000點　法人：短線年線震盪",
+"show": "대만 증시는 956포인트 상승하며 39,000포인트로 하락했습니다. 법인: 단기 연간 라인 쇼크",
+"source": "經濟日報",
+"src_url": "https://money.udn.com",
+"sum": "미국 301조 조사 결과가 시장 우려를 완화시켰다. 오늘 대만 증시는 전자주를 중심으로 반격했다. 장중 39,459.95포인트로 1,264.52포인트 급등했습니다. 캐리어보드, 인쇄...",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jVXJSUW93N1hnc3NwZ1MzSWRrSUlwVGpnWlFqU1ZHQ0JqWXNhcDRCVEFhZEtUWnBZSU5OT1RVWEpOOFJHRVhHdGo0VExwNEN1WjQyYzAtWldSb1hIbE5PcFJzZ3UxQmlkV2VHWlIzUmVHSk5hcEVBcVZCR0vSAV9BVV95cUxPRXF3UnFORmlhMGw4MDBmM1JVeVN3Y3gzT2ZGVENOb1NPZi0xd29sXzBEY190bVdwUTh2YllpN2kwaUtsRFlzbVBXRERTQWRUYXRmWldERi0wQXM3NzItNA?oc=5",
+"url": "https://money.udn.com/money/story/5612/9903609?form=udn_ch2_common3_cate",
+"pub": 1795674109.0,
+"time": "11/26 15:21",
+"run": "breaking",
+"added": 1795674536,
+"pv": "cd009b1f"
 }
 ],
 "seen": {
@@ -3364,9 +3411,7 @@
 "골드만삭스내년환율1280원韓최종기준금리35머니투데이": 1795501804.0348296,
 "골드만삭스내년한국성장률32환율1280원전망": 1795501804.0348303,
 "台股強漲3310點創史上最大漲點紀錄收在40122點": 1795503275.8157594,
-"台股史上第1台積電領622家飆漲停指數收漲3310點": 1795501085.7561262,
 "史上最強台股收漲3310點站回4萬點上市櫃697家漲停財經": 1795501806.3365643,
-"置地伙港交所及金門建築10噸建築廢料循環再造成防洪沙包132120261124即時財經新聞": 1795501086.5555785,
 "골드만삭스내년3대성장해도소비는약할것기준금리연35넘기기어려워": 1795501804.034829,
 "골드만삭스내년한은기준금리35가상단달러당원화값은1280원": 1795501804.0348294,
 "중부발전용인반도체클러스터열병합발전소건설속도epc계약체결": 1795501804.0348468,
@@ -4084,13 +4129,20 @@
 "신현송반도체업황호조에비중도커져내년성장률에제곱의효과": 1795672338.197264,
 "한은총재올해명목gdp3천조원웃돌것반도체영업익700조원": 1795672338.1972642,
 "내년4대성장률전망나왔다한은반도체꺾여도3중반대성장머니투데이": 1795672338.1972628,
-"nvidiahaltschipshipmentsto4countriesinsoutheastasiaincludingsingaporeft": 1795673807.2050636,
+"nvidiahaltschipshipmentsto4countriesinsoutheastasiaincludingsingaporeft": 1795674526.7215104,
 "nvidiahaltschipshipmentstosoutheastasiaftreports": 1795673094.9187856,
-"nvidiahaltschipshipmentstosoutheastasia": 1795673807.2050638,
-"한은내년성장률41로대폭상향반도체비중반영안하면오히려과소평가": 1795673808.4198406,
-"기준금리연325로인상내년성장률41대폭상향": 1795673808.4198408,
-"기준금리325한은高성장高물가긴축기조강화내년2월추가인상무게종합": 1795673808.4198413,
-"nvidiahaltsservershipmentstofoursoutheastasiancountriesincludingsingaporereport": 1795673807.205063,
-"속보李대통령이옳았나송파집값4년만에역대급추락했다": 1795673811.554967
+"nvidiahaltschipshipmentstosoutheastasia": 1795674526.7215116,
+"한은내년성장률41로대폭상향반도체비중반영안하면오히려과소평가": 1795674529.4355092,
+"기준금리연325로인상내년성장률41대폭상향": 1795674529.4355097,
+"기준금리325한은高성장高물가긴축기조강화내년2월추가인상무게종합": 1795674529.43551,
+"nvidiahaltsservershipmentstofoursoutheastasiancountriesincludingsingaporereport": 1795674526.7215102,
+"속보李대통령이옳았나송파집값4년만에역대급추락했다": 1795673811.554967,
+"국토장관용인반도체첫팹일정맞춰기반시설적기공급": 1795674529.4354813,
+"국토장관용인반도체국가산단점검첫팹맞춰기반시설적기추진": 1795674529.4354823,
+"홍지선장관용인반도체산단첫팹일정맞춰기반시설적기공급": 1795674529.435483,
+"台股收漲956點站回39000點法人短線年線震盪": 1795674536.7603757,
+"台股收復39000關卡收漲956點台積電最後一盤遭狙擊收低5元": 1795674536.7603772,
+"台股收盤大漲956點台積電小跌pcb記憶體5檔熱門漲停財經": 1795674536.7603774,
+"瑞銀明年恒指看26000內地上游ai設備股已見吸引估值141620261126即時財經新聞": 1795674537.6482708
 }
 }
