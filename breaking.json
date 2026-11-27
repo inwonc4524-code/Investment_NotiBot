@@ -2684,6 +2684,30 @@
 "run": "breaking",
 "added": 1795794656,
 "pv": "cd009b1f"
+},
+{
+"key": "openaicountersuesappleintradesecretsbattle",
+"keys": [
+"openaicountersuesappleintradesecretsbattle",
+"openaicountersuesappleforstealingtradesecretsftreports",
+"openaicountersuesappleforstealingtradesecrets"
+],
+"count": 3,
+"theme": "🚨 미국 속보",
+"rk": "us",
+"region": "🇺🇸 미국",
+"title": "OpenAI Countersues Apple In Trade Secrets Battle",
+"show": "오픈AI, 영업 비밀 싸움에서 애플에 대응",
+"source": "The Information",
+"src_url": "https://www.theinformation.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWElkVUZWcHdsdnJUVHBvd0ZzeTNRbGhQeUM5ZnJzbGdQQzVCYTNIcFdMQzZYNTZ5Z2VTUmlqUUtFdjV4a2NBRXNuVVJCV0xCTmwxVU5xejMxZDllaktNSkx4YTNQVE5EQVM3eHMyM3Nnb3Q5NTZmZ0hZTjZlUVE1VDc5aXRBTkFMWE9tazMxaw?oc=5",
+"url": "https://www.theinformation.com/briefings/openai-countersues-apple-trade-secrets-battle",
+"pub": 1795806360.0,
+"time": "11/28 04:06",
+"run": "breaking",
+"added": 1795807049,
+"pv": "cd009b1f"
 }
 ],
 "seen": {
@@ -3257,10 +3281,14 @@
 "龍豐中期多賺229下半財年再開4至5店224720261127即時財經新聞": 1795795404.5862718,
 "속보뉴욕증시기술주강세에상승마감다우4년만최고주간상승률": 1795806298.5408201,
 "속보뉴욕증시ai강세에일제히상승앤스로픽11폭등": 1795805578.2826593,
-"뉴욕증시ai기술주반등에일제히상승나스닥23": 1795806298.54082,
-"뉴욕증시ai주저가매수에일제히상승sp500주간56": 1795805578.282657,
-"뉴욕증시앤스로픽11폭등속일제히상승나스닥주간67": 1795806298.5408194,
-"뉴욕증시1보ai株저가매수에훈풍3대지수강세마감": 1795805578.282659,
-"뉴욕증시기술주강세에상승마감나스닥주간6": 1795806298.540819
+"뉴욕증시ai기술주반등에일제히상승나스닥23": 1795806328.2267134,
+"뉴욕증시ai주저가매수에일제히상승sp500주간56": 1795807055.3660953,
+"뉴욕증시앤스로픽11폭등속일제히상승나스닥주간67": 1795807055.366096,
+"뉴욕증시1보ai株저가매수에훈풍3대지수강세마감": 1795807055.3660967,
+"뉴욕증시기술주강세에상승마감나스닥주간6": 1795807055.366095,
+"openaicountersuesappleintradesecretsbattle": 1795807055.0104587,
+"openaicountersuesappleforstealingtradesecretsftreports": 1795807055.0104625,
+"openaicountersuesappleforstealingtradesecrets": 1795807055.0104635,
+"뉴욕증시ai기술주반등에일제히상승나스닥23종합": 1795807055.3660946
 }
 }
