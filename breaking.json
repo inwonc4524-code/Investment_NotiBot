@@ -1,122 +1,6 @@
 {
 "items": [
 {
-"key": "속보코스피6대반등에매수사이드카발동",
-"keys": [
-"속보코스피6대반등에매수사이드카발동",
-"속보코스피매수사이드카발동",
-"속보코스피56대급반등출발코스닥도3대상승",
-"속보코스피6대급등에장중5천피회복",
-"속보코스피6대급등해5000포인트탈환",
-"속보코스피젠슨황복귀에6급등5000선회복시동"
-],
-"count": 6,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보] 코스피 6%대 반등에 매수 사이드카 발동",
-"show": "[속보] 코스피 6%대 반등에 매수 사이드카 발동",
-"source": "전자신문",
-"src_url": "https://www.etnews.com",
-"sum": "경제 금융 속보코스피 6%대 반등에 매수 사이드카 발동 발행일 : 2026-11-24 09:10 전자신문을 선호 매체로 추가 공유하기 페이스북 X(트위터) 메일 URL 복사 글자크기 설정 가 작게 가 보통 가 크게 서울 여의도 한국거래소 현황판(사진=연합뉴스) [속보] 코스피 6%대 반등에 매수 사이드카 발동 김성윤 기자 syk@etnews.com",
-"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0tRGxMUFJJUDFmT0ZsUFpINkxhT25XU1NsVEZHanhBSDVTRVczTFRzWkJIS1MyMzJQTS1NcEhvdFc2anA1c2FhNV91R0tOQQ?oc=5",
-"url": "https://www.etnews.com/20261124000053",
-"pub": 1795479047.0,
-"time": "11/24 09:10",
-"run": "breaking",
-"added": 1795479269
-},
-{
-"key": "週明けの日経平均一時円超上昇万円台で推移",
-"keys": [
-"週明けの日経平均一時円超上昇万円台で推移",
-"速報日経平均が円超上昇した時事ドットコム"
-],
-"count": 2,
-"theme": "🌏 해외 속보",
-"rk": "jp",
-"region": "🇯🇵 일본",
-"title": "【速報】日経平均が１５００円超上昇した：時事ドットコム",
-"show": "【속보】닛케이 평균이 1,500엔 초과 상승: 시사닷컴",
-"source": "時事ドットコム",
-"src_url": "https://www.jiji.com",
-"sum": "닛케이 평균이 1500엔을 초과했다",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaRmFvV1RMRHpkSWtHd1plWW8yeV9sMGVicTA4SmpMLWdMMEowa24zeEhrRmtNNzVQMUU5ZlJQR0hEb2pFUkd2QklWVFp3OHpOcnhfdlpjRUt4YmhJZ3p5UTltT2NJQQ?oc=5",
-"url": "https://www.jiji.com/jc/article?k=2026112400245&g=flash",
-"pub": 1795478880.0,
-"time": "11/24 09:08",
-"run": "breaking",
-"added": 1795479275,
-"pv": "cd009b1f"
-},
-{
-"key": "breakingnewsnikkeistockindexrisesover3onnvidiaceoscomeback",
-"keys": [
-"breakingnewsnikkeistockindexrisesover3onnvidiaceoscomeback"
-],
-"count": 1,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "BREAKING NEWS: Nikkei stock index rises over 3% on Nvidia CEO's comeback",
-"show": "속보: 엔비디아 CEO의 복귀로 Nikkei 주가 지수가 3% 이상 상승",
-"source": "Japan Wire by Kyodo News",
-"src_url": "https://english.kyodonews.net",
-"sum": "속보: 엔비디아 CEO로 인해 Nikkei 주가 지수가 3% 이상 상승",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CbHJsSTNXVXdiQ0hvMmpwUWtnUWhESTBDaTRyOUV3S083eTVheVpGUXRJeTdtYjJfUkQxcWh6Sk11ekhrNnBvZWdNd1dIN0tBdmppbGl1NzdsZw?oc=5",
-"url": "https://english.kyodonews.net/articles/-/92346",
-"pub": 1795479143.0,
-"time": "11/24 09:12",
-"run": "breaking",
-"added": 1795479990,
-"pv": "cd009b1f"
-},
-{
-"key": "sk키파운드리글로벌전력반도체기업mps최우수공급사선정",
-"keys": [
-"sk키파운드리글로벌전력반도체기업mps최우수공급사선정",
-"sk키파운드리mps올해의최우수공급사선정"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "SK키파운드리, 글로벌 전력반도체 기업 MPS 최우수 공급사 선정",
-"show": "SK키파운드리, 글로벌 전력반도체 기업 MPS 최우수 공급사 선정",
-"source": "파이낸셜뉴스",
-"src_url": "https://www.fnnews.com",
-"sum": "SK키파운드리가 16년간 협력해 온 글로벌 전력반도체 기업 MPS로부터 '2026 올해의 최우수 공급사'로 선정됐다고 24일 밝혔다.",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xeHNDay1KcXhMRzdISkJaZVlXOTBiNnVxVEd5Y0g5Qm5wRVlzQ0F0cUp1YlZta3UwQ0VpTUw0OEY5Ul9QazA0MlhSbGYtVThmUGlmZWZ5U1VpQQ?oc=5",
-"url": "https://www.fnnews.com/news/202611240910094592",
-"pub": 1795479277.0,
-"time": "11/24 09:14",
-"run": "breaking",
-"added": 1795479997
-},
-{
-"key": "특징주엠비디코스닥상장첫날15급락",
-"keys": [
-"특징주엠비디코스닥상장첫날15급락",
-"엠비디코스닥상장첫날공모가대비15",
-"엠비디코스닥상장첫날8대하락"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[특징주] 엠비디, 코스닥 상장 첫날 15% 급락",
-"show": "[특징주] 엠비디, 코스닥 상장 첫날 15% 급락",
-"source": "Chosunbiz",
-"src_url": "https://biz.chosun.com",
-"sum": "정밀의료 기업 엠비디(498150)가 코스닥 시장에 입성한 첫날 공모가를 밑돌며 약세를 보이고 있다. 24일 오전 9시 11분 현재 엠비디는 공모가(7000원)보다 1100원(15.71%) 내린 5900원에 거래되고 있다. 엠비디는 앞서 진행한 기관투자자 대상 수요예측에서 187.10대 1의 경쟁률을 기록했다. 공모가는 희망범위(9600~1만1700원)의 하단보다 27.1% 낮은 7000원으로 확정됐다.",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdTdzOVNrS1F3MTZRUlIyVmFxQ3VDR1ZvS1N5YVljdDNBLW52LVJLZG55eHBwSTdubVNsaGkxdmx5YmxEMk1QRnBrbTNuN05wenpselZ2eGRLQ1Q5RG9Ua1lqUkJGSlprRkx6bWRhemExaDcxOHpMQXlLTFZyZGtiSXdsa0c2ZGVK0gGcAUFVX3lxTE9XbzBIdGUyWUkzWlUwcHd1OThpX3k2ZVN5NURaMU9zdU03SkZXMWd2YlNhdzlPUWlGRGRuZlNFTHFvOG16eVo0aEs1QUlvS0hsVThuWE0tRVpxSkdsMXgzY3h0RUU0N0JGZmdfck5va0tpTVJoTy1xajJULWNFcG82MkNWODhRb05odmVZcTRVeUNvSVN4aWRXY0ZCNQ?oc=5",
-"url": "https://biz.chosun.com/stock/stock_general/2026/11/24/UO3CHOZ5BVDQVFTI7PE6KHREEE/",
-"pub": 1795479120.0,
-"time": "11/24 09:12",
-"run": "breaking",
-"added": 1795480745
-},
-{
 "key": "donaldtrumpmadeupto23monnvidiasharesafterjensenhuangsreturn",
 "keys": [
 "donaldtrumpmadeupto23monnvidiasharesafterjensenhuangsreturn",
@@ -3044,30 +2928,17 @@
 }
 ],
 "seen": {
-"마켓프리뷰젠슨황복귀효과하루만에소멸반도체株약세외국인수급주목": 1795565079.0714166,
-"젠슨복귀효과하루만에꺾여美반도체8뉴욕증시무버": 1795565079.071416,
-"굿모닝증시하루만에급락한美반도체韓도하락출발전망": 1795565079.0714173,
-"aimy증시전망젠슨황복귀효과하루만에소멸코스피약세전망": 1795565079.0714152,
-"美반도체주급락에프리마켓서삼전닉스45대약세": 1795565799.418068,
-"뉴욕증시ai기술주차익실현에혼조마감나스닥148": 1795565799.4181826,
-"뉴욕증시차익실현매물에혼조유가2대상승글로벌마켓모닝브리핑": 1795565079.0714724,
-"ai수익성우려에나스닥148하락다우5만선회복뉴욕증시": 1795565799.418183,
 "속보코스피394하락한480900개장코스닥175하락": 1795567270.165524,
-"스팟코스피19703포인트394내린480900출발머니투데이": 1795565080.189644,
 "美반도체주급락에코스피39하락출발다시4800선": 1795566519.1245873,
 "코스피394내린4800선출발": 1795568709.9718614,
 "코스피美반도체주급락에39하락출발4800선위협": 1795568709.9718616,
 "속보코스피394내린480900개장코스닥17": 1795567990.4338481,
 "코스피394급락한4809개장": 1795568709.971861,
 "코스닥1167p175내린65421개장": 1795567990.4338484,
-"속보코스피394내린480900코스닥은1대": 1795565799.4180677,
 "속보코스피매도사이드카발동4800선하회": 1795568709.971843,
-"코스피4대급락에매도사이드카발동": 1795565799.4181743,
 "속보코스피4대로낙폭확대매도사이드카발동": 1795568709.9718428,
 "속보코스피4급락에매도사이드카발동": 1795568709.9718442,
 "속보코스피매도사이드카발동4700선": 1795567270.1654954,
-"속보코스피매도사이드카지수4800하회머니투데이": 1795565799.4181747,
-"해외시황뉴욕증시ai株차익실현추가관세우려에혼조나스닥148": 1795565799.4181826,
 "속보코스피하루만에3대급락출발장중5천피반납": 1795567990.4338374,
 "코스피매도사이드카발동장초반4대급락": 1795567270.1654913,
 "젠슨황효과하루만에증발코스피또매도사이드카상보": 1795566519.1245713,
@@ -3672,6 +3543,12 @@
 "머스크파격제안에도이재용뭘더해줄건데뜻밖의반문무슨일": 1795731998.9080303,
 "머스크도삼성반도체앞에선을이재용그럼뭘더해줄건데": 1795731998.9080307,
 "머스크에뭘더해줄수있나이재용배짱협상에온라인들썩": 1795731998.908031,
-"속보코스피037오른472880개장코스닥66452": 1795737811.328689
+"속보코스피037오른472880개장코스닥66452": 1795739250.6416128,
+"코스피037오른4728코스닥134오른664개장": 1795739250.6416123,
+"스팟코스닥881포인트134오른66452출발머니투데이": 1795739250.6416125,
+"코스피1759p오른472880출발037": 1795739250.641613,
+"스팟코스피1759포인트037오른472880출발머니투데이": 1795739250.6416144,
+"코스피037오른472880에출발코스닥134": 1795739250.6416116,
+"코스피037오른472880출발코스닥도상승": 1795739250.641612
 }
 }
