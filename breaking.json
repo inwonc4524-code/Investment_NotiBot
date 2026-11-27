@@ -1,55 +1,6 @@
 {
 "items": [
 {
-"key": "央行将以固定数量利率招标多重价位中标方式开展8000亿元mlf操作",
-"keys": [
-"央行将以固定数量利率招标多重价位中标方式开展8000亿元mlf操作",
-"央行11月25日开展8000亿元mlf操作期限为1年期",
-"央行11月25日开展5000亿元7天期逆回购操作",
-"央行将开展5000亿元7天期逆回购操作"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "cn",
-"region": "🇨🇳 중국",
-"title": "央行：将以固定数量、利率招标、多重价位中标方式开展8000亿元MLF操作",
-"show": "중앙은행: 8000억 위안 규모의 MLF 운영은 고정 수량, 이자율 입찰, 다중 가격 낙찰 방식으로 진행됩니다.",
-"source": "36Kr",
-"src_url": "https://www.36kr.com",
-"sum": "36Kr은 중앙은행 웹사이트에 따르면 은행 시스템의 충분한 유동성을 유지하기 위해 2026년 11월 25일 중국 인민은행이 1년 기간의 고정 수량, 이자율 입찰 및 다중 가격 낙찰 입찰을 통해 8000억 위안 규모의 MLF 운영을 시작할 것이라는 사실을 알게 되었습니다.",
-"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oT3dHQU9RTFBzdmJDbTNCZC1DVDd4X0RuekRlUGdBeW9SV3pBVWd6eEQ0QndHVzhYNmdSNjhYenZRcDl6VWtOZnhyWDhURVhFN290LVltZnh5UDR6Q0E?oc=5",
-"url": "https://www.36kr.com/newsflashes/4083553642621317",
-"pub": 1795513255.0,
-"time": "11/24 18:40",
-"run": "breaking",
-"added": 1795513432,
-"pv": "cd009b1f"
-},
-{
-"key": "germanforeignministershockedbytrumpinterventiontoreinstatenvidiasjensenhuang",
-"keys": [
-"germanforeignministershockedbytrumpinterventiontoreinstatenvidiasjensenhuang",
-"germanministershockedbytrumpsinterventiononnvidia",
-"germanfmsayshewasshockedbytrumpsinterventiontoreinstatenvidiashuang"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "German foreign minister ‘shocked’ by Trump intervention to reinstate Nvidia’s Jensen Huang",
-"show": "독일 외무장관, 트럼프의 엔비디아 옌센 황 복귀 개입에 '충격'",
-"source": "The Straits Times",
-"src_url": "https://www.straitstimes.com",
-"sum": "요한 와데풀(Johann Wadephul)은 이것이 미래를 위한 아주 좋은 모델인지 의심스럽다고 말했습니다.",
-"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQjE0dThRbVZ3YjNDZWctNjVjdmQxSGplajQtTDNhN1pWMXAyYjBhMTgyV19CREJGcVRGWmhFZTJCNE9aMzVmU0szdXNJLWNXRENTUFJ5eV9mUUFIWERKR1N0djk3QnhZVjhIeHpkamhlR2hRUzJZTGZLMFFmOGJhN1FTSXlPS2xNaGI3RWJVWEc5bGwtUGxUT2JCVzJqTlVvazFNRExfVUdNSG1ZRTh5VmRLRmlTcGc3QmprOVN6MnUzRnNMbjBjaA?oc=5",
-"url": "https://www.straitstimes.com/world/europe/german-foreign-minister-shocked-by-trump-intervention-to-reinstate-nvidias-jensen-huang",
-"pub": 1795513440.0,
-"time": "11/24 18:44",
-"run": "breaking",
-"added": 1795514147,
-"pv": "cd009b1f"
-},
-{
 "key": "jensenhuangsreturntonvidiaputstrumpundernewcongressionalscrutiny",
 "keys": [
 "jensenhuangsreturntonvidiaputstrumpundernewcongressionalscrutiny",
@@ -2838,24 +2789,11 @@
 }
 ],
 "seen": {
-"팹리스협회ai반도체팹리스산업협회로개명": 1795598584.8629048,
-"한국팹리스산업협회ai반도체중심으로새출발피지컬ai생태계확대": 1795598584.8629072,
-"팹리스산업협회ai반도체내걸고새출발aisw기업과협력확대": 1795598584.8629065,
-"팹리스산업협회ai품고새출발제4회팹리스인의날개최": 1795598584.862905,
-"김정관산업장관주52시간연구개발특례내일부터라도반도체부터적용해야": 1795599344.7961435,
-"김정관中에rd부터밀린다주52시간특례반도체부터": 1795598584.8628905,
-"恒指失守二萬二連跌七日收市跌253點華虹宏力挫17寧德時代瀉12161520261125即時財經新聞": 1795599346.3382013,
-"김정관주52시간특례내일부터라도반도체우선적용해야": 1795599344.7961428,
-"김정관장관주52시간제예외내일부터라도반도체먼저": 1795599344.796143,
-"k팹리스ai반도체간판달고새출발피지컬ai생태계결속": 1795598584.8629062,
-"산업장관rd주52시간특례초조하고절박반도체부터머니투데이": 1795600064.041104,
 "김정관산업장관rd52시간예외내일부터라도반도체부터적용해야": 1795601503.6402302,
 "김정관中에rd밀려내일이라도반도체주52시간특례해야": 1795601503.6402297,
 "黃랠리하루천하코스피시총257조증발코스피4700붕괴": 1795601503.6402402,
 "정부증안펀드실탄더채운다증권사출자여력타진코스피4700붕괴": 1795601503.6402404,
 "증안펀드규모늘린다25개금융사에출자여력타진": 1795601503.6402404,
-"코스피4700선또붕괴삼성전자시총8개월만에1000조아래로": 1795600784.8569655,
-"6년째107조증안펀드규모늘리나산은금융권추가출자타진": 1795599344.7961586,
 "산업장관주52시간특례반도체부터내일이라도시작해야": 1795601503.6402285,
 "증선위미공개중요정보이용코스닥상장사임직원등중수청통보": 1795602261.9867296,
 "미공개중요정보로18억부당이득코스닥사임직원중수청통보": 1795602261.9867306,
@@ -3451,7 +3389,7 @@
 "코스피4코스닥8급등삼성휴머노이드기대에로봇株들썩": 1795769829.1322684,
 "코스피코스닥동반급등외국인순매수": 1795769829.1322691,
 "코스피4코스닥8급등증안펀드기대감반영됐나": 1795768389.204068,
-"恒指收市升467點北水流入44億元科指升穿10天線全周升36162520261127即時財經新聞": 1795771270.9793053,
+"恒指收市升467點北水流入44億元科指升穿10天線全周升36162520261127即時財經新聞": 1795771299.0431073,
 "코스피4대올라4900탈환코스닥81급등": 1795768389.2040684,
 "증안펀드기대감대단하네하루8튀어오른코스닥": 1795769829.1322672,
 "歐盟將對中國和新加坡可持續航空燃料展開反傾銷調查163520261127即時財經新聞": 1795769112.4402244
