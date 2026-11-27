@@ -1,118 +1,6 @@
 {
 "items": [
 {
-"key": "속보뉴욕증시기술주차익실현속혼조마감나스닥15",
-"keys": [
-"속보뉴욕증시기술주차익실현속혼조마감나스닥15",
-"속보뉴욕증시엔비디아앤스로픽급락에기술주하락나스닥15",
-"속보뉴욕증시혼조마감나스닥15다우09"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보] 뉴욕증시, 기술주 차익실현 속 혼조 마감⋯나스닥 1.5%↓",
-"show": "[속보] 뉴욕증시, 기술주 차익실현 속 혼조 마감⋯나스닥 1.5%↓",
-"source": "이투데이",
-"src_url": "https://www.etoday.co.kr",
-"sum": "뉴욕증시는 24일(현지시간) 혼조로 종료했다.뉴욕증권거래소(NYSE)에서 다우존스30산업평균지수는 전 거래일 대비 423.39포인트(0.85%) 오른 5만18.70",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDRTNLbXdWek1vazl4UThlRlNlek05ZVhwdkRYLWRKQ1B2NkNKdU5Eb19GdkM0Z1RPQVJVUW5CTDRoUGJicU0ybFUzeHVoSFVueDVMaDJCN1ZOczNhQkVmMUZlc2J5SVNPZWZjMg?oc=5",
-"url": "https://www.etoday.co.kr/news/view/2652483?trc=sub_list_news",
-"pub": 1795554600.0,
-"time": "11/25 06:10",
-"run": "breaking",
-"added": 1795554898
-},
-{
-"key": "원화강세에수출기업울상내수기업심리는4년반만에최고",
-"keys": [
-"원화강세에수출기업울상내수기업심리는4년반만에최고",
-"수출기업체감경기뚝반도체온기에내수기업은4년6개월만에최고",
-"반도체車훈풍에내수기업심리4년반來최고수출기업은뒷걸음"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "원화 강세에 수출기업 ‘울상’…내수기업 심리는 4년 반 만에 ‘최고’",
-"show": "원화 강세에 수출기업 ‘울상’…내수기업 심리는 4년 반 만에 ‘최고’",
-"source": "이데일리",
-"src_url": "https://www.edaily.co.kr",
-"sum": "국내 기업들의 체감경기가 한 달 만에 악화된 가운데 수출기업과 내수기업의 희비가 엇갈렸다. 일부 수출기업은 원화 강세에 따른 환산이익 감소와 가전 수요 부진에 어려움을 겪는 반면 내수기업은 반도체 호황과 자동차 생산 정상화의 온기가 부품 납품업체로 확산되면서 4년 반...",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc2FhOEZLR2dGZS0zMW1xUlBnbko2TGxLdjU2al9INnpfLU5INzB6dks0WVNVdkpKcUI4ejhTUWcxdkpJam9SY2JFcFowM1ZKVF9vTjY5WHgxSU13M1phNDFZbGxGTERabXctNlBZYkFIQmlYekRxRXJUT3EzNWMtMA?oc=5",
-"url": "https://www.edaily.co.kr/News/Read?newsId=01292326645649328&mediaCodeNo=257",
-"pub": 1795554004.0,
-"time": "11/25 06:00",
-"run": "breaking",
-"added": 1795554901
-},
-{
-"key": "속보엔비디아586급락전날31폭등하루만에반락",
-"keys": [
-"속보엔비디아586급락전날31폭등하루만에반락"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보] 엔비디아 5.86% 급락…전날 31% 폭등 하루 만에 반락",
-"show": "[속보] 엔비디아 5.86% 급락…전날 31% 폭등 하루 만에 반락",
-"source": "한국경제",
-"src_url": "https://www.hankyung.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGdkRFN1VMcVJCRnB1QXZhX2Z4YnFVV2x4WHB1eE1wbHJ6bWU0bGdHV0JYc3EwUGRlb3hoM0xHcHhhTksycFlSWmtEek5jNWh6QTJQaVl4VFptQQ?oc=5",
-"url": "https://www.hankyung.com/article/2026112581417",
-"pub": 1795555102.0,
-"time": "11/25 06:18",
-"run": "breaking",
-"added": 1795555618
-},
-{
-"key": "속보필라델피아반도체지수78엔비디아반등랠리하루만에꺾여",
-"keys": [
-"속보필라델피아반도체지수78엔비디아반등랠리하루만에꺾여"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보] 필라델피아 반도체지수 7.8%↓…엔비디아 반등 랠리 하루 만에 꺾여",
-"show": "[속보] 필라델피아 반도체지수 7.8%↓…엔비디아 반등 랠리 하루 만에 꺾여",
-"source": "뉴스1",
-"src_url": "https://www.news1.kr",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZYkIzWUN1alFzRFJva1Ixb3lCMmZDSU1HbDRXUjRjRzNVM0Rza2ZlYk1Jd1NRNkNaenNHWG93bDQ4OWhvUUdoSVREcGVqS3NJWlRXQS1aQy0tdE5sT0JpUDBSZmhOWTg?oc=5",
-"url": "https://www.news1.kr/world/international-economy/6364915",
-"pub": 1795554342.0,
-"time": "11/25 06:05",
-"run": "breaking",
-"added": 1795555618
-},
-{
-"key": "하루만에식어버린젠슨황효과美반도체지수8급락마이크론11",
-"keys": [
-"하루만에식어버린젠슨황효과美반도체지수8급락마이크론11",
-"젠슨황효과의문에반도체지수8급반락마이크론11",
-"젠슨황효과의문에반도체지수8급반락",
-"속보필라델피아반도체지수78젠슨황복귀랠리하루만에꺾여"
-],
-"count": 3,
-"theme": "🌏 해외 속보",
-"rk": "kr",
-"region": "🇰🇷 한국",
-"title": "[속보] 필라델피아 반도체지수 7.8%↓…'젠슨황 복귀' 랠리 하루 만에 꺾여",
-"show": "[속보] 필라델피아 반도체지수 7.8%↓…'젠슨황 복귀' 랠리 하루 만에 꺾여",
-"source": "한국경제",
-"src_url": "https://www.hankyung.com",
-"sum": "AI 추천 뉴스 [속보] 필라델피아 반도체지수 7.8%↓…'젠슨황 복귀' 랠리 하루 만에 꺾여 [속보] 필라델피아 반도체지수 7.8%↓…'젠슨황 복귀' 랠리 하루 만에 꺾여 고정삼 한경닷컴 기자 jsk@hankyung.com",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91T0NDTVBDZTBDU1dtX2xMeWVhaVluWkFaTlJnTUdaN25WNFVvUU1rVUtSR0V6N2ZiZjhDdVgzRVJPdkJWOXVRYlZlbHJ6ZmRfdHh2NURpUW53dw?oc=5",
-"url": "https://www.hankyung.com/article/2026112581457",
-"pub": 1795555202.0,
-"time": "11/25 06:20",
-"run": "breaking",
-"added": 1795558523
-},
-{
 "key": "김영훈노동부장관반도체팹건설인력적기공급지원",
 "keys": [
 "김영훈노동부장관반도체팹건설인력적기공급지원",
@@ -2720,7 +2608,6 @@
 "뉴욕증시혼조세로마감나스닥062": 1795642491.5997682,
 "속보美증시장중급락딛고낙폭대부분만회다우는상승마감": 1795643961.631408,
 "속보뉴욕증시패닉완화에소폭하락마감다우지수는상승": 1795643960.0554132,
-"속보뉴욕증시혼조마감다우반등해033": 1795641772.2973773,
 "뉴욕증시1보ai불안에또출렁저가매수속혼조마감": 1795643960.055413,
 "뉴욕증시ai투매딛고낙폭축소하며혼조마감다우03나스닥06": 1795645400.2936013,
 "뉴욕증시ai불안에또출렁저가매수속보합권혼조마감": 1795644680.4218593,
@@ -3290,6 +3177,7 @@
 "뉴욕증시ai기술주반등에일제히상승나스닥23종합": 1795809234.0521302,
 "뉴욕증시ai기술주반등에상승마감필리반도체지수469급등": 1795809234.0521288,
 "뉴욕증시반도체주반등에일제히상승나스닥23": 1795809234.0521295,
-"openaicountersuesappleinongoingtradesecretsfight": 1795809953.1124947
+"openaicountersuesappleinongoingtradesecretsfight": 1795809953.1124947,
+"속보뉴욕증시ai반도체주반등에상승마감나스닥23": 1795815022.5292044
 }
 }
