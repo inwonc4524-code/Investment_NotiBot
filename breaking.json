@@ -1,51 +1,6 @@
 {
 "items": [
 {
-"key": "wallstopenslowerasnvidiafueledairallyfades",
-"keys": [
-"wallstopenslowerasnvidiafueledairallyfades",
-"dollarslipsasnvidiafueledairallyfades"
-],
-"count": 3,
-"theme": "🚨 미국 속보",
-"rk": "us",
-"region": "🇺🇸 미국",
-"title": "Wall St opens lower as Nvidia-fueled AI rally fades",
-"show": "엔비디아 기반 AI 상승세가 사라지면서 월스트리트는 하락세를 보였습니다.",
-"source": "Reuters",
-"src_url": "https://www.reuters.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSTdTSVk1YVg0WC1SRVJKVW1XYTZJbjRhRVctYkNzZHZRcW5TaVE3MVdSd2JfYUNaV3otX1FzR1lxYkwyWWZtbS1ONDdiem9UVUI0ckV6c2tiOEt0TGViNlUxZFdSeDV0aVJ4cjZkSkE5Nk9veE1UTmxad0xxaXhScndGMV9IdWVrNUpOQnY0Y0hXVmpZVFgwbTFQMDZiX0NqdExaejlYMzJnbjg?oc=5",
-"url": "https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/",
-"pub": 1795532745.0,
-"time": "11/25 00:05",
-"run": "breaking",
-"added": 1795534516,
-"pv": "cd009b1f"
-},
-{
-"key": "阿里健康中期虧損按年跌逾12至1112億元人幣231220261124即時財經新聞",
-"keys": [
-"阿里健康中期虧損按年跌逾12至1112億元人幣231220261124即時財經新聞"
-],
-"count": 1,
-"theme": "🌏 해외 속보",
-"rk": "hk",
-"region": "🇭🇰 홍콩",
-"title": "阿里健康中期虧損按年跌逾12%至11.12億元人幣 (23:12) - 20261124 - 即時財經新聞",
-"show": "알리바바헬스 중간손실 11억1천200만 위안으로 전년 동기 대비 12% 이상 감소(23:12) - 20261124 - 실시간 금융뉴스",
-"source": "明報財經網",
-"src_url": "https://finance.mingpao.com",
-"sum": "",
-"link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQTXZHSVA0NEpPVW1jZUZWWXQxeG5kVU5HVnN4MVk4WDdQZGtaTGRCb1E5UzJCQ1cwYTZCY3dFejJoanBobUV3QjZidmFseFNsY0p4UFYwZmltTmpUYmE3N2FjS01hSVpPbWI1eTBIUjBlVzVkdVRZMzNaVml5XzM2Y0FzRXB4NFBtblF1N2VHTk9HbUNOQklnTThJWG4xWUlMVkMtcUtWVGV2YmxPd3U3eGNfNTdwQW5YLVZ2V3hUUXRPb3NWUHBkVnBLMzJFZGQ2dTJXMkZCWlEwS0N1YzdNV0JGano3cEM1WUtqTFNxRk04MU01T2JlSUxSN2o3ZUV5b25EYmNIY2RsV3owZWlrSXJSNWt6NGFBLThkaF9JSVhJTW9HR1gwa1AyVG8tb2xxV0dtNjAtbVY4bEFLM19xZzZrRXRTOXVK?oc=5",
-"url": "https://finance.mingpao.com/fin/instantf/20261124/1795533236117/%E9%98%BF%E9%87%8C%E5%81%A5%E5%BA%B7%E4%B8%AD%E6%9C%9F%E8%99%A7%E6%90%8D%E6%8C%89%E5%B9%B4%E8%B7%8C%E9%80%BE12-%E8%87%B311-12%E5%84%84%E5%85%83%E4%BA%BA%E5%B9%A3",
-"pub": 1795533297.0,
-"time": "11/25 00:14",
-"run": "breaking",
-"added": 1795535991,
-"pv": "cd009b1f"
-},
-{
 "key": "jensenhuangsreturntonvidialeavesabadtaste",
 "keys": [
 "jensenhuangsreturntonvidialeavesabadtaste",
@@ -2759,18 +2714,32 @@
 "time": "11/27 23:36",
 "run": "breaking",
 "added": 1795791773
+},
+{
+"key": "龍豐中期多賺229下半財年再開4至5店224720261127即時財經新聞",
+"keys": [
+"龍豐中期多賺229下半財年再開4至5店224720261127即時財經新聞"
+],
+"count": 1,
+"theme": "🌏 해외 속보",
+"rk": "hk",
+"region": "🇭🇰 홍콩",
+"title": "龍豐中期多賺22.9% 下半財年再開4至5店 (22:47) - 20261127 - 即時財經新聞",
+"show": "룽펑 중기 수익 22.9% 증가, 회계연도 후반에 매장 4~5개 추가 오픈(22:47) - 20261127 - 실시간 금융뉴스",
+"source": "明報財經網",
+"src_url": "https://finance.mingpao.com",
+"sum": "",
+"link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOZWUtSGNDZVRPUTJPVWQ3VUFvMktycVM2ZFZwWkdMNXpEajdjY3JyZVJ3c3RTeWVNaUJJSUx5ZVJtUmxYUnlxQUhSTUp0aE8wS1NuSnIxN056dWd1bzhxX1JudDF6QlJUb3hxOW9lRGt2d2hsNEdyRGpIclJYelRLVk9qVGV4YklpekFMR3JoNjBQc3ZwVmJ2SUJHVEdfUHVWRl8wMDZHZE9RNWx1THJUTV9BUDVUdXhYMURsbFpjb2FEeWJtOFhwd2NVSjkxaWtPb0NHY256MGlkRFJnakNFOHlhRnMtRU5TTWxJUlBzTHpZaWhRNC1ZeS16OUY3aEhyWkhvNjU4TjN5Nkpia1A3TFpBWmZRMzhMZVZrUklCcDZkbHc?oc=5",
+"url": "https://finance.mingpao.com/fin/instantf/20261127/1795791686180/%E9%BE%8D%E8%B1%90%E4%B8%AD%E6%9C%9F%E5%A4%9A%E8%B3%BA22-9-%E4%B8%8B%E5%8D%8A%E8%B2%A1%E5%B9%B4%E5%86%8D%E9%96%8B4%E8%87%B35%E5%BA%97",
+"pub": 1795791934.0,
+"time": "11/28 00:05",
+"run": "breaking",
+"added": 1795794656,
+"pv": "cd009b1f"
 }
 ],
 "seen": {
-"trumpproposesnewtariffsonchinaeuropeandothertradepartners": 1795620446.7512605,
-"trumpannouncesnewtariffsonchinaeuandothertradingpartners": 1795620446.7512617,
-"속보뉴욕증시하락출발나스닥35급락": 1795620448.2269318,
-"trumpannouncesnewtariffsoneuchinadespiteusmidtermsdefeat": 1795619725.9240475,
-"trumpannouncesnewtariffsundeterredbymidtermsdefeat": 1795619725.9240487,
 "뉴욕증시ai매도세관세우려에하락출발": 1795621887.1247938,
-"trumpadministrationannouncesnewtariffsoneuchinaimports": 1795619725.9240465,
-"trumpadministrationunveilsnewtariffsforchinaeuandmorecitingunfairpractices": 1795619725.9240491,
-"trumpadmintoraisetariffsonchinaeuothertradingpartners": 1795620446.751261,
 "뉴욕증시ai투자우려에기술주투매나스닥3대급락세": 1795623590.6234117,
 "뉴욕증시ai주투매에나스닥4하락트럼프관세도부담": 1795623590.6234124,
 "뉴욕증시ai주매도우려에급락나스닥장초반4대": 1795623590.623413,
@@ -3336,7 +3305,12 @@
 "中国人民银行有关部门负责人就人民币存贷款利率管理规定答记者问": 1795780034.4274445,
 "中国人民银行有关部门负责人就大额存单管理办法答记者问": 1795780034.4274452,
 "匯豐明年料恒指達3萬點看好香港本地股表現135520261127即時財經新聞": 1795783663.8214924,
-"뉴욕증시ai관련주반등에상승출발": 1795791773.4421427,
-"속보뉴욕증시기술주상승세확산에상승출발나스닥15": 1795791773.4421442
+"뉴욕증시ai관련주반등에상승출발": 1795794652.813583,
+"속보뉴욕증시기술주상승세확산에상승출발나스닥15": 1795793213.1005812,
+"ai관련주반등에뉴욕증시상승출발": 1795794652.8135827,
+"뉴욕증시ai기술주저가매수에상승출발엔비디아중국유입악재로약세": 1795794652.8135815,
+"뉴욕증시ai관련주반등에동반상승출발엔비디아는1넘게하락": 1795794652.8135824,
+"ai주저가매수세뉴욕증시반등엔비디아中밀반입의혹3머니투데이": 1795794652.8135824,
+"龍豐中期多賺229下半財年再開4至5店224720261127即時財經新聞": 1795794656.420184
 }
 }
