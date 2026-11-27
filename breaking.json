@@ -2737,6 +2737,28 @@
 "run": "breaking",
 "added": 1795780005,
 "pv": "cd009b1f"
+},
+{
+"key": "뉴욕증시ai관련주반등에상승출발",
+"keys": [
+"뉴욕증시ai관련주반등에상승출발",
+"속보뉴욕증시기술주상승세확산에상승출발나스닥15"
+],
+"count": 2,
+"theme": "🌏 해외 속보",
+"rk": "kr",
+"region": "🇰🇷 한국",
+"title": "[속보]뉴욕증시, 기술주 상승세 확산에 상승 출발…나스닥 1.5%↑",
+"show": "[속보]뉴욕증시, 기술주 상승세 확산에 상승 출발…나스닥 1.5%↑",
+"source": "뉴시스",
+"src_url": "https://www.newsis.com",
+"sum": "[속보]뉴욕증시, 기술주 상승세 확산에 상승 출발…나스닥 1.5%↑",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lZmJydUt3bkJndG84OTFtekRRMnlmbi1lek1rbFEwODctTjUxQmNOUFY3X1JHTTZUOVh2Vl9GNFh3dEhXbUtfaDN5RkZzcWYxdkktZ24tazJ1dDlDNHBYTNIBeEFVX3lxTE4wUzVmTC16aWw3cG5DdmJPN2VVS3NiSEo1WDZjcFJvQV94RG44R1kteFRSRFk4OVRoUEhmMlFBTGtMMXVSUndDd2tTcWEzc0ZNRVd3dGVBbnU1ZTNQOHhfMHF0blAxLXZidVFpNmp2ellQcTlITm9EeQ?oc=5",
+"url": "https://www.newsis.com/view/NISX20261127_0003886942",
+"pub": 1795790181.0,
+"time": "11/27 23:36",
+"run": "breaking",
+"added": 1795791773
 }
 ],
 "seen": {
@@ -3313,6 +3335,8 @@
 "人民币存贷款利率管理规定发布2027年3月21日起施行": 1795780034.427444,
 "中国人民银行有关部门负责人就人民币存贷款利率管理规定答记者问": 1795780034.4274445,
 "中国人民银行有关部门负责人就大额存单管理办法答记者问": 1795780034.4274452,
-"匯豐明年料恒指達3萬點看好香港本地股表現135520261127即時財經新聞": 1795783663.8214924
+"匯豐明年料恒指達3萬點看好香港本地股表現135520261127即時財經新聞": 1795783663.8214924,
+"뉴욕증시ai관련주반등에상승출발": 1795791773.4421427,
+"속보뉴욕증시기술주상승세확산에상승출발나스닥15": 1795791773.4421442
 }
 }
